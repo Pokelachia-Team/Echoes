@@ -1,14 +1,14 @@
 BitmasksPointers:
 	table_width 2
-	dw BulbasaurBitmasks
-	dw IvysaurBitmasks
-	dw VenusaurBitmasks
-	dw CharmanderBitmasks
-	dw CharmeleonBitmasks
-	dw CharizardBitmasks
-	dw SquirtleBitmasks
-	dw WartortleBitmasks
-	dw BlastoiseBitmasks
+	dw CupicoBitmasks
+	dw PrickupiBitmasks
+	dw ConifuryBitmasks
+	dw FliklitBitmasks
+	dw SizzooBitmasks
+	dw PyroborosBitmasks
+	dw GluttleBitmasks
+	dw RiveblokBitmasks
+	dw RivastionBitmasks
 	dw CaterpieBitmasks
 	dw MetapodBitmasks
 	dw ButterfreeBitmasks
@@ -291,6 +291,10 @@ BitmasksPointers:
 	dw FarigirafBitmasks
 	dw ClodsireBitmasks
 	dw AnnihilapeBitmasks
+	dw SinisteaBitmasks
+	dw PolteageistBitmasks
+	dw DebriteBitmasks
+	dw CastorchBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks

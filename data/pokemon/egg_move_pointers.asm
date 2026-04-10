@@ -1,14 +1,14 @@
 EggSpeciesMovesPointers::
 	table_width 2
-	dw BulbasaurEggSpeciesMoves         ; Bulbasaur
-	dw BulbasaurEggSpeciesMoves         ; Ivysaur
-	dw BulbasaurEggSpeciesMoves         ; Venusaur
-	dw CharmanderEggSpeciesMoves        ; Charmander
-	dw CharmanderEggSpeciesMoves        ; Charmeleon
-	dw CharmanderEggSpeciesMoves        ; Charizard
-	dw SquirtleEggSpeciesMoves          ; Squirtle
-	dw SquirtleEggSpeciesMoves          ; Wartortle
-	dw SquirtleEggSpeciesMoves          ; Blastoise
+	dw CupicoEggSpeciesMoves            ; Cupico
+	dw CupicoEggSpeciesMoves            ; Prickupi
+	dw CupicoEggSpeciesMoves            ; Conifury
+	dw FliklitEggSpeciesMoves           ; Fliklit
+	dw FliklitEggSpeciesMoves           ; Sizzoo
+	dw FliklitEggSpeciesMoves           ; Pyroboros
+	dw GluttleEggSpeciesMoves           ; Gluttle
+	dw GluttleEggSpeciesMoves           ; Riveblok
+	dw GluttleEggSpeciesMoves           ; Rivastion
 	dw CaterpieEggSpeciesMoves          ; Caterpie
 	dw CaterpieEggSpeciesMoves          ; Metapod
 	dw CaterpieEggSpeciesMoves          ; Butterfree
@@ -291,6 +291,10 @@ EggSpeciesMovesPointers::
 	dw GirafarigEggSpeciesMoves         ; Farigiraf
 	dw WooperPaldeanEggSpeciesMoves     ; Clodsire
 	dw MankeyEggSpeciesMoves            ; Annihilape
+	dw SinisteaEggSpeciesMoves          ; Sinistea
+	dw PolteageistEggSpeciesMoves		; Polteageist
+	dw DebriteEggSpeciesMoves			; Debrite
+	dw CastorchEggSpeciesMoves			; Castorch
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)

@@ -80,17 +80,22 @@ VictreebelFootprint::
 VoltorbFootprint::
 WeepinbellFootprint::
 WeezingFootprint::
-ZubatFootprint:: INCBIN "gfx/footprints/blank.1bpp.lzp"
+ZubatFootprint:: 
+SinisteaFootprint:: 
+PolteageistFootprint::
+DebriteFootprint::
+CastorchFootprint:: INCBIN "gfx/footprints/blank.1bpp.lzp"
 
-BulbasaurFootprint:: INCBIN "gfx/footprints/bulbasaur.1bpp.lzp"
-IvysaurFootprint:: INCBIN "gfx/footprints/ivysaur.1bpp.lzp"
-VenusaurFootprint:: INCBIN "gfx/footprints/venusaur.1bpp.lzp"
-CharmanderFootprint:: INCBIN "gfx/footprints/charmander.1bpp.lzp"
-CharmeleonFootprint:: INCBIN "gfx/footprints/charmeleon.1bpp.lzp"
-CharizardFootprint:: INCBIN "gfx/footprints/charizard.1bpp.lzp"
-SquirtleFootprint:: INCBIN "gfx/footprints/squirtle.1bpp.lzp"
-WartortleFootprint:: INCBIN "gfx/footprints/wartortle.1bpp.lzp"
-BlastoiseFootprint:: INCBIN "gfx/footprints/blastoise.1bpp.lzp"
+
+CupicoFootprint:: INCBIN "gfx/footprints/cupico.1bpp.lzp"
+PrickupiFootprint:: INCBIN "gfx/footprints/prickupi.1bpp.lzp"
+ConifuryFootprint:: INCBIN "gfx/footprints/conifury.1bpp.lzp"
+FliklitFootprint:: INCBIN "gfx/footprints/fliklit.1bpp.lzp"
+SizzooFootprint:: INCBIN "gfx/footprints/sizzoo.1bpp.lzp"
+PyroborosFootprint:: INCBIN "gfx/footprints/pyroboros.1bpp.lzp"
+GluttleFootprint:: INCBIN "gfx/footprints/gluttle.1bpp.lzp"
+RiveblokFootprint:: INCBIN "gfx/footprints/riveblok.1bpp.lzp"
+RivastionFootprint:: INCBIN "gfx/footprints/rivastion.1bpp.lzp"
 ButterfreeFootprint:: INCBIN "gfx/footprints/butterfree.1bpp.lzp"
 BeedrillFootprint:: INCBIN "gfx/footprints/beedrill.1bpp.lzp"
 PidgeottoFootprint:: INCBIN "gfx/footprints/pidgeotto.1bpp.lzp"

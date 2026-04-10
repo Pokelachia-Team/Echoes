@@ -19,17 +19,12 @@ AlphabeticalPokedexOrder:
 	dp BEEDRILL
 	dp BELLOSSOM
 	dp BELLSPROUT
-	dp BLASTOISE
 	dp BLISSEY
 	dp BONSLY
-	dp BULBASAUR
 	dp BUTTERFREE
 	dp CATERPIE
 	dp CELEBI
 	dp CHANSEY
-	dp CHARIZARD
-	dp CHARMANDER
-	dp CHARMELEON
 	dp CHIKORITA
 	dp CHINCHOU
 	dp CLEFABLE
@@ -37,6 +32,7 @@ AlphabeticalPokedexOrder:
 	dp CLEFFA
 	dp CLODSIRE
 	dp CLOYSTER
+	dp CONIFURY
 	dp CORSOLA
 	dp CROBAT
 	dp CROCONAW
@@ -73,6 +69,7 @@ AlphabeticalPokedexOrder:
 	dp FERALIGATR
 	dp FLAAFFY
 	dp FLAREON
+	dp FLIKLIT
 	dp FORRETRESS
 	dp FURRET
 	dp GASTLY
@@ -83,6 +80,7 @@ AlphabeticalPokedexOrder:
 	dp GLIGAR
 	dp GLISCOR
 	dp GLOOM
+	dp GLUTTLE
 	dp GOLBAT
 	dp GOLDEEN
 	dp GOLDUCK
@@ -107,7 +105,6 @@ AlphabeticalPokedexOrder:
 	dp HOUNDOUR
 	dp HYPNO
 	dp IGGLYBUFF
-	dp IVYSAUR
 	dp JIGGLYPUFF
 	dp JOLTEON
 	dp JUMPLUFF
@@ -200,9 +197,11 @@ AlphabeticalPokedexOrder:
 	dp PORYGON
 	dp PORYGON_Z
 	dp PORYGON2
+	dp PRICKUPI
 	dp PRIMEAPE
 	dp PSYDUCK
 	dp PUPITAR
+	dp PYROBOROS
 	dp QUAGSIRE
 	dp QUILAVA
 	dp QWILFISH
@@ -215,6 +214,8 @@ AlphabeticalPokedexOrder:
 	dp RHYDON
 	dp RHYHORN
 	dp RHYPERIOR
+	dp RIVASTION
+	dp RIVEBLOK
 	dp SANDSHREW
 	dp SANDSLASH
 	dp SCIZOR
@@ -226,6 +227,7 @@ AlphabeticalPokedexOrder:
 	dp SHELLDER
 	dp SHUCKLE
 	dp SIRFETCH_D
+	dp SIZZOO
 	dp SKARMORY
 	dp SKIPLOOM
 	dp SLOWBRO
@@ -240,7 +242,6 @@ AlphabeticalPokedexOrder:
 	dp SNUBBULL
 	dp SPEAROW
 	dp SPINARAK
-	dp SQUIRTLE
 	dp STANTLER
 	dp STARMIE
 	dp STARYU
@@ -271,12 +272,10 @@ AlphabeticalPokedexOrder:
 	dp VAPOREON
 	dp VENOMOTH
 	dp VENONAT
-	dp VENUSAUR
 	dp VICTREEBEL
 	dp VILEPLUME
 	dp VOLTORB
 	dp VULPIX
-	dp WARTORTLE
 	dp WEAVILE
 	dp WEEDLE
 	dp WEEPINBELL

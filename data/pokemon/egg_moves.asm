@@ -4,8 +4,8 @@ INCLUDE "data/pokemon/egg_move_pointers.asm"
 
 EggSpeciesMoves::
 
-BulbasaurEggSpeciesMoves:
-	dp BULBASAUR, PLAIN_FORM
+CupicoEggSpeciesMoves:
+	dp CUPICO, PLAIN_FORM
 	db CHARM
 	db PETAL_DANCE
 	db LIGHT_SCREEN
@@ -13,8 +13,8 @@ BulbasaurEggSpeciesMoves:
 	db POWER_WHIP
 	db $ff
 
-CharmanderEggSpeciesMoves:
-	dp CHARMANDER, PLAIN_FORM
+FliklitEggSpeciesMoves:
+	dp FLIKLIT, PLAIN_FORM
 	db ANCIENTPOWER
 	db BELLY_DRUM
 	db BITE
@@ -25,8 +25,8 @@ CharmanderEggSpeciesMoves:
 	db OUTRAGE
 	db $ff
 
-SquirtleEggSpeciesMoves:
-	dp SQUIRTLE, PLAIN_FORM
+GluttleEggSpeciesMoves:
+	dp GLUTTLE, PLAIN_FORM
 	db CONFUSION
 	db CRUNCH
 	db FORESIGHT
@@ -1233,4 +1233,20 @@ MunchlaxEggSpeciesMoves:
 	db $ff
 
 NoEggSpeciesMoves:
+	db $ff
+
+SinisteaEggSpeciesMoves:
+	dp SINISTEA, PLAIN_FORM
+	db $ff
+
+PolteageistEggSpeciesMoves:
+	dp POLTEAGEIST, PLAIN_FORM
+	db $ff 
+
+DebriteEggSpeciesMoves:
+	dp DEBRITE, PLAIN_FORM
+	db $ff
+
+CastorchEggSpeciesMoves:
+	dp CASTORCH, PLAIN_FORM
 	db $ff

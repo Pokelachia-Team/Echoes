@@ -8,50 +8,50 @@ SECTION "Pokemon Pic Sizes", ROMX
 INCLUDE "data/pokemon/pic_sizes.asm"
 
 
-SECTION "Bulbasaur Pics", ROMX
-BulbasaurFrontpic: INCBIN "gfx/pokemon/bulbasaur/front.animated.2bpp.lzp"
-BulbasaurBackpic:  INCBIN "gfx/pokemon/bulbasaur/back.2bpp.lzp"
-BulbasaurFrames:   INCLUDE "gfx/pokemon/bulbasaur/frames.asm"
+SECTION "Cupico Pics", ROMX
+CupicoFrontpic: INCBIN "gfx/pokemon/cupico/front.animated.2bpp.lzp"
+CupicoBackpic:  INCBIN "gfx/pokemon/cupico/back.2bpp.lzp"
+CupicoFrames:   INCLUDE "gfx/pokemon/cupico/frames.asm"
 
-SECTION "Ivysaur Pics", ROMX
-IvysaurFrontpic: INCBIN "gfx/pokemon/ivysaur/front.animated.2bpp.lzp"
-IvysaurBackpic:  INCBIN "gfx/pokemon/ivysaur/back.2bpp.lzp"
-IvysaurFrames:   INCLUDE "gfx/pokemon/ivysaur/frames.asm"
+SECTION "Prickupi Pics", ROMX
+PrickupiFrontpic: INCBIN "gfx/pokemon/prickupi/front.animated.2bpp.lzp"
+PrickupiBackpic:  INCBIN "gfx/pokemon/prickupi/back.2bpp.lzp"
+PrickupiFrames:   INCLUDE "gfx/pokemon/prickupi/frames.asm"
 
-SECTION "Venusaur Pics", ROMX
-VenusaurFrontpic: INCBIN "gfx/pokemon/venusaur/front.animated.2bpp.lzp"
-VenusaurBackpic:  INCBIN "gfx/pokemon/venusaur/back.2bpp.lzp"
-VenusaurFrames:   INCLUDE "gfx/pokemon/venusaur/frames.asm"
+SECTION "Conifury Pics", ROMX
+ConifuryFrontpic: INCBIN "gfx/pokemon/conifury/front.animated.2bpp.lzp"
+ConifuryBackpic:  INCBIN "gfx/pokemon/conifury/back.2bpp.lzp"
+ConifuryFrames:   INCLUDE "gfx/pokemon/conifury/frames.asm"
 
-SECTION "Charmander Pics", ROMX
-CharmanderFrontpic: INCBIN "gfx/pokemon/charmander/front.animated.2bpp.lzp"
-CharmanderBackpic:  INCBIN "gfx/pokemon/charmander/back.2bpp.lzp"
-CharmanderFrames:   INCLUDE "gfx/pokemon/charmander/frames.asm"
+SECTION "Fliklit Pics", ROMX
+FliklitFrontpic: INCBIN "gfx/pokemon/fliklit/front.animated.2bpp.lzp"
+FliklitBackpic:  INCBIN "gfx/pokemon/fliklit/back.2bpp.lzp"
+FliklitFrames:   INCLUDE "gfx/pokemon/fliklit/frames.asm"
 
-SECTION "Charmeleon Pics", ROMX
-CharmeleonFrontpic: INCBIN "gfx/pokemon/charmeleon/front.animated.2bpp.lzp"
-CharmeleonBackpic:  INCBIN "gfx/pokemon/charmeleon/back.2bpp.lzp"
-CharmeleonFrames:   INCLUDE "gfx/pokemon/charmeleon/frames.asm"
+SECTION "Sizzoo Pics", ROMX
+SizzooFrontpic: INCBIN "gfx/pokemon/sizzoo/front.animated.2bpp.lzp"
+SizzooBackpic:  INCBIN "gfx/pokemon/sizzoo/back.2bpp.lzp"
+SizzooFrames:   INCLUDE "gfx/pokemon/sizzoo/frames.asm"
 
-SECTION "Charizard Pics", ROMX
-CharizardFrontpic: INCBIN "gfx/pokemon/charizard/front.animated.2bpp.lzp"
-CharizardBackpic:  INCBIN "gfx/pokemon/charizard/back.2bpp.lzp"
-CharizardFrames:   INCLUDE "gfx/pokemon/charizard/frames.asm"
+SECTION "Pyroboros Pics", ROMX
+PyroborosFrontpic: INCBIN "gfx/pokemon/pyroboros/front.animated.2bpp.lzp"
+PyroborosBackpic:  INCBIN "gfx/pokemon/pyroboros/back.2bpp.lzp"
+PyroborosFrames:   INCLUDE "gfx/pokemon/pyroboros/frames.asm"
 
-SECTION "Squirtle Pics", ROMX
-SquirtleFrontpic: INCBIN "gfx/pokemon/squirtle/front.animated.2bpp.lzp"
-SquirtleBackpic:  INCBIN "gfx/pokemon/squirtle/back.2bpp.lzp"
-SquirtleFrames:   INCLUDE "gfx/pokemon/squirtle/frames.asm"
+SECTION "Gluttle Pics", ROMX
+GluttleFrontpic: INCBIN "gfx/pokemon/gluttle/front.animated.2bpp.lzp"
+GluttleBackpic:  INCBIN "gfx/pokemon/gluttle/back.2bpp.lzp"
+GluttleFrames:   INCLUDE "gfx/pokemon/gluttle/frames.asm"
 
-SECTION "Wartortle Pics", ROMX
-WartortleFrontpic: INCBIN "gfx/pokemon/wartortle/front.animated.2bpp.lzp"
-WartortleBackpic:  INCBIN "gfx/pokemon/wartortle/back.2bpp.lzp"
-WartortleFrames:   INCLUDE "gfx/pokemon/wartortle/frames.asm"
+SECTION "Riveblok Pics", ROMX
+RiveblokFrontpic: INCBIN "gfx/pokemon/riveblok/front.animated.2bpp.lzp"
+RiveblokBackpic:  INCBIN "gfx/pokemon/riveblok/back.2bpp.lzp"
+RiveblokFrames:   INCLUDE "gfx/pokemon/riveblok/frames.asm"
 
-SECTION "Blastoise Pics", ROMX
-BlastoiseFrontpic: INCBIN "gfx/pokemon/blastoise/front.animated.2bpp.lzp"
-BlastoiseBackpic:  INCBIN "gfx/pokemon/blastoise/back.2bpp.lzp"
-BlastoiseFrames:   INCLUDE "gfx/pokemon/blastoise/frames.asm"
+SECTION "Rivastion Pics", ROMX
+RivastionFrontpic: INCBIN "gfx/pokemon/rivastion/front.animated.2bpp.lzp"
+RivastionBackpic:  INCBIN "gfx/pokemon/rivastion/back.2bpp.lzp"
+RivastionFrames:   INCLUDE "gfx/pokemon/rivastion/frames.asm"
 
 SECTION "Caterpie Pics", ROMX
 CaterpieFrontpic: INCBIN "gfx/pokemon/caterpie/front.animated.2bpp.lzp"
@@ -1951,3 +1951,24 @@ SECTION "TaurosPaldeanWater Pics", ROMX
 TaurosPaldeanWaterFrontpic: INCBIN "gfx/pokemon/tauros_paldean_water/front.animated.2bpp.lzp"
 TaurosPaldeanWaterBackpic:  INCBIN "gfx/pokemon/tauros_paldean_water/back.2bpp.lzp"
 TaurosPaldeanWaterFrames:   INCLUDE "gfx/pokemon/tauros_paldean_water/frames.asm"
+
+SECTION "Sinistea Pics", ROMX
+SinisteaFrontpic: INCBIN "gfx/pokemon/sinistea/front.animated.2bpp.lz"
+SinisteaBackpic:  INCBIN "gfx/pokemon/sinistea/back.2bpp.lz"
+SinisteaFrames:   INCLUDE "gfx/pokemon/sinistea/frames.asm"
+
+SECTION "Polteageist Pics", ROMX
+PolteageistFrontpic: INCBIN "gfx/pokemon/polteageist/front.animated.2bpp.lz"
+PolteageistBackpic:  INCBIN "gfx/pokemon/polteageist/back.2bpp.lz"
+PolteageistFrames:   INCLUDE "gfx/pokemon/polteageist/frames.asm"
+
+SECTION "Debrite Pics", ROMX
+DebriteFrontpic:    INCBIN "gfx/pokemon/debrite/front.animated.2bpp.lz"
+DebriteBackpic:     INCBIN "gfx/pokemon/debrite/back.2bpp.lz"
+DebriteFrames:      INCLUDE "gfx/pokemon/debrite/frames.asm"
+
+SECTION "Castorch Pics", ROMX
+CastorchFrontpic:       INCBIN "gfx/pokemon/castorch/front.animated.2bpp.lz"
+CastorchBackpic:        INCBIN "gfx/pokemon/castorch/back.2bpp.lz"
+CastorchFrames:         INCLUDE "gfx/pokemon/castorch/frames.asm"
+

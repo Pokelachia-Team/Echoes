@@ -4,15 +4,15 @@ ENDM
 
 PokemonPicPointers::
 	table_width 7
-	pics Bulbasaur
-	pics Ivysaur
-	pics Venusaur
-	pics Charmander
-	pics Charmeleon
-	pics Charizard
-	pics Squirtle
-	pics Wartortle
-	pics Blastoise
+	pics Cupico
+	pics Prickupi
+	pics Conifury
+	pics Fliklit
+	pics Sizzoo
+	pics Pyroboros
+	pics Gluttle
+	pics Riveblok
+	pics Rivastion
 	pics Caterpie
 	pics Metapod
 	pics Butterfree
@@ -295,6 +295,10 @@ PokemonPicPointers::
 	pics Farigiraf
 	pics Clodsire
 	pics Annihilape
+	pics Sinistea
+	pics Polteageist
+	pics Debrite
+	pics Castorch
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

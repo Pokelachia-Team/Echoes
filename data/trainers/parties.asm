@@ -847,7 +847,7 @@ ChampionGroup:
 		tr_extra TOUGH_CLAWS, ATK_UP_SATK_DOWN
 		tr_evs 164 Atk, 252 Spe
 		tr_moves AERIAL_ACE, ANCIENTPOWER, ROCK_SLIDE, GIGA_IMPACT
-	tr_mon 57, CHARIZARD @ WISE_GLASSES, MALE
+	tr_mon 57, PYROBOROS @ WISE_GLASSES, MALE
 		tr_extra SOLAR_POWER, SATK_UP_ATK_DOWN
 		tr_evs 164 SAt, 252 Spe
 if DEF(FAITHFUL)
@@ -2575,7 +2575,7 @@ CamperGroup:
 	end_trainer
 
 	def_trainer FELIX, "Felix"
-	tr_mon LEVEL_FROM_BADGES + 8, CHARMELEON
+	tr_mon LEVEL_FROM_BADGES + 8, SIZOO
 	end_trainer
 
 	def_trainer TANNER, "Tanner"
@@ -2635,25 +2635,25 @@ PicnickerGroup:
 	def_trainer GINA1, "Gina"
 	tr_mon 9, SUNKERN
 	tr_mon 9, HOPPIP
-	tr_mon 12, BULBASAUR
+	tr_mon 12, CUPICO
 	end_trainer
 
 	def_trainer GINA2, "Gina"
 	tr_mon 14, SUNKERN
 	tr_mon 14, HOPPIP
-	tr_mon 17, IVYSAUR
+	tr_mon 17, PRICKUPI
 	end_trainer
 
 	def_trainer GINA3, "Gina"
 	tr_mon 26, SUNFLORA
 	tr_mon 27, SKIPLOOM
-	tr_mon 29, IVYSAUR
+	tr_mon 29, PRICKUPI
 	end_trainer
 
 	def_trainer GINA4, "Gina"
 	tr_mon 30, SUNFLORA
 	tr_mon 31, JUMPLUFF
-	tr_mon 32, IVYSAUR
+	tr_mon 32, PRICKUPI
 	end_trainer
 
 	def_trainer GINA5, "Gina"
@@ -2665,7 +2665,7 @@ else
 endc
 	tr_mon 34, JUMPLUFF
 		tr_moves ACROBATICS, SLEEP_POWDER, STUN_SPORE, MEGA_DRAIN
-	tr_mon 38, VENUSAUR
+	tr_mon 38, CONIFURY
 		tr_moves SOLAR_BEAM, RAZOR_LEAF, HEADBUTT, MUD_SLAP
 	end_trainer
 
@@ -3709,9 +3709,9 @@ PokefanMGroup:
 	end_trainer
 
 	def_trainer CARTER, "Carter"
-	tr_mon 59, BULBASAUR @ SITRUS_BERRY
-	tr_mon 59, CHARMANDER @ SITRUS_BERRY
-	tr_mon 59, SQUIRTLE @ SITRUS_BERRY
+	tr_mon 59, CUPICO @ SITRUS_BERRY
+	tr_mon 59, FLIKLIT @ SITRUS_BERRY
+	tr_mon 59, GLUTTLE @ SITRUS_BERRY
 	end_trainer
 
 	def_trainer TREVOR, "Trevor"
@@ -3813,7 +3813,7 @@ OfficerFGroup:
 	def_trainer JAMIE, "Jamie"
 	tr_mon 54, GROWLITHE
 	tr_mon 58, ARCANINE
-	tr_mon 57, BLASTOISE
+	tr_mon 57, RIVASTION
 	end_trainer
 
 	def_trainer MARA, "Mara"
@@ -3821,10 +3821,10 @@ OfficerFGroup:
 	end_trainer
 
 	def_trainer JENNY, "Jenny"
-	tr_mon 53, SQUIRTLE
-	tr_mon 53, SQUIRTLE
-	tr_mon 53, SQUIRTLE
-	tr_mon 53, SQUIRTLE
+	tr_mon 53, GLUTTLE
+	tr_mon 53, GLUTTLE
+	tr_mon 53, GLUTTLE
+	tr_mon 53, GLUTTLE
 	end_trainer
 
 
@@ -4022,7 +4022,7 @@ SuperNerdGroup:
 	end_trainer
 
 	def_trainer WALDO, "Waldo"
-	tr_mon 65, CHARIZARD
+	tr_mon 65, PYROBOROS
 	end_trainer
 
 	def_trainer MERLE, "Merle"
@@ -4070,7 +4070,7 @@ SuperNerdGroup:
 	def_trainer KOUTA, "Kouta"
 	tr_mon 54, CROBAT
 	tr_mon 53, POLITOED
-	tr_mon 56, CHARIZARD
+	tr_mon 56, PYROBOROS
 	end_trainer
 
 
@@ -4140,9 +4140,9 @@ endc
 	end_trainer
 
 	def_trainer LINDA, "Linda"
-	tr_mon 57, BULBASAUR
-	tr_mon 59, IVYSAUR
-	tr_mon 61, VENUSAUR
+	tr_mon 57, CUPICO
+	tr_mon 59, PRICKUPI
+	tr_mon 61, CONIFURY
 	end_trainer
 
 	def_trainer LAURA, "Laura"
@@ -4453,9 +4453,9 @@ FirebreatherGroup:
 	end_trainer
 
 	def_trainer DICK, "Dick"
-	tr_mon 53, CHARMANDER
-	tr_mon 55, CHARMELEON
-	tr_mon 57, CHARIZARD
+	tr_mon 53, FLIKLIT
+	tr_mon 55, SIZOO
+	tr_mon 57, PYROBOROS
 	end_trainer
 
 	def_trainer NED, "Ned"
@@ -4734,19 +4734,19 @@ SchoolgirlGroup:
 	end_trainer
 
 	def_trainer SARAH, "Sarah"
-	tr_mon LEVEL_FROM_BADGES + 2, "Charmer", CHARMANDER
+	tr_mon LEVEL_FROM_BADGES + 2, "Charmer", FLIKLIT
 	tr_mon LEVEL_FROM_BADGES + 0, SENTRET
 	tr_mon LEVEL_FROM_BADGES + 1, MARILL
 	end_trainer
 
 	def_trainer ISABEL, "Isabel"
-	tr_mon LEVEL_FROM_BADGES + 2, "Turtle", SQUIRTLE
+	tr_mon LEVEL_FROM_BADGES + 2, "Turtle", GLUTTLE
 	tr_mon LEVEL_FROM_BADGES + 0, PIDGEY
 	tr_mon LEVEL_FROM_BADGES + 1, PIKACHU
 	end_trainer
 
 	def_trainer IMOGEN, "Imogen"
-	tr_mon 13, "Garlic", BULBASAUR
+	tr_mon 13, "Garlic", CUPICO
 	tr_mon 11, POLIWAG
 	end_trainer
 
@@ -5034,7 +5034,7 @@ ElderGroup:
 	def_trainer MASA, "Masa"
 	tr_mon 37, NOCTOWL
 	tr_mon 38, JOLTEON
-	tr_mon 38, WARTORTLE
+	tr_mon 38, RIVEBLOK
 	end_trainer
 
 	def_trainer KOJI, "Koji"
@@ -5069,13 +5069,13 @@ SrAndJrGroup:
 	end_trainer
 
 	def_trainer BEAANDMAY1, "Bea & May"
-	tr_mon LEVEL_FROM_BADGES + 4, IVYSAUR
-	tr_mon LEVEL_FROM_BADGES + 0, BULBASAUR
+	tr_mon LEVEL_FROM_BADGES + 4, PRICKUPI
+	tr_mon LEVEL_FROM_BADGES + 0, CUPICO
 	end_trainer
 
 	def_trainer BEAANDMAY2, "Bea & May"
-	tr_mon LEVEL_FROM_BADGES + 0, BULBASAUR
-	tr_mon LEVEL_FROM_BADGES + 4, IVYSAUR
+	tr_mon LEVEL_FROM_BADGES + 0, CUPICO
+	tr_mon LEVEL_FROM_BADGES + 4, PRICKUPI
 	end_trainer
 
 
@@ -5460,7 +5460,7 @@ SwimmerMGroup:
 
 	def_trainer RANDALL, "Randall"
 	tr_mon 18, SHELLDER
-	tr_mon 20, WARTORTLE
+	tr_mon 20, RIVEBLOK
 	tr_mon 18, SHELLDER
 	end_trainer
 
@@ -5584,7 +5584,7 @@ SwimmerMGroup:
 	end_trainer
 
 	def_trainer THOMAS, "Thomas"
-	tr_mon LEVEL_FROM_BADGES + 5, WARTORTLE
+	tr_mon LEVEL_FROM_BADGES + 5, RIVEBLOK
 		tr_moves DEFENSE_CURL, BITE, SURF, RAPID_SPIN
 	end_trainer
 
@@ -5807,7 +5807,7 @@ BurglarGroup:
 	end_trainer
 
 	def_trainer PETE, "Pete"
-	tr_mon 59, CHARMELEON
+	tr_mon 59, SIZOO
 	tr_mon 62, MAGMAR
 	end_trainer
 
@@ -6146,7 +6146,7 @@ DragonTamerGroup:
 	def_trainer DARIN, "Darin"
 	tr_mon 38, DRAGONAIR
 		tr_moves BODY_SLAM, SURF, DRAGON_PULSE, AQUA_TAIL
-	tr_mon 38, CHARIZARD
+	tr_mon 38, PYROBOROS
 		tr_moves SLASH, FLY, DRAGON_CLAW, FLAME_CHARGE
 	end_trainer
 
@@ -6189,7 +6189,7 @@ endc
 		tr_extra SNIPER, SATK_UP_ATK_DOWN
 		tr_evs 252 SAt, 12 Spe
 		tr_moves DOUBLE_TEAM, DRAGON_PULSE, SURF, ICE_BEAM
-	tr_mon LEVEL_FROM_BADGES + 8, CHARIZARD @ FOCUS_SASH, MALE
+	tr_mon LEVEL_FROM_BADGES + 8, PYROBOROS @ FOCUS_SASH, MALE
 		tr_extra BLAZE, ATK_UP_SATK_DOWN
 		tr_evs 132 Atk, 132 Spe
 		tr_moves DRAGON_DANCE, DRAGON_CLAW, EARTHQUAKE, FLARE_BLITZ
@@ -6344,7 +6344,7 @@ GuitaristMGroup:
 	end_trainer
 
 	def_trainer GEDDY, "Geddy"
-	tr_mon 50, BULBASAUR
+	tr_mon 50, CUPICO
 	end_trainer
 
 
@@ -6404,7 +6404,7 @@ BikerGroup:
 
 	def_trainer CHARLES, "Charles"
 	tr_mon 54, KOFFING
-	tr_mon 54, CHARMELEON
+	tr_mon 54, SIZOO
 	tr_mon 57, WEEZING
 	end_trainer
 
@@ -6499,7 +6499,7 @@ TamerGroup:
 	end_trainer
 
 	def_trainer JORDAN, "Jordan"
-	tr_mon 50, BULBASAUR
+	tr_mon 50, CUPICO
 	end_trainer
 
 
@@ -6566,7 +6566,7 @@ AromaLadyGroup:
 	end_trainer
 
 	def_trainer PEONY, "Peony"
-	tr_mon 50, BULBASAUR
+	tr_mon 50, CUPICO
 	end_trainer
 
 
@@ -6593,23 +6593,23 @@ SightseerMGroup:
 
 	def_trainer_class SIGHTSEERM
 	def_trainer JASKA, "Jaska"
-	tr_mon 50, BULBASAUR
+	tr_mon 50, CUPICO
 	end_trainer
 
 	def_trainer BLAISE, "Blaise"
-	tr_mon 50, "Bulbasaur", BULBASAUR, MALE
+	tr_mon 50, "Cupico", CUPICO, MALE
 	end_trainer
 
 	def_trainer GARETH, "Gareth"
-	tr_mon 50, BULBASAUR
+	tr_mon 50, CUPICO
 	end_trainer
 
 	def_trainer CHESTER, "Chester"
-	tr_mon 50, BULBASAUR
+	tr_mon 50, CUPICO
 	end_trainer
 
 	def_trainer HARI, "Hari"
-	tr_mon 50, BULBASAUR
+	tr_mon 50, CUPICO
 	end_trainer
 
 
@@ -6618,15 +6618,15 @@ SightseerFGroup:
 
 	def_trainer_class SIGHTSEERF
 	def_trainer ROSIE, "Rosie"
-	tr_mon 50, BULBASAUR
+	tr_mon 50, CUPICO
 	end_trainer
 
 	def_trainer KAMILA, "Kamila"
-	tr_mon 50, BULBASAUR
+	tr_mon 50, CUPICO
 	end_trainer
 
 	def_trainer NOELLE, "Noelle"
-	tr_mon 50, BULBASAUR
+	tr_mon 50, CUPICO
 	end_trainer
 
 	def_trainer PILAR, "Pilar"
@@ -6709,18 +6709,18 @@ CooltrainerMGroup:
 	end_trainer
 
 	def_trainer NICK, "Nick"
-	tr_mon 26, CHARMANDER
+	tr_mon 26, FLIKLIT
 		tr_moves EMBER, SMOKESCREEN, RAGE, SCARY_FACE
-	tr_mon 26, SQUIRTLE
+	tr_mon 26, GLUTTLE
 		tr_moves DEFENSE_CURL, WATER_GUN, BITE, CURSE
-	tr_mon 26, BULBASAUR
+	tr_mon 26, CUPICO
 		tr_moves LEECH_SEED, POISONPOWDER, SLEEP_POWDER, RAZOR_LEAF
 	end_trainer
 
 	def_trainer AARON, "Aaron"
-	tr_mon 28, IVYSAUR
-	tr_mon 28, CHARMELEON
-	tr_mon 28, WARTORTLE
+	tr_mon 28, PRICKUPI
+	tr_mon 28, SIZOO
+	tr_mon 28, RIVEBLOK
 	end_trainer
 
 	def_trainer CODY, "Cody"
@@ -6750,9 +6750,9 @@ CooltrainerMGroup:
 	end_trainer
 
 	def_trainer ANDY, "Andy"
-	tr_mon 10, BULBASAUR
-	tr_mon 10, CHARMANDER
-	tr_mon 10, SQUIRTLE
+	tr_mon 10, CUPICO
+	tr_mon 10, FLIKLIT
+	tr_mon 10, GLUTTLE
 	end_trainer
 
 	def_trainer SEAN, "Sean"
@@ -6763,12 +6763,12 @@ CooltrainerMGroup:
 
 	def_trainer KEVIN, "Kevin"
 	tr_mon 54, RHYDON
-	tr_mon 56, CHARIZARD
-	tr_mon 56, BLASTOISE
+	tr_mon 56, PYROBOROS
+	tr_mon 56, RIVASTION
 	end_trainer
 
 	def_trainer ALLEN, "Allen"
-	tr_mon 36, CHARMELEON
+	tr_mon 36, SIZOO
 		tr_moves SMOKESCREEN, METAL_CLAW, DRAGON_RAGE, FLAME_CHARGE
 	tr_mon 35, MAGNETON
 		tr_moves THUNDER_WAVE, THUNDERBOLT, TRI_ATTACK, FLASH_CANNON
@@ -6780,15 +6780,15 @@ CooltrainerMGroup:
 	end_trainer
 
 	def_trainer HENRI, "Henri"
-	tr_mon LEVEL_FROM_BADGES + 5, CHARMELEON
-	tr_mon LEVEL_FROM_BADGES + 5, WARTORTLE
-	tr_mon LEVEL_FROM_BADGES + 5, IVYSAUR
+	tr_mon LEVEL_FROM_BADGES + 5, SIZOO
+	tr_mon LEVEL_FROM_BADGES + 5, RIVEBLOK
+	tr_mon LEVEL_FROM_BADGES + 5, PRICKUPI
 	end_trainer
 
 	def_trainer CONNOR, "Connor"
 	tr_mon 63, SCYTHER
 	tr_mon 62, CROCONAW
-	tr_mon 62, WARTORTLE
+	tr_mon 62, RIVEBLOK
 	end_trainer
 
 	def_trainer KIERAN, "Kieran"
@@ -6821,7 +6821,7 @@ CooltrainerMGroup:
 		tr_dvs 14 All
 		tr_evs 20 HP
 		tr_moves GUST, ABSORB, ASTONISH, BITE
-	tr_mon LEVEL_FROM_BADGES + 6, BULBASAUR @ MIRACLE_SEED, MALE
+	tr_mon LEVEL_FROM_BADGES + 6, CUPICO @ MIRACLE_SEED, MALE
 		tr_extra CHLOROPHYLL, SPE_UP_DEF_DOWN
 		tr_dvs 14 All
 		tr_evs 20 HP
@@ -6839,7 +6839,7 @@ CooltrainerMGroup:
 		tr_evs 192 Atk, 192 Spe
 	tr_mon 63, SANDSLASH @ KINGS_ROCK
 		tr_evs 132 HP, 252 Atk ; has Gyro Ball, so no Speed.
-	tr_mon 64, "Bruteroot", VENUSAUR @ LEFTOVERS
+	tr_mon 64, "Bruteroot", CONIFURY @ LEFTOVERS
 		tr_evs 252 HP, 132 SAt
 	end_trainer
 
@@ -6854,7 +6854,7 @@ CooltrainerMGroup:
 		tr_evs 192 Atk, 192 Spe
 	tr_mon 63, MACHAMP @ FOCUS_BAND
 		tr_evs 132 HP, 252 Atk
-	tr_mon 64, "Firebrand", CHARIZARD @ LEFTOVERS
+	tr_mon 64, "Firebrand", PYROBOROS @ LEFTOVERS
 		tr_evs 192 Atk, 192 SAt
 	end_trainer
 
@@ -6950,7 +6950,7 @@ endc
 if DEF(FAITHFUL)
 	tr_mon 39, SEADRA
 else
-	tr_mon 39, CHARIZARD
+	tr_mon 39, PYROBOROS
 endc
 	end_trainer
 
@@ -6971,23 +6971,23 @@ endc
 
 	def_trainer KELLY, "Kelly"
 	tr_mon 37, MARILL
-	tr_mon 35, WARTORTLE
+	tr_mon 35, RIVEBLOK
 	tr_mon 35, CROCONAW
 	end_trainer
 
 	def_trainer JOYCE, "Joyce"
 	tr_mon 37, PIKACHU
 		tr_moves QUICK_ATTACK, DOUBLE_TEAM, THUNDERBOLT, THUNDER
-	tr_mon 38, BLASTOISE
+	tr_mon 38, RIVASTION
 		tr_moves BITE, CURSE, SURF, RAIN_DANCE
 	end_trainer
 
 	def_trainer MEGAN, "Megan"
-	tr_mon 35, BULBASAUR
+	tr_mon 35, CUPICO
 		tr_moves GROWL, LEECH_SEED, POISONPOWDER, RAZOR_LEAF
-	tr_mon 36, IVYSAUR
+	tr_mon 36, PRICKUPI
 		tr_moves GROWL, LEECH_SEED, POISONPOWDER, RAZOR_LEAF
-	tr_mon 37, VENUSAUR
+	tr_mon 37, CONIFURY
 		tr_moves BODY_SLAM, SLEEP_POWDER, RAZOR_LEAF, GROWTH
 	end_trainer
 
@@ -6998,7 +6998,7 @@ endc
 	end_trainer
 
 	def_trainer QUINN, "Quinn"
-	tr_mon 63, VENUSAUR
+	tr_mon 63, CONIFURY
 	tr_mon 62, STARMIE
 	end_trainer
 
@@ -7029,7 +7029,7 @@ endc
 	end_trainer
 
 	def_trainer SERA, "Sera"
-	tr_mon 63, CHARMELEON @ EVIOLITE
+	tr_mon 63, SIZOO @ EVIOLITE
 	tr_mon 61, AMPHAROS @ MAGNET
 	tr_mon 61, XATU @ TWISTEDSPOON
 	end_trainer
@@ -7045,7 +7045,7 @@ endc
 		tr_evs 132 SAt, 252 Spe
 	tr_mon 63, NINETALES @ CHARCOAL
 		tr_evs 132 SAt, 252 Spe
-	tr_mon 63, "Shellshock", BLASTOISE @ LEFTOVERS
+	tr_mon 63, "Shellshock", RIVASTION @ LEFTOVERS
 		tr_evs 132 HP, 252 Spe
 	end_trainer
 
@@ -7058,7 +7058,7 @@ endc
 		tr_extra SAP_SIPPER, SPE_UP_DEF_DOWN
 		tr_evs 104 HP
 		tr_moves WHIRLPOOL, PERISH_SONG, AQUA_TAIL, PROTECT
-	tr_mon LEVEL_FROM_BADGES + 5, CHARMELEON @ BINDING_BAND, FEMALE
+	tr_mon LEVEL_FROM_BADGES + 5, SIZOO @ BINDING_BAND, FEMALE
 		tr_extra SOLAR_POWER, SPE_UP_DEF_DOWN
 		tr_evs 104 HP
 		tr_moves FIRE_SPIN, DRAGON_RAGE, SMOKESCREEN, PROTECT
@@ -7158,7 +7158,7 @@ VeteranMGroup:
 	end_trainer
 
 	def_trainer REMY, "Remy"
-	tr_mon 42, BLASTOISE @ MYSTIC_WATER
+	tr_mon 42, RIVASTION @ MYSTIC_WATER
 if DEF(FAITHFUL)
 		tr_moves SURF, AQUA_TAIL, ICE_BEAM, BODY_SLAM
 else
@@ -7221,7 +7221,7 @@ VeteranFGroup:
 
 	def_trainer_class VETERANF
 	def_trainer JOANNE, "Joanne"
-	tr_mon 41, VENUSAUR @ MIRACLE_SEED
+	tr_mon 41, CONIFURY @ MIRACLE_SEED
 		tr_moves GROWTH, SLUDGE_BOMB, PETAL_DANCE, SLEEP_POWDER
 	tr_mon 38, PIDGEOT @ QUICK_CLAW
 		tr_moves ROOST, FLY, SWIFT, ROAR
@@ -8403,7 +8403,7 @@ if DEF(FAITHFUL)
 	tr_mon 57, MACHAMP
 	tr_mon 56, SKARMORY
 else
-	tr_mon 57, BLASTOISE
+	tr_mon 57, RIVASTION
 	tr_mon 56, FARFETCH_D
 endc
 	tr_mon 58, MISMAGIUS
@@ -9240,7 +9240,7 @@ LawrenceGroup:
 		tr_extra PRESSURE
 		tr_evs 252 SAt, 4 SDf, 252 Spe
 		tr_moves ICE_BEAM, AIR_SLASH, ANCIENTPOWER, REFLECT
-	tr_mon 66, CHARIZARD @ DRAGON_FANG, MALE
+	tr_mon 66, PYROBOROS @ DRAGON_FANG, MALE
 		tr_extra ATK_UP_SATK_DOWN, SHINY
 		tr_evs 252 Atk, 4 Def, 252 Spe
 if DEF(FAITHFUL)

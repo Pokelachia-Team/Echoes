@@ -83,11 +83,11 @@ FieldLab_MapScriptHeader:
 ; 	endcallback
 ; ProfPawpawScript:
 ; 	faceplayer
-;  	checkevent EVENT_GOT_CYNDAQUIL_FROM_ELM
+;  	checkevent EVENT_GOT_FLIKLIT_FROM_ELM
 ; 	iftruefwd PawpawAfterMon
-;  	checkevent EVENT_GOT_TOTODILE_FROM_ELM
+;  	checkevent EVENT_GOT_GLUTTLE_FROM_ELM
 ; 	iftruefwd PawpawAfterMon
-;  	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
+;  	checkevent EVENT_GOT_CUPICO_FROM_ELM
 ; 	iftruefwd PawpawAfterMon
 ; 	showemote EMOTE_SHOCK, ELMSLAB_ELM, 15
 ; 	opentext
@@ -205,8 +205,8 @@ FieldLab_MapScriptHeader:
 ; 	iffalse_jumptext PawpawPokeBallText
 ; 	turnobject ELMSLAB_ELM, DOWN
 ; 	reanchormap
-; 	pokepic CYNDAQUIL
-; 	cry CYNDAQUIL
+; 	pokepic FLIKLIT
+; 	cry FLIKLIT
 ; 	waitbutton
 ; 	closepokepic
 ; 	opentext
@@ -214,11 +214,11 @@ FieldLab_MapScriptHeader:
 ; 	yesorno
 ; 	iffalse_jumpopenedtext DidntChooseStarterText
 ; 	disappear ELMSLAB_POKE_BALL1
-; 	setevent EVENT_GOT_CYNDAQUIL_FROM_ELM
+; 	setevent EVENT_GOT_FLIKLIT_FROM_ELM
 ; 	writetext ChoseStarterText
 ; 	promptbutton
 ; 	waitsfx
-; 	givepoke CYNDAQUIL, PLAIN_FORM, 5, ORAN_BERRY
+; 	givepoke FLIKLIT, PLAIN_FORM, 5, ORAN_BERRY
 ; 	clearevent EVENT_CHOOSE_POKEMON
 ; 	sjumpfwd PawpawDirectionsScript
 
@@ -229,7 +229,7 @@ FieldLab_MapScriptHeader:
 	; pause 15
 	; disappear ELMSLAB_POKE_BALL3
 	; opentext
-	; getmonname CHIKORITA, STRING_BUFFER_3
+	; getmonname CUPICO, STRING_BUFFER_3
 	; writetext RivalReceivedStarterText
 	; playsound SFX_CAUGHT_MON
 	; waitsfx
@@ -247,8 +247,8 @@ FieldLab_MapScriptHeader:
 ; 	iffalse_jumptext PawpawPokeBallText
 ; 	turnobject ELMSLAB_ELM, DOWN
 ; 	reanchormap
-; 	pokepic TOTODILE
-; 	cry TOTODILE
+; 	pokepic GLUTTLE
+; 	cry GLUTTLE
 ; 	waitbutton
 ; 	closepokepic
 ; 	opentext
@@ -256,11 +256,11 @@ FieldLab_MapScriptHeader:
 ; 	yesorno
 ; 	iffalse_jumpopenedtext DidntChooseStarterText
 ; 	disappear ELMSLAB_POKE_BALL2
-; 	setevent EVENT_GOT_TOTODILE_FROM_ELM
+; 	setevent EVENT_GOT_GLUTTLE_FROM_ELM
 ; 	writetext ChoseStarterText
 ; 	promptbutton
 ; 	waitsfx
-; 	givepoke TOTODILE, PLAIN_FORM, 5, ORAN_BERRY
+; 	givepoke GLUTTLE, PLAIN_FORM, 5, ORAN_BERRY
 ; 	clearevent EVENT_CHOOSE_POKEMON
 ; 	sjumpfwd PawpawDirectionsScript
 	; writetext RivalChoosesStarterText
@@ -270,7 +270,7 @@ FieldLab_MapScriptHeader:
 	; pause 15
 	; disappear ELMSLAB_POKE_BALL1
 	; opentext
-	; getmonname CYNDAQUIL, STRING_BUFFER_3
+	; getmonname FLIKLIT, STRING_BUFFER_3
 	; writetext RivalReceivedStarterText
 	; playsound SFX_CAUGHT_MON
 	; waitsfx
@@ -286,8 +286,8 @@ FieldLab_MapScriptHeader:
 ; 	iffalse_jumptext PawpawPokeBallText
 ; 	turnobject ELMSLAB_ELM, DOWN
 ; 	reanchormap
-; 	pokepic CHIKORITA
-; 	cry CHIKORITA
+; 	pokepic CUPICO
+; 	cry CUPICO
 ; 	waitbutton
 ; 	closepokepic
 ; 	opentext
@@ -295,11 +295,11 @@ FieldLab_MapScriptHeader:
 ; 	yesorno
 ; 	iffalse_jumpopenedtext DidntChooseStarterText
 ; 	disappear ELMSLAB_POKE_BALL3
-; 	setevent EVENT_GOT_CHIKORITA_FROM_ELM
+; 	setevent EVENT_GOT_CUPICO_FROM_ELM
 ; 	writetext ChoseStarterText
 ; 	promptbutton
 ; 	waitsfx
-; 	givepoke CHIKORITA, PLAIN_FORM, 5, ORAN_BERRY
+; 	givepoke CUPICO, PLAIN_FORM, 5, ORAN_BERRY
 ; 	clearevent EVENT_CHOOSE_POKEMON
 ; 	sjumpfwd PawpawDirectionsScript
 	; writetext RivalChoosesStarterText
@@ -309,7 +309,7 @@ FieldLab_MapScriptHeader:
 	; pause 15
 	; disappear ELMSLAB_POKE_BALL2
 	; opentext
-	; getmonname TOTODILE, STRING_BUFFER_3
+	; getmonname GLUTTLE, STRING_BUFFER_3
 	; writetext RivalReceivedStarterText
 	; playsound SFX_CAUGHT_MON
 	; waitsfx
@@ -578,9 +578,9 @@ FieldLabHealingMachine_HealParty:
 ; 	turnobject PLAYER, RIGHT
 ; 	winlosstext FieldLabRivalWinText, FieldLabRivalLossText
 ; 	setlasttalked ELMSLAB_LYRA
-; 	checkevent EVENT_GOT_TOTODILE_FROM_ELM
+; 	checkevent EVENT_GOT_GLUTTLE_FROM_ELM
 ; 	iftruefwd .TOTODILE
-; 	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
+; 	checkevent EVENT_GOT_CUPICO_FROM_ELM
 ; 	iftruefwd .CHIKORITA
 ; 	loadtrainer LYRA1, LYRA1_1
 ; 	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
