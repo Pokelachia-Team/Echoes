@@ -1,6 +1,7 @@
 Footprints:: ; needed for BANK(Footprints)
 
 VenomothFootprint::
+FliklitFootprint::
 KabutoFootprint::
 SpinarakFootprint:: INCBIN "gfx/footprints/circle_small.1bpp.lzp"
 
@@ -80,7 +81,9 @@ VictreebelFootprint::
 VoltorbFootprint::
 WeepinbellFootprint::
 WeezingFootprint::
-ZubatFootprint:: 
+ZubatFootprint::
+SizzooFootprint::
+PyroborosFootprint::
 SinisteaFootprint:: 
 PolteageistFootprint::
 DebriteFootprint::

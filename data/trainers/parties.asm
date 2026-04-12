@@ -2575,7 +2575,7 @@ CamperGroup:
 	end_trainer
 
 	def_trainer FELIX, "Felix"
-	tr_mon LEVEL_FROM_BADGES + 8, SIZOO
+	tr_mon LEVEL_FROM_BADGES + 8, SIZZOO
 	end_trainer
 
 	def_trainer TANNER, "Tanner"
@@ -4454,7 +4454,7 @@ FirebreatherGroup:
 
 	def_trainer DICK, "Dick"
 	tr_mon 53, FLIKLIT
-	tr_mon 55, SIZOO
+	tr_mon 55, SIZZOO
 	tr_mon 57, PYROBOROS
 	end_trainer
 
@@ -5807,7 +5807,7 @@ BurglarGroup:
 	end_trainer
 
 	def_trainer PETE, "Pete"
-	tr_mon 59, SIZOO
+	tr_mon 59, SIZZOO
 	tr_mon 62, MAGMAR
 	end_trainer
 
@@ -6404,7 +6404,7 @@ BikerGroup:
 
 	def_trainer CHARLES, "Charles"
 	tr_mon 54, KOFFING
-	tr_mon 54, SIZOO
+	tr_mon 54, SIZZOO
 	tr_mon 57, WEEZING
 	end_trainer
 
@@ -6719,7 +6719,7 @@ CooltrainerMGroup:
 
 	def_trainer AARON, "Aaron"
 	tr_mon 28, PRICKUPI
-	tr_mon 28, SIZOO
+	tr_mon 28, SIZZOO
 	tr_mon 28, RIVEBLOK
 	end_trainer
 
@@ -6768,7 +6768,7 @@ CooltrainerMGroup:
 	end_trainer
 
 	def_trainer ALLEN, "Allen"
-	tr_mon 36, SIZOO
+	tr_mon 36, SIZZOO
 		tr_moves SMOKESCREEN, METAL_CLAW, DRAGON_RAGE, FLAME_CHARGE
 	tr_mon 35, MAGNETON
 		tr_moves THUNDER_WAVE, THUNDERBOLT, TRI_ATTACK, FLASH_CANNON
@@ -6780,7 +6780,7 @@ CooltrainerMGroup:
 	end_trainer
 
 	def_trainer HENRI, "Henri"
-	tr_mon LEVEL_FROM_BADGES + 5, SIZOO
+	tr_mon LEVEL_FROM_BADGES + 5, SIZZOO
 	tr_mon LEVEL_FROM_BADGES + 5, RIVEBLOK
 	tr_mon LEVEL_FROM_BADGES + 5, PRICKUPI
 	end_trainer
@@ -7029,7 +7029,7 @@ endc
 	end_trainer
 
 	def_trainer SERA, "Sera"
-	tr_mon 63, SIZOO @ EVIOLITE
+	tr_mon 63, SIZZOO @ EVIOLITE
 	tr_mon 61, AMPHAROS @ MAGNET
 	tr_mon 61, XATU @ TWISTEDSPOON
 	end_trainer
@@ -7058,7 +7058,7 @@ endc
 		tr_extra SAP_SIPPER, SPE_UP_DEF_DOWN
 		tr_evs 104 HP
 		tr_moves WHIRLPOOL, PERISH_SONG, AQUA_TAIL, PROTECT
-	tr_mon LEVEL_FROM_BADGES + 5, SIZOO @ BINDING_BAND, FEMALE
+	tr_mon LEVEL_FROM_BADGES + 5, SIZZOO @ BINDING_BAND, FEMALE
 		tr_extra SOLAR_POWER, SPE_UP_DEF_DOWN
 		tr_evs 104 HP
 		tr_moves FIRE_SPIN, DRAGON_RAGE, SMOKESCREEN, PROTECT
