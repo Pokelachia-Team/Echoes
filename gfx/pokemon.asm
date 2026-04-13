@@ -628,15 +628,17 @@ FeraligatrFrontpic: INCBIN "gfx/pokemon/feraligatr/front.animated.2bpp.lzp"
 FeraligatrBackpic:  INCBIN "gfx/pokemon/feraligatr/back.2bpp.lzp"
 FeraligatrFrames:   INCLUDE "gfx/pokemon/feraligatr/frames.asm"
 
-SECTION "Sentret Pics", ROMX
-SentretFrontpic: INCBIN "gfx/pokemon/sentret/front.animated.2bpp.lzp"
-SentretBackpic:  INCBIN "gfx/pokemon/sentret/back.2bpp.lzp"
-SentretFrames:   INCLUDE "gfx/pokemon/sentret/frames.asm"
+SECTION "Tidiposs Pics", ROMX
+TidipossFrontpic: INCBIN "gfx/pokemon/tidiposs/front.animated.2bpp.lz"
+TidipossBackpic:  INCBIN "gfx/pokemon/tidiposs/back.2bpp.lz"
+TidipossFrames:   INCLUDE "gfx/pokemon/tidiposs/frames.asm"
 
-SECTION "Furret Pics", ROMX
-FurretFrontpic: INCBIN "gfx/pokemon/furret/front.animated.2bpp.lzp"
-FurretBackpic:  INCBIN "gfx/pokemon/furret/back.2bpp.lzp"
-FurretFrames:   INCLUDE "gfx/pokemon/furret/frames.asm"
+
+SECTION "Scourposs Pics", ROMX
+ScourpossFrontpic: INCBIN "gfx/pokemon/scourposs/front.animated.2bpp.lz"
+ScourpossBackpic:  INCBIN "gfx/pokemon/scourposs/back.2bpp.lz"
+ScourpossFrames:   INCLUDE "gfx/pokemon/scourposs/frames.asm"
+
 
 SECTION "Hoothoot Pics", ROMX
 HoothootFrontpic: INCBIN "gfx/pokemon/hoothoot/front.animated.2bpp.lzp"
@@ -1048,15 +1050,17 @@ HoOhFrontpic: INCBIN "gfx/pokemon/ho_oh/front.animated.2bpp.lzp"
 HoOhBackpic:  INCBIN "gfx/pokemon/ho_oh/back.2bpp.lzp"
 HoOhFrames:   INCLUDE "gfx/pokemon/ho_oh/frames.asm"
 
-SECTION "Spearow Pics", ROMX
-SpearowFrontpic: INCBIN "gfx/pokemon/spearow/front.animated.2bpp.lzp"
-SpearowBackpic:  INCBIN "gfx/pokemon/spearow/back.2bpp.lzp"
-SpearowFrames:   INCLUDE "gfx/pokemon/spearow/frames.asm"
+SECTION "Cribnal Pics", ROMX
+CribnalFrontpic: INCBIN "gfx/pokemon/cribnal/front.animated.2bpp.lz"
+CribnalBackpic:  INCBIN "gfx/pokemon/cribnal/back.2bpp.lz"
+CribnalFrames:   INCLUDE "gfx/pokemon/cribnal/frames.asm"
 
-SECTION "Fearow Pics", ROMX
-FearowFrontpic: INCBIN "gfx/pokemon/fearow/front.animated.2bpp.lzp"
-FearowBackpic:  INCBIN "gfx/pokemon/fearow/back.2bpp.lzp"
-FearowFrames:   INCLUDE "gfx/pokemon/fearow/frames.asm"
+
+SECTION "Cuardhart Pics", ROMX
+CuardhartFrontpic: INCBIN "gfx/pokemon/cuardhart/front.animated.2bpp.lz"
+CuardhartBackpic:  INCBIN "gfx/pokemon/cuardhart/back.2bpp.lz"
+CuardhartFrames:   INCLUDE "gfx/pokemon/cuardhart/frames.asm"
+
 
 SECTION "Goldeen Pics", ROMX
 GoldeenFrontpic: INCBIN "gfx/pokemon/goldeen/front.animated.2bpp.lzp"

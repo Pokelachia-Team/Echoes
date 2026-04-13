@@ -68,13 +68,13 @@ AlphabeticalPokedexOrder:
 	dp EXEGGUTOR
 	dp FARIGIRAF
 	dp FARFETCH_D
-	dp FEAROW
+	dp CUARDHART
 	dp FERALIGATR
 	dp FLAAFFY
 	dp FLAREON
 	dp FLIKLIT
 	dp FORRETRESS
-	dp FURRET
+	dp SCOURPOSS
 	dp GASTLY
 	dp GENGAR
 	dp GEODUDE
@@ -227,7 +227,7 @@ AlphabeticalPokedexOrder:
 	dp SEADRA
 	dp SEAKING
 	dp SEEL
-	dp SENTRET
+	dp TIDIPOSS
 	dp SHELLDER
 	dp SHUCKLE
 	dp SINISTEA
@@ -245,8 +245,8 @@ AlphabeticalPokedexOrder:
 	dp SNEASLER
 	dp SNORLAX
 	dp SNUBBULL
-	dp SPEAROW
-	dp SPINARAK
+	dp CRIBNAL
+	dp JOLTIK
 	dp STANTLER
 	dp STARMIE
 	dp STARYU

@@ -16,7 +16,7 @@ LeafeonFootprint::
 GlaceonFootprint:: INCBIN "gfx/footprints/umbreon_leafeon_glaceon.1bpp.lzp"
 
 PidgeyFootprint::
-SpearowFootprint:: INCBIN "gfx/footprints/pidgey_spearow.1bpp.lzp"
+CribnalFootprint:: INCBIN "gfx/footprints/pidgey_cribnal.1bpp.lz"
 
 CorsolaFootprint::
 CursolaFootprint:: INCBIN "gfx/footprints/corsola_cursola.1bpp.lzp"
@@ -158,8 +158,8 @@ DodrioFootprint:: INCBIN "gfx/footprints/dodrio.1bpp.lzp"
 GengarFootprint:: INCBIN "gfx/footprints/gengar.1bpp.lzp"
 DrowzeeFootprint:: INCBIN "gfx/footprints/drowzee.1bpp.lzp"
 HypnoFootprint:: INCBIN "gfx/footprints/hypno.1bpp.lzp"
-KrabbyFootprint:: INCBIN "gfx/footprints/krabby.1bpp.lzp"
-KinglerFootprint:: INCBIN "gfx/footprints/kingler.1bpp.lzp"
+CorphishFootprint:: INCBIN "gfx/footprints/corphish.1bpp.lz"
+CrawdauntFootprint:: INCBIN "gfx/footprints/crawdaunt.1bpp.lz"
 ExeggutorFootprint:: INCBIN "gfx/footprints/exeggutor.1bpp.lzp"
 CuboneFootprint:: INCBIN "gfx/footprints/cubone.1bpp.lzp"
 MarowakFootprint:: INCBIN "gfx/footprints/marowak.1bpp.lzp"
