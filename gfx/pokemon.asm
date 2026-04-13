@@ -368,15 +368,15 @@ HypnoFrontpic: INCBIN "gfx/pokemon/hypno/front.animated.2bpp.lzp"
 HypnoBackpic:  INCBIN "gfx/pokemon/hypno/back.2bpp.lzp"
 HypnoFrames:   INCLUDE "gfx/pokemon/hypno/frames.asm"
 
-SECTION "Krabby Pics", ROMX
-KrabbyFrontpic: INCBIN "gfx/pokemon/krabby/front.animated.2bpp.lzp"
-KrabbyBackpic:  INCBIN "gfx/pokemon/krabby/back.2bpp.lzp"
-KrabbyFrames:   INCLUDE "gfx/pokemon/krabby/frames.asm"
+SECTION "Corphish Pics", ROMX
+CorphishFrontpic: INCBIN "gfx/pokemon/corphish/front.animated.2bpp.lzp"
+CorphishBackpic:  INCBIN "gfx/pokemon/corphish/back.2bpp.lzp"
+CorphishFrames:   INCLUDE "gfx/pokemon/corphish/frames.asm"
 
-SECTION "Kingler Pics", ROMX
-KinglerFrontpic: INCBIN "gfx/pokemon/kingler/front.animated.2bpp.lzp"
-KinglerBackpic:  INCBIN "gfx/pokemon/kingler/back.2bpp.lzp"
-KinglerFrames:   INCLUDE "gfx/pokemon/kingler/frames.asm"
+SECTION "Crawdaunt Pics", ROMX
+CrawdauntFrontpic: INCBIN "gfx/pokemon/crawdaunt/front.animated.2bpp.lzp"
+CrawdauntBackpic:  INCBIN "gfx/pokemon/crawdaunt/back.2bpp.lzp"
+CrawdauntFrames:   INCLUDE "gfx/pokemon/crawdaunt/frames.asm"
 
 SECTION "Exeggcute Pics", ROMX
 ExeggcuteFrontpic: INCBIN "gfx/pokemon/exeggcute/front.animated.2bpp.lzp"

@@ -976,7 +976,7 @@ MistyGroup:
 		tr_extra WATER_ABSORB
 		tr_evs 252 Def, 100 SDf
 		tr_moves SURF, FUTURE_SIGHT, ICE_BEAM, RAIN_DANCE
-	tr_mon 60, KINGLER, FEMALE
+	tr_mon 60, CRAWDAUNT, FEMALE
 		tr_extra HYPER_CUTTER
 		tr_evs 252 Atk, 100 Spe
 		tr_moves DEFENSE_CURL, STOMP, PROTECT, CRABHAMMER
@@ -999,7 +999,7 @@ MistyGroup:
 		tr_extra UNAWARE, DEF_UP_SPE_DOWN
 		tr_evs 252 HP, 4 SAt, 252 Def
 		tr_moves EARTHQUAKE, SCALD, RECOVER, ICE_BEAM
-	tr_mon 72, KINGLER @ LIFE_ORB, FEMALE
+	tr_mon 72, CRAWDAUNT @ LIFE_ORB, FEMALE
 		tr_extra SHEER_FORCE, SPE_UP_SATK_DOWN
 		tr_evs 252 Atk, 4 SDf, 252 Spe
 		tr_moves AGILITY, CRABHAMMER, X_SCISSOR, ROCK_SLIDE
@@ -5383,7 +5383,7 @@ SailorGroup:
 	def_trainer EUGENE, "Eugene"
 	tr_mon 17, POLIWHIRL
 	tr_mon 17, RATICATE
-	tr_mon 19, KRABBY
+	tr_mon 19, CORPHISH
 	end_trainer
 
 	def_trainer TERRELL, "Terrell"
@@ -5391,9 +5391,9 @@ SailorGroup:
 	end_trainer
 
 	def_trainer KENT, "Kent"
-	tr_mon 18, KRABBY
+	tr_mon 18, CORPHISH
 		tr_moves WATER_GUN, LEER, SCRATCH, DEFENSE_CURL
-	tr_mon 20, KRABBY
+	tr_mon 20, CORPHISH
 		tr_moves BUBBLE_BEAM, LEER, SCRATCH, DEFENSE_CURL
 	end_trainer
 
@@ -5409,7 +5409,7 @@ SailorGroup:
 	end_trainer
 
 	def_trainer GARRETT, "Garrett"
-	tr_mon 48, KINGLER
+	tr_mon 48, CRAWDAUNT
 	end_trainer
 
 	def_trainer KENNETH, "Kenneth"
@@ -5489,7 +5489,7 @@ SwimmerMGroup:
 	end_trainer
 
 	def_trainer MATHEW, "Mathew"
-	tr_mon 23, KRABBY
+	tr_mon 23, CORPHISH
 	end_trainer
 
 	def_trainer HAL, "Hal"
@@ -5579,7 +5579,7 @@ SwimmerMGroup:
 	end_trainer
 
 	def_trainer ARMAND, "Armand"
-	tr_mon 55, KINGLER
+	tr_mon 55, CRAWDAUNT
 	tr_mon 55, CLOYSTER
 	end_trainer
 
@@ -5599,7 +5599,7 @@ SwimmerMGroup:
 	end_trainer
 
 	def_trainer DUANE, "Duane"
-	tr_mon 60, KINGLER
+	tr_mon 60, CRAWDAUNT
 	tr_mon 60, KABUTOPS
 	end_trainer
 
@@ -6684,7 +6684,7 @@ CooltrainerMGroup:
 	def_trainer GAVEN1, "Gaven"
 	tr_mon 39, VICTREEBEL
 		tr_moves WRAP, TOXIC, ACID, RAZOR_LEAF
-	tr_mon 39, KINGLER
+	tr_mon 39, CRAWDAUNT
 		tr_moves BUBBLE_BEAM, STOMP, DIG, PROTECT
 	tr_mon 39, FLAREON
 		tr_moves MUD_SLAP, QUICK_ATTACK, BITE, FIRE_SPIN
@@ -6693,7 +6693,7 @@ CooltrainerMGroup:
 	def_trainer GAVEN2, "Gaven"
 	tr_mon 41, VICTREEBEL
 		tr_moves WRAP, TOXIC, ACID, RAZOR_LEAF
-	tr_mon 41, KINGLER
+	tr_mon 41, CRAWDAUNT
 		tr_moves BUBBLE_BEAM, STOMP, DIG, PROTECT
 	tr_mon 41, FLAREON
 		tr_moves MUD_SLAP, QUICK_ATTACK, BITE, FIRE_SPIN
@@ -6702,7 +6702,7 @@ CooltrainerMGroup:
 	def_trainer GAVEN3, "Gaven"
 	tr_mon 45, VICTREEBEL
 		tr_moves GIGA_DRAIN, TOXIC, SLUDGE_BOMB, RAZOR_LEAF
-	tr_mon 45, KINGLER @ KINGS_ROCK
+	tr_mon 45, CRAWDAUNT @ KINGS_ROCK
 		tr_moves SURF, STOMP, DIG, BLIZZARD
 	tr_mon 45, FLAREON
 		tr_moves FLAMETHROWER, QUICK_ATTACK, BITE, FIRE_SPIN
