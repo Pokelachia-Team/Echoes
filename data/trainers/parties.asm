@@ -1171,7 +1171,7 @@ JanineGroup:
 		tr_extra INNER_FOCUS
 		tr_evs 252 Atk, 164 Spe
 		tr_moves SCREECH, TOXIC, CONFUSE_RAY, AERIAL_ACE
-	tr_mon 61, ARIADOS, FEMALE
+	tr_mon 61, GALVANTULA, FEMALE
 		tr_extra SWARM
 		tr_evs 252 Atk, 164 SAt
 		tr_moves AGILITY, POISON_JAB, SUCKER_PUNCH, LEECH_LIFE
@@ -1198,7 +1198,7 @@ JanineGroup:
 		tr_extra INNER_FOCUS, SPE_UP_SATK_DOWN
 		tr_evs 252 Atk, 4 Def, 252 Spe
 		tr_moves U_TURN, POISON_JAB, BRAVE_BIRD, CRUNCH
-	tr_mon 72, ARIADOS @ FOCUS_SASH, FEMALE
+	tr_mon 72, GALVANTULA @ FOCUS_SASH, FEMALE
 		tr_extra SWARM, ATK_UP_SATK_DOWN
 		tr_evs 252 Atk, 4 Def, 252 Spe
 		tr_moves TOXIC_SPIKES, POISON_JAB, SUCKER_PUNCH, LEECH_LIFE
@@ -2454,7 +2454,7 @@ BugCatcherGroup:
 	end_trainer
 
 	def_trainer KEN, "Ken"
-	tr_mon 46, ARIADOS
+	tr_mon 46, GALVANTULA
 	tr_mon 47, PINSIR
 	end_trainer
 
@@ -2776,13 +2776,13 @@ TwinsGroup:
 
 	def_trainer_class TWINS
 	def_trainer AMYANDMIMI1, "Amy & Mimi"
-	tr_mon 13, SPINARAK
+	tr_mon 13, JOLTIK
 	tr_mon 13, LEDYBA
 	end_trainer
 
 	def_trainer AMYANDMIMI2, "Amy & Mimi"
 	tr_mon 13, LEDYBA
-	tr_mon 13, SPINARAK
+	tr_mon 13, JOLTIK
 	end_trainer
 
 	def_trainer ANNANDANNE1, "Tori & Til"
@@ -4351,7 +4351,7 @@ BugManiacGroup:
 
 	def_trainer DOUG, "Doug"
 	tr_mon 59, BUTTERFREE
-	tr_mon 57, ARIADOS
+	tr_mon 57, GALVANTULA
 	end_trainer
 
 	def_trainer DANE, "Dane"
@@ -4360,7 +4360,7 @@ BugManiacGroup:
 	end_trainer
 
 	def_trainer DION, "Dion"
-	tr_mon 63, ARIADOS
+	tr_mon 63, GALVANTULA
 	end_trainer
 
 	def_trainer STACEY, "Stacey"
@@ -4652,7 +4652,7 @@ SchoolboyGroup:
 
 	def_trainer JOHNNY, "Johnny"
 	tr_mon 18, "Gold", BELLSPROUT @ GOLD_LEAF
-	tr_mon 16, "Spin", SPINARAK
+	tr_mon 16, "Spin", JOLTIK
 	tr_mon 17, "Rat", RATTATA @ ORAN_BERRY
 	end_trainer
 

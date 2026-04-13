@@ -3,7 +3,7 @@ Footprints:: ; needed for BANK(Footprints)
 VenomothFootprint::
 FliklitFootprint::
 KabutoFootprint::
-SpinarakFootprint:: INCBIN "gfx/footprints/circle_small.1bpp.lzp"
+JoltikFootprint:: INCBIN "gfx/footprints/circle_small.1bpp.lzp"
 
 CaterpieFootprint::
 WeedleFootprint::
@@ -208,7 +208,7 @@ HoothootFootprint:: INCBIN "gfx/footprints/hoothoot.1bpp.lzp"
 NoctowlFootprint:: INCBIN "gfx/footprints/noctowl.1bpp.lzp"
 LedybaFootprint:: INCBIN "gfx/footprints/ledyba.1bpp.lzp"
 LedianFootprint:: INCBIN "gfx/footprints/ledian.1bpp.lzp"
-AriadosFootprint:: INCBIN "gfx/footprints/ariados.1bpp.lzp"
+GalvantulaFootprint:: INCBIN "gfx/footprints/galvantula.1bpp.lzp"
 PichuFootprint:: INCBIN "gfx/footprints/pichu.1bpp.lzp"
 CleffaFootprint:: INCBIN "gfx/footprints/cleffa.1bpp.lzp"
 IgglybuffFootprint:: INCBIN "gfx/footprints/igglybuff.1bpp.lzp"
