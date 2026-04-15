@@ -2235,9 +2235,8 @@ endc
 	learnset 54, GYRO_BALL
 	learnset 58, MIRROR_COAT
 
-	evos_attacks Exeggcute
-	evo_data EVOLVE_ITEM, LEAF_STONE, EXEGGUTOR, PLAIN_FORM
-	evo_data EVOLVE_ITEM, ODD_SOUVENIR, EXEGGUTOR, ALOLAN_FORM
+	evos_attacks Cottonee
+	evo_data EVOLVE_ITEM, LEAF_STONE, WHIMSICOTT, PLAIN_FORM
 	learnset 1, TACKLE ; Barrage → new move
 	learnset 1, HYPNOSIS
 	learnset 7, REFLECT
@@ -2254,7 +2253,7 @@ endc
 	learnset 47, EXTRASENSORY
 	learnset 50, PSYCHIC_M ; Bestow → TM move
 
-	evos_attacks ExeggutorPlain
+	evos_attacks Whimsicott
 	learnset 1, TACKLE ; Barrage → new move
 	learnset 1, HYPNOSIS
 	learnset 1, CONFUSION
@@ -2263,16 +2262,6 @@ endc
 	learnset 27, ZEN_HEADBUTT ; Egg Bomb → tutor move
 	learnset 37, POWER_WHIP ; Wood Hammer → new move
 	learnset 47, PETAL_DANCE ; Leaf Storm → new move
-
-	evos_attacks ExeggutorAlolan
-	learnset 1, TACKLE ; Barrage → new move
-	learnset 1, HYPNOSIS
-	learnset 1, CONFUSION
-	learnset 1, DRAGON_PULSE ; evolution move
-	learnset 17, DRAGON_RAGE ; Psyshock → new move
-	learnset 27, ZEN_HEADBUTT ; Egg Bomb → tutor move
-	learnset 37, POWER_WHIP ; Wood Hammer → new move
-	learnset 47, OUTRAGE ; Leaf Storm → S/M TM move
 
 	evos_attacks Cubone
 	evo_data EVOLVE_LEVEL, 28, MAROWAK, PLAIN_FORM

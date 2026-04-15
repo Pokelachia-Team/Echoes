@@ -36,6 +36,7 @@ AlphabeticalPokedexOrder:
 	dp CONIFURY
 	dp CORPHISH
 	dp CORSOLA
+	dp COTTONEE
 	dp CRAWDAUNT
 	dp CROBAT
 	dp CROCONAW
@@ -66,8 +67,6 @@ AlphabeticalPokedexOrder:
 	dp ELEKID
 	dp ENTEI
 	dp ESPEON
-	dp EXEGGCUTE
-	dp EXEGGUTOR
 	dp FARIGIRAF
 	dp FARFETCH_D
 	dp CUARDHART
@@ -285,6 +284,7 @@ AlphabeticalPokedexOrder:
 	dp WEEDLE
 	dp WEEPINBELL
 	dp WEEZING
+	dp WHIMSICOTT
 	dp WIGGLYTUFF
 	dp WOBBUFFET
 	dp WOOPER

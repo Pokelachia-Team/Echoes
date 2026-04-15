@@ -187,7 +187,7 @@ DoOverworldSnow:
 	assert NO_PAL_LOADED == -1
 	inc a
 	jr z, .continue
-	farcall LoadWeatherPal
+	call LoadWeatherPal
 .continue
 rept 2
 	; spawn two snowflakes
@@ -698,7 +698,7 @@ DoOverworldSandstorm:
 	ld a, [wLoadedObjPal{d:PAL_OW_WEATHER}]
 	cp PAL_OW_SAND
 	jr z, .continue
-	farcall LoadWeatherPal
+	call LoadWeatherPal
 .continue
 rept 3
 	; spawn three sand drops
@@ -1277,10 +1277,10 @@ Lightning:
 	call PlaySFX
 	call DelayFrame
 	farcall LoadMapPals
-	farcall ClearSavedObjPals
+	call ClearSavedObjPals
 	ld hl, wPalFlags
 	set NO_DYN_PAL_APPLY_UNTIL_RESET_F, [hl]
-	farcall CheckForUsedObjPals
+	call CheckForUsedObjPals
 	farjp OWFadePalettesInit
 
 LoadWeatherGraphics:

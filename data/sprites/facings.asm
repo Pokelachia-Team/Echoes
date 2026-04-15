@@ -50,10 +50,6 @@ Facings:
 	dw FacingArchTreeRight    ; FACING_ARCH_TREE_RIGHT
 	dw FacingSailboatTop      ; FACING_SAILBOAT_TOP
 	dw FacingSailboatBottom   ; FACING_SAILBOAT_BOTTOM
-	dw FacingAlolanExeggutor0 ; FACING_ALOLAN_EXEGGUTOR_0
-	dw FacingAlolanExeggutor1 ; FACING_ALOLAN_EXEGGUTOR_1
-	dw FacingAlolanExeggutor2 ; FACING_ALOLAN_EXEGGUTOR_2
-	dw FacingAlolanExeggutor3 ; FACING_ALOLAN_EXEGGUTOR_3
 	dw FacingTinyWindows0     ; FACING_TINY_WINDOWS_0
 	dw FacingTinyWindows1     ; FACING_TINY_WINDOWS_1
 	dw FacingTinyWindows2     ; FACING_TINY_WINDOWS_2

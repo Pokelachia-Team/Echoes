@@ -5,8 +5,7 @@ PsychicInverGroup:
 
 	def_trainer_class INVER
 	def_trainer 1, "Inver"
-	tr_mon 65, EXEGGUTOR @ FIGY_BERRY, MALE
-		tr_extra HARVEST, SATK_UP_ATK_DOWN
+	tr_mon 65, WHIMSICOTT @ FIGY_BERRY, MALE
 		tr_moves PSYCHIC_M, SUNNY_DAY, HP_FIRE, SOLAR_BEAM
 	tr_mon 65, WEAVILE, MALE
 		tr_extra PICKPOCKET, ATK_UP_SATK_DOWN

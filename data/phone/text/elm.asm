@@ -435,15 +435,6 @@ ElmPhoneEvoText_Magneton:
 	cont "Cave have that."
 	prompt
 
-ElmPhoneEvoText_Exeggcute:
-	text_ram wStringBuffer3
-	line "evolves when it's"
-
-	para "exposed to a"
-	line "Leaf Stone or"
-	cont "an Odd Souvenir."
-	prompt
-
 ElmPhoneEvoText_Koffing:
 	text_ram wStringBuffer3
 	line "evolves at level"
