@@ -69,9 +69,9 @@ PokemonPicPointers::
 	pics Abra
 	pics Kadabra
 	pics Alakazam
-	pics Machop
-	pics Machoke
-	pics Machamp
+	pics Timburr
+	pics Gurdurr
+	pics Conkeldurr
 	pics Bellsprout
 	pics Weepinbell
 	pics Victreebel

@@ -72,9 +72,9 @@ PokemonBodyData:
 	body_data   9,  195, BIPEDAL_TAIL, BROWN  ; ABRA
 	body_data  13,  565, BIPEDAL_TAIL, BROWN  ; KADABRA
 	body_data  15,  480, BIPEDAL,      BROWN  ; ALAKAZAM
-	body_data   8,  195, BIPEDAL_TAIL, GRAY   ; MACHOP
-	body_data  15,  705, BIPEDAL,      GRAY   ; MACHOKE
-	body_data  16, 1300, BIPEDAL,      GRAY   ; MACHAMP
+	body_data   8,  195, BIPEDAL_TAIL, GRAY   ; TIMBURR
+	body_data  15,  705, BIPEDAL,      GRAY   ; GURDURR
+	body_data  16, 1300, BIPEDAL,      GRAY   ; CONKELDURR
 	body_data   7,   40, BIPEDAL,      GREEN  ; BELLSPROUT
 	body_data  10,   64, HEAD_BASE,    GREEN  ; WEEPINBELL
 	body_data  17,  155, HEAD_BASE,    GREEN  ; VICTREEBEL

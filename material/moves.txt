@@ -21,7 +21,7 @@ Slowbro: Metronome
 Lanturn: Earthquake
 Blissey: Reflect
 Drowzee: Strength
-Machamp: Swords Dance
+Conkeldurr: Swords Dance
 Skarmory: Hyper Beam
 Celebi: Fly
 Gengar: Quick Attack

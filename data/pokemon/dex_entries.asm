@@ -648,8 +648,8 @@ AlakazamPokedexEntry::
 	next "the edge in every"
 	next "battle.@"
 
-SECTION "MachopPokedexEntry", ROMX
-MachopPokedexEntry::
+SECTION "TimburrPokedexEntry", ROMX
+TimburrPokedexEntry::
 	db "Superpower@"
 	db   "It trains by"
 	next "lifting rocks in"
@@ -658,8 +658,8 @@ MachopPokedexEntry::
 	next "Graveler with"
 	next "ease.@"
 
-SECTION "MachokePokedexEntry", ROMX
-MachokePokedexEntry::
+SECTION "GurdurrPokedexEntry", ROMX
+GurdurrPokedexEntry::
 	db "Superpower@"
 	db   "This tough #mon"
 	next "always stays in"
@@ -668,8 +668,8 @@ MachokePokedexEntry::
 	next "thicker after"
 	next "every battle.@"
 
-SECTION "MachampPokedexEntry", ROMX
-MachampPokedexEntry::
+SECTION "ConkeldurrPokedexEntry", ROMX
+ConkeldurrPokedexEntry::
 	db "Superpower@"
 	db   "With four arms"
 	next "that react more"

@@ -65,9 +65,9 @@ EvolutionMoves::
 	db NO_MOVE      ; ABRA
 	db FORESIGHT    ; KADABRA
 	db FORESIGHT    ; ALAKAZAM
-	db NO_MOVE      ; MACHOP
-	db NO_MOVE      ; MACHOKE
-	db STRENGTH     ; MACHAMP
+	db NO_MOVE      ; TIMBURR
+	db NO_MOVE      ; GURDURR
+	db STRENGTH     ; CONKELDURR
 	db NO_MOVE      ; BELLSPROUT
 	db NO_MOVE      ; WEEPINBELL
 	db NO_MOVE      ; VICTREEBEL

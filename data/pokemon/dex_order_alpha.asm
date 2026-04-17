@@ -131,9 +131,9 @@ AlphabeticalPokedexOrder:
 	dp LICKILICKY
 	dp LICKITUNG
 	dp LUGIA
-	dp MACHAMP
-	dp MACHOKE
-	dp MACHOP
+	dp CONKELDURR
+	dp GURDURR
+	dp TIMBURR
 	dp MAGBY
 	dp MAGCARGO
 	dp MAGIKARP

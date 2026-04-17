@@ -66,9 +66,9 @@ ValidPokemonLevels: ; for Wonder Trade
 	db   1,  15 ; Abra
 	db  16,  35 ; Kadabra
 	db  36, 100 ; Alakazam
-	db   1,  27 ; Machop
-	db  28,  45 ; Machoke
-	db  46, 100 ; Machamp
+	db   1,  27 ; Timburr
+	db  28,  45 ; Gurdurr
+	db  46, 100 ; Conkeldurr
 	db   1,  20 ; Bellsprout
 	db  21,  31 ; Weepinbell
 	db  32, 100 ; Victreebel

@@ -201,7 +201,7 @@ _Availability:_
 - All Magikarp Jump forms are now included.
 
 _Evolution Methods:_
-- Machoke, Graveler (both Plain and Alolan forms), Haunter, and Kadabra now evolve using the Linking Cord item, and no longer evolve by level up when they have a specific amount of EVs.
+- Gurdurr, Graveler (both Plain and Alolan forms), Haunter, and Kadabra now evolve using the Linking Cord item, and no longer evolve by level up when they have a specific amount of EVs.
 - Bonsley evolves by leveling up while knowing Rock Throw.
 - Aipom evolves by leveling up while knowing Double Slap.
 - Koffing evolves into Galarian Weezing by leveling up while holding a Charcoal.

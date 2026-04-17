@@ -1330,8 +1330,8 @@ evos_attacks Cupico
 	learnset 43, CONFUSE_RAY ; Role Play → new move
 	learnset 46, FUTURE_SIGHT
 
-	evos_attacks Machop
-	evo_data EVOLVE_LEVEL, 28, MACHOKE
+	evos_attacks Timburr
+	evo_data EVOLVE_LEVEL, 28, GURDURR
 	learnset 1, LOW_KICK
 	learnset 1, LEER
 	learnset 3, FOCUS_ENERGY
@@ -1350,8 +1350,8 @@ evos_attacks Cupico
 	learnset 43, SCARY_FACE
 	learnset 45, DYNAMICPUNCH
 
-	evos_attacks Machoke
-	evo_data EVOLVE_TRADE, LINKING_CORD, MACHAMP
+	evos_attacks Gurdurr
+	evo_data EVOLVE_TRADE, LINKING_CORD, CONKELDURR
 	learnset 1, LOW_KICK
 	learnset 1, LEER
 	learnset 3, FOCUS_ENERGY
@@ -1370,7 +1370,7 @@ evos_attacks Cupico
 	learnset 53, SCARY_FACE
 	learnset 57, DYNAMICPUNCH
 
-	evos_attacks Machamp
+	evos_attacks Conkeldurr
 	learnset 1, STRENGTH ; evolution move
 	learnset 1, ROCK_BLAST ; Sw/Sh move
 	learnset 1, LOW_KICK

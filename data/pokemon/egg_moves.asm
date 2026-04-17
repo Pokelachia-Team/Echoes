@@ -314,8 +314,8 @@ AbraEggSpeciesMoves:
 	db KNOCK_OFF
 	db $ff
 
-MachopEggSpeciesMoves:
-	dp MACHOP, PLAIN_FORM
+TimburrEggSpeciesMoves:
+	dp TIMBURR, PLAIN_FORM
 	db BULLET_PUNCH
 	db ENCORE
 	db BULK_UP

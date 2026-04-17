@@ -65,9 +65,9 @@ FootprintPointers::
 	dw AbraFootprint
 	dw KadabraFootprint
 	dw AlakazamFootprint
-	dw MachopFootprint
-	dw MachokeFootprint
-	dw MachampFootprint
+	dw TimburrFootprint
+	dw GurdurrFootprint
+	dw ConkeldurrFootprint
 	dw BellsproutFootprint
 	dw WeepinbellFootprint
 	dw VictreebelFootprint

@@ -69,9 +69,9 @@ MiniIconPointers:
 	mini_icon Abra
 	mini_icon Kadabra
 	mini_icon Alakazam
-	mini_icon Machop
-	mini_icon Machoke
-	mini_icon Machamp
+	mini_icon Timburr
+	mini_icon Gurdurr
+	mini_icon Conkeldurr
 	mini_icon Bellsprout
 	mini_icon Weepinbell
 	mini_icon Victreebel

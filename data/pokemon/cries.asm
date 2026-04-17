@@ -71,9 +71,9 @@ PokemonCries::
 	mon_cry CRY_METAPOD,     $0c0,  $081 ; Abra
 	mon_cry CRY_METAPOD,     $0a8,  $140 ; Kadabra
 	mon_cry CRY_METAPOD,     $098,  $17f ; Alakazam
-	mon_cry CRY_GROWLITHE,   $0ee,  $081 ; Machop
-	mon_cry CRY_GROWLITHE,   $048,  $0e0 ; Machoke
-	mon_cry CRY_GROWLITHE,   $008,  $140 ; Machamp
+	mon_cry CRY_GROWLITHE,   $0ee,  $081 ; Timburr
+	mon_cry CRY_GROWLITHE,   $048,  $0e0 ; Gurdurr
+	mon_cry CRY_GROWLITHE,   $008,  $140 ; Conkeldurr
 	mon_cry CRY_PSYDUCK,     $055,  $081 ; Bellsprout
 	mon_cry CRY_WEEPINBELL,  $044,  $0a0 ; Weepinbell
 	mon_cry CRY_WEEPINBELL,  $066,  $14c ; Victreebel

@@ -65,9 +65,9 @@ EggSpeciesMovesPointers::
 	dw AbraEggSpeciesMoves              ; Abra
 	dw AbraEggSpeciesMoves              ; Kadabra
 	dw AbraEggSpeciesMoves              ; Alakazam
-	dw MachopEggSpeciesMoves            ; Machop
-	dw MachopEggSpeciesMoves            ; Machoke
-	dw MachopEggSpeciesMoves            ; Machamp
+	dw TimburrEggSpeciesMoves            ; Timburr
+	dw TimburrEggSpeciesMoves            ; Gurdurr
+	dw TimburrEggSpeciesMoves            ; Conkeldurr
 	dw BellsproutEggSpeciesMoves        ; Bellsprout
 	dw BellsproutEggSpeciesMoves        ; Weepinbell
 	dw BellsproutEggSpeciesMoves        ; Victreebel

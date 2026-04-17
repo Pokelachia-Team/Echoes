@@ -65,9 +65,9 @@ BitmasksPointers:
 	dw AbraBitmasks
 	dw KadabraBitmasks
 	dw AlakazamBitmasks
-	dw MachopBitmasks
-	dw MachokeBitmasks
-	dw MachampBitmasks
+	dw TimburrBitmasks
+	dw GurdurrBitmasks
+	dw ConkeldurrBitmasks
 	dw BellsproutBitmasks
 	dw WeepinbellBitmasks
 	dw VictreebelBitmasks

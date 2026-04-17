@@ -66,9 +66,9 @@ PokedexDataPointerTable:
 	dba AbraPokedexEntry
 	dba KadabraPokedexEntry
 	dba AlakazamPokedexEntry
-	dba MachopPokedexEntry
-	dba MachokePokedexEntry
-	dba MachampPokedexEntry
+	dba TimburrPokedexEntry
+	dba GurdurrPokedexEntry
+	dba ConkeldurrPokedexEntry
 	dba BellsproutPokedexEntry
 	dba WeepinbellPokedexEntry
 	dba VictreebelPokedexEntry

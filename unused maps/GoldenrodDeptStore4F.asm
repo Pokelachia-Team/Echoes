@@ -40,7 +40,7 @@ GoldenrodDeptStore4FBugCatcherText:
 	para "evolve if exposed"
 	line "to a Linking Cord:"
 
-	para "Machoke, Graveler,"
+	para "Gurdurr, Graveler,"
 	line "Kadabra, and"
 	cont "Haunter!"
 	done

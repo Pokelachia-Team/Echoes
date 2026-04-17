@@ -65,9 +65,9 @@ AnimationExtraPointers:
 	dw AbraAnimationExtra
 	dw KadabraAnimationExtra
 	dw AlakazamAnimationExtra
-	dw MachopAnimationExtra
-	dw MachokeAnimationExtra
-	dw MachampAnimationExtra
+	dw TimburrAnimationExtra
+	dw GurdurrAnimationExtra
+	dw ConkeldurrAnimationExtra
 	dw BellsproutAnimationExtra
 	dw WeepinbellAnimationExtra
 	dw VictreebelAnimationExtra
