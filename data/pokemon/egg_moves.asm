@@ -967,8 +967,8 @@ QwilfishHisuianEggSpeciesMoves:
 	dp QWILFISH, HISUIAN_FORM
 	db $ff
 
-ShuckleEggSpeciesMoves:
-	dp SHUCKLE, PLAIN_FORM
+DoozeeEggSpeciesMoves:
+	dp DOOZEE, PLAIN_FORM
 	db ROLLOUT
 	db ACID
 	db KNOCK_OFF

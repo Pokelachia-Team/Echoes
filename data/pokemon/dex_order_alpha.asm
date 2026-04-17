@@ -229,7 +229,7 @@ AlphabeticalPokedexOrder:
 	dp SEEL
 	dp TIDIPOSS
 	dp SHELLDER
-	dp SHUCKLE
+	dp DOOZEE
 	dp SINISTEA
 	dp SIRFETCH_D
 	dp SIZZOO

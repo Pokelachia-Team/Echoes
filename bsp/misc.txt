@@ -115,9 +115,9 @@ PrintBuild4VersionCheck:
 .build4_national_dex
 	string "National Dex matches this list "
 .build4_0_dex:
-	string "(no Shuckle): "
+	string "(no Doozee): "
 .build4_1_dex:
-	string "(Shuckle added, Leafeon/Glaceon/Porygon-Z indexes moved): "
+	string "(Doozee added, Leafeon/Glaceon/Porygon-Z indexes moved): "
 .build4_2_dex:
 	string "(same as 4.1): "
 .build4_5_dex:

@@ -2122,8 +2122,8 @@ ScizorPokedexEntry::
 	next "object it gets a"
 	next "hold of into bits.@"
 
-SECTION "ShucklePokedexEntry", ROMX
-ShucklePokedexEntry::
+SECTION "DoozeePokedexEntry", ROMX
+DoozeePokedexEntry::
 	db "Mold@"
 	db   "The fluid secreted"
 	next "by its toes carves"

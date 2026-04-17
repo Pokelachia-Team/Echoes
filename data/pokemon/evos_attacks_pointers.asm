@@ -216,7 +216,7 @@ EvosAttacksPointers::
 	dw GranbullEvosAttacks
 	dw QwilfishPlainEvosAttacks
 	dw ScizorEvosAttacks
-	dw ShuckleEvosAttacks
+	dw DoozeeEvosAttacks
 	dw HeracrossEvosAttacks
 	dw SneaselPlainEvosAttacks
 	dw TeddiursaEvosAttacks

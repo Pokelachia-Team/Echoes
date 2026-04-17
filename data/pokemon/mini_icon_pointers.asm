@@ -216,7 +216,7 @@ MiniIconPointers:
 	mini_icon Granbull
 	mini_icon Qwilfish
 	mini_icon Scizor
-	mini_icon Shuckle
+	mini_icon Doozee
 	mini_icon Heracross
 	mini_icon Sneasel
 	mini_icon Teddiursa

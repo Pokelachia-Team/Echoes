@@ -218,7 +218,7 @@ PokemonCries::
 	mon_cry CRY_DUNSPARCE,   $000,  $180 ; Granbull
 	mon_cry CRY_SLOWKING,    $160,  $0e0 ; Qwilfish
 	mon_cry CRY_AMPHAROS,    $000,  $160 ; Scizor
-	mon_cry CRY_DUNSPARCE,   $290,  $0a8 ; Shuckle
+	mon_cry CRY_DUNSPARCE,   $290,  $0a8 ; Doozee
 	mon_cry CRY_AMPHAROS,    $035,  $0e0 ; Heracross
 	mon_cry CRY_WOOPER,      $053,  $0af ; Sneasel
 	mon_cry CRY_TEDDIURSA,   $7a2,  $06e ; Teddiursa

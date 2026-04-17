@@ -1067,10 +1067,10 @@ ScizorMini::     INCBIN "gfx/minis/scizor.2bpp.lzp"
 ScizorMiniMask:: INCBIN "gfx/minis/scizor_mask.1bpp.lzp"
 ScizorIcon::     INCBIN "gfx/icons/scizor.2bpp.lzp"
 
-SECTION "Shuckle Mini Icon", ROMX
-ShuckleMini::     INCBIN "gfx/minis/shuckle.2bpp.lzp"
-ShuckleMiniMask:: INCBIN "gfx/minis/shuckle_mask.1bpp.lzp"
-ShuckleIcon::     INCBIN "gfx/icons/shuckle.2bpp.lzp"
+SECTION "Doozee Mini Icon", ROMX
+DoozeeMini::     INCBIN "gfx/minis/doozee.2bpp.lzp"
+DoozeeMiniMask:: INCBIN "gfx/minis/doozee_mask.1bpp.lzp"
+DoozeeIcon::     INCBIN "gfx/icons/doozee.2bpp.lzp"
 
 SECTION "Heracross Mini Icon", ROMX
 HeracrossMini::     INCBIN "gfx/minis/heracross.2bpp.lzp"

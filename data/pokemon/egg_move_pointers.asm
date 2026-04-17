@@ -212,7 +212,7 @@ EggSpeciesMovesPointers::
 	dw SnubbullEggSpeciesMoves          ; Granbull
 	dw QwilfishEggSpeciesMoves          ; Qwilfish
 	dw ScytherEggSpeciesMoves           ; Scizor
-	dw ShuckleEggSpeciesMoves           ; Shuckle
+	dw DoozeeEggSpeciesMoves           ; Doozee
 	dw HeracrossEggSpeciesMoves         ; Heracross
 	dw SneaselEggSpeciesMoves           ; Sneasel
 	dw TeddiursaEggSpeciesMoves         ; Teddiursa

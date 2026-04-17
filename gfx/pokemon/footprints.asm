@@ -84,6 +84,7 @@ WeezingFootprint::
 ZubatFootprint::
 SizzooFootprint::
 PyroborosFootprint::
+DoozeeFootprint::
 SinisteaFootprint:: 
 PoltegeistFootprint::
 DebriteFootprint::
@@ -240,7 +241,6 @@ GligarFootprint:: INCBIN "gfx/footprints/gligar.1bpp.lzp"
 SnubbullFootprint:: INCBIN "gfx/footprints/snubbull.1bpp.lzp"
 GranbullFootprint:: INCBIN "gfx/footprints/granbull.1bpp.lzp"
 ScizorFootprint:: INCBIN "gfx/footprints/scizor.1bpp.lzp"
-ShuckleFootprint:: INCBIN "gfx/footprints/shuckle.1bpp.lzp"
 HeracrossFootprint:: INCBIN "gfx/footprints/heracross.1bpp.lzp"
 SneaselFootprint:: INCBIN "gfx/footprints/sneasel.1bpp.lzp"
 TeddiursaFootprint:: INCBIN "gfx/footprints/teddiursa.1bpp.lzp"

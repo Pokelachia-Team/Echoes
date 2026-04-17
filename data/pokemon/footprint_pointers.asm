@@ -212,7 +212,7 @@ FootprintPointers::
 	dw GranbullFootprint
 	dw QwilfishFootprint
 	dw ScizorFootprint
-	dw ShuckleFootprint
+	dw DoozeeFootprint
 	dw HeracrossFootprint
 	dw SneaselFootprint
 	dw TeddiursaFootprint

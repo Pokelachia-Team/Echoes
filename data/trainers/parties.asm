@@ -3918,7 +3918,7 @@ PokemaniacGroup:
 	end_trainer
 
 	def_trainer ENZO, "Enzo"
-	tr_mon LEVEL_FROM_BADGES + 8, SHUCKLE
+	tr_mon LEVEL_FROM_BADGES + 8, DOOZEE
 	end_trainer
 
 	def_trainer MILLER, "Miller"

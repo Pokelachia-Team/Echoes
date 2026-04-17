@@ -213,7 +213,7 @@ PokemonNames::
 	rawchar "Granbull@@"
 	rawchar "Qwilfish@@"
 	rawchar "Scizor@@@@"
-	rawchar "Shuckle@@@"
+	rawchar "Doozee@@@@"
 	rawchar "Heracross@"
 	rawchar "Sneasel@@@"
 	rawchar "Teddiursa@"

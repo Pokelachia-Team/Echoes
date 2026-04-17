@@ -217,7 +217,7 @@ endc
 	db  23, 100 ; Granbull
 	db   1,  32 ; Qwilfish
 	db  20, 100 ; Scizor
-	db   1, 100 ; Shuckle
+	db   1, 100 ; Doozee
 	db  10, 100 ; Heracross
 	db   1,  39 ; Sneasel
 	db   1,  29 ; Teddiursa

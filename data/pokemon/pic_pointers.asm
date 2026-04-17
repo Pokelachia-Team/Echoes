@@ -216,7 +216,7 @@ PokemonPicPointers::
 	pics Granbull
 	pics QwilfishPlain
 	pics Scizor
-	pics Shuckle
+	pics Doozee
 	pics Heracross
 	pics SneaselPlain
 	pics Teddiursa

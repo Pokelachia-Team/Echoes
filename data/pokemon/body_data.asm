@@ -219,7 +219,7 @@ PokemonBodyData:
 	body_data  14,  487, BIPEDAL_TAIL, PURPLE ; GRANBULL
 	body_data   5,   39, FINS,         GRAY   ; QWILFISH
 	body_data  18, 1180, MULTIWINGS,   RED    ; SCIZOR
-	body_data   6,  205, INSECTOID,    YELLOW ; SHUCKLE
+	body_data   6,  205, INSECTOID,    YELLOW ; DOOZEE
 	body_data  15,  540, BIPEDAL,      BLUE   ; HERACROSS
 	body_data   9,  280, BIPEDAL_TAIL, BLACK  ; SNEASEL
 	body_data   6,   88, BIPEDAL_TAIL, BROWN  ; TEDDIURSA

@@ -196,7 +196,7 @@ NewPokedexOrder:
 	dp TENTACRUEL
 	dp CORPHISH
 	dp CRAWDAUNT
-	dp SHUCKLE
+	dp DOOZEE
 	dp STARYU
 	dp STARMIE
 	dp SHELLDER

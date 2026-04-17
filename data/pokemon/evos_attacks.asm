@@ -4495,7 +4495,7 @@ endc
 	learnset 50, IRON_HEAD
 	learnset 57, SWORDS_DANCE
 
-	evos_attacks Shuckle
+	evos_attacks Doozee
 	learnset 1, MUD_SLAP ; Constrict → GSC TM move
 	learnset 1, DEFENSE_CURL ; Withdraw → similar move
 	learnset 1, ROLLOUT

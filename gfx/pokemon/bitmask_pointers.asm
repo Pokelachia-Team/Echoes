@@ -212,7 +212,7 @@ BitmasksPointers:
 	dw GranbullBitmasks
 	dw QwilfishPlainBitmasks
 	dw ScizorBitmasks
-	dw ShuckleBitmasks
+	dw DoozeeBitmasks
 	dw HeracrossBitmasks
 	dw SneaselPlainBitmasks
 	dw TeddiursaBitmasks
