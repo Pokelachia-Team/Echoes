@@ -42,21 +42,21 @@ InitMapNameSign::
 	call .CheckSpecialMap
 	jr z, .dont_do_map_sign
 
-	ld a, [wCurLandmark]
-	cp LUCKY_ISLAND
-	jr nz, .not_lucky_island
-	eventflagcheck EVENT_LUCKY_ISLAND_CIVILIANS
-	jr nz, .dont_do_map_sign
-.not_lucky_island
+; 	ld a, [wCurLandmark]
+; 	cp LUCKY_ISLAND
+; 	jr nz, .not_lucky_island
+; 	eventflagcheck EVENT_LUCKY_ISLAND_CIVILIANS
+; 	jr nz, .dont_do_map_sign
+; .not_lucky_island
 
-; Vermilion City runs a scene_script by default
-	ld a, [wCurLandmark]
-	cp VERMILION_CITY
-	jr nz, .not_vermilion_city
-	ld a, [wVermilionCitySceneID]
-	and a
-	jr z, .dont_do_map_sign
-.not_vermilion_city
+; ; Vermilion City runs a scene_script by default
+; 	ld a, [wCurLandmark]
+; 	cp VERMILION_CITY
+; 	jr nz, .not_vermilion_city
+; 	ld a, [wVermilionCitySceneID]
+; 	and a
+; 	jr z, .dont_do_map_sign
+; .not_vermilion_city
 
 ; Landmark sign timer: descends $74-$00
 ; $73-$68: Sliding out (old sign)
@@ -115,44 +115,44 @@ InitMapNameSign::
 	ret
 
 .CheckSpecialMap:
-	cp -1
-	ret z
-	and a ; cp SPECIAL_MAP
-	ret z
-	cp RADIO_TOWER
-	ret z
-	cp LAV_RADIO_TOWER
-	ret z
-	cp UNDERGROUND_PATH
-	ret z
-	cp POWER_PLANT
-	ret z
-	cp SOUL_HOUSE
-	ret z
-	cp CINNABAR_LAB
-	ret z
-	ld a, $1
-	and a
+	; cp -1
+	; ret z
+	; and a ; cp SPECIAL_MAP
+	; ret z
+	; cp RADIO_TOWER
+	; ret z
+	; cp LAV_RADIO_TOWER
+	; ret z
+	; cp UNDERGROUND_PATH
+	; ret z
+	; cp POWER_PLANT
+	; ret z
+	; cp SOUL_HOUSE
+	; ret z
+	; cp CINNABAR_LAB
+	; ret z
+	; ld a, $1
+	; and a
 	ret
 
 .CheckExcludedMap:
 	ld a, [wMapGroup]
-	assert GROUP_ROUTE_35_NATIONAL_PARK_GATE == GROUP_ROUTE_36_NATIONAL_PARK_GATE
-	cp GROUP_ROUTE_35_NATIONAL_PARK_GATE
-	jr nz, .not_national_park_gate
-	ld a, [wMapNumber]
-	cp MAP_ROUTE_35_NATIONAL_PARK_GATE
-	ret z
-	cp MAP_ROUTE_36_NATIONAL_PARK_GATE
+	; assert GROUP_ROUTE_35_NATIONAL_PARK_GATE == GROUP_ROUTE_36_NATIONAL_PARK_GATE
+	; cp GROUP_ROUTE_35_NATIONAL_PARK_GATE
+	; jr nz, .not_national_park_gate
+	; ld a, [wMapNumber]
+	; cp MAP_ROUTE_35_NATIONAL_PARK_GATE
+	; ret z
+	; cp MAP_ROUTE_36_NATIONAL_PARK_GATE
 	ret
 .not_national_park_gate
-	assert GROUP_OLIVINE_PORT == GROUP_VERMILION_PORT
-	cp GROUP_OLIVINE_PORT
-	ret nz
-	ld a, [wMapNumber]
-	cp MAP_OLIVINE_PORT
-	ret z
-	cp MAP_VERMILION_PORT
+	; assert GROUP_OLIVINE_PORT == GROUP_VERMILION_PORT
+	; cp GROUP_OLIVINE_PORT
+	; ret nz
+	; ld a, [wMapNumber]
+	; cp MAP_OLIVINE_PORT
+	; ret z
+	; cp MAP_VERMILION_PORT
 	ret
 
 PlaceMapNameSign::

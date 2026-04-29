@@ -86,8 +86,8 @@ PokeCenterSpecialCase:
 	jr z, .got_roof_pal
 	; Snowtop Mountain has brown floors
 	call GetWorldMapLocation
-	cp SNOWTOP_MOUNTAIN
-	ld hl, wBGPals1 palette PAL_BG_BROWN
+	; cp SNOWTOP_MOUNTAIN
+	; ld hl, wBGPals1 palette PAL_BG_BROWN
 	jr z, .got_roof_pal
 	; Johto has red floors
 	ld hl, wBGPals1 palette PAL_BG_RED
@@ -130,10 +130,10 @@ HiddenGrottoSpecialCase:
 .got_palette
 	call LoadSevenBGPalettes
 	ld a, [wBackupMapGroup]
-	cp GROUP_BELLCHIME_TRAIL
-	jr nz, .not_bellchime_trail_grotto
-	ld a, [wBackupMapNumber]
-	cp MAP_BELLCHIME_TRAIL
+	; cp GROUP_BELLCHIME_TRAIL
+	; jr nz, .not_bellchime_trail_grotto
+	; ld a, [wBackupMapNumber]
+	; cp MAP_BELLCHIME_TRAIL
 	jr nz, .not_bellchime_trail_grotto
 	ld hl, wBGPals1 palette PAL_BG_RED
 	ld de, wBGPals1 palette PAL_BG_GREEN
@@ -141,10 +141,10 @@ HiddenGrottoSpecialCase:
 	call FarCopyColorWRAM
 	jr .continue
 .not_bellchime_trail_grotto
-	cp GROUP_CHERRYGROVE_BAY
-	jr nz, .done
-	ld a, [wBackupMapNumber]
-	cp MAP_CHERRYGROVE_BAY
+	; cp GROUP_CHERRYGROVE_BAY
+	; jr nz, .done
+	; ld a, [wBackupMapNumber]
+	; cp MAP_CHERRYGROVE_BAY
 	jr nz, .done
 	ld hl, wBGPals1 palette PAL_BG_GRAY
 	ld de, wBGPals1 palette PAL_BG_GREEN

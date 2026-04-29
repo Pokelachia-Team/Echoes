@@ -20,23 +20,23 @@ EnterMapSpawnPoint:
 	ld [wXCoord], a
 	ld a, [hli]
 	ld [wYCoord], a
-	ld a, [wDefaultSpawnpoint]
-	; don't spawn on top of Archer
-	cp SPAWN_YELLOW_FOREST
-	jr nz, .not_yellow_forest
-	eventflagcheck EVENT_CLEARED_YELLOW_FOREST
-	jr nz, .done
-	ld a, 12
-	ld [wXCoord], a
-	jr .done
-.not_yellow_forest
-	; don't spawn within the area of Misty's date
-	cp SPAWN_CERULEAN_CAPE
-	jr nz, .done
-	eventflagcheck EVENT_CERULEAN_CAPE_BOYFRIEND
-	jr nz, .done
-	ld a, 14
-	ld [wYCoord], a
+; 	ld a, [wDefaultSpawnpoint]
+; 	; don't spawn on top of Archer
+; 	cp SPAWN_YELLOW_FOREST
+; 	jr nz, .not_yellow_forest
+; 	eventflagcheck EVENT_CLEARED_YELLOW_FOREST
+; 	jr nz, .done
+; 	ld a, 12
+; 	ld [wXCoord], a
+; 	jr .done
+; .not_yellow_forest
+; 	; don't spawn within the area of Misty's date
+; 	cp SPAWN_CERULEAN_CAPE
+; 	jr nz, .done
+; 	eventflagcheck EVENT_CERULEAN_CAPE_BOYFRIEND
+; 	jr nz, .done
+; 	ld a, 14
+; 	ld [wYCoord], a
 .done
 	pop de
 	pop hl

@@ -8,11 +8,7 @@ NewBarkTown_MapScriptHeader:
 	callback MAPCALLBACK_NEWMAP, NewBarkTownFlyPoint
 
 	def_warp_events
-	warp_event  6,  3, ELMS_LAB, 1
 	warp_event 15,  5, PLAYERS_HOUSE_1F, 1
-	warp_event  3, 11, PLAYERS_NEIGHBORS_HOUSE, 1
-	warp_event 11, 13, LYRAS_HOUSE_1F, 1
-	warp_event 10,  2, ELMS_HOUSE, 2
 
 	def_coord_events
 	coord_event  1,  8, SCENE_NEWBARKTOWN_TEACHER_STOPS_YOU, NewBarkTown_TeacherStopsYouTrigger1
@@ -77,26 +73,26 @@ NewBarkTown_TeacherStopsYouTrigger2:
 	end
 
 NewBarkTown_LyraIntroTrigger:
-	appear NEWBARKTOWN_LYRA
-	special Special_FadeOutMusic
-	applymovement NEWBARKTOWN_LYRA, Movement_LyraEnters_NBT
-	playmusic MUSIC_LYRA_ENCOUNTER_HGSS
-	showemote EMOTE_SHOCK, NEWBARKTOWN_LYRA, 15
-	applymovement NEWBARKTOWN_LYRA, Movement_LyraApproaches_NBT
-	turnobject PLAYER, LEFT
-	showtext Text_LyraIntro
-	follow PLAYER, NEWBARKTOWN_LYRA
-	applyonemovement PLAYER, step_up
-	stopfollow
-	playsound SFX_EXIT_BUILDING
-	disappear PLAYER
-	applyonemovement NEWBARKTOWN_LYRA, step_up
-	playsound SFX_EXIT_BUILDING
-	disappear NEWBARKTOWN_LYRA
-	setscene SCENE_NEWBARKTOWN_NOOP
-	special FadeOutPalettes
-	pause 15
-	warpfacing UP, ELMS_LAB, 4, 11
+	; appear NEWBARKTOWN_LYRA
+	; special Special_FadeOutMusic
+	; applymovement NEWBARKTOWN_LYRA, Movement_LyraEnters_NBT
+	; playmusic MUSIC_LYRA_ENCOUNTER_HGSS
+	; showemote EMOTE_SHOCK, NEWBARKTOWN_LYRA, 15
+	; applymovement NEWBARKTOWN_LYRA, Movement_LyraApproaches_NBT
+	; turnobject PLAYER, LEFT
+	; showtext Text_LyraIntro
+	; follow PLAYER, NEWBARKTOWN_LYRA
+	; applyonemovement PLAYER, step_up
+	; stopfollow
+	; playsound SFX_EXIT_BUILDING
+	; disappear PLAYER
+	; applyonemovement NEWBARKTOWN_LYRA, step_up
+	; playsound SFX_EXIT_BUILDING
+	; disappear NEWBARKTOWN_LYRA
+	; setscene SCENE_NEWBARKTOWN_NOOP
+	; special FadeOutPalettes
+	; pause 15
+	; ; warpfacing UP, ELMS_LAB, 4, 11
 	end
 
 NewBarkTown_LyraFinalTrigger1:

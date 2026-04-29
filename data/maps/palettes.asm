@@ -22,75 +22,7 @@ MACRO special_bg_pal
 	dw \4 ; source
 ENDM
 	special_bg_pal darkness, (unused),                    PAL_SINGLE,    DarknessBGPalette
-	special_bg_pal map,      SILVER_CAVE_ROOM_1,          PAL_SINGLE,    SilverCavePalette
-	special_bg_pal map,      SILVER_CAVE_ROOM_2,          PAL_SINGLE,    SilverCavePalette
-	special_bg_pal map,      SILVER_CAVE_ROOM_3,          PAL_TIMEOFDAY, MountSilverPeakPalette
-	special_bg_pal map,      SILVER_CAVE_ITEM_ROOMS,      PAL_SINGLE,    SilverCavePalette
-	special_bg_pal map,      DRAGON_SHRINE,               PAL_SINGLE,    DragonShrinePalette
-	special_bg_pal overcast, ECRUTEAK_CITY,               PAL_TIMEOFDAY, VioletEcruteakPalette_Overcast
-	special_bg_pal map,      ECRUTEAK_CITY,               PAL_TIMEOFDAY, VioletEcruteakPalette
-	special_bg_pal map,      VIOLET_GYM,                  PAL_SINGLE,    VioletGymPalette
-	special_bg_pal map,      ECRUTEAK_GYM,                PAL_SINGLE,    EcruteakGymPalette
-	special_bg_pal map,      MAHOGANY_GYM,                PAL_SINGLE,    MahoganyGymPalette
-	special_bg_pal map,      BLACKTHORN_GYM_1F,           PAL_SINGLE,    BlackthornGym1FPalette
-	special_bg_pal map,      BLACKTHORN_GYM_2F,           PAL_SINGLE,    BlackthornGym1FPalette
-	special_bg_pal map,      CINNABAR_LAB,                PAL_SINGLE,    CinnabarLabPalette
-	special_bg_pal map,      PEWTER_GYM,                  PAL_SINGLE,    PewterGymPalette
-	special_bg_pal map,      CERULEAN_GYM,                PAL_SINGLE,    CeruleanGymPalette
-	special_bg_pal map,      VERMILION_GYM,               PAL_SINGLE,    VermilionGymPalette
-	special_bg_pal map,      CELADON_GYM,                 PAL_SINGLE,    CeladonGymPalette
-	special_bg_pal map,      FUCHSIA_GYM,                 PAL_SINGLE,    FuchsiaGymPalette
-	special_bg_pal map,      SAFFRON_GYM,                 PAL_SINGLE,    SaffronGymPalette
-	special_bg_pal map,      VIRIDIAN_GYM,                PAL_SINGLE,    ViridianGymPalette
-	special_bg_pal map,      FIGHTING_DOJO,               PAL_SINGLE,    FightingDojoPalette
-	special_bg_pal overcast, VIOLET_CITY,                 PAL_TIMEOFDAY, VioletEcruteakPalette_Overcast
-	special_bg_pal map,      VIOLET_CITY,                 PAL_TIMEOFDAY, VioletEcruteakPalette
-	special_bg_pal map,      MURKY_SWAMP,                 PAL_SINGLE,    MurkySwampPalette
-	special_bg_pal overcast, GOLDENROD_DEPT_STORE_ROOF,   PAL_TIMEOFDAY, GoldenrodDeptStoreRoofPalette_Overcast
-	special_bg_pal map,      GOLDENROD_DEPT_STORE_ROOF,   PAL_TIMEOFDAY, GoldenrodDeptStoreRoofPalette
-	special_bg_pal map,      GOLDENROD_MUSEUM_1F,         PAL_SINGLE,    GoldenrodMuseumPalette
-	special_bg_pal map,      GOLDENROD_MUSEUM_2F,         PAL_SINGLE,    GoldenrodMuseumPalette
-	special_bg_pal map,      MAGNET_TUNNEL_INSIDE,        PAL_SINGLE,    MagnetTunnelPalette
-	special_bg_pal map,      OAKS_LAB,                    PAL_SINGLE,    OaksLabPalette
-	special_bg_pal overcast, TIN_TOWER_ROOF,              PAL_TIMEOFDAY, TinTowerRoofPalette_Overcast
-	special_bg_pal map,      TIN_TOWER_ROOF,              PAL_TIMEOFDAY, TinTowerRoofPalette
-	special_bg_pal map,      WILLS_ROOM,                  PAL_SINGLE,    WillsRoomPalette
-	special_bg_pal map,      KOGAS_ROOM,                  PAL_SINGLE,    KogasRoomPalette
-	special_bg_pal map,      BRUNOS_ROOM,                 PAL_SINGLE,    BrunosRoomPalette
-	special_bg_pal map,      KARENS_ROOM,                 PAL_SINGLE,    KarensRoomPalette
-	special_bg_pal map,      LANCES_ROOM,                 PAL_SINGLE,    LancesRoomPalette
 	special_bg_pal map,      HALL_OF_FAME,                PAL_SINGLE,    LancesRoomPalette
-	special_bg_pal overcast, BELLCHIME_TRAIL,             PAL_TIMEOFDAY, BellchimeTrailPalette_Overcast
-	special_bg_pal map,      BELLCHIME_TRAIL,             PAL_TIMEOFDAY, BellchimeTrailPalette
-	special_bg_pal map,      HAUNTED_RADIO_TOWER_2F,      PAL_SINGLE,    HauntedRadioTowerPalette
-	special_bg_pal map,      HAUNTED_RADIO_TOWER_3F,      PAL_SINGLE,    HauntedRadioTowerPalette
-	special_bg_pal map,      HAUNTED_RADIO_TOWER_4F,      PAL_SINGLE,    HauntedPokemonTowerPalette
-	special_bg_pal map,      HAUNTED_RADIO_TOWER_5F,      PAL_SINGLE,    HauntedPokemonTowerPalette
-	special_bg_pal map,      HAUNTED_RADIO_TOWER_6F,      PAL_SINGLE,    HauntedPokemonTowerPalette
-	special_bg_pal map,      NAVEL_ROCK_INSIDE,           PAL_SINGLE,    NavelRockPalette
-	special_bg_pal map,      NAVEL_ROCK_ROOF,             PAL_TIMEOFDAY, NavelRockPalette
-	special_bg_pal overcast, YELLOW_FOREST,               PAL_TIMEOFDAY, YellowForestPalette_Overcast
-	special_bg_pal map,      YELLOW_FOREST,               PAL_TIMEOFDAY, YellowForestPalette
-	special_bg_pal overcast, CELADON_MANSION_ROOF,        PAL_TIMEOFDAY, CeladonMansionRoofPalette_Overcast
-	special_bg_pal map,      CELADON_MANSION_ROOF,        PAL_TIMEOFDAY, CeladonMansionRoofPalette
-	special_bg_pal map,      CELADON_HOME_DECOR_STORE_4F, PAL_SINGLE,    CeladonHomeDecorStore4FPalette
-	special_bg_pal map,      LIGHTNING_ISLAND,            PAL_SINGLE,    LightningIslandPalette
-	special_bg_pal map,      IVYS_LAB,                    PAL_SINGLE,    IvysLabPalette
-	special_bg_pal overcast, RUGGED_ROAD_NORTH,           PAL_TIMEOFDAY, RuggedRoadNorthPalette_Overcast
-	special_bg_pal map,      RUGGED_ROAD_NORTH,           PAL_TIMEOFDAY, RuggedRoadNorthPalette
-	special_bg_pal map,      SNOWTOP_MOUNTAIN_INSIDE,     PAL_TIMEOFDAY, RuggedRoadNorthPalette
-	special_bg_pal overcast, SINJOH_RUINS,                PAL_TIMEOFDAY, SinjohRuinsPalette_Overcast
-	special_bg_pal map,      SINJOH_RUINS,                PAL_TIMEOFDAY, SinjohRuinsPalette
-	special_bg_pal map,      MYSTRI_STAGE,                PAL_SINGLE,    MystriStagePalette
-	special_bg_pal map,      EMBEDDED_TOWER,              PAL_SINGLE,    EmbeddedTowerPalette
-	special_bg_pal landmark, SPROUT_TOWER,                PAL_SINGLE,    SproutTowerPalette
-	special_bg_pal landmark, WHIRL_ISLANDS,               PAL_SINGLE,    WhirlIslandsPalette
-	special_bg_pal landmark, MT_MORTAR,                   PAL_SINGLE,    DarkCavePalette
-	special_bg_pal landmark, DARK_CAVE,                   PAL_SINGLE,    DarkCavePalette
-	special_bg_pal landmark, CERULEAN_CAVE,               PAL_SINGLE,    CeruleanCavePalette
-	special_bg_pal landmark, DIM_CAVE,                    PAL_SINGLE,    DimCavePalette
-	special_bg_pal landmark, SCARY_CAVE,                  PAL_SINGLE,    ScaryCavePalette
-	special_bg_pal landmark, CINNABAR_VOLCANO,            PAL_SINGLE,    CinnabarVolcanoPalette
 	special_bg_pal tileset,  TILESET_SHAMOUTI_ISLAND,     PAL_TIMEOFDAY, ShamoutiIslandPalette
 	special_bg_pal tileset,  TILESET_VALENCIA_ISLAND,     PAL_TIMEOFDAY, ValenciaIslandPalette
 	special_bg_pal tileset,  TILESET_FARAWAY_ISLAND,      PAL_TIMEOFDAY, FarawayIslandPalette
