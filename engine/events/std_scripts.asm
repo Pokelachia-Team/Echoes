@@ -359,92 +359,92 @@ BugContestResultsWarpScript:
 	setevent EVENT_ROUTE_36_NATIONAL_PARK_GATE_OFFICER_CONTEST_DAY
 	clearevent EVENT_ROUTE_36_NATIONAL_PARK_GATE_OFFICER_NOT_CONTEST_DAY
 	setevent EVENT_WARPED_FROM_ROUTE_35_NATIONAL_PARK_GATE
-	warp ROUTE_36_NATIONAL_PARK_GATE, $0, $4
+	; warp ROUTE_36_NATIONAL_PARK_GATE, $0, $4
 	applymovement PLAYER, Movement_ContestResults_WalkAfterWarp
 	; fallthrough
 
 BugContestResultsScript:
-	clearflag ENGINE_BUG_CONTEST_TIMER
-	clearevent EVENT_WARPED_FROM_ROUTE_35_NATIONAL_PARK_GATE
-	clearevent EVENT_CONTEST_OFFICER_HAS_PRIZE
-	opentext
-	farwritetext ContestResults_ReadyToJudgeText
-	waitbutton
-	special BugContestJudging
-	getnum STRING_BUFFER_3
-	ifequalfwd 1, .FirstPlace
-	ifequalfwd 2, .SecondPlace
-	ifequalfwd 3, .ThirdPlace
-	readmem wBugContestOfficerPrize
-	getitemname USE_SCRIPT_VAR, STRING_BUFFER_4
-	farwritetext ContestResults_ConsolationPrizeText
-	promptbutton
-	waitsfx
-	readmem wBugContestOfficerPrize
-	verbosegiveitem ITEM_FROM_MEM
-	iftruefwd .GotConsolationPrize
-	farwritetext BugContestPrizeNoRoomText
-	promptbutton
-	setevent EVENT_CONTEST_OFFICER_HAS_PRIZE
-.GotConsolationPrize
-	farwritetext ContestResults_DidNotWinText
-	promptbutton
-	sjumpfwd .FinishUp
+; 	clearflag ENGINE_BUG_CONTEST_TIMER
+; 	clearevent EVENT_WARPED_FROM_ROUTE_35_NATIONAL_PARK_GATE
+; 	clearevent EVENT_CONTEST_OFFICER_HAS_PRIZE
+; 	opentext
+; 	farwritetext ContestResults_ReadyToJudgeText
+; 	waitbutton
+; 	special BugContestJudging
+; 	getnum STRING_BUFFER_3
+; 	ifequalfwd 1, .FirstPlace
+; 	ifequalfwd 2, .SecondPlace
+; 	ifequalfwd 3, .ThirdPlace
+; 	readmem wBugContestOfficerPrize
+; 	getitemname USE_SCRIPT_VAR, STRING_BUFFER_4
+; 	farwritetext ContestResults_ConsolationPrizeText
+; 	promptbutton
+; 	waitsfx
+; 	readmem wBugContestOfficerPrize
+; 	verbosegiveitem ITEM_FROM_MEM
+; 	iftruefwd .GotConsolationPrize
+; 	farwritetext BugContestPrizeNoRoomText
+; 	promptbutton
+; 	setevent EVENT_CONTEST_OFFICER_HAS_PRIZE
+; .GotConsolationPrize
+; 	farwritetext ContestResults_DidNotWinText
+; 	promptbutton
+; 	sjumpfwd .FinishUp
 
-.FirstPlace
-	setevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
-.SecondPlace
-.ThirdPlace
-	readmem wBugContestOfficerPrize
-	getitemname USE_SCRIPT_VAR, STRING_BUFFER_4
-	farwritetext ContestResults_PlayerWonAPrizeText
-	waitbutton
-	readmem wBugContestOfficerPrize
-	verbosegiveitem ITEM_FROM_MEM
-	iftruefwd .GotWinnersPrize
-	farwritetext BugContestPrizeNoRoomText
-	promptbutton
-	setevent EVENT_CONTEST_OFFICER_HAS_PRIZE
-.GotWinnersPrize
-	farwritetext ContestResults_JoinUsNextTimeText
-	promptbutton
-.FinishUp
-	checkevent EVENT_LEFT_MONS_WITH_CONTEST_OFFICER
-	iffalsefwd .DidNotLeaveMons
-	farwritetext ContestResults_ReturnPartyText
-	waitbutton
-	special ContestReturnMons
-.DidNotLeaveMons
-	special CheckPartyFullAfterContest
-	ifequalfwd $0, .CleanUp
-	ifequalfwd $2, .CleanUp
-	farwritetext ContestResults_PartyFullText
-	waitbutton
-.CleanUp
-	closetext
-	setscene $0
-	setmapscene ROUTE_35_NATIONAL_PARK_GATE, SCENE_ROUTE35NATIONALPARKGATE_NOOP
-	setevent EVENT_BUG_CATCHING_CONTESTANT_1A
-	setevent EVENT_BUG_CATCHING_CONTESTANT_2A
-	setevent EVENT_BUG_CATCHING_CONTESTANT_3A
-	setevent EVENT_BUG_CATCHING_CONTESTANT_4A
-	setevent EVENT_BUG_CATCHING_CONTESTANT_5A
-	setevent EVENT_BUG_CATCHING_CONTESTANT_6A
-	setevent EVENT_BUG_CATCHING_CONTESTANT_7A
-	setevent EVENT_BUG_CATCHING_CONTESTANT_8A
-	setevent EVENT_BUG_CATCHING_CONTESTANT_9A
-	setevent EVENT_BUG_CATCHING_CONTESTANT_10A
-	setevent EVENT_BUG_CATCHING_CONTESTANT_1B
-	setevent EVENT_BUG_CATCHING_CONTESTANT_2B
-	setevent EVENT_BUG_CATCHING_CONTESTANT_3B
-	setevent EVENT_BUG_CATCHING_CONTESTANT_4B
-	setevent EVENT_BUG_CATCHING_CONTESTANT_5B
-	setevent EVENT_BUG_CATCHING_CONTESTANT_6B
-	setevent EVENT_BUG_CATCHING_CONTESTANT_7B
-	setevent EVENT_BUG_CATCHING_CONTESTANT_8B
-	setevent EVENT_BUG_CATCHING_CONTESTANT_9B
-	setevent EVENT_BUG_CATCHING_CONTESTANT_10B
-	setflag ENGINE_DAILY_BUG_CONTEST
+; .FirstPlace
+; 	setevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
+; .SecondPlace
+; .ThirdPlace
+; 	readmem wBugContestOfficerPrize
+; 	getitemname USE_SCRIPT_VAR, STRING_BUFFER_4
+; 	farwritetext ContestResults_PlayerWonAPrizeText
+; 	waitbutton
+; 	readmem wBugContestOfficerPrize
+; 	verbosegiveitem ITEM_FROM_MEM
+; 	iftruefwd .GotWinnersPrize
+; 	farwritetext BugContestPrizeNoRoomText
+; 	promptbutton
+; 	setevent EVENT_CONTEST_OFFICER_HAS_PRIZE
+; .GotWinnersPrize
+; 	farwritetext ContestResults_JoinUsNextTimeText
+; 	promptbutton
+; .FinishUp
+; 	checkevent EVENT_LEFT_MONS_WITH_CONTEST_OFFICER
+; 	iffalsefwd .DidNotLeaveMons
+; 	farwritetext ContestResults_ReturnPartyText
+; 	waitbutton
+; 	special ContestReturnMons
+; .DidNotLeaveMons
+; 	special CheckPartyFullAfterContest
+; 	ifequalfwd $0, .CleanUp
+; 	ifequalfwd $2, .CleanUp
+; 	farwritetext ContestResults_PartyFullText
+; 	waitbutton
+; .CleanUp
+; 	closetext
+; 	setscene $0
+; 	setmapscene ROUTE_35_NATIONAL_PARK_GATE, SCENE_ROUTE35NATIONALPARKGATE_NOOP
+; 	setevent EVENT_BUG_CATCHING_CONTESTANT_1A
+; 	setevent EVENT_BUG_CATCHING_CONTESTANT_2A
+; 	setevent EVENT_BUG_CATCHING_CONTESTANT_3A
+; 	setevent EVENT_BUG_CATCHING_CONTESTANT_4A
+; 	setevent EVENT_BUG_CATCHING_CONTESTANT_5A
+; 	setevent EVENT_BUG_CATCHING_CONTESTANT_6A
+; 	setevent EVENT_BUG_CATCHING_CONTESTANT_7A
+; 	setevent EVENT_BUG_CATCHING_CONTESTANT_8A
+; 	setevent EVENT_BUG_CATCHING_CONTESTANT_9A
+; 	setevent EVENT_BUG_CATCHING_CONTESTANT_10A
+; 	setevent EVENT_BUG_CATCHING_CONTESTANT_1B
+; 	setevent EVENT_BUG_CATCHING_CONTESTANT_2B
+; 	setevent EVENT_BUG_CATCHING_CONTESTANT_3B
+; 	setevent EVENT_BUG_CATCHING_CONTESTANT_4B
+; 	setevent EVENT_BUG_CATCHING_CONTESTANT_5B
+; 	setevent EVENT_BUG_CATCHING_CONTESTANT_6B
+; 	setevent EVENT_BUG_CATCHING_CONTESTANT_7B
+; 	setevent EVENT_BUG_CATCHING_CONTESTANT_8B
+; 	setevent EVENT_BUG_CATCHING_CONTESTANT_9B
+; 	setevent EVENT_BUG_CATCHING_CONTESTANT_10B
+; 	setflag ENGINE_DAILY_BUG_CONTEST
 	special PlayMapMusic
 	end
 
@@ -494,172 +494,172 @@ BugContestResults_CopyContestantsToResults:
 AskNumber1MScript:
 	special RandomPhoneMon
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
-	ifequalfwd PHONE_SAILOR_HUEY, .Huey
-	ifequalfwd PHONE_COOLTRAINERM_GAVEN, .Gaven
-	ifequalfwd PHONE_BIRDKEEPER_JOSE, .Jose
-	ifequalfwd PHONE_YOUNGSTER_JOEY, .Joey
-	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
-	ifequalfwd PHONE_FISHER_RALPH, .Ralph
-	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
-	ifequalfwd PHONE_CAMPER_TODD, .Todd
-	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
-	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
-	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
-	ifequalfwd PHONE_SCHOOLBOY_CHAD, .Chad
-	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
-	ifequalfwd PHONE_FISHER_TULLY, .Tully
-	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
-	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
-	ifequalfwd PHONE_FISHER_WILTON, .Wilton
-	ifequalfwd PHONE_BLACKBELT_KENJI, .Kenji
-	ifequalfwd PHONE_HIKER_PARRY, .Parry
+; 	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
+; 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
+; 	ifequalfwd PHONE_COOLTRAINERM_GAVEN, .Gaven
+; 	ifequalfwd PHONE_BIRDKEEPER_JOSE, .Jose
+; 	ifequalfwd PHONE_YOUNGSTER_JOEY, .Joey
+; 	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
+; 	ifequalfwd PHONE_FISHER_RALPH, .Ralph
+; 	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
+; 	ifequalfwd PHONE_CAMPER_TODD, .Todd
+; 	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
+; 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
+; 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
+; 	ifequalfwd PHONE_SCHOOLBOY_CHAD, .Chad
+; 	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
+; 	ifequalfwd PHONE_FISHER_TULLY, .Tully
+; 	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
+; 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
+; 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
+; 	ifequalfwd PHONE_BLACKBELT_KENJI, .Kenji
+; 	ifequalfwd PHONE_HIKER_PARRY, .Parry
 
-.Jack:
-	farwritetext JackAskNumber1Text
-	end
-.Huey:
-	farwritetext HueyAskNumber1Text
-	end
-.Gaven:
-	farwritetext GavenAskNumber1Text
-	end
-.Jose:
-	farwritetext JoseAskNumber1Text
-	end
-.Joey:
-	farwritetext JoeyAskNumber1Text
-	end
-.Wade:
-	farwritetext WadeAskNumber1Text
-	end
-.Ralph:
-	farwritetext RalphAskNumber1Text
-	end
-.Anthony:
-	farwritetext AnthonyAskNumber1Text
-	end
-.Todd:
-	farwritetext ToddAskNumber1Text
-	end
-.Irwin:
-	farwritetext IrwinAskNumber1Text
-	end
-.Arnie:
-	farwritetext ArnieAskNumber1Text
-	end
-.Alan:
-	farwritetext AlanAskNumber1Text
-	end
-.Chad:
-	farwritetext ChadAskNumber1Text
-	end
-.Derek:
-	farwritetext DerekAskNumber1Text
-	end
-.Tully:
-	farwritetext TullyAskNumber1Text
-	end
-.Brent:
-	farwritetext BrentAskNumber1Text
-	end
-.Vance:
-	farwritetext VanceAskNumber1Text
-	end
-.Wilton:
-	farwritetext WiltonAskNumber1Text
-	end
-.Kenji:
-	farwritetext KenjiAskNumber1Text
-	end
-.Parry:
-	farwritetext ParryAskNumber1Text
-	end
+; .Jack:
+; 	farwritetext JackAskNumber1Text
+; 	end
+; .Huey:
+; 	farwritetext HueyAskNumber1Text
+; 	end
+; .Gaven:
+; 	farwritetext GavenAskNumber1Text
+; 	end
+; .Jose:
+; 	farwritetext JoseAskNumber1Text
+; 	end
+; .Joey:
+; 	farwritetext JoeyAskNumber1Text
+; 	end
+; .Wade:
+; 	farwritetext WadeAskNumber1Text
+; 	end
+; .Ralph:
+; 	farwritetext RalphAskNumber1Text
+; 	end
+; .Anthony:
+; 	farwritetext AnthonyAskNumber1Text
+; 	end
+; .Todd:
+; 	farwritetext ToddAskNumber1Text
+; 	end
+; .Irwin:
+; 	farwritetext IrwinAskNumber1Text
+; 	end
+; .Arnie:
+; 	farwritetext ArnieAskNumber1Text
+; 	end
+; .Alan:
+; 	farwritetext AlanAskNumber1Text
+; 	end
+; .Chad:
+; 	farwritetext ChadAskNumber1Text
+; 	end
+; .Derek:
+; 	farwritetext DerekAskNumber1Text
+; 	end
+; .Tully:
+; 	farwritetext TullyAskNumber1Text
+; 	end
+; .Brent:
+; 	farwritetext BrentAskNumber1Text
+; 	end
+; .Vance:
+; 	farwritetext VanceAskNumber1Text
+; 	end
+; .Wilton:
+; 	farwritetext WiltonAskNumber1Text
+; 	end
+; .Kenji:
+; 	farwritetext KenjiAskNumber1Text
+; 	end
+; .Parry:
+; 	farwritetext ParryAskNumber1Text
+; 	end
 
 AskNumber2MScript:
 	special RandomPhoneMon
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
-	ifequalfwd PHONE_SAILOR_HUEY, .Huey
-	ifequalfwd PHONE_COOLTRAINERM_GAVEN, .Gaven
-	ifequalfwd PHONE_BIRDKEEPER_JOSE, .Jose
-	ifequalfwd PHONE_YOUNGSTER_JOEY, .Joey
-	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
-	ifequalfwd PHONE_FISHER_RALPH, .Ralph
-	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
-	ifequalfwd PHONE_CAMPER_TODD, .Todd
-	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
-	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
-	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
-	ifequalfwd PHONE_SCHOOLBOY_CHAD, .Chad
-	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
-	ifequalfwd PHONE_FISHER_TULLY, .Tully
-	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
-	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
-	ifequalfwd PHONE_FISHER_WILTON, .Wilton
-	ifequalfwd PHONE_BLACKBELT_KENJI, .Kenji
-	ifequalfwd PHONE_HIKER_PARRY, .Parry
+; 	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
+; 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
+; 	ifequalfwd PHONE_COOLTRAINERM_GAVEN, .Gaven
+; 	ifequalfwd PHONE_BIRDKEEPER_JOSE, .Jose
+; 	ifequalfwd PHONE_YOUNGSTER_JOEY, .Joey
+; 	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
+; 	ifequalfwd PHONE_FISHER_RALPH, .Ralph
+; 	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
+; 	ifequalfwd PHONE_CAMPER_TODD, .Todd
+; 	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
+; 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
+; 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
+; 	ifequalfwd PHONE_SCHOOLBOY_CHAD, .Chad
+; 	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
+; 	ifequalfwd PHONE_FISHER_TULLY, .Tully
+; 	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
+; 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
+; 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
+; 	ifequalfwd PHONE_BLACKBELT_KENJI, .Kenji
+; 	ifequalfwd PHONE_HIKER_PARRY, .Parry
 
-.Jack:
-	farwritetext JackAskNumber2Text
-	end
-.Huey:
-	farwritetext HueyAskNumber2Text
-	end
-.Gaven:
-	farwritetext GavenAskNumber2Text
-	end
-.Jose:
-	farwritetext JoseAskNumber2Text
-	end
-.Joey:
-	farwritetext JoeyAskNumber2Text
-	end
-.Wade:
-	farwritetext WadeAskNumber2Text
-	end
-.Ralph:
-	farwritetext RalphAskNumber2Text
-	end
-.Anthony:
-	farwritetext AnthonyAskNumber2Text
-	end
-.Todd:
-	farwritetext ToddAskNumber2Text
-	end
-.Irwin:
-	farwritetext IrwinAskNumber2Text
-	end
-.Arnie:
-	farwritetext ArnieAskNumber2Text
-	end
-.Alan:
-	farwritetext AlanAskNumber2Text
-	end
-.Chad:
-	farwritetext ChadAskNumber2Text
-	end
-.Derek:
-	farwritetext DerekAskNumber2Text
-	end
-.Tully:
-	farwritetext TullyAskNumber2Text
-	end
-.Brent:
-	farwritetext BrentAskNumber2Text
-	end
-.Vance:
-	farwritetext VanceAskNumber2Text
-	end
-.Wilton:
-	farwritetext WiltonAskNumber2Text
-	end
-.Kenji:
-	farwritetext KenjiAskNumber2Text
-	end
-.Parry:
-	farwritetext ParryAskNumber2Text
-	end
+; .Jack:
+; 	farwritetext JackAskNumber2Text
+; 	end
+; .Huey:
+; 	farwritetext HueyAskNumber2Text
+; 	end
+; .Gaven:
+; 	farwritetext GavenAskNumber2Text
+; 	end
+; .Jose:
+; 	farwritetext JoseAskNumber2Text
+; 	end
+; .Joey:
+; 	farwritetext JoeyAskNumber2Text
+; 	end
+; .Wade:
+; 	farwritetext WadeAskNumber2Text
+; 	end
+; .Ralph:
+; 	farwritetext RalphAskNumber2Text
+; 	end
+; .Anthony:
+; 	farwritetext AnthonyAskNumber2Text
+; 	end
+; .Todd:
+; 	farwritetext ToddAskNumber2Text
+; 	end
+; .Irwin:
+; 	farwritetext IrwinAskNumber2Text
+; 	end
+; .Arnie:
+; 	farwritetext ArnieAskNumber2Text
+; 	end
+; .Alan:
+; 	farwritetext AlanAskNumber2Text
+; 	end
+; .Chad:
+; 	farwritetext ChadAskNumber2Text
+; 	end
+; .Derek:
+; 	farwritetext DerekAskNumber2Text
+; 	end
+; .Tully:
+; 	farwritetext TullyAskNumber2Text
+; 	end
+; .Brent:
+; 	farwritetext BrentAskNumber2Text
+; 	end
+; .Vance:
+; 	farwritetext VanceAskNumber2Text
+; 	end
+; .Wilton:
+; 	farwritetext WiltonAskNumber2Text
+; 	end
+; .Kenji:
+; 	farwritetext KenjiAskNumber2Text
+; 	end
+; .Parry:
+; 	farwritetext ParryAskNumber2Text
+; 	end
 
 RegisteredNumberMScript:
 	farwritetext RegisteredNumber1Text
@@ -670,594 +670,594 @@ RegisteredNumberMScript:
 
 NumberAcceptedMScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
-	ifequalfwd PHONE_SAILOR_HUEY, .Huey
-	ifequalfwd PHONE_COOLTRAINERM_GAVEN, .Gaven
-	ifequalfwd PHONE_BIRDKEEPER_JOSE, .Jose
-	ifequalfwd PHONE_YOUNGSTER_JOEY, .Joey
-	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
-	ifequalfwd PHONE_FISHER_RALPH, .Ralph
-	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
-	ifequalfwd PHONE_CAMPER_TODD, .Todd
-	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
-	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
-	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
-	ifequalfwd PHONE_SCHOOLBOY_CHAD, .Chad
-	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
-	ifequalfwd PHONE_FISHER_TULLY, .Tully
-	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
-	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
-	ifequalfwd PHONE_FISHER_WILTON, .Wilton
-	ifequalfwd PHONE_BLACKBELT_KENJI, .Kenji
-	ifequalfwd PHONE_HIKER_PARRY, .Parry
+; 	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
+; 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
+; 	ifequalfwd PHONE_COOLTRAINERM_GAVEN, .Gaven
+; 	ifequalfwd PHONE_BIRDKEEPER_JOSE, .Jose
+; 	ifequalfwd PHONE_YOUNGSTER_JOEY, .Joey
+; 	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
+; 	ifequalfwd PHONE_FISHER_RALPH, .Ralph
+; 	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
+; 	ifequalfwd PHONE_CAMPER_TODD, .Todd
+; 	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
+; 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
+; 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
+; 	ifequalfwd PHONE_SCHOOLBOY_CHAD, .Chad
+; 	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
+; 	ifequalfwd PHONE_FISHER_TULLY, .Tully
+; 	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
+; 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
+; 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
+; 	ifequalfwd PHONE_BLACKBELT_KENJI, .Kenji
+; 	ifequalfwd PHONE_HIKER_PARRY, .Parry
 
-.Jack:
-	farwritetext JackNumberAcceptedText
-	waitendtext
+; .Jack:
+; 	farwritetext JackNumberAcceptedText
+; 	waitendtext
 
-.Huey:
-	farwritetext HueyNumberAcceptedText
-	waitendtext
+; .Huey:
+; 	farwritetext HueyNumberAcceptedText
+; 	waitendtext
 
-.Gaven:
-	farwritetext GavenNumberAcceptedText
-	waitendtext
+; .Gaven:
+; 	farwritetext GavenNumberAcceptedText
+; 	waitendtext
 
-.Jose:
-	farwritetext JoseNumberAcceptedText
-	waitendtext
+; .Jose:
+; 	farwritetext JoseNumberAcceptedText
+; 	waitendtext
 
-.Joey:
-	farwritetext JoeyNumberAcceptedText
-	waitendtext
+; .Joey:
+; 	farwritetext JoeyNumberAcceptedText
+; 	waitendtext
 
-.Wade:
-	farwritetext WadeNumberAcceptedText
-	waitendtext
+; .Wade:
+; 	farwritetext WadeNumberAcceptedText
+; 	waitendtext
 
-.Ralph:
-	farwritetext RalphNumberAcceptedText
-	waitendtext
+; .Ralph:
+; 	farwritetext RalphNumberAcceptedText
+; 	waitendtext
 
-.Anthony:
-	farwritetext AnthonyNumberAcceptedText
-	waitendtext
+; .Anthony:
+; 	farwritetext AnthonyNumberAcceptedText
+; 	waitendtext
 
-.Todd:
-	farwritetext ToddNumberAcceptedText
-	waitendtext
+; .Todd:
+; 	farwritetext ToddNumberAcceptedText
+; 	waitendtext
 
-.Irwin:
-	farwritetext IrwinNumberAcceptedText
-	waitendtext
+; .Irwin:
+; 	farwritetext IrwinNumberAcceptedText
+; 	waitendtext
 
-.Arnie:
-	farwritetext ArnieNumberAcceptedText
-	waitendtext
+; .Arnie:
+; 	farwritetext ArnieNumberAcceptedText
+; 	waitendtext
 
-.Alan:
-	farwritetext AlanNumberAcceptedText
-	waitendtext
+; .Alan:
+; 	farwritetext AlanNumberAcceptedText
+; 	waitendtext
 
-.Chad:
-	farwritetext ChadNumberAcceptedText
-	waitendtext
+; .Chad:
+; 	farwritetext ChadNumberAcceptedText
+; 	waitendtext
 
-.Derek:
-	farwritetext DerekNumberAcceptedText
-	waitendtext
+; .Derek:
+; 	farwritetext DerekNumberAcceptedText
+; 	waitendtext
 
-.Tully:
-	farwritetext TullyNumberAcceptedText
-	waitendtext
+; .Tully:
+; 	farwritetext TullyNumberAcceptedText
+; 	waitendtext
 
-.Brent:
-	farwritetext BrentNumberAcceptedText
-	waitendtext
+; .Brent:
+; 	farwritetext BrentNumberAcceptedText
+; 	waitendtext
 
-.Vance:
-	farwritetext VanceNumberAcceptedText
-	waitendtext
+; .Vance:
+; 	farwritetext VanceNumberAcceptedText
+; 	waitendtext
 
-.Wilton:
-	farwritetext WiltonNumberAcceptedText
-	waitendtext
+; .Wilton:
+; 	farwritetext WiltonNumberAcceptedText
+; 	waitendtext
 
-.Kenji:
-	farwritetext KenjiNumberAcceptedText
-	waitendtext
+; .Kenji:
+; 	farwritetext KenjiNumberAcceptedText
+; 	waitendtext
 
-.Parry:
-	farwritetext ParryNumberAcceptedText
-	waitendtext
+; .Parry:
+; 	farwritetext ParryNumberAcceptedText
+; 	waitendtext
 
 NumberDeclinedMScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
-	ifequalfwd PHONE_SAILOR_HUEY, .Huey
-	ifequalfwd PHONE_COOLTRAINERM_GAVEN, .Gaven
-	ifequalfwd PHONE_BIRDKEEPER_JOSE, .Jose
-	ifequalfwd PHONE_YOUNGSTER_JOEY, .Joey
-	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
-	ifequalfwd PHONE_FISHER_RALPH, .Ralph
-	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
-	ifequalfwd PHONE_CAMPER_TODD, .Todd
-	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
-	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
-	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
-	ifequalfwd PHONE_SCHOOLBOY_CHAD, .Chad
-	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
-	ifequalfwd PHONE_FISHER_TULLY, .Tully
-	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
-	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
-	ifequalfwd PHONE_FISHER_WILTON, .Wilton
-	ifequalfwd PHONE_BLACKBELT_KENJI, .Kenji
-	ifequalfwd PHONE_HIKER_PARRY, .Parry
+; 	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
+; 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
+; 	ifequalfwd PHONE_COOLTRAINERM_GAVEN, .Gaven
+; 	ifequalfwd PHONE_BIRDKEEPER_JOSE, .Jose
+; 	ifequalfwd PHONE_YOUNGSTER_JOEY, .Joey
+; 	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
+; 	ifequalfwd PHONE_FISHER_RALPH, .Ralph
+; 	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
+; 	ifequalfwd PHONE_CAMPER_TODD, .Todd
+; 	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
+; 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
+; 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
+; 	ifequalfwd PHONE_SCHOOLBOY_CHAD, .Chad
+; 	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
+; 	ifequalfwd PHONE_FISHER_TULLY, .Tully
+; 	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
+; 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
+; 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
+; 	ifequalfwd PHONE_BLACKBELT_KENJI, .Kenji
+; 	ifequalfwd PHONE_HIKER_PARRY, .Parry
 
-.Jack:
-	farwritetext JackNumberDeclinedText
-	waitendtext
+; .Jack:
+; 	farwritetext JackNumberDeclinedText
+; 	waitendtext
 
-.Huey:
-	farwritetext HueyNumberDeclinedText
-	waitendtext
+; .Huey:
+; 	farwritetext HueyNumberDeclinedText
+; 	waitendtext
 
-.Gaven:
-	farwritetext GavenNumberDeclinedText
-	waitendtext
+; .Gaven:
+; 	farwritetext GavenNumberDeclinedText
+; 	waitendtext
 
-.Jose:
-	farwritetext JoseNumberDeclinedText
-	waitendtext
+; .Jose:
+; 	farwritetext JoseNumberDeclinedText
+; 	waitendtext
 
-.Joey:
-	farwritetext JoeyNumberDeclinedText
-	waitendtext
+; .Joey:
+; 	farwritetext JoeyNumberDeclinedText
+; 	waitendtext
 
-.Wade:
-	farwritetext WadeNumberDeclinedText
-	waitendtext
+; .Wade:
+; 	farwritetext WadeNumberDeclinedText
+; 	waitendtext
 
-.Ralph:
-	farwritetext RalphNumberDeclinedText
-	waitendtext
+; .Ralph:
+; 	farwritetext RalphNumberDeclinedText
+; 	waitendtext
 
-.Anthony:
-	farwritetext AnthonyNumberDeclinedText
-	waitendtext
+; .Anthony:
+; 	farwritetext AnthonyNumberDeclinedText
+; 	waitendtext
 
-.Todd:
-	farwritetext ToddNumberDeclinedText
-	waitendtext
+; .Todd:
+; 	farwritetext ToddNumberDeclinedText
+; 	waitendtext
 
-.Irwin:
-	farwritetext IrwinNumberDeclinedText
-	waitendtext
+; .Irwin:
+; 	farwritetext IrwinNumberDeclinedText
+; 	waitendtext
 
-.Arnie:
-	farwritetext ArnieNumberDeclinedText
-	waitendtext
+; .Arnie:
+; 	farwritetext ArnieNumberDeclinedText
+; 	waitendtext
 
-.Alan:
-	farwritetext AlanNumberDeclinedText
-	waitendtext
+; .Alan:
+; 	farwritetext AlanNumberDeclinedText
+; 	waitendtext
 
-.Chad:
-	farwritetext ChadNumberDeclinedText
-	waitendtext
+; .Chad:
+; 	farwritetext ChadNumberDeclinedText
+; 	waitendtext
 
-.Derek:
-	farwritetext DerekNumberDeclinedText
-	waitendtext
+; .Derek:
+; 	farwritetext DerekNumberDeclinedText
+; 	waitendtext
 
-.Tully:
-	farwritetext TullyNumberDeclinedText
-	waitendtext
+; .Tully:
+; 	farwritetext TullyNumberDeclinedText
+; 	waitendtext
 
-.Brent:
-	farwritetext BrentNumberDeclinedText
-	waitendtext
+; .Brent:
+; 	farwritetext BrentNumberDeclinedText
+; 	waitendtext
 
-.Vance:
-	farwritetext VanceNumberDeclinedText
-	waitendtext
+; .Vance:
+; 	farwritetext VanceNumberDeclinedText
+; 	waitendtext
 
-.Wilton:
-	farwritetext WiltonNumberDeclinedText
-	waitendtext
+; .Wilton:
+; 	farwritetext WiltonNumberDeclinedText
+; 	waitendtext
 
-.Kenji:
-	farwritetext KenjiNumberDeclinedText
-	waitendtext
+; .Kenji:
+; 	farwritetext KenjiNumberDeclinedText
+; 	waitendtext
 
-.Parry:
-	farwritetext ParryNumberDeclinedText
-	waitendtext
+; .Parry:
+; 	farwritetext ParryNumberDeclinedText
+; 	waitendtext
 
 PhoneFullMScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
-	ifequalfwd PHONE_SAILOR_HUEY, .Huey
-	ifequalfwd PHONE_COOLTRAINERM_GAVEN, .Gaven
-	ifequalfwd PHONE_BIRDKEEPER_JOSE, .Jose
-	ifequalfwd PHONE_YOUNGSTER_JOEY, .Joey
-	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
-	ifequalfwd PHONE_FISHER_RALPH, .Ralph
-	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
-	ifequalfwd PHONE_CAMPER_TODD, .Todd
-	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
-	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
-	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
-	ifequalfwd PHONE_SCHOOLBOY_CHAD, .Chad
-	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
-	ifequalfwd PHONE_FISHER_TULLY, .Tully
-	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
-	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
-	ifequalfwd PHONE_FISHER_WILTON, .Wilton
-	ifequalfwd PHONE_BLACKBELT_KENJI, .Kenji
-	ifequalfwd PHONE_HIKER_PARRY, .Parry
+; 	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
+; 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
+; 	ifequalfwd PHONE_COOLTRAINERM_GAVEN, .Gaven
+; 	ifequalfwd PHONE_BIRDKEEPER_JOSE, .Jose
+; 	ifequalfwd PHONE_YOUNGSTER_JOEY, .Joey
+; 	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
+; 	ifequalfwd PHONE_FISHER_RALPH, .Ralph
+; 	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
+; 	ifequalfwd PHONE_CAMPER_TODD, .Todd
+; 	ifequalfwd PHONE_JUGGLER_IRWIN, .Irwin
+; 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
+; 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
+; 	ifequalfwd PHONE_SCHOOLBOY_CHAD, .Chad
+; 	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
+; 	ifequalfwd PHONE_FISHER_TULLY, .Tully
+; 	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
+; 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
+; 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
+; 	ifequalfwd PHONE_BLACKBELT_KENJI, .Kenji
+; 	ifequalfwd PHONE_HIKER_PARRY, .Parry
 
-.Jack:
-	farwritetext JackPhoneFullText
-	waitendtext
+; .Jack:
+; 	farwritetext JackPhoneFullText
+; 	waitendtext
 
-.Huey:
-	farwritetext HueyPhoneFullText
-	waitendtext
+; .Huey:
+; 	farwritetext HueyPhoneFullText
+; 	waitendtext
 
-.Gaven:
-	farwritetext GavenPhoneFullText
-	waitendtext
+; .Gaven:
+; 	farwritetext GavenPhoneFullText
+; 	waitendtext
 
-.Jose:
-	farwritetext JosePhoneFullText
-	waitendtext
+; .Jose:
+; 	farwritetext JosePhoneFullText
+; 	waitendtext
 
-.Joey:
-	farwritetext JoeyPhoneFullText
-	waitendtext
+; .Joey:
+; 	farwritetext JoeyPhoneFullText
+; 	waitendtext
 
-.Wade:
-	farwritetext WadePhoneFullText
-	waitendtext
+; .Wade:
+; 	farwritetext WadePhoneFullText
+; 	waitendtext
 
-.Ralph:
-	farwritetext RalphPhoneFullText
-	waitendtext
+; .Ralph:
+; 	farwritetext RalphPhoneFullText
+; 	waitendtext
 
-.Anthony:
-	farwritetext AnthonyPhoneFullText
-	waitendtext
+; .Anthony:
+; 	farwritetext AnthonyPhoneFullText
+; 	waitendtext
 
-.Todd:
-	farwritetext ToddPhoneFullText
-	waitendtext
+; .Todd:
+; 	farwritetext ToddPhoneFullText
+; 	waitendtext
 
-.Irwin:
-	farwritetext IrwinPhoneFullText
-	waitendtext
+; .Irwin:
+; 	farwritetext IrwinPhoneFullText
+; 	waitendtext
 
-.Arnie:
-	farwritetext ArniePhoneFullText
-	waitendtext
+; .Arnie:
+; 	farwritetext ArniePhoneFullText
+; 	waitendtext
 
-.Alan:
-	farwritetext AlanPhoneFullText
-	waitendtext
+; .Alan:
+; 	farwritetext AlanPhoneFullText
+; 	waitendtext
 
-.Chad:
-	farwritetext ChadPhoneFullText
-	waitendtext
+; .Chad:
+; 	farwritetext ChadPhoneFullText
+; 	waitendtext
 
-.Derek:
-	farwritetext DerekPhoneFullText
-	waitendtext
+; .Derek:
+; 	farwritetext DerekPhoneFullText
+; 	waitendtext
 
-.Tully:
-	farwritetext TullyPhoneFullText
-	waitendtext
+; .Tully:
+; 	farwritetext TullyPhoneFullText
+; 	waitendtext
 
-.Brent:
-	farwritetext BrentPhoneFullText
-	waitendtext
+; .Brent:
+; 	farwritetext BrentPhoneFullText
+; 	waitendtext
 
-.Vance:
-	farwritetext VancePhoneFullText
-	waitendtext
+; .Vance:
+; 	farwritetext VancePhoneFullText
+; 	waitendtext
 
-.Wilton:
-	farwritetext WiltonPhoneFullText
-	waitendtext
+; .Wilton:
+; 	farwritetext WiltonPhoneFullText
+; 	waitendtext
 
-.Kenji:
-	farwritetext KenjiPhoneFullText
-	waitendtext
+; .Kenji:
+; 	farwritetext KenjiPhoneFullText
+; 	waitendtext
 
-.Parry:
-	farwritetext ParryPhoneFullText
-	waitendtext
+; .Parry:
+; 	farwritetext ParryPhoneFullText
+; 	waitendtext
 
 RematchMScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
-	ifequalfwd PHONE_SAILOR_HUEY, .Huey
-	ifequalfwd PHONE_COOLTRAINERM_GAVEN, .Gaven
-	ifequalfwd PHONE_BIRDKEEPER_JOSE, .Jose
-	ifequalfwd PHONE_YOUNGSTER_JOEY, .Joey
-	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
-	ifequalfwd PHONE_FISHER_RALPH, .Ralph
-	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
-	ifequalfwd PHONE_CAMPER_TODD, .Todd
-	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
-	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
-	ifequalfwd PHONE_SCHOOLBOY_CHAD, .Chad
-	ifequalfwd PHONE_FISHER_TULLY, .Tully
-	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
-	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
-	ifequalfwd PHONE_FISHER_WILTON, .Wilton
-	ifequalfwd PHONE_HIKER_PARRY, .Parry
+; 	ifequalfwd PHONE_SCHOOLBOY_JACK, .Jack
+; 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
+; 	ifequalfwd PHONE_COOLTRAINERM_GAVEN, .Gaven
+; 	ifequalfwd PHONE_BIRDKEEPER_JOSE, .Jose
+; 	ifequalfwd PHONE_YOUNGSTER_JOEY, .Joey
+; 	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
+; 	ifequalfwd PHONE_FISHER_RALPH, .Ralph
+; 	ifequalfwd PHONE_HIKER_ANTHONY, .Anthony
+; 	ifequalfwd PHONE_CAMPER_TODD, .Todd
+; 	ifequalfwd PHONE_BUG_CATCHER_ARNIE, .Arnie
+; 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
+; 	ifequalfwd PHONE_SCHOOLBOY_CHAD, .Chad
+; 	ifequalfwd PHONE_FISHER_TULLY, .Tully
+; 	ifequalfwd PHONE_POKEMANIAC_BRENT, .Brent
+; 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
+; 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
+; 	ifequalfwd PHONE_HIKER_PARRY, .Parry
 
-.Jack:
-	farwritetext JackRematchText
-	waitendtext
+; .Jack:
+; 	farwritetext JackRematchText
+; 	waitendtext
 
-.Huey:
-	farwritetext HueyRematchText
-	waitendtext
+; .Huey:
+; 	farwritetext HueyRematchText
+; 	waitendtext
 
-.Gaven:
-	farwritetext GavenRematchText
-	waitendtext
+; .Gaven:
+; 	farwritetext GavenRematchText
+; 	waitendtext
 
-.Jose:
-	farwritetext JoseRematchText
-	waitendtext
+; .Jose:
+; 	farwritetext JoseRematchText
+; 	waitendtext
 
-.Joey:
-	farwritetext JoeyRematchText
-	waitendtext
+; .Joey:
+; 	farwritetext JoeyRematchText
+; 	waitendtext
 
-.Wade:
-	farwritetext WadeRematchText
-	waitendtext
+; .Wade:
+; 	farwritetext WadeRematchText
+; 	waitendtext
 
-.Ralph:
-	farwritetext RalphRematchText
-	waitendtext
+; .Ralph:
+; 	farwritetext RalphRematchText
+; 	waitendtext
 
-.Anthony:
-	farwritetext AnthonyRematchText
-	waitendtext
+; .Anthony:
+; 	farwritetext AnthonyRematchText
+; 	waitendtext
 
-.Todd:
-	farwritetext ToddRematchText
-	waitendtext
+; .Todd:
+; 	farwritetext ToddRematchText
+; 	waitendtext
 
-.Arnie:
-	farwritetext ArnieRematchText
-	waitendtext
+; .Arnie:
+; 	farwritetext ArnieRematchText
+; 	waitendtext
 
-.Alan:
-	farwritetext AlanRematchText
-	waitendtext
+; .Alan:
+; 	farwritetext AlanRematchText
+; 	waitendtext
 
-.Chad:
-	farwritetext ChadRematchText
-	waitendtext
+; .Chad:
+; 	farwritetext ChadRematchText
+; 	waitendtext
 
-.Tully:
-	farwritetext TullyRematchText
-	waitendtext
+; .Tully:
+; 	farwritetext TullyRematchText
+; 	waitendtext
 
-.Brent:
-	farwritetext BrentRematchText
-	waitendtext
+; .Brent:
+; 	farwritetext BrentRematchText
+; 	waitendtext
 
-.Vance:
-	farwritetext VanceRematchText
-	waitendtext
+; .Vance:
+; 	farwritetext VanceRematchText
+; 	waitendtext
 
-.Wilton:
-	farwritetext WiltonRematchText
-	waitendtext
+; .Wilton:
+; 	farwritetext WiltonRematchText
+; 	waitendtext
 
-.Parry:
-	farwritetext ParryRematchText
-	waitendtext
+; .Parry:
+; 	farwritetext ParryRematchText
+; 	waitendtext
 
 GiftMScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_BIRDKEEPER_JOSE, .Jose
-	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
-	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
-	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
-	ifequalfwd PHONE_FISHER_TULLY, .Tully
-	ifequalfwd PHONE_FISHER_WILTON, .Wilton
-	ifequalfwd PHONE_BLACKBELT_KENJI, .Kenji
+; 	ifequalfwd PHONE_BIRDKEEPER_JOSE, .Jose
+; 	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
+; 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
+; 	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
+; 	ifequalfwd PHONE_FISHER_TULLY, .Tully
+; 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
+; 	ifequalfwd PHONE_BLACKBELT_KENJI, .Kenji
 
-.Jose:
-	farwritetext JoseGiftText
-	promptbutton
-	end
-.Wade:
-	farwritetext WadeGiftText
-	promptbutton
-	end
-.Alan:
-	farwritetext AlanGiftText
-	promptbutton
-	end
-.Derek:
-	farwritetext DerekGiftText
-	promptbutton
-	end
-.Tully:
-	farwritetext TullyGiftText
-	promptbutton
-	end
-.Wilton:
-	farwritetext WiltonGiftText
-	promptbutton
-	end
-.Kenji:
-	farwritetext KenjiGiftText
-	promptbutton
-	end
+; .Jose:
+; 	farwritetext JoseGiftText
+; 	promptbutton
+; 	end
+; .Wade:
+; 	farwritetext WadeGiftText
+; 	promptbutton
+; 	end
+; .Alan:
+; 	farwritetext AlanGiftText
+; 	promptbutton
+; 	end
+; .Derek:
+; 	farwritetext DerekGiftText
+; 	promptbutton
+; 	end
+; .Tully:
+; 	farwritetext TullyGiftText
+; 	promptbutton
+; 	end
+; .Wilton:
+; 	farwritetext WiltonGiftText
+; 	promptbutton
+; 	end
+; .Kenji:
+; 	farwritetext KenjiGiftText
+; 	promptbutton
+; 	end
 
 PackFullMScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_SAILOR_HUEY, .Huey
-	ifequalfwd PHONE_BIRDKEEPER_JOSE, .Jose
-	ifequalfwd PHONE_YOUNGSTER_JOEY, .Joey
-	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
-	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
-	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
-	ifequalfwd PHONE_FISHER_TULLY, .Tully
-	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
-	ifequalfwd PHONE_FISHER_WILTON, .Wilton
-	ifequalfwd PHONE_BLACKBELT_KENJI, .Kenji
-	ifequalfwd PHONE_HIKER_PARRY, .Parry
+; 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
+; 	ifequalfwd PHONE_BIRDKEEPER_JOSE, .Jose
+; 	ifequalfwd PHONE_YOUNGSTER_JOEY, .Joey
+; 	ifequalfwd PHONE_BUG_CATCHER_WADE, .Wade
+; 	ifequalfwd PHONE_SCHOOLBOY_ALAN, .Alan
+; 	ifequalfwd PHONE_POKEFANM_DEREK, .Derek
+; 	ifequalfwd PHONE_FISHER_TULLY, .Tully
+; 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
+; 	ifequalfwd PHONE_FISHER_WILTON, .Wilton
+; 	ifequalfwd PHONE_BLACKBELT_KENJI, .Kenji
+; 	ifequalfwd PHONE_HIKER_PARRY, .Parry
 
-.Huey:
-	farwritetext HueyPackFullText
-	waitendtext
+; .Huey:
+; 	farwritetext HueyPackFullText
+; 	waitendtext
 
-.Jose:
-	farwritetext JosePackFullText
-	waitendtext
+; .Jose:
+; 	farwritetext JosePackFullText
+; 	waitendtext
 
-.Joey:
-	farwritetext JoeyPackFullText
-	waitendtext
+; .Joey:
+; 	farwritetext JoeyPackFullText
+; 	waitendtext
 
-.Wade:
-	farwritetext WadePackFullText
-	waitendtext
+; .Wade:
+; 	farwritetext WadePackFullText
+; 	waitendtext
 
-.Alan:
-	farwritetext AlanPackFullText
-	waitendtext
+; .Alan:
+; 	farwritetext AlanPackFullText
+; 	waitendtext
 
-.Derek:
-	farwritetext DerekPackFullText
-	waitendtext
+; .Derek:
+; 	farwritetext DerekPackFullText
+; 	waitendtext
 
-.Tully:
-	farwritetext TullyPackFullText
-	waitendtext
+; .Tully:
+; 	farwritetext TullyPackFullText
+; 	waitendtext
 
-.Vance:
-	farwritetext VancePackFullText
-	waitendtext
+; .Vance:
+; 	farwritetext VancePackFullText
+; 	waitendtext
 
-.Wilton:
-	farwritetext WiltonPackFullText
-	waitendtext
+; .Wilton:
+; 	farwritetext WiltonPackFullText
+; 	waitendtext
 
-.Kenji:
-	farwritetext KenjiPackFullText
-	waitendtext
+; .Kenji:
+; 	farwritetext KenjiPackFullText
+; 	waitendtext
 
-.Parry:
-	farwritetext ParryPackFullText
-	waitendtext
+; .Parry:
+; 	farwritetext ParryPackFullText
+; 	waitendtext
 
 RematchGiftMScript:
 	opentext
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_SAILOR_HUEY, .Huey
-	ifequalfwd PHONE_YOUNGSTER_JOEY, .Joey
-	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
-	ifequalfwd PHONE_HIKER_PARRY, .Parry
+; 	ifequalfwd PHONE_SAILOR_HUEY, .Huey
+; 	ifequalfwd PHONE_YOUNGSTER_JOEY, .Joey
+; 	ifequalfwd PHONE_BIRDKEEPER_VANCE, .Vance
+; 	ifequalfwd PHONE_HIKER_PARRY, .Parry
 
-.Huey:
-	farwritetext HueyRematchGiftText
-	promptbutton
-	end
-.Joey:
-	farwritetext JoeyRematchGiftText
-	promptbutton
-	end
-.Vance:
-	farwritetext VanceRematchGiftText
-	promptbutton
-	end
-.Parry:
-	farwritetext ParryRematchGiftText
-	promptbutton
-	end
+; .Huey:
+; 	farwritetext HueyRematchGiftText
+; 	promptbutton
+; 	end
+; .Joey:
+; 	farwritetext JoeyRematchGiftText
+; 	promptbutton
+; 	end
+; .Vance:
+; 	farwritetext VanceRematchGiftText
+; 	promptbutton
+; 	end
+; .Parry:
+; 	farwritetext ParryRematchGiftText
+; 	promptbutton
+; 	end
 
 AskNumber1FScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
-	ifequalfwd PHONE_COOLTRAINERF_BETH, .Beth
-	ifequalfwd PHONE_COOLTRAINERF_REENA, .Reena
-	ifequalfwd PHONE_PICNICKER_LIZ, .Liz
-	ifequalfwd PHONE_PICNICKER_GINA, .Gina
-	ifequalfwd PHONE_LASS_DANA, .Dana
-	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
+; 	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
+; 	ifequalfwd PHONE_COOLTRAINERF_BETH, .Beth
+; 	ifequalfwd PHONE_COOLTRAINERF_REENA, .Reena
+; 	ifequalfwd PHONE_PICNICKER_LIZ, .Liz
+; 	ifequalfwd PHONE_PICNICKER_GINA, .Gina
+; 	ifequalfwd PHONE_LASS_DANA, .Dana
+; 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
+; 	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
 
-.Beverly:
-	farwritetext BeverlyAskNumber1Text
-	end
-.Beth:
-	farwritetext BethAskNumber1Text
-	end
-.Reena:
-	farwritetext ReenaAskNumber1Text
-	end
-.Liz:
-	farwritetext LizAskNumber1Text
-	end
-.Gina:
-	farwritetext GinaAskNumber1Text
-	end
-.Dana:
-	farwritetext DanaAskNumber1Text
-	end
-.Tiffany:
-	farwritetext TiffanyAskNumber1Text
-	end
-.Erin:
-	farwritetext ErinAskNumber1Text
-	end
+; .Beverly:
+; 	farwritetext BeverlyAskNumber1Text
+; 	end
+; .Beth:
+; 	farwritetext BethAskNumber1Text
+; 	end
+; .Reena:
+; 	farwritetext ReenaAskNumber1Text
+; 	end
+; .Liz:
+; 	farwritetext LizAskNumber1Text
+; 	end
+; .Gina:
+; 	farwritetext GinaAskNumber1Text
+; 	end
+; .Dana:
+; 	farwritetext DanaAskNumber1Text
+; 	end
+; .Tiffany:
+; 	farwritetext TiffanyAskNumber1Text
+; 	end
+; .Erin:
+; 	farwritetext ErinAskNumber1Text
+; 	end
 
 AskNumber2FScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
-	ifequalfwd PHONE_COOLTRAINERF_BETH, .Beth
-	ifequalfwd PHONE_COOLTRAINERF_REENA, .Reena
-	ifequalfwd PHONE_PICNICKER_LIZ, .Liz
-	ifequalfwd PHONE_PICNICKER_GINA, .Gina
-	ifequalfwd PHONE_LASS_DANA, .Dana
-	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
+; 	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
+; 	ifequalfwd PHONE_COOLTRAINERF_BETH, .Beth
+; 	ifequalfwd PHONE_COOLTRAINERF_REENA, .Reena
+; 	ifequalfwd PHONE_PICNICKER_LIZ, .Liz
+; 	ifequalfwd PHONE_PICNICKER_GINA, .Gina
+; 	ifequalfwd PHONE_LASS_DANA, .Dana
+; 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
+; 	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
 
-.Beverly:
-	farwritetext BeverlyAskNumber2Text
-	end
-.Beth:
-	farwritetext BethAskNumber2Text
-	end
-.Reena:
-	farwritetext ReenaAskNumber2Text
-	end
-.Liz:
-	farwritetext LizAskNumber2Text
-	end
-.Gina:
-	farwritetext GinaAskNumber2Text
-	end
-.Dana:
-	farwritetext DanaAskNumber2Text
-	end
-.Tiffany:
-	farwritetext TiffanyAskNumber2Text
-	end
-.Erin:
-	farwritetext ErinAskNumber2Text
-	end
+; .Beverly:
+; 	farwritetext BeverlyAskNumber2Text
+; 	end
+; .Beth:
+; 	farwritetext BethAskNumber2Text
+; 	end
+; .Reena:
+; 	farwritetext ReenaAskNumber2Text
+; 	end
+; .Liz:
+; 	farwritetext LizAskNumber2Text
+; 	end
+; .Gina:
+; 	farwritetext GinaAskNumber2Text
+; 	end
+; .Dana:
+; 	farwritetext DanaAskNumber2Text
+; 	end
+; .Tiffany:
+; 	farwritetext TiffanyAskNumber2Text
+; 	end
+; .Erin:
+; 	farwritetext ErinAskNumber2Text
+; 	end
 
 RegisteredNumberFScript:
 	farwritetext RegisteredNumber2Text
@@ -1268,232 +1268,232 @@ RegisteredNumberFScript:
 
 NumberAcceptedFScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
-	ifequalfwd PHONE_COOLTRAINERF_BETH, .Beth
-	ifequalfwd PHONE_COOLTRAINERF_REENA, .Reena
-	ifequalfwd PHONE_PICNICKER_LIZ, .Liz
-	ifequalfwd PHONE_PICNICKER_GINA, .Gina
-	ifequalfwd PHONE_LASS_DANA, .Dana
-	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
+; 	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
+; 	ifequalfwd PHONE_COOLTRAINERF_BETH, .Beth
+; 	ifequalfwd PHONE_COOLTRAINERF_REENA, .Reena
+; 	ifequalfwd PHONE_PICNICKER_LIZ, .Liz
+; 	ifequalfwd PHONE_PICNICKER_GINA, .Gina
+; 	ifequalfwd PHONE_LASS_DANA, .Dana
+; 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
+; 	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
 
-.Beverly:
-	farwritetext BeverlyNumberAcceptedText
-	waitendtext
+; .Beverly:
+; 	farwritetext BeverlyNumberAcceptedText
+; 	waitendtext
 
-.Beth:
-	farwritetext BethNumberAcceptedText
-	waitendtext
+; .Beth:
+; 	farwritetext BethNumberAcceptedText
+; 	waitendtext
 
-.Reena:
-	farwritetext ReenaNumberAcceptedText
-	waitendtext
+; .Reena:
+; 	farwritetext ReenaNumberAcceptedText
+; 	waitendtext
 
-.Liz:
-	farwritetext LizNumberAcceptedText
-	waitendtext
+; .Liz:
+; 	farwritetext LizNumberAcceptedText
+; 	waitendtext
 
-.Gina:
-	farwritetext GinaNumberAcceptedText
-	waitendtext
+; .Gina:
+; 	farwritetext GinaNumberAcceptedText
+; 	waitendtext
 
-.Dana:
-	farwritetext DanaNumberAcceptedText
-	waitendtext
+; .Dana:
+; 	farwritetext DanaNumberAcceptedText
+; 	waitendtext
 
-.Tiffany:
-	farwritetext TiffanyNumberAcceptedText
-	waitendtext
+; .Tiffany:
+; 	farwritetext TiffanyNumberAcceptedText
+; 	waitendtext
 
-.Erin:
-	farwritetext ErinNumberAcceptedText
-	waitendtext
+; .Erin:
+; 	farwritetext ErinNumberAcceptedText
+; 	waitendtext
 
 NumberDeclinedFScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
-	ifequalfwd PHONE_COOLTRAINERF_BETH, .Beth
-	ifequalfwd PHONE_COOLTRAINERF_REENA, .Reena
-	ifequalfwd PHONE_PICNICKER_LIZ, .Liz
-	ifequalfwd PHONE_PICNICKER_GINA, .Gina
-	ifequalfwd PHONE_LASS_DANA, .Dana
-	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
+; 	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
+; 	ifequalfwd PHONE_COOLTRAINERF_BETH, .Beth
+; 	ifequalfwd PHONE_COOLTRAINERF_REENA, .Reena
+; 	ifequalfwd PHONE_PICNICKER_LIZ, .Liz
+; 	ifequalfwd PHONE_PICNICKER_GINA, .Gina
+; 	ifequalfwd PHONE_LASS_DANA, .Dana
+; 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
+; 	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
 
-.Beverly:
-	farwritetext BeverlyNumberDeclinedText
-	waitendtext
+; .Beverly:
+; 	farwritetext BeverlyNumberDeclinedText
+; 	waitendtext
 
-.Beth:
-	farwritetext BethNumberDeclinedText
-	waitendtext
+; .Beth:
+; 	farwritetext BethNumberDeclinedText
+; 	waitendtext
 
-.Reena:
-	farwritetext ReenaNumberDeclinedText
-	waitendtext
+; .Reena:
+; 	farwritetext ReenaNumberDeclinedText
+; 	waitendtext
 
-.Liz:
-	farwritetext LizNumberDeclinedText
-	waitendtext
+; .Liz:
+; 	farwritetext LizNumberDeclinedText
+; 	waitendtext
 
-.Gina:
-	farwritetext GinaNumberDeclinedText
-	waitendtext
+; .Gina:
+; 	farwritetext GinaNumberDeclinedText
+; 	waitendtext
 
-.Dana:
-	farwritetext DanaNumberDeclinedText
-	waitendtext
+; .Dana:
+; 	farwritetext DanaNumberDeclinedText
+; 	waitendtext
 
-.Tiffany:
-	farwritetext TiffanyNumberDeclinedText
-	waitendtext
+; .Tiffany:
+; 	farwritetext TiffanyNumberDeclinedText
+; 	waitendtext
 
-.Erin:
-	farwritetext ErinNumberDeclinedText
-	waitendtext
+; .Erin:
+; 	farwritetext ErinNumberDeclinedText
+; 	waitendtext
 
 PhoneFullFScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
-	ifequalfwd PHONE_COOLTRAINERF_BETH, .Beth
-	ifequalfwd PHONE_COOLTRAINERF_REENA, .Reena
-	ifequalfwd PHONE_PICNICKER_LIZ, .Liz
-	ifequalfwd PHONE_PICNICKER_GINA, .Gina
-	ifequalfwd PHONE_LASS_DANA, .Dana
-	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
+; 	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
+; 	ifequalfwd PHONE_COOLTRAINERF_BETH, .Beth
+; 	ifequalfwd PHONE_COOLTRAINERF_REENA, .Reena
+; 	ifequalfwd PHONE_PICNICKER_LIZ, .Liz
+; 	ifequalfwd PHONE_PICNICKER_GINA, .Gina
+; 	ifequalfwd PHONE_LASS_DANA, .Dana
+; 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
+; 	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
 
-.Beverly:
-	farwritetext BeverlyPhoneFullText
-	waitendtext
+; .Beverly:
+; 	farwritetext BeverlyPhoneFullText
+; 	waitendtext
 
-.Beth:
-	farwritetext BethPhoneFullText
-	waitendtext
+; .Beth:
+; 	farwritetext BethPhoneFullText
+; 	waitendtext
 
-.Reena:
-	farwritetext ReenaPhoneFullText
-	waitendtext
+; .Reena:
+; 	farwritetext ReenaPhoneFullText
+; 	waitendtext
 
-.Liz:
-	farwritetext LizPhoneFullText
-	waitendtext
+; .Liz:
+; 	farwritetext LizPhoneFullText
+; 	waitendtext
 
-.Gina:
-	farwritetext GinaPhoneFullText
-	waitendtext
+; .Gina:
+; 	farwritetext GinaPhoneFullText
+; 	waitendtext
 
-.Dana:
-	farwritetext DanaPhoneFullText
-	waitendtext
+; .Dana:
+; 	farwritetext DanaPhoneFullText
+; 	waitendtext
 
-.Tiffany:
-	farwritetext TiffanyPhoneFullText
-	waitendtext
+; .Tiffany:
+; 	farwritetext TiffanyPhoneFullText
+; 	waitendtext
 
-.Erin:
-	farwritetext ErinPhoneFullText
-	waitendtext
+; .Erin:
+; 	farwritetext ErinPhoneFullText
+; 	waitendtext
 
 RematchFScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_COOLTRAINERF_BETH, .Beth
-	ifequalfwd PHONE_COOLTRAINERF_REENA, .Reena
-	ifequalfwd PHONE_PICNICKER_LIZ, .Liz
-	ifequalfwd PHONE_PICNICKER_GINA, .Gina
-	ifequalfwd PHONE_LASS_DANA, .Dana
-	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
+; 	ifequalfwd PHONE_COOLTRAINERF_BETH, .Beth
+; 	ifequalfwd PHONE_COOLTRAINERF_REENA, .Reena
+; 	ifequalfwd PHONE_PICNICKER_LIZ, .Liz
+; 	ifequalfwd PHONE_PICNICKER_GINA, .Gina
+; 	ifequalfwd PHONE_LASS_DANA, .Dana
+; 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
+; 	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
 
-.Beth:
-	farwritetext BethRematchText
-	waitendtext
+; .Beth:
+; 	farwritetext BethRematchText
+; 	waitendtext
 
-.Reena:
-	farwritetext ReenaRematchText
-	waitendtext
+; .Reena:
+; 	farwritetext ReenaRematchText
+; 	waitendtext
 
-.Liz:
-	farwritetext LizRematchText
-	waitendtext
+; .Liz:
+; 	farwritetext LizRematchText
+; 	waitendtext
 
-.Gina:
-	farwritetext GinaRematchText
-	waitendtext
+; .Gina:
+; 	farwritetext GinaRematchText
+; 	waitendtext
 
-.Dana:
-	farwritetext DanaRematchText
-	waitendtext
+; .Dana:
+; 	farwritetext DanaRematchText
+; 	waitendtext
 
-.Tiffany:
-	farwritetext TiffanyRematchText
-	waitendtext
+; .Tiffany:
+; 	farwritetext TiffanyRematchText
+; 	waitendtext
 
-.Erin:
-	farwritetext ErinRematchText
-	waitendtext
+; .Erin:
+; 	farwritetext ErinRematchText
+; 	waitendtext
 
 GiftFScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
-	ifequalfwd PHONE_PICNICKER_GINA, .Gina
-	ifequalfwd PHONE_LASS_DANA, .Dana
-	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
+; 	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
+; 	ifequalfwd PHONE_PICNICKER_GINA, .Gina
+; 	ifequalfwd PHONE_LASS_DANA, .Dana
+; 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
 
-.Beverly:
-	farwritetext BeverlyGiftText
-	promptbutton
-	end
-.Gina:
-	farwritetext GinaGiftText
-	promptbutton
-	end
-.Dana:
-	farwritetext DanaGiftText
-	promptbutton
-	end
-.Tiffany:
-	farwritetext TiffanyGiftText
-	promptbutton
-	end
+; .Beverly:
+; 	farwritetext BeverlyGiftText
+; 	promptbutton
+; 	end
+; .Gina:
+; 	farwritetext GinaGiftText
+; 	promptbutton
+; 	end
+; .Dana:
+; 	farwritetext DanaGiftText
+; 	promptbutton
+; 	end
+; .Tiffany:
+; 	farwritetext TiffanyGiftText
+; 	promptbutton
+; 	end
 
 PackFullFScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
-	ifequalfwd PHONE_PICNICKER_GINA, .Gina
-	ifequalfwd PHONE_LASS_DANA, .Dana
-	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
+; 	ifequalfwd PHONE_POKEFAN_BEVERLY, .Beverly
+; 	ifequalfwd PHONE_PICNICKER_GINA, .Gina
+; 	ifequalfwd PHONE_LASS_DANA, .Dana
+; 	ifequalfwd PHONE_PICNICKER_TIFFANY, .Tiffany
+; 	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
 
-.Beverly:
-	farwritetext BeverlyPackFullText
-	waitendtext
+; .Beverly:
+; 	farwritetext BeverlyPackFullText
+; 	waitendtext
 
-.Gina:
-	farwritetext GinaPackFullText
-	waitendtext
+; .Gina:
+; 	farwritetext GinaPackFullText
+; 	waitendtext
 
-.Dana:
-	farwritetext DanaPackFullText
-	waitendtext
+; .Dana:
+; 	farwritetext DanaPackFullText
+; 	waitendtext
 
-.Tiffany:
-	farwritetext TiffanyPackFullText
-	waitendtext
+; .Tiffany:
+; 	farwritetext TiffanyPackFullText
+; 	waitendtext
 
-.Erin:
-	farwritetext ErinPackFullText
-	waitendtext
+; .Erin:
+; 	farwritetext ErinPackFullText
+; 	waitendtext
 
 RematchGiftFScript:
 	readvar VAR_CALLERID
-	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
+; 	ifequalfwd PHONE_PICNICKER_ERIN, .Erin
 
-.Erin:
-	opentext
-	farwritetext ErinRematchGiftText
-	promptbutton
-	end
+; .Erin:
+; 	opentext
+; 	farwritetext ErinRematchGiftText
+; 	promptbutton
+; 	end
 
 GymStatue0Script:
 	getcurlandmarkname STRING_BUFFER_3

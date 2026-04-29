@@ -9,114 +9,114 @@ GetOvercastIndex::
 	ret z
 
 	; we may have extra overcast conditions for specific maps
-	ld a, [wMapGroup]
-	cp GROUP_AZALEA_TOWN ; GROUP_ROUTE_33
-	jr z, .azalea_route_33
-	cp GROUP_LAKE_OF_RAGE ; GROUP_ROUTE_43
-	jr z, .lake_of_rage_route_43
-	cp GROUP_STORMY_BEACH ; GROUP_GOLDENROD_CITY, GROUP_MAGNET_TUNNEL_WEST, GROUP_ROUTE_34, GROUP_ROUTE_34_COAST
-	jr z, .stormy_beach_goldenrod_city_route_34
-	cp GROUP_ROUTE_10_NORTH ; GROUP_ROUTE_9
-	jr z, .route_10_north
+	; ld a, [wMapGroup]
+	; cp GROUP_AZALEA_TOWN ; GROUP_ROUTE_33
+	; jr z, .azalea_route_33
+	; cp GROUP_LAKE_OF_RAGE ; GROUP_ROUTE_43
+	; jr z, .lake_of_rage_route_43
+	; cp GROUP_STORMY_BEACH ; GROUP_GOLDENROD_CITY, GROUP_MAGNET_TUNNEL_WEST, GROUP_ROUTE_34, GROUP_ROUTE_34_COAST
+	; jr z, .stormy_beach_goldenrod_city_route_34
+	; cp GROUP_ROUTE_10_NORTH ; GROUP_ROUTE_9
+	; jr z, .route_10_north
 .not_overcast:
 	xor a ; NOT_OVERCAST
 	ret
 
-.azalea_route_33:
-; Azalea Town and Route 33
-	ld a, [wMapNumber]
-	cp MAP_AZALEA_TOWN
-	jr z, .azalea_town
-	cp MAP_ROUTE_33
-	jr nz, .not_overcast
-.azalea_town
-; Overcast on Sunday, Tuesday, Thursday, and Saturday
-	call GetWeekday
-	cp MONDAY
-	jr z, .not_overcast
-	cp WEDNESDAY
-	jr z, .not_overcast
-	cp FRIDAY
-	jr z, .not_overcast
-	ld a, OVERCAST_INTENSITY_RAIN
-	ld [wOvercastCurIntensity], a
-	ld a, AZALEA_OVERCAST
-	ret
+; .azalea_route_33:
+; ; Azalea Town and Route 33
+; 	ld a, [wMapNumber]
+; 	cp MAP_AZALEA_TOWN
+; 	jr z, .azalea_town
+; 	cp MAP_ROUTE_33
+; 	jr nz, .not_overcast
+; .azalea_town
+; ; Overcast on Sunday, Tuesday, Thursday, and Saturday
+; 	call GetWeekday
+; 	cp MONDAY
+; 	jr z, .not_overcast
+; 	cp WEDNESDAY
+; 	jr z, .not_overcast
+; 	cp FRIDAY
+; 	jr z, .not_overcast
+; 	ld a, OVERCAST_INTENSITY_RAIN
+; 	ld [wOvercastCurIntensity], a
+; 	ld a, AZALEA_OVERCAST
+; 	ret
 
-.lake_of_rage_route_43:
-; Lake of Rage and Route 43
-	ld a, [wMapNumber]
-	cp MAP_LAKE_OF_RAGE
-	jr z, .lake_of_rage
-	cp MAP_ROUTE_43
-	jr nz, .not_overcast
-.lake_of_rage
-; Always overcast until civilians appear (Team Rocket beaten)
-	eventflagcheck EVENT_LAKE_OF_RAGE_CIVILIANS
-	jr nz, .overcast_lake_of_rage
-; Overcast on Monday, Wednesday, and Friday
-	call GetWeekday
-	cp MONDAY
-	jr z, .overcast_lake_of_rage
-	cp WEDNESDAY
-	jr z, .overcast_lake_of_rage
-	cp FRIDAY
-	jr nz, .not_overcast
-.overcast_lake_of_rage
-	ld a, OVERCAST_INTENSITY_THUNDERSTORM
-	ld [wOvercastCurIntensity], a
-	ld a, LAKE_OF_RAGE_OVERCAST
-	ret
+; .lake_of_rage_route_43:
+; ; Lake of Rage and Route 43
+; 	ld a, [wMapNumber]
+; 	cp MAP_LAKE_OF_RAGE
+; 	jr z, .lake_of_rage
+; 	cp MAP_ROUTE_43
+; 	jr nz, .not_overcast
+; .lake_of_rage
+; ; Always overcast until civilians appear (Team Rocket beaten)
+; 	eventflagcheck EVENT_LAKE_OF_RAGE_CIVILIANS
+; 	jr nz, .overcast_lake_of_rage
+; ; Overcast on Monday, Wednesday, and Friday
+; 	call GetWeekday
+; 	cp MONDAY
+; 	jr z, .overcast_lake_of_rage
+; 	cp WEDNESDAY
+; 	jr z, .overcast_lake_of_rage
+; 	cp FRIDAY
+; 	jr nz, .not_overcast
+; .overcast_lake_of_rage
+; 	ld a, OVERCAST_INTENSITY_THUNDERSTORM
+; 	ld [wOvercastCurIntensity], a
+; 	ld a, LAKE_OF_RAGE_OVERCAST
+; 	ret
 
-.stormy_beach_goldenrod_city_route_34:
-; Stormy Beach, Goldenrod City, Magnet Tunnel West, Route 34, Route 34 Coast
-	ld a, [wMapNumber]
-; Stormy Beach is always overcast
-	cp MAP_STORMY_BEACH
-	jr z, .overcast_stormy_beach
-	cp MAP_ROUTE_34_COAST
-	jr z, .maybe_stormy_beach
-	cp MAP_ROUTE_34
-	jr z, .maybe_stormy_beach
-	cp MAP_MAGNET_TUNNEL_WEST
-	jr z, .maybe_stormy_beach
-	cp MAP_GOLDENROD_CITY
-	jr nz, .not_overcast
-.maybe_stormy_beach
-; Only overcast while Team Rocket is present
-	eventflagcheck EVENT_GOLDENROD_CITY_ROCKET_TAKEOVER
-	jr nz, .not_overcast
-	ld a, OVERCAST_INTENSITY_RAIN
-	ld [wOvercastCurIntensity], a
-	ld a, STORMY_BEACH_OVERCAST
-	ret
+; .stormy_beach_goldenrod_city_route_34:
+; ; Stormy Beach, Goldenrod City, Magnet Tunnel West, Route 34, Route 34 Coast
+; 	ld a, [wMapNumber]
+; ; Stormy Beach is always overcast
+; 	cp MAP_STORMY_BEACH
+; 	jr z, .overcast_stormy_beach
+; 	cp MAP_ROUTE_34_COAST
+; 	jr z, .maybe_stormy_beach
+; 	cp MAP_ROUTE_34
+; 	jr z, .maybe_stormy_beach
+; 	cp MAP_MAGNET_TUNNEL_WEST
+; 	jr z, .maybe_stormy_beach
+; 	cp MAP_GOLDENROD_CITY
+; 	jr nz, .not_overcast
+; .maybe_stormy_beach
+; ; Only overcast while Team Rocket is present
+; 	eventflagcheck EVENT_GOLDENROD_CITY_ROCKET_TAKEOVER
+; 	jr nz, .not_overcast
+; 	ld a, OVERCAST_INTENSITY_RAIN
+; 	ld [wOvercastCurIntensity], a
+; 	ld a, STORMY_BEACH_OVERCAST
+; 	ret
 
-.overcast_stormy_beach
-	ld a, OVERCAST_INTENSITY_THUNDERSTORM
-	ld [wOvercastCurIntensity], a
-	ld a, STORMY_BEACH_OVERCAST
-	ret
+; .overcast_stormy_beach
+; 	ld a, OVERCAST_INTENSITY_THUNDERSTORM
+; 	ld [wOvercastCurIntensity], a
+; 	ld a, STORMY_BEACH_OVERCAST
+; 	ret
 
-.route_10_north:
-; Only overcast while Zapdos is present
-	eventflagcheck EVENT_ROUTE_10_ZAPDOS
-	jmp nz, .not_overcast
-; Route 10 North, Route 9
-	ld a, [wMapNumber]
-	cp MAP_ROUTE_9
-	jr z, .overcast_route_9
-	cp MAP_ROUTE_10_NORTH
-	jmp nz, .not_overcast
-	ld a, OVERCAST_INTENSITY_THUNDERSTORM
-	ld [wOvercastCurIntensity], a
-	ld a, ROUTE_10_OVERCAST
-	ret
+; .route_10_north:
+; ; Only overcast while Zapdos is present
+; 	eventflagcheck EVENT_ROUTE_10_ZAPDOS
+; 	jmp nz, .not_overcast
+; ; Route 10 North, Route 9
+; 	ld a, [wMapNumber]
+; 	cp MAP_ROUTE_9
+; 	jr z, .overcast_route_9
+; 	cp MAP_ROUTE_10_NORTH
+; 	jmp nz, .not_overcast
+; 	ld a, OVERCAST_INTENSITY_THUNDERSTORM
+; 	ld [wOvercastCurIntensity], a
+; 	ld a, ROUTE_10_OVERCAST
+; 	ret
 
-.overcast_route_9
-	ld a, OVERCAST_INTENSITY_RAIN
-	ld [wOvercastCurIntensity], a
-	ld a, ROUTE_10_OVERCAST
-	ret
+; .overcast_route_9
+; 	ld a, OVERCAST_INTENSITY_RAIN
+; 	ld [wOvercastCurIntensity], a
+; 	ld a, ROUTE_10_OVERCAST
+; 	ret
 
 CheckGenericOvercast:
 	; Skip indoor/cave/gate/dungeon environments

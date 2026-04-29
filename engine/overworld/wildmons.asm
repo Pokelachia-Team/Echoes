@@ -416,21 +416,21 @@ _ChooseWildEncounter:
 	call IsAPokemon
 	jr c, .nowildbattle
 
-	ld a, [wMapGroup]
-	cp GROUP_SOUL_HOUSE_B1F ; Soul House or Lavender Radio Tower
-	jr nz, .not_ghost
-	ld a, [wMapNumber]
-	cp MAP_SOUL_HOUSE_B1F ; first Ghost map in its group
-	jr c, .not_ghost
-	cp MAP_ROUTE_16_WEST ; non-ghost map in soul house group
-	jr z, .not_ghost
-	ld a, SILPHSCOPE2
-	ld [wCurKeyItem], a
-	call CheckKeyItem
-	jr c, .not_ghost
-	ld a, BATTLETYPE_GHOST
-	ld [wBattleType], a
-.not_ghost
+; 	ld a, [wMapGroup]
+; 	cp GROUP_SOUL_HOUSE_B1F ; Soul House or Lavender Radio Tower
+; 	jr nz, .not_ghost
+; 	ld a, [wMapNumber]
+; 	cp MAP_SOUL_HOUSE_B1F ; first Ghost map in its group
+; 	jr c, .not_ghost
+; 	cp MAP_ROUTE_16_WEST ; non-ghost map in soul house group
+; 	jr z, .not_ghost
+; 	ld a, SILPHSCOPE2
+; 	ld [wCurKeyItem], a
+; 	call CheckKeyItem
+; 	jr c, .not_ghost
+; 	ld a, BATTLETYPE_GHOST
+; 	ld [wBattleType], a
+; .not_ghost
 
 .startwildbattle
 	xor a
@@ -682,9 +682,9 @@ InitRoamMons:
 ; initialize wRoamMon structs
 
 ; species
-	ld a, RAIKOU
+	ld a, LOW(RATTATA)
 	ld [wRoamMon1Species], a
-	assert RAIKOU + 1 == ENTEI
+	; assert RAIKOU + 1 == ENTEI
 	inc a
 	ld [wRoamMon2Species], a
 
@@ -694,21 +694,21 @@ InitRoamMons:
 	ld [wRoamMon2Level], a
 
 ; form
-	assert HIGH(RAIKOU) == 0 && HIGH(ENTEI) == 0
+	; assert HIGH(RAIKOU) == 0 && HIGH(ENTEI) == 0
 	ld a, PLAIN_FORM
 	ld [wRoamMon1Form], a
 	ld [wRoamMon2Form], a
 
 ; raikou starting map
-	ld a, GROUP_ROUTE_42
+	ld a, GROUP_NEW_BARK_TOWN
 	ld [wRoamMon1MapGroup], a
-	ld a, MAP_ROUTE_42
+	ld a, MAP_NEW_BARK_TOWN
 	ld [wRoamMon1MapNumber], a
 
 ; entei starting map
-	ld a, GROUP_ROUTE_37
+	ld a, GROUP_NEW_BARK_TOWN
 	ld [wRoamMon2MapGroup], a
-	ld a, MAP_ROUTE_37
+	ld a, MAP_NEW_BARK_TOWN
 	ld [wRoamMon2MapNumber], a
 
 ; hp

@@ -16,10 +16,10 @@ ShakeHeadbuttTree:
 	farcall CopyBGGreenToOBPal7
 	call ClearSpriteAnims
 	call GetCurrentLandmark
-	cp NOISY_FOREST
-	ld hl, HeadbuttTree2GFX
-	jr z, .got_gfx
-	ld hl, HeadbuttTreeGFX
+	; cp NOISY_FOREST
+	; ld hl, HeadbuttTree2GFX
+	; jr z, .got_gfx
+	; ld hl, HeadbuttTreeGFX
 .got_gfx
 	ld de, vTiles0 tile $61
 	lb bc, BANK("Overworld Effect Graphics"), 12

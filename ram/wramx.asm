@@ -1191,95 +1191,14 @@ wFarfetchdPosition:: db
 
 ; map triggers
 wAlways0SceneID:: db
-wAzaleaTownSceneID:: db
 wBattleFacilitySceneID:: db
-wRoute39RuggedRoadGateSceneID:: db
-wRuggedRoadSouthSceneID:: db
-wSnowtopMountainOutsideSceneID:: db
 wBattleTowerOutsideSceneID:: db
-wBellchimeTrailSceneID:: db
-wBrunosRoomSceneID:: db
-wBurnedTower1FSceneID:: db
-wBurnedTowerB1FSceneID:: db
-wCeruleanCapeSceneID:: db
-wCeruleanCave1FSceneID:: db
-wCeruleanGymSceneID:: db
-wCherrygroveCitySceneID:: db
-wCianwoodCitySceneID:: db
-wCinnabarLabSceneID:: db
 wColosseumSceneID:: db
-wDarkCaveVioletEntranceSceneID:: db
-wDayCareSceneID:: db
-wDragonsDenB1FSceneID:: db
-wDragonShrineSceneID:: db
-wEcruteakGymSceneID:: db
-wEcruteakHouseSceneID:: db
-wRocketHideoutB4FSceneID:: db
-wElmsLabSceneID:: db
-wFarawayIslandSceneID:: db
-wFastShip1FSceneID:: db
-wFastShipB1FSceneID:: db
-wGiovannisCaveSceneID:: db
-wGoldenrodCitySceneID:: db
-wGoldenrodGymSceneID:: db
-wGoldenrodMuseum1FSceneID:: db
 wHallOfFameSceneID:: db
-wIlexForestSceneID:: db
-wKarensRoomSceneID:: db
-wKogasRoomSceneID:: db
 wPlayersHouse1FSceneID:: db
-wLancesRoomSceneID:: db
-wLavenderTownSceneID:: db
-wMahoganyMart1FSceneID:: db
-wMahoganyTownSceneID:: db
-wMountMoon1FSceneID:: db
-wMrPokemonsHouseSceneID:: db
-wMystriStageSceneID:: db
 wNewBarkTownSceneID:: db
-wOlivineCitySceneID:: db
-wOlivinePortSceneID:: db
 wPokecenter2FSceneID:: db
-wPokemonLeagueGateSceneID:: db
-wPowerPlantSceneID:: db
-wRadioTower5FSceneID:: db
-wRoute10NorthSceneID:: db
-wRoute23SceneID:: db
-wRoute24SceneID:: db
-wRoute27SceneID:: db
-wRoute29SceneID:: db
-wRoute32SceneID:: db
-wRoute34SceneID:: db
-wRoute35NationalParkGateSceneID:: db
-wRoute36NationalParkGateSceneID:: db
-wRoute36SceneID:: db
-wRoute42SceneID:: db
-wRoute43GateSceneID:: db
-wRoute47SceneID:: db
-wRoute48SceneID:: db
-wRuinsOfAlphAerodactylChamberSceneID:: db
-wRuinsOfAlphHoOhChamberSceneID:: db
-wRuinsOfAlphInnerChamberSceneID:: db
-wRuinsOfAlphKabutoChamberSceneID:: db
-wRuinsOfAlphOmanyteChamberSceneID:: db
-wRuinsOfAlphOutsideSceneID:: db
-wRuinsOfAlphResearchCenterSceneID:: db
-wSeagallopFerryNavelGateSceneID:: db
-wSeagallopFerryShamoutiGateSceneID:: db
-wSeagallopFerryVermilionGateSceneID:: db
-wShamoutiHotelRestaurantSceneID:: db
-wSproutTower3FSceneID:: db
-wTeamRocketBaseB2FSceneID:: db
-wTeamRocketBaseB3FSceneID:: db
-wTinTower1FSceneID:: db
 wTradeCenterSceneID:: db
-wGoldenrodUndergroundSwitchRoomSceneID:: db
-wVermilionCitySceneID:: db
-wVermilionPortSceneID:: db
-wVictoryRoad2FSceneID:: db
-wVioletGymSceneID:: db
-wWillsRoomSceneID:: db
-wWiseTriosRoomSceneID:: db
-wYellowForestSceneID:: db
 
 ; fight counts
 wJackFightCount::    db
@@ -1338,7 +1257,7 @@ wNeededMonPalLight:: db ; for SPRITE_MON_ICON two-nybble palettes, stores the li
 wNeededPalType:: db ; 0 = normal palette, non-zero = mon two-nybble palette
 wLoadedObjPalType:: db ; bitmask: bit N set = slot N is a mon palette, clear = normal palette
 
-	ds 47 ; unused
+	ds 141 ; unused
 
 wCandyAmounts::
 	table_width 1

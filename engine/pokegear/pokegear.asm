@@ -127,15 +127,15 @@ Pokegear_LoadGFX:
 	ld b, a
 	ld a, [wMapNumber]
 	ld c, a
-	call GetWorldMapLocation
-	ld hl, FastShipGFX
-	cp FAST_SHIP
-	jr z, .load_alt_sprite
-	ld hl, SinjohRuinsArrowGFX
-	cp SINJOH_RUINS
-	jr z, .load_alt_sprite
-	cp MYSTRI_STAGE
-	jr z, .load_alt_sprite
+	; call GetWorldMapLocation
+	; ld hl, FastShipGFX
+	; cp FAST_SHIP
+	; jr z, .load_alt_sprite
+	; ld hl, SinjohRuinsArrowGFX
+	; cp SINJOH_RUINS
+	; jr z, .load_alt_sprite
+	; cp MYSTRI_STAGE
+	; jr z, .load_alt_sprite
 	farcall GetPlayerIcon
 	ldh a, [rWBK]
 	push af
@@ -526,16 +526,16 @@ PokegearMap_Init:
 	ret
 
 PokegearMap_JohtoMap:
-	call TownMap_GetJohtoLandmarkLimits
-	jr PokegearMap_ContinueMap
+; 	jr PokegearMap_ContinueMap
 
 PokegearMap_KantoMap:
-	call TownMap_GetKantoLandmarkLimits
-	jr PokegearMap_ContinueMap
+; 	call TownMap_GetKantoLandmarkLimits
+; 	jr PokegearMap_ContinueMap
 
 PokegearMap_OrangeMap:
-	call TownMap_GetOrangeLandmarkLimits
-PokegearMap_ContinueMap:
+; 	call TownMap_GetOrangeLandmarkLimits
+; PokegearMap_ContinueMap:
+	call TownMap_GetJohtoLandmarkLimits
 	ld hl, hJoyLast
 	ld a, [hl]
 	and PAD_A
@@ -631,47 +631,47 @@ PokegearMap_ContinueMap:
 	jmp PokegearMap_UpdateCursorPosition
 
 SkipHiddenOrangeIslandsUp:
-	call CheckSkipNavelRock
-	jr nz, .not_after_navel_rock
-	inc [hl]
-.not_after_navel_rock
-	call CheckSkipFarawayIsland
-	jr nz, .not_after_faraway_island
-	inc [hl]
-.not_after_faraway_island
-	ld a, [hl]
-	cp FARAWAY_ISLAND + 1
-	ret nz
-	ld [hl], SHAMOUTI_ISLAND
+; 	call CheckSkipNavelRock
+; 	jr nz, .not_after_navel_rock
+; 	inc [hl]
+; .not_after_navel_rock
+; 	call CheckSkipFarawayIsland
+; 	jr nz, .not_after_faraway_island
+; 	inc [hl]
+; .not_after_faraway_island
+; 	ld a, [hl]
+; 	cp FARAWAY_ISLAND + 1
+; 	ret nz
+; 	ld [hl], SHAMOUTI_ISLAND
 	ret
 
 SkipHiddenOrangeIslandsDown:
-	call CheckSkipFarawayIsland
-	jr nz, .not_before_faraway_island
-	dec [hl]
-.not_before_faraway_island
-	call CheckSkipNavelRock
-	ret nz
-	dec [hl]
+; 	call CheckSkipFarawayIsland
+; 	jr nz, .not_before_faraway_island
+; 	dec [hl]
+; .not_before_faraway_island
+; 	call CheckSkipNavelRock
+; 	ret nz
+; 	dec [hl]
 	ret
 
-CheckSkipNavelRock:
-	ld a, [hl]
-	cp NAVEL_ROCK
-	ret nz
-	push hl
-	eventflagcheck EVENT_VISITED_NAVEL_ROCK
-	pop hl
-	ret
+; CheckSkipNavelRock:
+; 	ld a, [hl]
+; 	cp NAVEL_ROCK
+; 	ret nz
+; 	push hl
+; 	eventflagcheck EVENT_VISITED_NAVEL_ROCK
+; 	pop hl
+; 	ret
 
-CheckSkipFarawayIsland:
-	ld a, [hl]
-	cp FARAWAY_ISLAND
-	ret nz
-	push hl
-	eventflagcheck EVENT_VISITED_FARAWAY_ISLAND
-	pop hl
-	ret
+; CheckSkipFarawayIsland:
+; 	ld a, [hl]
+; 	cp FARAWAY_ISLAND
+; 	ret nz
+; 	push hl
+; 	eventflagcheck EVENT_VISITED_FARAWAY_ISLAND
+; 	pop hl
+; 	ret
 
 PokegearMap_InitPlayerIcon:
 	push af
@@ -759,20 +759,20 @@ PokegearMap_UpdateCursorPosition:
 	ret
 
 TownMap_GetJohtoLandmarkLimits:
-	lb de, SILVER_CAVE, NEW_BARK_TOWN
+	lb de, NEW_BARK_TOWN, NEW_BARK_TOWN
 	ret
 
-TownMap_GetKantoLandmarkLimits:
-	lb de, ROUTE_28, ROUTE_27
-	ld a, [wStatusFlags]
-	bit STATUSFLAGS_HALL_OF_FAME_F, a
-	ret z
-	ld e, PALLET_TOWN
-	ret
+; TownMap_GetKantoLandmarkLimits:
+; 	lb de, ROUTE_28, ROUTE_27
+; 	ld a, [wStatusFlags]
+; 	bit STATUSFLAGS_HALL_OF_FAME_F, a
+; 	ret z
+; 	ld e, PALLET_TOWN
+; 	ret
 
-TownMap_GetOrangeLandmarkLimits:
-	lb de, FARAWAY_ISLAND, SHAMOUTI_ISLAND
-	ret
+; TownMap_GetOrangeLandmarkLimits:
+; 	lb de, FARAWAY_ISLAND, SHAMOUTI_ISLAND
+; 	ret
 
 PokegearRadio_Init:
 	call InitPokegearTilemap
@@ -971,7 +971,7 @@ RadioChannels:
 	dbw 64, .PlacesAndPeople
 	dbw 72, .LetsAllSing
 	dbw 78, .PokeFluteRadio
-	dbw 80, .EvolutionRadio
+	; dbw 80, .EvolutionRadio
 	db -1
 
 .PkmnTalkAndPokedexShow:
@@ -1001,10 +1001,7 @@ RadioChannels:
 	jmp LoadStation_BuenasPassword
 
 .RuinsOfAlphRadio:
-	ld a, [wPokegearMapPlayerIconLandmark]
-	cp RUINS_OF_ALPH
-	jr nz, NoRadioStation
-	jmp LoadStation_UnownRadio
+	jr NoRadioStation
 
 .PlacesAndPeople:
 	call .InJohto
@@ -1030,20 +1027,20 @@ RadioChannels:
 	jr z, NoRadioStation
 	jmp LoadStation_PokeFluteRadio
 
-.EvolutionRadio:
-; This station airs in the Lake of Rage area when Rocket are still in Mahogany.
-	ld a, [wStatusFlags]
-	bit STATUSFLAGS_ROCKET_SIGNAL_F, a
-	jr z, NoRadioStation
-	ld a, [wPokegearMapPlayerIconLandmark]
-	cp MAHOGANY_TOWN
-	jr z, .ok
-	cp ROUTE_43
-	jr z, .ok
-	cp LAKE_OF_RAGE
-	jr nz, NoRadioStation
-.ok
-	jmp LoadStation_EvolutionRadio
+; .EvolutionRadio:
+; ; This station airs in the Lake of Rage area when Rocket are still in Mahogany.
+; 	ld a, [wStatusFlags]
+; 	bit STATUSFLAGS_ROCKET_SIGNAL_F, a
+; 	jr z, NoRadioStation
+; 	ld a, [wPokegearMapPlayerIconLandmark]
+; 	cp MAHOGANY_TOWN
+; 	jr z, .ok
+; 	cp ROUTE_43
+; 	jr z, .ok
+; 	cp LAKE_OF_RAGE
+; 	jr nz, NoRadioStation
+; .ok
+; 	jmp LoadStation_EvolutionRadio
 
 .InJohto:
 ; if in Johto or on the S.S. Aqua, set carry
@@ -1137,10 +1134,10 @@ LoadStation_PokeFluteRadio:
 	ld de, PokeFluteStationName
 	jr LoadRadioStation
 
-LoadStation_EvolutionRadio:
-	ld a, EVOLUTION_RADIO
-	ld de, UnknownStationName
-	jr LoadRadioStation
+; LoadStation_EvolutionRadio:
+; 	ld a, EVOLUTION_RADIO
+; 	ld de, UnknownStationName
+; 	jr LoadRadioStation
 
 RadioMusicRestart:
 	push de
@@ -1239,20 +1236,20 @@ _TownMap:
 	call DmgToCgbObjPal0
 	call DelayFrame
 
-	ld a, [wTownMapPlayerIconLandmark]
-	cp SHAMOUTI_LANDMARK
-	jr nc, .orange
-	cp KANTO_LANDMARK
-	jr nc, .kanto
-	call TownMap_GetJohtoLandmarkLimits
-	jr .resume
-.kanto
-	call TownMap_GetKantoLandmarkLimits
-	jr .resume
-.orange
-	call TownMap_GetOrangeLandmarkLimits
+; 	ld a, [wTownMapPlayerIconLandmark]
+; 	cp SHAMOUTI_LANDMARK
+; 	jr nc, .orange
+; 	cp KANTO_LANDMARK
+; 	jr nc, .kanto
+; 	call TownMap_GetJohtoLandmarkLimits
+; 	jr .resume
+; .kanto
+; 	call TownMap_GetKantoLandmarkLimits
+; 	jr .resume
+; .orange
+; 	call TownMap_GetOrangeLandmarkLimits
 
-.resume
+; .resume
 	call .loop
 	pop af
 	ld [wStateFlags], a
@@ -1646,9 +1643,9 @@ TownMapBubble:
 	add hl, hl ; two bytes per flypoint
 	ld de, Flypoints
 	add hl, de
-	ld a, [hl]
-	cp POKEMON_LEAGUE
-	ld de, .PokemonLeagueFlyName ; special case to fit in 16 chars
+	; ld a, [hl]
+	; cp POKEMON_LEAGUE
+	; ld de, .PokemonLeagueFlyName ; special case to fit in 16 chars
 	jr z, .PlaceName
 	ld e, [hl]
 	farcall GetLandmarkName
@@ -1658,8 +1655,8 @@ TownMapBubble:
 	rst PlaceString
 	ret
 
-.PokemonLeagueFlyName:
-	rawchar "Pokémon League@"
+; .PokemonLeagueFlyName:
+; 	rawchar "Pokémon League@"
 
 GetMapCursorCoordinates:
 	ld a, [wTownMapPlayerIconLandmark]
@@ -1711,11 +1708,11 @@ HasVisitedSpawn:
 INCLUDE "data/maps/flypoints.asm"
 
 FlyMap:
-	call GetCurrentLandmark
-	cp SHAMOUTI_LANDMARK
-	jr nc, .OrangeFlyMap
-	cp KANTO_LANDMARK
-	jr nc, .KantoFlyMap
+	; call GetCurrentLandmark
+	; cp SHAMOUTI_LANDMARK
+	; jr nc, .OrangeFlyMap
+	; cp KANTO_LANDMARK
+	; jr nc, .KantoFlyMap
 ; Note that .NoKanto should be modified in tandem with this branch
 	push af
 ; Start from New Bark Town
@@ -1724,101 +1721,101 @@ FlyMap:
 ; Flypoints begin at New Bark Town...
 	ld [wStartFlypoint], a
 ; ..and end at Silver Cave
-	ld a, FLY_MT_SILVER
-	ld [wEndFlypoint], a
-; Fill out the map
-	call FillJohtoMap
-	call TownMapBubble
-	call TownMapPals
-	call TownMapJohtoFlips
-	call .MapHud
-	pop af
-	jmp TownMapPlayerIcon
-
-.OrangeFlyMap:
-	push af
-; Start from Shamouti Island
-	ld a, FLY_SHAMOUTI
-	ld [wTownMapPlayerIconLandmark], a
-; Flypoints begin at Shamouti Island...
-	ld [wStartFlypoint], a
-; ..and end at Navel Rock
-	ld a, FLY_NAVEL
-	ld [wEndFlypoint], a
-; Fill out the map
-	call FillOrangeMap
-	call TownMapBubble
-	call TownMapPals
-	call TownMapOrangeFlips
-	call .MapHud
-	pop af
-	jmp TownMapPlayerIcon
-
-.KantoFlyMap:
-; The event that there are no flypoints enabled in a map is not
-; accounted for. As a result, if you attempt to select a flypoint
-; when there are none enabled, the game will crash. Additionally,
-; the flypoint selection has a default starting point that
-; can be flown to even if none are enabled
-; To prevent both of these things from happening when the player
-; enters Kanto, fly access is restricted until at least one Kanto
-; flypoint has been visited
-	push af
-	ld c, SPAWN_INDIGO
-	call HasVisitedSpawn
-	and a
-	jr nz, .LoadKantoMap
-	ld c, SPAWN_POKEMON_LEAGUE
-	call HasVisitedSpawn
-	and a
-	jr z, .NoKanto
-
-.LoadKantoMap:
-; Kanto's map is only loaded if we've visited Indigo Plateau or
-; Pokémon League Gate
-
-; Flypoints begin at Pallet Town...
-	ld a, FLY_PALLET
-	ld [wStartFlypoint], a
-; ...and end at Pokémon League Gate
-	ld a, FLY_POKEMON_LEAGUE
-	ld [wEndFlypoint], a
-
-; If Indigo Plateau has been visited, keep it as the default.
-; Otherwise use Pokémon League Gate.
-	ld c, SPAWN_INDIGO
-	call HasVisitedSpawn
-	ld a, FLY_POKEMON_LEAGUE
-	jr z, .SetKantoDefault
-	assert FLY_POKEMON_LEAGUE - 1 == FLY_INDIGO
-	dec a
-.SetKantoDefault:
-	ld [wTownMapPlayerIconLandmark], a
-; Fill out the map
-	call FillKantoMap
-	call TownMapBubble
-	call TownMapPals
-	call TownMapKantoFlips
-	call .MapHud
-	pop af
-	jmp TownMapPlayerIcon
-
-.NoKanto:
-; If Indigo Plateau hasn't been visited, we use Johto's map instead
-
-; Start from New Bark Town
 	ld a, FLY_NEW_BARK
-	ld [wTownMapPlayerIconLandmark], a
-; Flypoints begin at New Bark Town...
-	ld [wStartFlypoint], a
-; ..and end at Silver Cave
-	ld a, FLY_MT_SILVER
 	ld [wEndFlypoint], a
+; Fill out the map
 	call FillJohtoMap
-	pop af
 	call TownMapBubble
 	call TownMapPals
 	call TownMapJohtoFlips
+	call .MapHud
+	pop af
+	jmp TownMapPlayerIcon
+
+; .OrangeFlyMap:
+; 	push af
+; ; Start from Shamouti Island
+; 	ld a, FLY_SHAMOUTI
+; 	ld [wTownMapPlayerIconLandmark], a
+; ; Flypoints begin at Shamouti Island...
+; 	ld [wStartFlypoint], a
+; ; ..and end at Navel Rock
+; 	ld a, FLY_NAVEL
+; 	ld [wEndFlypoint], a
+; ; Fill out the map
+; 	call FillOrangeMap
+; 	call TownMapBubble
+; 	call TownMapPals
+; 	call TownMapOrangeFlips
+; 	call .MapHud
+; 	pop af
+; 	jmp TownMapPlayerIcon
+
+; .KantoFlyMap:
+; ; The event that there are no flypoints enabled in a map is not
+; ; accounted for. As a result, if you attempt to select a flypoint
+; ; when there are none enabled, the game will crash. Additionally,
+; ; the flypoint selection has a default starting point that
+; ; can be flown to even if none are enabled
+; ; To prevent both of these things from happening when the player
+; ; enters Kanto, fly access is restricted until at least one Kanto
+; ; flypoint has been visited
+; 	push af
+; 	ld c, SPAWN_INDIGO
+; 	call HasVisitedSpawn
+; 	and a
+; 	jr nz, .LoadKantoMap
+; 	ld c, SPAWN_POKEMON_LEAGUE
+; 	call HasVisitedSpawn
+; 	and a
+; 	jr z, .NoKanto
+
+; .LoadKantoMap:
+; ; Kanto's map is only loaded if we've visited Indigo Plateau or
+; ; Pokémon League Gate
+
+; ; Flypoints begin at Pallet Town...
+; 	ld a, FLY_PALLET
+; 	ld [wStartFlypoint], a
+; ; ...and end at Pokémon League Gate
+; 	ld a, FLY_POKEMON_LEAGUE
+; 	ld [wEndFlypoint], a
+
+; ; If Indigo Plateau has been visited, keep it as the default.
+; ; Otherwise use Pokémon League Gate.
+; 	ld c, SPAWN_INDIGO
+; 	call HasVisitedSpawn
+; 	ld a, FLY_POKEMON_LEAGUE
+; 	jr z, .SetKantoDefault
+; 	assert FLY_POKEMON_LEAGUE - 1 == FLY_INDIGO
+; 	dec a
+; .SetKantoDefault:
+; 	ld [wTownMapPlayerIconLandmark], a
+; ; Fill out the map
+; 	call FillKantoMap
+; 	call TownMapBubble
+; 	call TownMapPals
+; 	call TownMapKantoFlips
+; 	call .MapHud
+; 	pop af
+; 	jmp TownMapPlayerIcon
+
+; .NoKanto:
+; ; If Indigo Plateau hasn't been visited, we use Johto's map instead
+
+; ; Start from New Bark Town
+; 	ld a, FLY_NEW_BARK
+; 	ld [wTownMapPlayerIconLandmark], a
+; ; Flypoints begin at New Bark Town...
+; 	ld [wStartFlypoint], a
+; ; ..and end at Silver Cave
+; 	ld a, FLY_MT_SILVER
+; 	ld [wEndFlypoint], a
+; 	call FillJohtoMap
+; 	pop af
+; 	call TownMapBubble
+; 	call TownMapPals
+; 	call TownMapJohtoFlips
 .MapHud:
 	hlbgcoord 0, 0 ; BG Map 0
 	call TownMapBGUpdate

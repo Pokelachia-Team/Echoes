@@ -6240,10 +6240,10 @@ CheckValidMagikarpLength:
 
 .CheckMagikarpArea:
 	ld a, [wMapGroup]
-	cp GROUP_LAKE_OF_RAGE
-	jr nz, .okay
-	ld a, [wMapNumber]
-	cp MAP_LAKE_OF_RAGE
+	; cp GROUP_LAKE_OF_RAGE
+	; jr nz, .okay
+	; ld a, [wMapNumber]
+	; cp MAP_LAKE_OF_RAGE
 	jr nz, .okay
 .LakeOfRageMagikarp
 ; 40% chance of not flooring
@@ -7484,7 +7484,7 @@ _GetNewBaseExp:
 .inc_3
 	inc hl
 .inc_2
-	inc hl
+	; inc hl
 	inc hl
 	push hl
 	ld a, BANK(EvosAttacks)
@@ -7493,7 +7493,7 @@ _GetNewBaseExp:
 	ld a, h
 	pop hl
 	inc hl
-	inc hl
+	; inc hl
 
 	; NO_FORM should be treated as a wildcard
 	and a ; cp NO_FORM
@@ -8916,24 +8916,24 @@ AutomaticBattleWeather:
 	ret nz
 
 	ld a, [wMapGroup]
-	cp GROUP_SNOWTOP_MOUNTAIN_INSIDE ; aka GROUP_RUGGED_ROAD_SOUTH
-	jr nz, .not_rugged_road_or_snowtop_mountain
-	ld a, [wMapNumber]
-	; Automatic sandstorm on Rugged Road
-	cp MAP_RUGGED_ROAD_SOUTH
-	lb de, WEATHER_SANDSTORM, SANDSTORM
-	ld hl, SandstormBrewedText
-	jr z, .got_weather
-	; Automatic hail on Snowtop Mountain
-	cp MAP_SNOWTOP_MOUNTAIN_INSIDE
-	jr .maybe_hail
+	; cp GROUP_SNOWTOP_MOUNTAIN_INSIDE ; aka GROUP_RUGGED_ROAD_SOUTH
+	; jr nz, .not_rugged_road_or_snowtop_mountain
+	; ld a, [wMapNumber]
+	; ; Automatic sandstorm on Rugged Road
+	; cp MAP_RUGGED_ROAD_SOUTH
+	; lb de, WEATHER_SANDSTORM, SANDSTORM
+	; ld hl, SandstormBrewedText
+	; jr z, .got_weather
+	; ; Automatic hail on Snowtop Mountain
+	; cp MAP_SNOWTOP_MOUNTAIN_INSIDE
+	; jr .maybe_hail
 .not_rugged_road_or_snowtop_mountain
 	; Automatic hail on Mt. Silver peak
 	ld a, [wMapGroup]
-	cp GROUP_SILVER_CAVE_ROOM_3
-	jr nz, .not_mt_silver_peak
-	ld a, [wMapNumber]
-	cp MAP_SILVER_CAVE_ROOM_3
+	; cp GROUP_SILVER_CAVE_ROOM_3
+	; jr nz, .not_mt_silver_peak
+	; ld a, [wMapNumber]
+	; cp MAP_SILVER_CAVE_ROOM_3
 .maybe_hail
 	lb de, WEATHER_HAIL, HAIL
 	ld hl, HailStartedText

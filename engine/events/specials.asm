@@ -468,16 +468,16 @@ RespawnOneOffs:
 	ret
 
 RespawnRoamingRaikou:
-	ld a, RAIKOU
+	ld a, RATTATA
 	ld [wRoamMon1Species], a
 	ld a, 50
 	ld [wRoamMon1Level], a
-	assert HIGH(RAIKOU) == 0
+	assert HIGH(RATTATA) == 0
 	ld a, PLAIN_FORM
 	ld [wRoamMon1Form], a
-	ld a, GROUP_ROUTE_42
+	ld a, GROUP_NEW_BARK_TOWN
 	ld [wRoamMon1MapGroup], a
-	ld a, MAP_ROUTE_42
+	ld a, MAP_NEW_BARK_TOWN
 	ld [wRoamMon1MapNumber], a
 	xor a ; generate new stats
 	ld [wRoamMon1HP], a
@@ -488,28 +488,28 @@ RespawnRoamingEntei:
 	ld [wRoamMon2Species], a
 	ld a, 50
 	ld [wRoamMon2Level], a
-	assert HIGH(ENTEI) == 0
+	assert HIGH(RATTATA) == 0
 	ld a, PLAIN_FORM
 	ld [wRoamMon2Form], a
-	ld a, GROUP_ROUTE_37
+	ld a, GROUP_NEW_BARK_TOWN
 	ld [wRoamMon2MapGroup], a
-	ld a, MAP_ROUTE_37
+	ld a, MAP_NEW_BARK_TOWN
 	ld [wRoamMon2MapNumber], a
 	xor a ; generate new stats
 	ld [wRoamMon2HP], a
 	ret
 
 RespawnRoamingSuicune:
-	ld a, SUICUNE
+	ld a, RATTATA
 	ld [wRoamMon3Species], a
 	ld a, 50
 	ld [wRoamMon3Level], a
-	assert HIGH(SUICUNE) == 0
+	assert HIGH(RATTATA) == 0
 	ld a, PLAIN_FORM
 	ld [wRoamMon3Form], a
-	ld a, GROUP_ROUTE_38
+	ld a, GROUP_NEW_BARK_TOWN
 	ld [wRoamMon3MapGroup], a
-	ld a, MAP_ROUTE_38
+	ld a, MAP_NEW_BARK_TOWN
 	ld [wRoamMon3MapNumber], a
 	xor a ; generate new stats
 	ld [wRoamMon3HP], a
