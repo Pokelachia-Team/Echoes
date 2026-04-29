@@ -88,7 +88,7 @@ HallOfFameEnterScene:
 	setevent EVENT_BATTLE_TOWER_OPEN
 	clearevent EVENT_BATTLE_TOWER_CLOSED
 .SkipPhoneCall:
-	blackoutmod NEW_BARK_TOWN
+	blackoutmod HOLLOWPORT
 	halloffame
 	end
 

@@ -33,7 +33,7 @@ ENDM
 	map_const BATTLE_TOWER_ELEVATOR,                       2,  2 ;  4
 	map_const BATTLE_TOWER_HALLWAY,                       11,  2 ;  5
 	map_const BATTLE_TOWER_OUTSIDE,                       10, 13 ;  7
-	map_const HALL_OF_FAME,                                5,  7 ;  9
+	map_const HALL_OF_FAME,                                5,  7 ;  8
 
 	newgroup                                                     ; 2
 	map_const POKECENTER_2F,                               8,  4 ;  1
@@ -43,8 +43,21 @@ ENDM
 	map_const HIDDEN_CAVE_GROTTO,                          4,  6 ;  5
 
 	newgroup                                                     ; 3
-	map_const NEW_BARK_TOWN,                              10,  9 ;  4
-	map_const PLAYERS_HOUSE_1F,                            6,  4 ;  6
-	map_const PLAYERS_HOUSE_2F,                            4,  3 ;  7
+	map_const HOLLOWPORT,                                 12,  9 ;  1
+	map_const FIELD_LAB,								   9,  5 ;  2
+	map_const FIELD_LAB_2F,							   9,  5 ;  3		
+	map_const ECHOING_CAVE,							   6,  9 ;  4	
+	map_const PLAYERS_HOUSE_1F,                            6,  4 ;  2
+	map_const PLAYERS_HOUSE_2F,                            4,  3 ;  3
+	map_const HOLLOWPORT_RIVAL_1F,                         6,  4 ;  7
+	map_const HOLLOWPORT_RIVAL_2F,                         4,  3 ;  8
+	map_const HOLLOWPORT_NEIGHBOR,                         4,  4 ;  9
+	; map_const ROUTE_101,             				      19, 12 ;  10
+	; map_const ROUTE_101_HOUSE,             			   4,  4 ;  11
+	; map_const ROUTE_101_CAVE,             			   6,  19 ; 12
+	; map_const ROUTE_102,								  16,  9 ;  13
+	; map_const ROUTE_101_102_GATE,                        5,  4 ;  14
+	; map_const ROUTE_102_OLSTEETON_GATE,                  5,  4 ;  15
+
 
 DEF NUM_MAP_GROUPS EQU const_value ; 37

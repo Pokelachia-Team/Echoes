@@ -288,5 +288,6 @@ TilesetHotelAnim::
 TilesetBattleFactoryAnim::
 TilesetHiddenGrottoAnim::
 TilesetKantoGymAnim::
+TilesetCaveLabAnim::
 	tileframe DoNothing
 	tileframe DoneTileAnimation

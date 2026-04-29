@@ -1,7 +1,7 @@
-NAME := polishedcrystal
+NAME := pokemon-echoes
 MODIFIERS :=
-VERSION := 3.2.3
-AUTHOR := RANGI42
+VERSION := 0.3.0
+AUTHOR := POKELACHIA-TEAM
 
 ROM_NAME = $(NAME)$(MODIFIERS)-$(VERSION)
 EXTENSION := gbc

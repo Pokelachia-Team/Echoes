@@ -21,7 +21,7 @@ ENDM
 
 RandomOvercastMapsJohto:
 	const_def
-	overcast_map NEW_BARK_TOWN
+	overcast_map HOLLOWPORT
 	; aliases
 	DEF NUM_JOHTO_OVERCAST_MAPS EQU const_value
 

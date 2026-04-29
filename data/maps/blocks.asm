@@ -30,9 +30,32 @@ SECTION "PlayersHouse2F_BlockData", ROMX
 PlayersHouse2F_BlockData:
 	INCBIN "maps/PlayersHouse2F.ablk.lzp"
 
-SECTION "NewBarkTown_BlockData", ROMX
-NewBarkTown_BlockData:
-	INCBIN "maps/NewBarkTown.ablk.lzp"
+SECTION "Hollowport_BlockData", ROMX
+Hollowport_BlockData:
+	INCBIN "maps/Hollowport.ablk.lzp"
+
+HollowportNeighbor_BlockData:
+	INCBIN "maps/FolkoraHouse4.ablk.lzp"
+
+SECTION "HollowportRival1F_BlockData", ROMX
+HollowportRival1F_BlockData:
+	INCBIN "maps/HollowportRival1F.ablk.lzp"
+
+SECTION "HollowportRival2F_BlockData", ROMX
+HollowportRival2F_BlockData:
+	INCBIN "maps/HollowportRival2F.ablk.lzp"
+	
+SECTION "FieldLab_BlockData", ROMX
+FieldLab_BlockData:
+	INCBIN "maps/FieldLab.ablk.lzp"
+
+SECTION "FieldLab2F_BlockData", ROMX
+FieldLab2F_BlockData:
+	INCBIN "maps/FieldLab2F.ablk.lzp"
+
+SECTION "EchoingCave_BlockData", ROMX
+EchoingCave_BlockData:
+	INCBIN "maps/EchoingCave.ablk.lzp"
 
 SECTION "BattleTower1F_BlockData", ROMX
 BattleTower1F_BlockData:

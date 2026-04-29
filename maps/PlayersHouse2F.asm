@@ -186,7 +186,7 @@ endr
 	setevent EVENT_ENABLE_DIPLOMA_PRINTING
 ;	clearevent EVENT_AZALEA_TOWN_SLOWPOKES ; enables random overcast weather
 	; fly anywhere
-	setflag ENGINE_FLYPOINT_NEW_BARK
+	setflag ENGINE_FLYPOINT_HOLLOWPORT
 ;	setevent EVENT_RESTORED_POWER_TO_KANTO ; magnet train works
 	; post-e4
 	setflag ENGINE_CREDITS_SKIP
@@ -247,7 +247,7 @@ endr
 ;	setevent EVENT_RIVAL_CHERRYGROVE_CITY
 ;	setevent EVENT_LYRA_IN_ELMS_LAB
 ;	setmapscene ELMS_LAB, SCENE_ELMSLAB_AIDE_GIVES_POTION
-;	setmapscene NEW_BARK_TOWN, SCENE_NEWBARKTOWN_NOOP
+;	setmapscene HOLLOWPORT, SCENE_NEWBARKTOWN_NOOP
 	; cherrygrove events
 	setevent EVENT_GUIDE_GENT_IN_HIS_HOUSE
 	clearevent EVENT_GUIDE_GENT_VISIBLE_IN_CHERRYGROVE
@@ -335,15 +335,24 @@ PokemonJournalProfElmScript:
 	text "#mon Journal"
 
 	para "Special Feature:"
-	line "#mon Prof.Elm!"
+	line "Prof.Cecil Pawpaw!"
 
-	para "Prof.Elm was the"
-	line "top student of"
-	cont "Prof.Oak."
+	para "Prof.Pawpaw was"
+	line "the first to"
+	cont "study #mon"
+	cont "biomes."
 
-	para "They're said to"
-	line "often argue about"
-	cont "research."
+	para "Often in the field"
+	line "instead of the lab,"
+
+	para "When asked, Pawpaw"
+	line "stated 'Quality'"
+
+	para "'research begins'"
+ 	line "'with boots on'"
+
+	para "'the ground and'"
+	line "'hands in the mud!'"
 	done
 
 PlayersHousePC:
@@ -355,9 +364,9 @@ PlayersHousePC:
 	end
 
 PlayerRadioText1:
-	text "Prof.Oak's #mon"
-	line "Talk! Please tune"
-	cont "in next time!"
+	text "Prof.Poplar's"
+	line "#mon Talk!"
+	cont "Tune in next time!"
 	done
 
 PlayerRadioText2:
@@ -365,8 +374,9 @@ PlayerRadioText2:
 	done
 
 PlayerRadioText3:
-	text "This is DJ Mary,"
-	line "your co-host!"
+	text "I'm DJ Dunsparce,"
+	line "your main mon"
+	cont "for the next hour!"
 	done
 
 PlayerRadioText4:
