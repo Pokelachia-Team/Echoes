@@ -372,7 +372,7 @@ Continue:
 	jr FinishContinueFunction
 
 .SpawnAfterE4:
-	ld a, SPAWN_NEW_BARK
+	ld a, SPAWN_HOLLOWPORT
 	ld [wDefaultSpawnpoint], a
 	call PostCreditsSpawn
 	jr FinishContinueFunction

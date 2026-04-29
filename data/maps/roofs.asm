@@ -5,5 +5,5 @@ MapGroupRoofs:
 	db -1             ; 0
 	db ROOF_OLIVINE   ; 9 (Battle Tower Outside)
 	db -1             ; 20
-	db ROOF_NEW_BARK  ; 24 (New Bark Town)
+	db ROOF_NEW_BARK  ; 24 (Hollowport)
 	assert_table_length NUM_MAP_GROUPS + 1

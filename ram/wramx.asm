@@ -1196,7 +1196,7 @@ wBattleTowerOutsideSceneID:: db
 wColosseumSceneID:: db
 wHallOfFameSceneID:: db
 wPlayersHouse1FSceneID:: db
-wNewBarkTownSceneID:: db
+wHollowportSceneID:: db
 wPokecenter2FSceneID:: db
 wTradeCenterSceneID:: db
 

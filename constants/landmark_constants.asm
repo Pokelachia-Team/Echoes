@@ -1,9 +1,9 @@
 ; Landmarks indexes (see data/maps/landmarks.asm)
 	const_def
 	const SPECIAL_MAP        ; 00
-; Johto landmarks
-	const NEW_BARK_TOWN      ; 01
-	const BATTLE_TOWER       ; 2a
+; Folkora landmarks
+	const HOLLOWPORT         ; 0a
+	const BATTLE_TOWER       ; 0b
 DEF KANTO_LANDMARK EQU const_value
 DEF SHAMOUTI_LANDMARK EQU const_value
 DEF NUM_LANDMARKS EQU const_value

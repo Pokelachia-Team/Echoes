@@ -475,9 +475,9 @@ RespawnRoamingRaikou:
 	assert HIGH(RATTATA) == 0
 	ld a, PLAIN_FORM
 	ld [wRoamMon1Form], a
-	ld a, GROUP_NEW_BARK_TOWN
+	ld a, GROUP_HOLLOWPORT
 	ld [wRoamMon1MapGroup], a
-	ld a, MAP_NEW_BARK_TOWN
+	ld a, MAP_HOLLOWPORT
 	ld [wRoamMon1MapNumber], a
 	xor a ; generate new stats
 	ld [wRoamMon1HP], a
@@ -491,9 +491,9 @@ RespawnRoamingEntei:
 	assert HIGH(RATTATA) == 0
 	ld a, PLAIN_FORM
 	ld [wRoamMon2Form], a
-	ld a, GROUP_NEW_BARK_TOWN
+	ld a, GROUP_HOLLOWPORT
 	ld [wRoamMon2MapGroup], a
-	ld a, MAP_NEW_BARK_TOWN
+	ld a, MAP_HOLLOWPORT
 	ld [wRoamMon2MapNumber], a
 	xor a ; generate new stats
 	ld [wRoamMon2HP], a
@@ -507,9 +507,9 @@ RespawnRoamingSuicune:
 	assert HIGH(RATTATA) == 0
 	ld a, PLAIN_FORM
 	ld [wRoamMon3Form], a
-	ld a, GROUP_NEW_BARK_TOWN
+	ld a, GROUP_HOLLOWPORT
 	ld [wRoamMon3MapGroup], a
-	ld a, MAP_NEW_BARK_TOWN
+	ld a, MAP_HOLLOWPORT
 	ld [wRoamMon3MapNumber], a
 	xor a ; generate new stats
 	ld [wRoamMon3HP], a

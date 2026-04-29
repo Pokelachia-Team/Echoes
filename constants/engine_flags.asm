@@ -67,7 +67,7 @@ DEF ENGINE_BADGES EQU const_value
 	const_skip 4 ; unused
 ; wVisitedSpawns
 	const ENGINE_FLYPOINT_PLAYERS_HOUSE
-	const ENGINE_FLYPOINT_NEW_BARK
+	const ENGINE_FLYPOINT_HOLLOWPORT
 ; wLuckyNumberShowFlag
 	const ENGINE_LUCKY_NUMBER_SHOW
 ; wDailyFlags1

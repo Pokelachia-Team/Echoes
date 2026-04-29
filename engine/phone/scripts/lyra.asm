@@ -83,11 +83,11 @@ LyraPhoneScript_GreetingsTable:
 LyraPhoneScript_JohtoLandmarksTable:
 	table_width 2
 	dw .Generic
-	dw .NewBarkTown
+	dw .Hollowport
 	dw .BattleTower
 	assert_table_length KANTO_LANDMARK
 .Generic:
-.NewBarkTown:
+.Hollowport:
 .BattleTower:
 	; TODO: define individual texts for Johto landmarks
 	farwritetext LyraPhoneJohtoText_Generic

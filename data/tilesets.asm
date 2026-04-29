@@ -61,6 +61,7 @@ Tilesets::
 	tileset TilesetPeaks
 	tileset TilesetHideout
 	tileset TilesetKantoGym
+	tileset TilesetCaveLab
 	assert_table_length NUM_TILESETS
 
 
@@ -902,6 +903,22 @@ TilesetKantoGymMeta:: INCBIN "data/tilesets/kanto_gym_metatiles.bin.lzp"
 TilesetKantoGymAttr:: INCBIN "data/tilesets/kanto_gym_attributes.bin.lzp"
 TilesetKantoGymColl:: INCBIN "data/tilesets/kanto_gym_collision.bin.lzp"
 
+SECTION "Tileset Graphics - cave lab vram0", ROMX
+
+TilesetCaveLabGFX0:: INCBIN "gfx/tilesets/cave_lab.2bpp.vram0.lzp"
+
+
+SECTION "Tileset Graphics - cave lab vram1", ROMX
+
+TilesetCaveLabGFX1:: INCBIN "gfx/tilesets/cave_lab.2bpp.vram1.lzp"
+
+
+SECTION "Tileset Data - cave lab", ROMX
+
+TilesetCaveLabMeta:: INCBIN "data/tilesets/cave_lab_metatiles.bin.lzp"
+TilesetCaveLabAttr:: INCBIN "data/tilesets/cave_lab_attributes.bin.lzp"
+TilesetCaveLabColl:: INCBIN "data/tilesets/cave_lab_collision.bin.lzp"
+
 
 SECTION "Tileset Graphics - Terminator vram2", ROMX
 
@@ -952,4 +969,6 @@ TilesetHiddenGrottoGFX2::
 TilesetPeaksGFX2::
 TilesetHideoutGFX2::
 TilesetKantoGymGFX2::
+TilesetCaveLabGFX2::
+
 	db $ff ; Compressed data is terminated with $ff.

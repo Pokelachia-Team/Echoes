@@ -700,15 +700,15 @@ InitRoamMons:
 	ld [wRoamMon2Form], a
 
 ; raikou starting map
-	ld a, GROUP_NEW_BARK_TOWN
+	ld a, GROUP_HOLLOWPORT
 	ld [wRoamMon1MapGroup], a
-	ld a, MAP_NEW_BARK_TOWN
+	ld a, MAP_HOLLOWPORT
 	ld [wRoamMon1MapNumber], a
 
 ; entei starting map
-	ld a, GROUP_NEW_BARK_TOWN
+	ld a, GROUP_HOLLOWPORT
 	ld [wRoamMon2MapGroup], a
-	ld a, MAP_NEW_BARK_TOWN
+	ld a, MAP_HOLLOWPORT
 	ld [wRoamMon2MapNumber], a
 
 ; hp
