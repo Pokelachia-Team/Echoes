@@ -3,8 +3,23 @@ SECTION "Special Map Blockdata", ROMX
 PokeCenter2F_BlockData:
 	INCBIN "maps/JohtoPokeCenter2F.ablk.lzp"
 
+HollowportNeighbor_BlockData:
+	INCBIN "maps/FolkoraHouse4.ablk.lzp"
+
+Route101House_BlockData:
+	INCBIN "maps/TraditionalHouse.ablk.lzp"
+
 GenericMart_BlockData:: ; used by tilesets/palettes.asm:LoadSpecialMapPalette
 	INCBIN "maps/Mart.ablk.lzp"
+
+OlsteetonForestGate_BlockData:
+	INCBIN "maps/NorthSouthGate.ablk.lzp"
+
+Route101102Gate_BlockData:
+Route102OlsteetonGate_BlockData:
+OlsteetonUniGate_BlockData:
+	INCBIN "maps/EastWestGate.ablk.lzp"
+
 
 SECTION "TradeCenter_BlockData", ROMX
 TradeCenter_BlockData:
@@ -34,9 +49,6 @@ SECTION "Hollowport_BlockData", ROMX
 Hollowport_BlockData:
 	INCBIN "maps/Hollowport.ablk.lzp"
 
-HollowportNeighbor_BlockData:
-	INCBIN "maps/FolkoraHouse4.ablk.lzp"
-
 SECTION "HollowportRival1F_BlockData", ROMX
 HollowportRival1F_BlockData:
 	INCBIN "maps/HollowportRival1F.ablk.lzp"
@@ -56,6 +68,18 @@ FieldLab2F_BlockData:
 SECTION "EchoingCave_BlockData", ROMX
 EchoingCave_BlockData:
 	INCBIN "maps/EchoingCave.ablk.lzp"
+
+SECTION "Route101_BlockData", ROMX
+Route101_BlockData:
+	INCBIN "maps/Route101.ablk.lzp"
+
+SECTION "Route101Cave_BlockData", ROMX
+Route101Cave_BlockData:
+	INCBIN "maps/Route101Cave.ablk.lzp"
+
+SECTION "Route102_BlockData", ROMX
+Route102_BlockData:
+	INCBIN "maps/Route102.ablk.lzp"
 
 SECTION "BattleTower1F_BlockData", ROMX
 BattleTower1F_BlockData:

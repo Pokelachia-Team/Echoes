@@ -3,6 +3,8 @@
 	const SPECIAL_MAP        ; 00
 ; Folkora landmarks
 	const HOLLOWPORT         ; 0a
+	const ROUTE_101			 ; 0b
+	const ROUTE_102			 ; 0c
 	const BATTLE_TOWER       ; 0b
 DEF KANTO_LANDMARK EQU const_value
 DEF SHAMOUTI_LANDMARK EQU const_value

@@ -20,14 +20,14 @@ PlayersHouse1F_MapScriptHeader:
 	bg_event  7,  1, BGEVENT_JUMPTEXT, PlayerHouse1FSinkText
 	bg_event  8,  1, BGEVENT_JUMPTEXT, PlayerHouse1FStoveText
 	bg_event  3,  1, BGEVENT_UP, PlayerHouse1FTVScript
-	; bg_event 10,  1, BGEVENT_ITEM + RARE_CANDY, EVENT_PLAYER_HOUSE_HIDDEN_RARE_CANDY
+	bg_event 10,  1, BGEVENT_ITEM + RARE_CANDY, EVENT_PLAYER_HOUSE_HIDDEN_RARE_CANDY
 
 	def_object_events
 	object_event  2,  5, SPRITE_MOM, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_1
 	object_event  3,  3, SPRITE_LASS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, SisterScript, -1
 	object_event  8,  3, SPRITE_DAD, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, DadText, -1
 	object_event  9,  5, SPRITE_MOM, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_2
-	pokemon_event  3,  5, MEOWTH, SPRITEMOVEDATA_POKEMON, -1, PAL_NPC_GRAY, HomeMeowthText, -1
+	pokemon_event  3,  5, MEOWTH, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_GRAY, HomeMeowthText, -1
 
 
 	object_const_def

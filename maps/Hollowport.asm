@@ -26,7 +26,7 @@ Hollowport_MapScriptHeader:
 	bg_event  3,  4, BGEVENT_JUMPTEXT, FieldLabSignText
 	bg_event 14, 12, BGEVENT_JUMPTEXT, RivalsHouseSignText
 	bg_event 10,  4, BGEVENT_ITEM + POTION, EVENT_HOLLOWPORT_HIDDEN_POTION
-	; bg_event  4, 12, BGEVENT_ITEM + NUGGET, EVENT_HOLLOWPORT_HIDDEN_NUGGET
+	bg_event  4, 12, BGEVENT_ITEM + NUGGET, EVENT_HOLLOWPORT_HIDDEN_NUGGET
 
 	def_object_events
 	object_event  2,  8, SPRITE_ROCKET, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, Text_HollowportThief, -1
@@ -35,7 +35,7 @@ Hollowport_MapScriptHeader:
 	object_event 11, 14, SPRITE_FAT_GUY, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, Text_Technologia, -1
 	object_event  6, 10, SPRITE_PICNICKER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, (1 << MORN) | (1 << DAY), 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, Text_HollowportBirdFriend, -1
 	object_event 17, 13, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, Text_HollowportFisher, -1
-	pokemon_event  8, 10, MURKROW, SPRITEMOVEDATA_POKEMON, -1, PAL_NPC_BLACK, HollowportMurkrowText, -1
+	pokemon_event  8, 10, MURKROW, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_BLACK, HollowportMurkrowText, -1
 
 	object_const_def
 	; const HOLLOWPORT_RIVAL

@@ -45,19 +45,19 @@ ENDM
 	newgroup                                                     ; 3
 	map_const HOLLOWPORT,                                 12,  9 ;  1
 	map_const FIELD_LAB,								   9,  5 ;  2
-	map_const FIELD_LAB_2F,							   9,  5 ;  3		
-	map_const ECHOING_CAVE,							   6,  9 ;  4	
+	map_const FIELD_LAB_2F,							       9,  5 ;  3		
+	map_const ECHOING_CAVE,							       6,  9 ;  4	
 	map_const PLAYERS_HOUSE_1F,                            6,  4 ;  2
 	map_const PLAYERS_HOUSE_2F,                            4,  3 ;  3
 	map_const HOLLOWPORT_RIVAL_1F,                         6,  4 ;  7
 	map_const HOLLOWPORT_RIVAL_2F,                         4,  3 ;  8
 	map_const HOLLOWPORT_NEIGHBOR,                         4,  4 ;  9
-	; map_const ROUTE_101,             				      19, 12 ;  10
-	; map_const ROUTE_101_HOUSE,             			   4,  4 ;  11
-	; map_const ROUTE_101_CAVE,             			   6,  19 ; 12
-	; map_const ROUTE_102,								  16,  9 ;  13
-	; map_const ROUTE_101_102_GATE,                        5,  4 ;  14
-	; map_const ROUTE_102_OLSTEETON_GATE,                  5,  4 ;  15
+	map_const ROUTE_101,             				      19, 12 ;  10
+	map_const ROUTE_101_HOUSE,             			       4,  4 ;  11
+	map_const ROUTE_101_CAVE,             			      6,  19 ; 12
+	map_const ROUTE_102,								  16,  9 ;  13
+	map_const ROUTE_101_102_GATE,                          5,  4 ;  14
+	map_const ROUTE_102_OLSTEETON_GATE,                    5,  4 ;  15
 
 
 DEF NUM_MAP_GROUPS EQU const_value ; 37

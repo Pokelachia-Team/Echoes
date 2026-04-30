@@ -84,10 +84,20 @@ LyraPhoneScript_JohtoLandmarksTable:
 	table_width 2
 	dw .Generic
 	dw .Hollowport
+	dw .Route101
+	dw .Route102
+	; dw .Olsteeton
+	; dw .NationalForest1
+	; dw .OlsteetonUni
 	dw .BattleTower
 	assert_table_length KANTO_LANDMARK
 .Generic:
 .Hollowport:
+.Route101:
+.Route102:
+; .Olsteeton:
+; .NationalForest1:
+; .OlsteetonUni:
 .BattleTower:
 	; TODO: define individual texts for Johto landmarks
 	farwritetext LyraPhoneJohtoText_Generic

@@ -8,13 +8,11 @@ MACRO map_attributes
 	db \4
 ENDM
 
-	map_attributes Hollowport, HOLLOWPORT, $5, 0
-	
-	; map_attributes Hollowport, HOLLOWPORT, $5, NORTH
-	; connection north, Route101, ROUTE_101, 2
+	map_attributes Hollowport, HOLLOWPORT, $5, NORTH
+	connection north, Route101, ROUTE_101, 2
 
-	; map_attributes Route101, ROUTE_101, $5, SOUTH
-	; connection south, Hollowport, HOLLOWPORT, -2
+	map_attributes Route101, ROUTE_101, $5, SOUTH
+	connection south, Hollowport, HOLLOWPORT, -2
 
 	map_attributes FieldLab, FIELD_LAB, $0, 0
 	map_attributes FieldLab2F, FIELD_LAB_2F, $0, 0
@@ -24,11 +22,11 @@ ENDM
 	map_attributes HollowportRival1F, HOLLOWPORT_RIVAL_1F, $0, 0
 	map_attributes HollowportRival2F, HOLLOWPORT_RIVAL_2F, $0, 0
 	map_attributes HollowportNeighbor, HOLLOWPORT_NEIGHBOR, $0, 0
-	; map_attributes Route101House, ROUTE_101_HOUSE, $0, 0
-	; map_attributes Route101Cave, ROUTE_101_CAVE, $0, 0
-	; map_attributes Route102, ROUTE_102, $5, 0
-	; map_attributes Route101102Gate, ROUTE_101_102_GATE, $0, 0
-	; map_attributes Route102OlsteetonGate, ROUTE_102_OLSTEETON_GATE, $0, 0
+	map_attributes Route101House, ROUTE_101_HOUSE, $0, 0
+	map_attributes Route101Cave, ROUTE_101_CAVE, $0, 0
+	map_attributes Route102, ROUTE_102, $5, 0
+	map_attributes Route101102Gate, ROUTE_101_102_GATE, $0, 0
+	map_attributes Route102OlsteetonGate, ROUTE_102_OLSTEETON_GATE, $0, 0
 	map_attributes HallOfFame, HALL_OF_FAME, $0, 0
 	map_attributes PokeCenter2F, POKECENTER_2F, $0, 0
 	map_attributes TradeCenter, TRADE_CENTER, $0, 0
