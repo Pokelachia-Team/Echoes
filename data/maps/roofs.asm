@@ -6,4 +6,6 @@ MapGroupRoofs:
 	db ROOF_OLIVINE   ; 9 (Battle Tower Outside)
 	db -1             ; 20
 	db ROOF_NEW_BARK  ; 24 (Hollowport)
+	db ROOF_VIOLET   ; 31 Olsteeton
+	; db ROOF_VIOLET   ; 32 Uni
 	assert_table_length NUM_MAP_GROUPS + 1

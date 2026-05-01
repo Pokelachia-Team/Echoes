@@ -5,6 +5,9 @@
 	const HOLLOWPORT         ; 0a
 	const ROUTE_101			 ; 0b
 	const ROUTE_102			 ; 0c
+	const OLSTEETON			 ; 0d
+	const NATIONAL_FOREST_1  ; 0e
+	; const OLSTEETON_UNI      ; 0f
 	const BATTLE_TOWER       ; 0b
 DEF KANTO_LANDMARK EQU const_value
 DEF SHAMOUTI_LANDMARK EQU const_value

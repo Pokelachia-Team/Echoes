@@ -6,8 +6,8 @@ OlsteetonUniGate_MapScriptHeader:
 	def_warp_events
 	warp_event  0,  4, OLSTEETON, 23
 	warp_event  0,  5, OLSTEETON, 24
-	warp_event  9,  4, OLSTEETON_UNI, 1
-	warp_event  9,  5, OLSTEETON_UNI, 2
+	; warp_event  9,  4, OLSTEETON_UNI, 1
+	; warp_event  9,  5, OLSTEETON_UNI, 2
 
 
 	def_coord_events

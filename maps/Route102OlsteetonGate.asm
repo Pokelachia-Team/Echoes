@@ -6,8 +6,8 @@ Route102OlsteetonGate_MapScriptHeader:
 	def_warp_events
 	warp_event  0,  4, ROUTE_102, 3
 	warp_event  0,  5, ROUTE_102, 4
-	; warp_event  9,  4, OLSTEETON, 1
-	; warp_event  9,  5, OLSTEETON, 2
+	warp_event  9,  4, OLSTEETON, 1
+	warp_event  9,  5, OLSTEETON, 2
 
 	def_coord_events
 
@@ -15,7 +15,7 @@ Route102OlsteetonGate_MapScriptHeader:
 
 	def_object_events
 	object_event  5,  2, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route102OlsteetonGateOfficerScript, -1
-	pokemon_event  4,  2, NOCTOWL, SPRITEMOVEDATA_POKEMON, -1, PAL_NPC_BROWN, OlsteetonGateNoctowlText, -1
+	pokemon_event  4,  2, NOCTOWL, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_BROWN, OlsteetonGateNoctowlText, -1
 	object_event  8,  6, SPRITE_GIOVANNI, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route102OlsteetonGateYoungsterText, -1
 
 Route102OlsteetonGateOfficerScript:

@@ -17,7 +17,7 @@ HollowportRival2F_MapScriptHeader:
 	bg_event  5,  1, BGEVENT_JUMPTEXT, RivalRadioText
 
 	def_object_events
-	pokemon_event  6,  4, PIDGEY, SPRITEMOVEDATA_POKEMON, -1, PAL_NPC_BROWN, RivalHousePidgeyText, -1
+	pokemon_event  6,  4, PIDGEY, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_BROWN, RivalHousePidgeyText, -1
 	object_event  3,  2, SPRITE_N64, SPRITEMOVEDATA_STILL, 0, 0, -1, PAL_NPC_N64, OBJECTTYPE_COMMAND, jumptext, RivalHouseN64Text, -1
 
 

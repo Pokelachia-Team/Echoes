@@ -31,7 +31,7 @@ TilesetBattleTowerOutsideAnim::
 TilesetEcruteakShrineAnim::
 	tileframe AnimateWaterTile,         $0:14
 	tileframe AnimateRainTiles,         $0:1c
-	tileframe AnimateWhirlpoolTiles,    $0:30
+	tileframe DoNothing
 	tileframe AnimateBuoyTiles,         $0:60
 	tileframe DoNothing
 	tileframe AnimateFlowerTile,        $0:03
@@ -289,5 +289,6 @@ TilesetBattleFactoryAnim::
 TilesetHiddenGrottoAnim::
 TilesetKantoGymAnim::
 TilesetCaveLabAnim::
+; TilesetFolkoraAnim::
 	tileframe DoNothing
 	tileframe DoneTileAnimation

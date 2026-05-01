@@ -91,6 +91,7 @@ DEF NUM_FISHGROUPS EQU const_value
 ; kanto
 ; Folkora
 	const SPAWN_HOLLOWPORT
+	const SPAWN_OLSTEETON
 ; orange
 DEF NUM_SPAWNS EQU const_value
 

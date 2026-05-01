@@ -38,13 +38,13 @@ OlsteetonFisherRadio:
 	playmusic MUSIC_POKEMON_TALK
 	opentext
 	writetext OlsteetonFisherRadioText1
-	pause 45
-	writetext OlsteetonFisherRadioText2
-	pause 45
-	cry SCOURPOSS
-	musicfadeout MUSIC_CANALAVE_CITY_DPPT, 16
-	writetext OlsteetonFisherRadioText3
-	pause 45
+	; pause 45
+	; writetext OlsteetonFisherRadioText2
+	; pause 45
+	; cry SCOURPOSS
+	; musicfadeout MUSIC_CANALAVE_CITY_DPPT, 16
+	; writetext OlsteetonFisherRadioText3
+	; pause 45
 	closetext
 	end
 

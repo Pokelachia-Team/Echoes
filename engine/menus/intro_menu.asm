@@ -87,6 +87,7 @@ _NewGame_FinishSetup:
 	ld [wPrevLandmark], a
 
 	ld a, SPAWN_HOME
+	; ld a, SPAWN_OLSTEETON
 	ld [wDefaultSpawnpoint], a
 
 	ld a, MAPSETUP_WARP

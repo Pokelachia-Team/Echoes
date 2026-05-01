@@ -15,7 +15,7 @@ OlsteetonGymHouse_MapScriptHeader:
 	object_event  3,  5, SPRITE_ENGINEER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonGymHouseEngineerText, -1
 	object_event  1,  2, SPRITE_ENGINEER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonGymRoughneckText, -1
 	object_event  5,  4, SPRITE_VETERAN_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonGymVeteranText, -1
-	pokemon_event  4,  5, MAGNETON, SPRITEMOVEDATA_POKEMON, -1, PAL_NPC_GRAY, OlsteetonMagnetonText, -1
+	pokemon_event  4,  5, MAGNETON, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_GRAY, OlsteetonMagnetonText, -1
 
 
 OlsteetonGymHouseEngineerText:

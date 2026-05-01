@@ -19,7 +19,7 @@ OlsteetonAbandonedMill_MapScriptHeader:
 	object_event  3, 12, SPRITE_BLACK_BELT, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonAbandonedMillBlackBelt1Text, -1
 	object_event 11,  5, SPRITE_ENGINEER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonAbandonedMillBlackBelt2Text, -1
 	object_event 15, 12, SPRITE_FIREBREATHER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonAbandonedMillBlackBelt3Text, -1
-	pokemon_event  2,  5, GURDURR, SPRITEMOVEDATA_POKEMON, -1, PAL_NPC_GRAY, OlsteetonAbandonedMillGurdurrText, -1
+	; pokemon_event  2,  5, GURDURR, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_GRAY, OlsteetonAbandonedMillGurdurrText, -1
 
 OlsteetonAbandonedMillBlackBelt1Text:
 	text "We're not"
@@ -62,6 +62,6 @@ OlsteetonAbandonedMillBlackBelt3Text:
 	line "want it!"
 	done
 
-OlsteetonAbandonedMillGurdurrText:
-	text "Gurdurr: Maaacho!"
-	done
+; OlsteetonAbandonedMillGurdurrText:
+; 	text "Gurdurr: Maaacho!"
+; 	done
