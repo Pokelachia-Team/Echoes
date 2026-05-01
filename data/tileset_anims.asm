@@ -29,6 +29,7 @@ TilesetJohtoOutlandsAnim::
 TilesetJohtoAncientAnim::
 TilesetBattleTowerOutsideAnim::
 TilesetEcruteakShrineAnim::
+TilesetFolkoraAnim::
 	tileframe AnimateWaterTile,         $0:14
 	tileframe AnimateRainTiles,         $0:1c
 	tileframe DoNothing

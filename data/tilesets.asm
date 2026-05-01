@@ -62,20 +62,20 @@ Tilesets::
 	tileset TilesetHideout
 	tileset TilesetKantoGym
 	tileset TilesetCaveLab
-	; tileset TilesetFolkora
+	tileset TilesetFolkora
 	assert_table_length NUM_TILESETS
 
 
 SECTION "Tileset Graphics - johto common vram0", ROMX
 
 TilesetJohtoTraditionalGFX0::
-; TilesetFolkoraGFX0::
 TilesetJohtoModernGFX0::
 TilesetJohtoCoastGFX0::
 TilesetJohtoOutlandsGFX0::
 TilesetJohtoAncientGFX0::
 TilesetBattleTowerOutsideGFX0::
-TilesetEcruteakShrineGFX0:: INCBIN "gfx/tilesets/johto_common.2bpp.lzp"
+TilesetEcruteakShrineGFX0:: 
+TilesetFolkoraGFX0:: INCBIN "gfx/tilesets/johto_common.2bpp.lzp"
 
 
 SECTION "Tileset Graphics - johto traditional vram1", ROMX
@@ -905,20 +905,6 @@ TilesetKantoGymMeta:: INCBIN "data/tilesets/kanto_gym_metatiles.bin.lzp"
 TilesetKantoGymAttr:: INCBIN "data/tilesets/kanto_gym_attributes.bin.lzp"
 TilesetKantoGymColl:: INCBIN "data/tilesets/kanto_gym_collision.bin.lzp"
 
-; SECTION "Tileset Graphics - folkora vram1", ROMX
-
-; TilesetFolkoraGFX1:: INCBIN "gfx/tilesets/folkora.johto_common.2bpp.vram0.lzp"
-
-; SECTION "Tileset Graphics - folkora vram2", ROMX
-
-; TilesetFolkoraGFX2:: INCBIN "gfx/tilesets/folkora.johto_common.2bpp.vram1.lzp"
-
-; SECTION "Tileset Data - folkora", ROMX
-
-; TilesetFolkoraMeta:: INCBIN "data/tilesets/folkora_metatiles.bin.lzp"
-; TilesetFolkoraAttr:: INCBIN "data/tilesets/folkora_attributes.bin.lzp"
-; TilesetFolkoraColl:: INCBIN "data/tilesets/folkora_collision.bin.lzp"
-
 SECTION "Tileset Graphics - cave lab vram0", ROMX
 
 TilesetCaveLabGFX0:: INCBIN "gfx/tilesets/cave_lab.2bpp.vram0.lzp"
@@ -935,6 +921,19 @@ TilesetCaveLabMeta:: INCBIN "data/tilesets/cave_lab_metatiles.bin.lzp"
 TilesetCaveLabAttr:: INCBIN "data/tilesets/cave_lab_attributes.bin.lzp"
 TilesetCaveLabColl:: INCBIN "data/tilesets/cave_lab_collision.bin.lzp"
 
+SECTION "Tileset Graphics - folkora vram1", ROMX
+
+TilesetFolkoraGFX1:: INCBIN "gfx/tilesets/folkora.johto_common.2bpp.vram0.lzp"
+
+SECTION "Tileset Graphics - folkora vram2", ROMX
+
+TilesetFolkoraGFX2:: INCBIN "gfx/tilesets/folkora.johto_common.2bpp.vram1.lzp"
+
+SECTION "Tileset Data - folkora", ROMX
+
+TilesetFolkoraMeta:: INCBIN "data/tilesets/folkora_metatiles.bin.lzp"
+TilesetFolkoraAttr:: INCBIN "data/tilesets/folkora_attributes.bin.lzp"
+TilesetFolkoraColl:: INCBIN "data/tilesets/folkora_collision.bin.lzp"
 
 SECTION "Tileset Graphics - Terminator vram2", ROMX
 
