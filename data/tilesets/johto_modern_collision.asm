@@ -188,7 +188,7 @@
 	tilecoll WALL, HEADBUTT_TREE, WALL, WALL ; bb
 	tilecoll WALL, WALL, WALL, WALL ; bc
 	tilecoll WALL, WALL, WALL, DOOR ; bd
-	tilecoll WARP_CARPET_UP, WARP_CARPET_UP, FLOOR, FLOOR ; be
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; be
 	tilecoll WALL, WALL, WALL, DOOR ; bf
 	tilecoll WALL, WALL, WALL, WALL ; c0
 	tilecoll WALL, WALL, WALL, WALL ; c1
@@ -208,7 +208,7 @@
 	tilecoll FLOOR, FLOOR, WALL, WALL ; cf
 	tilecoll WALL, WALL, WALL, WALL ; d0
 	tilecoll WALL, WALL, WALL, WALL ; d1
-	tilecoll WALL, WALL, WALL, WALL ; d2
+	tilecoll WALL, FLOOR, WALL, WALL ; d2
 	tilecoll FLOOR, FLOOR, FLOOR, WALL ; d3
 	tilecoll WALL, FLOOR, WALL, WALL ; d4
 	tilecoll FLOOR, WALL, FLOOR, WALL ; d5

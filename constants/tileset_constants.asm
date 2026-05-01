@@ -1,6 +1,7 @@
 ; Tilesets indexes (see data/tilesets.asm)
 	const_def 1
 	const TILESET_JOHTO_TRADITIONAL    ; 01
+	; const TILESET_FOLKORA
 	const TILESET_JOHTO_MODERN         ; 02
 	const TILESET_JOHTO_COAST          ; 03
 	const TILESET_JOHTO_OUTLANDS       ; 04

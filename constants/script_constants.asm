@@ -199,9 +199,9 @@ DEF EMOTE_FROM_MEM EQU -1
 	const FRUITTREE_ROUTE_42_3        ; 07
 DEF FIRST_BERRY_TREE EQU const_value
 	const FRUITTREE_ROUTE_29          ; 08
-	const FRUITTREE_ROUTE_30_1        ; 09
-	const FRUITTREE_ROUTE_30_2        ; 0a
-	const FRUITTREE_ROUTE_31          ; 0b
+	const FRUITTREE_ROUTE_101_1       ; 09
+	const FRUITTREE_ROUTE_101_2       ; 0a
+	const FRUITTREE_ROUTE_101_3       ; 0b
 	const FRUITTREE_VIOLET_CITY       ; 0c
 	const FRUITTREE_ROUTE_32_COAST    ; 0d
 	const FRUITTREE_ROUTE_33          ; 0e

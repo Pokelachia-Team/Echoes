@@ -82,7 +82,7 @@ EngineFlags:
 	; fly
 	engine_flag wVisitedSpawns, SPAWN_HOME
 	engine_flag wVisitedSpawns, SPAWN_HOLLOWPORT
-
+	engine_flag wVisitedSpawns, SPAWN_OLSTEETON
 	engine_flag wLuckyNumberShowFlag, LUCKYNUMBERSHOW_GAME_OVER_F
 
 	engine_flag wDailyFlags, DAILYFLAGS_KURT_MAKING_BALLS_F
