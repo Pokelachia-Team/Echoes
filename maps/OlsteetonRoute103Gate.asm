@@ -8,6 +8,8 @@ OlsteetonRoute103Gate_MapScriptHeader:
 	warp_event  0,  5, OLSTEETON, 26
 	; warp_event  9,  4, ROUTE_103, 3
 	; warp_event  9,  5, ROUTE_103, 4
+	warp_event  9,  4, BRINESBURG, 1
+	warp_event  9,  5, BRINESBURG, 2
 
 
 	def_coord_events
@@ -16,7 +18,6 @@ OlsteetonRoute103Gate_MapScriptHeader:
 
 	def_object_events
 	object_event  3,  3, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, OlsteetonRoute103GateOfficerScript, -1
-	pokemon_event  6,  4, MR__MIME, SPRITEMOVEDATA_POKEMON, -1, PAL_NPC_PINK, OlsteetonGateMimeText, -1
 
 OlsteetonRoute103GateOfficerScript:
 	faceplayer
@@ -27,13 +28,6 @@ OlsteetonRoute103GateOfficerText1:
 	text "Nobody's getting"
 	line "to Route 103"
 
-	para "until these walls"
-	line "come down."
-	done
-
-
-OlsteetonGateMimeText:
-	text "HOOHOO"
-	line "Mimeime"
-	cont "MR. MIME"
+	para "until it "
+	line "gets designed."
 	done

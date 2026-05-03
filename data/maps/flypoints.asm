@@ -1,4 +1,6 @@
 Flypoints:
 	; landmark, spawn point
 	db HOLLOWPORT,    SPAWN_HOLLOWPORT
+	db OLSTEETON,    SPAWN_OLSTEETON
+	db BRINESBURG,    SPAWN_BRINESBURG
 	db -1

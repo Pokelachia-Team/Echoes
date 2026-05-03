@@ -19,10 +19,10 @@ OlsteetonUniClassroomTheory_MapScriptHeader:
 	def_object_events
 	object_event  3,  2, SPRITE_SPARK, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, (1 << MORN) | (1 << DAY), 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniClassroomTheorySparkText, -1
 	object_event  3,  5, SPRITE_CHILD, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniClassroomTheoryChildText, -1
-	object_event  8,  2, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_POKE_BALL, OBJECTTYPE_COMMAND, jumptext, RegPokeBallText, -1
-	object_event  9,  2, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_DECO_ITEM, OBJECTTYPE_COMMAND, jumptext, GreatPokeBallText, -1
-	object_event 10,  2, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_KEY_ITEM, OBJECTTYPE_COMMAND, jumptext, NestPokeBallText, -1
-	object_event 11,  2, SPRITE_BALL_CUT_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptext, MasterPokeBallText, -1
+	object_event  8,  2, SPRITE_BALL_CUT_TREE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_ENV_RED, OBJECTTYPE_COMMAND, jumptext, RegPokeBallText, -1
+	object_event  9,  2, SPRITE_BALL_CUT_TREE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_ENV_BLUE, OBJECTTYPE_COMMAND, jumptext, GreatPokeBallText, -1
+	object_event 10,  2, SPRITE_BALL_CUT_TREE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_ENV_GREEN, OBJECTTYPE_COMMAND, jumptext, NestPokeBallText, -1
+	object_event 11,  2, SPRITE_BALL_CUT_TREE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptext, MasterPokeBallText, -1
 
 
 OlsteetonUniClassroomTheorySparkText:

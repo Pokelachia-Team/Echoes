@@ -19,7 +19,7 @@ OlsteetonUniWaterLab_MapScriptHeader:
 	pokemon_event  2,  3, CORSOLA, SPRITEMOVEDATA_POKEMON, -1, PAL_NPC_PINK, WaterLabCorsolaText, -1
 	pokemon_event 12,  4, POLITOED, SPRITEMOVEDATA_POKEMON, -1, PAL_NPC_GREEN, WaterLabPolitoedText, -1
 	pokemon_event 10,  3, SEAKING, SPRITEMOVEDATA_POKEMON, -1, PAL_NPC_ORANGE, WaterLabSeakingText, -1
-	pokemon_event  4,  6, CORPHISH, SPRITEMOVEDATA_POKEMON, -1, PAL_NPC_RED, WaterLabCorphishText, -1
+	; pokemon_event  4,  6, CORPHISH, SPRITEMOVEDATA_POKEMON, -1, PAL_NPC_RED, WaterLabCorphishText, -1
 	pokemon_event 13,  6, PSYDUCK, SPRITEMOVEDATA_POKEMON, -1, PAL_NPC_YELLOW, WaterLabPsyduckText, -1
 
 
@@ -50,9 +50,9 @@ WaterLabSeakingText:
 	text "Seaking: Sknng"
 	done
 
-WaterLabCorphishText:
-	text "Corphish: Kikik"
-	done
+; WaterLabCorphishText:
+; 	text "Corphish: Kikik"
+; 	done
 
 
 WaterLabPsyduckText:

@@ -1,7 +1,6 @@
 ; Tilesets indexes (see data/tilesets.asm)
 	const_def 1
 	const TILESET_JOHTO_TRADITIONAL    ; 01
-	; const TILESET_FOLKORA
 	const TILESET_JOHTO_MODERN         ; 02
 	const TILESET_JOHTO_COAST          ; 03
 	const TILESET_JOHTO_OUTLANDS       ; 04
@@ -54,7 +53,7 @@ DEF NO_ROOF_TILESETS EQU const_value
 	const TILESET_HIDEOUT              ; 32
 	const TILESET_KANTO_GYM            ; 33
 	const TILESET_CAVE_LAB			   ; 3b
-
+	const TILESET_FOLKORA              ; 3c
 DEF NUM_TILESETS EQU const_value - 1
 
 ; wTileset struct size

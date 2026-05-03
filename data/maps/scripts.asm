@@ -129,4 +129,56 @@ INCLUDE "maps/OlsteetonRoute103Gate.asm"
 INCLUDE "maps/OlsteetonAbandonedMillOutside.asm"
 INCLUDE "maps/OlsteetonAbandonedMill.asm"
 
+SECTION "Academy Scripts", ROMX
+
+INCLUDE "maps/OlsteetonUni.asm"
+INCLUDE "maps/OlsteetonUniLibrary1F.asm"
+INCLUDE "maps/OlsteetonUniLibrary2F.asm"
+INCLUDE "maps/OlsteetonUniScienceCenter.asm"
+INCLUDE "maps/OlsteetonUniNurseDept.asm"
+INCLUDE "maps/OlsteetonUniWaterLab.asm"
+INCLUDE "maps/OlsteetonUniOffice.asm"
+INCLUDE "maps/OlsteetonUniDeansOffice.asm"
+INCLUDE "maps/OlsteetonUniOfficeSpruce.asm"
+INCLUDE "maps/OlsteetonUniOfficePoplar.asm"
+INCLUDE "maps/OlsteetonUniOfficePawpaw.asm"
+INCLUDE "maps/OlsteetonUniOfficeLounge.asm"
+INCLUDE "maps/OlsteetonUniOfficeTA.asm"
+INCLUDE "maps/OlsteetonUniClockTower1F.asm"
+INCLUDE "maps/OlsteetonUniClockTower2F.asm"
+INCLUDE "maps/OlsteetonUniClockTower3F.asm"
+INCLUDE "maps/OlsteetonUniClassroomBldg.asm"
+INCLUDE "maps/OlsteetonUniClassroomBiology.asm"
+INCLUDE "maps/OlsteetonUniClassroomArt.asm"
+INCLUDE "maps/OlsteetonUniClassroomBusiness.asm"
+INCLUDE "maps/OlsteetonUniClassroomStrategy.asm"
+INCLUDE "maps/OlsteetonUniClassroomHistory.asm"
+INCLUDE "maps/OlsteetonUniClassroomTheory.asm"
+
+SECTION "Academy Scripts 2", ROMX
+
+INCLUDE "maps/OlsteetonUniDormWest1F.asm"
+INCLUDE "maps/OlsteetonUniDormWest2F.asm"
+INCLUDE "maps/OlsteetonUniDormWest2FRoom2.asm"
+INCLUDE "maps/OlsteetonUniDormWest2FRoom3.asm"
+INCLUDE "maps/OlsteetonUniDormWest3F.asm"
+INCLUDE "maps/OlsteetonUniDormWest3FRoom1.asm"
+INCLUDE "maps/OlsteetonUniDormWest3FRoom3.asm"
+INCLUDE "maps/OlsteetonUniDormWestElevator.asm"
+INCLUDE "maps/OlsteetonUniDiningHall.asm"
+INCLUDE "maps/OlsteetonUniDormEast1F.asm"
+INCLUDE "maps/OlsteetonUniDormEast2F.asm"
+INCLUDE "maps/OlsteetonUniDormEast2FRoom1.asm"
+INCLUDE "maps/OlsteetonUniDormEast2FRoom3.asm"
+INCLUDE "maps/OlsteetonUniDormEast3F.asm"
+INCLUDE "maps/OlsteetonUniDormEast3FRoom2.asm"
+INCLUDE "maps/OlsteetonUniDormEast3FRoom3.asm"
+INCLUDE "maps/OlsteetonUniDormEastElevator.asm"
+INCLUDE "maps/OlsteetonUniGymDept.asm"
+
+SECTION "Brinesburg", ROMX
+
+INCLUDE "maps/Brinesburg.asm"
+
+
 ENDSECTION

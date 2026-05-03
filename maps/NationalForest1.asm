@@ -11,7 +11,7 @@ NationalForest1_MapScriptHeader:
     def_bg_events
 	bg_event 25,  7, BGEVENT_JUMPTEXT, NationalForest1EntranceSignText
 	bg_event 30, 18, BGEVENT_JUMPTEXT, NationalForest1PondSignText
-	; bg_event 21, 17, BGEVENT_ITEM + SUPER_POTION, EVENT_NATIONAL_FOREST1_HIDDEN_SUPER_POTION
+	bg_event 21, 17, BGEVENT_ITEM + SUPER_POTION, EVENT_NATIONAL_FOREST1_HIDDEN_SUPER_POTION
 
     def_object_events
 	; object_event  7, 16, SPRITE_SAGE, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, ConcernedCitizenScript1, EVENT_TALKED_TO_CC
@@ -22,7 +22,7 @@ NationalForest1_MapScriptHeader:
 	object_event 13, 6, SPRITE_LASS, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, NatForest1GirlText, -1
 	pokemon_event 15, 6, MEOWTH, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_BLUE, NatForest1MeowthText, -1
     ; object_event 29, 4, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerOld_TimerSue, -1
-	; itemball_event 31, 27, ANTIDOTE, 1, EVENT_NATIONAL_FOREST1_ANTIDOTE
+	itemball_event 31, 27, ANTIDOTE, 1, EVENT_NATIONAL_FOREST1_ANTIDOTE
 
     object_const_def
     ; const NATIONALFOREST1_SAGE

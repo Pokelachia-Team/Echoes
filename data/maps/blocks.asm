@@ -174,6 +174,119 @@ SECTION "NationalForest1_BlockData", ROMX
 NationalForest1_BlockData:
 	INCBIN "maps/NationalForest1.ablk.lzp"
 
+SECTION "OlsteetonUni_BlockData", ROMX
+OlsteetonUni_BlockData:
+	INCBIN "maps/OlsteetonUni.ablk.lzp"
+
+SECTION "OlsteetonUniLibrary1F_BlockData", ROMX
+OlsteetonUniLibrary1F_BlockData:
+	INCBIN "maps/OlsteetonUniLibrary1F.ablk.lzp"
+
+SECTION "OlsteetonUniLibrary2F_BlockData", ROMX
+OlsteetonUniLibrary2F_BlockData:
+	INCBIN "maps/OlsteetonUniLibrary2F.ablk.lzp"
+
+SECTION "OlsteetonUniScienceCenter_BlockData", ROMX
+OlsteetonUniScienceCenter_BlockData:
+	INCBIN "maps/OlsteetonUniScienceCenter.ablk.lzp"
+
+SECTION "OlsteetonUniNurseDept_BlockData", ROMX
+OlsteetonUniNurseDept_BlockData:
+	INCBIN "maps/OlsteetonUniNurseDept.ablk.lzp"
+
+SECTION "OlsteetonUniWaterLab_BlockData", ROMX
+OlsteetonUniWaterLab_BlockData:
+	INCBIN "maps/OlsteetonUniWaterLab.ablk.lzp"
+
+SECTION "OlsteetonUniOffice_BlockData", ROMX
+OlsteetonUniOffice_BlockData:
+	INCBIN "maps/OlsteetonUniOffice.ablk.lzp"
+
+SECTION "OlsteetonUniDeansOffice_BlockData", ROMX
+OlsteetonUniDeansOffice_BlockData:
+	INCBIN "maps/OlsteetonUniDeansOffice.ablk.lzp"
+
+SECTION "OlsteetonUniOfficePawpaw_BlockData", ROMX
+OlsteetonUniOfficePawpaw_BlockData:
+OlsteetonUniOfficeSpruce_BlockData:
+OlsteetonUniOfficePoplar_BlockData:
+
+	INCBIN "maps/OlsteetonUniOfficePawpaw.ablk.lzp"
+
+SECTION "OlsteetonUniOfficeLounge_BlockData", ROMX
+OlsteetonUniOfficeLounge_BlockData:
+	INCBIN "maps/OlsteetonUniOfficeLounge.ablk.lzp"
+
+SECTION "OlsteetonUniOfficeTA_BlockData", ROMX
+OlsteetonUniOfficeTA_BlockData:
+	INCBIN "maps/OlsteetonUniOfficeTA.ablk.lzp"
+
+SECTION "OlsteetonUniClockTower1F_BlockData", ROMX
+OlsteetonUniClockTower1F_BlockData:
+	INCBIN "maps/OlsteetonUniClockTower1F.ablk.lzp"
+
+SECTION "OlsteetonUniClockTower2F_BlockData", ROMX
+OlsteetonUniClockTower2F_BlockData:
+	INCBIN "maps/OlsteetonUniClockTower2F.ablk.lzp"
+
+SECTION "OlsteetonUniClockTower3F_BlockData", ROMX
+OlsteetonUniClockTower3F_BlockData:
+	INCBIN "maps/OlsteetonUniClockTower3F.ablk.lzp"
+
+
+SECTION "OlsteetonUniClassroomBldg_BlockData", ROMX
+OlsteetonUniClassroomBldg_BlockData:
+	INCBIN "maps/OlsteetonUniClassroomBldg.ablk.lzp"
+
+SECTION "OlsteetonUniClassroom_BlockData", ROMX
+OlsteetonUniClassroomBiology_BlockData:
+OlsteetonUniClassroomArt_BlockData:
+OlsteetonUniClassroomStrategy_BlockData:
+OlsteetonUniClassroomHistory_BlockData:
+OlsteetonUniClassroomTheory_BlockData:
+
+OlsteetonUniClassroom_BlockData:
+	INCBIN "maps/OlsteetonUniClassroom.ablk.lzp"
+
+SECTION "OlsteetonUniClassroomBusiness_BlockData", ROMX
+OlsteetonUniClassroomBusiness_BlockData:
+	INCBIN "maps/OlsteetonUniClassroomBusiness.ablk.lzp"
+
+SECTION "OlsteetonUniDormWest1F_BlockData", ROMX
+OlsteetonUniDormWest1F_BlockData:
+	INCBIN "maps/OlsteetonUniDormWest1F.ablk.lzp"
+
+SECTION "OlsteetonUniDormWest2F_BlockData", ROMX
+OlsteetonUniDormWest2F_BlockData:
+	INCBIN "maps/OlsteetonUniDormWest2F.ablk.lzp"
+
+SECTION "OlsteetonUniDormWest3F_BlockData", ROMX
+OlsteetonUniDormWest3F_BlockData:
+	INCBIN "maps/OlsteetonUniDormWest3F.ablk.lzp"
+SECTION "OlsteetonUniDiningHall_BlockData", ROMX
+OlsteetonUniDiningHall_BlockData:
+	INCBIN "maps/OlsteetonUniDiningHall.ablk.lzp"
+
+SECTION "OlsteetonUniDormEast1F_BlockData", ROMX
+OlsteetonUniDormEast1F_BlockData:
+	INCBIN "maps/OlsteetonUniDormEast1F.ablk.lzp"
+
+SECTION "OlsteetonUniDormEast2F_BlockData", ROMX
+OlsteetonUniDormEast2F_BlockData:
+	INCBIN "maps/OlsteetonUniDormEast2F.ablk.lzp"
+SECTION "OlsteetonUniDormEast3F_BlockData", ROMX
+OlsteetonUniDormEast3F_BlockData:
+	INCBIN "maps/OlsteetonUniDormEast3F.ablk.lzp"
+
+SECTION "OlsteetonUniDormWestElevator_BlockData", ROMX
+OlsteetonUniDormWestElevator_BlockData:
+OlsteetonUniDormEastElevator_BlockData:
+	INCBIN "maps/OlsteetonUniDormWestElevator.ablk.lzp"
+
+SECTION "OlsteetonUniGymDept_BlockData", ROMX
+OlsteetonUniGymDept_BlockData:
+	INCBIN "maps/OlsteetonUniGymDept.ablk.lzp"
+
 SECTION "RiverfrontApt_BlockData", ROMX
 RiverfrontApt2FRoom1_BlockData:
 RiverfrontApt2FRoom2_BlockData:
@@ -184,17 +297,20 @@ RiverfrontApt4FRoom1_BlockData:
 RiverfrontApt4FRoom3_BlockData:
 	INCBIN "maps/FolkoraApt1.ablk.lzp"
 
-; SECTION "OlsteetonUniDorm_BlockData", ROMX
-; OlsteetonUniDormWest2FRoom2_BlockData:
-; OlsteetonUniDormWest2FRoom3_BlockData:
-; OlsteetonUniDormWest3FRoom1_BlockData:
-; OlsteetonUniDormWest3FRoom3_BlockData:
-; OlsteetonUniDormEast2FRoom1_BlockData:
-; OlsteetonUniDormEast2FRoom3_BlockData:
-; OlsteetonUniDormEast3FRoom2_BlockData:
-; OlsteetonUniDormEast3FRoom3_BlockData:
-; 	INCBIN "maps/FolkoraApt3.ablk.lzp"
+SECTION "OlsteetonUniDorm_BlockData", ROMX
+OlsteetonUniDormWest2FRoom2_BlockData:
+OlsteetonUniDormWest2FRoom3_BlockData:
+OlsteetonUniDormWest3FRoom1_BlockData:
+OlsteetonUniDormWest3FRoom3_BlockData:
+OlsteetonUniDormEast2FRoom1_BlockData:
+OlsteetonUniDormEast2FRoom3_BlockData:
+OlsteetonUniDormEast3FRoom2_BlockData:
+OlsteetonUniDormEast3FRoom3_BlockData:
+	INCBIN "maps/FolkoraApt3.ablk.lzp"
 
+SECTION "Brinesburg_BlockData", ROMX
+Brinesburg_BlockData:
+	INCBIN "maps/Brinesburg.ablk.lzp"
 
 SECTION "BattleTower1F_BlockData", ROMX
 BattleTower1F_BlockData:
