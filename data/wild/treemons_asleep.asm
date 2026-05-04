@@ -17,7 +17,7 @@ AsleepTreeMons:
 	dp BEEDRILL
 	dp CRIBNAL
 	dp EKANS
-	dp EXEGGCUTE
+	dp COTTONEE
 	dp LEDYBA
 	db 0 ; end
 

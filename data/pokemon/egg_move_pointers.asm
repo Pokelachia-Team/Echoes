@@ -101,8 +101,8 @@ EggSpeciesMovesPointers::
 	dw CorphishEggSpeciesMoves            ; Crawdaunt
 	dw VoltorbPlainEggSpeciesMoves      ; Voltorb
 	dw VoltorbPlainEggSpeciesMoves      ; Electrode
-	dw ExeggcuteEggSpeciesMoves         ; Exeggcute
-	dw ExeggcuteEggSpeciesMoves         ; Exeggutor
+	dw CottoneeEggSpeciesMoves         ; Cottonee
+	dw CottoneeEggSpeciesMoves         ; Whimsicott
 	dw CuboneEggSpeciesMoves            ; Cubone
 	dw CuboneEggSpeciesMoves            ; Marowak
 	dw TyrogueEggSpeciesMoves           ; Hitmonlee

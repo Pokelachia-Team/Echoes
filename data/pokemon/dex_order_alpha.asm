@@ -66,8 +66,8 @@ AlphabeticalPokedexOrder:
 	dp ELEKID
 	dp ENTEI
 	dp ESPEON
-	dp EXEGGCUTE
-	dp EXEGGUTOR
+	dp COTTONEE
+	dp WHIMSICOTT
 	dp FARIGIRAF
 	dp FARFETCH_D
 	dp CUARDHART

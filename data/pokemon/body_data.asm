@@ -108,8 +108,8 @@ PokemonBodyData:
 	body_data  13,  600, INSECTOID,    RED    ; CRAWDAUNT
 	body_data   5,  104, HEAD,         RED    ; VOLTORB
 	body_data  12,  666, HEAD,         RED    ; ELECTRODE
-	body_data   4,   25, MULTIBODY,    PINK   ; EXEGGCUTE
-	body_data  20, 1200, HEAD_LEGS,    YELLOW ; EXEGGUTOR
+	body_data   4,   25, HEAD,         BROWN  ; COTTONEE
+	body_data  20, 1200, HEAD_LEGS,    GREEN  ; WHIMSICOTT
 	body_data   4,   65, BIPEDAL_TAIL, BROWN  ; CUBONE
 	body_data  10,  450, BIPEDAL_TAIL, BROWN  ; MAROWAK
 	body_data  15,  498, BIPEDAL,      BROWN  ; HITMONLEE

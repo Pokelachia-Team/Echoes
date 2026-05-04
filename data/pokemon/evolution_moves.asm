@@ -101,8 +101,8 @@ EvolutionMoves::
 	db NO_MOVE      ; CRAWDAUNT
 	db NO_MOVE      ; VOLTORB
 	db NO_MOVE      ; ELECTRODE
-	db NO_MOVE      ; EXEGGCUTE
-	db STOMP        ; EXEGGUTOR
+	db NO_MOVE      ; COTTONEE
+	db STOMP        ; WHIMSICOTT
 	db NO_MOVE      ; CUBONE
 	db SWORDS_DANCE ; MAROWAK
 	db DOUBLE_KICK  ; HITMONLEE

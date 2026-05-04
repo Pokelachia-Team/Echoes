@@ -59,7 +59,7 @@ Pokémon Polished Crystal would never have been finished without the help of man
 * JaceDeane for the Goldenrod Museum paintings, many Pokémon and trainer sprites, many overworld tiles, Prof. Ivy's overworld sprite, and map name sign borders.
 * bloodless (BloodlessNS) for sprites of Buck, Maylene, Veteran♂, Mismagius (with SoupPotato), Honchkrow, Bonsly, Mime Jr., Munchlax, Galarian Mr. Mime, some variant Pikachu, Alolan Diglett, and Alolan Dugtrio.
 * Kuroko Aizawa for sprites of Prof. Ivy, Looker, Cheryl, Officer♀, Aroma Lady, Artist, and Engineer.
-* Gmerc for sprites of Alolan Meowth, Persian, and Exeggutor.
+* Gmerc for sprites of Alolan Meowth, Persian, and Whimsicott.
 * SCMidna for animations of Alolan Diglett and Dugtrio, Munchlax, Unown ! and ?, and Surfing Pikachu, and the stat trainers' overworld sprites.
 * Acrozz for many HGSS Pokémon palettes, and sprites and animations of Magikarp forms.
 * Freeline for animations of Honchkrow and Munchlax, and the Rocket Executives' and stat trainers' overworld sprites.

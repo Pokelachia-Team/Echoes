@@ -101,8 +101,8 @@ AnimationExtraPointers:
 	dw CrawdauntAnimationExtra
 	dw VoltorbPlainAnimationExtra
 	dw ElectrodePlainAnimationExtra
-	dw ExeggcuteAnimationExtra
-	dw ExeggutorPlainAnimationExtra
+	dw CottoneeAnimationExtra
+	dw WhimsicottAnimationExtra
 	dw CuboneAnimationExtra
 	dw MarowakPlainAnimationExtra
 	dw HitmonleeAnimationExtra

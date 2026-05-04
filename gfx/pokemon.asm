@@ -378,10 +378,10 @@ CrawdauntFrontpic: INCBIN "gfx/pokemon/crawdaunt/front.animated.2bpp.lzp"
 CrawdauntBackpic:  INCBIN "gfx/pokemon/crawdaunt/back.2bpp.lzp"
 CrawdauntFrames:   INCLUDE "gfx/pokemon/crawdaunt/frames.asm"
 
-SECTION "Exeggcute Pics", ROMX
-ExeggcuteFrontpic: INCBIN "gfx/pokemon/exeggcute/front.animated.2bpp.lzp"
-ExeggcuteBackpic:  INCBIN "gfx/pokemon/exeggcute/back.2bpp.lzp"
-ExeggcuteFrames:   INCLUDE "gfx/pokemon/exeggcute/frames.asm"
+SECTION "Cottonee Pics", ROMX
+CottoneeFrontpic: INCBIN "gfx/pokemon/cottonee/front.animated.2bpp.lzp"
+CottoneeBackpic:  INCBIN "gfx/pokemon/cottonee/back.2bpp.lzp"
+CottoneeFrames:   INCLUDE "gfx/pokemon/cottonee/frames.asm"
 
 SECTION "Cubone Pics", ROMX
 CuboneFrontpic: INCBIN "gfx/pokemon/cubone/front.animated.2bpp.lzp"
@@ -1668,10 +1668,10 @@ RaichuAlolanFrontpic: INCBIN "gfx/pokemon/raichu_alolan/front.animated.2bpp.lzp"
 RaichuAlolanBackpic:  INCBIN "gfx/pokemon/raichu_alolan/back.2bpp.lzp"
 RaichuAlolanFrames:   INCLUDE "gfx/pokemon/raichu_alolan/frames.asm"
 
-SECTION "ExeggutorPlain Pics", ROMX
-ExeggutorPlainFrontpic: INCBIN "gfx/pokemon/exeggutor_plain/front.animated.2bpp.lzp"
-ExeggutorPlainBackpic:  INCBIN "gfx/pokemon/exeggutor_plain/back.2bpp.lzp"
-ExeggutorPlainFrames:   INCLUDE "gfx/pokemon/exeggutor_plain/frames.asm"
+SECTION "Whimsicott Pics", ROMX
+WhimsicottFrontpic: INCBIN "gfx/pokemon/whimsicott/front.animated.2bpp.lzp"
+WhimsicottBackpic:  INCBIN "gfx/pokemon/whimsicott/back.2bpp.lzp"
+WhimsicottFrames:   INCLUDE "gfx/pokemon/whimsicott/frames.asm"
 
 SECTION "MarowakPlain Pics", ROMX
 MarowakPlainFrontpic: INCBIN "gfx/pokemon/marowak_plain/front.animated.2bpp.lzp"

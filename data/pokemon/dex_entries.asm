@@ -1012,8 +1012,8 @@ ElectrodePokedexEntry::
 	next "makes it more"
 	next "likely to explode.@"
 
-SECTION "ExeggcutePokedexEntry", ROMX
-ExeggcutePokedexEntry::
+SECTION "CottoneePokedexEntry", ROMX
+CottoneePokedexEntry::
 	db "Egg@"
 	db   "If even one is"
 	next "separated from the"
@@ -1022,15 +1022,15 @@ ExeggcutePokedexEntry::
 	next "six will make them"
 	next "rejoin instantly.@"
 
-SECTION "ExeggutorPlainPokedexEntry", ROMX
-ExeggutorPlainPokedexEntry::
+SECTION "WhimsicottPokedexEntry", ROMX
+WhimsicottPokedexEntry::
 	db "Coconut@"
 	db   "Living in a good"
 	next "environment makes"
 	next "it grow lots of"
 	page "heads. A head that"
 	next "drops off becomes"
-	next "an Exeggcute.@"
+	next "an Cottonee.@"
 
 SECTION "CubonePokedexEntry", ROMX
 CubonePokedexEntry::

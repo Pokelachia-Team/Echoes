@@ -2235,8 +2235,8 @@ endc
 	learnset 54, GYRO_BALL
 	learnset 58, MIRROR_COAT
 
-	evos_attacks Exeggcute
-	evo_data EVOLVE_ITEM, LEAF_STONE, EXEGGUTOR, PLAIN_FORM
+	evos_attacks Cottonee
+	evo_data EVOLVE_ITEM, LEAF_STONE, WHIMSICOTT, PLAIN_FORM
 	learnset 1, TACKLE ; Barrage → new move
 	learnset 1, HYPNOSIS
 	learnset 7, REFLECT
@@ -2253,7 +2253,7 @@ endc
 	learnset 47, EXTRASENSORY
 	learnset 50, PSYCHIC_M ; Bestow → TM move
 
-	evos_attacks ExeggutorPlain
+	evos_attacks Whimsicott
 	learnset 1, TACKLE ; Barrage → new move
 	learnset 1, HYPNOSIS
 	learnset 1, CONFUSION

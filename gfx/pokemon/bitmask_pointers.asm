@@ -101,8 +101,8 @@ BitmasksPointers:
 	dw CrawdauntBitmasks
 	dw VoltorbPlainBitmasks
 	dw ElectrodePlainBitmasks
-	dw ExeggcuteBitmasks
-	dw ExeggutorPlainBitmasks
+	dw CottoneeBitmasks
+	dw WhimsicottBitmasks
 	dw CuboneBitmasks
 	dw MarowakPlainBitmasks
 	dw HitmonleeBitmasks
