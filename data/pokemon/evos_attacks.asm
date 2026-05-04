@@ -1330,8 +1330,8 @@ evos_attacks Cupico
 	learnset 43, CONFUSE_RAY ; Role Play → new move
 	learnset 46, FUTURE_SIGHT
 
-	evos_attacks Machop
-	evo_data EVOLVE_LEVEL, 28, MACHOKE
+	evos_attacks Timburr
+	evo_data EVOLVE_LEVEL, 28, GURDURR
 	learnset 1, LOW_KICK
 	learnset 1, LEER
 	learnset 3, FOCUS_ENERGY
@@ -1350,8 +1350,8 @@ evos_attacks Cupico
 	learnset 43, SCARY_FACE
 	learnset 45, DYNAMICPUNCH
 
-	evos_attacks Machoke
-	evo_data EVOLVE_TRADE, LINKING_CORD, MACHAMP
+	evos_attacks Gurdurr
+	evo_data EVOLVE_TRADE, LINKING_CORD, CONKELDURR
 	learnset 1, LOW_KICK
 	learnset 1, LEER
 	learnset 3, FOCUS_ENERGY
@@ -1370,7 +1370,7 @@ evos_attacks Cupico
 	learnset 53, SCARY_FACE
 	learnset 57, DYNAMICPUNCH
 
-	evos_attacks Machamp
+	evos_attacks Conkeldurr
 	learnset 1, STRENGTH ; evolution move
 	learnset 1, ROCK_BLAST ; Sw/Sh move
 	learnset 1, LOW_KICK
@@ -2122,8 +2122,8 @@ endc
 	learnset 57, TOXIC ; Psyshock → TM move
 	learnset 61, FUTURE_SIGHT
 
-	evos_attacks Krabby
-	evo_data EVOLVE_LEVEL, 28, KINGLER
+	evos_attacks Corphish
+	evo_data EVOLVE_LEVEL, 28, CRAWDAUNT
 	learnset 1, AQUA_JET ; Bubble → new move
 	learnset 5, SCRATCH ; Vice Grip → new move
 	learnset 9, LEER
@@ -2139,7 +2139,7 @@ endc
 	learnset 41, ANCIENTPOWER ; Crabhammer → HGSS tutor move
 	learnset 45, REVERSAL ; Flail → similar move
 
-	evos_attacks Kingler
+	evos_attacks Crawdaunt
 	learnset 1, AQUA_JET ; Bubble → new move
 	learnset 5, SCRATCH ; Vice Grip → new move
 	learnset 9, LEER
@@ -3593,8 +3593,8 @@ endc
 	learnset 42, AIR_SLASH
 	learnset 47, DOUBLE_EDGE
 
-	evos_attacks Spinarak
-	evo_data EVOLVE_LEVEL, 22, ARIADOS
+	evos_attacks Joltik
+	evo_data EVOLVE_LEVEL, 22, GALVANTULA
 	learnset 1, POISON_STING
 	learnset 1, STRING_SHOT
 	learnset 1, WRAP ; Constrict → similar move
@@ -3613,7 +3613,7 @@ endc
 	learnset 47, LEECH_LIFE ; Cross Poison → TM move
 	learnset 50, FEINT_ATTACK ; Sticky Web → new move
 
-	evos_attacks Ariados
+	evos_attacks Galvantula
 	learnset 1, BUG_BITE ; evolution move
 	learnset 1, FOCUS_ENERGY
 	learnset 1, POISON_STING
@@ -4495,7 +4495,7 @@ endc
 	learnset 50, IRON_HEAD
 	learnset 57, SWORDS_DANCE
 
-	evos_attacks Shuckle
+	evos_attacks Doozee
 	learnset 1, MUD_SLAP ; Constrict → GSC TM move
 	learnset 1, DEFENSE_CURL ; Withdraw → similar move
 	learnset 1, ROLLOUT

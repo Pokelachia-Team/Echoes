@@ -69,9 +69,9 @@ MiniIconPointers:
 	mini_icon Abra
 	mini_icon Kadabra
 	mini_icon Alakazam
-	mini_icon Machop
-	mini_icon Machoke
-	mini_icon Machamp
+	mini_icon Timburr
+	mini_icon Gurdurr
+	mini_icon Conkeldurr
 	mini_icon Bellsprout
 	mini_icon Weepinbell
 	mini_icon Victreebel
@@ -101,8 +101,8 @@ MiniIconPointers:
 	mini_icon Onix
 	mini_icon Drowzee
 	mini_icon Hypno
-	mini_icon Krabby
-	mini_icon Kingler
+	mini_icon Corphish
+	mini_icon Crawdaunt
 	mini_icon Voltorb
 	mini_icon Electrode
 	mini_icon Exeggcute
@@ -170,8 +170,8 @@ MiniIconPointers:
 	mini_icon Noctowl
 	mini_icon Ledyba
 	mini_icon Ledian
-	mini_icon Spinarak
-	mini_icon Ariados
+	mini_icon Joltik
+	mini_icon Galvantula
 	mini_icon Crobat
 	mini_icon Chinchou
 	mini_icon Lanturn
@@ -216,7 +216,7 @@ MiniIconPointers:
 	mini_icon Granbull
 	mini_icon Qwilfish
 	mini_icon Scizor
-	mini_icon Shuckle
+	mini_icon Doozee
 	mini_icon Heracross
 	mini_icon Sneasel
 	mini_icon Teddiursa

@@ -17,7 +17,7 @@ INCLUDE "engine/events/haircut_etc.asm"
 SECTION "Special Events", ROMX
 
 INCLUDE "engine/events/shiny_ditto.asm"
-INCLUDE "engine/events/shuckle.asm"
+INCLUDE "engine/events/doozee.asm"
 INCLUDE "engine/events/mint_tea.asm"
 
 

@@ -69,9 +69,9 @@ PokemonPicPointers::
 	pics Abra
 	pics Kadabra
 	pics Alakazam
-	pics Machop
-	pics Machoke
-	pics Machamp
+	pics Timburr
+	pics Gurdurr
+	pics Conkeldurr
 	pics Bellsprout
 	pics Weepinbell
 	pics Victreebel
@@ -101,8 +101,8 @@ PokemonPicPointers::
 	pics Onix
 	pics Drowzee
 	pics Hypno
-	pics Krabby
-	pics Kingler
+	pics Corphish
+	pics Crawdaunt
 	pics VoltorbPlain
 	pics ElectrodePlain
 	pics Exeggcute
@@ -170,8 +170,8 @@ PokemonPicPointers::
 	pics Noctowl
 	pics Ledyba
 	pics Ledian
-	pics Spinarak
-	pics Ariados
+	pics Joltik
+	pics Galvantula
 	pics Crobat
 	pics Chinchou
 	pics Lanturn
@@ -216,7 +216,7 @@ PokemonPicPointers::
 	pics Granbull
 	pics QwilfishPlain
 	pics Scizor
-	pics Shuckle
+	pics Doozee
 	pics Heracross
 	pics SneaselPlain
 	pics Teddiursa

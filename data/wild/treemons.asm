@@ -52,7 +52,7 @@ TreeMonSet_Town:
 
 TreeMonSet_Route:
 	tree_mon 50, HOOTHOOT,   10
-	tree_mon 15, SPINARAK,   10
+	tree_mon 15, JOLTIK,   10
 	tree_mon 15, LEDYBA,     10
 	tree_mon 20, EXEGGCUTE,  10
 	db -1
@@ -124,7 +124,7 @@ TreeMonSet_NoisyForest:
 	db -1
 
 TreeMonSet_Rock:
-	tree_mon 70, KRABBY,     15
+	tree_mon 70, CORPHISH,     15
 	tree_mon 25, GEODUDE,    15
-	tree_mon  5, SHUCKLE,    15
+	tree_mon  5, DOOZEE,    15
 	db -1

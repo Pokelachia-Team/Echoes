@@ -332,20 +332,20 @@ AlakazamMini::     INCBIN "gfx/minis/alakazam.2bpp.lzp"
 AlakazamMiniMask:: INCBIN "gfx/minis/alakazam_mask.1bpp.lzp"
 AlakazamIcon::     INCBIN "gfx/icons/alakazam.2bpp.lzp"
 
-SECTION "Machop Mini Icon", ROMX
-MachopMini::     INCBIN "gfx/minis/machop.2bpp.lzp"
-MachopMiniMask:: INCBIN "gfx/minis/machop_mask.1bpp.lzp"
-MachopIcon::     INCBIN "gfx/icons/machop.2bpp.lzp"
+SECTION "Timburr Mini Icon", ROMX
+TimburrMini::     INCBIN "gfx/minis/timburr.2bpp.lzp"
+TimburrMiniMask:: INCBIN "gfx/minis/timburr_mask.1bpp.lzp"
+TimburrIcon::     INCBIN "gfx/icons/timburr.2bpp.lzp"
 
-SECTION "Machoke Mini Icon", ROMX
-MachokeMini::     INCBIN "gfx/minis/machoke.2bpp.lzp"
-MachokeMiniMask:: INCBIN "gfx/minis/machoke_mask.1bpp.lzp"
-MachokeIcon::     INCBIN "gfx/icons/machoke.2bpp.lzp"
+SECTION "Gurdurr Mini Icon", ROMX
+GurdurrMini::     INCBIN "gfx/minis/gurdurr.2bpp.lzp"
+GurdurrMiniMask:: INCBIN "gfx/minis/gurdurr_mask.1bpp.lzp"
+GurdurrIcon::     INCBIN "gfx/icons/gurdurr.2bpp.lzp"
 
-SECTION "Machamp Mini Icon", ROMX
-MachampMini::     INCBIN "gfx/minis/machamp.2bpp.lzp"
-MachampMiniMask:: INCBIN "gfx/minis/machamp_mask.1bpp.lzp"
-MachampIcon::     INCBIN "gfx/icons/machamp.2bpp.lzp"
+SECTION "Conkeldurr Mini Icon", ROMX
+ConkeldurrMini::     INCBIN "gfx/minis/conkeldurr.2bpp.lzp"
+ConkeldurrMiniMask:: INCBIN "gfx/minis/conkeldurr_mask.1bpp.lzp"
+ConkeldurrIcon::     INCBIN "gfx/icons/conkeldurr.2bpp.lzp"
 
 SECTION "Bellsprout Mini Icon", ROMX
 BellsproutMini::     INCBIN "gfx/minis/bellsprout.2bpp.lzp"
@@ -492,15 +492,15 @@ HypnoMini::     INCBIN "gfx/minis/hypno.2bpp.lzp"
 HypnoMiniMask:: INCBIN "gfx/minis/hypno_mask.1bpp.lzp"
 HypnoIcon::     INCBIN "gfx/icons/hypno.2bpp.lzp"
 
-SECTION "Krabby Mini Icon", ROMX
-KrabbyMini::     INCBIN "gfx/minis/krabby.2bpp.lzp"
-KrabbyMiniMask:: INCBIN "gfx/minis/krabby_mask.1bpp.lzp"
-KrabbyIcon::     INCBIN "gfx/icons/krabby.2bpp.lzp"
+SECTION "Corphish Mini Icon", ROMX
+CorphishMini::     INCBIN "gfx/minis/corphish.2bpp.lzp"
+CorphishMiniMask:: INCBIN "gfx/minis/corphish_mask.1bpp.lzp"
+CorphishIcon::     INCBIN "gfx/icons/corphish.2bpp.lzp"
 
-SECTION "Kingler Mini Icon", ROMX
-KinglerMini::     INCBIN "gfx/minis/kingler.2bpp.lzp"
-KinglerMiniMask:: INCBIN "gfx/minis/kingler_mask.1bpp.lzp"
-KinglerIcon::     INCBIN "gfx/icons/kingler.2bpp.lzp"
+SECTION "Crawdaunt Mini Icon", ROMX
+CrawdauntMini::     INCBIN "gfx/minis/crawdaunt.2bpp.lzp"
+CrawdauntMiniMask:: INCBIN "gfx/minis/crawdaunt_mask.1bpp.lzp"
+CrawdauntIcon::     INCBIN "gfx/icons/crawdaunt.2bpp.lzp"
 
 SECTION "Voltorb Mini Icon", ROMX
 VoltorbMini::     INCBIN "gfx/minis/voltorb.2bpp.lzp"
@@ -837,15 +837,15 @@ LedianMini::     INCBIN "gfx/minis/ledian.2bpp.lzp"
 LedianMiniMask:: INCBIN "gfx/minis/ledian_mask.1bpp.lzp"
 LedianIcon::     INCBIN "gfx/icons/ledian.2bpp.lzp"
 
-SECTION "Spinarak Mini Icon", ROMX
-SpinarakMini::     INCBIN "gfx/minis/spinarak.2bpp.lzp"
-SpinarakMiniMask:: INCBIN "gfx/minis/spinarak_mask.1bpp.lzp"
-SpinarakIcon::     INCBIN "gfx/icons/spinarak.2bpp.lzp"
+SECTION "Joltik Mini Icon", ROMX
+JoltikMini::     INCBIN "gfx/minis/joltik.2bpp.lzp"
+JoltikMiniMask:: INCBIN "gfx/minis/joltik_mask.1bpp.lzp"
+JoltikIcon::     INCBIN "gfx/icons/joltik.2bpp.lzp"
 
-SECTION "Ariados Mini Icon", ROMX
-AriadosMini::     INCBIN "gfx/minis/ariados.2bpp.lzp"
-AriadosMiniMask:: INCBIN "gfx/minis/ariados_mask.1bpp.lzp"
-AriadosIcon::     INCBIN "gfx/icons/ariados.2bpp.lzp"
+SECTION "Galvantula Mini Icon", ROMX
+GalvantulaMini::     INCBIN "gfx/minis/galvantula.2bpp.lzp"
+GalvantulaMiniMask:: INCBIN "gfx/minis/galvantula_mask.1bpp.lzp"
+GalvantulaIcon::     INCBIN "gfx/icons/galvantula.2bpp.lzp"
 
 SECTION "Crobat Mini Icon", ROMX
 CrobatMini::     INCBIN "gfx/minis/crobat.2bpp.lzp"
@@ -1067,10 +1067,10 @@ ScizorMini::     INCBIN "gfx/minis/scizor.2bpp.lzp"
 ScizorMiniMask:: INCBIN "gfx/minis/scizor_mask.1bpp.lzp"
 ScizorIcon::     INCBIN "gfx/icons/scizor.2bpp.lzp"
 
-SECTION "Shuckle Mini Icon", ROMX
-ShuckleMini::     INCBIN "gfx/minis/shuckle.2bpp.lzp"
-ShuckleMiniMask:: INCBIN "gfx/minis/shuckle_mask.1bpp.lzp"
-ShuckleIcon::     INCBIN "gfx/icons/shuckle.2bpp.lzp"
+SECTION "Doozee Mini Icon", ROMX
+DoozeeMini::     INCBIN "gfx/minis/doozee.2bpp.lzp"
+DoozeeMiniMask:: INCBIN "gfx/minis/doozee_mask.1bpp.lzp"
+DoozeeIcon::     INCBIN "gfx/icons/doozee.2bpp.lzp"
 
 SECTION "Heracross Mini Icon", ROMX
 HeracrossMini::     INCBIN "gfx/minis/heracross.2bpp.lzp"

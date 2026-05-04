@@ -648,8 +648,8 @@ AlakazamPokedexEntry::
 	next "the edge in every"
 	next "battle.@"
 
-SECTION "MachopPokedexEntry", ROMX
-MachopPokedexEntry::
+SECTION "TimburrPokedexEntry", ROMX
+TimburrPokedexEntry::
 	db "Superpower@"
 	db   "It trains by"
 	next "lifting rocks in"
@@ -658,8 +658,8 @@ MachopPokedexEntry::
 	next "Graveler with"
 	next "ease.@"
 
-SECTION "MachokePokedexEntry", ROMX
-MachokePokedexEntry::
+SECTION "GurdurrPokedexEntry", ROMX
+GurdurrPokedexEntry::
 	db "Superpower@"
 	db   "This tough #mon"
 	next "always stays in"
@@ -668,8 +668,8 @@ MachokePokedexEntry::
 	next "thicker after"
 	next "every battle.@"
 
-SECTION "MachampPokedexEntry", ROMX
-MachampPokedexEntry::
+SECTION "ConkeldurrPokedexEntry", ROMX
+ConkeldurrPokedexEntry::
 	db "Superpower@"
 	db   "With four arms"
 	next "that react more"
@@ -972,8 +972,8 @@ HypnoPokedexEntry::
 	next "of its hypnosis"
 	next "last.@"
 
-SECTION "KrabbyPokedexEntry", ROMX
-KrabbyPokedexEntry::
+SECTION "CorphishPokedexEntry", ROMX
+CorphishPokedexEntry::
 	db "River Crab@"
 	db   "If it is unable"
 	next "to find food, it"
@@ -982,8 +982,8 @@ KrabbyPokedexEntry::
 	next "swallowing a"
 	next "mouthful of sand.@"
 
-SECTION "KinglerPokedexEntry", ROMX
-KinglerPokedexEntry::
+SECTION "CrawdauntPokedexEntry", ROMX
+CrawdauntPokedexEntry::
 	db "Pincer@"
 	db   "Its oversized claw"
 	next "is very powerful,"
@@ -1662,8 +1662,8 @@ LedianPokedexEntry::
 	next "drifts off into"
 	next "a deep slumber.@"
 
-SECTION "SpinarakPokedexEntry", ROMX
-SpinarakPokedexEntry::
+SECTION "JoltikPokedexEntry", ROMX
+JoltikPokedexEntry::
 	db "String Spit@"
 	db   "If prey becomes"
 	next "ensnared in its"
@@ -1672,8 +1672,8 @@ SpinarakPokedexEntry::
 	next "motionlessly until"
 	next "it becomes dark.@"
 
-SECTION "AriadosPokedexEntry", ROMX
-AriadosPokedexEntry::
+SECTION "GalvantulaPokedexEntry", ROMX
+GalvantulaPokedexEntry::
 	db "Long Leg@"
 	db   "Rather than making"
 	next "a nest in one"
@@ -2122,8 +2122,8 @@ ScizorPokedexEntry::
 	next "object it gets a"
 	next "hold of into bits.@"
 
-SECTION "ShucklePokedexEntry", ROMX
-ShucklePokedexEntry::
+SECTION "DoozeePokedexEntry", ROMX
+DoozeePokedexEntry::
 	db "Mold@"
 	db   "The fluid secreted"
 	next "by its toes carves"

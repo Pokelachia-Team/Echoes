@@ -314,8 +314,8 @@ AbraEggSpeciesMoves:
 	db KNOCK_OFF
 	db $ff
 
-MachopEggSpeciesMoves:
-	dp MACHOP, PLAIN_FORM
+TimburrEggSpeciesMoves:
+	dp TIMBURR, PLAIN_FORM
 	db BULLET_PUNCH
 	db ENCORE
 	db BULK_UP
@@ -502,8 +502,8 @@ DrowzeeEggSpeciesMoves:
 	db BELLY_DRUM
 	db $ff
 
-KrabbyEggSpeciesMoves:
-	dp KRABBY, PLAIN_FORM
+CorphishEggSpeciesMoves:
+	dp CORPHISH, PLAIN_FORM
 	db AGILITY
 	db HAZE
 	db AMNESIA
@@ -757,8 +757,8 @@ LedybaEggSpeciesMoves:
 	db DRAIN_PUNCH
 	db $ff
 
-SpinarakEggSpeciesMoves:
-	dp SPINARAK, PLAIN_FORM
+JoltikEggSpeciesMoves:
+	dp JOLTIK, PLAIN_FORM
 	db BATON_PASS
 	db DISABLE
 	db MEGAHORN
@@ -967,8 +967,8 @@ QwilfishHisuianEggSpeciesMoves:
 	dp QWILFISH, HISUIAN_FORM
 	db $ff
 
-ShuckleEggSpeciesMoves:
-	dp SHUCKLE, PLAIN_FORM
+DoozeeEggSpeciesMoves:
+	dp DOOZEE, PLAIN_FORM
 	db ROLLOUT
 	db ACID
 	db KNOCK_OFF

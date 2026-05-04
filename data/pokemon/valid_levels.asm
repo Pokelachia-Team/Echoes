@@ -66,9 +66,9 @@ ValidPokemonLevels: ; for Wonder Trade
 	db   1,  15 ; Abra
 	db  16,  35 ; Kadabra
 	db  36, 100 ; Alakazam
-	db   1,  27 ; Machop
-	db  28,  45 ; Machoke
-	db  46, 100 ; Machamp
+	db   1,  27 ; Timburr
+	db  28,  45 ; Gurdurr
+	db  46, 100 ; Conkeldurr
 	db   1,  20 ; Bellsprout
 	db  21,  31 ; Weepinbell
 	db  32, 100 ; Victreebel
@@ -98,8 +98,8 @@ ValidPokemonLevels: ; for Wonder Trade
 	db   1, 100 ; Onix
 	db   1,  25 ; Drowzee
 	db  26, 100 ; Hypno
-	db   1,  27 ; Krabby
-	db  28, 100 ; Kingler
+	db   1,  27 ; Corphish
+	db  28, 100 ; Crawdaunt
 	db   1,  29 ; Voltorb
 	db  30, 100 ; Electrode
 	db   1,  29 ; Exeggcute
@@ -167,8 +167,8 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  20, 100 ; Noctowl
 	db   1,  17 ; Ledyba
 	db  18, 100 ; Ledian
-	db   1,  21 ; Spinarak
-	db  22, 100 ; Ariados
+	db   1,  21 ; Joltik
+	db  22, 100 ; Galvantula
 	db  32, 100 ; Crobat
 	db   1,  26 ; Chinchou
 	db  27, 100 ; Lanturn
@@ -217,7 +217,7 @@ endc
 	db  23, 100 ; Granbull
 	db   1,  32 ; Qwilfish
 	db  20, 100 ; Scizor
-	db   1, 100 ; Shuckle
+	db   1, 100 ; Doozee
 	db  10, 100 ; Heracross
 	db   1,  39 ; Sneasel
 	db   1,  29 ; Teddiursa

@@ -3,7 +3,7 @@ Footprints:: ; needed for BANK(Footprints)
 VenomothFootprint::
 FliklitFootprint::
 KabutoFootprint::
-SpinarakFootprint:: INCBIN "gfx/footprints/circle_small.1bpp.lzp"
+JoltikFootprint:: INCBIN "gfx/footprints/circle_small.1bpp.lzp"
 
 CaterpieFootprint::
 WeedleFootprint::
@@ -84,6 +84,7 @@ WeezingFootprint::
 ZubatFootprint::
 SizzooFootprint::
 PyroborosFootprint::
+DoozeeFootprint::
 SinisteaFootprint:: 
 PoltegeistFootprint::
 DebriteFootprint::
@@ -140,9 +141,9 @@ PoliwrathFootprint:: INCBIN "gfx/footprints/poliwrath.1bpp.lzp"
 AbraFootprint:: INCBIN "gfx/footprints/abra.1bpp.lzp"
 KadabraFootprint:: INCBIN "gfx/footprints/kadabra.1bpp.lzp"
 AlakazamFootprint:: INCBIN "gfx/footprints/alakazam.1bpp.lzp"
-MachopFootprint:: INCBIN "gfx/footprints/machop.1bpp.lzp"
-MachokeFootprint:: INCBIN "gfx/footprints/machoke.1bpp.lzp"
-MachampFootprint:: INCBIN "gfx/footprints/machamp.1bpp.lzp"
+TimburrFootprint:: INCBIN "gfx/footprints/timburr.1bpp.lzp"
+GurdurrFootprint:: INCBIN "gfx/footprints/gurdurr.1bpp.lzp"
+ConkeldurrFootprint:: INCBIN "gfx/footprints/conkeldurr.1bpp.lzp"
 BellsproutFootprint:: INCBIN "gfx/footprints/bellsprout.1bpp.lzp"
 GravelerFootprint:: INCBIN "gfx/footprints/graveler.1bpp.lzp"
 GolemFootprint:: INCBIN "gfx/footprints/golem.1bpp.lzp"
@@ -208,7 +209,7 @@ HoothootFootprint:: INCBIN "gfx/footprints/hoothoot.1bpp.lzp"
 NoctowlFootprint:: INCBIN "gfx/footprints/noctowl.1bpp.lzp"
 LedybaFootprint:: INCBIN "gfx/footprints/ledyba.1bpp.lzp"
 LedianFootprint:: INCBIN "gfx/footprints/ledian.1bpp.lzp"
-AriadosFootprint:: INCBIN "gfx/footprints/ariados.1bpp.lzp"
+GalvantulaFootprint:: INCBIN "gfx/footprints/galvantula.1bpp.lzp"
 PichuFootprint:: INCBIN "gfx/footprints/pichu.1bpp.lzp"
 CleffaFootprint:: INCBIN "gfx/footprints/cleffa.1bpp.lzp"
 IgglybuffFootprint:: INCBIN "gfx/footprints/igglybuff.1bpp.lzp"
@@ -240,7 +241,6 @@ GligarFootprint:: INCBIN "gfx/footprints/gligar.1bpp.lzp"
 SnubbullFootprint:: INCBIN "gfx/footprints/snubbull.1bpp.lzp"
 GranbullFootprint:: INCBIN "gfx/footprints/granbull.1bpp.lzp"
 ScizorFootprint:: INCBIN "gfx/footprints/scizor.1bpp.lzp"
-ShuckleFootprint:: INCBIN "gfx/footprints/shuckle.1bpp.lzp"
 HeracrossFootprint:: INCBIN "gfx/footprints/heracross.1bpp.lzp"
 SneaselFootprint:: INCBIN "gfx/footprints/sneasel.1bpp.lzp"
 TeddiursaFootprint:: INCBIN "gfx/footprints/teddiursa.1bpp.lzp"

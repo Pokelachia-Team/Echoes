@@ -34,14 +34,14 @@ Cries:
 	fardw Cry_Gluttle
 	fardw Cry_Paras
 	fardw Cry_Growlithe
-	fardw Cry_Krabby
+	fardw Cry_Corphish
 	fardw Cry_Psyduck
 	fardw Cry_Rattata
 	fardw Cry_Vileplume
 	fardw Cry_Vulpix
 	fardw Cry_Weepinbell
 	fardw Cry_Marill
-	fardw Cry_Spinarak
+	fardw Cry_Joltik
 	fardw Cry_Togepi
 	fardw Cry_Girafarig
 	fardw Cry_Raikou

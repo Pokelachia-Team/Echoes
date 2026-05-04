@@ -21,7 +21,7 @@ Slowbro: Metronome
 Lanturn: Earthquake
 Blissey: Reflect
 Drowzee: Strength
-Machamp: Swords Dance
+Conkeldurr: Swords Dance
 Skarmory: Hyper Beam
 Celebi: Fly
 Gengar: Quick Attack
@@ -55,7 +55,7 @@ Farfetch'd: Close Combat, Baton Pass
 Rapidash: Baton Pass
 Onix: Dragon Dance
 Steelix: Dragon Dance, Scary Face
-Kingler: Hydro Pump
+Crawdaunt: Hydro Pump
 Mr. Mime: Dazzling Gleam
 Lapras: Sparkling Aria, Charm
 Umbreon: Crunch, Thief

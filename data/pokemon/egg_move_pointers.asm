@@ -65,9 +65,9 @@ EggSpeciesMovesPointers::
 	dw AbraEggSpeciesMoves              ; Abra
 	dw AbraEggSpeciesMoves              ; Kadabra
 	dw AbraEggSpeciesMoves              ; Alakazam
-	dw MachopEggSpeciesMoves            ; Machop
-	dw MachopEggSpeciesMoves            ; Machoke
-	dw MachopEggSpeciesMoves            ; Machamp
+	dw TimburrEggSpeciesMoves            ; Timburr
+	dw TimburrEggSpeciesMoves            ; Gurdurr
+	dw TimburrEggSpeciesMoves            ; Conkeldurr
 	dw BellsproutEggSpeciesMoves        ; Bellsprout
 	dw BellsproutEggSpeciesMoves        ; Weepinbell
 	dw BellsproutEggSpeciesMoves        ; Victreebel
@@ -97,8 +97,8 @@ EggSpeciesMovesPointers::
 	dw OnixEggSpeciesMoves              ; Onix
 	dw DrowzeeEggSpeciesMoves           ; Drowzee
 	dw DrowzeeEggSpeciesMoves           ; Hypno
-	dw KrabbyEggSpeciesMoves            ; Krabby
-	dw KrabbyEggSpeciesMoves            ; Kingler
+	dw CorphishEggSpeciesMoves            ; Corphish
+	dw CorphishEggSpeciesMoves            ; Crawdaunt
 	dw VoltorbPlainEggSpeciesMoves      ; Voltorb
 	dw VoltorbPlainEggSpeciesMoves      ; Electrode
 	dw ExeggcuteEggSpeciesMoves         ; Exeggcute
@@ -166,8 +166,8 @@ EggSpeciesMovesPointers::
 	dw HoothootEggSpeciesMoves          ; Noctowl
 	dw LedybaEggSpeciesMoves            ; Ledyba
 	dw LedybaEggSpeciesMoves            ; Ledian
-	dw SpinarakEggSpeciesMoves          ; Spinarak
-	dw SpinarakEggSpeciesMoves          ; Ariados
+	dw JoltikEggSpeciesMoves          ; Joltik
+	dw JoltikEggSpeciesMoves          ; Galvantula
 	dw ZubatEggSpeciesMoves             ; Crobat
 	dw ChinchouEggSpeciesMoves          ; Chinchou
 	dw ChinchouEggSpeciesMoves          ; Lanturn
@@ -212,7 +212,7 @@ EggSpeciesMovesPointers::
 	dw SnubbullEggSpeciesMoves          ; Granbull
 	dw QwilfishEggSpeciesMoves          ; Qwilfish
 	dw ScytherEggSpeciesMoves           ; Scizor
-	dw ShuckleEggSpeciesMoves           ; Shuckle
+	dw DoozeeEggSpeciesMoves           ; Doozee
 	dw HeracrossEggSpeciesMoves         ; Heracross
 	dw SneaselEggSpeciesMoves           ; Sneasel
 	dw TeddiursaEggSpeciesMoves         ; Teddiursa

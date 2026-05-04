@@ -8,9 +8,9 @@
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
 if DEF(FAITHFUL)
-	abilities_for SHUCKLE, STURDY, GLUTTONY, CONTRARY
+	abilities_for DOOZEE, STURDY, GLUTTONY, CONTRARY
 else
-	abilities_for SHUCKLE, SOLID_ROCK, GLUTTONY, CONTRARY
+	abilities_for DOOZEE, SOLID_ROCK, GLUTTONY, CONTRARY
 endc
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_BUG, EGG_BUG ; egg groups

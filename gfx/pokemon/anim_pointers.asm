@@ -65,9 +65,9 @@ AnimationPointers:
 	dw AbraAnimation
 	dw KadabraAnimation
 	dw AlakazamAnimation
-	dw MachopAnimation
-	dw MachokeAnimation
-	dw MachampAnimation
+	dw TimburrAnimation
+	dw GurdurrAnimation
+	dw ConkeldurrAnimation
 	dw BellsproutAnimation
 	dw WeepinbellAnimation
 	dw VictreebelAnimation
@@ -97,8 +97,8 @@ AnimationPointers:
 	dw OnixAnimation
 	dw DrowzeeAnimation
 	dw HypnoAnimation
-	dw KrabbyAnimation
-	dw KinglerAnimation
+	dw CorphishAnimation
+	dw CrawdauntAnimation
 	dw VoltorbPlainAnimation
 	dw ElectrodePlainAnimation
 	dw ExeggcuteAnimation
@@ -166,8 +166,8 @@ AnimationPointers:
 	dw NoctowlAnimation
 	dw LedybaAnimation
 	dw LedianAnimation
-	dw SpinarakAnimation
-	dw AriadosAnimation
+	dw JoltikAnimation
+	dw GalvantulaAnimation
 	dw CrobatAnimation
 	dw ChinchouAnimation
 	dw LanturnAnimation
@@ -212,7 +212,7 @@ AnimationPointers:
 	dw GranbullAnimation
 	dw QwilfishPlainAnimation
 	dw ScizorAnimation
-	dw ShuckleAnimation
+	dw DoozeeAnimation
 	dw HeracrossAnimation
 	dw SneaselPlainAnimation
 	dw TeddiursaAnimation

@@ -88,9 +88,9 @@
 	const ABRA       ; 3f
 	const KADABRA    ; 40
 	const ALAKAZAM   ; 41
-	const MACHOP     ; 42
-	const MACHOKE    ; 43
-	const MACHAMP    ; 44
+	const TIMBURR     ; 42
+	const GURDURR    ; 43
+	const CONKELDURR    ; 44
 	const BELLSPROUT ; 45
 	const WEEPINBELL ; 46
 	const VICTREEBEL ; 47
@@ -120,8 +120,8 @@
 	const ONIX       ; 5f
 	const DROWZEE    ; 60
 	const HYPNO      ; 61
-	const KRABBY     ; 62
-	const KINGLER    ; 63
+	const CORPHISH     ; 62
+	const CRAWDAUNT    ; 63
 	const VOLTORB    ; 64
 	const ELECTRODE  ; 65
 	const EXEGGCUTE  ; 66
@@ -189,8 +189,8 @@
 	const NOCTOWL    ; a4
 	const LEDYBA     ; a5
 	const LEDIAN     ; a6
-	const SPINARAK   ; a7
-	const ARIADOS    ; a8
+	const JOLTIK   ; a7
+	const GALVANTULA    ; a8
 	const CROBAT     ; a9
 	const CHINCHOU   ; aa
 	const LANTURN    ; ab
@@ -235,7 +235,7 @@
 	const GRANBULL   ; d2
 	const QWILFISH   ; d3
 	const SCIZOR     ; d4
-	const SHUCKLE    ; d5
+	const DOOZEE    ; d5
 	const HERACROSS  ; d6
 	const SNEASEL    ; d7
 	const TEDDIURSA  ; d8

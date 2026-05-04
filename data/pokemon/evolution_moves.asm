@@ -65,9 +65,9 @@ EvolutionMoves::
 	db NO_MOVE      ; ABRA
 	db FORESIGHT    ; KADABRA
 	db FORESIGHT    ; ALAKAZAM
-	db NO_MOVE      ; MACHOP
-	db NO_MOVE      ; MACHOKE
-	db STRENGTH     ; MACHAMP
+	db NO_MOVE      ; TIMBURR
+	db NO_MOVE      ; GURDURR
+	db STRENGTH     ; CONKELDURR
 	db NO_MOVE      ; BELLSPROUT
 	db NO_MOVE      ; WEEPINBELL
 	db NO_MOVE      ; VICTREEBEL
@@ -97,8 +97,8 @@ EvolutionMoves::
 	db NO_MOVE      ; ONIX
 	db NO_MOVE      ; DROWZEE
 	db NO_MOVE      ; HYPNO
-	db NO_MOVE      ; KRABBY
-	db NO_MOVE      ; KINGLER
+	db NO_MOVE      ; CORPHISH
+	db NO_MOVE      ; CRAWDAUNT
 	db NO_MOVE      ; VOLTORB
 	db NO_MOVE      ; ELECTRODE
 	db NO_MOVE      ; EXEGGCUTE
@@ -166,8 +166,8 @@ EvolutionMoves::
 	db NO_MOVE      ; NOCTOWL
 	db NO_MOVE      ; LEDYBA
 	db SWORDS_DANCE ; LEDIAN
-	db NO_MOVE      ; SPINARAK
-	db BUG_BITE     ; ARIADOS
+	db NO_MOVE      ; JOLTIK
+	db BUG_BITE     ; GALVANTULA
 	db X_SCISSOR    ; CROBAT
 	db NO_MOVE      ; CHINCHOU
 	db NO_MOVE      ; LANTURN
@@ -216,7 +216,7 @@ endc
 	db NO_MOVE      ; GRANBULL
 	db NO_MOVE      ; QWILFISH
 	db METAL_CLAW   ; SCIZOR
-	db NO_MOVE      ; SHUCKLE
+	db NO_MOVE      ; DOOZEE
 	db NO_MOVE      ; HERACROSS
 	db NO_MOVE      ; SNEASEL
 	db NO_MOVE      ; TEDDIURSA

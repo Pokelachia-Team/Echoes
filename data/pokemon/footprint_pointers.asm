@@ -65,9 +65,9 @@ FootprintPointers::
 	dw AbraFootprint
 	dw KadabraFootprint
 	dw AlakazamFootprint
-	dw MachopFootprint
-	dw MachokeFootprint
-	dw MachampFootprint
+	dw TimburrFootprint
+	dw GurdurrFootprint
+	dw ConkeldurrFootprint
 	dw BellsproutFootprint
 	dw WeepinbellFootprint
 	dw VictreebelFootprint
@@ -166,8 +166,8 @@ FootprintPointers::
 	dw NoctowlFootprint
 	dw LedybaFootprint
 	dw LedianFootprint
-	dw SpinarakFootprint
-	dw AriadosFootprint
+	dw JoltikFootprint
+	dw GalvantulaFootprint
 	dw CrobatFootprint
 	dw ChinchouFootprint
 	dw LanturnFootprint
@@ -212,7 +212,7 @@ FootprintPointers::
 	dw GranbullFootprint
 	dw QwilfishFootprint
 	dw ScizorFootprint
-	dw ShuckleFootprint
+	dw DoozeeFootprint
 	dw HeracrossFootprint
 	dw SneaselFootprint
 	dw TeddiursaFootprint

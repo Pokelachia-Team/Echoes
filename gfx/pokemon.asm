@@ -258,20 +258,20 @@ AlakazamFrontpic: INCBIN "gfx/pokemon/alakazam/front.animated.2bpp.lzp"
 AlakazamBackpic:  INCBIN "gfx/pokemon/alakazam/back.2bpp.lzp"
 AlakazamFrames:   INCLUDE "gfx/pokemon/alakazam/frames.asm"
 
-SECTION "Machop Pics", ROMX
-MachopFrontpic: INCBIN "gfx/pokemon/machop/front.animated.2bpp.lzp"
-MachopBackpic:  INCBIN "gfx/pokemon/machop/back.2bpp.lzp"
-MachopFrames:   INCLUDE "gfx/pokemon/machop/frames.asm"
+SECTION "Timburr Pics", ROMX
+TimburrFrontpic: INCBIN "gfx/pokemon/timburr/front.animated.2bpp.lzp"
+TimburrBackpic:  INCBIN "gfx/pokemon/timburr/back.2bpp.lzp"
+TimburrFrames:   INCLUDE "gfx/pokemon/timburr/frames.asm"
 
-SECTION "Machoke Pics", ROMX
-MachokeFrontpic: INCBIN "gfx/pokemon/machoke/front.animated.2bpp.lzp"
-MachokeBackpic:  INCBIN "gfx/pokemon/machoke/back.2bpp.lzp"
-MachokeFrames:   INCLUDE "gfx/pokemon/machoke/frames.asm"
+SECTION "Gurdurr Pics", ROMX
+GurdurrFrontpic: INCBIN "gfx/pokemon/gurdurr/front.animated.2bpp.lzp"
+GurdurrBackpic:  INCBIN "gfx/pokemon/gurdurr/back.2bpp.lzp"
+GurdurrFrames:   INCLUDE "gfx/pokemon/gurdurr/frames.asm"
 
-SECTION "Machamp Pics", ROMX
-MachampFrontpic: INCBIN "gfx/pokemon/machamp/front.animated.2bpp.lzp"
-MachampBackpic:  INCBIN "gfx/pokemon/machamp/back.2bpp.lzp"
-MachampFrames:   INCLUDE "gfx/pokemon/machamp/frames.asm"
+SECTION "Conkeldurr Pics", ROMX
+ConkeldurrFrontpic: INCBIN "gfx/pokemon/conkeldurr/front.animated.2bpp.lzp"
+ConkeldurrBackpic:  INCBIN "gfx/pokemon/conkeldurr/back.2bpp.lzp"
+ConkeldurrFrames:   INCLUDE "gfx/pokemon/conkeldurr/frames.asm"
 
 SECTION "Bellsprout Pics", ROMX
 BellsproutFrontpic: INCBIN "gfx/pokemon/bellsprout/front.animated.2bpp.lzp"
@@ -368,15 +368,15 @@ HypnoFrontpic: INCBIN "gfx/pokemon/hypno/front.animated.2bpp.lzp"
 HypnoBackpic:  INCBIN "gfx/pokemon/hypno/back.2bpp.lzp"
 HypnoFrames:   INCLUDE "gfx/pokemon/hypno/frames.asm"
 
-SECTION "Krabby Pics", ROMX
-KrabbyFrontpic: INCBIN "gfx/pokemon/krabby/front.animated.2bpp.lzp"
-KrabbyBackpic:  INCBIN "gfx/pokemon/krabby/back.2bpp.lzp"
-KrabbyFrames:   INCLUDE "gfx/pokemon/krabby/frames.asm"
+SECTION "Corphish Pics", ROMX
+CorphishFrontpic: INCBIN "gfx/pokemon/corphish/front.animated.2bpp.lzp"
+CorphishBackpic:  INCBIN "gfx/pokemon/corphish/back.2bpp.lzp"
+CorphishFrames:   INCLUDE "gfx/pokemon/corphish/frames.asm"
 
-SECTION "Kingler Pics", ROMX
-KinglerFrontpic: INCBIN "gfx/pokemon/kingler/front.animated.2bpp.lzp"
-KinglerBackpic:  INCBIN "gfx/pokemon/kingler/back.2bpp.lzp"
-KinglerFrames:   INCLUDE "gfx/pokemon/kingler/frames.asm"
+SECTION "Crawdaunt Pics", ROMX
+CrawdauntFrontpic: INCBIN "gfx/pokemon/crawdaunt/front.animated.2bpp.lzp"
+CrawdauntBackpic:  INCBIN "gfx/pokemon/crawdaunt/back.2bpp.lzp"
+CrawdauntFrames:   INCLUDE "gfx/pokemon/crawdaunt/frames.asm"
 
 SECTION "Exeggcute Pics", ROMX
 ExeggcuteFrontpic: INCBIN "gfx/pokemon/exeggcute/front.animated.2bpp.lzp"
@@ -660,15 +660,15 @@ LedianFrontpic: INCBIN "gfx/pokemon/ledian/front.animated.2bpp.lzp"
 LedianBackpic:  INCBIN "gfx/pokemon/ledian/back.2bpp.lzp"
 LedianFrames:   INCLUDE "gfx/pokemon/ledian/frames.asm"
 
-SECTION "Spinarak Pics", ROMX
-SpinarakFrontpic: INCBIN "gfx/pokemon/spinarak/front.animated.2bpp.lzp"
-SpinarakBackpic:  INCBIN "gfx/pokemon/spinarak/back.2bpp.lzp"
-SpinarakFrames:   INCLUDE "gfx/pokemon/spinarak/frames.asm"
+SECTION "Joltik Pics", ROMX
+JoltikFrontpic: INCBIN "gfx/pokemon/joltik/front.animated.2bpp.lzp"
+JoltikBackpic:  INCBIN "gfx/pokemon/joltik/back.2bpp.lzp"
+JoltikFrames:   INCLUDE "gfx/pokemon/joltik/frames.asm"
 
-SECTION "Ariados Pics", ROMX
-AriadosFrontpic: INCBIN "gfx/pokemon/ariados/front.animated.2bpp.lzp"
-AriadosBackpic:  INCBIN "gfx/pokemon/ariados/back.2bpp.lzp"
-AriadosFrames:   INCLUDE "gfx/pokemon/ariados/frames.asm"
+SECTION "Galvantula Pics", ROMX
+GalvantulaFrontpic: INCBIN "gfx/pokemon/galvantula/front.animated.2bpp.lzp"
+GalvantulaBackpic:  INCBIN "gfx/pokemon/galvantula/back.2bpp.lzp"
+GalvantulaFrames:   INCLUDE "gfx/pokemon/galvantula/frames.asm"
 
 SECTION "Crobat Pics", ROMX
 CrobatFrontpic: INCBIN "gfx/pokemon/crobat/front.animated.2bpp.lzp"
@@ -860,10 +860,10 @@ ScizorFrontpic: INCBIN "gfx/pokemon/scizor/front.animated.2bpp.lzp"
 ScizorBackpic:  INCBIN "gfx/pokemon/scizor/back.2bpp.lzp"
 ScizorFrames:   INCLUDE "gfx/pokemon/scizor/frames.asm"
 
-SECTION "Shuckle Pics", ROMX
-ShuckleFrontpic: INCBIN "gfx/pokemon/shuckle/front.animated.2bpp.lzp"
-ShuckleBackpic:  INCBIN "gfx/pokemon/shuckle/back.2bpp.lzp"
-ShuckleFrames:   INCLUDE "gfx/pokemon/shuckle/frames.asm"
+SECTION "Doozee Pics", ROMX
+DoozeeFrontpic: INCBIN "gfx/pokemon/doozee/front.animated.2bpp.lzp"
+DoozeeBackpic:  INCBIN "gfx/pokemon/doozee/back.2bpp.lzp"
+DoozeeFrames:   INCLUDE "gfx/pokemon/doozee/frames.asm"
 
 SECTION "Heracross Pics", ROMX
 HeracrossFrontpic: INCBIN "gfx/pokemon/heracross/front.animated.2bpp.lzp"

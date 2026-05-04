@@ -12,7 +12,7 @@ victory: Ken: Impressive. Yuria: Wow! That was great.
 
 after: Ken: Phew. I bet you'd give my brothers a run for their money. Yuria: We won't be back to Ransei for a while. If you want another battle, we'll be here! 
 
-Team: hitmonchan, machamp, blissey, rapidash
+Team: hitmonchan, conkeldurr, etheredeer, rapidash
 
 Juggler Luke:
 Oohohoh man! Who's a man and a half?! Guess who struck it big?!
@@ -31,7 +31,7 @@ Victory: Oh ship...
 
 After: Good stuff, kid! You'd make a fine sailor.
 
-Team: Qwilfish, Kingler x2, Tentacruel 
+Team: Qwilfish, Crawdaunt x2, Tentacruel 
 
 Supernerd Not'im 
 Fire me from the Dept Store, will you?! Ngh...I'll show them! I'll show them all! ...Huh? Hey! Get over here! I need something to take my anger out on.
@@ -110,7 +110,7 @@ Victory: Squashed...
 After: Phew! After a battle, I just like to kick my feet up and have some Berry Juice. Here, have some!
 (gives berry juice)
 
-Team: Shuckle, Heracross, Scizor 
+Team: Doozee, Heracross, Scizor 
 
 
 Schoolboy Ulysses 

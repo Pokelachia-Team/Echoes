@@ -72,9 +72,9 @@ PokemonBodyData:
 	body_data   9,  195, BIPEDAL_TAIL, BROWN  ; ABRA
 	body_data  13,  565, BIPEDAL_TAIL, BROWN  ; KADABRA
 	body_data  15,  480, BIPEDAL,      BROWN  ; ALAKAZAM
-	body_data   8,  195, BIPEDAL_TAIL, GRAY   ; MACHOP
-	body_data  15,  705, BIPEDAL,      GRAY   ; MACHOKE
-	body_data  16, 1300, BIPEDAL,      GRAY   ; MACHAMP
+	body_data   8,  195, BIPEDAL_TAIL, GRAY   ; TIMBURR
+	body_data  15,  705, BIPEDAL,      GRAY   ; GURDURR
+	body_data  16, 1300, BIPEDAL,      GRAY   ; CONKELDURR
 	body_data   7,   40, BIPEDAL,      GREEN  ; BELLSPROUT
 	body_data  10,   64, HEAD_BASE,    GREEN  ; WEEPINBELL
 	body_data  17,  155, HEAD_BASE,    GREEN  ; VICTREEBEL
@@ -104,8 +104,8 @@ PokemonBodyData:
 	body_data  88, 2100, SERPENTINE,   GRAY   ; ONIX
 	body_data  10,  324, BIPEDAL,      YELLOW ; DROWZEE
 	body_data  16,  756, BIPEDAL,      YELLOW ; HYPNO
-	body_data   4,   65, INSECTOID,    RED    ; KRABBY
-	body_data  13,  600, INSECTOID,    RED    ; KINGLER
+	body_data   4,   65, INSECTOID,    RED    ; CORPHISH
+	body_data  13,  600, INSECTOID,    RED    ; CRAWDAUNT
 	body_data   5,  104, HEAD,         RED    ; VOLTORB
 	body_data  12,  666, HEAD,         RED    ; ELECTRODE
 	body_data   4,   25, MULTIBODY,    PINK   ; EXEGGCUTE
@@ -173,8 +173,8 @@ PokemonBodyData:
 	body_data  16,  408, WINGS,        BROWN  ; NOCTOWL
 	body_data  10,  108, WINGS,        RED    ; LEDYBA
 	body_data  14,  356, WINGS,        RED    ; LEDIAN
-	body_data   5,   85, INSECTOID,    GREEN  ; SPINARAK
-	body_data  11,  335, INSECTOID,    RED    ; ARIADOS
+	body_data   5,   85, INSECTOID,    GREEN  ; JOLTIK
+	body_data  11,  335, INSECTOID,    RED    ; GALVANTULA
 	body_data  18,  750, MULTIWINGS,   PURPLE ; CROBAT
 	body_data   5,  120, FINS,         BLUE   ; CHINCHOU
 	body_data  12,  225, FINS,         BLUE   ; LANTURN
@@ -219,7 +219,7 @@ PokemonBodyData:
 	body_data  14,  487, BIPEDAL_TAIL, PURPLE ; GRANBULL
 	body_data   5,   39, FINS,         GRAY   ; QWILFISH
 	body_data  18, 1180, MULTIWINGS,   RED    ; SCIZOR
-	body_data   6,  205, INSECTOID,    YELLOW ; SHUCKLE
+	body_data   6,  205, INSECTOID,    YELLOW ; DOOZEE
 	body_data  15,  540, BIPEDAL,      BLUE   ; HERACROSS
 	body_data   9,  280, BIPEDAL_TAIL, BLACK  ; SNEASEL
 	body_data   6,   88, BIPEDAL_TAIL, BROWN  ; TEDDIURSA

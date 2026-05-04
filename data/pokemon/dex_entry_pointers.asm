@@ -66,9 +66,9 @@ PokedexDataPointerTable:
 	dba AbraPokedexEntry
 	dba KadabraPokedexEntry
 	dba AlakazamPokedexEntry
-	dba MachopPokedexEntry
-	dba MachokePokedexEntry
-	dba MachampPokedexEntry
+	dba TimburrPokedexEntry
+	dba GurdurrPokedexEntry
+	dba ConkeldurrPokedexEntry
 	dba BellsproutPokedexEntry
 	dba WeepinbellPokedexEntry
 	dba VictreebelPokedexEntry
@@ -98,8 +98,8 @@ PokedexDataPointerTable:
 	dba OnixPokedexEntry
 	dba DrowzeePokedexEntry
 	dba HypnoPokedexEntry
-	dba KrabbyPokedexEntry
-	dba KinglerPokedexEntry
+	dba CorphishPokedexEntry
+	dba CrawdauntPokedexEntry
 	dba VoltorbPokedexEntry
 	dba ElectrodePokedexEntry
 	dba ExeggcutePokedexEntry
@@ -167,8 +167,8 @@ PokedexDataPointerTable:
 	dba NoctowlPokedexEntry
 	dba LedybaPokedexEntry
 	dba LedianPokedexEntry
-	dba SpinarakPokedexEntry
-	dba AriadosPokedexEntry
+	dba JoltikPokedexEntry
+	dba GalvantulaPokedexEntry
 	dba CrobatPokedexEntry
 	dba ChinchouPokedexEntry
 	dba LanturnPokedexEntry
@@ -213,7 +213,7 @@ PokedexDataPointerTable:
 	dba GranbullPokedexEntry
 	dba QwilfishPokedexEntry
 	dba ScizorPokedexEntry
-	dba ShucklePokedexEntry
+	dba DoozeePokedexEntry
 	dba HeracrossPokedexEntry
 	dba SneaselPokedexEntry
 	dba TeddiursaPokedexEntry

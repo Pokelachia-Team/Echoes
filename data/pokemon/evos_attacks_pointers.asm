@@ -69,9 +69,9 @@ EvosAttacksPointers::
 	dw AbraEvosAttacks
 	dw KadabraEvosAttacks
 	dw AlakazamEvosAttacks
-	dw MachopEvosAttacks
-	dw MachokeEvosAttacks
-	dw MachampEvosAttacks
+	dw TimburrEvosAttacks
+	dw GurdurrEvosAttacks
+	dw ConkeldurrEvosAttacks
 	dw BellsproutEvosAttacks
 	dw WeepinbellEvosAttacks
 	dw VictreebelEvosAttacks
@@ -101,8 +101,8 @@ EvosAttacksPointers::
 	dw OnixEvosAttacks
 	dw DrowzeeEvosAttacks
 	dw HypnoEvosAttacks
-	dw KrabbyEvosAttacks
-	dw KinglerEvosAttacks
+	dw CorphishEvosAttacks
+	dw CrawdauntEvosAttacks
 	dw VoltorbPlainEvosAttacks
 	dw ElectrodePlainEvosAttacks
 	dw ExeggcuteEvosAttacks
@@ -170,8 +170,8 @@ EvosAttacksPointers::
 	dw NoctowlEvosAttacks
 	dw LedybaEvosAttacks
 	dw LedianEvosAttacks
-	dw SpinarakEvosAttacks
-	dw AriadosEvosAttacks
+	dw JoltikEvosAttacks
+	dw GalvantulaEvosAttacks
 	dw CrobatEvosAttacks
 	dw ChinchouEvosAttacks
 	dw LanturnEvosAttacks
@@ -216,7 +216,7 @@ EvosAttacksPointers::
 	dw GranbullEvosAttacks
 	dw QwilfishPlainEvosAttacks
 	dw ScizorEvosAttacks
-	dw ShuckleEvosAttacks
+	dw DoozeeEvosAttacks
 	dw HeracrossEvosAttacks
 	dw SneaselPlainEvosAttacks
 	dw TeddiursaEvosAttacks
