@@ -323,7 +323,6 @@ EvosAttacksPointers::
 	dw GolemAlolanEvosAttacks
 	dw GrimerAlolanEvosAttacks
 	dw MukAlolanEvosAttacks
-	dw ExeggutorAlolanEvosAttacks
 	dw MarowakAlolanEvosAttacks
 
 	dw MeowthGalarianEvosAttacks

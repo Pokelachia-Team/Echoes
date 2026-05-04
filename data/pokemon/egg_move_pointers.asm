@@ -319,7 +319,6 @@ EggSpeciesMovesPointers::
 	dw GeodudeAlolanEggSpeciesMoves     ; Golem (Alolan Form)
 	dw GrimerAlolanEggSpeciesMoves      ; Grimer (Alolan Form)
 	dw GrimerAlolanEggSpeciesMoves      ; Muk (Alolan Form)
-	dw ExeggcuteEggSpeciesMoves         ; Exeggutor (Alolan Form)
 	dw CuboneEggSpeciesMoves            ; Marowak (Alolan Form)
 
 	dw MeowthGalarianEggSpeciesMoves    ; Meowth (Galarian Form)

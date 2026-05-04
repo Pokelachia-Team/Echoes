@@ -3031,16 +3031,6 @@ MukAlolanPokedexEntry::
 	next "its favorite"
 	next "dish--trash.@"
 
-SECTION "ExeggutorAlolanPokedexEntry", ROMX
-ExeggutorAlolanPokedexEntry::
-	db "Coconut@"
-	db   "It swings its long"
-	next "neck like a whip"
-	next "and smacks its"
-	page "opponents. This"
-	next "makes Exeggutor"
-	next "itself dizzy, too.@"
-
 SECTION "MarowakAlolanPokedexEntry", ROMX
 MarowakAlolanPokedexEntry::
 	db "Bone Keeper@"

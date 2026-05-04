@@ -361,7 +361,6 @@ INCLUDE "data/pokemon/base_stats/graveler_alolan.asm"
 INCLUDE "data/pokemon/base_stats/golem_alolan.asm"
 INCLUDE "data/pokemon/base_stats/grimer_alolan.asm"
 INCLUDE "data/pokemon/base_stats/muk_alolan.asm"
-INCLUDE "data/pokemon/base_stats/exeggutor_alolan.asm"
 INCLUDE "data/pokemon/base_stats/marowak_alolan.asm"
 
 INCLUDE "data/pokemon/base_stats/meowth_galarian.asm"

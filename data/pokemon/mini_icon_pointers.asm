@@ -371,7 +371,6 @@ endr
 	mini_icon GolemAlolan
 	mini_icon GrimerAlolan
 	mini_icon MukAlolan
-	mini_icon ExeggutorAlolan
 	mini_icon MarowakAlolan
 
 	mini_icon MeowthGalarian

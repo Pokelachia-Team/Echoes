@@ -644,8 +644,6 @@ INCLUDE "gfx/pokemon/grimer_alolan/normal.pal"
 INCLUDE "gfx/pokemon/grimer_alolan/shiny.pal"
 INCLUDE "gfx/pokemon/muk_alolan/normal.pal"
 INCLUDE "gfx/pokemon/muk_alolan/shiny.pal"
-INCLUDE "gfx/pokemon/exeggutor_alolan/normal.pal"
-INCLUDE "gfx/pokemon/exeggutor_alolan/shiny.pal"
 INCLUDE "gfx/pokemon/marowak_alolan/normal.pal"
 INCLUDE "gfx/pokemon/marowak_alolan/shiny.pal"
 

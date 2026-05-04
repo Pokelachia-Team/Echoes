@@ -576,7 +576,6 @@ endr
 	dw .MovementMuseumDrill          ; SPRITEMOVEFN_MUSEUM_DRILL
 	dw .MovementSailboatTop          ; SPRITEMOVEFN_SAILBOAT_TOP
 	dw .MovementSailboatBottom       ; SPRITEMOVEFN_SAILBOAT_BOTTOM
-	dw .MovementAlolanExeggutor      ; SPRITEMOVEFN_ALOLAN_EXEGGUTOR
 	dw .MovementTinyWindows          ; SPRITEMOVEFN_TINY_WINDOWS
 	dw .MovementMicrophone           ; SPRITEMOVEFN_MICROPHONE
 	dw .MovementBigHoOh              ; SPRITEMOVEFN_BIG_HO_OH
@@ -789,10 +788,6 @@ endr
 
 .MovementSailboatBottom:
 	ld a, OBJECT_ACTION_SAILBOAT_BOTTOM
-	jr ._ActionA_StepFunction_Standing
-
-.MovementAlolanExeggutor:
-	ld a, OBJECT_ACTION_ALOLAN_EXEGGUTOR
 	jr ._ActionA_StepFunction_Standing
 
 .MovementTinyWindows:

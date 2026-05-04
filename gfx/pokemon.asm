@@ -1673,11 +1673,6 @@ ExeggutorPlainFrontpic: INCBIN "gfx/pokemon/exeggutor_plain/front.animated.2bpp.
 ExeggutorPlainBackpic:  INCBIN "gfx/pokemon/exeggutor_plain/back.2bpp.lzp"
 ExeggutorPlainFrames:   INCLUDE "gfx/pokemon/exeggutor_plain/frames.asm"
 
-SECTION "ExeggutorAlolan Pics", ROMX
-ExeggutorAlolanFrontpic: INCBIN "gfx/pokemon/exeggutor_alolan/front.animated.2bpp.lzp"
-ExeggutorAlolanBackpic:  INCBIN "gfx/pokemon/exeggutor_alolan/back.2bpp.lzp"
-ExeggutorAlolanFrames:   INCLUDE "gfx/pokemon/exeggutor_alolan/frames.asm"
-
 SECTION "MarowakPlain Pics", ROMX
 MarowakPlainFrontpic: INCBIN "gfx/pokemon/marowak_plain/front.animated.2bpp.lzp"
 MarowakPlainBackpic:  INCBIN "gfx/pokemon/marowak_plain/back.2bpp.lzp"

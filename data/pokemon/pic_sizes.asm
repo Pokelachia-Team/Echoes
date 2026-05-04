@@ -401,7 +401,6 @@ INCLUDE "gfx/pokemon/graveler_alolan/front.dimensions"
 INCLUDE "gfx/pokemon/golem_alolan/front.dimensions"
 INCLUDE "gfx/pokemon/grimer_alolan/front.dimensions"
 INCLUDE "gfx/pokemon/muk_alolan/front.dimensions"
-INCLUDE "gfx/pokemon/exeggutor_alolan/front.dimensions"
 INCLUDE "gfx/pokemon/marowak_alolan/front.dimensions"
 
 INCLUDE "gfx/pokemon/meowth_galarian/front.dimensions"

@@ -383,7 +383,6 @@ AnimationExtraPointers:
 	dw GolemAlolanAnimationExtra
 	dw GrimerAlolanAnimationExtra
 	dw MukAlolanAnimationExtra
-	dw ExeggutorAlolanAnimationExtra
 	dw MarowakAlolanAnimationExtra
 
 	dw MeowthGalarianAnimationExtra

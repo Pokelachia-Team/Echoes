@@ -320,7 +320,6 @@ PokedexDataPointerTable:
 	dba GolemAlolanPokedexEntry
 	dba GrimerAlolanPokedexEntry
 	dba MukAlolanPokedexEntry
-	dba ExeggutorAlolanPokedexEntry
 	dba MarowakAlolanPokedexEntry
 
 	dba MeowthGalarianPokedexEntry

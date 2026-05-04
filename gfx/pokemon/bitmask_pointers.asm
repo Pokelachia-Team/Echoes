@@ -383,7 +383,6 @@ BitmasksPointers:
 	dw GolemAlolanBitmasks
 	dw GrimerAlolanBitmasks
 	dw MukAlolanBitmasks
-	dw ExeggutorAlolanBitmasks
 	dw MarowakAlolanBitmasks
 
 	dw MeowthGalarianBitmasks

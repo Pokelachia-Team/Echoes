@@ -1682,11 +1682,6 @@ MukAlolanMini::     INCBIN "gfx/minis/muk_alolan.2bpp.lzp"
 MukAlolanMiniMask:: INCBIN "gfx/minis/muk_alolan_mask.1bpp.lzp"
 MukAlolanIcon::     INCBIN "gfx/icons/muk_alolan.2bpp.lzp"
 
-SECTION "ExeggutorAlolan Mini Icon", ROMX
-ExeggutorAlolanMini::     INCBIN "gfx/minis/exeggutor_alolan.2bpp.lzp"
-ExeggutorAlolanMiniMask:: INCBIN "gfx/minis/exeggutor_alolan_mask.1bpp.lzp"
-ExeggutorAlolanIcon::     INCBIN "gfx/icons/exeggutor_alolan.2bpp.lzp"
-
 SECTION "MarowakAlolan Mini Icon", ROMX
 MarowakAlolanMini::     INCBIN "gfx/minis/marowak_alolan.2bpp.lzp"
 MarowakAlolanMiniMask:: INCBIN "gfx/minis/marowak_alolan_mask.1bpp.lzp"

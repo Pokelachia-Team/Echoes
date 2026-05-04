@@ -387,7 +387,6 @@ PokemonPicPointers::
 	pics GolemAlolan
 	pics GrimerAlolan
 	pics MukAlolan
-	pics ExeggutorAlolan
 	pics MarowakAlolan
 
 	pics MeowthGalarian
