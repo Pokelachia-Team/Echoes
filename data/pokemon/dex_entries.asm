@@ -3061,36 +3061,6 @@ PersianAlolanPokedexEntry::
 	next "battle has a bea-"
 	next "uty all its own.@"
 
-SECTION "GeodudeAlolanPokedexEntry", ROMX
-GeodudeAlolanPokedexEntry::
-	db "Rock@"
-	db   "Its body is a mag-"
-	next "netic stone. Iron"
-	next "sand attaches to"
-	page "the portions of"
-	next "its body that are"
-	next "the most magnetic.@"
-
-SECTION "GravelerAlolanPokedexEntry", ROMX
-GravelerAlolanPokedexEntry::
-	db "Rock@"
-	db   "Its entire body is"
-	next "tinged with elec-"
-	next "tricity due to the"
-	page "stones it likes to"
-	next "eat. It's very"
-	next "quick-tempered.@"
-
-SECTION "GolemAlolanPokedexEntry", ROMX
-GolemAlolanPokedexEntry::
-	db "Megaton@"
-	db   "It fires rocks"
-	next "charged with elec-"
-	next "tricity. Just"
-	page "grazing an oppo-"
-	next "nent causes numb-"
-	next "ness and fainting.@"
-
 SECTION "PonytaGalarianPokedexEntry", ROMX
 PonytaGalarianPokedexEntry::
 	db "Unique Horn@"

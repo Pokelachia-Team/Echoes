@@ -315,9 +315,6 @@ PokedexDataPointerTable:
 	dba DugtrioAlolanPokedexEntry
 	dba MeowthAlolanPokedexEntry
 	dba PersianAlolanPokedexEntry
-	dba GeodudeAlolanPokedexEntry
-	dba GravelerAlolanPokedexEntry
-	dba GolemAlolanPokedexEntry
 	dba GrimerAlolanPokedexEntry
 	dba MukAlolanPokedexEntry
 	dba MarowakAlolanPokedexEntry

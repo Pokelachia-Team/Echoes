@@ -378,9 +378,6 @@ BitmasksPointers:
 	dw DugtrioAlolanBitmasks
 	dw MeowthAlolanBitmasks
 	dw PersianAlolanBitmasks
-	dw GeodudeAlolanBitmasks
-	dw GravelerAlolanBitmasks
-	dw GolemAlolanBitmasks
 	dw GrimerAlolanBitmasks
 	dw MukAlolanBitmasks
 	dw MarowakAlolanBitmasks

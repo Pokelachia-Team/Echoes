@@ -318,9 +318,6 @@ EvosAttacksPointers::
 	dw DugtrioAlolanEvosAttacks
 	dw MeowthAlolanEvosAttacks
 	dw PersianAlolanEvosAttacks
-	dw GeodudeAlolanEvosAttacks
-	dw GravelerAlolanEvosAttacks
-	dw GolemAlolanEvosAttacks
 	dw GrimerAlolanEvosAttacks
 	dw MukAlolanEvosAttacks
 	dw MarowakAlolanEvosAttacks

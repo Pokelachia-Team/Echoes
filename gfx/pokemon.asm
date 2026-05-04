@@ -1623,21 +1623,6 @@ GolemPlainFrontpic: INCBIN "gfx/pokemon/golem_plain/front.animated.2bpp.lzp"
 GolemPlainBackpic:  INCBIN "gfx/pokemon/golem_plain/back.2bpp.lzp"
 GolemPlainFrames:   INCLUDE "gfx/pokemon/golem_plain/frames.asm"
 
-SECTION "GeodudeAlolan Pics", ROMX
-GeodudeAlolanFrontpic: INCBIN "gfx/pokemon/geodude_alolan/front.animated.2bpp.lzp"
-GeodudeAlolanBackpic:  INCBIN "gfx/pokemon/geodude_alolan/back.2bpp.lzp"
-GeodudeAlolanFrames:   INCLUDE "gfx/pokemon/geodude_alolan/frames.asm"
-
-SECTION "GravelerAlolan Pics", ROMX
-GravelerAlolanFrontpic: INCBIN "gfx/pokemon/graveler_alolan/front.animated.2bpp.lzp"
-GravelerAlolanBackpic:  INCBIN "gfx/pokemon/graveler_alolan/back.2bpp.lzp"
-GravelerAlolanFrames:   INCLUDE "gfx/pokemon/graveler_alolan/frames.asm"
-
-SECTION "GolemAlolan Pics", ROMX
-GolemAlolanFrontpic: INCBIN "gfx/pokemon/golem_alolan/front.animated.2bpp.lzp"
-GolemAlolanBackpic:  INCBIN "gfx/pokemon/golem_alolan/back.2bpp.lzp"
-GolemAlolanFrames:   INCLUDE "gfx/pokemon/golem_alolan/frames.asm"
-
 SECTION "GrimerPlain Pics", ROMX
 GrimerPlainFrontpic: INCBIN "gfx/pokemon/grimer_plain/front.animated.2bpp.lzp"
 GrimerPlainBackpic:  INCBIN "gfx/pokemon/grimer_plain/back.2bpp.lzp"

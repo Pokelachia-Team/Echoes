@@ -314,9 +314,6 @@ FootprintPointers::
 	dw DugtrioFootprint
 	dw MeowthFootprint
 	dw PersianFootprint
-	dw GeodudeFootprint
-	dw GravelerFootprint
-	dw GolemFootprint
 	dw GrimerFootprint
 	dw MukFootprint
 	dw MarowakFootprint

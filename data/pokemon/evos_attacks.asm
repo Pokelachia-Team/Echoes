@@ -1528,63 +1528,6 @@ evos_attacks Cupico
 	learnset 54, STONE_EDGE
 	learnset 60, GYRO_BALL ; Heavy Slam → similar move
 
-	evos_attacks GeodudeAlolan
-	evo_data EVOLVE_LEVEL, 25, GRAVELER, ALOLAN_FORM
-	learnset 1, TACKLE
-	learnset 1, DEFENSE_CURL
-	learnset 4, THUNDERSHOCK ; Charge → new move
-	learnset 6, RAPID_SPIN ; Rock Polish → event move
-	learnset 10, ROLLOUT
-	learnset 12, SPARK
-	learnset 16, ROCK_THROW
-	learnset 18, ANCIENTPOWER ; Smack Down → HGSS tutor move
-	learnset 22, THUNDERPUNCH
-	learnset 24, ROCK_BLAST ; Self-Destruct → Rock Blast
-	learnset 28, SANDSTORM ; Stealth Rock → TM move
-	learnset 30, ROCK_SLIDE ; Rock Blast → TM move
-	learnset 34, WILD_CHARGE ; Discharge → new move
-	learnset 36, EXPLOSION
-	learnset 40, DOUBLE_EDGE
-	learnset 42, STONE_EDGE
-
-	evos_attacks GravelerAlolan
-	evo_data EVOLVE_TRADE, LINKING_CORD, GOLEM, ALOLAN_FORM
-	learnset 1, TACKLE
-	learnset 1, DEFENSE_CURL
-	learnset 4, THUNDERSHOCK ; Charge → new move
-	learnset 6, RAPID_SPIN ; Rock Polish → event move
-	learnset 10, ROLLOUT
-	learnset 12, SPARK
-	learnset 16, ROCK_THROW
-	learnset 18, ANCIENTPOWER ; Smack Down → HGSS tutor move
-	learnset 22, THUNDERPUNCH
-	learnset 24, ROCK_BLAST ; Self-Destruct → Rock Blast
-	learnset 30, SANDSTORM ; Stealth Rock → TM move
-	learnset 34, ROCK_SLIDE ; Rock Blast → TM move
-	learnset 40, WILD_CHARGE ; Discharge → new move
-	learnset 44, EXPLOSION
-	learnset 50, DOUBLE_EDGE
-	learnset 54, STONE_EDGE
-
-	evos_attacks GolemAlolan
-	learnset 1, TACKLE
-	learnset 1, DEFENSE_CURL
-	learnset 4, THUNDERSHOCK ; Charge → new move
-	learnset 6, RAPID_SPIN ; Rock Polish → event move
-	learnset 10, ROLLOUT
-	learnset 12, SPARK
-	learnset 16, ROCK_THROW
-	learnset 18, ANCIENTPOWER ; Smack Down → HGSS tutor move
-	learnset 22, THUNDERPUNCH
-	learnset 24, ROCK_BLAST ; Self-Destruct → Rock Blast
-	learnset 30, SANDSTORM ; Stealth Rock → TM move
-	learnset 34, ROCK_SLIDE ; Rock Blast → TM move
-	learnset 40, WILD_CHARGE ; Discharge → new move
-	learnset 44, EXPLOSION
-	learnset 50, DOUBLE_EDGE
-	learnset 54, STONE_EDGE
-	learnset 60, GYRO_BALL ; Heavy Slam → similar move
-
 	evos_attacks PonytaPlain
 	evo_data EVOLVE_LEVEL, 40, RAPIDASH, PLAIN_FORM
 	learnset 1, GROWL

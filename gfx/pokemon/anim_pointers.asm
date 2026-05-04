@@ -378,9 +378,6 @@ AnimationPointers:
 	dw DugtrioAlolanAnimation
 	dw MeowthAlolanAnimation
 	dw PersianAlolanAnimation
-	dw GeodudeAlolanAnimation
-	dw GravelerAlolanAnimation
-	dw GolemAlolanAnimation
 	dw GrimerAlolanAnimation
 	dw MukAlolanAnimation
 	dw MarowakAlolanAnimation

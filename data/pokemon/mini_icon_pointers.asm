@@ -366,9 +366,6 @@ endr
 	mini_icon DugtrioAlolan
 	mini_icon MeowthAlolan
 	mini_icon PersianAlolan
-	mini_icon GeodudeAlolan
-	mini_icon GravelerAlolan
-	mini_icon GolemAlolan
 	mini_icon GrimerAlolan
 	mini_icon MukAlolan
 	mini_icon MarowakAlolan

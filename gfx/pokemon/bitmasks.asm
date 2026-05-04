@@ -357,13 +357,8 @@ PersianPlainBitmasks:  INCLUDE "gfx/pokemon/persian_plain/bitmask.asm"
 PersianAlolanBitmasks: INCLUDE "gfx/pokemon/persian_alolan/bitmask.asm"
 
 GeodudePlainBitmasks:  INCLUDE "gfx/pokemon/geodude_plain/bitmask.asm"
-GeodudeAlolanBitmasks: INCLUDE "gfx/pokemon/geodude_alolan/bitmask.asm"
-
 GravelerPlainBitmasks:  INCLUDE "gfx/pokemon/graveler_plain/bitmask.asm"
-GravelerAlolanBitmasks: INCLUDE "gfx/pokemon/graveler_alolan/bitmask.asm"
-
 GolemPlainBitmasks:  INCLUDE "gfx/pokemon/golem_plain/bitmask.asm"
-GolemAlolanBitmasks: INCLUDE "gfx/pokemon/golem_alolan/bitmask.asm"
 
 GrimerPlainBitmasks:  INCLUDE "gfx/pokemon/grimer_plain/bitmask.asm"
 GrimerAlolanBitmasks: INCLUDE "gfx/pokemon/grimer_alolan/bitmask.asm"

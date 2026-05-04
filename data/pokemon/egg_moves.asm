@@ -351,11 +351,6 @@ GeodudePlainEggSpeciesMoves:
 	db ROCK_SLIDE
 	db $ff
 
-GeodudeAlolanEggSpeciesMoves:
-	dp GEODUDE, ALOLAN_FORM
-	db ROCK_SLIDE
-	db $ff
-
 PonytaPlainEggSpeciesMoves:
 	dp PONYTA, PLAIN_FORM
 	db CHARM

@@ -357,13 +357,8 @@ PersianPlainAnimation:  INCLUDE "gfx/pokemon/persian_plain/anim.asm"
 PersianAlolanAnimation: INCLUDE "gfx/pokemon/persian_alolan/anim.asm"
 
 GeodudePlainAnimation:  INCLUDE "gfx/pokemon/geodude_plain/anim.asm"
-GeodudeAlolanAnimation: INCLUDE "gfx/pokemon/geodude_alolan/anim.asm"
-
 GravelerPlainAnimation:  INCLUDE "gfx/pokemon/graveler_plain/anim.asm"
-GravelerAlolanAnimation: INCLUDE "gfx/pokemon/graveler_alolan/anim.asm"
-
 GolemPlainAnimation:  INCLUDE "gfx/pokemon/golem_plain/anim.asm"
-GolemAlolanAnimation: INCLUDE "gfx/pokemon/golem_alolan/anim.asm"
 
 GrimerPlainAnimation:  INCLUDE "gfx/pokemon/grimer_plain/anim.asm"
 GrimerAlolanAnimation: INCLUDE "gfx/pokemon/grimer_alolan/anim.asm"

@@ -382,9 +382,6 @@ PokemonPicPointers::
 	pics DugtrioAlolan
 	pics MeowthAlolan
 	pics PersianAlolan
-	pics GeodudeAlolan
-	pics GravelerAlolan
-	pics GolemAlolan
 	pics GrimerAlolan
 	pics MukAlolan
 	pics MarowakAlolan

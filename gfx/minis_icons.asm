@@ -1657,21 +1657,6 @@ PersianAlolanMini::     INCBIN "gfx/minis/persian_alolan.2bpp.lzp"
 PersianAlolanMiniMask:: INCBIN "gfx/minis/persian_alolan_mask.1bpp.lzp"
 PersianAlolanIcon::     INCBIN "gfx/icons/persian_alolan.2bpp.lzp"
 
-SECTION "GeodudeAlolan Mini Icon", ROMX
-GeodudeAlolanMini::     INCBIN "gfx/minis/geodude_alolan.2bpp.lzp"
-GeodudeAlolanMiniMask:: INCBIN "gfx/minis/geodude_alolan_mask.1bpp.lzp"
-GeodudeAlolanIcon::     INCBIN "gfx/icons/geodude_alolan.2bpp.lzp"
-
-SECTION "GravelerAlolan Mini Icon", ROMX
-GravelerAlolanMini::     INCBIN "gfx/minis/graveler_alolan.2bpp.lzp"
-GravelerAlolanMiniMask:: INCBIN "gfx/minis/graveler_alolan_mask.1bpp.lzp"
-GravelerAlolanIcon::     INCBIN "gfx/icons/graveler_alolan.2bpp.lzp"
-
-SECTION "GolemAlolan Mini Icon", ROMX
-GolemAlolanMini::     INCBIN "gfx/minis/golem_alolan.2bpp.lzp"
-GolemAlolanMiniMask:: INCBIN "gfx/minis/golem_alolan_mask.1bpp.lzp"
-GolemAlolanIcon::     INCBIN "gfx/icons/golem_alolan.2bpp.lzp"
-
 SECTION "GrimerAlolan Mini Icon", ROMX
 GrimerAlolanMini::     INCBIN "gfx/minis/grimer_alolan.2bpp.lzp"
 GrimerAlolanMiniMask:: INCBIN "gfx/minis/grimer_alolan_mask.1bpp.lzp"

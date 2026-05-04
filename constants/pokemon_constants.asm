@@ -456,9 +456,6 @@ DEF ALOLAN_FORM EQU 2
 	const_skip ; 168 dugtrio
 	const_skip ; 169 meowth
 	const_skip ; 16a persian
-	const_skip ; 16b geodude
-	const_skip ; 16c graveler
-	const_skip ; 16d golem
 	const_skip ; 16e grimer
 	const_skip ; 16f muk
 	const_skip ; 170 marowak

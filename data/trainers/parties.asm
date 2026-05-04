@@ -6231,11 +6231,11 @@ EngineerGroup:
 	end_trainer
 
 	def_trainer GRADEN, "Graden"
-	tr_mon LEVEL_FROM_BADGES + 2, GEODUDE, MALE | ALOLAN_FORM
-		tr_extra GALVANIZE
+	tr_mon LEVEL_FROM_BADGES + 2, GEODUDE, MALE
+		tr_extra STURDY
 		tr_moves EXPLOSION
-	tr_mon LEVEL_FROM_BADGES + 2, GEODUDE, MALE | ALOLAN_FORM
-		tr_extra GALVANIZE
+	tr_mon LEVEL_FROM_BADGES + 2, GEODUDE, MALE
+		tr_extra STURDY
 		tr_moves EXPLOSION
 	tr_mon LEVEL_FROM_BADGES + 3, ELEKID, MALE
 		tr_extra STATIC
@@ -8156,8 +8156,8 @@ else
 endc
 		tr_evs 252 Def, 36 HP
 		tr_moves TOXIC, HEALINGLIGHT, CURSE, SUCKER_PUNCH
-	tr_mon 64, GOLEM @ ASSAULT_VEST, MALE | ALOLAN_FORM
-		tr_extra MAGNET_PULL, DEF_UP_SPE_DOWN
+	tr_mon 64, GOLEM @ ASSAULT_VEST, MALE
+		tr_extra STURDY, DEF_UP_SPE_DOWN
 		tr_evs 252 Def, 36 SDf
 		tr_moves THUNDERPUNCH, ROCK_SLIDE, FIRE_PUNCH, GYRO_BALL
 	tr_mon 62, POLIWRATH @ DAMP_ROCK, MALE
@@ -8183,8 +8183,8 @@ endc
 	end_trainer
 
 	def_trainer 2, "Buck"
-	tr_mon 75, GOLEM @ CHOICE_BAND, MALE | ALOLAN_FORM
-		tr_extra GALVANIZE, DEF_UP_SATK_DOWN
+	tr_mon 75, GOLEM @ CHOICE_BAND, MALE
+		tr_extra STURDY, DEF_UP_SATK_DOWN
 		tr_evs 252 Def, 252 Atk, 4 HP
 		tr_moves EXPLOSION, RETURN, STONE_EDGE, EARTHQUAKE
 	tr_mon 72, POLIWRATH @ SITRUS_BERRY, MALE
