@@ -1012,8 +1012,8 @@ ElectrodePokedexEntry::
 	next "makes it more"
 	next "likely to explode.@"
 
-SECTION "CottoneePokedexEntry", ROMX
-CottoneePokedexEntry::
+SECTION "ExeggcutePokedexEntry", ROMX
+ExeggcutePokedexEntry::
 	db "Egg@"
 	db   "If even one is"
 	next "separated from the"
@@ -1030,7 +1030,7 @@ ExeggutorPlainPokedexEntry::
 	next "it grow lots of"
 	page "heads. A head that"
 	next "drops off becomes"
-	next "an COTTONEE.@"
+	next "an Exeggcute.@"
 
 SECTION "CubonePokedexEntry", ROMX
 CubonePokedexEntry::

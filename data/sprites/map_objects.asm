@@ -354,6 +354,14 @@ SpriteMovementData::
 	db LOW_PRIORITY ; flags2
 	db BIG_OBJECT ; palette flags
 
+; SPRITEMOVEDATA_ALOLAN_EXEGGUTOR
+	db SPRITEMOVEFN_ALOLAN_EXEGGUTOR ; movement function
+	db DOWN ; facing
+	db OBJECT_ACTION_ALOLAN_EXEGGUTOR ; action
+	db FIXED_FACING | SLIDING ; flags1
+	db 0 ; flags2
+	db 0 ; palette flags
+
 ; SPRITEMOVEDATA_TINY_WINDOWS
 	db SPRITEMOVEFN_TINY_WINDOWS ; movement function
 	db DOWN ; facing

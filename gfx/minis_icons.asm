@@ -512,15 +512,15 @@ ElectrodeMini::     INCBIN "gfx/minis/electrode.2bpp.lzp"
 ElectrodeMiniMask:: INCBIN "gfx/minis/electrode_mask.1bpp.lzp"
 ElectrodeIcon::     INCBIN "gfx/icons/electrode.2bpp.lzp"
 
-SECTION "Cottonee Mini Icon", ROMX
-CottoneeMini::     INCBIN "gfx/minis/cottonee.2bpp.lzp"
-CottoneeMiniMask:: INCBIN "gfx/minis/cottonee_mask.1bpp.lzp"
-CottoneeIcon::     INCBIN "gfx/icons/cottonee.2bpp.lzp"
+SECTION "Exeggcute Mini Icon", ROMX
+ExeggcuteMini::     INCBIN "gfx/minis/exeggcute.2bpp.lzp"
+ExeggcuteMiniMask:: INCBIN "gfx/minis/exeggcute_mask.1bpp.lzp"
+ExeggcuteIcon::     INCBIN "gfx/icons/exeggcute.2bpp.lzp"
 
-SECTION "Whimsicott Mini Icon", ROMX
-WhimsicottMini::     INCBIN "gfx/minis/whimsicott.2bpp.lzp"
-WhimsicottMiniMask:: INCBIN "gfx/minis/whimsicott_mask.1bpp.lzp"
-WhimsicottIcon::     INCBIN "gfx/icons/whimsicott.2bpp.lzp"
+SECTION "Exeggutor Mini Icon", ROMX
+ExeggutorMini::     INCBIN "gfx/minis/exeggutor.2bpp.lzp"
+ExeggutorMiniMask:: INCBIN "gfx/minis/exeggutor_mask.1bpp.lzp"
+ExeggutorIcon::     INCBIN "gfx/icons/exeggutor.2bpp.lzp"
 
 SECTION "Cubone Mini Icon", ROMX
 CuboneMini::     INCBIN "gfx/minis/cubone.2bpp.lzp"

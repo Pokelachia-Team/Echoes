@@ -688,6 +688,7 @@ ConvertMonIndexesTo9Bit:
 	db 0x4c, 2 ; GOLEM, ALOLAN
 	db 0x58, 2 ; GRIMER, ALOLAN
 	db 0x59, 2 ; MUK, ALOLAN
+	db 0x67, 2 ; EXEGGUTOR, ALOLAN
 	db 0x69, 2 ; MAROWAK, ALOLAN
 	db 0x34, 3 ; MEOWTH, GALARIAN
 	db 0x4d, 3 ; PONYTA, GALARIAN

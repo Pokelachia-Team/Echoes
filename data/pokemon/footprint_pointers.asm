@@ -101,8 +101,8 @@ FootprintPointers::
 	dw CrawdauntFootprint
 	dw VoltorbFootprint
 	dw ElectrodeFootprint
-	dw CottoneeFootprint
-	dw WhimsicottFootprint
+	dw ExeggcuteFootprint
+	dw ExeggutorFootprint
 	dw CuboneFootprint
 	dw MarowakFootprint
 	dw HitmonleeFootprint
@@ -319,6 +319,7 @@ FootprintPointers::
 	dw GolemFootprint
 	dw GrimerFootprint
 	dw MukFootprint
+	dw ExeggutorFootprint
 	dw MarowakFootprint
 
 	dw MeowthFootprint

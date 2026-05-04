@@ -334,6 +334,10 @@ Movement_step_bump:
 	ld [hl], STANDING
 	ret
 
+Movement_exeggutor_shake:
+	lb de, OBJECT_ACTION_SHAKE_EXEGGUTOR, 64
+	jr ShakeTree
+
 Movement_tree_shake:
 	lb de, OBJECT_ACTION_WEIRD_TREE, 24
 ShakeTree:
