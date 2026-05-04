@@ -1,14 +1,14 @@
 EvolutionMoves::
 	table_width 1
-	db NO_MOVE      ; BULBASAUR
-	db NO_MOVE      ; IVYSAUR
-	db PETAL_DANCE  ; VENUSAUR
-	db NO_MOVE      ; CHARMANDER
-	db NO_MOVE      ; CHARMELEON
-	db WING_ATTACK  ; CHARIZARD
-	db NO_MOVE      ; SQUIRTLE
-	db NO_MOVE      ; WARTORTLE
-	db FLASH_CANNON ; BLASTOISE
+	db NO_MOVE      ; CUPICO
+	db NO_MOVE      ; PRICKUPI
+	db OUTRAGE      ; CONIFURY
+	db NO_MOVE      ; FLIKLIT
+	db NO_MOVE      ; SIZZOO
+	db WING_ATTACK  ; PYROBOROS
+	db NO_MOVE      ; GLUTTLE
+	db NO_MOVE      ; RIVEBLOK
+	db STONE_EDGE   ; RIVASTION
 	db NO_MOVE      ; CATERPIE
 	db DEFENSE_CURL ; METAPOD
 	db GUST         ; BUTTERFREE
@@ -20,8 +20,8 @@ EvolutionMoves::
 	db NO_MOVE      ; PIDGEOT
 	db NO_MOVE      ; RATTATA
 	db SCARY_FACE   ; RATICATE
-	db NO_MOVE      ; SPEAROW
-	db NO_MOVE      ; FEAROW
+	db NO_MOVE      ; CRIBNAL
+	db NO_MOVE      ; CUARDHART
 	db NO_MOVE      ; EKANS
 	db CRUNCH       ; ARBOK
 	db NO_MOVE      ; PIKACHU
@@ -160,8 +160,8 @@ EvolutionMoves::
 	db NO_MOVE      ; TOTODILE
 	db NO_MOVE      ; CROCONAW
 	db NIGHT_SLASH  ; FERALIGATR
-	db NO_MOVE      ; SENTRET
-	db AGILITY      ; FURRET
+	db NO_MOVE      ; TIDIPOSS
+	db AGILITY      ; SCOURPOSS
 	db NO_MOVE      ; HOOTHOOT
 	db NO_MOVE      ; NOCTOWL
 	db NO_MOVE      ; LEDYBA
@@ -295,6 +295,10 @@ endc
 	db NO_MOVE      ; FARIGIRAF
 	db MEGAHORN     ; CLODSIRE
 	db SHADOW_CLAW  ; ANNIHILAPE
+	db NO_MOVE      ; SINISTEA
+	db NO_MOVE		; POLTEGEIST
+	db NO_MOVE		; DEBRITE
+	db NO_MOVE		; CASTORCH
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

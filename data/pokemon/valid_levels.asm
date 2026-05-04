@@ -1,15 +1,15 @@
 ValidPokemonLevels: ; for Wonder Trade
 	table_width 2
 	;  min, max
-	db   1,  15 ; Bulbasaur
-	db  16,  31 ; Ivysaur
-	db  32, 100 ; Venusaur
-	db   1,  15 ; Charmander
-	db  16,  35 ; Charmeleon
-	db  36, 100 ; Charizard
-	db   1,  15 ; Squirtle
-	db  16,  35 ; Wartortle
-	db  36, 100 ; Blastoise
+	db   1,  15 ; Cupico
+	db  16,  31 ; Prickupi
+	db  32, 100 ; Conifury
+	db   1,  15 ; Fliklit
+	db  16,  35 ; Sizzoo
+	db  36, 100 ; Pyroboros
+	db   1,  15 ; Gluttle
+	db  16,  35 ; Riveblok
+	db  36, 100 ; Rivastion
 	db   1,   6 ; Caterpie
 	db   7,   9 ; Metapod
 	db  10, 100 ; Butterfree
@@ -21,8 +21,8 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  36, 100 ; Pidgeot
 	db   1,  19 ; Rattata
 	db  20, 100 ; Raticate
-	db   1,  19 ; Spearow
-	db  20, 100 ; Fearow
+	db   1,  19 ; Cribnal
+	db  20, 100 ; Cuardhart
 	db   1,  21 ; Ekans
 	db  22, 100 ; Arbok
 	db   1,  19 ; Pikachu
@@ -161,8 +161,8 @@ ValidPokemonLevels: ; for Wonder Trade
 	db   1,  17 ; Totodile
 	db  18,  29 ; Croconaw
 	db  30, 100 ; Feraligatr
-	db   1,  14 ; Sentret
-	db  15, 100 ; Furret
+	db   1,  14 ; Tidiposs
+	db  15, 100 ; Scourposs
 	db   1,  19 ; Hoothoot
 	db  20, 100 ; Noctowl
 	db   1,  17 ; Ledyba
@@ -296,4 +296,8 @@ endc
 	db  32, 100 ; Farigiraf
 	db  20, 100 ; Clodsire
 	db  56, 100 ; Annihilape
+	db   1,  39 ; Sinistea
+	db	20, 100 ; Poltegeist
+	db   1,  39 ; Debrite
+	db	20, 100 ; Castorch
 	assert_table_length NUM_SPECIES

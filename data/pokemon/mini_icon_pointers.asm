@@ -4,15 +4,15 @@ ENDM
 
 MiniIconPointers:
 	table_width 7
-	mini_icon Bulbasaur
-	mini_icon Ivysaur
-	mini_icon Venusaur
-	mini_icon Charmander
-	mini_icon Charmeleon
-	mini_icon Charizard
-	mini_icon Squirtle
-	mini_icon Wartortle
-	mini_icon Blastoise
+	mini_icon Cupico
+	mini_icon Prickupi
+	mini_icon Conifury
+	mini_icon Fliklit
+	mini_icon Sizzoo
+	mini_icon Pyroboros
+	mini_icon Gluttle
+	mini_icon Riveblok
+	mini_icon Rivastion
 	mini_icon Caterpie
 	mini_icon Metapod
 	mini_icon Butterfree
@@ -24,8 +24,8 @@ MiniIconPointers:
 	mini_icon Pidgeot
 	mini_icon Rattata
 	mini_icon Raticate
-	mini_icon Spearow
-	mini_icon Fearow
+	mini_icon Cribnal
+	mini_icon Cuardhart
 	mini_icon Ekans
 	mini_icon Arbok
 	mini_icon Pikachu
@@ -164,8 +164,8 @@ MiniIconPointers:
 	mini_icon Totodile
 	mini_icon Croconaw
 	mini_icon Feraligatr
-	mini_icon Sentret
-	mini_icon Furret
+	mini_icon Tidiposs
+	mini_icon Scourposs
 	mini_icon Hoothoot
 	mini_icon Noctowl
 	mini_icon Ledyba
@@ -295,6 +295,10 @@ MiniIconPointers:
 	mini_icon Farigiraf
 	mini_icon Clodsire
 	mini_icon Annihilape
+	mini_icon Sinistea
+	mini_icon Poltegeist
+	mini_icon Debrite
+	mini_icon Castorch
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

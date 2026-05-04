@@ -1,14 +1,14 @@
 FootprintPointers::
 	table_width 2
-	dw BulbasaurFootprint
-	dw IvysaurFootprint
-	dw VenusaurFootprint
-	dw CharmanderFootprint
-	dw CharmeleonFootprint
-	dw CharizardFootprint
-	dw SquirtleFootprint
-	dw WartortleFootprint
-	dw BlastoiseFootprint
+	dw CupicoFootprint
+	dw PrickupiFootprint
+	dw ConifuryFootprint
+	dw FliklitFootprint
+	dw SizzooFootprint
+	dw PyroborosFootprint
+	dw GluttleFootprint
+	dw RiveblokFootprint
+	dw RivastionFootprint
 	dw CaterpieFootprint
 	dw MetapodFootprint
 	dw ButterfreeFootprint
@@ -20,8 +20,8 @@ FootprintPointers::
 	dw PidgeotFootprint
 	dw RattataFootprint
 	dw RaticateFootprint
-	dw SpearowFootprint
-	dw FearowFootprint
+	dw CribnalFootprint
+	dw CuardhartFootprint
 	dw EkansFootprint
 	dw ArbokFootprint
 	dw PikachuFootprint
@@ -97,8 +97,8 @@ FootprintPointers::
 	dw OnixFootprint
 	dw DrowzeeFootprint
 	dw HypnoFootprint
-	dw KrabbyFootprint
-	dw KinglerFootprint
+	dw CorphishFootprint
+	dw CrawdauntFootprint
 	dw VoltorbFootprint
 	dw ElectrodeFootprint
 	dw ExeggcuteFootprint
@@ -160,8 +160,8 @@ FootprintPointers::
 	dw TotodileFootprint
 	dw CroconawFootprint
 	dw FeraligatrFootprint
-	dw SentretFootprint
-	dw FurretFootprint
+	dw TidipossFootprint
+	dw ScourpossFootprint
 	dw HoothootFootprint
 	dw NoctowlFootprint
 	dw LedybaFootprint
@@ -291,6 +291,10 @@ FootprintPointers::
 	dw FarigirafFootprint
 	dw ClodsireFootprint
 	dw AnnihilapeFootprint
+	dw SinisteaFootprint
+	dw PoltegeistFootprint
+	dw DebriteFootprint
+	dw CastorchFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

@@ -2,6 +2,15 @@
 
 NewPokedexOrder:
 	table_width 2
+	dp CUPICO
+	dp PRICKUPI
+	dp CONIFURY
+	dp FLIKLIT
+	dp SIZZOO
+	dp PYROBOROS
+	dp GLUTTLE
+	dp RIVEBLOK
+	dp RIVASTION
 	dp CHIKORITA
 	dp BAYLEEF
 	dp MEGANIUM
@@ -14,14 +23,14 @@ NewPokedexOrder:
 	dp PIDGEY
 	dp PIDGEOTTO
 	dp PIDGEOT
-	dp SPEAROW
-	dp FEAROW
+	dp CRIBNAL
+	dp CUARDHART
 	dp HOOTHOOT
 	dp NOCTOWL
 	dp RATTATA
 	dp RATICATE
-	dp SENTRET
-	dp FURRET
+	dp TIDIPOSS
+	dp SCOURPOSS
 	dp PICHU
 	dp PIKACHU
 	dp RAICHU
@@ -265,15 +274,6 @@ NewPokedexOrder:
 	dp AERODACTYL
 	dp MUNCHLAX
 	dp SNORLAX
-	dp BULBASAUR
-	dp IVYSAUR
-	dp VENUSAUR
-	dp CHARMANDER
-	dp CHARMELEON
-	dp CHARIZARD
-	dp SQUIRTLE
-	dp WARTORTLE
-	dp BLASTOISE
 	dp ARTICUNO
 	dp ZAPDOS
 	dp MOLTRES
@@ -291,4 +291,8 @@ NewPokedexOrder:
 	dp MEWTWO
 	dp MEW
 	dp CELEBI
+	dp SINISTEA
+	dp POLTEGEIST
+	dp DEBRITE
+	dp CASTORCH
 	assert_table_length NUM_POKEMON

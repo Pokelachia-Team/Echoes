@@ -1,50 +1,50 @@
 ; Unique icons by Blue Emerald, Soloo993, Chamber, Lake, Neslug, Pikachu253, and Ryta
 ; http://www.pokecommunity.com/showthread.php?t=338470
 
-SECTION "Bulbasaur Mini Icon", ROMX
-BulbasaurMini::     INCBIN "gfx/minis/bulbasaur.2bpp.lzp"
-BulbasaurMiniMask:: INCBIN "gfx/minis/bulbasaur_mask.1bpp.lzp"
-BulbasaurIcon::     INCBIN "gfx/icons/bulbasaur.2bpp.lzp"
+SECTION "Cupico Mini Icon", ROMX
+CupicoMini::     INCBIN "gfx/minis/cupico.2bpp.lzp"
+CupicoMiniMask:: INCBIN "gfx/minis/cupico_mask.1bpp.lzp"
+CupicoIcon::     INCBIN "gfx/icons/cupico.2bpp.lzp"
 
-SECTION "Ivysaur Mini Icon", ROMX
-IvysaurMini::     INCBIN "gfx/minis/ivysaur.2bpp.lzp"
-IvysaurMiniMask:: INCBIN "gfx/minis/ivysaur_mask.1bpp.lzp"
-IvysaurIcon::     INCBIN "gfx/icons/ivysaur.2bpp.lzp"
+SECTION "Prickupi Mini Icon", ROMX
+PrickupiMini::     INCBIN "gfx/minis/prickupi.2bpp.lzp"
+PrickupiMiniMask:: INCBIN "gfx/minis/prickupi_mask.1bpp.lzp"
+PrickupiIcon::     INCBIN "gfx/icons/prickupi.2bpp.lzp"
 
-SECTION "Venusaur Mini Icon", ROMX
-VenusaurMini::     INCBIN "gfx/minis/venusaur.2bpp.lzp"
-VenusaurMiniMask:: INCBIN "gfx/minis/venusaur_mask.1bpp.lzp"
-VenusaurIcon::     INCBIN "gfx/icons/venusaur.2bpp.lzp"
+SECTION "Conifury Mini Icon", ROMX
+ConifuryMini::     INCBIN "gfx/minis/conifury.2bpp.lzp"
+ConifuryMiniMask:: INCBIN "gfx/minis/conifury_mask.1bpp.lzp"
+ConifuryIcon::     INCBIN "gfx/icons/conifury.2bpp.lzp"
 
-SECTION "Charmander Mini Icon", ROMX
-CharmanderMini::     INCBIN "gfx/minis/charmander.2bpp.lzp"
-CharmanderMiniMask:: INCBIN "gfx/minis/charmander_mask.1bpp.lzp"
-CharmanderIcon::     INCBIN "gfx/icons/charmander.2bpp.lzp"
+SECTION "Fliklit Mini Icon", ROMX
+FliklitMini::     INCBIN "gfx/minis/fliklit.2bpp.lzp"
+FliklitMiniMask:: INCBIN "gfx/minis/fliklit_mask.1bpp.lzp"
+FliklitIcon::     INCBIN "gfx/icons/fliklit.2bpp.lzp"
 
-SECTION "Charmeleon Mini Icon", ROMX
-CharmeleonMini::     INCBIN "gfx/minis/charmeleon.2bpp.lzp"
-CharmeleonMiniMask:: INCBIN "gfx/minis/charmeleon_mask.1bpp.lzp"
-CharmeleonIcon::     INCBIN "gfx/icons/charmeleon.2bpp.lzp"
+SECTION "Sizzoo Mini Icon", ROMX
+SizzooMini::     INCBIN "gfx/minis/sizzoo.2bpp.lzp"
+SizzooMiniMask:: INCBIN "gfx/minis/sizzoo_mask.1bpp.lzp"
+SizzooIcon::     INCBIN "gfx/icons/sizzoo.2bpp.lzp"
 
-SECTION "Charizard Mini Icon", ROMX
-CharizardMini::     INCBIN "gfx/minis/charizard.2bpp.lzp"
-CharizardMiniMask:: INCBIN "gfx/minis/charizard_mask.1bpp.lzp"
-CharizardIcon::     INCBIN "gfx/icons/charizard.2bpp.lzp"
+SECTION "Pyroboros Mini Icon", ROMX
+PyroborosMini::     INCBIN "gfx/minis/pyroboros.2bpp.lzp"
+PyroborosMiniMask:: INCBIN "gfx/minis/pyroboros_mask.1bpp.lzp"
+PyroborosIcon::     INCBIN "gfx/icons/pyroboros.2bpp.lzp"
 
-SECTION "Squirtle Mini Icon", ROMX
-SquirtleMini::     INCBIN "gfx/minis/squirtle.2bpp.lzp"
-SquirtleMiniMask:: INCBIN "gfx/minis/squirtle_mask.1bpp.lzp"
-SquirtleIcon::     INCBIN "gfx/icons/squirtle.2bpp.lzp"
+SECTION "Gluttle Mini Icon", ROMX
+GluttleMini::     INCBIN "gfx/minis/gluttle.2bpp.lzp"
+GluttleMiniMask:: INCBIN "gfx/minis/gluttle_mask.1bpp.lzp"
+GluttleIcon::     INCBIN "gfx/icons/gluttle.2bpp.lzp"
 
-SECTION "Wartortle Mini Icon", ROMX
-WartortleMini::     INCBIN "gfx/minis/wartortle.2bpp.lzp"
-WartortleMiniMask:: INCBIN "gfx/minis/wartortle_mask.1bpp.lzp"
-WartortleIcon::     INCBIN "gfx/icons/wartortle.2bpp.lzp"
+SECTION "Riveblok Mini Icon", ROMX
+RiveblokMini::     INCBIN "gfx/minis/riveblok.2bpp.lzp"
+RiveblokMiniMask:: INCBIN "gfx/minis/riveblok_mask.1bpp.lzp"
+RiveblokIcon::     INCBIN "gfx/icons/riveblok.2bpp.lzp"
 
-SECTION "Blastoise Mini Icon", ROMX
-BlastoiseMini::     INCBIN "gfx/minis/blastoise.2bpp.lzp"
-BlastoiseMiniMask:: INCBIN "gfx/minis/blastoise_mask.1bpp.lzp"
-BlastoiseIcon::     INCBIN "gfx/icons/blastoise.2bpp.lzp"
+SECTION "Rivastion Mini Icon", ROMX
+RivastionMini::     INCBIN "gfx/minis/rivastion.2bpp.lzp"
+RivastionMiniMask:: INCBIN "gfx/minis/rivastion_mask.1bpp.lzp"
+RivastionIcon::     INCBIN "gfx/icons/rivastion.2bpp.lzp"
 
 SECTION "Caterpie Mini Icon", ROMX
 CaterpieMini::     INCBIN "gfx/minis/caterpie.2bpp.lzp"
@@ -101,15 +101,15 @@ RaticateMini::     INCBIN "gfx/minis/raticate.2bpp.lzp"
 RaticateMiniMask:: INCBIN "gfx/minis/raticate_mask.1bpp.lzp"
 RaticateIcon::     INCBIN "gfx/icons/raticate.2bpp.lzp"
 
-SECTION "Spearow Mini Icon", ROMX
-SpearowMini::     INCBIN "gfx/minis/spearow.2bpp.lzp"
-SpearowMiniMask:: INCBIN "gfx/minis/spearow_mask.1bpp.lzp"
-SpearowIcon::     INCBIN "gfx/icons/spearow.2bpp.lzp"
+SECTION "Cribnal Mini Icon", ROMX
+CribnalMini::     INCBIN "gfx/minis/cribnal.2bpp.lzp"
+CribnalMiniMask:: INCBIN "gfx/minis/cribnal_mask.1bpp.lzp"
+CribnalIcon::     INCBIN "gfx/icons/cribnal.2bpp.lzp"
 
-SECTION "Fearow Mini Icon", ROMX
-FearowMini::     INCBIN "gfx/minis/fearow.2bpp.lzp"
-FearowMiniMask:: INCBIN "gfx/minis/fearow_mask.1bpp.lzp"
-FearowIcon::     INCBIN "gfx/icons/fearow.2bpp.lzp"
+SECTION "Cuardhart Mini Icon", ROMX
+CuardhartMini::     INCBIN "gfx/minis/cuardhart.2bpp.lzp"
+CuardhartMiniMask:: INCBIN "gfx/minis/cuardhart_mask.1bpp.lzp"
+CuardhartIcon::     INCBIN "gfx/icons/cuardhart.2bpp.lzp"
 
 SECTION "Ekans Mini Icon", ROMX
 EkansMini::     INCBIN "gfx/minis/ekans.2bpp.lzp"
@@ -807,15 +807,15 @@ FeraligatrMini::     INCBIN "gfx/minis/feraligatr.2bpp.lzp"
 FeraligatrMiniMask:: INCBIN "gfx/minis/feraligatr_mask.1bpp.lzp"
 FeraligatrIcon::     INCBIN "gfx/icons/feraligatr.2bpp.lzp"
 
-SECTION "Sentret Mini Icon", ROMX
-SentretMini::     INCBIN "gfx/minis/sentret.2bpp.lzp"
-SentretMiniMask:: INCBIN "gfx/minis/sentret_mask.1bpp.lzp"
-SentretIcon::     INCBIN "gfx/icons/sentret.2bpp.lzp"
+SECTION "Tidiposs Mini Icon", ROMX
+TidipossMini::     INCBIN "gfx/minis/tidiposs.2bpp.lzp"
+TidipossMiniMask:: INCBIN "gfx/minis/tidiposs_mask.1bpp.lzp"
+TidipossIcon::     INCBIN "gfx/icons/tidiposs.2bpp.lzp"
 
-SECTION "Furret Mini Icon", ROMX
-FurretMini::     INCBIN "gfx/minis/furret.2bpp.lzp"
-FurretMiniMask:: INCBIN "gfx/minis/furret_mask.1bpp.lzp"
-FurretIcon::     INCBIN "gfx/icons/furret.2bpp.lzp"
+SECTION "Scourposs Mini Icon", ROMX
+ScourpossMini::     INCBIN "gfx/minis/scourposs.2bpp.lzp"
+ScourpossMiniMask:: INCBIN "gfx/minis/scourposs_mask.1bpp.lzp"
+ScourpossIcon::     INCBIN "gfx/icons/scourposs.2bpp.lzp"
 
 SECTION "Hoothoot Mini Icon", ROMX
 HoothootMini::     INCBIN "gfx/minis/hoothoot.2bpp.lzp"
@@ -1816,3 +1816,23 @@ SECTION "UrsalunaBloodmoon Mini Icon", ROMX
 UrsalunaBloodmoonMini::     INCBIN "gfx/minis/ursaluna_bloodmoon.2bpp.lzp"
 UrsalunaBloodmoonMiniMask:: INCBIN "gfx/minis/ursaluna_bloodmoon_mask.1bpp.lzp"
 UrsalunaBloodmoonIcon::     INCBIN "gfx/icons/ursaluna_bloodmoon.2bpp.lzp"
+
+SECTION "Sinistea Mini Icon", ROMX
+SinisteaMini::       INCBIN "gfx/minis/sinistea.2bpp.lzp"
+SinisteaMiniMask::   INCBIN "gfx/minis/sinistea_mask.1bpp.lzp"
+SinisteaIcon::       INCBIN "gfx/icons/sinistea.2bpp.lzp"
+
+SECTION "Poltegeist Mini Icon", ROMX
+PoltegeistMini::       INCBIN "gfx/minis/poltegeist.2bpp.lzp"
+PoltegeistMiniMask::   INCBIN "gfx/minis/poltegeist_mask.1bpp.lzp"
+PoltegeistIcon::       INCBIN "gfx/icons/poltegeist.2bpp.lzp"
+
+SECTION "Debrite Mini Icon", ROMX
+DebriteMini::       INCBIN "gfx/minis/debrite.2bpp.lzp"
+DebriteMiniMask::   INCBIN "gfx/minis/debrite_mask.1bpp.lzp"
+DebriteIcon::       INCBIN "gfx/icons/debrite.2bpp.lzp"
+
+SECTION "Castorch Mini Icon", ROMX
+CastorchMini::      INCBIN "gfx/minis/castorch.2bpp.lzp"
+CastorchMiniMask::  INCBIN "gfx/minis/castorch_mask.1bpp.lzp"
+CastorchIcon::      INCBIN "gfx/icons/castorch.2bpp.lzp"

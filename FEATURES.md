@@ -183,7 +183,7 @@ For the authoritative, per-species rules and the complete list of included Poké
 ### Pokémon
 
 * Many base stat changes, mostly based on [Drayano's Sacred Gold/Storm Silver](https://gbatemp.net/threads/pok%C3%A9mon-sacred-gold-storm-silver.327567/).
-* Blastoise is Water/Steel.
+* Rivastion is Water/Steel.
 * Butterfree is Bug/Psychic.
 * Meowth and Persian are Dark.
 * Grimer and Muk are Poison/Dark.

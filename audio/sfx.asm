@@ -4342,7 +4342,7 @@ Sfx_EggHatch:
 	sound_ret
 
 
-Sfx_GsIntroCharizardFireball:
+Sfx_GsIntroPyroborosFireball:
 	channel_count 1
 	channel 8, .Ch8
 

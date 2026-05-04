@@ -4,15 +4,15 @@
 
 EvosAttacksPointers::
 	table_width 2
-	dw BulbasaurEvosAttacks
-	dw IvysaurEvosAttacks
-	dw VenusaurEvosAttacks
-	dw CharmanderEvosAttacks
-	dw CharmeleonEvosAttacks
-	dw CharizardEvosAttacks
-	dw SquirtleEvosAttacks
-	dw WartortleEvosAttacks
-	dw BlastoiseEvosAttacks
+	dw CupicoEvosAttacks
+	dw PrickupiEvosAttacks
+	dw ConifuryEvosAttacks
+	dw FliklitEvosAttacks
+	dw SizzooEvosAttacks
+	dw PyroborosEvosAttacks
+	dw GluttleEvosAttacks
+	dw RiveblokEvosAttacks
+	dw RivastionEvosAttacks
 	dw CaterpieEvosAttacks
 	dw MetapodEvosAttacks
 	dw ButterfreeEvosAttacks
@@ -24,8 +24,8 @@ EvosAttacksPointers::
 	dw PidgeotEvosAttacks
 	dw RattataPlainEvosAttacks
 	dw RaticatePlainEvosAttacks
-	dw SpearowEvosAttacks
-	dw FearowEvosAttacks
+	dw CribnalEvosAttacks
+	dw CuardhartEvosAttacks
 	dw EkansEvosAttacks
 	dw ArbokEvosAttacks
 	dw PikachuEvosAttacks
@@ -164,8 +164,8 @@ EvosAttacksPointers::
 	dw TotodileEvosAttacks
 	dw CroconawEvosAttacks
 	dw FeraligatrEvosAttacks
-	dw SentretEvosAttacks
-	dw FurretEvosAttacks
+	dw TidipossEvosAttacks
+	dw ScourpossEvosAttacks
 	dw HoothootEvosAttacks
 	dw NoctowlEvosAttacks
 	dw LedybaEvosAttacks
@@ -295,6 +295,10 @@ EvosAttacksPointers::
 	dw FarigirafEvosAttacks
 	dw ClodsireEvosAttacks
 	dw AnnihilapeEvosAttacks
+	dw SinisteaEvosAttacks
+	dw PoltegeistEvosAttacks
+	dw DebriteEvosAttacks
+	dw CastorchEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks

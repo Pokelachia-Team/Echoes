@@ -7,15 +7,15 @@ ENDM
 PokemonBodyData:
 ; entries correspond to constants/pokemon_constants.asm
 	table_width BODY_DATA_SIZE
-	body_data   7,   69, QUADRUPED,    GREEN  ; BULBASAUR
-	body_data  10,  130, QUADRUPED,    GREEN  ; IVYSAUR
-	body_data  20, 1000, QUADRUPED,    GREEN  ; VENUSAUR
-	body_data   6,   85, BIPEDAL_TAIL, RED    ; CHARMANDER
-	body_data  11,  190, BIPEDAL_TAIL, RED    ; CHARMELEON
-	body_data  17,  905, BIPEDAL_TAIL, RED    ; CHARIZARD
-	body_data   5,   90, BIPEDAL_TAIL, BLUE   ; SQUIRTLE
-	body_data  10,  225, BIPEDAL_TAIL, BLUE   ; WARTORTLE
-	body_data  16,  855, BIPEDAL_TAIL, BLUE   ; BLASTOISE
+	body_data   7,   69, QUADRUPED,    GREEN  ; CUPICO
+	body_data  10,  130, QUADRUPED,    GREEN  ; PRICKUPI
+	body_data  20, 1000, QUADRUPED,    GREEN  ; CONIFURY
+	body_data   6,   85, INSECTOID,    RED    ; FLIKLIT
+	body_data  11,  190, WINGS,        RED    ; SIZZOO
+	body_data  17,  905, SERPENTINE,   RED    ; PYROBOROS
+	body_data   5,   90, BIPEDAL_TAIL, BLUE   ; GLUTTLE
+	body_data  10,  225, BIPEDAL_TAIL, BLUE   ; RIVEBLOK
+	body_data  16,  855, BIPEDAL_TAIL, BLUE   ; RIVASTION
 	body_data   3,   29, INSECTOID,    GREEN  ; CATERPIE
 	body_data   7,   99, SERPENTINE,   GREEN  ; METAPOD
 	body_data  11,  320, MULTIWINGS,   WHITE  ; BUTTERFREE
@@ -27,8 +27,8 @@ PokemonBodyData:
 	body_data  15,  395, WINGS,        BROWN  ; PIDGEOT
 	body_data   3,   35, QUADRUPED,    PURPLE ; RATTATA
 	body_data   7,  185, QUADRUPED,    BROWN  ; RATICATE
-	body_data   3,   20, WINGS,        BROWN  ; SPEAROW
-	body_data  12,  380, WINGS,        BROWN  ; FEAROW
+	body_data   3,   20, WINGS,        BROWN  ; CRIBNAL
+	body_data  12,  380, WINGS,        BROWN  ; CUARDHART
 	body_data  20,   69, SERPENTINE,   PURPLE ; EKANS
 	body_data  35,  650, SERPENTINE,   PURPLE ; ARBOK
 	body_data   4,   60, QUADRUPED,    YELLOW ; PIKACHU
@@ -167,8 +167,8 @@ PokemonBodyData:
 	body_data   6,   95, BIPEDAL_TAIL, BLUE   ; TOTODILE
 	body_data  11,  250, BIPEDAL_TAIL, BLUE   ; CROCONAW
 	body_data  23,  888, BIPEDAL_TAIL, BLUE   ; FERALIGATR
-	body_data   8,   60, QUADRUPED,    BROWN  ; SENTRET
-	body_data  18,  325, QUADRUPED,    BROWN  ; FURRET
+	body_data   8,   60, QUADRUPED,    BROWN  ; TIDIPOSS
+	body_data  18,  325, QUADRUPED,    BROWN  ; SCOURPOSS
 	body_data   7,  212, WINGS,        BROWN  ; HOOTHOOT
 	body_data  16,  408, WINGS,        BROWN  ; NOCTOWL
 	body_data  10,  108, WINGS,        RED    ; LEDYBA
@@ -298,6 +298,10 @@ PokemonBodyData:
 	body_data  32, 1600, QUADRUPED,    YELLOW ; FARIGIRAF
 	body_data  18, 2230, QUADRUPED,    BROWN  ; CLODSIRE
 	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; ANNIHILAPE
+	body_data   3,   22, HEAD,         BROWN  ; SINISTEA
+	body_data   1,   11, HEAD, 		   BROWN  ; POLTEGEIST
+	body_data	3,	 10, HEAD,		   YELLOW ; DEBRITE
+	body_data  12, 1200, HEAD_ARMS,	   YELLOW ; CASTORCH
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

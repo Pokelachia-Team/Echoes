@@ -1,14 +1,14 @@
 EggSpeciesMovesPointers::
 	table_width 2
-	dw BulbasaurEggSpeciesMoves         ; Bulbasaur
-	dw BulbasaurEggSpeciesMoves         ; Ivysaur
-	dw BulbasaurEggSpeciesMoves         ; Venusaur
-	dw CharmanderEggSpeciesMoves        ; Charmander
-	dw CharmanderEggSpeciesMoves        ; Charmeleon
-	dw CharmanderEggSpeciesMoves        ; Charizard
-	dw SquirtleEggSpeciesMoves          ; Squirtle
-	dw SquirtleEggSpeciesMoves          ; Wartortle
-	dw SquirtleEggSpeciesMoves          ; Blastoise
+	dw CupicoEggSpeciesMoves            ; Cupico
+	dw CupicoEggSpeciesMoves            ; Prickupi
+	dw CupicoEggSpeciesMoves            ; Conifury
+	dw FliklitEggSpeciesMoves           ; Fliklit
+	dw FliklitEggSpeciesMoves           ; Sizzoo
+	dw FliklitEggSpeciesMoves           ; Pyroboros
+	dw GluttleEggSpeciesMoves           ; Gluttle
+	dw GluttleEggSpeciesMoves           ; Riveblok
+	dw GluttleEggSpeciesMoves           ; Rivastion
 	dw CaterpieEggSpeciesMoves          ; Caterpie
 	dw CaterpieEggSpeciesMoves          ; Metapod
 	dw CaterpieEggSpeciesMoves          ; Butterfree
@@ -20,8 +20,8 @@ EggSpeciesMovesPointers::
 	dw PidgeyEggSpeciesMoves            ; Pidgeot
 	dw RattataPlainEggSpeciesMoves      ; Rattata
 	dw RattataPlainEggSpeciesMoves      ; Raticate
-	dw SpearowEggSpeciesMoves           ; Spearow
-	dw SpearowEggSpeciesMoves           ; Fearow
+	dw CribnalEggSpeciesMoves           ; Cribnal
+	dw CribnalEggSpeciesMoves           ; Cuardhart
 	dw EkansEggSpeciesMoves             ; Ekans
 	dw EkansEggSpeciesMoves             ; Arbok
 	dw PichuEggSpeciesMoves             ; Pikachu
@@ -160,8 +160,8 @@ EggSpeciesMovesPointers::
 	dw TotodileEggSpeciesMoves          ; Totodile
 	dw TotodileEggSpeciesMoves          ; Croconaw
 	dw TotodileEggSpeciesMoves          ; Feraligatr
-	dw SentretEggSpeciesMoves           ; Sentret
-	dw SentretEggSpeciesMoves           ; Furret
+	dw TidipossEggSpeciesMoves           ; Tidiposs
+	dw TidipossEggSpeciesMoves           ; Scourposs
 	dw HoothootEggSpeciesMoves          ; Hoothoot
 	dw HoothootEggSpeciesMoves          ; Noctowl
 	dw LedybaEggSpeciesMoves            ; Ledyba
@@ -291,6 +291,10 @@ EggSpeciesMovesPointers::
 	dw GirafarigEggSpeciesMoves         ; Farigiraf
 	dw WooperPaldeanEggSpeciesMoves     ; Clodsire
 	dw MankeyEggSpeciesMoves            ; Annihilape
+	dw SinisteaEggSpeciesMoves          ; Sinistea
+	dw PoltegeistEggSpeciesMoves		; Poltegeist
+	dw DebriteEggSpeciesMoves			; Debrite
+	dw CastorchEggSpeciesMoves			; Castorch
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)
