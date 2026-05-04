@@ -102,14 +102,14 @@ RaticateMiniMask:: INCBIN "gfx/minis/raticate_mask.1bpp.lzp"
 RaticateIcon::     INCBIN "gfx/icons/raticate.2bpp.lzp"
 
 SECTION "Cribnal Mini Icon", ROMX
-CribnalMini::     INCBIN "gfx/minis/cribnal.2bpp.lz"
-CribnalMiniMask:: INCBIN "gfx/minis/cribnal_mask.1bpp.lz"
-CribnalIcon::     INCBIN "gfx/icons/cribnal.2bpp.lz"
+CribnalMini::     INCBIN "gfx/minis/cribnal.2bpp.lzp"
+CribnalMiniMask:: INCBIN "gfx/minis/cribnal_mask.1bpp.lzp"
+CribnalIcon::     INCBIN "gfx/icons/cribnal.2bpp.lzp"
 
 SECTION "Cuardhart Mini Icon", ROMX
-CuardhartMini::     INCBIN "gfx/minis/cuardhart.2bpp.lz"
-CuardhartMiniMask:: INCBIN "gfx/minis/cuardhart_mask.1bpp.lz"
-CuardhartIcon::     INCBIN "gfx/icons/cuardhart.2bpp.lz"
+CuardhartMini::     INCBIN "gfx/minis/cuardhart.2bpp.lzp"
+CuardhartMiniMask:: INCBIN "gfx/minis/cuardhart_mask.1bpp.lzp"
+CuardhartIcon::     INCBIN "gfx/icons/cuardhart.2bpp.lzp"
 
 SECTION "Ekans Mini Icon", ROMX
 EkansMini::     INCBIN "gfx/minis/ekans.2bpp.lzp"
@@ -808,14 +808,14 @@ FeraligatrMiniMask:: INCBIN "gfx/minis/feraligatr_mask.1bpp.lzp"
 FeraligatrIcon::     INCBIN "gfx/icons/feraligatr.2bpp.lzp"
 
 SECTION "Tidiposs Mini Icon", ROMX
-TidipossMini::     INCBIN "gfx/minis/tidiposs.2bpp.lz"
-TidipossMiniMask:: INCBIN "gfx/minis/tidiposs_mask.1bpp.lz"
-TidipossIcon::     INCBIN "gfx/icons/tidiposs.2bpp.lz"
+TidipossMini::     INCBIN "gfx/minis/tidiposs.2bpp.lzp"
+TidipossMiniMask:: INCBIN "gfx/minis/tidiposs_mask.1bpp.lzp"
+TidipossIcon::     INCBIN "gfx/icons/tidiposs.2bpp.lzp"
 
 SECTION "Scourposs Mini Icon", ROMX
-ScourpossMini::     INCBIN "gfx/minis/scourposs.2bpp.lz"
-ScourpossMiniMask:: INCBIN "gfx/minis/scourposs_mask.1bpp.lz"
-ScourpossIcon::     INCBIN "gfx/icons/scourposs.2bpp.lz"
+ScourpossMini::     INCBIN "gfx/minis/scourposs.2bpp.lzp"
+ScourpossMiniMask:: INCBIN "gfx/minis/scourposs_mask.1bpp.lzp"
+ScourpossIcon::     INCBIN "gfx/icons/scourposs.2bpp.lzp"
 
 SECTION "Hoothoot Mini Icon", ROMX
 HoothootMini::     INCBIN "gfx/minis/hoothoot.2bpp.lzp"

@@ -8979,7 +8979,7 @@ LarryGroup:
 		tr_extra INTIMIDATE
 		tr_evs 252 Atk, 4 Def, 252 Spe
 		tr_moves BODY_SLAM, EARTHQUAKE, STONE_EDGE, ZEN_HEADBUTT
-	tr_mon 55, FEAROW @ SCOPE_LENS, MALE
+	tr_mon 55, CUARDHART @ SCOPE_LENS, MALE
 		tr_extra SNIPER
 		tr_evs 4 HP, 252 Atk, 252 Spe
 		tr_moves DRILL_PECK, FACADE, U_TURN, THIEF
@@ -9021,7 +9021,7 @@ endc
 		tr_extra INTIMIDATE, ATK_UP_SATK_DOWN
 		tr_evs 252 Atk, 4 Def, 252 Spe
 		tr_moves DOUBLE_EDGE, EARTHQUAKE, STONE_EDGE, ZEN_HEADBUTT
-	tr_mon 73, FEAROW @ SCOPE_LENS, MALE
+	tr_mon 73, CUARDHART @ SCOPE_LENS, MALE
 		tr_extra SNIPER, ATK_UP_SATK_DOWN
 		tr_evs 4 HP, 252 Atk, 252 Spe
 		tr_moves DRILL_PECK, FACADE, U_TURN, THIEF

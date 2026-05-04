@@ -246,7 +246,7 @@ AlphabeticalPokedexOrder:
 	dp SNORLAX
 	dp SNUBBULL
 	dp CRIBNAL
-	dp JOLTIK
+	dp SPINARAK
 	dp STANTLER
 	dp STARMIE
 	dp STARYU
