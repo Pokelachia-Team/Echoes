@@ -125,6 +125,6 @@ TreeMonSet_NoisyForest:
 
 TreeMonSet_Rock:
 	tree_mon 70, CORPHISH,     15
-	tree_mon 25, GEODUDE,    15
+	tree_mon 25, ROGGENROLA,    15
 	tree_mon  5, DOOZEE,    15
 	db -1

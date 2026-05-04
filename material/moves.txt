@@ -32,7 +32,7 @@ Staryu: Quick Attack
 Staryu: Psybeam
 
 Misdreavus: Screech
-Whirlpool: Sandshrew/Sandslash, Geodude/Graveler/Golem, Pineco/Forretress, Donphan, Hitmontop (Whirlpool users)
+Whirlpool: Sandshrew/Sandslash, Roggenrola/Boldore/Gigalith, Pineco/Forretress, Donphan, Hitmontop (Whirlpool users)
 
 Eevee: Focus Energy (RBY learnset), Charm (purified)
 Girafarig: Mirror Coat (Dream World), Sucker Punch (HGSS tutor)
@@ -76,7 +76,7 @@ S/V:
 Mewtwo: Power Gem
 
 Egg:
-Geodude/Graveler/Golem: Rock Slide
+Roggenrola/Boldore/Gigalith: Rock Slide
 Rhyhorn/Rhydon/Rhyperior: Crunch
 
 RBY TM:

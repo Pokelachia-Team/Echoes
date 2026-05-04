@@ -356,9 +356,9 @@ MeowthGalarianAnimationExtra: INCLUDE "gfx/pokemon/meowth_galarian/anim_idle.asm
 PersianPlainAnimationExtra:  INCLUDE "gfx/pokemon/persian_plain/anim_idle.asm"
 PersianAlolanAnimationExtra: INCLUDE "gfx/pokemon/persian_alolan/anim_idle.asm"
 
-GeodudePlainAnimationExtra:  INCLUDE "gfx/pokemon/geodude_plain/anim_idle.asm"
-GravelerPlainAnimationExtra:  INCLUDE "gfx/pokemon/graveler_plain/anim_idle.asm"
-GolemPlainAnimationExtra:  INCLUDE "gfx/pokemon/golem_plain/anim_idle.asm"
+RoggenrolaAnimationExtra:  INCLUDE "gfx/pokemon/roggenrola/anim_idle.asm"
+BoldoreAnimationExtra:  INCLUDE "gfx/pokemon/boldore/anim_idle.asm"
+GigalithAnimationExtra:  INCLUDE "gfx/pokemon/gigalith/anim_idle.asm"
 
 GrimerPlainAnimationExtra:  INCLUDE "gfx/pokemon/grimer_plain/anim_idle.asm"
 GrimerAlolanAnimationExtra: INCLUDE "gfx/pokemon/grimer_alolan/anim_idle.asm"

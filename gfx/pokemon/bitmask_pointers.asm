@@ -73,9 +73,9 @@ BitmasksPointers:
 	dw VictreebelBitmasks
 	dw TentacoolBitmasks
 	dw TentacruelBitmasks
-	dw GeodudePlainBitmasks
-	dw GravelerPlainBitmasks
-	dw GolemPlainBitmasks
+	dw RoggenrolaBitmasks
+	dw BoldoreBitmasks
+	dw GigalithBitmasks
 	dw PonytaPlainBitmasks
 	dw RapidashPlainBitmasks
 	dw SlowpokePlainBitmasks

@@ -73,9 +73,9 @@ EggSpeciesMovesPointers::
 	dw BellsproutEggSpeciesMoves        ; Victreebel
 	dw TentacoolEggSpeciesMoves         ; Tentacool
 	dw TentacoolEggSpeciesMoves         ; Tentacruel
-	dw GeodudePlainEggSpeciesMoves      ; Geodude
-	dw GeodudePlainEggSpeciesMoves      ; Graveler
-	dw GeodudePlainEggSpeciesMoves      ; Golem
+	dw RoggenrolaEggSpeciesMoves      ; Roggenrola
+	dw RoggenrolaEggSpeciesMoves      ; Boldore
+	dw RoggenrolaEggSpeciesMoves      ; Gigalith
 	dw PonytaPlainEggSpeciesMoves       ; Ponyta
 	dw PonytaPlainEggSpeciesMoves       ; Rapidash
 	dw SlowpokePlainEggSpeciesMoves     ; Slowpoke

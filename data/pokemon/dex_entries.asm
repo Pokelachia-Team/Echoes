@@ -655,7 +655,7 @@ TimburrPokedexEntry::
 	next "lifting rocks in"
 	next "the mountains. It"
 	page "can even pick up a"
-	next "Graveler with"
+	next "Boldore with"
 	next "ease.@"
 
 SECTION "GurdurrPokedexEntry", ROMX
@@ -728,8 +728,8 @@ TentacruelPokedexEntry::
 	next "to entangle its"
 	next "prey.@"
 
-SECTION "GeodudePlainPokedexEntry", ROMX
-GeodudePlainPokedexEntry::
+SECTION "RoggenrolaPokedexEntry", ROMX
+RoggenrolaPokedexEntry::
 	db "Rock@"
 	db   "Proud of their"
 	next "sturdy bodies,"
@@ -738,8 +738,8 @@ GeodudePlainPokedexEntry::
 	next "contest to prove"
 	next "whose is harder.@"
 
-SECTION "GravelerPlainPokedexEntry", ROMX
-GravelerPlainPokedexEntry::
+SECTION "BoldorePokedexEntry", ROMX
+BoldorePokedexEntry::
 	db "Rock@"
 	db   "It travels by rol-"
 	next "ling on mountain"
@@ -748,8 +748,8 @@ GravelerPlainPokedexEntry::
 	next "stops by running"
 	next "into huge rocks.@"
 
-SECTION "GolemPlainPokedexEntry", ROMX
-GolemPlainPokedexEntry::
+SECTION "GigalithPokedexEntry", ROMX
+GigalithPokedexEntry::
 	db "Megaton@"
 	db   "Its rock-like body"
 	next "is so durable,"

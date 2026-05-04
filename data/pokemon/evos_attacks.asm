@@ -1471,8 +1471,8 @@ evos_attacks Cupico
 	learnset 48, SLUDGE_BOMB ; Sludge Wave → TM move
 	learnset 52, HYDRO_PUMP
 
-	evos_attacks GeodudePlain
-	evo_data EVOLVE_LEVEL, 25, GRAVELER, PLAIN_FORM
+	evos_attacks Roggenrola
+	evo_data EVOLVE_LEVEL, 25, BOLDORE, PLAIN_FORM
 	learnset 1, TACKLE
 	learnset 1, DEFENSE_CURL
 	learnset 4, MUD_SLAP ; Mud Sport → TM move
@@ -1490,8 +1490,8 @@ evos_attacks Cupico
 	learnset 40, DOUBLE_EDGE
 	learnset 42, STONE_EDGE
 
-	evos_attacks GravelerPlain
-	evo_data EVOLVE_TRADE, LINKING_CORD, GOLEM, PLAIN_FORM
+	evos_attacks Boldore
+	evo_data EVOLVE_TRADE, LINKING_CORD, GIGALITH, PLAIN_FORM
 	learnset 1, TACKLE
 	learnset 1, DEFENSE_CURL
 	learnset 4, MUD_SLAP ; Mud Sport → TM move
@@ -1509,7 +1509,7 @@ evos_attacks Cupico
 	learnset 50, DOUBLE_EDGE
 	learnset 54, STONE_EDGE
 
-	evos_attacks GolemPlain
+	evos_attacks Gigalith
 	learnset 1, TACKLE
 	learnset 1, DEFENSE_CURL
 	learnset 4, MUD_SLAP ; Mud Sport → TM move

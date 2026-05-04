@@ -20,7 +20,7 @@ Cries:
 	fardw Cry_Cupico
 	fardw Cry_Farfetch_d
 	fardw Cry_Rhydon
-	fardw Cry_Golem
+	fardw Cry_Gigalith
 	fardw Cry_Rivastion
 	fardw Cry_Pidgeotto
 	fardw Cry_Weedle

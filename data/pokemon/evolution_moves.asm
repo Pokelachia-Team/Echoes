@@ -73,9 +73,9 @@ EvolutionMoves::
 	db NO_MOVE      ; VICTREEBEL
 	db NO_MOVE      ; TENTACOOL
 	db POWER_WHIP   ; TENTACRUEL
-	db NO_MOVE      ; GEODUDE
-	db NO_MOVE      ; GRAVELER
-	db NO_MOVE      ; GOLEM
+	db NO_MOVE      ; ROGGENROLA
+	db NO_MOVE      ; BOLDORE
+	db NO_MOVE      ; GIGALITH
 	db NO_MOVE      ; PONYTA
 	db PLAY_ROUGH   ; RAPIDASH
 	db NO_MOVE      ; SLOWPOKE

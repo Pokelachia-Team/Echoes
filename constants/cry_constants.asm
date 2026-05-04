@@ -20,7 +20,7 @@
 	const CRY_CUPICO
 	const CRY_FARFETCH_D
 	const CRY_RHYDON
-	const CRY_GOLEM
+	const CRY_GIGALITH
 	const CRY_RIVASTION
 	const CRY_PIDGEOTTO
 	const CRY_WEEDLE

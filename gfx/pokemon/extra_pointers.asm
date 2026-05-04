@@ -73,9 +73,9 @@ AnimationExtraPointers:
 	dw VictreebelAnimationExtra
 	dw TentacoolAnimationExtra
 	dw TentacruelAnimationExtra
-	dw GeodudePlainAnimationExtra
-	dw GravelerPlainAnimationExtra
-	dw GolemPlainAnimationExtra
+	dw RoggenrolaAnimationExtra
+	dw BoldoreAnimationExtra
+	dw GigalithAnimationExtra
 	dw PonytaPlainAnimationExtra
 	dw RapidashPlainAnimationExtra
 	dw SlowpokePlainAnimationExtra

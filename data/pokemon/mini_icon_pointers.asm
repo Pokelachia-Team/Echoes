@@ -77,9 +77,9 @@ MiniIconPointers:
 	mini_icon Victreebel
 	mini_icon Tentacool
 	mini_icon Tentacruel
-	mini_icon Geodude
-	mini_icon Graveler
-	mini_icon Golem
+	mini_icon Roggenrola
+	mini_icon Boldore
+	mini_icon Gigalith
 	mini_icon Ponyta
 	mini_icon Rapidash
 	mini_icon Slowpoke

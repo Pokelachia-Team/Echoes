@@ -80,8 +80,8 @@ PokemonCries::
 	mon_cry CRY_VENONAT,     $000,  $100 ; Tentacool
 	mon_cry CRY_VENONAT,     $0ee,  $17f ; Tentacruel
 	mon_cry CRY_VULPIX,      $0f0,  $090 ; Geodude
-	mon_cry CRY_VULPIX,      $000,  $100 ; Graveler
-	mon_cry CRY_GOLEM,       $0e0,  $0c0 ; Golem
+	mon_cry CRY_VULPIX,      $000,  $100 ; Boldore
+	mon_cry CRY_GIGALITH,       $0e0,  $0c0 ; Gigalith
 	mon_cry CRY_WEEPINBELL,  $000,  $100 ; Ponyta
 	mon_cry CRY_WEEPINBELL,  $020,  $140 ; Rapidash
 	mon_cry CRY_SLOWPOKE,    $000,  $100 ; Slowpoke
@@ -111,15 +111,15 @@ PokemonCries::
 	mon_cry CRY_DROWZEE,     $000,  $100 ; Whimsicott
 	mon_cry CRY_CLEFAIRY,    $000,  $100 ; Cubone
 	mon_cry CRY_ODDISH,      $04f,  $0e0 ; Marowak
-	mon_cry CRY_GOLEM,       $080,  $140 ; Hitmonlee
+	mon_cry CRY_GIGALITH,       $080,  $140 ; Hitmonlee
 	mon_cry CRY_SEEL,        $0ee,  $140 ; Hitmonchan
 	mon_cry CRY_SEEL,        $000,  $100 ; Lickitung
-	mon_cry CRY_GOLEM,       $0e6,  $15d ; Koffing
-	mon_cry CRY_GOLEM,       $0ff,  $17f ; Weezing
+	mon_cry CRY_GIGALITH,       $0e6,  $15d ; Koffing
+	mon_cry CRY_GIGALITH,       $0ff,  $17f ; Weezing
 	mon_cry CRY_FLIKLIT,  $000,  $100 ; Rhyhorn
 	mon_cry CRY_RHYDON,      $000,  $100 ; Rhydon
 	mon_cry CRY_PIDGEOTTO,   $00a,  $140 ; Chansey
-	mon_cry CRY_GOLEM,       $000,  $100 ; Tangela
+	mon_cry CRY_GIGALITH,       $000,  $100 ; Tangela
 	mon_cry CRY_KANGASKHAN,  $000,  $100 ; Kangaskhan
 	mon_cry CRY_CLEFAIRY,    $099,  $090 ; Horsea
 	mon_cry CRY_CLEFAIRY,    $03c,  $081 ; Seadra
@@ -273,7 +273,7 @@ PokemonCries::
 	mon_cry CRY_METAPOD,     $020,  $140 ; Magnezone
 	mon_cry CRY_SEEL,        $000,  $100 ; Lickilicky
 	mon_cry CRY_RHYDON,      $000,  $100 ; Rhyperior
-	mon_cry CRY_GOLEM,       $000,  $100 ; Tangrowth
+	mon_cry CRY_GIGALITH,       $000,  $100 ; Tangrowth
 	mon_cry CRY_VOLTORB,     $08f,  $17f ; Electivire
 	mon_cry CRY_FLIKLIT,  $0ff,  $0b0 ; Magmortar
 	mon_cry CRY_TOGETIC,     $03b,  $038 ; Togekiss

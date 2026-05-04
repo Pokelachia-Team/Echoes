@@ -356,9 +356,9 @@ MeowthGalarianBitmasks: INCLUDE "gfx/pokemon/meowth_galarian/bitmask.asm"
 PersianPlainBitmasks:  INCLUDE "gfx/pokemon/persian_plain/bitmask.asm"
 PersianAlolanBitmasks: INCLUDE "gfx/pokemon/persian_alolan/bitmask.asm"
 
-GeodudePlainBitmasks:  INCLUDE "gfx/pokemon/geodude_plain/bitmask.asm"
-GravelerPlainBitmasks:  INCLUDE "gfx/pokemon/graveler_plain/bitmask.asm"
-GolemPlainBitmasks:  INCLUDE "gfx/pokemon/golem_plain/bitmask.asm"
+RoggenrolaBitmasks:  INCLUDE "gfx/pokemon/roggenrola/bitmask.asm"
+BoldoreBitmasks:  INCLUDE "gfx/pokemon/boldore/bitmask.asm"
+GigalithBitmasks:  INCLUDE "gfx/pokemon/gigalith/bitmask.asm"
 
 GrimerPlainBitmasks:  INCLUDE "gfx/pokemon/grimer_plain/bitmask.asm"
 GrimerAlolanBitmasks: INCLUDE "gfx/pokemon/grimer_alolan/bitmask.asm"

@@ -372,20 +372,20 @@ TentacruelMini::     INCBIN "gfx/minis/tentacruel.2bpp.lzp"
 TentacruelMiniMask:: INCBIN "gfx/minis/tentacruel_mask.1bpp.lzp"
 TentacruelIcon::     INCBIN "gfx/icons/tentacruel.2bpp.lzp"
 
-SECTION "Geodude Mini Icon", ROMX
-GeodudeMini::     INCBIN "gfx/minis/geodude.2bpp.lzp"
-GeodudeMiniMask:: INCBIN "gfx/minis/geodude_mask.1bpp.lzp"
-GeodudeIcon::     INCBIN "gfx/icons/geodude.2bpp.lzp"
+SECTION "Roggenrola Mini Icon", ROMX
+RoggenrolaMini::     INCBIN "gfx/minis/roggenrola.2bpp.lzp"
+RoggenrolaMiniMask:: INCBIN "gfx/minis/roggenrola_mask.1bpp.lzp"
+RoggenrolaIcon::     INCBIN "gfx/icons/roggenrola.2bpp.lzp"
 
-SECTION "Graveler Mini Icon", ROMX
-GravelerMini::     INCBIN "gfx/minis/graveler.2bpp.lzp"
-GravelerMiniMask:: INCBIN "gfx/minis/graveler_mask.1bpp.lzp"
-GravelerIcon::     INCBIN "gfx/icons/graveler.2bpp.lzp"
+SECTION "Boldore Mini Icon", ROMX
+BoldoreMini::     INCBIN "gfx/minis/boldore.2bpp.lzp"
+BoldoreMiniMask:: INCBIN "gfx/minis/boldore_mask.1bpp.lzp"
+BoldoreIcon::     INCBIN "gfx/icons/boldore.2bpp.lzp"
 
-SECTION "Golem Mini Icon", ROMX
-GolemMini::     INCBIN "gfx/minis/golem.2bpp.lzp"
-GolemMiniMask:: INCBIN "gfx/minis/golem_mask.1bpp.lzp"
-GolemIcon::     INCBIN "gfx/icons/golem.2bpp.lzp"
+SECTION "Gigalith Mini Icon", ROMX
+GigalithMini::     INCBIN "gfx/minis/gigalith.2bpp.lzp"
+GigalithMiniMask:: INCBIN "gfx/minis/gigalith_mask.1bpp.lzp"
+GigalithIcon::     INCBIN "gfx/icons/gigalith.2bpp.lzp"
 
 SECTION "Ponyta Mini Icon", ROMX
 PonytaMini::     INCBIN "gfx/minis/ponyta.2bpp.lzp"
