@@ -29,7 +29,5 @@
 		 VOLT_SWITCH,  THUNDER_WAVE, \ ;15
 		 CUT,          \ ;HM
 		 GIGA_DRAIN,   \ ;T1
-		 THUNDER_FANG, SHOCK_WAVE,   \ ;T2
-		 SIGNAL_BEAM,  \ ;T3
-		 SUCKER_PUNCH ;T6
+		 SUCKER_PUNCH ;T2
 	 ; end

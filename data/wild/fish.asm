@@ -246,14 +246,14 @@ ENDM
 .Staryu_Old:
 	fishentry  70 percent + 1, MAGIKARP,   10
 	fishentry  85 percent + 1, MAGIKARP,   10
-	fishentry 100 percent,     KRABBY,     10
+	fishentry 100 percent,     CORPHISH,     10
 .Staryu_Good:
 	fishentry  35 percent,     MAGIKARP,   20
-	fishentry  70 percent,     KRABBY,     20
-	fishentry  90 percent + 1, KRABBY,     20
+	fishentry  70 percent,     CORPHISH,     20
+	fishentry  90 percent + 1, CORPHISH,     20
 	fishentry 100 percent,     STARYU,     20
 .Staryu_Super:
-	fishentry  40 percent,     KRABBY,     40
+	fishentry  40 percent,     CORPHISH,     40
 	fishentry  70 percent,     STARYU,     40
-	fishentry  90 percent + 1, KRABBY,     40
-	fishentry 100 percent,     KINGLER,    40
+	fishentry  90 percent + 1, CORPHISH,     40
+	fishentry 100 percent,     CRAWDAUNT,    40

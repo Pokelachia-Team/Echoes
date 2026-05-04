@@ -26,12 +26,11 @@
 		 FALSE_SWIPE,  SCALD,        \ ;11
 		 X_SCISSOR,    DARK_PULSE,   \ ;12
 		 WATER_PULSE,  \ ;13
-	     PAYBACK,      GIGA_IMPACT,  SWAGGER,      \ ;14
+	     GIGA_IMPACT,  SWAGGER,      \ ;14
 		 SWORDS_DANCE, \ ;15
 		 CUT,          SURF,         STRENGTH,     WATERFALL,    \ ;HM
 		 AQUA_TAIL,    \ ;T2
 		 ICY_WIND,     \ ;T3
-		 ANCIENTPOWER, \ ;T5
-		 KNOCK_OFF,    \ ;T6
-		 DOUBLE_EDGE ;T7
+		 KNOCK_OFF,    \ ;T4
+		 DOUBLE_EDGE ;T5
 	 ; end
