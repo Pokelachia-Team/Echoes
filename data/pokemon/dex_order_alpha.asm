@@ -22,6 +22,7 @@ AlphabeticalPokedexOrder:
 	dp BLISSEY
 	dp BONSLY
 	dp BUTTERFREE
+	dp CASTORCH
 	dp CATERPIE
 	dp CELEBI
 	dp CHANSEY
@@ -37,8 +38,10 @@ AlphabeticalPokedexOrder:
 	dp CROBAT
 	dp CROCONAW
 	dp CUBONE
+	dp CUPICO
 	dp CURSOLA
 	dp CYNDAQUIL
+	dp DEBRITE
 	dp DELIBIRD
 	dp DEWGONG
 	dp DIGLETT
@@ -193,6 +196,7 @@ AlphabeticalPokedexOrder:
 	dp POLIWAG
 	dp POLIWHIRL
 	dp POLIWRATH
+	dp POLTEGEIST
 	dp PONYTA
 	dp PORYGON
 	dp PORYGON_Z
@@ -226,6 +230,7 @@ AlphabeticalPokedexOrder:
 	dp SENTRET
 	dp SHELLDER
 	dp SHUCKLE
+	dp SINISTEA
 	dp SIRFETCH_D
 	dp SIZZOO
 	dp SKARMORY

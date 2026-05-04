@@ -85,7 +85,7 @@ ZubatFootprint::
 SizzooFootprint::
 PyroborosFootprint::
 SinisteaFootprint:: 
-PolteageistFootprint::
+PoltegeistFootprint::
 DebriteFootprint::
 CastorchFootprint:: INCBIN "gfx/footprints/blank.1bpp.lzp"
 
@@ -93,9 +93,6 @@ CastorchFootprint:: INCBIN "gfx/footprints/blank.1bpp.lzp"
 CupicoFootprint:: INCBIN "gfx/footprints/cupico.1bpp.lzp"
 PrickupiFootprint:: INCBIN "gfx/footprints/prickupi.1bpp.lzp"
 ConifuryFootprint:: INCBIN "gfx/footprints/conifury.1bpp.lzp"
-FliklitFootprint:: INCBIN "gfx/footprints/fliklit.1bpp.lzp"
-SizzooFootprint:: INCBIN "gfx/footprints/sizzoo.1bpp.lzp"
-PyroborosFootprint:: INCBIN "gfx/footprints/pyroboros.1bpp.lzp"
 GluttleFootprint:: INCBIN "gfx/footprints/gluttle.1bpp.lzp"
 RiveblokFootprint:: INCBIN "gfx/footprints/riveblok.1bpp.lzp"
 RivastionFootprint:: INCBIN "gfx/footprints/rivastion.1bpp.lzp"

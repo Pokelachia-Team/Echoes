@@ -296,7 +296,7 @@ PokemonPicPointers::
 	pics Clodsire
 	pics Annihilape
 	pics Sinistea
-	pics Polteageist
+	pics Poltegeist
 	pics Debrite
 	pics Castorch
 	assert_table_length NUM_SPECIES

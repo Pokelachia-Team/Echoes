@@ -310,7 +310,7 @@ INCLUDE "gfx/pokemon/farigiraf/front.dimensions"
 INCLUDE "gfx/pokemon/clodsire/front.dimensions"
 INCLUDE "gfx/pokemon/annihilape/front.dimensions"
 INCLUDE "gfx/pokemon/sinistea/front.dimensions"
-INCLUDE "gfx/pokemon/polteageist/front.dimensions"
+INCLUDE "gfx/pokemon/poltegeist/front.dimensions"
 INCLUDE "gfx/pokemon/debrite/front.dimensions"
 INCLUDE "gfx/pokemon/castorch/front.dimensions"
 	assert_list_length NUM_SPECIES

@@ -299,7 +299,7 @@ PokemonBodyData:
 	body_data  18, 2230, QUADRUPED,    BROWN  ; CLODSIRE
 	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; ANNIHILAPE
 	body_data   3,   22, HEAD,         BROWN  ; SINISTEA
-	body_data   1,   11, HEAD, 		   BROWN  ; POLTEAGEIST
+	body_data   1,   11, HEAD, 		   BROWN  ; POLTEGEIST
 	body_data	3,	 10, HEAD,		   YELLOW ; DEBRITE
 	body_data  12, 1200, HEAD_ARMS,	   YELLOW ; CASTORCH
 	assert_table_length NUM_SPECIES

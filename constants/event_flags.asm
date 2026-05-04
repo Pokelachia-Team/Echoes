@@ -191,6 +191,9 @@
 
 
 ; Folkora item balls
+	const EVENT_FLIKLIT_POKEBALL_IN_FIELD_LAB
+	const EVENT_GLUTTLE_POKEBALL_IN_FIELD_LAB
+	const EVENT_CUPICO_POKEBALL_IN_FIELD_LAB
 	const EVENT_FIELD_LAB_STAR_PIECE
 	const EVENT_ROUTE_101_POTION
 	const EVENT_ROUTE_101_POKE_BALL
@@ -1675,9 +1678,6 @@
 ; The map script command macros `setevent` and `clearevent` set/clear these flags, and their effects will be seen when the map is reloaded.
 
 ; Johto itemballs
-	const EVENT_FLIKLIT_POKEBALL_IN_ELMS_LAB
-	const EVENT_GLUTTLE_POKEBALL_IN_ELMS_LAB
-	const EVENT_CUPICO_POKEBALL_IN_ELMS_LAB
 	const EVENT_VIOLET_CITY_PP_UP
 	const EVENT_VIOLET_CITY_RARE_CANDY
 	const EVENT_LAKE_OF_RAGE_ELIXIR

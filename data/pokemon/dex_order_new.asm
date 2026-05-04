@@ -292,7 +292,7 @@ NewPokedexOrder:
 	dp MEW
 	dp CELEBI
 	dp SINISTEA
-	dp POLTEAGEIST
+	dp POLTEGEIST
 	dp DEBRITE
 	dp CASTORCH
 	assert_table_length NUM_POKEMON

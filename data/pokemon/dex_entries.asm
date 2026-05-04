@@ -3353,8 +3353,8 @@ SinisteaPokedexEntry::
 	next "Still not recom-"
 	next "mended to drink.@"
 
-SECTION "PolteageistPokedexEntry", ROMX
-PolteageistPokedexEntry::
+SECTION "PoltegeistPokedexEntry", ROMX
+PoltegeistPokedexEntry::
 	db "Iced Tea@"
 	db 	 "Said to have a"
 	next "refreshing taste,"

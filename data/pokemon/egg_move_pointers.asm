@@ -292,7 +292,7 @@ EggSpeciesMovesPointers::
 	dw WooperPaldeanEggSpeciesMoves     ; Clodsire
 	dw MankeyEggSpeciesMoves            ; Annihilape
 	dw SinisteaEggSpeciesMoves          ; Sinistea
-	dw PolteageistEggSpeciesMoves		; Polteageist
+	dw PoltegeistEggSpeciesMoves		; Poltegeist
 	dw DebriteEggSpeciesMoves			; Debrite
 	dw CastorchEggSpeciesMoves			; Castorch
 	assert_table_length NUM_SPECIES

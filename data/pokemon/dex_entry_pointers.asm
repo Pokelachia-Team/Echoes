@@ -293,7 +293,7 @@ PokedexDataPointerTable:
 	dba ClodsirePokedexEntry
 	dba AnnihilapePokedexEntry
 	dba SinisteaPokedexEntry
-	dba PolteageistPokedexEntry
+	dba PoltegeistPokedexEntry
 	dba DebritePokedexEntry
 	dba CastorchPokedexEntry
 	assert_table_length NUM_SPECIES

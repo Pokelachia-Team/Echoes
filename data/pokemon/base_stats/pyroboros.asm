@@ -1,5 +1,5 @@
-	db  78,  94,  78, 100,  99,  85 ; 534 BST
-	;   hp  atk  def  spe  sat  sdf
+	bst 534,  78,  94,  78, 100,  99,  85 ;  
+	;   BST  hp  atk  def  spe  sat  sdf
 
 	db FIRE, FLYING ; type
 	db 45 ; catch rate

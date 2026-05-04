@@ -240,7 +240,7 @@ FarigirafBitmasks:  INCLUDE "gfx/pokemon/farigiraf/bitmask.asm"
 ClodsireBitmasks:   INCLUDE "gfx/pokemon/clodsire/bitmask.asm"
 AnnihilapeBitmasks: INCLUDE "gfx/pokemon/annihilape/bitmask.asm"
 SinisteaBitmasks:   INCLUDE "gfx/pokemon/sinistea/bitmask.asm"
-PolteageistBitmasks: INCLUDE "gfx/pokemon/polteageist/bitmask.asm"
+PoltegeistBitmasks: INCLUDE "gfx/pokemon/poltegeist/bitmask.asm"
 DebriteBitmasks:    INCLUDE "gfx/pokemon/debrite/bitmask.asm"
 CastorchBitmasks:   INCLUDE "gfx/pokemon/castorch/bitmask.asm"
 

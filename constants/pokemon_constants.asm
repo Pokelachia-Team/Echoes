@@ -315,7 +315,7 @@
 	const CLODSIRE   ; 122
 	const ANNIHILAPE ; 123
 	const SINISTEA   ; 124
-	const POLTEAGEIST ; 125
+	const POLTEGEIST ; 125
 	const DEBRITE	 ; 126
 	const CASTORCH	 ; 127
 DEF NUM_SPECIES EQU const_value - 1 ; 123

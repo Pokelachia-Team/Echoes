@@ -1239,8 +1239,8 @@ SinisteaEggSpeciesMoves:
 	dp SINISTEA, PLAIN_FORM
 	db $ff
 
-PolteageistEggSpeciesMoves:
-	dp POLTEAGEIST, PLAIN_FORM
+PoltegeistEggSpeciesMoves:
+	dp POLTEGEIST, PLAIN_FORM
 	db $ff 
 
 DebriteEggSpeciesMoves:

@@ -296,7 +296,7 @@ EvosAttacksPointers::
 	dw ClodsireEvosAttacks
 	dw AnnihilapeEvosAttacks
 	dw SinisteaEvosAttacks
-	dw PolteageistEvosAttacks
+	dw PoltegeistEvosAttacks
 	dw DebriteEvosAttacks
 	dw CastorchEvosAttacks
 	assert_table_length NUM_SPECIES

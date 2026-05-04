@@ -292,7 +292,7 @@ AnimationExtraPointers:
 	dw ClodsireAnimationExtra
 	dw AnnihilapeAnimationExtra
 	dw SinisteaAnimationExtra
-	dw PolteageistAnimationExtra
+	dw PoltegeistAnimationExtra
 	dw DebriteAnimationExtra
 	dw CastorchAnimationExtra
 	assert_table_length NUM_SPECIES

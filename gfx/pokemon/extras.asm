@@ -240,7 +240,7 @@ FarigirafAnimationExtra:  INCLUDE "gfx/pokemon/farigiraf/anim_idle.asm"
 ClodsireAnimationExtra:   INCLUDE "gfx/pokemon/clodsire/anim_idle.asm"
 AnnihilapeAnimationExtra: INCLUDE "gfx/pokemon/annihilape/anim_idle.asm"
 SinisteaAnimationExtra:   INCLUDE "gfx/pokemon/sinistea/anim_idle.asm"
-PolteageistAnimationExtra: INCLUDE "gfx/pokemon/polteageist/anim_idle.asm"
+PoltegeistAnimationExtra: INCLUDE "gfx/pokemon/poltegeist/anim_idle.asm"
 DebriteAnimationExtra:    INCLUDE "gfx/pokemon/debrite/anim_idle.asm"
 CastorchAnimationExtra:   INCLUDE "gfx/pokemon/castorch/anim_idle.asm"
 

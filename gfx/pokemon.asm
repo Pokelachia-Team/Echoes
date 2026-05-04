@@ -1957,10 +1957,10 @@ SinisteaFrontpic: INCBIN "gfx/pokemon/sinistea/front.animated.2bpp.lz"
 SinisteaBackpic:  INCBIN "gfx/pokemon/sinistea/back.2bpp.lz"
 SinisteaFrames:   INCLUDE "gfx/pokemon/sinistea/frames.asm"
 
-SECTION "Polteageist Pics", ROMX
-PolteageistFrontpic: INCBIN "gfx/pokemon/polteageist/front.animated.2bpp.lz"
-PolteageistBackpic:  INCBIN "gfx/pokemon/polteageist/back.2bpp.lz"
-PolteageistFrames:   INCLUDE "gfx/pokemon/polteageist/frames.asm"
+SECTION "Poltegeist Pics", ROMX
+PoltegeistFrontpic: INCBIN "gfx/pokemon/poltegeist/front.animated.2bpp.lz"
+PoltegeistBackpic:  INCBIN "gfx/pokemon/poltegeist/back.2bpp.lz"
+PoltegeistFrames:   INCLUDE "gfx/pokemon/poltegeist/frames.asm"
 
 SECTION "Debrite Pics", ROMX
 DebriteFrontpic:    INCBIN "gfx/pokemon/debrite/front.animated.2bpp.lz"
