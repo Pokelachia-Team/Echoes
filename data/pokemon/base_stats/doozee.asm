@@ -1,5 +1,5 @@
-	db  45,  50,  45,  95, 115,  55 ; 405 BST
-	;   hp  atk  def  spe  sat  sdf
+	bst 405,  45,  50,  45,  95, 115,  55 ;  
+	;   BST   hp  atk  def  spe  sat  sdf
 
 	db GHOST, POISON ; type
 	db 90 ; catch rate

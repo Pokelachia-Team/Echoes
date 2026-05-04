@@ -9,8 +9,6 @@ INCLUDE "engine/pokemon/learn.asm"
 INCLUDE "data/items/attributes.asm"
 INCLUDE "engine/overworld/npc_movement.asm"
 INCLUDE "engine/events/happiness_egg.asm"
-INCLUDE "engine/events/shiny_ditto.asm"
-INCLUDE "engine/events/doozee.asm"
 INCLUDE "engine/events/bills_grandfather.asm"
 INCLUDE "engine/events/hidden_power_guru.asm"
 INCLUDE "engine/events/haircut_etc.asm"
@@ -19,7 +17,7 @@ INCLUDE "engine/events/haircut_etc.asm"
 SECTION "Special Events", ROMX
 
 INCLUDE "engine/events/shiny_ditto.asm"
-INCLUDE "engine/events/shuckle.asm"
+INCLUDE "engine/events/doozee.asm"
 INCLUDE "engine/events/mint_tea.asm"
 
 
