@@ -496,6 +496,10 @@ DEF PALDEAN_FORM EQU 5
 	ext_const TAUROS_PALDEAN_FIRE_FORM  ; 188 (2)
 	ext_const TAUROS_PALDEAN_WATER_FORM ; 189 (3)
 
+; folkoran forms
+DEF FOLKORAN_FORM EQU 6
+	const_skip ; 188 meowth
+
 ; ursaluna
 	ext_const_def 2
 	ext_const URSALUNA_BLOODMOON_FORM ; 18a (2)

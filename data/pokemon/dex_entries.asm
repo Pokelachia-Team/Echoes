@@ -3293,6 +3293,16 @@ TaurosPaldeanWaterPokedexEntry::
 	next "body fat allows it"
 	next "to float easily.@"
 
+SECTION "MeowthFolkoranPokedexEntry", ROMX
+MeowthFolkoranPokedexEntry::
+	db "Scratch Cat@"
+	db   "The Folkora form"
+	next "adapted to the"
+	next "rough conditions"
+	page "of the region by"
+	next "lurking in the"
+	next "shadows in wait.@"
+
 SECTION "UrsalunaBloodmoonPokedexEntry", ROMX
 UrsalunaBloodmoonPokedexEntry::
 	db "Peat@"

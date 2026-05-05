@@ -243,6 +243,7 @@ SinisteaAnimationExtra:   INCLUDE "gfx/pokemon/sinistea/anim_idle.asm"
 PoltegeistAnimationExtra: INCLUDE "gfx/pokemon/poltegeist/anim_idle.asm"
 DebriteAnimationExtra:    INCLUDE "gfx/pokemon/debrite/anim_idle.asm"
 CastorchAnimationExtra:   INCLUDE "gfx/pokemon/castorch/anim_idle.asm"
+; WampurrAnimationExtra:    INCLUDE "gfx/pokemon/wampurr/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 
@@ -352,6 +353,7 @@ DugtrioAlolanAnimationExtra: INCLUDE "gfx/pokemon/dugtrio_alolan/anim_idle.asm"
 MeowthPlainAnimationExtra:  INCLUDE "gfx/pokemon/meowth_plain/anim_idle.asm"
 MeowthAlolanAnimationExtra: INCLUDE "gfx/pokemon/meowth_alolan/anim_idle.asm"
 MeowthGalarianAnimationExtra: INCLUDE "gfx/pokemon/meowth_galarian/anim_idle.asm"
+MeowthFolkoranAnimationExtra: INCLUDE "gfx/pokemon/meowth_folkoran/anim_idle.asm"
 
 PersianPlainAnimationExtra:  INCLUDE "gfx/pokemon/persian_plain/anim_idle.asm"
 PersianAlolanAnimationExtra: INCLUDE "gfx/pokemon/persian_alolan/anim_idle.asm"

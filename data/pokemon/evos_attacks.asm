@@ -1047,6 +1047,24 @@ evos_attacks Cupico
 	learnset 49, NIGHT_SLASH
 	learnset 55, DARK_PULSE
 
+	evos_attacks MeowthFolkoran
+	; evo_data EVOLVE_LEVEL, 28, WAMPURR, PLAIN_FORM
+	learnset 1, SCRATCH
+	learnset 1, GROWL
+	learnset 6, BITE
+	learnset 9, ASTONISH ; Fake Out → new move
+	learnset 14, FURY_STRIKES ; Fury Swipes → similar move
+	learnset 17, SCREECH
+	learnset 22, FEINT_ATTACK
+	learnset 25, PURSUIT ; Taunt → egg move
+	learnset 30, PAY_DAY
+	learnset 33, SLASH
+	learnset 38, NASTY_PLOT
+	learnset 41, THIEF ; Assurance → TM move
+	learnset 46, CHARM ; Captivate → egg move
+	learnset 49, NIGHT_SLASH
+	learnset 55, DARK_PULSE
+
 	evos_attacks MeowthGalarian
 	evo_data EVOLVE_LEVEL, 28, PERRSERKER, PLAIN_FORM
 	learnset 1, ASTONISH ; Fake Out → new move

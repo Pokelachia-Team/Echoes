@@ -295,6 +295,7 @@ FootprintPointers::
 	dw PoltegeistFootprint
 	dw DebriteFootprint
 	dw CastorchFootprint
+	; dw PersianFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint
@@ -344,6 +345,8 @@ FootprintPointers::
 	dw TaurosFootprint
 	dw TaurosFootprint
 	dw TaurosFootprint
+
+	dw MeowthFootprint
 
 	dw UrsalunaFootprint
 

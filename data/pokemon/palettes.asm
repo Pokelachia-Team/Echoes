@@ -692,6 +692,9 @@ INCLUDE "gfx/pokemon/tauros_paldean_fire/shiny.pal"
 INCLUDE "gfx/pokemon/tauros_paldean_water/normal.pal"
 INCLUDE "gfx/pokemon/tauros_paldean_water/shiny.pal"
 
+INCLUDE "gfx/pokemon/meowth_folkoran/normal.pal"
+INCLUDE "gfx/pokemon/meowth_folkoran/shiny.pal"
+
 INCLUDE "gfx/pokemon/ursaluna_bloodmoon/normal.pal"
 INCLUDE "gfx/pokemon/ursaluna_bloodmoon/shiny.pal"
 

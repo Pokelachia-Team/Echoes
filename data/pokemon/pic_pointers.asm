@@ -299,6 +299,7 @@ PokemonPicPointers::
 	pics Poltegeist
 	pics Debrite
 	pics Castorch
+	; pics Wampurr
 	assert_table_length NUM_SPECIES
 
 	pics UnownB
@@ -412,6 +413,8 @@ PokemonPicPointers::
 	pics TaurosPaldean
 	pics TaurosPaldeanFire
 	pics TaurosPaldeanWater
+
+	pics MeowthFolkoran
 
 	pics UrsalunaBloodmoon
 

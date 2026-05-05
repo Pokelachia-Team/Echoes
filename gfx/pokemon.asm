@@ -1936,6 +1936,16 @@ TaurosPaldeanWaterFrontpic: INCBIN "gfx/pokemon/tauros_paldean_water/front.anima
 TaurosPaldeanWaterBackpic:  INCBIN "gfx/pokemon/tauros_paldean_water/back.2bpp.lzp"
 TaurosPaldeanWaterFrames:   INCLUDE "gfx/pokemon/tauros_paldean_water/frames.asm"
 
+SECTION "MeowthFolkoran Pics", ROMX
+MeowthFolkoranFrontpic: INCBIN "gfx/pokemon/meowth_folkoran/front.animated.2bpp.lzp"
+MeowthFolkoranBackpic:  INCBIN "gfx/pokemon/meowth_folkoran/back.2bpp.lzp"
+MeowthFolkoranFrames:   INCLUDE "gfx/pokemon/meowth_folkoran/frames.asm"
+
+; SECTION "Wampurr Pics", ROMX
+; WampurrFrontpic: INCBIN "gfx/pokemon/wampurr/front.animated.2bpp.lzp"
+; WampurrBackpic:  INCBIN "gfx/pokemon/wampurr/back.2bpp.lzp"
+; WampurrFrames:   INCLUDE "gfx/pokemon/wampurr/frames.asm"
+
 SECTION "Sinistea Pics", ROMX
 SinisteaFrontpic: INCBIN "gfx/pokemon/sinistea/front.animated.2bpp.lzp"
 SinisteaBackpic:  INCBIN "gfx/pokemon/sinistea/back.2bpp.lzp"
