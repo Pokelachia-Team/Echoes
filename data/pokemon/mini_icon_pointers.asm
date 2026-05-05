@@ -299,7 +299,7 @@ MiniIconPointers:
 	mini_icon Poltegeist
 	mini_icon Debrite
 	mini_icon Castorch
-	; mini_icon Wampurr
+	mini_icon Wampurr
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB

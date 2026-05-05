@@ -300,4 +300,5 @@ endc
 	db	20, 100 ; Poltegeist
 	db   1,  39 ; Debrite
 	db	20, 100 ; Castorch
+	db	30, 100 ; Wampurr
 	assert_table_length NUM_SPECIES

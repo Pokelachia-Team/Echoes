@@ -295,7 +295,7 @@ BitmasksPointers:
 	dw PoltegeistBitmasks
 	dw DebriteBitmasks
 	dw CastorchBitmasks
-	; dw WampurrBitmasks
+	dw WampurrBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks

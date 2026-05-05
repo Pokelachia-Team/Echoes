@@ -299,7 +299,7 @@ PokemonPicPointers::
 	pics Poltegeist
 	pics Debrite
 	pics Castorch
-	; pics Wampurr
+	pics Wampurr
 	assert_table_length NUM_SPECIES
 
 	pics UnownB

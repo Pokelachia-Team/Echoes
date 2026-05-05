@@ -299,6 +299,7 @@ OverworldMonIconColors::
 	iconpal TAN_BROWN, TAN_GREEN ; POLTEGEIST
 	iconpal TAN_YELLOW, TAN_GRAY ; DEBRITE
 	iconpal TAN_ORANGE, TAN_BLACK ; CASTORCH 
+	iconpal TAN_GRAY, TAN_BROWN ; WAMPURR
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1

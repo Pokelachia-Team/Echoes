@@ -1048,20 +1048,20 @@ evos_attacks Cupico
 	learnset 55, DARK_PULSE
 
 	evos_attacks MeowthFolkoran
-	; evo_data EVOLVE_LEVEL, 28, WAMPURR, PLAIN_FORM
+	evo_data EVOLVE_LEVEL, 28, WAMPURR, PLAIN_FORM
 	learnset 1, SCRATCH
 	learnset 1, GROWL
 	learnset 6, BITE
-	learnset 9, ASTONISH ; Fake Out → new move
-	learnset 14, FURY_STRIKES ; Fury Swipes → similar move
+	learnset 9, ASTONISH
+	learnset 14, FURY_STRIKES
 	learnset 17, SCREECH
 	learnset 22, FEINT_ATTACK
-	learnset 25, PURSUIT ; Taunt → egg move
+	learnset 25, PURSUIT 
 	learnset 30, PAY_DAY
-	learnset 33, SLASH
+	learnset 33, KARATE_CHOP
 	learnset 38, NASTY_PLOT
-	learnset 41, THIEF ; Assurance → TM move
-	learnset 46, CHARM ; Captivate → egg move
+	learnset 41, THIEF
+	learnset 46, SUCKER_PUNCH
 	learnset 49, NIGHT_SLASH
 	learnset 55, DARK_PULSE
 
@@ -5928,6 +5928,26 @@ endc
 	learnset 40, BODY_SLAM
 	learnset 52, FLAMETHROWER
 	learnset 60, FIRE_BLAST
+
+	evos_attacks Wampurr
+	learnset 1, DIZZY_PUNCH
+	learnset 1, PLAY_ROUGH
+	learnset 1, SCRATCH
+	learnset 1, GROWL
+	learnset 6, BITE
+	learnset 9, ASTONISH 
+	learnset 14, FURY_STRIKES
+	learnset 17, SCREECH
+	learnset 22, KARATE_CHOP
+	learnset 25, PURSUIT
+	learnset 32, MACH_PUNCH
+	learnset 37, SUCKER_PUNCH
+	learnset 44, NASTY_PLOT
+	learnset 49, THIEF 
+	learnset 56, CHARM
+	learnset 61, NIGHT_SLASH
+	learnset 65, CLOSE_COMBAT
+
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

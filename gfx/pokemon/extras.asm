@@ -243,7 +243,7 @@ SinisteaAnimationExtra:   INCLUDE "gfx/pokemon/sinistea/anim_idle.asm"
 PoltegeistAnimationExtra: INCLUDE "gfx/pokemon/poltegeist/anim_idle.asm"
 DebriteAnimationExtra:    INCLUDE "gfx/pokemon/debrite/anim_idle.asm"
 CastorchAnimationExtra:   INCLUDE "gfx/pokemon/castorch/anim_idle.asm"
-; WampurrAnimationExtra:    INCLUDE "gfx/pokemon/wampurr/anim_idle.asm"
+WampurrAnimationExtra:    INCLUDE "gfx/pokemon/wampurr/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 

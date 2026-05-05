@@ -295,5 +295,5 @@ NewPokedexOrder:
 	dp POLTEGEIST
 	dp DEBRITE
 	dp CASTORCH
-	; dp WAMPURR
+	dp WAMPURR
 	assert_table_length NUM_POKEMON

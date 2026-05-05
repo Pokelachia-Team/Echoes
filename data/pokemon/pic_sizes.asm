@@ -313,7 +313,7 @@ INCLUDE "gfx/pokemon/sinistea/front.dimensions"
 INCLUDE "gfx/pokemon/poltegeist/front.dimensions"
 INCLUDE "gfx/pokemon/debrite/front.dimensions"
 INCLUDE "gfx/pokemon/castorch/front.dimensions"
-; INCLUDE "gfx/pokemon/wampurr/front.dimensions"
+INCLUDE "gfx/pokemon/wampurr/front.dimensions"
 	assert_list_length NUM_SPECIES
 
 INCLUDE "gfx/pokemon/unown_b/front.dimensions"

@@ -1822,7 +1822,7 @@ CastorchMini::      INCBIN "gfx/minis/castorch.2bpp.lzp"
 CastorchMiniMask::  INCBIN "gfx/minis/castorch_mask.1bpp.lzp"
 CastorchIcon::      INCBIN "gfx/icons/castorch.2bpp.lzp"
 
-; SECTION "Wampurr Mini Icon", ROMX
-; WampurrMini::     INCBIN "gfx/minis/wampurr.2bpp.lzp"
-; WampurrMiniMask:: INCBIN "gfx/minis/wampurr_mask.1bpp.lzp"
-; WampurrIcon::     INCBIN "gfx/icons/wampurr.2bpp.lzp"
+SECTION "Wampurr Mini Icon", ROMX
+WampurrMini::     INCBIN "gfx/minis/wampurr.2bpp.lzp"
+WampurrMiniMask:: INCBIN "gfx/minis/wampurr_mask.1bpp.lzp"
+WampurrIcon::     INCBIN "gfx/icons/wampurr.2bpp.lzp"

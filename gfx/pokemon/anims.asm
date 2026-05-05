@@ -243,7 +243,7 @@ SinisteaAnimation:   INCLUDE "gfx/pokemon/sinistea/anim.asm"
 PoltegeistAnimation: INCLUDE "gfx/pokemon/poltegeist/anim.asm"
 DebriteAnimation:    INCLUDE "gfx/pokemon/debrite/anim.asm"
 CastorchAnimation:   INCLUDE "gfx/pokemon/castorch/anim.asm"
-; WampurrAnimation: INCLUDE "gfx/pokemon/wampurr/anim.asm"
+WampurrAnimation:    INCLUDE "gfx/pokemon/wampurr/anim.asm"
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 

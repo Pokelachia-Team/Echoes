@@ -295,7 +295,7 @@ AnimationPointers:
 	dw PoltegeistAnimation
 	dw DebriteAnimation
 	dw CastorchAnimation
-	; dw WampurrAnimation
+	dw WampurrAnimation
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation

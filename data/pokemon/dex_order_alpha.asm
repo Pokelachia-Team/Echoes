@@ -281,6 +281,7 @@ AlphabeticalPokedexOrder:
 	dp VILEPLUME
 	dp VOLTORB
 	dp VULPIX
+	dp WAMPURR
 	dp WEAVILE
 	dp WEEDLE
 	dp WEEPINBELL
