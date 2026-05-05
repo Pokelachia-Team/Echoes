@@ -301,4 +301,5 @@ PokemonCries::
 	mon_cry CRY_ODDISH,		 $05f,  $0c0 ; Poltegeist
 	mon_cry CRY_METAPOD,     $080,  $0e0 ; Debrite
 	mon_cry CRY_METAPOD,	 $020,  $140 ; Castorch
+	mon_cry CRY_CLEFAIRY,    $077,  $090 ; Wampurr
 	assert_table_length NUM_SPECIES

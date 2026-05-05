@@ -313,6 +313,7 @@ INCLUDE "gfx/pokemon/sinistea/front.dimensions"
 INCLUDE "gfx/pokemon/poltegeist/front.dimensions"
 INCLUDE "gfx/pokemon/debrite/front.dimensions"
 INCLUDE "gfx/pokemon/castorch/front.dimensions"
+INCLUDE "gfx/pokemon/wampurr/front.dimensions"
 	assert_list_length NUM_SPECIES
 
 INCLUDE "gfx/pokemon/unown_b/front.dimensions"
@@ -426,6 +427,8 @@ INCLUDE "gfx/pokemon/wooper_paldean/front.dimensions"
 INCLUDE "gfx/pokemon/tauros_paldean/front.dimensions"
 INCLUDE "gfx/pokemon/tauros_paldean_fire/front.dimensions"
 INCLUDE "gfx/pokemon/tauros_paldean_water/front.dimensions"
+
+INCLUDE "gfx/pokemon/meowth_folkoran/front.dimensions"
 
 INCLUDE "gfx/pokemon/ursaluna_bloodmoon/front.dimensions"
 

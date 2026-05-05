@@ -337,6 +337,7 @@ INCLUDE "data/pokemon/base_stats/sinistea.asm"
 INCLUDE "data/pokemon/base_stats/poltegeist.asm"
 INCLUDE "data/pokemon/base_stats/debrite.asm"
 INCLUDE "data/pokemon/base_stats/castorch.asm"
+INCLUDE "data/pokemon/base_stats/wampurr.asm"
 	assert_table_length NUM_SPECIES
 
 INCLUDE "data/pokemon/base_stats/gyarados.asm" ; red
@@ -386,6 +387,8 @@ INCLUDE "data/pokemon/base_stats/wooper_paldean.asm"
 INCLUDE "data/pokemon/base_stats/tauros_paldean.asm"
 INCLUDE "data/pokemon/base_stats/tauros_paldean_fire.asm"
 INCLUDE "data/pokemon/base_stats/tauros_paldean_water.asm"
+
+INCLUDE "data/pokemon/base_stats/meowth_folkoran.asm"
 
 INCLUDE "data/pokemon/base_stats/ursaluna_bloodmoon.asm"
 

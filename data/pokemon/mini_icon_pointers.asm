@@ -299,6 +299,7 @@ MiniIconPointers:
 	mini_icon Poltegeist
 	mini_icon Debrite
 	mini_icon Castorch
+	mini_icon Wampurr
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB
@@ -396,6 +397,8 @@ endr
 	mini_icon TaurosPaldean
 	mini_icon TaurosPaldeanFire
 	mini_icon TaurosPaldeanWater
+
+	mini_icon MeowthFolkoran
 
 	mini_icon UrsalunaBloodmoon
 

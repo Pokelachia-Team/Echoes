@@ -295,6 +295,7 @@ AnimationExtraPointers:
 	dw PoltegeistAnimationExtra
 	dw DebriteAnimationExtra
 	dw CastorchAnimationExtra
+	dw WampurrAnimationExtra
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimationExtra
@@ -408,6 +409,8 @@ AnimationExtraPointers:
 	dw TaurosPaldeanAnimationExtra
 	dw TaurosPaldeanFireAnimationExtra
 	dw TaurosPaldeanWaterAnimationExtra
+
+	dw MeowthFolkoranAnimationExtra
 
 	dw UrsalunaBloodmoonAnimationExtra
 

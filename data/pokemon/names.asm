@@ -296,4 +296,5 @@ PokemonNames::
 	rawchar "Polteagist"
 	rawchar "Debrite@@@"
 	rawchar "Castorch@@"
+	rawchar "Wampurr@@@"
 	assert_table_length NUM_SPECIES + 1

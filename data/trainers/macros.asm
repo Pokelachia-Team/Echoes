@@ -189,6 +189,9 @@ MACRO tr_mon
 			redef _tr_curabil EQUS "{_tr_curabil}_HISUIAN"
 		elif STRFIND("\3", "PALDEAN_FORM") != -1
 			redef _tr_curabil EQUS "{_tr_curabil}_PALDEAN"
+		elif STRFIND("\3", "FOLKORAN_FORM") != -1
+			redef _tr_curabil EQUS "{_tr_curabil}_FOLKORAN"
+
 		endc
 	endc
 

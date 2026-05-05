@@ -295,6 +295,7 @@ BitmasksPointers:
 	dw PoltegeistBitmasks
 	dw DebriteBitmasks
 	dw CastorchBitmasks
+	dw WampurrBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks
@@ -408,6 +409,8 @@ BitmasksPointers:
 	dw TaurosPaldeanBitmasks
 	dw TaurosPaldeanFireBitmasks
 	dw TaurosPaldeanWaterBitmasks
+
+	dw MeowthFolkoranBitmasks
 
 	dw UrsalunaBloodmoonBitmasks
 

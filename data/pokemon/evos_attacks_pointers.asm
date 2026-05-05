@@ -299,6 +299,7 @@ EvosAttacksPointers::
 	dw PoltegeistEvosAttacks
 	dw DebriteEvosAttacks
 	dw CastorchEvosAttacks
+	dw WampurrEvosAttacks
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks
@@ -348,6 +349,8 @@ EvosAttacksPointers::
 	dw TaurosPaldeanEvosAttacks
 	dw TaurosPaldeanFireEvosAttacks
 	dw TaurosPaldeanWaterEvosAttacks
+
+	dw MeowthFolkoranEvosAttacks
 
 	dw UrsalunaBloodmoonEvosAttacks
 

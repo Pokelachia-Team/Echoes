@@ -243,6 +243,7 @@ SinisteaBitmasks:   INCLUDE "gfx/pokemon/sinistea/bitmask.asm"
 PoltegeistBitmasks: INCLUDE "gfx/pokemon/poltegeist/bitmask.asm"
 DebriteBitmasks:    INCLUDE "gfx/pokemon/debrite/bitmask.asm"
 CastorchBitmasks:   INCLUDE "gfx/pokemon/castorch/bitmask.asm"
+WampurrBitmasks:    INCLUDE "gfx/pokemon/wampurr/bitmask.asm"
 
 EggBitmasks:        INCLUDE "gfx/pokemon/egg/bitmask.asm"
 
@@ -351,6 +352,7 @@ DugtrioAlolanBitmasks: INCLUDE "gfx/pokemon/dugtrio_alolan/bitmask.asm"
 
 MeowthPlainBitmasks:    INCLUDE "gfx/pokemon/meowth_plain/bitmask.asm"
 MeowthAlolanBitmasks:   INCLUDE "gfx/pokemon/meowth_alolan/bitmask.asm"
+MeowthFolkoranBitmasks:   INCLUDE "gfx/pokemon/meowth_folkoran/bitmask.asm"
 MeowthGalarianBitmasks: INCLUDE "gfx/pokemon/meowth_galarian/bitmask.asm"
 
 PersianPlainBitmasks:  INCLUDE "gfx/pokemon/persian_plain/bitmask.asm"

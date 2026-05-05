@@ -295,6 +295,7 @@ EggSpeciesMovesPointers::
 	dw PoltegeistEggSpeciesMoves		; Poltegeist
 	dw DebriteEggSpeciesMoves			; Debrite
 	dw CastorchEggSpeciesMoves			; Castorch
+	dw MeowthFolkoranEggSpeciesMoves    ; Wampurr
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)
@@ -344,6 +345,8 @@ EggSpeciesMovesPointers::
 	dw NoEggSpeciesMoves                ; Tauros (Paldean Form)
 	dw NoEggSpeciesMoves                ; Tauros (Paldean Fire Form)
 	dw NoEggSpeciesMoves                ; Tauros (Paldean Water Form)
+
+	dw MeowthFolkoranEggSpeciesMoves    ; Meowth (Folkoran Form)
 
 	dw TeddiursaEggSpeciesMoves         ; Ursaluna (Bloodmoon Form)
 

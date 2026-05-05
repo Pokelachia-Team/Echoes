@@ -302,6 +302,7 @@ PokemonBodyData:
 	body_data   1,   11, HEAD, 		   BROWN  ; POLTEGEIST
 	body_data	3,	 10, HEAD,		   YELLOW ; DEBRITE
 	body_data  12, 1200, HEAD_ARMS,	   YELLOW ; CASTORCH
+	body_data  18, 1005, QUADRUPED,    GRAY   ; WAMPURR
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)
@@ -351,6 +352,9 @@ PokemonBodyData:
 	body_data  14, 1150, QUADRUPED,    BLACK  ; TAUROS (PALDEAN_FORM)
 	body_data  14,  850, QUADRUPED,    BLACK  ; TAUROS (TAUROS_PALDEAN_FIRE_FORM)
 	body_data  14, 1100, QUADRUPED,    BLACK  ; TAUROS (TAUROS_PALDEAN_WATER_FORM)
+
+	body_data   4,   42, QUADRUPED,    GRAY   ; MEOWTH (FOLKORAN_FORM)
+
 
 	body_data  27, 3330, BIPEDAL_TAIL, BROWN  ; URSALUNA (URSALUNA_BLOODMOON_FORM)
 

@@ -1792,6 +1792,11 @@ TaurosPaldeanWaterMini::     INCBIN "gfx/minis/tauros_paldean_water.2bpp.lzp"
 TaurosPaldeanWaterMiniMask:: INCBIN "gfx/minis/tauros_paldean_water_mask.1bpp.lzp"
 TaurosPaldeanWaterIcon::     INCBIN "gfx/icons/tauros_paldean_water.2bpp.lzp"
 
+SECTION "MeowthFolkoran Mini Icon", ROMX
+MeowthFolkoranMini::     INCBIN "gfx/minis/meowth_folkoran.2bpp.lzp"
+MeowthFolkoranMiniMask:: INCBIN "gfx/minis/meowth_folkoran_mask.1bpp.lzp"
+MeowthFolkoranIcon::     INCBIN "gfx/icons/meowth_folkoran.2bpp.lzp"
+
 SECTION "UrsalunaBloodmoon Mini Icon", ROMX
 UrsalunaBloodmoonMini::     INCBIN "gfx/minis/ursaluna_bloodmoon.2bpp.lzp"
 UrsalunaBloodmoonMiniMask:: INCBIN "gfx/minis/ursaluna_bloodmoon_mask.1bpp.lzp"
@@ -1816,3 +1821,8 @@ SECTION "Castorch Mini Icon", ROMX
 CastorchMini::      INCBIN "gfx/minis/castorch.2bpp.lzp"
 CastorchMiniMask::  INCBIN "gfx/minis/castorch_mask.1bpp.lzp"
 CastorchIcon::      INCBIN "gfx/icons/castorch.2bpp.lzp"
+
+SECTION "Wampurr Mini Icon", ROMX
+WampurrMini::     INCBIN "gfx/minis/wampurr.2bpp.lzp"
+WampurrMiniMask:: INCBIN "gfx/minis/wampurr_mask.1bpp.lzp"
+WampurrIcon::     INCBIN "gfx/icons/wampurr.2bpp.lzp"

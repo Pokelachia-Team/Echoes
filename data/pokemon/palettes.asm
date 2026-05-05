@@ -601,6 +601,8 @@ INCLUDE "gfx/pokemon/debrite/normal.pal"
 INCLUDE "gfx/pokemon/debrite/shiny.pal"
 INCLUDE "gfx/pokemon/castorch/normal.pal"
 INCLUDE "gfx/pokemon/castorch/shiny.pal"
+INCLUDE "gfx/pokemon/wampurr/normal.pal"
+INCLUDE "gfx/pokemon/wampurr/shiny.pal"
 	assert_table_length NUM_SPECIES + 1
 
 INCLUDE "gfx/pokemon/gyarados_red/normal.pal"
@@ -691,6 +693,9 @@ INCLUDE "gfx/pokemon/tauros_paldean_fire/normal.pal"
 INCLUDE "gfx/pokemon/tauros_paldean_fire/shiny.pal"
 INCLUDE "gfx/pokemon/tauros_paldean_water/normal.pal"
 INCLUDE "gfx/pokemon/tauros_paldean_water/shiny.pal"
+
+INCLUDE "gfx/pokemon/meowth_folkoran/normal.pal"
+INCLUDE "gfx/pokemon/meowth_folkoran/shiny.pal"
 
 INCLUDE "gfx/pokemon/ursaluna_bloodmoon/normal.pal"
 INCLUDE "gfx/pokemon/ursaluna_bloodmoon/shiny.pal"

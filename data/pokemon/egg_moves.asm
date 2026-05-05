@@ -235,6 +235,15 @@ MeowthAlolanEggSpeciesMoves:
 	db NIGHT_SLASH
 	db $ff
 
+MeowthFolkoranEggSpeciesMoves:
+	dp MEOWTH, FOLKORAN_FORM
+	db CHARM
+	db HYPNOSIS
+	db AMNESIA
+	db LEER
+	db NIGHT_SLASH
+	db $ff
+
 MeowthGalarianEggSpeciesMoves:
 	dp MEOWTH, GALARIAN_FORM
 	db CHARM

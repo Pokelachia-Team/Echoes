@@ -318,6 +318,7 @@
 	const POLTEGEIST ; 125
 	const DEBRITE	 ; 126
 	const CASTORCH	 ; 127
+	const WAMPURR	 ; 128
 DEF NUM_SPECIES EQU const_value - 1 ; 123
 DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121
 
@@ -495,6 +496,10 @@ DEF PALDEAN_FORM EQU 5
 	ext_const_def 2
 	ext_const TAUROS_PALDEAN_FIRE_FORM  ; 188 (2)
 	ext_const TAUROS_PALDEAN_WATER_FORM ; 189 (3)
+
+; folkoran forms
+DEF FOLKORAN_FORM EQU 6
+	const_skip ; 188 meowth
 
 ; ursaluna
 	ext_const_def 2
