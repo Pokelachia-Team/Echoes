@@ -655,7 +655,7 @@ TimburrPokedexEntry::
 	next "lifting rocks in"
 	next "the mountains. It"
 	page "can even pick up a"
-	next "Graveler with"
+	next "Boldore with"
 	next "ease.@"
 
 SECTION "GurdurrPokedexEntry", ROMX
@@ -728,8 +728,8 @@ TentacruelPokedexEntry::
 	next "to entangle its"
 	next "prey.@"
 
-SECTION "GeodudePlainPokedexEntry", ROMX
-GeodudePlainPokedexEntry::
+SECTION "RoggenrolaPokedexEntry", ROMX
+RoggenrolaPokedexEntry::
 	db "Rock@"
 	db   "Proud of their"
 	next "sturdy bodies,"
@@ -738,8 +738,8 @@ GeodudePlainPokedexEntry::
 	next "contest to prove"
 	next "whose is harder.@"
 
-SECTION "GravelerPlainPokedexEntry", ROMX
-GravelerPlainPokedexEntry::
+SECTION "BoldorePokedexEntry", ROMX
+BoldorePokedexEntry::
 	db "Rock@"
 	db   "It travels by rol-"
 	next "ling on mountain"
@@ -748,8 +748,8 @@ GravelerPlainPokedexEntry::
 	next "stops by running"
 	next "into huge rocks.@"
 
-SECTION "GolemPlainPokedexEntry", ROMX
-GolemPlainPokedexEntry::
+SECTION "GigalithPokedexEntry", ROMX
+GigalithPokedexEntry::
 	db "Megaton@"
 	db   "Its rock-like body"
 	next "is so durable,"
@@ -1012,8 +1012,8 @@ ElectrodePokedexEntry::
 	next "makes it more"
 	next "likely to explode.@"
 
-SECTION "ExeggcutePokedexEntry", ROMX
-ExeggcutePokedexEntry::
+SECTION "CottoneePokedexEntry", ROMX
+CottoneePokedexEntry::
 	db "Egg@"
 	db   "If even one is"
 	next "separated from the"
@@ -1022,15 +1022,15 @@ ExeggcutePokedexEntry::
 	next "six will make them"
 	next "rejoin instantly.@"
 
-SECTION "ExeggutorPlainPokedexEntry", ROMX
-ExeggutorPlainPokedexEntry::
+SECTION "WhimsicottPokedexEntry", ROMX
+WhimsicottPokedexEntry::
 	db "Coconut@"
 	db   "Living in a good"
 	next "environment makes"
 	next "it grow lots of"
 	page "heads. A head that"
 	next "drops off becomes"
-	next "an Exeggcute.@"
+	next "an Cottonee.@"
 
 SECTION "CubonePokedexEntry", ROMX
 CubonePokedexEntry::
@@ -3031,16 +3031,6 @@ MukAlolanPokedexEntry::
 	next "its favorite"
 	next "dish--trash.@"
 
-SECTION "ExeggutorAlolanPokedexEntry", ROMX
-ExeggutorAlolanPokedexEntry::
-	db "Coconut@"
-	db   "It swings its long"
-	next "neck like a whip"
-	next "and smacks its"
-	page "opponents. This"
-	next "makes Exeggutor"
-	next "itself dizzy, too.@"
-
 SECTION "MarowakAlolanPokedexEntry", ROMX
 MarowakAlolanPokedexEntry::
 	db "Bone Keeper@"
@@ -3070,36 +3060,6 @@ PersianAlolanPokedexEntry::
 	page "fur in the heat of"
 	next "battle has a bea-"
 	next "uty all its own.@"
-
-SECTION "GeodudeAlolanPokedexEntry", ROMX
-GeodudeAlolanPokedexEntry::
-	db "Rock@"
-	db   "Its body is a mag-"
-	next "netic stone. Iron"
-	next "sand attaches to"
-	page "the portions of"
-	next "its body that are"
-	next "the most magnetic.@"
-
-SECTION "GravelerAlolanPokedexEntry", ROMX
-GravelerAlolanPokedexEntry::
-	db "Rock@"
-	db   "Its entire body is"
-	next "tinged with elec-"
-	next "tricity due to the"
-	page "stones it likes to"
-	next "eat. It's very"
-	next "quick-tempered.@"
-
-SECTION "GolemAlolanPokedexEntry", ROMX
-GolemAlolanPokedexEntry::
-	db "Megaton@"
-	db   "It fires rocks"
-	next "charged with elec-"
-	next "tricity. Just"
-	page "grazing an oppo-"
-	next "nent causes numb-"
-	next "ness and fainting.@"
 
 SECTION "PonytaGalarianPokedexEntry", ROMX
 PonytaGalarianPokedexEntry::

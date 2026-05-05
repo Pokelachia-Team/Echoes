@@ -1471,8 +1471,8 @@ evos_attacks Cupico
 	learnset 48, SLUDGE_BOMB ; Sludge Wave → TM move
 	learnset 52, HYDRO_PUMP
 
-	evos_attacks GeodudePlain
-	evo_data EVOLVE_LEVEL, 25, GRAVELER, PLAIN_FORM
+	evos_attacks Roggenrola
+	evo_data EVOLVE_LEVEL, 25, BOLDORE, PLAIN_FORM
 	learnset 1, TACKLE
 	learnset 1, DEFENSE_CURL
 	learnset 4, MUD_SLAP ; Mud Sport → TM move
@@ -1490,8 +1490,8 @@ evos_attacks Cupico
 	learnset 40, DOUBLE_EDGE
 	learnset 42, STONE_EDGE
 
-	evos_attacks GravelerPlain
-	evo_data EVOLVE_TRADE, LINKING_CORD, GOLEM, PLAIN_FORM
+	evos_attacks Boldore
+	evo_data EVOLVE_TRADE, LINKING_CORD, GIGALITH, PLAIN_FORM
 	learnset 1, TACKLE
 	learnset 1, DEFENSE_CURL
 	learnset 4, MUD_SLAP ; Mud Sport → TM move
@@ -1509,7 +1509,7 @@ evos_attacks Cupico
 	learnset 50, DOUBLE_EDGE
 	learnset 54, STONE_EDGE
 
-	evos_attacks GolemPlain
+	evos_attacks Gigalith
 	learnset 1, TACKLE
 	learnset 1, DEFENSE_CURL
 	learnset 4, MUD_SLAP ; Mud Sport → TM move
@@ -1523,63 +1523,6 @@ evos_attacks Cupico
 	learnset 30, SANDSTORM ; Stealth Rock → TM move
 	learnset 34, ROCK_SLIDE ; Rock Blast → TM move
 	learnset 40, EARTHQUAKE
-	learnset 44, EXPLOSION
-	learnset 50, DOUBLE_EDGE
-	learnset 54, STONE_EDGE
-	learnset 60, GYRO_BALL ; Heavy Slam → similar move
-
-	evos_attacks GeodudeAlolan
-	evo_data EVOLVE_LEVEL, 25, GRAVELER, ALOLAN_FORM
-	learnset 1, TACKLE
-	learnset 1, DEFENSE_CURL
-	learnset 4, THUNDERSHOCK ; Charge → new move
-	learnset 6, RAPID_SPIN ; Rock Polish → event move
-	learnset 10, ROLLOUT
-	learnset 12, SPARK
-	learnset 16, ROCK_THROW
-	learnset 18, ANCIENTPOWER ; Smack Down → HGSS tutor move
-	learnset 22, THUNDERPUNCH
-	learnset 24, ROCK_BLAST ; Self-Destruct → Rock Blast
-	learnset 28, SANDSTORM ; Stealth Rock → TM move
-	learnset 30, ROCK_SLIDE ; Rock Blast → TM move
-	learnset 34, WILD_CHARGE ; Discharge → new move
-	learnset 36, EXPLOSION
-	learnset 40, DOUBLE_EDGE
-	learnset 42, STONE_EDGE
-
-	evos_attacks GravelerAlolan
-	evo_data EVOLVE_TRADE, LINKING_CORD, GOLEM, ALOLAN_FORM
-	learnset 1, TACKLE
-	learnset 1, DEFENSE_CURL
-	learnset 4, THUNDERSHOCK ; Charge → new move
-	learnset 6, RAPID_SPIN ; Rock Polish → event move
-	learnset 10, ROLLOUT
-	learnset 12, SPARK
-	learnset 16, ROCK_THROW
-	learnset 18, ANCIENTPOWER ; Smack Down → HGSS tutor move
-	learnset 22, THUNDERPUNCH
-	learnset 24, ROCK_BLAST ; Self-Destruct → Rock Blast
-	learnset 30, SANDSTORM ; Stealth Rock → TM move
-	learnset 34, ROCK_SLIDE ; Rock Blast → TM move
-	learnset 40, WILD_CHARGE ; Discharge → new move
-	learnset 44, EXPLOSION
-	learnset 50, DOUBLE_EDGE
-	learnset 54, STONE_EDGE
-
-	evos_attacks GolemAlolan
-	learnset 1, TACKLE
-	learnset 1, DEFENSE_CURL
-	learnset 4, THUNDERSHOCK ; Charge → new move
-	learnset 6, RAPID_SPIN ; Rock Polish → event move
-	learnset 10, ROLLOUT
-	learnset 12, SPARK
-	learnset 16, ROCK_THROW
-	learnset 18, ANCIENTPOWER ; Smack Down → HGSS tutor move
-	learnset 22, THUNDERPUNCH
-	learnset 24, ROCK_BLAST ; Self-Destruct → Rock Blast
-	learnset 30, SANDSTORM ; Stealth Rock → TM move
-	learnset 34, ROCK_SLIDE ; Rock Blast → TM move
-	learnset 40, WILD_CHARGE ; Discharge → new move
 	learnset 44, EXPLOSION
 	learnset 50, DOUBLE_EDGE
 	learnset 54, STONE_EDGE
@@ -2235,9 +2178,8 @@ endc
 	learnset 54, GYRO_BALL
 	learnset 58, MIRROR_COAT
 
-	evos_attacks Exeggcute
-	evo_data EVOLVE_ITEM, LEAF_STONE, EXEGGUTOR, PLAIN_FORM
-	evo_data EVOLVE_ITEM, ODD_SOUVENIR, EXEGGUTOR, ALOLAN_FORM
+	evos_attacks Cottonee
+	evo_data EVOLVE_ITEM, LEAF_STONE, WHIMSICOTT, PLAIN_FORM
 	learnset 1, TACKLE ; Barrage → new move
 	learnset 1, HYPNOSIS
 	learnset 7, REFLECT
@@ -2254,7 +2196,7 @@ endc
 	learnset 47, EXTRASENSORY
 	learnset 50, PSYCHIC_M ; Bestow → TM move
 
-	evos_attacks ExeggutorPlain
+	evos_attacks Whimsicott
 	learnset 1, TACKLE ; Barrage → new move
 	learnset 1, HYPNOSIS
 	learnset 1, CONFUSION
@@ -2263,16 +2205,6 @@ endc
 	learnset 27, ZEN_HEADBUTT ; Egg Bomb → tutor move
 	learnset 37, POWER_WHIP ; Wood Hammer → new move
 	learnset 47, PETAL_DANCE ; Leaf Storm → new move
-
-	evos_attacks ExeggutorAlolan
-	learnset 1, TACKLE ; Barrage → new move
-	learnset 1, HYPNOSIS
-	learnset 1, CONFUSION
-	learnset 1, DRAGON_PULSE ; evolution move
-	learnset 17, DRAGON_RAGE ; Psyshock → new move
-	learnset 27, ZEN_HEADBUTT ; Egg Bomb → tutor move
-	learnset 37, POWER_WHIP ; Wood Hammer → new move
-	learnset 47, OUTRAGE ; Leaf Storm → S/M TM move
 
 	evos_attacks Cubone
 	evo_data EVOLVE_LEVEL, 28, MAROWAK, PLAIN_FORM

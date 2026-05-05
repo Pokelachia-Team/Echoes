@@ -74,9 +74,9 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  32, 100 ; Victreebel
 	db   1,  29 ; Tentacool
 	db  30, 100 ; Tentacruel
-	db   1,  24 ; Geodude
-	db  25,  44 ; Graveler
-	db  45, 100 ; Golem
+	db   1,  24 ; Roggenrola
+	db  25,  44 ; Boldore
+	db  45, 100 ; Gigalith
 	db   1,  39 ; Ponyta
 	db  40, 100 ; Rapidash
 	db   1,  36 ; Slowpoke
@@ -102,8 +102,8 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  28, 100 ; Crawdaunt
 	db   1,  29 ; Voltorb
 	db  30, 100 ; Electrode
-	db   1,  29 ; Exeggcute
-	db  30, 100 ; Exeggutor
+	db   1,  29 ; Cottonee
+	db  30, 100 ; Whimsicott
 	db   1,  27 ; Cubone
 	db  28, 100 ; Marowak
 	db  20, 100 ; Hitmonlee

@@ -44,9 +44,9 @@ NewPokedexOrder:
 	dp LEDIAN
 	dp JOLTIK
 	dp GALVANTULA
-	dp GEODUDE
-	dp GRAVELER
-	dp GOLEM
+	dp ROGGENROLA
+	dp BOLDORE
+	dp GIGALITH
 	dp ZUBAT
 	dp GOLBAT
 	dp CROBAT
@@ -120,8 +120,8 @@ NewPokedexOrder:
 	dp YANMEGA
 	dp SUNKERN
 	dp SUNFLORA
-	dp EXEGGCUTE
-	dp EXEGGUTOR
+	dp COTTONEE
+	dp WHIMSICOTT
 	dp BONSLY
 	dp SUDOWOODO
 	dp VENONAT

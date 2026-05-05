@@ -23,7 +23,7 @@ MultipleEvolutions:
 	multi_evo SLOWPOKE
 	multi_evo SLOWPOKE, GALARIAN_FORM, EVOLVE_SLOWPOKE_GALARIAN
 	multi_evo MAGNETON
-	multi_evo EXEGGCUTE
+	multi_evo COTTONEE
 	multi_evo KOFFING
 	multi_evo CUBONE
 	multi_evo SCYTHER

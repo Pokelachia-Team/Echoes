@@ -54,34 +54,34 @@ TreeMonSet_Route:
 	tree_mon 50, HOOTHOOT,   10
 	tree_mon 15, JOLTIK,   10
 	tree_mon 15, LEDYBA,     10
-	tree_mon 20, EXEGGCUTE,  10
+	tree_mon 20, COTTONEE,  10
 	db -1
 	; rare
 	tree_mon 40, MURKROW,    10
 	tree_mon 40, PINECO,     10
-	tree_mon 20, EXEGGCUTE,  10
+	tree_mon 20, COTTONEE,  10
 	db -1
 
 TreeMonSet_Kanto:
 	tree_mon 65, HOOTHOOT,   10
 	tree_mon 15, EKANS,      10
-	tree_mon 20, EXEGGCUTE,  10
+	tree_mon 20, COTTONEE,  10
 	db -1
 	; rare
 	tree_mon 40, MURKROW,    10
 	tree_mon 40, PINECO,     10
-	tree_mon 20, EXEGGCUTE,  10
+	tree_mon 20, COTTONEE,  10
 	db -1
 
 TreeMonSet_Lake:
 	tree_mon 65, HOOTHOOT,   10
 	tree_mon 15, VENONAT,    10
-	tree_mon 20, EXEGGCUTE,  10
+	tree_mon 20, COTTONEE,  10
 	db -1
 	; rare
 	tree_mon 50, HOOTHOOT,   10
 	tree_mon 30, PINECO,     10
-	tree_mon 20, EXEGGCUTE,  10
+	tree_mon 20, COTTONEE,  10
 	db -1
 
 TreeMonSet_Forest:
@@ -125,6 +125,6 @@ TreeMonSet_NoisyForest:
 
 TreeMonSet_Rock:
 	tree_mon 70, CORPHISH,     15
-	tree_mon 25, GEODUDE,    15
+	tree_mon 25, ROGGENROLA,    15
 	tree_mon  5, DOOZEE,    15
 	db -1

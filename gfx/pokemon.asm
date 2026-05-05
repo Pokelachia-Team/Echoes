@@ -378,10 +378,10 @@ CrawdauntFrontpic: INCBIN "gfx/pokemon/crawdaunt/front.animated.2bpp.lzp"
 CrawdauntBackpic:  INCBIN "gfx/pokemon/crawdaunt/back.2bpp.lzp"
 CrawdauntFrames:   INCLUDE "gfx/pokemon/crawdaunt/frames.asm"
 
-SECTION "Exeggcute Pics", ROMX
-ExeggcuteFrontpic: INCBIN "gfx/pokemon/exeggcute/front.animated.2bpp.lzp"
-ExeggcuteBackpic:  INCBIN "gfx/pokemon/exeggcute/back.2bpp.lzp"
-ExeggcuteFrames:   INCLUDE "gfx/pokemon/exeggcute/frames.asm"
+SECTION "Cottonee Pics", ROMX
+CottoneeFrontpic: INCBIN "gfx/pokemon/cottonee/front.animated.2bpp.lzp"
+CottoneeBackpic:  INCBIN "gfx/pokemon/cottonee/back.2bpp.lzp"
+CottoneeFrames:   INCLUDE "gfx/pokemon/cottonee/frames.asm"
 
 SECTION "Cubone Pics", ROMX
 CuboneFrontpic: INCBIN "gfx/pokemon/cubone/front.animated.2bpp.lzp"
@@ -1608,35 +1608,20 @@ PerrserkerFrontpic: INCBIN "gfx/pokemon/perrserker/front.animated.2bpp.lzp"
 PerrserkerBackpic:  INCBIN "gfx/pokemon/perrserker/back.2bpp.lzp"
 PerrserkerFrames:   INCLUDE "gfx/pokemon/perrserker/frames.asm"
 
-SECTION "GeodudePlain Pics", ROMX
-GeodudePlainFrontpic: INCBIN "gfx/pokemon/geodude_plain/front.animated.2bpp.lzp"
-GeodudePlainBackpic:  INCBIN "gfx/pokemon/geodude_plain/back.2bpp.lzp"
-GeodudePlainFrames:   INCLUDE "gfx/pokemon/geodude_plain/frames.asm"
+SECTION "Roggenrola Pics", ROMX
+RoggenrolaFrontpic: INCBIN "gfx/pokemon/roggenrola/front.animated.2bpp.lzp"
+RoggenrolaBackpic:  INCBIN "gfx/pokemon/roggenrola/back.2bpp.lzp"
+RoggenrolaFrames:   INCLUDE "gfx/pokemon/roggenrola/frames.asm"
 
-SECTION "GravelerPlain Pics", ROMX
-GravelerPlainFrontpic: INCBIN "gfx/pokemon/graveler_plain/front.animated.2bpp.lzp"
-GravelerPlainBackpic:  INCBIN "gfx/pokemon/graveler_plain/back.2bpp.lzp"
-GravelerPlainFrames:   INCLUDE "gfx/pokemon/graveler_plain/frames.asm"
+SECTION "Boldore Pics", ROMX
+BoldoreFrontpic: INCBIN "gfx/pokemon/boldore/front.animated.2bpp.lzp"
+BoldoreBackpic:  INCBIN "gfx/pokemon/boldore/back.2bpp.lzp"
+BoldoreFrames:   INCLUDE "gfx/pokemon/boldore/frames.asm"
 
-SECTION "GolemPlain Pics", ROMX
-GolemPlainFrontpic: INCBIN "gfx/pokemon/golem_plain/front.animated.2bpp.lzp"
-GolemPlainBackpic:  INCBIN "gfx/pokemon/golem_plain/back.2bpp.lzp"
-GolemPlainFrames:   INCLUDE "gfx/pokemon/golem_plain/frames.asm"
-
-SECTION "GeodudeAlolan Pics", ROMX
-GeodudeAlolanFrontpic: INCBIN "gfx/pokemon/geodude_alolan/front.animated.2bpp.lzp"
-GeodudeAlolanBackpic:  INCBIN "gfx/pokemon/geodude_alolan/back.2bpp.lzp"
-GeodudeAlolanFrames:   INCLUDE "gfx/pokemon/geodude_alolan/frames.asm"
-
-SECTION "GravelerAlolan Pics", ROMX
-GravelerAlolanFrontpic: INCBIN "gfx/pokemon/graveler_alolan/front.animated.2bpp.lzp"
-GravelerAlolanBackpic:  INCBIN "gfx/pokemon/graveler_alolan/back.2bpp.lzp"
-GravelerAlolanFrames:   INCLUDE "gfx/pokemon/graveler_alolan/frames.asm"
-
-SECTION "GolemAlolan Pics", ROMX
-GolemAlolanFrontpic: INCBIN "gfx/pokemon/golem_alolan/front.animated.2bpp.lzp"
-GolemAlolanBackpic:  INCBIN "gfx/pokemon/golem_alolan/back.2bpp.lzp"
-GolemAlolanFrames:   INCLUDE "gfx/pokemon/golem_alolan/frames.asm"
+SECTION "Gigalith Pics", ROMX
+GigalithFrontpic: INCBIN "gfx/pokemon/gigalith/front.animated.2bpp.lzp"
+GigalithBackpic:  INCBIN "gfx/pokemon/gigalith/back.2bpp.lzp"
+GigalithFrames:   INCLUDE "gfx/pokemon/gigalith/frames.asm"
 
 SECTION "GrimerPlain Pics", ROMX
 GrimerPlainFrontpic: INCBIN "gfx/pokemon/grimer_plain/front.animated.2bpp.lzp"
@@ -1668,15 +1653,10 @@ RaichuAlolanFrontpic: INCBIN "gfx/pokemon/raichu_alolan/front.animated.2bpp.lzp"
 RaichuAlolanBackpic:  INCBIN "gfx/pokemon/raichu_alolan/back.2bpp.lzp"
 RaichuAlolanFrames:   INCLUDE "gfx/pokemon/raichu_alolan/frames.asm"
 
-SECTION "ExeggutorPlain Pics", ROMX
-ExeggutorPlainFrontpic: INCBIN "gfx/pokemon/exeggutor_plain/front.animated.2bpp.lzp"
-ExeggutorPlainBackpic:  INCBIN "gfx/pokemon/exeggutor_plain/back.2bpp.lzp"
-ExeggutorPlainFrames:   INCLUDE "gfx/pokemon/exeggutor_plain/frames.asm"
-
-SECTION "ExeggutorAlolan Pics", ROMX
-ExeggutorAlolanFrontpic: INCBIN "gfx/pokemon/exeggutor_alolan/front.animated.2bpp.lzp"
-ExeggutorAlolanBackpic:  INCBIN "gfx/pokemon/exeggutor_alolan/back.2bpp.lzp"
-ExeggutorAlolanFrames:   INCLUDE "gfx/pokemon/exeggutor_alolan/frames.asm"
+SECTION "Whimsicott Pics", ROMX
+WhimsicottFrontpic: INCBIN "gfx/pokemon/whimsicott/front.animated.2bpp.lzp"
+WhimsicottBackpic:  INCBIN "gfx/pokemon/whimsicott/back.2bpp.lzp"
+WhimsicottFrames:   INCLUDE "gfx/pokemon/whimsicott/frames.asm"
 
 SECTION "MarowakPlain Pics", ROMX
 MarowakPlainFrontpic: INCBIN "gfx/pokemon/marowak_plain/front.animated.2bpp.lzp"

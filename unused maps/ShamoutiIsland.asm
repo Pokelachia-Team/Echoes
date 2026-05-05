@@ -20,7 +20,7 @@ ShamoutiIsland_MapScriptHeader:
 	bg_event 32,  6, BGEVENT_JUMPTEXT, ShamoutiHotelSignText
 
 	def_object_events
-	object_event 16,  8, SPRITE_ALOLAN_EXEGGUTOR, SPRITEMOVEDATA_ALOLAN_EXEGGUTOR, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, ShamoutiIslandAlolanExeggutorScript, EVENT_SHAMOUTI_ISLAND_ALOLAN_EXEGGUTOR
+	object_event 16,  8, SPRITE_ALOLAN_EXEGGUTOR, SPRITEMOVEDATA_ALOLAN_EXEGGUTOR, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, ShamoutiIslandAlolanWhimsicottScript, EVENT_SHAMOUTI_ISLAND_ALOLAN_EXEGGUTOR
 	object_event 16,  7, SPRITE_BLANK_FRUIT, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_SHAMOUTI_ISLAND_ALOLAN_EXEGGUTOR
 	fruittree_event 34, 13, FRUITTREE_SHAMOUTI_ISLAND, FIGY_BERRY, PAL_NPC_BROWN
 	object_event 24, 14, SPRITE_AROMA_LADY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, ShamoutiIslandWilhomenaScript, EVENT_SHAMOUTI_ISLAND_WILHOMENA
@@ -38,7 +38,7 @@ ShamoutiIslandFlyPoint:
 	setflag ENGINE_FLYPOINT_SHAMOUTI
 	endcallback
 
-ShamoutiIslandAlolanExeggutorScript:
+ShamoutiIslandAlolanWhimsicottScript:
 	special SpecialSnorlaxAwake
 	iftruefwd .Awake
 	applyonemovement SHAMOUTIISLAND_ALOLAN_EXEGGUTOR, exeggutor_shake
@@ -56,11 +56,11 @@ ShamoutiIslandAlolanExeggutorScript:
 	applyonemovement SHAMOUTIISLAND_ALOLAN_EXEGGUTOR, exeggutor_shake
 	opentext
 	writetext .WokeUpText
-	cry EXEGGUTOR, ALOLAN_FORM
+	cry WHIMSICOTT, ALOLAN_FORM
 	pause 15
 	closetext
 	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCEITEM
-	loadwildmon EXEGGUTOR, ALOLAN_FORM, 60
+	loadwildmon WHIMSICOTT, ALOLAN_FORM, 60
 	startbattle
 	disappear SHAMOUTIISLAND_ALOLAN_EXEGGUTOR
 	disappear SHAMOUTIISLAND_ALOLAN_EXEGGUTOR_HEAD

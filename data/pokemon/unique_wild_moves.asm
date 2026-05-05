@@ -14,7 +14,7 @@ UniqueWildMoves:
 	; event mons (100% chance, see engine/battle/unique_wild_moves.asm)
 	; unique_moves MAHOGANY_TOWN,    VOLTORB,    EXPLOSION    ; TeamRocketBaseB1F
 	; unique_moves MAHOGANY_TOWN,    KOFFING,    EXPLOSION    ; TeamRocketBaseB1F
-	; unique_moves MAHOGANY_TOWN,    GEODUDE,    EXPLOSION    ; TeamRocketBaseB1F
+	; unique_moves MAHOGANY_TOWN,    ROGGENROLA,    EXPLOSION    ; TeamRocketBaseB1F
 	; unique_moves UNION_CAVE,       LAPRAS,     SHELL_SMASH  ; UnionCaveB2F, Fridays
 	; wild mons
 	; unique_moves CHERRYGROVE_BAY,  CORSOLA,    SUCKER_PUNCH ; HGSS tutor move
@@ -44,13 +44,13 @@ UniqueWildMoves:
 	; unique_moves VIRIDIAN_FOREST,  PIKACHU,    DISARM_VOICE ; Sketch-breed move
 	; unique_moves MT_MOON,          0,          0
 	; unique_moves CERULEAN_CAVE,    CONKELDURR,    METRONOME    ; RBY TM move
-	; unique_moves CERULEAN_CAVE,    GOLEM,      METRONOME    ; RBY TM move
+	; unique_moves CERULEAN_CAVE,    GIGALITH,      METRONOME    ; RBY TM move
 	; unique_moves CERULEAN_CAVE,    GENGAR,     METRONOME    ; RBY TM move
 	; unique_moves CERULEAN_CAVE,    ALAKAZAM,   METRONOME    ; RBY TM move
 	; unique_moves CERULEAN_CAPE,    POLIWHIRL,  METRONOME    ; RBY TM move
 	; unique_moves DIGLETTS_CAVE,    DUGTRIO,    SCREECH      ; Sw/Sh move
 	; unique_moves ROCK_TUNNEL,      ELECTABUZZ, METRONOME    ; RBY TM move
-	; unique_moves DIM_CAVE,         GRAVELER,   SUCKER_PUNCH ; HGSS tutor move
+	; unique_moves DIM_CAVE,         BOLDORE,   SUCKER_PUNCH ; HGSS tutor move
 	; unique_moves DIM_CAVE,         RHYDON,     CRUNCH       ; Prism tutor move
 	; unique_moves SOUL_HOUSE,       HAUNTER,    MOONBLAST    ; Prism tutor move
 	; unique_moves SOUL_HOUSE,       MISDREAVUS, HEAL_BELL    ; HGSS tutor move

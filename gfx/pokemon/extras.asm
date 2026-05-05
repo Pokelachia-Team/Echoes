@@ -72,7 +72,7 @@ DrowzeeAnimationExtra:    INCLUDE "gfx/pokemon/drowzee/anim_idle.asm"
 HypnoAnimationExtra:      INCLUDE "gfx/pokemon/hypno/anim_idle.asm"
 CorphishAnimationExtra:     INCLUDE "gfx/pokemon/corphish/anim_idle.asm"
 CrawdauntAnimationExtra:    INCLUDE "gfx/pokemon/crawdaunt/anim_idle.asm"
-ExeggcuteAnimationExtra:  INCLUDE "gfx/pokemon/exeggcute/anim_idle.asm"
+CottoneeAnimationExtra:  INCLUDE "gfx/pokemon/cottonee/anim_idle.asm"
 CuboneAnimationExtra:     INCLUDE "gfx/pokemon/cubone/anim_idle.asm"
 HitmonleeAnimationExtra:  INCLUDE "gfx/pokemon/hitmonlee/anim_idle.asm"
 HitmonchanAnimationExtra: INCLUDE "gfx/pokemon/hitmonchan/anim_idle.asm"
@@ -356,14 +356,9 @@ MeowthGalarianAnimationExtra: INCLUDE "gfx/pokemon/meowth_galarian/anim_idle.asm
 PersianPlainAnimationExtra:  INCLUDE "gfx/pokemon/persian_plain/anim_idle.asm"
 PersianAlolanAnimationExtra: INCLUDE "gfx/pokemon/persian_alolan/anim_idle.asm"
 
-GeodudePlainAnimationExtra:  INCLUDE "gfx/pokemon/geodude_plain/anim_idle.asm"
-GeodudeAlolanAnimationExtra: INCLUDE "gfx/pokemon/geodude_alolan/anim_idle.asm"
-
-GravelerPlainAnimationExtra:  INCLUDE "gfx/pokemon/graveler_plain/anim_idle.asm"
-GravelerAlolanAnimationExtra: INCLUDE "gfx/pokemon/graveler_alolan/anim_idle.asm"
-
-GolemPlainAnimationExtra:  INCLUDE "gfx/pokemon/golem_plain/anim_idle.asm"
-GolemAlolanAnimationExtra: INCLUDE "gfx/pokemon/golem_alolan/anim_idle.asm"
+RoggenrolaAnimationExtra:  INCLUDE "gfx/pokemon/roggenrola/anim_idle.asm"
+BoldoreAnimationExtra:  INCLUDE "gfx/pokemon/boldore/anim_idle.asm"
+GigalithAnimationExtra:  INCLUDE "gfx/pokemon/gigalith/anim_idle.asm"
 
 GrimerPlainAnimationExtra:  INCLUDE "gfx/pokemon/grimer_plain/anim_idle.asm"
 GrimerAlolanAnimationExtra: INCLUDE "gfx/pokemon/grimer_alolan/anim_idle.asm"
@@ -371,8 +366,7 @@ GrimerAlolanAnimationExtra: INCLUDE "gfx/pokemon/grimer_alolan/anim_idle.asm"
 MukPlainAnimationExtra:  INCLUDE "gfx/pokemon/muk_plain/anim_idle.asm"
 MukAlolanAnimationExtra: INCLUDE "gfx/pokemon/muk_alolan/anim_idle.asm"
 
-ExeggutorPlainAnimationExtra:  INCLUDE "gfx/pokemon/exeggutor_plain/anim_idle.asm"
-ExeggutorAlolanAnimationExtra: INCLUDE "gfx/pokemon/exeggutor_alolan/anim_idle.asm"
+WhimsicottAnimationExtra:  INCLUDE "gfx/pokemon/whimsicott/anim_idle.asm"
 
 MarowakPlainAnimationExtra:  INCLUDE "gfx/pokemon/marowak_plain/anim_idle.asm"
 MarowakAlolanAnimationExtra: INCLUDE "gfx/pokemon/marowak_alolan/anim_idle.asm"

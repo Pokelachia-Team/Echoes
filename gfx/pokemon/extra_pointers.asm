@@ -73,9 +73,9 @@ AnimationExtraPointers:
 	dw VictreebelAnimationExtra
 	dw TentacoolAnimationExtra
 	dw TentacruelAnimationExtra
-	dw GeodudePlainAnimationExtra
-	dw GravelerPlainAnimationExtra
-	dw GolemPlainAnimationExtra
+	dw RoggenrolaAnimationExtra
+	dw BoldoreAnimationExtra
+	dw GigalithAnimationExtra
 	dw PonytaPlainAnimationExtra
 	dw RapidashPlainAnimationExtra
 	dw SlowpokePlainAnimationExtra
@@ -101,8 +101,8 @@ AnimationExtraPointers:
 	dw CrawdauntAnimationExtra
 	dw VoltorbPlainAnimationExtra
 	dw ElectrodePlainAnimationExtra
-	dw ExeggcuteAnimationExtra
-	dw ExeggutorPlainAnimationExtra
+	dw CottoneeAnimationExtra
+	dw WhimsicottAnimationExtra
 	dw CuboneAnimationExtra
 	dw MarowakPlainAnimationExtra
 	dw HitmonleeAnimationExtra
@@ -378,12 +378,8 @@ AnimationExtraPointers:
 	dw DugtrioAlolanAnimationExtra
 	dw MeowthAlolanAnimationExtra
 	dw PersianAlolanAnimationExtra
-	dw GeodudeAlolanAnimationExtra
-	dw GravelerAlolanAnimationExtra
-	dw GolemAlolanAnimationExtra
 	dw GrimerAlolanAnimationExtra
 	dw MukAlolanAnimationExtra
-	dw ExeggutorAlolanAnimationExtra
 	dw MarowakAlolanAnimationExtra
 
 	dw MeowthGalarianAnimationExtra

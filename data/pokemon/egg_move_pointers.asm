@@ -73,9 +73,9 @@ EggSpeciesMovesPointers::
 	dw BellsproutEggSpeciesMoves        ; Victreebel
 	dw TentacoolEggSpeciesMoves         ; Tentacool
 	dw TentacoolEggSpeciesMoves         ; Tentacruel
-	dw GeodudePlainEggSpeciesMoves      ; Geodude
-	dw GeodudePlainEggSpeciesMoves      ; Graveler
-	dw GeodudePlainEggSpeciesMoves      ; Golem
+	dw RoggenrolaEggSpeciesMoves      ; Roggenrola
+	dw RoggenrolaEggSpeciesMoves      ; Boldore
+	dw RoggenrolaEggSpeciesMoves      ; Gigalith
 	dw PonytaPlainEggSpeciesMoves       ; Ponyta
 	dw PonytaPlainEggSpeciesMoves       ; Rapidash
 	dw SlowpokePlainEggSpeciesMoves     ; Slowpoke
@@ -101,8 +101,8 @@ EggSpeciesMovesPointers::
 	dw CorphishEggSpeciesMoves            ; Crawdaunt
 	dw VoltorbPlainEggSpeciesMoves      ; Voltorb
 	dw VoltorbPlainEggSpeciesMoves      ; Electrode
-	dw ExeggcuteEggSpeciesMoves         ; Exeggcute
-	dw ExeggcuteEggSpeciesMoves         ; Exeggutor
+	dw CottoneeEggSpeciesMoves         ; Cottonee
+	dw CottoneeEggSpeciesMoves         ; Whimsicott
 	dw CuboneEggSpeciesMoves            ; Cubone
 	dw CuboneEggSpeciesMoves            ; Marowak
 	dw TyrogueEggSpeciesMoves           ; Hitmonlee
@@ -314,12 +314,8 @@ EggSpeciesMovesPointers::
 	dw DiglettAlolanEggSpeciesMoves     ; Dugtrio (Alolan Form)
 	dw MeowthAlolanEggSpeciesMoves      ; Meowth (Alolan Form)
 	dw MeowthAlolanEggSpeciesMoves      ; Persian (Alolan Form)
-	dw GeodudeAlolanEggSpeciesMoves     ; Geodude (Alolan Form)
-	dw GeodudeAlolanEggSpeciesMoves     ; Graveler (Alolan Form)
-	dw GeodudeAlolanEggSpeciesMoves     ; Golem (Alolan Form)
 	dw GrimerAlolanEggSpeciesMoves      ; Grimer (Alolan Form)
 	dw GrimerAlolanEggSpeciesMoves      ; Muk (Alolan Form)
-	dw ExeggcuteEggSpeciesMoves         ; Exeggutor (Alolan Form)
 	dw CuboneEggSpeciesMoves            ; Marowak (Alolan Form)
 
 	dw MeowthGalarianEggSpeciesMoves    ; Meowth (Galarian Form)

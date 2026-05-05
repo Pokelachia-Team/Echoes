@@ -3,12 +3,14 @@ Footprints:: ; needed for BANK(Footprints)
 VenomothFootprint::
 FliklitFootprint::
 KabutoFootprint::
+RoggenrolaFootprint::
 JoltikFootprint:: INCBIN "gfx/footprints/circle_small.1bpp.lzp"
 
 CaterpieFootprint::
 WeedleFootprint::
 StaryuFootprint::
 StarmieFootprint::
+BoldoreFootprint::
 PorygonZFootprint:: INCBIN "gfx/footprints/circle_large.1bpp.lzp"
 
 UmbreonFootprint::
@@ -37,10 +39,11 @@ DugtrioFootprint::
 DunsparceFootprint::
 EkansFootprint::
 ElectrodeFootprint::
-ExeggcuteFootprint::
+CottoneeFootprint::
+WhimsicottFootprint::
 ForretressFootprint::
 GastlyFootprint::
-GeodudeFootprint::
+GigalithFootprint::
 GoldeenFootprint::
 GrimerFootprint::
 GyaradosFootprint::
@@ -145,8 +148,6 @@ TimburrFootprint:: INCBIN "gfx/footprints/timburr.1bpp.lzp"
 GurdurrFootprint:: INCBIN "gfx/footprints/gurdurr.1bpp.lzp"
 ConkeldurrFootprint:: INCBIN "gfx/footprints/conkeldurr.1bpp.lzp"
 BellsproutFootprint:: INCBIN "gfx/footprints/bellsprout.1bpp.lzp"
-GravelerFootprint:: INCBIN "gfx/footprints/graveler.1bpp.lzp"
-GolemFootprint:: INCBIN "gfx/footprints/golem.1bpp.lzp"
 PonytaFootprint:: INCBIN "gfx/footprints/ponyta.1bpp.lzp"
 RapidashFootprint:: INCBIN "gfx/footprints/rapidash.1bpp.lzp"
 SlowpokeFootprint:: INCBIN "gfx/footprints/slowpoke.1bpp.lzp"
@@ -161,7 +162,6 @@ DrowzeeFootprint:: INCBIN "gfx/footprints/drowzee.1bpp.lzp"
 HypnoFootprint:: INCBIN "gfx/footprints/hypno.1bpp.lzp"
 CorphishFootprint:: INCBIN "gfx/footprints/corphish.1bpp.lzp"
 CrawdauntFootprint:: INCBIN "gfx/footprints/crawdaunt.1bpp.lzp"
-ExeggutorFootprint:: INCBIN "gfx/footprints/exeggutor.1bpp.lzp"
 CuboneFootprint:: INCBIN "gfx/footprints/cubone.1bpp.lzp"
 MarowakFootprint:: INCBIN "gfx/footprints/marowak.1bpp.lzp"
 HitmonleeFootprint:: INCBIN "gfx/footprints/hitmonlee.1bpp.lzp"

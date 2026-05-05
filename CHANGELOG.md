@@ -309,7 +309,7 @@ _Overworld And NPCs:_
 - Lucky Number is now Daily, not Weekly.
 - Moved and added, or removed/replaced some cameo trainers. These include Piers, Katy, Thorton and Melony added, while Skyla was replaced with Marlon and Anabel was moved to the outside of Battle Tower.
 - Many added Pokémon are now available in the wild.
-- Alolan Exeggutor now blocks paths instead of Vileplume.
+- Alolan Whimsicott now blocks paths instead of Vileplume.
 - Added a nurse's office to Celadon University.
 - Added an Endure move tutor.
 - Added Kimono Girls Mako and Mina.

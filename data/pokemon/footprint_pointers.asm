@@ -73,9 +73,9 @@ FootprintPointers::
 	dw VictreebelFootprint
 	dw TentacoolFootprint
 	dw TentacruelFootprint
-	dw GeodudeFootprint
-	dw GravelerFootprint
-	dw GolemFootprint
+	dw RoggenrolaFootprint
+	dw BoldoreFootprint
+	dw GigalithFootprint
 	dw PonytaFootprint
 	dw RapidashFootprint
 	dw SlowpokeFootprint
@@ -101,8 +101,8 @@ FootprintPointers::
 	dw CrawdauntFootprint
 	dw VoltorbFootprint
 	dw ElectrodeFootprint
-	dw ExeggcuteFootprint
-	dw ExeggutorFootprint
+	dw CottoneeFootprint
+	dw WhimsicottFootprint
 	dw CuboneFootprint
 	dw MarowakFootprint
 	dw HitmonleeFootprint
@@ -314,12 +314,8 @@ FootprintPointers::
 	dw DugtrioFootprint
 	dw MeowthFootprint
 	dw PersianFootprint
-	dw GeodudeFootprint
-	dw GravelerFootprint
-	dw GolemFootprint
 	dw GrimerFootprint
 	dw MukFootprint
-	dw ExeggutorFootprint
 	dw MarowakFootprint
 
 	dw MeowthFootprint

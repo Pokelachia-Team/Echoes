@@ -96,9 +96,9 @@
 	const VICTREEBEL ; 47
 	const TENTACOOL  ; 48
 	const TENTACRUEL ; 49
-	const GEODUDE    ; 4a
-	const GRAVELER   ; 4b
-	const GOLEM      ; 4c
+	const ROGGENROLA    ; 4a
+	const BOLDORE   ; 4b
+	const GIGALITH      ; 4c
 	const PONYTA     ; 4d
 	const RAPIDASH   ; 4e
 	const SLOWPOKE   ; 4f
@@ -124,8 +124,8 @@
 	const CRAWDAUNT    ; 63
 	const VOLTORB    ; 64
 	const ELECTRODE  ; 65
-	const EXEGGCUTE  ; 66
-	const EXEGGUTOR  ; 67
+	const COTTONEE  ; 66
+	const WHIMSICOTT  ; 67
 	const CUBONE     ; 68
 	const MAROWAK    ; 69
 	const HITMONLEE  ; 6a
@@ -456,13 +456,9 @@ DEF ALOLAN_FORM EQU 2
 	const_skip ; 168 dugtrio
 	const_skip ; 169 meowth
 	const_skip ; 16a persian
-	const_skip ; 16b geodude
-	const_skip ; 16c graveler
-	const_skip ; 16d golem
 	const_skip ; 16e grimer
 	const_skip ; 16f muk
-	const_skip ; 170 exeggutor
-	const_skip ; 171 marowak
+	const_skip ; 170 marowak
 
 ; galarian forms
 DEF GALARIAN_FORM EQU 3
