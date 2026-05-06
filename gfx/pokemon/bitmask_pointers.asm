@@ -112,7 +112,7 @@ BitmasksPointers:
 	dw WeezingPlainBitmasks
 	dw RhyhornBitmasks
 	dw RhydonBitmasks
-	dw ChanseyBitmasks
+	dw FluttrfawnBitmasks
 	dw TangelaBitmasks
 	dw KangaskhanBitmasks
 	dw HorseaBitmasks
@@ -241,7 +241,7 @@ BitmasksPointers:
 	dw ElekidBitmasks
 	dw MagbyBitmasks
 	dw MiltankBitmasks
-	dw BlisseyBitmasks
+	dw EtheredeerBitmasks
 	dw RaikouBitmasks
 	dw EnteiBitmasks
 	dw SuicuneBitmasks
@@ -260,7 +260,7 @@ BitmasksPointers:
 	dw HonchkrowBitmasks
 	dw BonslyBitmasks
 	dw MimeJrBitmasks
-	dw HappinyBitmasks
+	dw NofawtsBitmasks
 	dw MunchlaxBitmasks
 	dw MantykeBitmasks
 	dw WeavileBitmasks

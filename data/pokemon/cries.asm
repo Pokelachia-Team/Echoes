@@ -118,7 +118,7 @@ PokemonCries::
 	mon_cry CRY_GIGALITH,       $0ff,  $17f ; Weezing
 	mon_cry CRY_FLIKLIT,  $000,  $100 ; Rhyhorn
 	mon_cry CRY_RHYDON,      $000,  $100 ; Rhydon
-	mon_cry CRY_PIDGEOTTO,   $00a,  $140 ; Chansey
+	mon_cry CRY_PIDGEOTTO,   $00a,  $140 ; Fluttrfawn
 	mon_cry CRY_GIGALITH,       $000,  $100 ; Tangela
 	mon_cry CRY_KANGASKHAN,  $000,  $100 ; Kangaskhan
 	mon_cry CRY_CLEFAIRY,    $099,  $090 ; Horsea
@@ -247,7 +247,7 @@ PokemonCries::
 	mon_cry CRY_REMORAID,   -$2d8,  $0b4 ; Elekid
 	mon_cry CRY_TEDDIURSA,   $176,  $03a ; Magby
 	mon_cry CRY_GLIGAR,     -$1cd,  $1a0 ; Miltank
-	mon_cry CRY_SLOWKING,    $293,  $140 ; Blissey
+	mon_cry CRY_SLOWKING,    $293,  $140 ; Etheredeer
 	mon_cry CRY_RAIKOU,      $22e,  $120 ; Raikou
 	mon_cry CRY_ENTEI,       $000,  $1a0 ; Entei
 	mon_cry CRY_MAGCARGO,    $000,  $180 ; Suicune
@@ -266,7 +266,7 @@ PokemonCries::
 	mon_cry CRY_MARILL,     -$01f,  $180 ; Honchkrow
 	mon_cry CRY_BELLOSSOM,   $f40,  $180 ; Bonsly
 	mon_cry CRY_CORPHISH,      $008,  $0c0 ; Mime Jr.
-	mon_cry CRY_PIDGEOTTO,   $00a,  $140 ; Happiny
+	mon_cry CRY_PIDGEOTTO,   $00a,  $140 ; Nofawts
 	mon_cry CRY_GRIMER,      $055,  $081 ; Munchlax
 	mon_cry CRY_MANTINE,    -$0be,  $0f0 ; Mantyke
 	mon_cry CRY_WOOPER,      $053,  $0af ; Weavile

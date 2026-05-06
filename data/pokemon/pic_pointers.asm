@@ -116,7 +116,7 @@ PokemonPicPointers::
 	pics WeezingPlain
 	pics Rhyhorn
 	pics Rhydon
-	pics Chansey
+	pics Fluttrfawn
 	pics Tangela
 	pics Kangaskhan
 	pics Horsea
@@ -245,7 +245,7 @@ PokemonPicPointers::
 	pics Elekid
 	pics Magby
 	pics Miltank
-	pics Blissey
+	pics Etheredeer
 	pics Raikou
 	pics Entei
 	pics Suicune
@@ -264,7 +264,7 @@ PokemonPicPointers::
 	pics Honchkrow
 	pics Bonsly
 	pics MimeJr
-	pics Happiny
+	pics Nofawts
 	pics Munchlax
 	pics Mantyke
 	pics Weavile

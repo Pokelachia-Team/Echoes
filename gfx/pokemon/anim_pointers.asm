@@ -112,7 +112,7 @@ AnimationPointers:
 	dw WeezingPlainAnimation
 	dw RhyhornAnimation
 	dw RhydonAnimation
-	dw ChanseyAnimation
+	dw FluttrfawnAnimation
 	dw TangelaAnimation
 	dw KangaskhanAnimation
 	dw HorseaAnimation
@@ -241,7 +241,7 @@ AnimationPointers:
 	dw ElekidAnimation
 	dw MagbyAnimation
 	dw MiltankAnimation
-	dw BlisseyAnimation
+	dw EtheredeerAnimation
 	dw RaikouAnimation
 	dw EnteiAnimation
 	dw SuicuneAnimation
@@ -260,7 +260,7 @@ AnimationPointers:
 	dw HonchkrowAnimation
 	dw BonslyAnimation
 	dw MimeJrAnimation
-	dw HappinyAnimation
+	dw NofawtsAnimation
 	dw MunchlaxAnimation
 	dw MantykeAnimation
 	dw WeavileAnimation

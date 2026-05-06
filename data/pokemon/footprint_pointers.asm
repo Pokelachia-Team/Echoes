@@ -112,7 +112,7 @@ FootprintPointers::
 	dw WeezingFootprint
 	dw RhyhornFootprint
 	dw RhydonFootprint
-	dw ChanseyFootprint
+	dw FluttrfawnFootprint
 	dw TangelaFootprint
 	dw KangaskhanFootprint
 	dw HorseaFootprint
@@ -241,7 +241,7 @@ FootprintPointers::
 	dw ElekidFootprint
 	dw MagbyFootprint
 	dw MiltankFootprint
-	dw BlisseyFootprint
+	dw EtheredeerFootprint
 	dw RaikouFootprint
 	dw EnteiFootprint
 	dw SuicuneFootprint
@@ -260,7 +260,7 @@ FootprintPointers::
 	dw HonchkrowFootprint
 	dw BonslyFootprint
 	dw MimeJrFootprint
-	dw HappinyFootprint
+	dw NofawtsFootprint
 	dw MunchlaxFootprint
 	dw MantykeFootprint
 	dw WeavileFootprint

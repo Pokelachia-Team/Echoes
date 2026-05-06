@@ -116,7 +116,7 @@ MiniIconPointers:
 	mini_icon Weezing
 	mini_icon Rhyhorn
 	mini_icon Rhydon
-	mini_icon Chansey
+	mini_icon Fluttrfawn
 	mini_icon Tangela
 	mini_icon Kangaskhan
 	mini_icon Horsea
@@ -245,7 +245,7 @@ MiniIconPointers:
 	mini_icon Elekid
 	mini_icon Magby
 	mini_icon Miltank
-	mini_icon Blissey
+	mini_icon Etheredeer
 	mini_icon Raikou
 	mini_icon Entei
 	mini_icon Suicune
@@ -264,7 +264,7 @@ MiniIconPointers:
 	mini_icon Honchkrow
 	mini_icon Bonsly
 	mini_icon MimeJr
-	mini_icon Happiny
+	mini_icon Nofawts
 	mini_icon Munchlax
 	mini_icon Mantyke
 	mini_icon Weavile

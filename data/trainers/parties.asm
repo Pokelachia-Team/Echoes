@@ -239,7 +239,7 @@ WhitneyGroup:
 		tr_extra MAGIC_GUARD, DEF_UP_ATK_DOWN
 		tr_evs 252 HP, 252 Def, 4 SDf
 		tr_moves CALM_MIND, MOONBLAST, FRESH_SNACK, THUNDER_WAVE
-	tr_mon 70, CHANSEY @ EVIOLITE, FEMALE
+	tr_mon 70, FLUTTRFAWN @ EVIOLITE, FEMALE
 		tr_extra NATURAL_CURE, DEF_UP_ATK_DOWN
 		tr_evs 252 HP, 252 Def, 4 SDf
 		tr_moves TOXIC, SEISMIC_TOSS, FRESH_SNACK, PROTECT
@@ -3833,20 +3833,20 @@ NurseGroup:
 
 	def_trainer_class NURSE
 	def_trainer BEATRICE, "Beatrice"
-	tr_mon LEVEL_FROM_BADGES + 5, CHANSEY
+	tr_mon LEVEL_FROM_BADGES + 5, FLUTTRFAWN
 	end_trainer
 
 	def_trainer KEIKO, "Keiko"
-	tr_mon LEVEL_FROM_BADGES + 0, HAPPINY
-	tr_mon LEVEL_FROM_BADGES + 5, CHANSEY
+	tr_mon LEVEL_FROM_BADGES + 0, NOFAWTS
+	tr_mon LEVEL_FROM_BADGES + 5, FLUTTRFAWN
 	end_trainer
 
 	def_trainer JOY, "Joy"
-	tr_mon LEVEL_FROM_BADGES + 6, CHANSEY
+	tr_mon LEVEL_FROM_BADGES + 6, FLUTTRFAWN
 	end_trainer
 
 	def_trainer WINIFRED, "Winifred"
-	tr_mon LEVEL_FROM_BADGES + 6, BLISSEY
+	tr_mon LEVEL_FROM_BADGES + 6, ETHEREDEER
 	end_trainer
 
 
@@ -3868,7 +3868,7 @@ PokemaniacGroup:
 	end_trainer
 
 	def_trainer BRENT4, "Brent"
-	tr_mon 47, CHANSEY
+	tr_mon 47, FLUTTRFAWN
 		tr_moves ROLLOUT, ATTRACT, RETURN, FRESH_SNACK
 	end_trainer
 
@@ -5209,7 +5209,7 @@ RichBoyGroup:
 
 	def_trainer GERALD, "Gerald"
 	tr_mon 42, AZUMARILL @ NUGGET
-	tr_mon 40, BLISSEY @ NUGGET
+	tr_mon 40, ETHEREDEER @ NUGGET
 	end_trainer
 
 	def_trainer IRVING, "Irving"
@@ -5217,7 +5217,7 @@ RichBoyGroup:
 		tr_extra SERENE_GRACE
 		tr_dvs 14 All
 		tr_moves HEADBUTT, METRONOME, SWEET_KISS, DISARM_VOICE
-	tr_mon LEVEL_FROM_BADGES + 4, CHANSEY @ KINGS_ROCK, FEMALE
+	tr_mon LEVEL_FROM_BADGES + 4, FLUTTRFAWN @ KINGS_ROCK, FEMALE
 		tr_extra SERENE_GRACE
 		tr_dvs 14 All
 		tr_moves HEADBUTT, FRESH_SNACK, SWEET_KISS, ZEN_HEADBUTT
@@ -5243,7 +5243,7 @@ LadyGroup:
 
 	def_trainer_class LADY
 	def_trainer JESSICA, "Jessica"
-	tr_mon 55, BLISSEY @ NUGGET
+	tr_mon 55, ETHEREDEER @ NUGGET
 	tr_mon 54, SCOURPOSS @ NUGGET
 	end_trainer
 
@@ -5315,14 +5315,14 @@ endc
 	end_trainer
 
 	def_trainer MARGARET, "Margaret"
-	tr_mon 55, CHANSEY
+	tr_mon 55, FLUTTRFAWN
 	tr_mon 55, MILTANK
 	end_trainer
 
 	def_trainer OLGA, "Olga"
 	tr_mon 50, TEDDIURSA
 	tr_mon 55, URSARING
-	tr_mon 53, CHANSEY
+	tr_mon 53, FLUTTRFAWN
 	end_trainer
 
 
@@ -8017,7 +8017,7 @@ CherylGroup:
 
 	def_trainer_class CHERYL
 	def_trainer 1, "Cheryl"
-	tr_mon LEVEL_FROM_BADGES + 8, CHANSEY
+	tr_mon LEVEL_FROM_BADGES + 8, FLUTTRFAWN
 		tr_evs 136 HP ; maybe 252 since these are "stat trainers"?
 	tr_mon LEVEL_FROM_BADGES + 7, NIDORINA
 		tr_evs 136 HP
@@ -8030,7 +8030,7 @@ CherylGroup:
 	end_trainer
 
 	def_trainer 2, "Cheryl"
-	tr_mon 60, BLISSEY @ LEFTOVERS, FEMALE
+	tr_mon 60, ETHEREDEER @ LEFTOVERS, FEMALE
 		tr_extra SERENE_GRACE, DEF_UP_ATK_DOWN
 		tr_evs 252 HP, 36 Def
 		tr_moves SEISMIC_TOSS, FRESH_SNACK, HEAL_BELL, TOXIC
@@ -8057,7 +8057,7 @@ CherylGroup:
 	end_trainer
 
 	def_trainer 3, "Cheryl"
-	tr_mon 75, BLISSEY @ FOCUS_BAND, FEMALE
+	tr_mon 75, ETHEREDEER @ FOCUS_BAND, FEMALE
 		tr_extra SERENE_GRACE, DEF_UP_ATK_DOWN
 		tr_evs 252 HP, 4 SDf, 252 Def
 		tr_moves SEISMIC_TOSS, FRESH_SNACK, HEAL_BELL, TOXIC

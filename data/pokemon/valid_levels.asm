@@ -113,7 +113,7 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  35, 100 ; Weezing
 	db   1,  41 ; Rhyhorn
 	db  42,  54 ; Rhydon
-	db  20, 100 ; Chansey
+	db  20, 100 ; Fluttrfawn
 	db   1,  38 ; Tangela
 	db  20, 100 ; Kangaskhan
 	db   1,  31 ; Horsea
@@ -246,7 +246,7 @@ endc
 	db   1,  19 ; Elekid
 	db   1,  19 ; Magby
 	db  20, 100 ; Miltank
-	db  20, 100 ; Blissey
+	db  20, 100 ; Etheredeer
 	db 255, 255 ; Raikou
 	db 255, 255 ; Entei
 	db 255, 255 ; Suicune
@@ -265,7 +265,7 @@ endc
 	db  40, 100 ; Honchkrow
 	db   1,  19 ; Bonsly
 	db   1,  19 ; Mime Jr.
-	db   1,  19 ; Happiny
+	db   1,  19 ; Nofawts
 	db   1,  19 ; Munchlax
 	db   1,  19 ; Mantyke
 	db  40, 100 ; Weavile

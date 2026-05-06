@@ -112,7 +112,7 @@ EggSpeciesMovesPointers::
 	dw KoffingEggSpeciesMoves           ; Weezing
 	dw RhyhornEggSpeciesMoves           ; Rhyhorn
 	dw RhyhornEggSpeciesMoves           ; Rhydon
-	dw HappinyEggSpeciesMoves           ; Chansey
+	dw NofawtsEggSpeciesMoves           ; Fluttrfawn
 	dw TangelaEggSpeciesMoves           ; Tangela
 	dw KangaskhanEggSpeciesMoves        ; Kangaskhan
 	dw HorseaEggSpeciesMoves            ; Horsea
@@ -241,7 +241,7 @@ EggSpeciesMovesPointers::
 	dw ElekidEggSpeciesMoves            ; Elekid
 	dw MagbyEggSpeciesMoves             ; Magby
 	dw MiltankEggSpeciesMoves           ; Miltank
-	dw HappinyEggSpeciesMoves           ; Blissey
+	dw NofawtsEggSpeciesMoves           ; Etheredeer
 	dw NoEggSpeciesMoves                ; Raikou
 	dw NoEggSpeciesMoves                ; Entei
 	dw NoEggSpeciesMoves                ; Suicune
@@ -260,7 +260,7 @@ EggSpeciesMovesPointers::
 	dw MurkrowEggSpeciesMoves           ; Honchkrow
 	dw BonslyEggSpeciesMoves            ; Bonsly
 	dw MimeJrEggSpeciesMoves            ; Mime Jr.
-	dw HappinyEggSpeciesMoves           ; Happiny
+	dw NofawtsEggSpeciesMoves           ; Nofawts
 	dw MunchlaxEggSpeciesMoves          ; Munchlax
 	dw MantykeEggSpeciesMoves           ; Mantyke
 	dw SneaselEggSpeciesMoves           ; Weavile

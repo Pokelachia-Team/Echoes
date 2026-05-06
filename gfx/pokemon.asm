@@ -418,10 +418,10 @@ RhydonFrontpic: INCBIN "gfx/pokemon/rhydon/front.animated.2bpp.lzp"
 RhydonBackpic:  INCBIN "gfx/pokemon/rhydon/back.2bpp.lzp"
 RhydonFrames:   INCLUDE "gfx/pokemon/rhydon/frames.asm"
 
-SECTION "Chansey Pics", ROMX
-ChanseyFrontpic: INCBIN "gfx/pokemon/chansey/front.animated.2bpp.lzp"
-ChanseyBackpic:  INCBIN "gfx/pokemon/chansey/back.2bpp.lzp"
-ChanseyFrames:   INCLUDE "gfx/pokemon/chansey/frames.asm"
+SECTION "Fluttrfawn Pics", ROMX
+FluttrfawnFrontpic: INCBIN "gfx/pokemon/fluttrfawn/front.animated.2bpp.lzp"
+FluttrfawnBackpic:  INCBIN "gfx/pokemon/fluttrfawn/back.2bpp.lzp"
+FluttrfawnFrames:   INCLUDE "gfx/pokemon/fluttrfawn/frames.asm"
 
 SECTION "Tangela Pics", ROMX
 TangelaFrontpic: INCBIN "gfx/pokemon/tangela/front.animated.2bpp.lzp"
@@ -1005,10 +1005,10 @@ MiltankFrontpic: INCBIN "gfx/pokemon/miltank/front.animated.2bpp.lzp"
 MiltankBackpic:  INCBIN "gfx/pokemon/miltank/back.2bpp.lzp"
 MiltankFrames:   INCLUDE "gfx/pokemon/miltank/frames.asm"
 
-SECTION "Blissey Pics", ROMX
-BlisseyFrontpic: INCBIN "gfx/pokemon/blissey/front.animated.2bpp.lzp"
-BlisseyBackpic:  INCBIN "gfx/pokemon/blissey/back.2bpp.lzp"
-BlisseyFrames:   INCLUDE "gfx/pokemon/blissey/frames.asm"
+SECTION "Etheredeer Pics", ROMX
+EtheredeerFrontpic: INCBIN "gfx/pokemon/etheredeer/front.animated.2bpp.lzp"
+EtheredeerBackpic:  INCBIN "gfx/pokemon/etheredeer/back.2bpp.lzp"
+EtheredeerFrames:   INCLUDE "gfx/pokemon/etheredeer/frames.asm"
 
 SECTION "Raikou Pics", ROMX
 RaikouFrontpic: INCBIN "gfx/pokemon/raikou/front.animated.2bpp.lzp"
@@ -1132,10 +1132,10 @@ BonslyFrontpic: INCBIN "gfx/pokemon/bonsly/front.animated.2bpp.lzp"
 BonslyBackpic:  INCBIN "gfx/pokemon/bonsly/back.2bpp.lzp"
 BonslyFrames:   INCLUDE "gfx/pokemon/bonsly/frames.asm"
 
-SECTION "Happiny Pics", ROMX
-HappinyFrontpic: INCBIN "gfx/pokemon/happiny/front.animated.2bpp.lzp"
-HappinyBackpic:  INCBIN "gfx/pokemon/happiny/back.2bpp.lzp"
-HappinyFrames:   INCLUDE "gfx/pokemon/happiny/frames.asm"
+SECTION "Nofawts Pics", ROMX
+NofawtsFrontpic: INCBIN "gfx/pokemon/nofawts/front.animated.2bpp.lzp"
+NofawtsBackpic:  INCBIN "gfx/pokemon/nofawts/back.2bpp.lzp"
+NofawtsFrames:   INCLUDE "gfx/pokemon/nofawts/frames.asm"
 
 SECTION "Mantyke Pics", ROMX
 MantykeFrontpic: INCBIN "gfx/pokemon/mantyke/front.animated.2bpp.lzp"

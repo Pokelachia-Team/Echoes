@@ -1122,8 +1122,8 @@ RhydonPokedexEntry::
 	next "even a diamond in"
 	next "the rough.@"
 
-SECTION "ChanseyPokedexEntry", ROMX
-ChanseyPokedexEntry::
+SECTION "FluttrfawnPokedexEntry", ROMX
+FluttrfawnPokedexEntry::
 	db "Egg@"
 	db   "People try to"
 	next "catch it for its"
@@ -2412,12 +2412,12 @@ MiltankPokedexEntry::
 	next "ing up and down"
 	next "on its udders.@"
 
-SECTION "BlisseyPokedexEntry", ROMX
-BlisseyPokedexEntry::
+SECTION "EtheredeerPokedexEntry", ROMX
+EtheredeerPokedexEntry::
 	db "Happiness@"
 	db   "Biting into one"
 	next "of the delicious"
-	next "eggs that Blissey"
+	next "eggs that Etheredeer"
 	page "provides will make"
 	next "everyone around"
 	next "smile with joy.@"
@@ -2582,8 +2582,8 @@ MimeJrPokedexEntry::
 	next "stand the feelings"
 	next "of others.@"
 
-SECTION "HappinyPokedexEntry", ROMX
-HappinyPokedexEntry::
+SECTION "NofawtsPokedexEntry", ROMX
+NofawtsPokedexEntry::
 	db "Playhouse@"
 	db   "It carries a"
 	next "round, egg-shaped"
