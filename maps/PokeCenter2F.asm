@@ -325,7 +325,7 @@ Text_OldVersionDetected:
 	line "to an old"
 
 	para "version of"
-	line "Polished Crystal."
+	line "#mon Echoes."
 	prompt
 
 Text_WrongGameID:
