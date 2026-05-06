@@ -224,7 +224,7 @@ AnimationPointers:
 	dw CorsolaPlainAnimation
 	dw RemoraidAnimation
 	dw OctilleryAnimation
-	dw DelibirdAnimation
+	dw DurantAnimation
 	dw MantineAnimation
 	dw SkarmoryAnimation
 	dw HoundourAnimation

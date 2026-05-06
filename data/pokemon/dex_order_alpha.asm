@@ -44,7 +44,7 @@ AlphabeticalPokedexOrder:
 	dp CURSOLA
 	dp CYNDAQUIL
 	dp DEBRITE
-	dp DELIBIRD
+	dp DURANT
 	dp DEWGONG
 	dp DIGLETT
 	dp DITTO

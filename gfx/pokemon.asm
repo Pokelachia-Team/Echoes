@@ -915,10 +915,10 @@ OctilleryFrontpic: INCBIN "gfx/pokemon/octillery/front.animated.2bpp.lzp"
 OctilleryBackpic:  INCBIN "gfx/pokemon/octillery/back.2bpp.lzp"
 OctilleryFrames:   INCLUDE "gfx/pokemon/octillery/frames.asm"
 
-SECTION "Delibird Pics", ROMX
-DelibirdFrontpic: INCBIN "gfx/pokemon/delibird/front.animated.2bpp.lzp"
-DelibirdBackpic:  INCBIN "gfx/pokemon/delibird/back.2bpp.lzp"
-DelibirdFrames:   INCLUDE "gfx/pokemon/delibird/frames.asm"
+SECTION "Durant Pics", ROMX
+DurantFrontpic: INCBIN "gfx/pokemon/durant/front.animated.2bpp.lzp"
+DurantBackpic:  INCBIN "gfx/pokemon/durant/back.2bpp.lzp"
+DurantFrames:   INCLUDE "gfx/pokemon/durant/frames.asm"
 
 SECTION "Mantine Pics", ROMX
 MantineFrontpic: INCBIN "gfx/pokemon/mantine/front.animated.2bpp.lzp"

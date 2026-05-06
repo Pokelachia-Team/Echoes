@@ -228,7 +228,7 @@ EvosAttacksPointers::
 	dw CorsolaPlainEvosAttacks
 	dw RemoraidEvosAttacks
 	dw OctilleryEvosAttacks
-	dw DelibirdEvosAttacks
+	dw DurantEvosAttacks
 	dw MantineEvosAttacks
 	dw SkarmoryEvosAttacks
 	dw HoundourEvosAttacks

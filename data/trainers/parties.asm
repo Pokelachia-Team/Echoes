@@ -3730,7 +3730,7 @@ PokefanMGroup:
 	end_trainer
 
 	def_trainer COLIN, "Colin"
-	tr_mon 49, DELIBIRD @ SITRUS_BERRY
+	tr_mon 49, DURANT @ SITRUS_BERRY
 	end_trainer
 
 	def_trainer ALEX, "Alex"

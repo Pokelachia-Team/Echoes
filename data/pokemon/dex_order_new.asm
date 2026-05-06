@@ -227,7 +227,7 @@ NewPokedexOrder:
 	dp KINGDRA
 	dp GLIGAR
 	dp GLISCOR
-	dp DELIBIRD
+	dp DURANT
 	dp SWINUB
 	dp PILOSWINE
 	dp MAMOSWINE

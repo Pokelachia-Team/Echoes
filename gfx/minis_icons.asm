@@ -1127,10 +1127,10 @@ OctilleryMini::     INCBIN "gfx/minis/octillery.2bpp.lzp"
 OctilleryMiniMask:: INCBIN "gfx/minis/octillery_mask.1bpp.lzp"
 OctilleryIcon::     INCBIN "gfx/icons/octillery.2bpp.lzp"
 
-SECTION "Delibird Mini Icon", ROMX
-DelibirdMini::     INCBIN "gfx/minis/delibird.2bpp.lzp"
-DelibirdMiniMask:: INCBIN "gfx/minis/delibird_mask.1bpp.lzp"
-DelibirdIcon::     INCBIN "gfx/icons/delibird.2bpp.lzp"
+SECTION "Durant Mini Icon", ROMX
+DurantMini::     INCBIN "gfx/minis/durant.2bpp.lzp"
+DurantMiniMask:: INCBIN "gfx/minis/durant_mask.1bpp.lzp"
+DurantIcon::     INCBIN "gfx/icons/durant.2bpp.lzp"
 
 SECTION "Mantine Mini Icon", ROMX
 MantineMini::     INCBIN "gfx/minis/mantine.2bpp.lzp"

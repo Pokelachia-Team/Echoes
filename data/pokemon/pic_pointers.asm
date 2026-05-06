@@ -228,7 +228,7 @@ PokemonPicPointers::
 	pics CorsolaPlain
 	pics Remoraid
 	pics Octillery
-	pics Delibird
+	pics Durant
 	pics Mantine
 	pics Skarmory
 	pics Houndour

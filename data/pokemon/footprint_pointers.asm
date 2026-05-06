@@ -224,7 +224,7 @@ FootprintPointers::
 	dw CorsolaFootprint
 	dw RemoraidFootprint
 	dw OctilleryFootprint
-	dw DelibirdFootprint
+	dw DurantFootprint
 	dw MantineFootprint
 	dw SkarmoryFootprint
 	dw HoundourFootprint

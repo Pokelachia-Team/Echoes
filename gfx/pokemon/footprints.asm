@@ -4,6 +4,7 @@ VenomothFootprint::
 FliklitFootprint::
 KabutoFootprint::
 RoggenrolaFootprint::
+DurantFootprint::
 JoltikFootprint:: INCBIN "gfx/footprints/circle_small.1bpp.lzp"
 
 CaterpieFootprint::
@@ -248,7 +249,6 @@ UrsaringFootprint:: INCBIN "gfx/footprints/ursaring.1bpp.lzp"
 SwinubFootprint:: INCBIN "gfx/footprints/swinub.1bpp.lzp"
 PiloswineFootprint:: INCBIN "gfx/footprints/piloswine.1bpp.lzp"
 OctilleryFootprint:: INCBIN "gfx/footprints/octillery.1bpp.lzp"
-DelibirdFootprint:: INCBIN "gfx/footprints/delibird.1bpp.lzp"
 SkarmoryFootprint:: INCBIN "gfx/footprints/skarmory.1bpp.lzp"
 HoundourFootprint:: INCBIN "gfx/footprints/houndour.1bpp.lzp"
 HoundoomFootprint:: INCBIN "gfx/footprints/houndoom.1bpp.lzp"

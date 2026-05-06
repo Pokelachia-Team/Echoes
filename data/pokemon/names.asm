@@ -225,7 +225,7 @@ PokemonNames::
 	rawchar "Corsola@@@"
 	rawchar "Remoraid@@"
 	rawchar "Octillery@"
-	rawchar "Delibird@@"
+	rawchar "Durant@@@@"
 	rawchar "Mantine@@@"
 	rawchar "Skarmory@@"
 	rawchar "Houndour@@"

@@ -247,7 +247,7 @@
 	const CORSOLA    ; de
 	const REMORAID   ; df
 	const OCTILLERY  ; e0
-	const DELIBIRD   ; e1
+	const DURANT   ; e1
 	const MANTINE    ; e2
 	const SKARMORY   ; e3
 	const HOUNDOUR   ; e4

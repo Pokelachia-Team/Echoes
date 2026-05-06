@@ -228,7 +228,7 @@ endc
 	db NO_MOVE      ; CORSOLA
 	db NO_MOVE      ; REMORAID
 	db OCTAZOOKA    ; OCTILLERY
-	db NO_MOVE      ; DELIBIRD
+	db NO_MOVE      ; DURANT
 	db NO_MOVE      ; MANTINE
 	db NO_MOVE      ; SKARMORY
 	db NO_MOVE      ; HOUNDOUR

@@ -2242,8 +2242,8 @@ OctilleryPokedexEntry::
 	next "holes of others to"
 	next "sleep in them.@"
 
-SECTION "DelibirdPokedexEntry", ROMX
-DelibirdPokedexEntry::
+SECTION "DurantPokedexEntry", ROMX
+DurantPokedexEntry::
 	db "Delivery@"
 	db   "It always carries"
 	next "its food with it,"

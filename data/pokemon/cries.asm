@@ -230,7 +230,7 @@ PokemonCries::
 	mon_cry CRY_MAGCARGO,    $0a1,  $0e8 ; Corsola
 	mon_cry CRY_REMORAID,    $00d,  $100 ; Remoraid
 	mon_cry CRY_TOTODILE,    $000,  $180 ; Octillery
-	mon_cry CRY_TEDDIURSA,   $002,  $06a ; Delibird
+	mon_cry CRY_TEDDIURSA,   $002,  $06a ; Durant
 	mon_cry CRY_MANTINE,    -$0be,  $0f0 ; Mantine
 	mon_cry CRY_AMPHAROS,    $8a9,  $180 ; Skarmory
 	mon_cry CRY_CYNDAQUIL,   $039,  $140 ; Houndour

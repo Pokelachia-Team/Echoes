@@ -225,7 +225,7 @@ PokedexDataPointerTable:
 	dba CorsolaPlainPokedexEntry
 	dba RemoraidPokedexEntry
 	dba OctilleryPokedexEntry
-	dba DelibirdPokedexEntry
+	dba DurantPokedexEntry
 	dba MantinePokedexEntry
 	dba SkarmoryPokedexEntry
 	dba HoundourPokedexEntry

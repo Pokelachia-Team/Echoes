@@ -4711,7 +4711,7 @@ endc
 	learnset 64, AURA_SPHERE ; Soak → new move
 	learnset 70, HYPER_BEAM
 
-	evos_attacks Delibird
+	evos_attacks Durant
 ; based on Gen V Chatot
 	learnset 1, PECK
 	learnset 5, GROWL

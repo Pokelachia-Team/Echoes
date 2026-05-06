@@ -224,7 +224,7 @@ EggSpeciesMovesPointers::
 	dw CorsolaPlainEggSpeciesMoves      ; Corsola
 	dw RemoraidEggSpeciesMoves          ; Remoraid
 	dw RemoraidEggSpeciesMoves          ; Octillery
-	dw DelibirdEggSpeciesMoves          ; Delibird
+	dw DurantEggSpeciesMoves          ; Durant
 	dw MantykeEggSpeciesMoves           ; Mantine
 	dw SkarmoryEggSpeciesMoves          ; Skarmory
 	dw HoundourEggSpeciesMoves          ; Houndour

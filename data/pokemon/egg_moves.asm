@@ -1077,8 +1077,8 @@ RemoraidEggSpeciesMoves:
 	db WATER_PULSE
 	db $ff
 
-DelibirdEggSpeciesMoves:
-	dp DELIBIRD, PLAIN_FORM
+DurantEggSpeciesMoves:
+	dp DURANT, PLAIN_FORM
 	db AURORA_BEAM
 	db DESTINY_BOND
 	db ICE_PUNCH

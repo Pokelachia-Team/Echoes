@@ -228,7 +228,7 @@ MiniIconPointers:
 	mini_icon Corsola
 	mini_icon Remoraid
 	mini_icon Octillery
-	mini_icon Delibird
+	mini_icon Durant
 	mini_icon Mantine
 	mini_icon Skarmory
 	mini_icon Houndour

@@ -229,7 +229,7 @@ endc
 	db   1, 100 ; Corsola
 	db   1,  24 ; Remoraid
 	db  25, 100 ; Octillery
-	db   1, 100 ; Delibird
+	db   1, 100 ; Durant
 	db   1, 100 ; Mantine
 	db  10, 100 ; Skarmory
 	db   1,  23 ; Houndour
