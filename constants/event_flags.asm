@@ -1597,7 +1597,7 @@
 ; Ariana
 	const EVENT_BEAT_ARIANA_1
 	const EVENT_BEAT_ARIANA_2
-; Prof Oak
+; Prof Poplar
 	const EVENT_BEAT_PROF_OAK
 ; Prof Pawpaw
 	const EVENT_BATTLED_PROF_ELM

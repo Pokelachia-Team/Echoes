@@ -71,7 +71,7 @@ CantUseItem:
 	jmp MenuTextboxWaitButton
 
 CantUseItemText:
-	text_far _ItemsOakWarningText
+	text_far _ItemsPoplarWarningText
 	text_end
 
 PartyMonItemName:

@@ -111,7 +111,7 @@ TrainerPicPointers::
 	dba ArcherPic
 	dba ArianaPic
 	dba GiovanniPic
-	dba ProfOakPic
+	dba ProfPoplarPic
 	dba ProfPawpawPic
 	dba ProfIvyPic
 	dba MysticalmanPic

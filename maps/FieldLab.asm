@@ -1403,7 +1403,7 @@ FieldLabWindowText:
 ; 	done
 
 ; if !DEF(DEBUG)
-; 	para "Prof.Oak gave you"
+; 	para "Prof.Poplar gave you"
 ; 	line "a #dex?"
 
 ; 	para "<PLAYER>, is that"

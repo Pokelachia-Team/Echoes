@@ -7500,11 +7500,11 @@ endc
 	end_trainer
 
 
-SECTION "ProfOakGroup", ROMX
-ProfOakGroup:
+SECTION "ProfPoplarGroup", ROMX
+ProfPoplarGroup:
 
-	def_trainer_class PROF_OAK
-	def_trainer 1, "Oak"
+	def_trainer_class PROF_POPLAR
+	def_trainer 1, "Poplar"
 	tr_mon 78, TAUROS @ CHOICE_SCARF, MALE
 		tr_extra ATK_UP_SATK_DOWN
 		tr_evs 252 Atk, 4 Def, 252 Spe
@@ -7539,7 +7539,7 @@ endc
 SECTION "ProfPawpawGroup", ROMX
 ProfPawpawGroup:
 
-	def_trainer_class PROF_ELM
+	def_trainer_class PROF_PAWPAW
 	def_trainer 1, "Pawpaw"
 	tr_mon LEVEL_FROM_BADGES + 3, HOOTHOOT
 	tr_mon LEVEL_FROM_BADGES + 4, JIGGLYPUFF

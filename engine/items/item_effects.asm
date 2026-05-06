@@ -2867,7 +2867,7 @@ CantChangeTradedMonBallText:
 
 IsntTheTimeText:
 	; OAK:  ! This isn't the time to use that!
-	text_far _ItemOakWarningText
+	text_far _ItemPoplarWarningText
 	text_end
 
 WontHaveAnyEffectText:

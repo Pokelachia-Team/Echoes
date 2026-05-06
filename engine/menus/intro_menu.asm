@@ -613,7 +613,7 @@ ProfElmSpeech:
 
 	xor a
 	ld [wCurPartySpecies], a
-	ld a, PROF_ELM
+	ld a, PROF_PAWPAW
 	ld [wTrainerClass], a
 	call Intro_PrepTrainerPic
 
@@ -660,7 +660,7 @@ if !DEF(DEBUG)
 
 	xor a
 	ld [wCurPartySpecies], a
-	ld a, PROF_ELM
+	ld a, PROF_PAWPAW
 	ld [wTrainerClass], a
 	call Intro_PrepTrainerPic
 

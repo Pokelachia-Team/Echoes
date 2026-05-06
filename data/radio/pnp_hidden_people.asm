@@ -23,8 +23,8 @@ PnP_HiddenPeople_BeatKanto:
 	db RIVAL2
 	db LYRA1
 	db LYRA2
-	db PROF_OAK
-	db PROF_ELM
+	db PROF_POPLAR
+	db PROF_PAWPAW
 	db CAL
 	db CARRIE
 	db RED

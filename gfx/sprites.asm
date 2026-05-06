@@ -106,8 +106,8 @@ LeafSpriteGFX:: INCBIN "gfx/sprites/leaf.2bpp.lzp"
 SECTION "YellowSpriteGFX", ROMX
 YellowSpriteGFX:: INCBIN "gfx/sprites/yellow.2bpp.lzp"
 
-SECTION "OakSpriteGFX", ROMX
-OakSpriteGFX:: INCBIN "gfx/sprites/oak.2bpp.lzp"
+SECTION "PoplarSpriteGFX", ROMX
+PoplarSpriteGFX:: INCBIN "gfx/sprites/poplar.2bpp.lzp"
 
 SECTION "PawpawSpriteGFX", ROMX
 PawpawSpriteGFX:: INCBIN "gfx/sprites/pawpaw.2bpp.lzp"

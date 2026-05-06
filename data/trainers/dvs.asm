@@ -113,7 +113,7 @@ TrainerClassDVsAndPersonality:
 	db 128, $EE, $EE, $EE, MALE   ; archer
 	db 112, $DD, $DD, $DD, FEMALE ; ariana
 	db 160, PERFECT_DVS,   MALE   ; giovanni
-	db 252, PERFECT_DVS,   MALE   ; prof oak
+	db 252, PERFECT_DVS,   MALE   ; prof poplar
 	db  32, $BB, $BB, $BB, MALE   ; prof pawpaw
 	db 252, PERFECT_DVS,   FEMALE ; prof ivy
 	db  88, $DD, $DD, $DD, MALE   ; mysticalman

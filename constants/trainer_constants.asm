@@ -1049,9 +1049,9 @@ DEF BETA EQU __trainer_class__
 	const GIOVANNI1
 	const GIOVANNI2
 
-	trainerclass PROF_OAK
+	trainerclass PROF_POPLAR
 
-	trainerclass PROF_ELM
+	trainerclass PROF_PAWPAW
 
 	trainerclass PROF_IVY
 

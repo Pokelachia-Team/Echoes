@@ -113,7 +113,7 @@ TrainerGroups:
 	dba ArcherGroup
 	dba ArianaGroup
 	dba GiovanniGroup
-	dba ProfOakGroup
+	dba ProfPoplarGroup
 	dba ProfPawpawGroup
 	dba ProfIvyGroup
 	dba MysticalmanGroup
