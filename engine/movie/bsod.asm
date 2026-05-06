@@ -91,19 +91,20 @@ INCLUDE "gfx/splash/bsod.pal"
 
 BSODMessage:
 	text  "      #mon"
-	next1 " Polished Crystal"
-	next  "       ERROR"
+	next1 "      Echoes"
+	next  "      ERROR"
 	next1 "------------------"
 	next  "Please report this"
-	next1 "crash to the deve-"
-	next1 "loper, Rangi42, at"
-	next1 "tinyurl.com/pkpc3."
+	next1 "crash to developer"
+	next1 "Pokelachia-Team at"
+	next1 "tinyurl.com/"
+	next1 "pkechoes."
 	next  "Error:"
 	done
 
 VBABSODMessage:
 	text  "      #mon"
-	next1 " Polished Crystal"
+	next1 "      Echoes"
 	next  "       ERROR"
 	next1 "------------------"
 	next  "Please use a more"
