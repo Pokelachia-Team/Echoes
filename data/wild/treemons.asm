@@ -47,7 +47,7 @@ TreeMonSet_Town:
 	; rare
 	tree_mon 60, CRIBNAL,    10
 	tree_mon 30, HERACROSS,  10
-	tree_mon 10, MEOWTH, FOLKORAN_FORM     10
+	tree_mon 10, MEOWTH, FOLKORAN_FORM,   10
 	db -1
 
 TreeMonSet_Route:
