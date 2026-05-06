@@ -482,7 +482,7 @@ CheckCanDeletePhoneNumber:
 	ld a, b
 	cp PHONECONTACT_MOM
 	ret z
-	cp PHONECONTACT_ELM
+	cp PHONECONTACT_PAWPAW
 	ret z
 	cp PHONECONTACT_LYRA
 	ret z

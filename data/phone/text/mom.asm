@@ -124,7 +124,7 @@ MomPhoneNoPokemonText:
 	text "Hello?"
 
 	para "Oh, hi, <PLAYER>!"
-	line "Wasn't Prof.Elm"
+	line "Wasn't Prof.Pawpaw"
 	cont "waiting for you?"
 	done
 
@@ -135,7 +135,7 @@ MomPhoneNoPokedexText:
 	line "You're on a big"
 
 	para "mission for Prof."
-	line "Elm? Be good!"
+	line "Pawpaw? Be good!"
 	done
 
 MomPhoneNoGymQuestText:
@@ -152,9 +152,9 @@ MomPhoneLectureText:
 	text "Hello?"
 
 	para "……<PLAYER>?"
-	line "I heard from Prof."
+	line "I heard from the"
 
-	para "Elm that you went"
+	para "Prof. that you went"
 	line "on a long trip."
 
 	para "I wish you would"

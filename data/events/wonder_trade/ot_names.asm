@@ -65,7 +65,7 @@ WonderTradeOTNames1:
 	rawchar "Michael@" ; $3e
 	rawchar "Todd@@@@" ; $3f
 	rawchar "Oak@@@@@" ; $40
-	rawchar "Elm@@@@@" ; $41
+	rawchar "Pawpaw@@" ; $41
 	rawchar "Ivy@@@@@" ; $42
 	rawchar "Birch@@@" ; $43
 	rawchar "Rowan@@@" ; $44

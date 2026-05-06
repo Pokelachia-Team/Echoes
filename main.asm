@@ -462,7 +462,7 @@ INCLUDE "engine/phone/scripts/generic_callee.asm"
 
 SECTION "Evolution Phone Scripts", ROMX
 
-INCLUDE "engine/phone/scripts/elm.asm"
+INCLUDE "engine/phone/scripts/pawpaw.asm"
 INCLUDE "engine/phone/scripts/lyra.asm"
 
 
@@ -609,7 +609,7 @@ SECTION "Phone Text 3", ROMX
 
 INCLUDE "data/phone/text/mom.asm"
 INCLUDE "data/phone/text/bill.asm"
-INCLUDE "data/phone/text/elm.asm"
+INCLUDE "data/phone/text/pawpaw.asm"
 ; INCLUDE "data/phone/text/jack_callee.asm"
 ; INCLUDE "data/phone/text/beverly_callee.asm"
 ; INCLUDE "data/phone/text/huey_callee.asm"

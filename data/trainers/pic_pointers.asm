@@ -112,7 +112,7 @@ TrainerPicPointers::
 	dba ArianaPic
 	dba GiovanniPic
 	dba ProfOakPic
-	dba ProfElmPic
+	dba ProfPawpawPic
 	dba ProfIvyPic
 	dba MysticalmanPic
 	dba KarateKingPic

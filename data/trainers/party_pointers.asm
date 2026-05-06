@@ -114,7 +114,7 @@ TrainerGroups:
 	dba ArianaGroup
 	dba GiovanniGroup
 	dba ProfOakGroup
-	dba ProfElmGroup
+	dba ProfPawpawGroup
 	dba ProfIvyGroup
 	dba MysticalmanGroup
 	dba KarateKingGroup

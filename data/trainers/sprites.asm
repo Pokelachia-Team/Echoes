@@ -112,7 +112,7 @@ BTTrainerClassSprites:
 	db SPRITE_ARIANA        ; ARIANA
 	db SPRITE_GIOVANNI      ; GIOVANNI
 	db SPRITE_OAK           ; PROF_OAK
-	db SPRITE_ELM           ; PROF_ELM
+	db SPRITE_PAWPAW           ; PROF_ELM
 	db SPRITE_IVY           ; PROF_IVY
 	db SPRITE_EUSINE        ; MYSTICALMAN
 	db SPRITE_BLACK_BELT    ; KARATE_KING

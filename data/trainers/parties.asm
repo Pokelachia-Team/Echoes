@@ -7536,11 +7536,11 @@ endc
 	end_trainer
 
 
-SECTION "ProfElmGroup", ROMX
-ProfElmGroup:
+SECTION "ProfPawpawGroup", ROMX
+ProfPawpawGroup:
 
 	def_trainer_class PROF_ELM
-	def_trainer 1, "Elm"
+	def_trainer 1, "Pawpaw"
 	tr_mon LEVEL_FROM_BADGES + 3, HOOTHOOT
 	tr_mon LEVEL_FROM_BADGES + 4, JIGGLYPUFF
 	tr_mon LEVEL_FROM_BADGES + 5, CYNDAQUIL
@@ -7548,7 +7548,7 @@ ProfElmGroup:
 	tr_mon LEVEL_FROM_BADGES + 5, TOTODILE
 	end_trainer
 
-	def_trainer 2, "Elm"
+	def_trainer 2, "Pawpaw"
 	tr_mon LEVEL_FROM_BADGES + 3, AIPOM
 	tr_mon LEVEL_FROM_BADGES + 4, WIGGLYTUFF
 	tr_mon LEVEL_FROM_BADGES + 5, QUILAVA
@@ -7556,7 +7556,7 @@ ProfElmGroup:
 	tr_mon LEVEL_FROM_BADGES + 5, CROCONAW
 	end_trainer
 
-	def_trainer 3, "Elm"
+	def_trainer 3, "Pawpaw"
 	tr_mon LEVEL_FROM_BADGES + 4, AMBIPOM
 	tr_mon LEVEL_FROM_BADGES + 5, WIGGLYTUFF
 	tr_mon LEVEL_FROM_BADGES + 6, TYPHLOSION
@@ -7564,7 +7564,7 @@ ProfElmGroup:
 	tr_mon LEVEL_FROM_BADGES + 6, FERALIGATR
 	end_trainer
 
-	def_trainer 4, "Elm"
+	def_trainer 4, "Pawpaw"
 	tr_mon LEVEL_FROM_BADGES + 7, AMBIPOM
 	tr_mon LEVEL_FROM_BADGES + 8, WIGGLYTUFF
 	tr_mon LEVEL_FROM_BADGES + 8, HERACROSS

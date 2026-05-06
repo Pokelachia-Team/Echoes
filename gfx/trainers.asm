@@ -332,8 +332,8 @@ GiovanniPic: INCBIN "gfx/trainers/giovanni.2bpp.lzp"
 SECTION "ProfOakPic", ROMX
 ProfOakPic: INCBIN "gfx/trainers/oak.2bpp.lzp"
 
-SECTION "ProfElmPic", ROMX
-ProfElmPic: INCBIN "gfx/trainers/elm.2bpp.lzp"
+SECTION "ProfPawpawPic", ROMX
+ProfPawpawPic: INCBIN "gfx/trainers/pawpaw.2bpp.lzp"
 
 SECTION "ProfIvyPic", ROMX
 ProfIvyPic: INCBIN "gfx/trainers/ivy.2bpp.lzp"

@@ -1599,7 +1599,7 @@
 	const EVENT_BEAT_ARIANA_2
 ; Prof Oak
 	const EVENT_BEAT_PROF_OAK
-; Prof Elm
+; Prof Pawpaw
 	const EVENT_BATTLED_PROF_ELM
 ; Prof Ivy
 	const EVENT_BEAT_PROF_IVY
