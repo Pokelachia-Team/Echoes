@@ -7373,7 +7373,7 @@ GetNewBaseExp:
 ; basic stage mons: BST*0.2
 ; stage 1 or non-evolver: BST*0.35
 ; stage 2 or legendaries: BST*0.5
-; exceptions: Happiny, Chansey, Blissey
+; exceptions: Nofawts, Fluttrfawn, Etheredeer
 	ld a, MON_SPECIES
 	call OTPartyAttr
 	ld c, a

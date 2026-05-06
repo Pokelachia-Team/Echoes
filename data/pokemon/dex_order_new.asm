@@ -227,7 +227,7 @@ NewPokedexOrder:
 	dp KINGDRA
 	dp GLIGAR
 	dp GLISCOR
-	dp DELIBIRD
+	dp DURANT
 	dp SWINUB
 	dp PILOSWINE
 	dp MAMOSWINE
@@ -263,9 +263,9 @@ NewPokedexOrder:
 	dp PORYGON
 	dp PORYGON2
 	dp PORYGON_Z
-	dp HAPPINY
-	dp CHANSEY
-	dp BLISSEY
+	dp NOFAWTS
+	dp FLUTTRFAWN
+	dp ETHEREDEER
 	dp LAPRAS
 	dp OMANYTE
 	dp OMASTAR

@@ -19,7 +19,7 @@ Scyther/Kleavor: Razor Leaf
 
 Slowbro: Metronome
 Lanturn: Earthquake
-Blissey: Reflect
+Etheredeer: Reflect
 Drowzee: Strength
 Conkeldurr: Swords Dance
 Skarmory: Hyper Beam
@@ -27,7 +27,7 @@ Celebi: Fly
 Gengar: Quick Attack
 Togepi: Drain Kiss
 Jigglypuff: Play Rough
-Chansey: Psybeam
+Fluttrfawn: Psybeam
 Staryu: Quick Attack
 Staryu: Psybeam
 
@@ -115,7 +115,7 @@ Wobbuffet: Charm
 Natu/Xatu: Baton Pass
 
 Prism tutor:
-Chansey: Haze
+Fluttrfawn: Haze
 Cottonee/Whimsicott: Confuse Ray
 Marill/Azumarill: Focus Energy
 Pineco/Forretress: Smokescreen

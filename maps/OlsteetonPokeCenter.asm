@@ -17,7 +17,7 @@ OlsteetonPokeCenter_MapScriptHeader:
 	def_object_events
 	pc_nurse_event  5, 1
 	object_event  0,  6, SPRITE_PHARMACIST, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, pokemart, MARTTYPE_PHARMACY, MART_CIANWOOD, -1
-	pokemon_event  6,  1, CHANSEY, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_PINK, OlsteetonFluttrfawnText, -1
+	pokemon_event  6,  1, FLUTTRFAWN, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_PINK, OlsteetonFluttrfawnText, -1
 	object_event 10,  6, SPRITE_PI, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonPokeCenterBusinessText, -1
 	object_event  9,  1, SPRITE_ENGINEER, SPRITEMOVEDATA_STANDING_DOWN, 2, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonPokeCenterEngineerText, -1
 

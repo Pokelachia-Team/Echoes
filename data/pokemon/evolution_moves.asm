@@ -112,7 +112,7 @@ EvolutionMoves::
 	db NO_MOVE      ; WEEZING
 	db NO_MOVE      ; RHYHORN
 	db OUTRAGE      ; RHYDON
-	db NO_MOVE      ; CHANSEY
+	db NO_MOVE      ; FLUTTRFAWN
 	db NO_MOVE      ; TANGELA
 	db NO_MOVE      ; KANGASKHAN
 	db NO_MOVE      ; HORSEA
@@ -228,7 +228,7 @@ endc
 	db NO_MOVE      ; CORSOLA
 	db NO_MOVE      ; REMORAID
 	db OCTAZOOKA    ; OCTILLERY
-	db NO_MOVE      ; DELIBIRD
+	db NO_MOVE      ; DURANT
 	db NO_MOVE      ; MANTINE
 	db NO_MOVE      ; SKARMORY
 	db NO_MOVE      ; HOUNDOUR
@@ -245,7 +245,7 @@ endc
 	db NO_MOVE      ; ELEKID
 	db NO_MOVE      ; MAGBY
 	db NO_MOVE      ; MILTANK
-	db NO_MOVE      ; BLISSEY
+	db NO_MOVE      ; ETHEREDEER
 	db NO_MOVE      ; RAIKOU
 	db NO_MOVE      ; ENTEI
 	db NO_MOVE      ; SUICUNE
@@ -264,7 +264,7 @@ endc
 	db NO_MOVE      ; HONCHKROW
 	db NO_MOVE      ; BONSLY
 	db NO_MOVE      ; MIME_JR_
-	db NO_MOVE      ; HAPPINY
+	db NO_MOVE      ; NOFAWTS
 	db NO_MOVE      ; MUNCHLAX
 	db NO_MOVE      ; MANTYKE
 	db NO_MOVE      ; WEAVILE

@@ -112,7 +112,7 @@ AnimationExtraPointers:
 	dw WeezingPlainAnimationExtra
 	dw RhyhornAnimationExtra
 	dw RhydonAnimationExtra
-	dw ChanseyAnimationExtra
+	dw FluttrfawnAnimationExtra
 	dw TangelaAnimationExtra
 	dw KangaskhanAnimationExtra
 	dw HorseaAnimationExtra
@@ -224,7 +224,7 @@ AnimationExtraPointers:
 	dw CorsolaPlainAnimationExtra
 	dw RemoraidAnimationExtra
 	dw OctilleryAnimationExtra
-	dw DelibirdAnimationExtra
+	dw DurantAnimationExtra
 	dw MantineAnimationExtra
 	dw SkarmoryAnimationExtra
 	dw HoundourAnimationExtra
@@ -241,7 +241,7 @@ AnimationExtraPointers:
 	dw ElekidAnimationExtra
 	dw MagbyAnimationExtra
 	dw MiltankAnimationExtra
-	dw BlisseyAnimationExtra
+	dw EtheredeerAnimationExtra
 	dw RaikouAnimationExtra
 	dw EnteiAnimationExtra
 	dw SuicuneAnimationExtra
@@ -260,7 +260,7 @@ AnimationExtraPointers:
 	dw HonchkrowAnimationExtra
 	dw BonslyAnimationExtra
 	dw MimeJrAnimationExtra
-	dw HappinyAnimationExtra
+	dw NofawtsAnimationExtra
 	dw MunchlaxAnimationExtra
 	dw MantykeAnimationExtra
 	dw WeavileAnimationExtra
