@@ -113,7 +113,7 @@ PokedexDataPointerTable:
 	dba WeezingPlainPokedexEntry
 	dba RhyhornPokedexEntry
 	dba RhydonPokedexEntry
-	dba ChanseyPokedexEntry
+	dba FluttrfawnPokedexEntry
 	dba TangelaPokedexEntry
 	dba KangaskhanPokedexEntry
 	dba HorseaPokedexEntry
@@ -225,7 +225,7 @@ PokedexDataPointerTable:
 	dba CorsolaPlainPokedexEntry
 	dba RemoraidPokedexEntry
 	dba OctilleryPokedexEntry
-	dba DelibirdPokedexEntry
+	dba DurantPokedexEntry
 	dba MantinePokedexEntry
 	dba SkarmoryPokedexEntry
 	dba HoundourPokedexEntry
@@ -242,7 +242,7 @@ PokedexDataPointerTable:
 	dba ElekidPokedexEntry
 	dba MagbyPokedexEntry
 	dba MiltankPokedexEntry
-	dba BlisseyPokedexEntry
+	dba EtheredeerPokedexEntry
 	dba RaikouPokedexEntry
 	dba EnteiPokedexEntry
 	dba SuicunePokedexEntry
@@ -261,7 +261,7 @@ PokedexDataPointerTable:
 	dba HonchkrowPokedexEntry
 	dba BonslyPokedexEntry
 	dba MimeJrPokedexEntry
-	dba HappinyPokedexEntry
+	dba NofawtsPokedexEntry
 	dba MunchlaxPokedexEntry
 	dba MantykePokedexEntry
 	dba WeavilePokedexEntry

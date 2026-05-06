@@ -116,7 +116,7 @@ EvosAttacksPointers::
 	dw WeezingPlainEvosAttacks
 	dw RhyhornEvosAttacks
 	dw RhydonEvosAttacks
-	dw ChanseyEvosAttacks
+	dw FluttrfawnEvosAttacks
 	dw TangelaEvosAttacks
 	dw KangaskhanEvosAttacks
 	dw HorseaEvosAttacks
@@ -228,7 +228,7 @@ EvosAttacksPointers::
 	dw CorsolaPlainEvosAttacks
 	dw RemoraidEvosAttacks
 	dw OctilleryEvosAttacks
-	dw DelibirdEvosAttacks
+	dw DurantEvosAttacks
 	dw MantineEvosAttacks
 	dw SkarmoryEvosAttacks
 	dw HoundourEvosAttacks
@@ -245,7 +245,7 @@ EvosAttacksPointers::
 	dw ElekidEvosAttacks
 	dw MagbyEvosAttacks
 	dw MiltankEvosAttacks
-	dw BlisseyEvosAttacks
+	dw EtheredeerEvosAttacks
 	dw RaikouEvosAttacks
 	dw EnteiEvosAttacks
 	dw SuicuneEvosAttacks
@@ -264,7 +264,7 @@ EvosAttacksPointers::
 	dw HonchkrowEvosAttacks
 	dw BonslyEvosAttacks
 	dw MimeJrEvosAttacks
-	dw HappinyEvosAttacks
+	dw NofawtsEvosAttacks
 	dw MunchlaxEvosAttacks
 	dw MantykeEvosAttacks
 	dw WeavileEvosAttacks

@@ -567,10 +567,10 @@ RhydonMini::     INCBIN "gfx/minis/rhydon.2bpp.lzp"
 RhydonMiniMask:: INCBIN "gfx/minis/rhydon_mask.1bpp.lzp"
 RhydonIcon::     INCBIN "gfx/icons/rhydon.2bpp.lzp"
 
-SECTION "Chansey Mini Icon", ROMX
-ChanseyMini::     INCBIN "gfx/minis/chansey.2bpp.lzp"
-ChanseyMiniMask:: INCBIN "gfx/minis/chansey_mask.1bpp.lzp"
-ChanseyIcon::     INCBIN "gfx/icons/chansey.2bpp.lzp"
+SECTION "Fluttrfawn Mini Icon", ROMX
+FluttrfawnMini::     INCBIN "gfx/minis/fluttrfawn.2bpp.lzp"
+FluttrfawnMiniMask:: INCBIN "gfx/minis/fluttrfawn_mask.1bpp.lzp"
+FluttrfawnIcon::     INCBIN "gfx/icons/fluttrfawn.2bpp.lzp"
 
 SECTION "Tangela Mini Icon", ROMX
 TangelaMini::     INCBIN "gfx/minis/tangela.2bpp.lzp"
@@ -1127,10 +1127,10 @@ OctilleryMini::     INCBIN "gfx/minis/octillery.2bpp.lzp"
 OctilleryMiniMask:: INCBIN "gfx/minis/octillery_mask.1bpp.lzp"
 OctilleryIcon::     INCBIN "gfx/icons/octillery.2bpp.lzp"
 
-SECTION "Delibird Mini Icon", ROMX
-DelibirdMini::     INCBIN "gfx/minis/delibird.2bpp.lzp"
-DelibirdMiniMask:: INCBIN "gfx/minis/delibird_mask.1bpp.lzp"
-DelibirdIcon::     INCBIN "gfx/icons/delibird.2bpp.lzp"
+SECTION "Durant Mini Icon", ROMX
+DurantMini::     INCBIN "gfx/minis/durant.2bpp.lzp"
+DurantMiniMask:: INCBIN "gfx/minis/durant_mask.1bpp.lzp"
+DurantIcon::     INCBIN "gfx/icons/durant.2bpp.lzp"
 
 SECTION "Mantine Mini Icon", ROMX
 MantineMini::     INCBIN "gfx/minis/mantine.2bpp.lzp"
@@ -1212,10 +1212,10 @@ MiltankMini::     INCBIN "gfx/minis/miltank.2bpp.lzp"
 MiltankMiniMask:: INCBIN "gfx/minis/miltank_mask.1bpp.lzp"
 MiltankIcon::     INCBIN "gfx/icons/miltank.2bpp.lzp"
 
-SECTION "Blissey Mini Icon", ROMX
-BlisseyMini::     INCBIN "gfx/minis/blissey.2bpp.lzp"
-BlisseyMiniMask:: INCBIN "gfx/minis/blissey_mask.1bpp.lzp"
-BlisseyIcon::     INCBIN "gfx/icons/blissey.2bpp.lzp"
+SECTION "Etheredeer Mini Icon", ROMX
+EtheredeerMini::     INCBIN "gfx/minis/etheredeer.2bpp.lzp"
+EtheredeerMiniMask:: INCBIN "gfx/minis/etheredeer_mask.1bpp.lzp"
+EtheredeerIcon::     INCBIN "gfx/icons/etheredeer.2bpp.lzp"
 
 SECTION "Raikou Mini Icon", ROMX
 RaikouMini::     INCBIN "gfx/minis/raikou.2bpp.lzp"
@@ -1302,10 +1302,10 @@ MimeJrMini::     INCBIN "gfx/minis/mime_jr_.2bpp.lzp"
 MimeJrMiniMask:: INCBIN "gfx/minis/mime_jr__mask.1bpp.lzp"
 MimeJrIcon::     INCBIN "gfx/icons/mime_jr_.2bpp.lzp"
 
-SECTION "Happiny Mini Icon", ROMX
-HappinyMini::     INCBIN "gfx/minis/happiny.2bpp.lzp"
-HappinyMiniMask:: INCBIN "gfx/minis/happiny_mask.1bpp.lzp"
-HappinyIcon::     INCBIN "gfx/icons/happiny.2bpp.lzp"
+SECTION "Nofawts Mini Icon", ROMX
+NofawtsMini::     INCBIN "gfx/minis/nofawts.2bpp.lzp"
+NofawtsMiniMask:: INCBIN "gfx/minis/nofawts_mask.1bpp.lzp"
+NofawtsIcon::     INCBIN "gfx/icons/nofawts.2bpp.lzp"
 
 SECTION "Munchlax Mini Icon", ROMX
 MunchlaxMini::     INCBIN "gfx/minis/munchlax.2bpp.lzp"

@@ -17,7 +17,7 @@ OlsteetonUniNurseDept_MapScriptHeader:
 	object_event  9,  7, SPRITE_BOWING_NURSE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniNurseDeptSignText, -1
 	object_event  1,  4, SPRITE_BOWING_NURSE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniNurseDeptSignText, -1
 	object_event  3,  8, SPRITE_BOWING_NURSE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniNurseDeptSignText, -1
-	pokemon_event  4,  3, CHANSEY, SPRITEMOVEDATA_POKEMON, -1, PAL_NPC_PINK, NurseDeptFluttrfawnText, -1
+	pokemon_event  4,  3, FLUTTRFAWN, SPRITEMOVEDATA_POKEMON, -1, PAL_NPC_PINK, NurseDeptFluttrfawnText, -1
 
 
 OlsteetonUniNurseDeptNurseScript:

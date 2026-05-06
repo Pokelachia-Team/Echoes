@@ -119,7 +119,7 @@ PokemonBodyData:
 	body_data  12,   95, MULTIBODY,    PURPLE ; WEEZING
 	body_data  10, 1150, QUADRUPED,    GRAY   ; RHYHORN
 	body_data  19, 1200, BIPEDAL_TAIL, GRAY   ; RHYDON
-	body_data  11,  346, BIPEDAL_TAIL, PINK   ; CHANSEY
+	body_data  11,  346, QUADRUPED,    PINK   ; FLUTTRFAWN
 	body_data  10,  350, HEAD_LEGS,    BLUE   ; TANGELA
 	body_data  22,  800, BIPEDAL_TAIL, BROWN  ; KANGASKHAN
 	body_data   4,   80, HEAD_BASE,    BLUE   ; HORSEA
@@ -219,7 +219,7 @@ PokemonBodyData:
 	body_data  14,  487, BIPEDAL_TAIL, PURPLE ; GRANBULL
 	body_data   5,   39, FINS,         GRAY   ; QWILFISH
 	body_data  18, 1180, MULTIWINGS,   RED    ; SCIZOR
-	body_data   6,  205, INSECTOID,    YELLOW ; DOOZEE
+	body_data   6,  205, HEAD,         PURPLE ; DOOZEE
 	body_data  15,  540, BIPEDAL,      BLUE   ; HERACROSS
 	body_data   9,  280, BIPEDAL_TAIL, BLACK  ; SNEASEL
 	body_data   6,   88, BIPEDAL_TAIL, BROWN  ; TEDDIURSA
@@ -231,7 +231,7 @@ PokemonBodyData:
 	body_data   6,   50, INSECTOID,    PINK   ; CORSOLA
 	body_data   6,  120, FINS,         GRAY   ; REMORAID
 	body_data   9,  285, TENTACLES,    RED    ; OCTILLERY
-	body_data   9,  160, WINGS,        RED    ; DELIBIRD
+	body_data   9,  160, INSECTOID,    GRAY    ; DURANT
 	body_data  21, 2200, WINGS,        PURPLE ; MANTINE
 	body_data  17,  505, WINGS,        GRAY   ; SKARMORY
 	body_data   6,  108, QUADRUPED,    BLACK  ; HOUNDOUR
@@ -248,7 +248,7 @@ PokemonBodyData:
 	body_data   6,  235, BIPEDAL,      YELLOW ; ELEKID
 	body_data   7,  214, BIPEDAL_TAIL, RED    ; MAGBY
 	body_data  12,  755, BIPEDAL_TAIL, PINK   ; MILTANK
-	body_data  15,  468, BIPEDAL,      PINK   ; BLISSEY
+	body_data  15,  468, QUADRUPED,      PINK   ; ETHEREDEER
 	body_data  19, 1780, QUADRUPED,    YELLOW ; RAIKOU
 	body_data  21, 1980, QUADRUPED,    BROWN  ; ENTEI
 	body_data  20, 1870, QUADRUPED,    BLUE   ; SUICUNE
@@ -267,7 +267,7 @@ PokemonBodyData:
 	body_data   9,  273, WINGS,        BLACK  ; HONCHKROW
 	body_data   5,  150, HEAD_LEGS,    BROWN  ; BONSLY
 	body_data   6,  130, BIPEDAL,      PINK   ; MIME_JR_
-	body_data   6,  244, BIPEDAL,      PINK   ; HAPPINY
+	body_data   6,  244, BIPEDAL,      PINK   ; NOFAWTS
 	body_data   6, 1050, BIPEDAL,      BLACK  ; MUNCHLAX
 	body_data  10,  650, WINGS,        BLUE   ; MANTYKE
 	body_data  11,  340, BIPEDAL_TAIL, BLACK  ; WEAVILE

@@ -2435,20 +2435,20 @@ endc
 	learnset 55, CLOSE_COMBAT ; Megahorn → new move
 	learnset 62, MEGAHORN ; Horn Drill → Megahorn
 
-	evos_attacks Chansey
-	evo_data EVOLVE_HAPPINESS, TR_ANYTIME, BLISSEY
+	evos_attacks Fluttrfawn
+	evo_data EVOLVE_HAPPINESS, TR_ANYTIME, ETHEREDEER
 	learnset 1, DEFENSE_CURL
 	learnset 1, TACKLE ; Pound → similar move
 	learnset 1, GROWL
 	learnset 5, LEER ; Tail Whip → similar move
-	learnset 9, SWEET_KISS ; Refresh → Happiny move
+	learnset 9, SWEET_KISS ; Refresh → Nofawts move
 	learnset 12, DOUBLE_SLAP
 	learnset 16, FRESH_SNACK ; Soft-Boiled → similar move
 	learnset 20, METRONOME ; Bestow → egg move
 	learnset 23, MINIMIZE
 	learnset 27, TAKE_DOWN
 	learnset 31, SING
-	learnset 35, CHARM ; Fling → Happiny move
+	learnset 35, CHARM ; Fling → Nofawts move
 	learnset 39, HEAL_BELL ; Heal Pulse → HGSS tutor move
 	learnset 44, BODY_SLAM ; Egg Bomb → TM move
 	learnset 50, LIGHT_SCREEN
@@ -4711,7 +4711,7 @@ endc
 	learnset 64, AURA_SPHERE ; Soak → new move
 	learnset 70, HYPER_BEAM
 
-	evos_attacks Delibird
+	evos_attacks Durant
 ; based on Gen V Chatot
 	learnset 1, PECK
 	learnset 5, GROWL
@@ -4990,19 +4990,19 @@ endc
 	learnset 48, HEAL_BELL
 	learnset 50, REVERSAL ; Wake-Up Slap → egg move
 
-	evos_attacks Blissey
+	evos_attacks Etheredeer
 	learnset 1, DEFENSE_CURL
 	learnset 1, TACKLE ; Pound → similar move
 	learnset 1, GROWL
 	learnset 5, LEER ; Tail Whip → similar move
-	learnset 9, SWEET_KISS ; Refresh → Happiny move
+	learnset 9, SWEET_KISS ; Refresh → Nofawts move
 	learnset 12, DOUBLE_SLAP
 	learnset 16, FRESH_SNACK ; Soft-Boiled → similar move
 	learnset 20, METRONOME ; Bestow → egg move
 	learnset 23, MINIMIZE
 	learnset 27, TAKE_DOWN
 	learnset 31, SING
-	learnset 35, CHARM ; Fling → Happiny move
+	learnset 35, CHARM ; Fling → Nofawts move
 	learnset 39, HEAL_BELL ; Heal Pulse → HGSS tutor move
 	learnset 44, BODY_SLAM ; Egg Bomb → TM move
 	learnset 50, LIGHT_SCREEN
@@ -5281,8 +5281,8 @@ endc
 	learnset 46, BATON_PASS
 	learnset 50, SAFEGUARD
 
-	evos_attacks Happiny
-	evo_data EVOLVE_HOLDING, OVAL_STONE, TR_MORNDAY, CHANSEY
+	evos_attacks Nofawts
+	evo_data EVOLVE_HOLDING, OVAL_STONE, TR_MORNDAY, FLUTTRFAWN
 	learnset 1, MINIMIZE
 	learnset 1, TACKLE ; Pound → similar move
 	learnset 1, METRONOME ; Copycat → egg move

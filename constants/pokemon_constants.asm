@@ -135,7 +135,7 @@
 	const WEEZING    ; 6e
 	const RHYHORN    ; 6f
 	const RHYDON     ; 70
-	const CHANSEY    ; 71
+	const FLUTTRFAWN    ; 71
 	const TANGELA    ; 72
 	const KANGASKHAN ; 73
 	const HORSEA     ; 74
@@ -247,7 +247,7 @@
 	const CORSOLA    ; de
 	const REMORAID   ; df
 	const OCTILLERY  ; e0
-	const DELIBIRD   ; e1
+	const DURANT   ; e1
 	const MANTINE    ; e2
 	const SKARMORY   ; e3
 	const HOUNDOUR   ; e4
@@ -264,7 +264,7 @@
 	const ELEKID     ; ef
 	const MAGBY      ; f0
 	const MILTANK    ; f1
-	const BLISSEY    ; f2
+	const ETHEREDEER    ; f2
 	const RAIKOU     ; f3
 	const ENTEI      ; f4
 	const SUICUNE    ; f5
@@ -283,7 +283,7 @@
 	const HONCHKROW  ; 102
 	const BONSLY     ; 103
 	const MIME_JR_   ; 104
-	const HAPPINY    ; 105
+	const NOFAWTS    ; 105
 	const MUNCHLAX   ; 106
 	const MANTYKE    ; 107
 	const WEAVILE    ; 108
