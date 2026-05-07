@@ -2,8 +2,8 @@ FinalTextList_TriplePhrases:
 	dbw RIVAL0, .FinalText_Rival0
 	dbw RIVAL1, .FinalText_Rival1
 	dbw RIVAL2, .FinalText_Rival2
-	dbw LYRA1,  .FinalText_Lyra1
-	dbw LYRA2,  .FinalText_Lyra2
+	dbw BROOKE1,  .FinalText_Lyra1
+	dbw BROOKE2,  .FinalText_Lyra2
 	db -1
 
 .FinalText_Rival0:

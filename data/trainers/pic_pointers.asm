@@ -31,8 +31,8 @@ TrainerPicPointers::
 	dba Rival0Pic
 	dba Rival1Pic
 	dba Rival2Pic
-	dba Lyra1Pic
-	dba Lyra2Pic
+	dba Brooke1Pic
+	dba Brooke2Pic
 	dba YoungsterPic
 	dba BugCatcherPic
 	dba CamperPic

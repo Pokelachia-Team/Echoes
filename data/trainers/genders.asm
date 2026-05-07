@@ -33,8 +33,8 @@ BTTrainerClassGenders:
 	dbit MALE_BIT   ; RIVAL0
 	dbit MALE_BIT   ; RIVAL1
 	dbit MALE_BIT   ; RIVAL2
-	dbit FEMALE_BIT ; LYRA1
-	dbit FEMALE_BIT ; LYRA2
+	dbit FEMALE_BIT ; BROOKE1
+	dbit FEMALE_BIT ; BROOKE2
 	dbit MALE_BIT   ; YOUNGSTER
 	dbit MALE_BIT   ; BUG_CATCHER
 	dbit MALE_BIT   ; CAMPER

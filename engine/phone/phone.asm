@@ -484,7 +484,7 @@ CheckCanDeletePhoneNumber:
 	ret z
 	cp PHONECONTACT_PAWPAW
 	ret z
-	cp PHONECONTACT_LYRA
+	cp PHONECONTACT_BROOKE
 	ret z
 	ld c, $1
 	ret

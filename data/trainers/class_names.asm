@@ -30,8 +30,8 @@ TrainerClassNames::
 	li "Strange"          ; RIVAL0
 	li "Rival"            ; RIVAL1
 	li "Rival"            ; RIVAL2
-	li "<PK><MN> Trainer" ; LYRA1
-	li "<PK><MN> Trainer" ; LYRA2
+	li "<PK><MN> Trainer" ; BROOKE1
+	li "<PK><MN> Trainer" ; BROOKE2
 	li "Youngster"        ; YOUNGSTER
 	li "Bug Catcher"      ; BUG_CATCHER
 	li "Camper"           ; CAMPER

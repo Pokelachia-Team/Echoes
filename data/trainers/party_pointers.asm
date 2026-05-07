@@ -33,8 +33,8 @@ TrainerGroups:
 	dba Rival0Group
 	dba Rival1Group
 	dba Rival2Group
-	dba Lyra1Group
-	dba Lyra2Group
+	dba Brooke1Group
+	dba Brooke2Group
 	dba YoungsterGroup
 	dba BugCatcherGroup
 	dba CamperGroup

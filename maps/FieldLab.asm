@@ -59,7 +59,7 @@ FieldLab_MapScriptHeader:
 	const ELMSLAB_POKE_BALL1
 	const ELMSLAB_POKE_BALL2
 	const ELMSLAB_POKE_BALL3
-	; const ELMSLAB_LYRA
+	; const ELMSLAB_BROOKE
 
 ; FieldLabTrigger0:
 ; 	sdefer FieldLab_AutowalkUpToPawpaw
@@ -582,7 +582,7 @@ FieldLabHealingMachine_HealParty:
 ; 	iftruefwd .GLUTTLE
 ; 	checkevent EVENT_GOT_CUPICO_FROM_ELM
 ; 	iftruefwd .CUPICO
-; 	loadtrainer LYRA1, LYRA1_1
+; 	loadtrainer BROOKE1, BROOKE1_1
 ; 	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
 ; 	startbattle
 ; 	dontrestartmapmusic
@@ -593,7 +593,7 @@ FieldLabHealingMachine_HealParty:
 ; 	sjumpfwd .AfterVictorious
 
 ; .GLUTTLE:
-; 	loadtrainer LYRA1, LYRA1_2
+; 	loadtrainer BROOKE1, BROOKE1_2
 ; 	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
 ; 	startbattle
 ; 	dontrestartmapmusic
@@ -604,7 +604,7 @@ FieldLabHealingMachine_HealParty:
 ; 	sjumpfwd .AfterYourDefeat
 
 ; .CUPICO:
-; 	loadtrainer LYRA1, LYRA1_3
+; 	loadtrainer BROOKE1, BROOKE1_3
 ; 	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
 ; 	startbattle
 ; 	dontrestartmapmusic

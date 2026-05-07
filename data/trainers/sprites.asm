@@ -31,8 +31,8 @@ BTTrainerClassSprites:
 	db SPRITE_RIVAL         ; RIVAL0
 	db SPRITE_RIVAL         ; RIVAL1
 	db SPRITE_RIVAL         ; RIVAL2
-	db SPRITE_LYRA          ; LYRA1
-	db SPRITE_LYRA          ; LYRA2
+	db SPRITE_BROOKE          ; BROOKE1
+	db SPRITE_BROOKE          ; BROOKE2
 	db SPRITE_YOUNGSTER     ; YOUNGSTER
 	db SPRITE_BUG_CATCHER   ; BUG_CATCHER
 	db SPRITE_CAMPER        ; CAMPER

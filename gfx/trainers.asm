@@ -91,11 +91,11 @@ Rival1Pic: INCBIN "gfx/trainers/rival1.2bpp.lzp"
 SECTION "Rival2Pic", ROMX
 Rival2Pic: INCBIN "gfx/trainers/rival2.2bpp.lzp"
 
-SECTION "Lyra1Pic", ROMX
-Lyra1Pic: INCBIN "gfx/trainers/lyra1.2bpp.lzp"
+SECTION "Brooke1Pic", ROMX
+Brooke1Pic: INCBIN "gfx/trainers/brooke1.2bpp.lzp"
 
-SECTION "Lyra2Pic", ROMX
-Lyra2Pic: INCBIN "gfx/trainers/lyra2.2bpp.lzp"
+SECTION "Brooke2Pic", ROMX
+Brooke2Pic: INCBIN "gfx/trainers/brooke2.2bpp.lzp"
 
 SECTION "YoungsterPic", ROMX
 YoungsterPic: INCBIN "gfx/trainers/youngster.2bpp.lzp"

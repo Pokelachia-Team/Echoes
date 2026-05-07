@@ -123,7 +123,7 @@ ChrisBackpic:: INCBIN "gfx/player/chris_back.2bpp.lzp"
 KrisBackpic::  INCBIN "gfx/player/kris_back.2bpp.lzp"
 CrysBackpic::  INCBIN "gfx/player/crys_back.2bpp.lzp"
 BetaBackpic::  INCBIN "gfx/player/beta_back.2bpp.lzp"
-LyraBackpic::  INCBIN "gfx/battle/lyra_back.2bpp.lzp"
+BrookeBackpic::  INCBIN "gfx/battle/brooke_back.2bpp.lzp"
 
 
 SECTION "Emote Graphics", ROMX

@@ -33,8 +33,8 @@ TrainerClassDVsAndPersonality:
 	db   0, PERFECT_DVS,   MALE   ; rival0
 	db 144, PERFECT_DVS,   MALE   ; rival1
 	db 252, PERFECT_DVS,   MALE   ; rival2
-	db   0, $BB, $BB, $BB, FEMALE ; lyra1
-	db 252, $BB, $BB, $BB, FEMALE ; lyra2
+	db   0, $BB, $BB, $BB, FEMALE ; brooke1
+	db 252, $BB, $BB, $BB, FEMALE ; brooke2
 	db   0, $66, $66, $66, MALE   ; youngster
 	db   0, $66, $66, $66, MALE   ; bug catcher
 	db   8, $77, $77, $77, MALE   ; camper

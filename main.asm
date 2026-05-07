@@ -320,7 +320,7 @@ SECTION "Crystal Phone Text", ROMX
 ; INCLUDE "data/phone/text/kenji_caller.asm"
 ; INCLUDE "data/phone/text/parry_caller.asm"
 ; INCLUDE "data/phone/text/erin_caller.asm"
-INCLUDE "data/phone/text/lyra.asm"
+INCLUDE "data/phone/text/brooke.asm"
 
 
 SECTION "bank20", ROMX
@@ -463,7 +463,7 @@ INCLUDE "engine/phone/scripts/generic_callee.asm"
 SECTION "Evolution Phone Scripts", ROMX
 
 INCLUDE "engine/phone/scripts/pawpaw.asm"
-INCLUDE "engine/phone/scripts/lyra.asm"
+INCLUDE "engine/phone/scripts/brooke.asm"
 
 
 SECTION "bank32", ROMX

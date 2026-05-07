@@ -596,7 +596,7 @@ GetPlayerOrMonPalettePointer:
 	and a
 	jr nz, GetMonNormalOrShinyPalettePointer
 
-	ld hl, TrainerPalettes + (LYRA1 - 1) * 2 colors
+	ld hl, TrainerPalettes + (BROOKE1 - 1) * 2 colors
 	ld a, [wBattleType]
 	cp BATTLETYPE_TUTORIAL
 	ret z

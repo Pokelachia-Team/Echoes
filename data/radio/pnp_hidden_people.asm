@@ -21,8 +21,8 @@ PnP_HiddenPeople_BeatKanto:
 	db RIVAL0
 	db RIVAL1
 	db RIVAL2
-	db LYRA1
-	db LYRA2
+	db BROOKE1
+	db BROOKE2
 	db PROF_POPLAR
 	db PROF_PAWPAW
 	db CAL

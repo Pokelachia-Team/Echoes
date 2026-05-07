@@ -7976,7 +7976,7 @@ BattleIntro:
 	xor a
 	ldh [hMapAnims], a
 	ld a, [wOtherTrainerClass]
-	cp LYRA2
+	cp BROOKE2
 	jr z, .skip_music ; assume that the music is already playing
 	farcall PlayBattleMusic
 .skip_music
@@ -8758,11 +8758,11 @@ GetTrainerBackpic:
 ; Load the player character's backpic (6x6) into VRAM starting from vTiles2 tile $31.
 	ld a, [wBattleType]
 	cp BATTLETYPE_TUTORIAL
-	jr z, .Lyra
+	jr z, .Brooke
 	farjp GetPlayerBackpic
 
-.Lyra:
-	ld hl, LyraBackpic
+.Brooke:
+	ld hl, BrookeBackpic
 	ld de, vTiles2 tile $31
 	lb bc, BANK("Trainer Backpics"), 6 * 6
 	jmp DecompressRequest2bpp

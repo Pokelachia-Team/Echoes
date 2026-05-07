@@ -23,7 +23,7 @@ ENDM
 	const PHONECONTACT_BIKESHOP
 	const PHONECONTACT_BILL
 	const PHONECONTACT_PAWPAW
-	const PHONECONTACT_LYRA
+	const PHONECONTACT_BROOKE
 	const PHONECONTACT_BUENA
 DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 
@@ -105,21 +105,21 @@ DEF BETA EQU __trainer_class__
 
 	trainerclass RIVAL2
 
-	trainerclass LYRA1
-	const LYRA1_1
-	const LYRA1_2
-	const LYRA1_3
-	const LYRA1_4
-	const LYRA1_5
-	const LYRA1_6
-	const LYRA1_7
-	const LYRA1_8
-	const LYRA1_9
-	const LYRA1_10
-	const LYRA1_11
-	const LYRA1_12
+	trainerclass BROOKE1
+	const BROOKE1_1
+	const BROOKE1_2
+	const BROOKE1_3
+	const BROOKE1_4
+	const BROOKE1_5
+	const BROOKE1_6
+	const BROOKE1_7
+	const BROOKE1_8
+	const BROOKE1_9
+	const BROOKE1_10
+	const BROOKE1_11
+	const BROOKE1_12
 
-	trainerclass LYRA2
+	trainerclass BROOKE2
 
 	trainerclass YOUNGSTER
 	const JOEY1
