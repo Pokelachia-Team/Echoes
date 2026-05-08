@@ -99,7 +99,7 @@ HandleMap:
 	call NextOverworldFrame
 	call HandleMapBackground
 	call CheckPlayerState
-	farcall DoOverworldWeather
+	call DoOverworldWeather
 	xor a
 	ret
 
