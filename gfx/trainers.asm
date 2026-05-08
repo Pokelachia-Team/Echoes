@@ -97,6 +97,12 @@ Brooke1Pic: INCBIN "gfx/trainers/brooke1.2bpp.lzp"
 SECTION "Brooke2Pic", ROMX
 Brooke2Pic: INCBIN "gfx/trainers/brooke2.2bpp.lzp"
 
+SECTION "Asher1Pic", ROMX
+Asher1Pic: INCBIN "gfx/trainers/asher1.2bpp.lzp"
+
+; SECTION "Asher2Pic", ROMX
+; Brooke2Pic: INCBIN "gfx/trainers/brooke2.2bpp.lzp"
+
 SECTION "YoungsterPic", ROMX
 YoungsterPic: INCBIN "gfx/trainers/youngster.2bpp.lzp"
 
@@ -337,9 +343,6 @@ ProfPawpawPic: INCBIN "gfx/trainers/pawpaw.2bpp.lzp"
 
 SECTION "ProfFirPic", ROMX
 ProfFirPic: INCBIN "gfx/trainers/fir.2bpp.lzp"
-
-SECTION "MysticalmanPic", ROMX
-MysticalmanPic: INCBIN "gfx/trainers/mysticalman.2bpp.lzp"
 
 SECTION "KarateKingPic", ROMX
 KarateKingPic: INCBIN "gfx/trainers/karate_king.2bpp.lzp"

@@ -2247,6 +2247,16 @@ endc
 		tr_moves WATERFALL, CRUNCH, ICE_PUNCH, SWORDS_DANCE
 	end_trainer
 
+SECTION "Asher1Group", ROMX
+Asher1Group:
+
+	def_trainer_class ASHER1
+	def_trainer ASHER1_1, "Asher"
+	tr_mon 6, WEEDLE
+	tr_mon 8, DURANT
+	tr_mon 10, HERACROSS
+	end_trainer
+
 
 SECTION "YoungsterGroup", ROMX
 YoungsterGroup:
@@ -7606,28 +7616,28 @@ ProfFirGroup:
 	end_trainer
 
 
-SECTION "MysticalmanGroup", ROMX
-MysticalmanGroup:
+; SECTION "MysticalmanGroup", ROMX
+; MysticalmanGroup:
 
-	def_trainer_class MYSTICALMAN
-	def_trainer EUSINE, "Eusine"
-	tr_mon 27, DROWZEE @ EVIOLITE, MALE
-		tr_extra INSOMNIA
-		tr_evs 160 HP
-		tr_moves DREAM_EATER, HYPNOSIS, DISABLE, PSYBEAM
-	tr_mon 27, HAUNTER @ SPELL_TAG, MALE
-		tr_extra LEVITATE
-		tr_evs 80 SAt, 80 Spe
-		tr_moves SHADOW_BALL, HYPNOSIS, CONFUSE_RAY, CURSE
-	tr_mon 28, ELECTRODE @ MAGNET, MALE
-		tr_extra AFTERMATH, SHINY
-		tr_evs 160 SAt
-		tr_moves THUNDER, SCREECH, SONIC_BOOM, ROLLOUT
-	tr_mon 29, ALAKAZAM @ TWISTEDSPOON, MALE
-		tr_extra SYNCHRONIZE
-		tr_evs 160 SAt
-		tr_moves REFLECT, LIGHT_SCREEN, HP_FIGHTING, PSYBEAM
-	end_trainer
+; 	def_trainer_class MYSTICALMAN
+; 	def_trainer ASHER, "Asher"
+; 	tr_mon 27, DROWZEE @ EVIOLITE, MALE
+; 		tr_extra INSOMNIA
+; 		tr_evs 160 HP
+; 		tr_moves DREAM_EATER, HYPNOSIS, DISABLE, PSYBEAM
+; 	tr_mon 27, HAUNTER @ SPELL_TAG, MALE
+; 		tr_extra LEVITATE
+; 		tr_evs 80 SAt, 80 Spe
+; 		tr_moves SHADOW_BALL, HYPNOSIS, CONFUSE_RAY, CURSE
+; 	tr_mon 28, ELECTRODE @ MAGNET, MALE
+; 		tr_extra AFTERMATH, SHINY
+; 		tr_evs 160 SAt
+; 		tr_moves THUNDER, SCREECH, SONIC_BOOM, ROLLOUT
+; 	tr_mon 29, ALAKAZAM @ TWISTEDSPOON, MALE
+; 		tr_extra SYNCHRONIZE
+; 		tr_evs 160 SAt
+; 		tr_moves REFLECT, LIGHT_SCREEN, HP_FIGHTING, PSYBEAM
+; 	end_trainer
 
 
 SECTION "KarateKingGroup", ROMX

@@ -127,8 +127,8 @@ AndySpriteGFX:: INCBIN "gfx/sprites/andy.2bpp.lzp"
 SECTION "BillSpriteGFX", ROMX
 BillSpriteGFX:: INCBIN "gfx/sprites/bill.2bpp.lzp"
 
-SECTION "EusineSpriteGFX", ROMX
-EusineSpriteGFX:: INCBIN "gfx/sprites/eusine.2bpp.lzp"
+SECTION "AsherSpriteGFX", ROMX
+AsherSpriteGFX:: INCBIN "gfx/sprites/asher.2bpp.lzp"
 
 SECTION "KurtSpriteGFX", ROMX
 KurtSpriteGFX:: INCBIN "gfx/sprites/kurt.2bpp.lzp"

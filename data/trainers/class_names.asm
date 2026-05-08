@@ -32,6 +32,8 @@ TrainerClassNames::
 	li "Rival"            ; RIVAL2
 	li "<PK><MN> Trainer" ; BROOKE1
 	li "<PK><MN> Trainer" ; BROOKE2
+	li "<PK><MN> Trainer" ; ASHER1
+	; li "<PK><MN> Trainer" ; ASHER2
 	li "Youngster"        ; YOUNGSTER
 	li "Bug Catcher"      ; BUG_CATCHER
 	li "Camper"           ; CAMPER
@@ -113,7 +115,6 @@ TrainerClassNames::
 	li "#mon Prof."       ; PROF_POPLAR
 	li "#mon Prof."       ; PROF_PAWPAW
 	li "#mon Prof."       ; PROF_FIR
-	li "Mystery Man"      ; MYSTICALMAN
 	li "Karate King"      ; KARATE_KING
 	li "TowerTycoon"      ; TOWERTYCOON
 	li "FactryHead"       ; FACTORYHEAD

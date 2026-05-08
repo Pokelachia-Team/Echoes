@@ -35,6 +35,8 @@ TrainerGroups:
 	dba Rival2Group
 	dba Brooke1Group
 	dba Brooke2Group
+	dba Asher1Group
+	; dba Asher2Group
 	dba YoungsterGroup
 	dba BugCatcherGroup
 	dba CamperGroup
@@ -116,7 +118,6 @@ TrainerGroups:
 	dba ProfPoplarGroup
 	dba ProfPawpawGroup
 	dba ProfFirGroup
-	dba MysticalmanGroup
 	dba KarateKingGroup
 	dba TowerTycoonGroup
 	dba FactoryHeadGroup

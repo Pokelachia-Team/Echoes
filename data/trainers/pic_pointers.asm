@@ -33,6 +33,8 @@ TrainerPicPointers::
 	dba Rival2Pic
 	dba Brooke1Pic
 	dba Brooke2Pic
+	dba Asher1Pic
+	; dba Asher2Pic
 	dba YoungsterPic
 	dba BugCatcherPic
 	dba CamperPic
@@ -114,7 +116,6 @@ TrainerPicPointers::
 	dba ProfPoplarPic
 	dba ProfPawpawPic
 	dba ProfFirPic
-	dba MysticalmanPic
 	dba KarateKingPic
 	dba TowerTycoonPic
 	dba FactoryHeadPic

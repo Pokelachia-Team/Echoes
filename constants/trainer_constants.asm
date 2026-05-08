@@ -121,6 +121,22 @@ DEF BETA EQU __trainer_class__
 
 	trainerclass BROOKE2
 
+	trainerclass ASHER1
+	const ASHER1_1
+	; const ASHER1_2
+	; const ASHER1_3
+	; const ASHER1_4
+	; const ASHER1_5
+	; const ASHER1_6
+	; const ASHER1_7
+	; const ASHER1_8
+	; const ASHER1_9
+	; const ASHER1_10
+	; const ASHER1_11
+	; const ASHER1_12
+
+	; trainerclass ASHER2
+
 	trainerclass YOUNGSTER
 	const JOEY1
 	const JOEY2
@@ -1054,9 +1070,6 @@ DEF BETA EQU __trainer_class__
 	trainerclass PROF_PAWPAW
 
 	trainerclass PROF_FIR
-
-	trainerclass MYSTICALMAN
-	const EUSINE
 
 	trainerclass KARATE_KING
 	const KIYO

@@ -35,6 +35,8 @@ TrainerClassDVsAndPersonality:
 	db 252, PERFECT_DVS,   MALE   ; rival2
 	db   0, $BB, $BB, $BB, FEMALE ; brooke1
 	db 252, $BB, $BB, $BB, FEMALE ; brooke2
+	db 144, PERFECT_DVS,   MALE   ; asher1
+	; db 252, PERFECT_DVS,   MALE   ; asher2
 	db   0, $66, $66, $66, MALE   ; youngster
 	db   0, $66, $66, $66, MALE   ; bug catcher
 	db   8, $77, $77, $77, MALE   ; camper
@@ -116,7 +118,6 @@ TrainerClassDVsAndPersonality:
 	db 252, PERFECT_DVS,   MALE   ; prof poplar
 	db  32, $BB, $BB, $BB, MALE   ; prof pawpaw
 	db 252, PERFECT_DVS,   FEMALE ; prof fir
-	db  88, $DD, $DD, $DD, MALE   ; mysticalman
 	db  88, PERFECT_DVS,   MALE   ; karate king
 	db 252, PERFECT_DVS,   MALE   ; towertycoon
 	db 252, PERFECT_DVS,   MALE   ; factoryhead

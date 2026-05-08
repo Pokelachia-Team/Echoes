@@ -23,6 +23,8 @@ PnP_HiddenPeople_BeatKanto:
 	db RIVAL2
 	db BROOKE1
 	db BROOKE2
+	db ASHER1
+	; db ASHER2
 	db PROF_POPLAR
 	db PROF_PAWPAW
 	db CAL

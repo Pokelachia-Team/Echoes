@@ -43,7 +43,7 @@
 	const SPRITE_WILLOW ; 27
 	const SPRITE_ANDY ; 28
 	const SPRITE_BILL ; 29
-	const SPRITE_EUSINE ; 2a
+	const SPRITE_ASHER ; 2a
 	const SPRITE_KURT ; 2b
 	const SPRITE_REDS_MOM ; 2c
 	const SPRITE_DAISY ; 2d

@@ -1875,6 +1875,12 @@ Lyra2_1FinalPkmnText:
 	cont "#mon…"
 	prompt
 
+Asher1_1FinalPkmnText:
+	text "…Humph!"
+	line "You're doing OK"
+	cont "for someone weak."
+	prompt
+
 Proton1FinalPkmnText:
 	text "Seriously, you'd"
 	line "chase me this far?"
@@ -1947,11 +1953,6 @@ ProfElmFinalPkmnText:
 ProfFirFinalPkmnText:
 	text "I'm down, but"
 	line "not out!"
-	prompt
-
-MysticalManFinalPkmnText:
-	text "Time for a dra-"
-	line "matic comeback!"
 	prompt
 
 KarateKingFinalPkmnText:

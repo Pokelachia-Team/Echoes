@@ -300,7 +300,7 @@ WonderTradeOTNames2:
 	rawchar "Cal@@@@@" ; $25
 	rawchar "Carrie@@" ; $26
 	rawchar "Mr.<PK><MN>@@@" ; $27
-	rawchar "Eusine@@" ; $28
+	rawchar "Asher@@@" ; $28
 	rawchar "Cameron@" ; $29
 	rawchar "Earl@@@@" ; $2a
 	rawchar "Kurt@@@@" ; $2b

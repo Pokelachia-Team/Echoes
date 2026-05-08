@@ -4,6 +4,8 @@ FinalTextList_TriplePhrases:
 	dbw RIVAL2, .FinalText_Rival2
 	dbw BROOKE1,  .FinalText_Lyra1
 	dbw BROOKE2,  .FinalText_Lyra2
+	dbw ASHER1,  .FinalText_Asher1
+	; dbw ASHER2,  .FinalText_Asher2
 	db -1
 
 .FinalText_Rival0:
@@ -27,6 +29,16 @@ FinalTextList_TriplePhrases:
 
 .FinalText_Lyra2:
 	dw Lyra2_1FinalPkmnText
+
+.FinalText_Asher1:
+	dw Asher1_1FinalPkmnText
+	; dw Lyra1_2FinalPkmnText
+	; dw Lyra1_3FinalPkmnText
+	; dw Lyra1_4FinalPkmnText
+
+; .FinalText_Lyra2:
+; 	dw Lyra2_1FinalPkmnText
+
 
 FinalText_TeamRocket:
 	dw Proton1FinalPkmnText
@@ -77,7 +89,6 @@ FinalText_SinglePhrases:
 	dw ProfOakFinalPkmnText
 	dw ProfElmFinalPkmnText
 	dw ProfFirFinalPkmnText
-	dw MysticalManFinalPkmnText
 	dw KarateKingFinalPkmnText
 	dw PalmerFinalPkmnText
 	dw ThortonFinalPkmnText
