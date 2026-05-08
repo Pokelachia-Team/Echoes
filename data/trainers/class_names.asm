@@ -4,7 +4,7 @@ TrainerClassNames::
 	li "<PK><MN> Trainer" ; CARRIE
 	li "<PK><MN> Trainer" ; JACKY
 	li "<PK><MN> Trainer" ; EUNA
-	li "Leader"           ; FALKNER
+	li "Leader"           ; SAL
 	li "Leader"           ; BUGSY
 	li "Leader"           ; WHITNEY
 	li "Leader"           ; MORTY

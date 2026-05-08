@@ -62,7 +62,7 @@ FinalText_SinglePhrases:
 	dw CarrieFinalPkmnText
 	dw JackyFinalPkmnText
 	dw EunaFinalPkmnText
-	dw FalknerFinalPkmnText
+	dw SalFinalPkmnText
 	dw BugsyFinalPkmnText
 	dw WhitneyFinalPkmnText
 	dw MortyFinalPkmnText

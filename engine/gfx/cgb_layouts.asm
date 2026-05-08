@@ -903,7 +903,7 @@ _CGB_TrainerCard:
 _CGB_TrainerCard2:
 	call LoadFirstTwoTrainerCardPals
 
-	ld hl, TrainerPalettes + (FALKNER - 1) * 2 colors
+	ld hl, TrainerPalettes + (SAL - 1) * 2 colors
 	call LoadPalette_White_Col1_Col2_Black
 
 	ld hl, TrainerPalettes + (BUGSY - 1) * 2 colors
@@ -927,7 +927,7 @@ _CGB_TrainerCard2:
 	ld c, 8 palettes
 	call LoadPalettes
 
-	; Falkner
+	; Sal
 	hlcoord 3, 10, wAttrmap
 	lb bc, 3, 3
 	ld a, $2

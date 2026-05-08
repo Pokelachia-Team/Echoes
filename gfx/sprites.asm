@@ -34,8 +34,8 @@ BrookeSpriteGFX:: INCBIN "gfx/sprites/brooke.2bpp.lzp"
 SECTION "RivalSpriteGFX", ROMX
 RivalSpriteGFX:: INCBIN "gfx/sprites/rival.2bpp.lzp"
 
-SECTION "FalknerSpriteGFX", ROMX
-FalknerSpriteGFX:: INCBIN "gfx/sprites/falkner.2bpp.lzp"
+SECTION "SalSpriteGFX", ROMX
+SalSpriteGFX:: INCBIN "gfx/sprites/sal.2bpp.lzp"
 
 SECTION "WhitneySpriteGFX", ROMX
 WhitneySpriteGFX:: INCBIN "gfx/sprites/whitney.2bpp.lzp"

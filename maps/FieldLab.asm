@@ -432,7 +432,7 @@ FieldLabHealingMachine_HealParty:
 ; PawpawCheckBattleScript:
 ; 	checkevent EVENT_BATTLED_PROF_ELM
 ; 	iftrue_jumpopenedtext PawpawText_CallYou
-; 	checkevent EVENT_BEAT_FALKNER
+; 	checkevent EVENT_BEAT_SAL
 ; 	iffalse_jumpopenedtext PawpawText_CallYou
 ; 	writetext PawpawBeforeBattleText
 ; 	waitbutton

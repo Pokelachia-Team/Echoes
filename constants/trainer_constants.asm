@@ -39,7 +39,7 @@ DEF CRYS EQU __trainer_class__
 DEF BETA EQU __trainer_class__
 	trainerclass EUNA
 
-	trainerclass FALKNER
+	trainerclass SAL
 
 	trainerclass BUGSY
 

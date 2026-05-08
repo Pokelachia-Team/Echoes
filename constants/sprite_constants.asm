@@ -12,7 +12,7 @@
 	const SPRITE_DAD ; 08
 	const SPRITE_BROOKE ; 09
 	const SPRITE_RIVAL ; 0a
-	const SPRITE_FALKNER ; 0b
+	const SPRITE_SAL ; 0b
 	const SPRITE_BUGSY ; 0c
 	const SPRITE_WHITNEY ; 0d
 	const SPRITE_MORTY ; 0e

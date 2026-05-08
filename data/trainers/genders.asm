@@ -7,7 +7,7 @@ BTTrainerClassGenders:
 	dbit FEMALE_BIT ; CARRIE
 	dbit MALE_BIT   ; JACKY
 	dbit FEMALE_BIT ; EUNA
-	dbit MALE_BIT   ; FALKNER
+	dbit MALE_BIT   ; SAL
 	dbit FEMALE_BIT ; BUGSY
 	dbit FEMALE_BIT ; WHITNEY
 	dbit MALE_BIT   ; MORTY

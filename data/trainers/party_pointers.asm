@@ -7,7 +7,7 @@ TrainerGroups:
 	dba CarrieGroup
 	dba JackyGroup
 	dba EunaGroup
-	dba FalknerGroup
+	dba SalGroup
 	dba BugsyGroup
 	dba WhitneyGroup
 	dba MortyGroup

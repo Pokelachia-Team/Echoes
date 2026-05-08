@@ -31,7 +31,7 @@ BossTrainers:
 	db LAWRENCE
 	db REI
 JohtoGymLeaders:
-	db FALKNER
+	db SAL
 	db WHITNEY
 	db BUGSY
 	db MORTY

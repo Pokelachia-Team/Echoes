@@ -98,11 +98,11 @@ EunaGroup:
 	end_trainer
 
 
-SECTION "FalknerGroup", ROMX
-FalknerGroup:
+SECTION "SalGroup", ROMX
+SalGroup:
 
-	def_trainer_class FALKNER
-	def_trainer 1, "Falkner"
+	def_trainer_class SAL
+	def_trainer 1, "Sal"
 	tr_mon 10, NATU, MALE
 		tr_extra SYNCHRONIZE
 		tr_evs 32 HP
@@ -117,7 +117,7 @@ FalknerGroup:
 		tr_moves GUST, MUD_SLAP, QUICK_ATTACK, ROOST
 	end_trainer
 
-	def_trainer 2, "Falkner"
+	def_trainer 2, "Sal"
 	tr_mon 73, NOCTOWL @ WIDE_LENS, MALE
 		tr_extra TINTED_LENS, SATK_UP_ATK_DOWN
 		tr_evs 252 HP, 4 Def, 252 SAt

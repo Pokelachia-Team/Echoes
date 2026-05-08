@@ -129,7 +129,7 @@ LyraPhoneSpecialText_FirstBadge:
 	para "I just got my"
 	line "first Gym Badge!"
 
-	para "Falkner's Pidgeot"
+	para "Sal's Pidgeot"
 	line "is strong, but"
 	cont "mine beat him!"
 

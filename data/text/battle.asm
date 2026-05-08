@@ -1662,7 +1662,7 @@ EunaFinalPkmnText:
 	line "#mon!"
 	prompt
 
-FalknerFinalPkmnText:
+SalFinalPkmnText:
 	text "The wind is"
 	line "finally with us!"
 	prompt
