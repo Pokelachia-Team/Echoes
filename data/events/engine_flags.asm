@@ -225,7 +225,7 @@ EngineFlags:
 	engine_flag wPokemonJournals, GREEN_JOURNAL
 	engine_flag wPokemonJournals, PROF_OAK_JOURNAL
 	engine_flag wPokemonJournals, PROF_ELM_JOURNAL
-	engine_flag wPokemonJournals, PROF_IVY_JOURNAL
+	engine_flag wPokemonJournals, PROF_FIR_JOURNAL
 	engine_flag wPokemonJournals, PROF_WESTWOOD_JOURNAL
 	engine_flag wPokemonJournals, GIOVANNI_JOURNAL
 	engine_flag wPokemonJournals, LORELEI_JOURNAL

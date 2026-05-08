@@ -7574,11 +7574,11 @@ ProfPawpawGroup:
 	end_trainer
 
 
-SECTION "ProfIvyGroup", ROMX
-ProfIvyGroup:
+SECTION "ProfFirGroup", ROMX
+ProfFirGroup:
 
-	def_trainer_class PROF_IVY
-	def_trainer 1, "Ivy"
+	def_trainer_class PROF_FIR
+	def_trainer 1, "Fir"
 	tr_mon 65, BUTTERFREE @ FOCUS_SASH, FEMALE
 		tr_extra COMPOUND_EYES, SPE_UP_ATK_DOWN
 		tr_evs 252 Spe, 164 SAt

@@ -1053,7 +1053,7 @@ DEF BETA EQU __trainer_class__
 
 	trainerclass PROF_PAWPAW
 
-	trainerclass PROF_IVY
+	trainerclass PROF_FIR
 
 	trainerclass MYSTICALMAN
 	const EUSINE

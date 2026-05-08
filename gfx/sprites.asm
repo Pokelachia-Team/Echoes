@@ -112,8 +112,8 @@ PoplarSpriteGFX:: INCBIN "gfx/sprites/poplar.2bpp.lzp"
 SECTION "PawpawSpriteGFX", ROMX
 PawpawSpriteGFX:: INCBIN "gfx/sprites/pawpaw.2bpp.lzp"
 
-SECTION "IvySpriteGFX", ROMX
-IvySpriteGFX:: INCBIN "gfx/sprites/ivy.2bpp.lzp"
+SECTION "FirSpriteGFX", ROMX
+FirSpriteGFX:: INCBIN "gfx/sprites/fir.2bpp.lzp"
 
 SECTION "WestwoodSpriteGFX", ROMX
 WestwoodSpriteGFX:: INCBIN "gfx/sprites/westwood.2bpp.lzp"

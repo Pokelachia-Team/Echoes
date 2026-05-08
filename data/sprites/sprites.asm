@@ -43,7 +43,7 @@ SpriteHeaders:
 	overworld_sprite YellowSpriteGFX, WALKING_SPRITE, PAL_OW_ORANGE
 	overworld_sprite PoplarSpriteGFX, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite PawpawSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
-	overworld_sprite IvySpriteGFX, WALKING_SPRITE, PAL_OW_PURPLE
+	overworld_sprite FirSpriteGFX, WALKING_SPRITE, PAL_OW_PURPLE
 	overworld_sprite WestwoodSpriteGFX, STANDING_SPRITE, PAL_OW_BROWN
 	overworld_sprite WillowSpriteGFX, STANDING_SPRITE, PAL_OW_BROWN
 	overworld_sprite AndySpriteGFX, STANDING_SPRITE, PAL_OW_RED

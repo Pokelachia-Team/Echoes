@@ -115,7 +115,7 @@ TrainerGroups:
 	dba GiovanniGroup
 	dba ProfPoplarGroup
 	dba ProfPawpawGroup
-	dba ProfIvyGroup
+	dba ProfFirGroup
 	dba MysticalmanGroup
 	dba KarateKingGroup
 	dba TowerTycoonGroup

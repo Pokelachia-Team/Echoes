@@ -115,7 +115,7 @@ TrainerClassDVsAndPersonality:
 	db 160, PERFECT_DVS,   MALE   ; giovanni
 	db 252, PERFECT_DVS,   MALE   ; prof poplar
 	db  32, $BB, $BB, $BB, MALE   ; prof pawpaw
-	db 252, PERFECT_DVS,   FEMALE ; prof ivy
+	db 252, PERFECT_DVS,   FEMALE ; prof fir
 	db  88, $DD, $DD, $DD, MALE   ; mysticalman
 	db  88, PERFECT_DVS,   MALE   ; karate king
 	db 252, PERFECT_DVS,   MALE   ; towertycoon

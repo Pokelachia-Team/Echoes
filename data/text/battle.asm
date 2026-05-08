@@ -1944,7 +1944,7 @@ ProfElmFinalPkmnText:
 	line "over…"
 	prompt
 
-ProfIvyFinalPkmnText:
+ProfFirFinalPkmnText:
 	text "I'm down, but"
 	line "not out!"
 	prompt

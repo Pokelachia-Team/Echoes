@@ -335,8 +335,8 @@ ProfPoplarPic: INCBIN "gfx/trainers/poplar.2bpp.lzp"
 SECTION "ProfPawpawPic", ROMX
 ProfPawpawPic: INCBIN "gfx/trainers/pawpaw.2bpp.lzp"
 
-SECTION "ProfIvyPic", ROMX
-ProfIvyPic: INCBIN "gfx/trainers/ivy.2bpp.lzp"
+SECTION "ProfFirPic", ROMX
+ProfFirPic: INCBIN "gfx/trainers/fir.2bpp.lzp"
 
 SECTION "MysticalmanPic", ROMX
 MysticalmanPic: INCBIN "gfx/trainers/mysticalman.2bpp.lzp"

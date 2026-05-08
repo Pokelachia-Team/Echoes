@@ -76,7 +76,7 @@ FinalText_SinglePhrases:
 	; ...
 	dw ProfOakFinalPkmnText
 	dw ProfElmFinalPkmnText
-	dw ProfIvyFinalPkmnText
+	dw ProfFirFinalPkmnText
 	dw MysticalManFinalPkmnText
 	dw KarateKingFinalPkmnText
 	dw PalmerFinalPkmnText

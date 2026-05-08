@@ -112,7 +112,7 @@ TrainerClassNames::
 	li "Boss"             ; GIOVANNI
 	li "#mon Prof."       ; PROF_POPLAR
 	li "#mon Prof."       ; PROF_PAWPAW
-	li "#mon Prof."       ; PROF_IVY
+	li "#mon Prof."       ; PROF_FIR
 	li "Mystery Man"      ; MYSTICALMAN
 	li "Karate King"      ; KARATE_KING
 	li "TowerTycoon"      ; TOWERTYCOON

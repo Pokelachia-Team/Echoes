@@ -113,7 +113,7 @@ BTTrainerClassSprites:
 	db SPRITE_GIOVANNI      ; GIOVANNI
 	db SPRITE_POPLAR           ; PROF_OAK
 	db SPRITE_PAWPAW           ; PROF_ELM
-	db SPRITE_IVY           ; PROF_IVY
+	db SPRITE_FIR           ; PROF_FIR
 	db SPRITE_EUSINE        ; MYSTICALMAN
 	db SPRITE_BLACK_BELT    ; KARATE_KING
 	db SPRITE_PALMER        ; TOWERTYCOON

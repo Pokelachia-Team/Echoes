@@ -38,7 +38,7 @@
 	const SPRITE_YELLOW ; 22
 	const SPRITE_POPLAR ; 23
 	const SPRITE_PAWPAW ; 24
-	const SPRITE_IVY ; 25
+	const SPRITE_FIR ; 25
 	const SPRITE_WESTWOOD ; 26
 	const SPRITE_WILLOW ; 27
 	const SPRITE_ANDY ; 28

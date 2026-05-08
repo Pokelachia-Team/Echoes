@@ -1601,7 +1601,7 @@
 	const EVENT_BEAT_PROF_OAK
 ; Prof Pawpaw
 	const EVENT_BATTLED_PROF_ELM
-; Prof Ivy
+; Prof Fir
 	const EVENT_BEAT_PROF_IVY
 ; Mysticalman
 	const EVENT_BEAT_EUSINE

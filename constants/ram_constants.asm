@@ -407,7 +407,7 @@ DEF DAYCARELADY_ACTIVE_F         EQU 7
 	const GREEN_JOURNAL ; Pokémon Fan Club
 	const PROF_OAK_JOURNAL ; Red's house, Blue's house
 	const PROF_ELM_JOURNAL ; Kris's house, Lyra's house
-	const PROF_IVY_JOURNAL ; Ivy's lab
+	const PROF_FIR_JOURNAL ; Fir's lab
 	const PROF_WESTWOOD_JOURNAL ; Kurt's house
 	const GIOVANNI_JOURNAL ; Indigo Plateau Pokémon Center
 	const LORELEI_JOURNAL ; Shamouti Island Pokémon Center
