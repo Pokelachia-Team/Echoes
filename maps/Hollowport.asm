@@ -30,7 +30,7 @@ Hollowport_MapScriptHeader:
 
 	def_object_events
 	object_event  2,  8, SPRITE_ROCKET, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, Text_HollowportThief, -1
-	object_event 10,  5, SPRITE_CAITLIN, SPRITEMOVEDATA_STANDING_DOWN, 1, 0, -1, PAL_NPC_PINK, OBJECTTYPE_COMMAND, jumptextfaceplayer, Text_HollowportRival, -1
+	object_event 10,  5, SPRITE_BROOKE, SPRITEMOVEDATA_STANDING_DOWN, 1, 0, -1, PAL_NPC_PINK, OBJECTTYPE_COMMAND, jumptextfaceplayer, Text_HollowportRival, -1
 	object_event 14,  4, SPRITE_ELDER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, HollowportElderScript, -1
 	object_event 11, 14, SPRITE_FAT_GUY, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, Text_Technologia, -1
 	object_event  6, 10, SPRITE_PICNICKER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, (1 << MORN) | (1 << DAY), 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, Text_HollowportBirdFriend, -1
@@ -81,9 +81,9 @@ Hollowport_ElderStopsYouTrigger2:
 ; 	applymovement HOLLOWPORT_RIVAL, Movement_RIVALEnters_NBT
 ; 	playmusic MUSIC_RIVAL_ENCOUNTER_HGSS
 ; 	showemote EMOTE_SHOCK, HOLLOWPORT_RIVAL, 15
-; 	applymovement HOLLOWPORT_RIVAL, Movement_LyraApproaches_NBT
+; 	applymovement HOLLOWPORT_RIVAL, Movement_BrookeApproaches_NBT
 ; 	turnobject PLAYER, LEFT
-; 	showtext Text_LyraIntro
+; 	showtext Text_BrookeIntro
 ; 	follow PLAYER, HOLLOWPORT_RIVAL
 ; 	applyonemovement PLAYER, step_up
 ; 	stopfollow
@@ -99,20 +99,20 @@ Hollowport_ElderStopsYouTrigger2:
 ; 	end
 
 ; .Totodile:
-; 	loadtrainer LYRA1, LYRA1_11
+; 	loadtrainer BROOKE1, BROOKE1_11
 ; 	sjumpfwd .AfterBattle
 
 ; .Chikorita:
-; 	loadtrainer LYRA1, LYRA1_12
+; 	loadtrainer BROOKE1, BROOKE1_12
 ; .AfterBattle
 ; 	startbattle
 ; 	dontrestartmapmusic
 ; 	reloadmapafterbattle
 ; 	special DeleteSavedMusic
 ; 	playmusic MUSIC_LYRA_DEPARTURE_HGSS
-; 	showtext Text_LyraGoodbye2
-; 	applymovement HOLLOWPORT_LYRA, Movement_LyraSaysGoodbye3_NBT
-; 	disappear HOLLOWPORT_LYRA
+; 	showtext Text_BrookeGoodbye2
+; 	applymovement HOLLOWPORT_BROOKE, Movement_BrookeSaysGoodbye3_NBT
+; 	disappear HOLLOWPORT_BROOKE
 ; 	setscene $2
 ; 	playmapmusic
 ; 	end

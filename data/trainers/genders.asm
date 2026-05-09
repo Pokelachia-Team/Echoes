@@ -7,7 +7,7 @@ BTTrainerClassGenders:
 	dbit FEMALE_BIT ; CARRIE
 	dbit MALE_BIT   ; JACKY
 	dbit FEMALE_BIT ; EUNA
-	dbit MALE_BIT   ; FALKNER
+	dbit MALE_BIT   ; SAL
 	dbit FEMALE_BIT ; BUGSY
 	dbit FEMALE_BIT ; WHITNEY
 	dbit MALE_BIT   ; MORTY
@@ -33,8 +33,10 @@ BTTrainerClassGenders:
 	dbit MALE_BIT   ; RIVAL0
 	dbit MALE_BIT   ; RIVAL1
 	dbit MALE_BIT   ; RIVAL2
-	dbit FEMALE_BIT ; LYRA1
-	dbit FEMALE_BIT ; LYRA2
+	dbit FEMALE_BIT ; BROOKE1
+	dbit FEMALE_BIT ; BROOKE2
+	dbit MALE_BIT   ; ASHER1
+	; dbit MALE_BIT   ; ASHER2
 	dbit MALE_BIT   ; YOUNGSTER
 	dbit MALE_BIT   ; BUG_CATCHER
 	dbit MALE_BIT   ; CAMPER
@@ -113,10 +115,9 @@ BTTrainerClassGenders:
 	dbit MALE_BIT   ; ARCHER
 	dbit FEMALE_BIT ; ARIANA
 	dbit MALE_BIT   ; GIOVANNI
-	dbit MALE_BIT   ; PROF_OAK
-	dbit MALE_BIT   ; PROF_ELM
-	dbit FEMALE_BIT ; PROF_IVY
-	dbit FEMALE_BIT ; MYSTICALMAN
+	dbit FEMALE_BIT   ; PROF_POPLAR
+	dbit MALE_BIT   ; PROF_PAWPAW
+	dbit FEMALE_BIT ; PROF_FIR
 	dbit MALE_BIT   ; KARATE_KING
 	dbit MALE_BIT   ; TOWERTYCOON
 	dbit MALE_BIT   ; FACTORYHEAD

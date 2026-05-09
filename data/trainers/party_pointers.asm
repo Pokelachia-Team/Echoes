@@ -7,7 +7,7 @@ TrainerGroups:
 	dba CarrieGroup
 	dba JackyGroup
 	dba EunaGroup
-	dba FalknerGroup
+	dba SalGroup
 	dba BugsyGroup
 	dba WhitneyGroup
 	dba MortyGroup
@@ -33,8 +33,10 @@ TrainerGroups:
 	dba Rival0Group
 	dba Rival1Group
 	dba Rival2Group
-	dba Lyra1Group
-	dba Lyra2Group
+	dba Brooke1Group
+	dba Brooke2Group
+	dba Asher1Group
+	; dba Asher2Group
 	dba YoungsterGroup
 	dba BugCatcherGroup
 	dba CamperGroup
@@ -113,10 +115,9 @@ TrainerGroups:
 	dba ArcherGroup
 	dba ArianaGroup
 	dba GiovanniGroup
-	dba ProfOakGroup
-	dba ProfElmGroup
-	dba ProfIvyGroup
-	dba MysticalmanGroup
+	dba ProfPoplarGroup
+	dba ProfPawpawGroup
+	dba ProfFirGroup
 	dba KarateKingGroup
 	dba TowerTycoonGroup
 	dba FactoryHeadGroup

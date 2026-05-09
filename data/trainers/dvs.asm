@@ -7,7 +7,7 @@ TrainerClassDVsAndPersonality:
 	db 252, PERFECT_DVS,   FEMALE ; carrie
 	db 252, PERFECT_DVS,   MALE   ; jacky
 	db 252, PERFECT_DVS,   FEMALE ; euna
-	db 252, $BB, $BB, $BB, MALE   ; falkner
+	db 252, $BB, $BB, $BB, MALE   ; sal
 	db 252, $BB, $BB, $BB, MALE   ; bugsy
 	db 252, $CC, $CC, $CC, FEMALE ; whitney
 	db 252, $CC, $CC, $CC, MALE   ; morty
@@ -33,8 +33,10 @@ TrainerClassDVsAndPersonality:
 	db   0, PERFECT_DVS,   MALE   ; rival0
 	db 144, PERFECT_DVS,   MALE   ; rival1
 	db 252, PERFECT_DVS,   MALE   ; rival2
-	db   0, $BB, $BB, $BB, FEMALE ; lyra1
-	db 252, $BB, $BB, $BB, FEMALE ; lyra2
+	db   0, $BB, $BB, $BB, FEMALE ; brooke1
+	db 252, $BB, $BB, $BB, FEMALE ; brooke2
+	db 144, PERFECT_DVS,   MALE   ; asher1
+	; db 252, PERFECT_DVS,   MALE   ; asher2
 	db   0, $66, $66, $66, MALE   ; youngster
 	db   0, $66, $66, $66, MALE   ; bug catcher
 	db   8, $77, $77, $77, MALE   ; camper
@@ -113,10 +115,9 @@ TrainerClassDVsAndPersonality:
 	db 128, $EE, $EE, $EE, MALE   ; archer
 	db 112, $DD, $DD, $DD, FEMALE ; ariana
 	db 160, PERFECT_DVS,   MALE   ; giovanni
-	db 252, PERFECT_DVS,   MALE   ; prof oak
-	db  32, $BB, $BB, $BB, MALE   ; prof elm
-	db 252, PERFECT_DVS,   FEMALE ; prof ivy
-	db  88, $DD, $DD, $DD, MALE   ; mysticalman
+	db 252, PERFECT_DVS,   MALE   ; prof poplar
+	db  32, $BB, $BB, $BB, MALE   ; prof pawpaw
+	db 252, PERFECT_DVS,   FEMALE ; prof fir
 	db  88, PERFECT_DVS,   MALE   ; karate king
 	db 252, PERFECT_DVS,   MALE   ; towertycoon
 	db 252, PERFECT_DVS,   MALE   ; factoryhead

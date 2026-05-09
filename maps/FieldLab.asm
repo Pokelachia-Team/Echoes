@@ -45,7 +45,7 @@ FieldLab_MapScriptHeader:
 	bg_event  3,  5, BGEVENT_DOWN, FieldLabPC
 
 	def_object_events
-	object_event  5,  2, SPRITE_ELM, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, ProfPawpawScript, -1
+	object_event  5,  2, SPRITE_PAWPAW, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, ProfPawpawScript, -1
 	; object_event 11,  5, SPRITE_SCIENTIST, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, FieldAssistantScript, EVENT_ELMS_AIDE_IN_LAB
 	object_event  6,  1, SPRITE_BALL_CUT_TREE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_ENV_RED, OBJECTTYPE_SCRIPT, 0, FLIKLITPokeBallScript, EVENT_FLIKLIT_POKEBALL_IN_FIELD_LAB
 	object_event  7,  1, SPRITE_BALL_CUT_TREE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_ENV_BLUE, OBJECTTYPE_SCRIPT, 0, GLUTTLEPokeBallScript, EVENT_GLUTTLE_POKEBALL_IN_FIELD_LAB
@@ -59,7 +59,7 @@ FieldLab_MapScriptHeader:
 	const ELMSLAB_POKE_BALL1
 	const ELMSLAB_POKE_BALL2
 	const ELMSLAB_POKE_BALL3
-	; const ELMSLAB_LYRA
+	; const ELMSLAB_BROOKE
 
 ; FieldLabTrigger0:
 ; 	sdefer FieldLab_AutowalkUpToPawpaw
@@ -432,7 +432,7 @@ FieldLabHealingMachine_HealParty:
 ; PawpawCheckBattleScript:
 ; 	checkevent EVENT_BATTLED_PROF_ELM
 ; 	iftrue_jumpopenedtext PawpawText_CallYou
-; 	checkevent EVENT_BEAT_FALKNER
+; 	checkevent EVENT_BEAT_SAL
 ; 	iffalse_jumpopenedtext PawpawText_CallYou
 ; 	writetext PawpawBeforeBattleText
 ; 	waitbutton
@@ -582,7 +582,7 @@ FieldLabHealingMachine_HealParty:
 ; 	iftruefwd .GLUTTLE
 ; 	checkevent EVENT_GOT_CUPICO_FROM_ELM
 ; 	iftruefwd .CUPICO
-; 	loadtrainer LYRA1, LYRA1_1
+; 	loadtrainer BROOKE1, BROOKE1_1
 ; 	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
 ; 	startbattle
 ; 	dontrestartmapmusic
@@ -593,7 +593,7 @@ FieldLabHealingMachine_HealParty:
 ; 	sjumpfwd .AfterVictorious
 
 ; .GLUTTLE:
-; 	loadtrainer LYRA1, LYRA1_2
+; 	loadtrainer BROOKE1, BROOKE1_2
 ; 	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
 ; 	startbattle
 ; 	dontrestartmapmusic
@@ -604,7 +604,7 @@ FieldLabHealingMachine_HealParty:
 ; 	sjumpfwd .AfterYourDefeat
 
 ; .CUPICO:
-; 	loadtrainer LYRA1, LYRA1_3
+; 	loadtrainer BROOKE1, BROOKE1_3
 ; 	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
 ; 	startbattle
 ; 	dontrestartmapmusic
@@ -1403,7 +1403,7 @@ FieldLabWindowText:
 ; 	done
 
 ; if !DEF(DEBUG)
-; 	para "Prof.Oak gave you"
+; 	para "Prof.Poplar gave you"
 ; 	line "a #dex?"
 
 ; 	para "<PLAYER>, is that"

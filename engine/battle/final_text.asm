@@ -15,9 +15,9 @@ GetFinalPkmnTextPointer::
 	dec a
 	cp LEAF
 	jr c, .single_phrase
-	cp PROF_OAK - 1
+	cp PROF_POPLAR - 1
 	jr c, .nothing
-	sub PROF_OAK - LEAF - 1
+	sub PROF_POPLAR - LEAF - 1
 	jr .single_phrase
 
 .nothing:

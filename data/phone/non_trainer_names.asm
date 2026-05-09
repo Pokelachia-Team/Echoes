@@ -5,8 +5,8 @@ NonTrainerCallerNames:
 	dw .mom
 	dw .bikeshop
 	dw .bill
-	dw .elm
-	dw .lyra
+	dw .pawpaw
+	dw .brooke
 	dw .buena
 	assert_table_length NUM_NONTRAINER_PHONECONTACTS + 1
 
@@ -17,15 +17,15 @@ NonTrainerCallerNames:
 	text  "Bill:"
 	next1 "   #maniac"
 	done
-.elm:
-	text  "Prof.Elm:"
+.pawpaw:
+	text  "Prof.Pawpaw:"
 	next1 "   #mon Prof."
 	done
 .bikeshop:
 	text  "Miracle Cycle:"
 	done
-.lyra:
-	text  "Lyra:"
+.brooke:
+	text  "Brooke:"
 	next1 "   <PK><MN> Trainer"
 	done
 .buena:

@@ -28,14 +28,14 @@ MomSpriteGFX:: INCBIN "gfx/sprites/mom.2bpp.lzp"
 SECTION "DadSpriteGFX", ROMX
 DadSpriteGFX:: INCBIN "gfx/sprites/dad.2bpp.lzp"
 
-SECTION "LyraSpriteGFX", ROMX
-LyraSpriteGFX:: INCBIN "gfx/sprites/lyra.2bpp.lzp"
+SECTION "BrookeSpriteGFX", ROMX
+BrookeSpriteGFX:: INCBIN "gfx/sprites/brooke.2bpp.lzp"
 
 SECTION "RivalSpriteGFX", ROMX
 RivalSpriteGFX:: INCBIN "gfx/sprites/rival.2bpp.lzp"
 
-SECTION "FalknerSpriteGFX", ROMX
-FalknerSpriteGFX:: INCBIN "gfx/sprites/falkner.2bpp.lzp"
+SECTION "SalSpriteGFX", ROMX
+SalSpriteGFX:: INCBIN "gfx/sprites/sal.2bpp.lzp"
 
 SECTION "WhitneySpriteGFX", ROMX
 WhitneySpriteGFX:: INCBIN "gfx/sprites/whitney.2bpp.lzp"
@@ -106,14 +106,14 @@ LeafSpriteGFX:: INCBIN "gfx/sprites/leaf.2bpp.lzp"
 SECTION "YellowSpriteGFX", ROMX
 YellowSpriteGFX:: INCBIN "gfx/sprites/yellow.2bpp.lzp"
 
-SECTION "OakSpriteGFX", ROMX
-OakSpriteGFX:: INCBIN "gfx/sprites/oak.2bpp.lzp"
+SECTION "PoplarSpriteGFX", ROMX
+PoplarSpriteGFX:: INCBIN "gfx/sprites/poplar.2bpp.lzp"
 
-SECTION "ElmSpriteGFX", ROMX
-ElmSpriteGFX:: INCBIN "gfx/sprites/elm.2bpp.lzp"
+SECTION "PawpawSpriteGFX", ROMX
+PawpawSpriteGFX:: INCBIN "gfx/sprites/pawpaw.2bpp.lzp"
 
-SECTION "IvySpriteGFX", ROMX
-IvySpriteGFX:: INCBIN "gfx/sprites/ivy.2bpp.lzp"
+SECTION "FirSpriteGFX", ROMX
+FirSpriteGFX:: INCBIN "gfx/sprites/fir.2bpp.lzp"
 
 SECTION "WestwoodSpriteGFX", ROMX
 WestwoodSpriteGFX:: INCBIN "gfx/sprites/westwood.2bpp.lzp"
@@ -127,8 +127,8 @@ AndySpriteGFX:: INCBIN "gfx/sprites/andy.2bpp.lzp"
 SECTION "BillSpriteGFX", ROMX
 BillSpriteGFX:: INCBIN "gfx/sprites/bill.2bpp.lzp"
 
-SECTION "EusineSpriteGFX", ROMX
-EusineSpriteGFX:: INCBIN "gfx/sprites/eusine.2bpp.lzp"
+SECTION "AsherSpriteGFX", ROMX
+AsherSpriteGFX:: INCBIN "gfx/sprites/asher.2bpp.lzp"
 
 SECTION "KurtSpriteGFX", ROMX
 KurtSpriteGFX:: INCBIN "gfx/sprites/kurt.2bpp.lzp"

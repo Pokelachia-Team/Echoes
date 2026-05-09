@@ -2,8 +2,10 @@ FinalTextList_TriplePhrases:
 	dbw RIVAL0, .FinalText_Rival0
 	dbw RIVAL1, .FinalText_Rival1
 	dbw RIVAL2, .FinalText_Rival2
-	dbw LYRA1,  .FinalText_Lyra1
-	dbw LYRA2,  .FinalText_Lyra2
+	dbw BROOKE1,  .FinalText_Lyra1
+	dbw BROOKE2,  .FinalText_Lyra2
+	dbw ASHER1,  .FinalText_Asher1
+	; dbw ASHER2,  .FinalText_Asher2
 	db -1
 
 .FinalText_Rival0:
@@ -28,6 +30,16 @@ FinalTextList_TriplePhrases:
 .FinalText_Lyra2:
 	dw Lyra2_1FinalPkmnText
 
+.FinalText_Asher1:
+	dw Asher1_1FinalPkmnText
+	; dw Lyra1_2FinalPkmnText
+	; dw Lyra1_3FinalPkmnText
+	; dw Lyra1_4FinalPkmnText
+
+; .FinalText_Lyra2:
+; 	dw Lyra2_1FinalPkmnText
+
+
 FinalText_TeamRocket:
 	dw Proton1FinalPkmnText
 	dw Proton2FinalPkmnText
@@ -50,7 +62,7 @@ FinalText_SinglePhrases:
 	dw CarrieFinalPkmnText
 	dw JackyFinalPkmnText
 	dw EunaFinalPkmnText
-	dw FalknerFinalPkmnText
+	dw SalFinalPkmnText
 	dw BugsyFinalPkmnText
 	dw WhitneyFinalPkmnText
 	dw MortyFinalPkmnText
@@ -76,8 +88,7 @@ FinalText_SinglePhrases:
 	; ...
 	dw ProfOakFinalPkmnText
 	dw ProfElmFinalPkmnText
-	dw ProfIvyFinalPkmnText
-	dw MysticalManFinalPkmnText
+	dw ProfFirFinalPkmnText
 	dw KarateKingFinalPkmnText
 	dw PalmerFinalPkmnText
 	dw ThortonFinalPkmnText
@@ -112,5 +123,5 @@ FinalText_SinglePhrases:
 	dw ImakuniFinalPkmnText
 	dw LawrenceFinalPkmnText
 	dw ReiFinalPkmnText
-	; all trainers between LEAF and PROF_OAK are omitted
-	assert_table_length NUM_TRAINER_CLASSES - (PROF_OAK - LEAF - 1)
+	; all trainers between LEAF and PROF_POPLAR are omitted
+	assert_table_length NUM_TRAINER_CLASSES - (PROF_POPLAR - LEAF - 1)

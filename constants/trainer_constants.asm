@@ -22,8 +22,8 @@ ENDM
 	const PHONECONTACT_MOM
 	const PHONECONTACT_BIKESHOP
 	const PHONECONTACT_BILL
-	const PHONECONTACT_ELM
-	const PHONECONTACT_LYRA
+	const PHONECONTACT_PAWPAW
+	const PHONECONTACT_BROOKE
 	const PHONECONTACT_BUENA
 DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 
@@ -39,7 +39,7 @@ DEF CRYS EQU __trainer_class__
 DEF BETA EQU __trainer_class__
 	trainerclass EUNA
 
-	trainerclass FALKNER
+	trainerclass SAL
 
 	trainerclass BUGSY
 
@@ -105,21 +105,37 @@ DEF BETA EQU __trainer_class__
 
 	trainerclass RIVAL2
 
-	trainerclass LYRA1
-	const LYRA1_1
-	const LYRA1_2
-	const LYRA1_3
-	const LYRA1_4
-	const LYRA1_5
-	const LYRA1_6
-	const LYRA1_7
-	const LYRA1_8
-	const LYRA1_9
-	const LYRA1_10
-	const LYRA1_11
-	const LYRA1_12
+	trainerclass BROOKE1
+	const BROOKE1_1
+	const BROOKE1_2
+	const BROOKE1_3
+	const BROOKE1_4
+	const BROOKE1_5
+	const BROOKE1_6
+	const BROOKE1_7
+	const BROOKE1_8
+	const BROOKE1_9
+	const BROOKE1_10
+	const BROOKE1_11
+	const BROOKE1_12
 
-	trainerclass LYRA2
+	trainerclass BROOKE2
+
+	trainerclass ASHER1
+	const ASHER1_1
+	; const ASHER1_2
+	; const ASHER1_3
+	; const ASHER1_4
+	; const ASHER1_5
+	; const ASHER1_6
+	; const ASHER1_7
+	; const ASHER1_8
+	; const ASHER1_9
+	; const ASHER1_10
+	; const ASHER1_11
+	; const ASHER1_12
+
+	; trainerclass ASHER2
 
 	trainerclass YOUNGSTER
 	const JOEY1
@@ -1049,14 +1065,11 @@ DEF BETA EQU __trainer_class__
 	const GIOVANNI1
 	const GIOVANNI2
 
-	trainerclass PROF_OAK
+	trainerclass PROF_POPLAR
 
-	trainerclass PROF_ELM
+	trainerclass PROF_PAWPAW
 
-	trainerclass PROF_IVY
-
-	trainerclass MYSTICALMAN
-	const EUSINE
+	trainerclass PROF_FIR
 
 	trainerclass KARATE_KING
 	const KIYO

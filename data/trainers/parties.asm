@@ -98,11 +98,11 @@ EunaGroup:
 	end_trainer
 
 
-SECTION "FalknerGroup", ROMX
-FalknerGroup:
+SECTION "SalGroup", ROMX
+SalGroup:
 
-	def_trainer_class FALKNER
-	def_trainer 1, "Falkner"
+	def_trainer_class SAL
+	def_trainer 1, "Sal"
 	tr_mon 10, NATU, MALE
 		tr_extra SYNCHRONIZE
 		tr_evs 32 HP
@@ -117,7 +117,7 @@ FalknerGroup:
 		tr_moves GUST, MUD_SLAP, QUICK_ATTACK, ROOST
 	end_trainer
 
-	def_trainer 2, "Falkner"
+	def_trainer 2, "Sal"
 	tr_mon 73, NOCTOWL @ WIDE_LENS, MALE
 		tr_extra TINTED_LENS, SATK_UP_ATK_DOWN
 		tr_evs 252 HP, 4 Def, 252 SAt
@@ -2020,23 +2020,23 @@ endc
 	end_trainer
 
 
-SECTION "Lyra1Group", ROMX
-Lyra1Group:
+SECTION "Brooke1Group", ROMX
+Brooke1Group:
 
-	def_trainer_class LYRA1
-	def_trainer LYRA1_1, "Lyra"
+	def_trainer_class BROOKE1
+	def_trainer BROOKE1_1, "Brooke"
 	tr_mon 5, "Chicory", CHIKORITA
 	end_trainer
 
-	def_trainer LYRA1_2, "Lyra"
+	def_trainer BROOKE1_2, "Brooke"
 	tr_mon 5, "Cinder", CYNDAQUIL
 	end_trainer
 
-	def_trainer LYRA1_3, "Lyra"
+	def_trainer BROOKE1_3, "Brooke"
 	tr_mon 5, "Toto", TOTODILE
 	end_trainer
 
-	def_trainer LYRA1_4, "Lyra"
+	def_trainer BROOKE1_4, "Brooke"
 	tr_mon 16, PIDGEY
 		tr_evs 36 HP, 36 Spe
 		tr_moves TACKLE, GUST, MUD_SLAP, QUICK_ATTACK ; default for level
@@ -2051,7 +2051,7 @@ Lyra1Group:
 		tr_moves RAZOR_LEAF, POISONPOWDER, HEALINGLIGHT, REFLECT ; No Light Screen
 	end_trainer
 
-	def_trainer LYRA1_5, "Lyra"
+	def_trainer BROOKE1_5, "Brooke"
 	tr_mon 16, PIDGEY
 		tr_evs 36 HP, 36 Spe
 	tr_mon 17, SUNKERN
@@ -2062,7 +2062,7 @@ Lyra1Group:
 		tr_evs 72 Spe
 	end_trainer
 
-	def_trainer LYRA1_6, "Lyra"
+	def_trainer BROOKE1_6, "Brooke"
 	tr_mon 16, PIDGEY
 		tr_evs 36 HP, 36 Spe
 	tr_mon 17, GROWLITHE
@@ -2073,7 +2073,7 @@ Lyra1Group:
 		tr_evs 72 Atk
 	end_trainer
 
-	def_trainer LYRA1_7, "Lyra"
+	def_trainer BROOKE1_7, "Brooke"
 	tr_mon 33, PIDGEOTTO
 		tr_evs 100 HP, 100 Spe
 	tr_mon 34, GROWLITHE
@@ -2086,7 +2086,7 @@ Lyra1Group:
 		tr_evs 200 HP
 	end_trainer
 
-	def_trainer LYRA1_8, "Lyra"
+	def_trainer BROOKE1_8, "Brooke"
 	tr_mon 33, PIDGEOTTO
 		tr_evs 100 HP, 100 Spe
 	tr_mon 34, SUNFLORA
@@ -2099,7 +2099,7 @@ Lyra1Group:
 		tr_evs 200 Spe
 	end_trainer
 
-	def_trainer LYRA1_9, "Lyra"
+	def_trainer BROOKE1_9, "Brooke"
 	tr_mon 33, PIDGEOTTO
 		tr_evs 100 HP, 100 Spe
 	tr_mon 34, SUNFLORA
@@ -2112,7 +2112,7 @@ Lyra1Group:
 		tr_evs 200 Atk
 	end_trainer
 
-	def_trainer LYRA1_10, "Lyra"
+	def_trainer BROOKE1_10, "Brooke"
 	tr_mon 44, PIDGEOT
 		tr_evs 132 HP, 132 Spe
 	tr_mon 43, GIRAFARIG
@@ -2127,7 +2127,7 @@ Lyra1Group:
 		tr_evs 252 HP, 12 SAt
 	end_trainer
 
-	def_trainer LYRA1_11, "Lyra"
+	def_trainer BROOKE1_11, "Brooke"
 	tr_mon 44, PIDGEOT
 		tr_evs 132 HP, 132 Spe
 	tr_mon 43, GIRAFARIG
@@ -2142,7 +2142,7 @@ Lyra1Group:
 		tr_evs 12 Atk, 252 Spe
 	end_trainer
 
-	def_trainer LYRA1_12, "Lyra"
+	def_trainer BROOKE1_12, "Brooke"
 	tr_mon 44, PIDGEOT
 		tr_evs 132 HP, 132 Spe
 	tr_mon 43, GIRAFARIG
@@ -2158,11 +2158,11 @@ Lyra1Group:
 	end_trainer
 
 
-SECTION "Lyra2Group", ROMX
-Lyra2Group:
+SECTION "Brooke2Group", ROMX
+Brooke2Group:
 
-	def_trainer_class LYRA2
-	def_trainer 1, "Lyra"
+	def_trainer_class BROOKE2
+	def_trainer 1, "Brooke"
 	tr_mon 69, PIDGEOT @ SHARP_BEAK, FEMALE
 		tr_extra NO_GUARD, SPE_UP_ATK_DOWN
 		tr_evs 252 SAt, 4 Def, 252 Spe
@@ -2193,7 +2193,7 @@ endc
 		tr_moves GIGA_DRAIN, MOONBLAST, EARTH_POWER, HEALINGLIGHT
 	end_trainer
 
-	def_trainer 2, "Lyra"
+	def_trainer 2, "Brooke"
 	tr_mon 69, PIDGEOT @ SHARP_BEAK, FEMALE
 		tr_extra NO_GUARD, SPE_UP_ATK_DOWN
 		tr_evs 252 SAt, 4 Def, 252 Spe
@@ -2220,7 +2220,7 @@ endc
 		tr_moves FLAMETHROWER, SOLAR_BEAM, EARTH_POWER, SUNNY_DAY
 	end_trainer
 
-	def_trainer 3, "Lyra"
+	def_trainer 3, "Brooke"
 	tr_mon 69, PIDGEOT @ SHARP_BEAK, FEMALE
 		tr_extra NO_GUARD, SPE_UP_ATK_DOWN
 		tr_evs 252 SAt, 4 Def, 252 Spe
@@ -2245,6 +2245,16 @@ endc
 		tr_extra SHEER_FORCE, SPE_UP_ATK_DOWN
 		tr_evs 252 Atk, 4 Def, 252 Spe
 		tr_moves WATERFALL, CRUNCH, ICE_PUNCH, SWORDS_DANCE
+	end_trainer
+
+SECTION "Asher1Group", ROMX
+Asher1Group:
+
+	def_trainer_class ASHER1
+	def_trainer ASHER1_1, "Asher"
+	tr_mon 6, WEEDLE
+	tr_mon 8, DURANT
+	tr_mon 10, HERACROSS
 	end_trainer
 
 
@@ -7500,11 +7510,11 @@ endc
 	end_trainer
 
 
-SECTION "ProfOakGroup", ROMX
-ProfOakGroup:
+SECTION "ProfPoplarGroup", ROMX
+ProfPoplarGroup:
 
-	def_trainer_class PROF_OAK
-	def_trainer 1, "Oak"
+	def_trainer_class PROF_POPLAR
+	def_trainer 1, "Poplar"
 	tr_mon 78, TAUROS @ CHOICE_SCARF, MALE
 		tr_extra ATK_UP_SATK_DOWN
 		tr_evs 252 Atk, 4 Def, 252 Spe
@@ -7536,11 +7546,11 @@ endc
 	end_trainer
 
 
-SECTION "ProfElmGroup", ROMX
-ProfElmGroup:
+SECTION "ProfPawpawGroup", ROMX
+ProfPawpawGroup:
 
-	def_trainer_class PROF_ELM
-	def_trainer 1, "Elm"
+	def_trainer_class PROF_PAWPAW
+	def_trainer 1, "Pawpaw"
 	tr_mon LEVEL_FROM_BADGES + 3, HOOTHOOT
 	tr_mon LEVEL_FROM_BADGES + 4, JIGGLYPUFF
 	tr_mon LEVEL_FROM_BADGES + 5, CYNDAQUIL
@@ -7548,7 +7558,7 @@ ProfElmGroup:
 	tr_mon LEVEL_FROM_BADGES + 5, TOTODILE
 	end_trainer
 
-	def_trainer 2, "Elm"
+	def_trainer 2, "Pawpaw"
 	tr_mon LEVEL_FROM_BADGES + 3, AIPOM
 	tr_mon LEVEL_FROM_BADGES + 4, WIGGLYTUFF
 	tr_mon LEVEL_FROM_BADGES + 5, QUILAVA
@@ -7556,7 +7566,7 @@ ProfElmGroup:
 	tr_mon LEVEL_FROM_BADGES + 5, CROCONAW
 	end_trainer
 
-	def_trainer 3, "Elm"
+	def_trainer 3, "Pawpaw"
 	tr_mon LEVEL_FROM_BADGES + 4, AMBIPOM
 	tr_mon LEVEL_FROM_BADGES + 5, WIGGLYTUFF
 	tr_mon LEVEL_FROM_BADGES + 6, TYPHLOSION
@@ -7564,7 +7574,7 @@ ProfElmGroup:
 	tr_mon LEVEL_FROM_BADGES + 6, FERALIGATR
 	end_trainer
 
-	def_trainer 4, "Elm"
+	def_trainer 4, "Pawpaw"
 	tr_mon LEVEL_FROM_BADGES + 7, AMBIPOM
 	tr_mon LEVEL_FROM_BADGES + 8, WIGGLYTUFF
 	tr_mon LEVEL_FROM_BADGES + 8, HERACROSS
@@ -7574,11 +7584,11 @@ ProfElmGroup:
 	end_trainer
 
 
-SECTION "ProfIvyGroup", ROMX
-ProfIvyGroup:
+SECTION "ProfFirGroup", ROMX
+ProfFirGroup:
 
-	def_trainer_class PROF_IVY
-	def_trainer 1, "Ivy"
+	def_trainer_class PROF_FIR
+	def_trainer 1, "Fir"
 	tr_mon 65, BUTTERFREE @ FOCUS_SASH, FEMALE
 		tr_extra COMPOUND_EYES, SPE_UP_ATK_DOWN
 		tr_evs 252 Spe, 164 SAt
@@ -7606,28 +7616,28 @@ ProfIvyGroup:
 	end_trainer
 
 
-SECTION "MysticalmanGroup", ROMX
-MysticalmanGroup:
+; SECTION "MysticalmanGroup", ROMX
+; MysticalmanGroup:
 
-	def_trainer_class MYSTICALMAN
-	def_trainer EUSINE, "Eusine"
-	tr_mon 27, DROWZEE @ EVIOLITE, MALE
-		tr_extra INSOMNIA
-		tr_evs 160 HP
-		tr_moves DREAM_EATER, HYPNOSIS, DISABLE, PSYBEAM
-	tr_mon 27, HAUNTER @ SPELL_TAG, MALE
-		tr_extra LEVITATE
-		tr_evs 80 SAt, 80 Spe
-		tr_moves SHADOW_BALL, HYPNOSIS, CONFUSE_RAY, CURSE
-	tr_mon 28, ELECTRODE @ MAGNET, MALE
-		tr_extra AFTERMATH, SHINY
-		tr_evs 160 SAt
-		tr_moves THUNDER, SCREECH, SONIC_BOOM, ROLLOUT
-	tr_mon 29, ALAKAZAM @ TWISTEDSPOON, MALE
-		tr_extra SYNCHRONIZE
-		tr_evs 160 SAt
-		tr_moves REFLECT, LIGHT_SCREEN, HP_FIGHTING, PSYBEAM
-	end_trainer
+; 	def_trainer_class MYSTICALMAN
+; 	def_trainer ASHER, "Asher"
+; 	tr_mon 27, DROWZEE @ EVIOLITE, MALE
+; 		tr_extra INSOMNIA
+; 		tr_evs 160 HP
+; 		tr_moves DREAM_EATER, HYPNOSIS, DISABLE, PSYBEAM
+; 	tr_mon 27, HAUNTER @ SPELL_TAG, MALE
+; 		tr_extra LEVITATE
+; 		tr_evs 80 SAt, 80 Spe
+; 		tr_moves SHADOW_BALL, HYPNOSIS, CONFUSE_RAY, CURSE
+; 	tr_mon 28, ELECTRODE @ MAGNET, MALE
+; 		tr_extra AFTERMATH, SHINY
+; 		tr_evs 160 SAt
+; 		tr_moves THUNDER, SCREECH, SONIC_BOOM, ROLLOUT
+; 	tr_mon 29, ALAKAZAM @ TWISTEDSPOON, MALE
+; 		tr_extra SYNCHRONIZE
+; 		tr_evs 160 SAt
+; 		tr_moves REFLECT, LIGHT_SCREEN, HP_FIGHTING, PSYBEAM
+; 	end_trainer
 
 
 SECTION "KarateKingGroup", ROMX

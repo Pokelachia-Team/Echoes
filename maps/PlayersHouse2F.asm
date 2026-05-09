@@ -13,7 +13,7 @@ PlayersHouse2F_MapScriptHeader:
 	def_bg_events
 	bg_event  2,  1, BGEVENT_UP, PlayersHousePC
 	bg_event  3,  1, BGEVENT_READ, PlayersHouseRadio
-	bg_event  5,  1, BGEVENT_READ, PokemonJournalProfElmScript
+	bg_event  5,  1, BGEVENT_READ, PokemonJournalProfPawpawScript
 	bg_event  6,  0, BGEVENT_IFSET, PlayersHousePoster
 
 	def_object_events
@@ -165,7 +165,7 @@ endr
 	setflag ENGINE_SOULBADGE
 	setflag ENGINE_VOLCANOBADGE
 	setflag ENGINE_EARTHBADGE
-	setevent EVENT_BEAT_FALKNER
+	setevent EVENT_BEAT_SAL
 	setevent EVENT_BEAT_BUGSY
 	setevent EVENT_BEAT_WHITNEY
 	setevent EVENT_BEAT_MORTY
@@ -330,7 +330,7 @@ else
 
 endc
 
-PokemonJournalProfElmScript:
+PokemonJournalProfPawpawScript:
 	setflag ENGINE_READ_PROF_ELM_JOURNAL
 	jumpthistext
 

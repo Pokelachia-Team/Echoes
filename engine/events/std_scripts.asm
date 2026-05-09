@@ -160,7 +160,7 @@ PokeCenterNurseScript:
 	turnobject LAST_TALKED, DOWN
 	pause 10
 
-	checkphonecall ; elm already called about pokerus
+	checkphonecall ; pawpaw already called about pokerus
 	iftruefwd .no
 	checkflag ENGINE_CAUGHT_POKERUS ; nurse already talked about pokerus
 	iftruefwd .no

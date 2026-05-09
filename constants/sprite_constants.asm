@@ -10,9 +10,9 @@
 	const SPRITE_KRIS_SURF ; 06
 	const SPRITE_MOM ; 07
 	const SPRITE_DAD ; 08
-	const SPRITE_LYRA ; 09
+	const SPRITE_BROOKE ; 09
 	const SPRITE_RIVAL ; 0a
-	const SPRITE_FALKNER ; 0b
+	const SPRITE_SAL ; 0b
 	const SPRITE_BUGSY ; 0c
 	const SPRITE_WHITNEY ; 0d
 	const SPRITE_MORTY ; 0e
@@ -36,14 +36,14 @@
 	const SPRITE_RED ; 20
 	const SPRITE_LEAF ; 21
 	const SPRITE_YELLOW ; 22
-	const SPRITE_OAK ; 23
-	const SPRITE_ELM ; 24
-	const SPRITE_IVY ; 25
+	const SPRITE_POPLAR ; 23
+	const SPRITE_PAWPAW ; 24
+	const SPRITE_FIR ; 25
 	const SPRITE_WESTWOOD ; 26
 	const SPRITE_WILLOW ; 27
 	const SPRITE_ANDY ; 28
 	const SPRITE_BILL ; 29
-	const SPRITE_EUSINE ; 2a
+	const SPRITE_ASHER ; 2a
 	const SPRITE_KURT ; 2b
 	const SPRITE_REDS_MOM ; 2c
 	const SPRITE_DAISY ; 2d

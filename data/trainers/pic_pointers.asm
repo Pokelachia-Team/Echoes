@@ -5,7 +5,7 @@ TrainerPicPointers::
 	dba CarriePic
 	dba JackyPic
 	dba EunaPic
-	dba FalknerPic
+	dba SalPic
 	dba BugsyPic
 	dba WhitneyPic
 	dba MortyPic
@@ -31,8 +31,10 @@ TrainerPicPointers::
 	dba Rival0Pic
 	dba Rival1Pic
 	dba Rival2Pic
-	dba Lyra1Pic
-	dba Lyra2Pic
+	dba Brooke1Pic
+	dba Brooke2Pic
+	dba Asher1Pic
+	; dba Asher2Pic
 	dba YoungsterPic
 	dba BugCatcherPic
 	dba CamperPic
@@ -111,10 +113,9 @@ TrainerPicPointers::
 	dba ArcherPic
 	dba ArianaPic
 	dba GiovanniPic
-	dba ProfOakPic
-	dba ProfElmPic
-	dba ProfIvyPic
-	dba MysticalmanPic
+	dba ProfPoplarPic
+	dba ProfPawpawPic
+	dba ProfFirPic
 	dba KarateKingPic
 	dba TowerTycoonPic
 	dba FactoryHeadPic

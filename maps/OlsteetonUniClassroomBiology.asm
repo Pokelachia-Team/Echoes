@@ -17,13 +17,13 @@ OlsteetonUniClassroomBiology_MapScriptHeader:
 	bg_event  1,  1, BGEVENT_JUMPTEXT, OlsteetonUniClassroomBiologyBookshelf2Text
 
 	def_object_events
-	object_event  3,  2, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, (1 << EVE) | (1 << NITE), PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniClassroomBiologyTeacherText, -1
+	object_event  3,  2, SPRITE_POPLAR, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, (1 << EVE) | (1 << NITE), PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniClassroomBiologyTeacherText, -1
 	object_event  3,  5, SPRITE_LASS, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniClassroomBiologyLassText, -1
 	object_event  8,  3, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniClassroomBiologySuperNerdText, -1
 
 
 OlsteetonUniClassroomBiologyTeacherText:
-	text "Okay class!"
+	text "POPLAR: Ok class!"
 	line "Today we're gonna"
 	cont "talk about one"
 	cont "of #mon's big-"

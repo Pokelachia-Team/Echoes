@@ -2343,7 +2343,7 @@ Script_pause:
 	ld [wScriptDelay], a
 .loop
 rept 2
-	farcall DoOverworldWeather
+	call DoOverworldWeather
 	call DelayFrame
 endr
 	ld hl, wScriptDelay

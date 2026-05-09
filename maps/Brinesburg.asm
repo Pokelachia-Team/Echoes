@@ -33,6 +33,7 @@ Brinesburg_MapScriptHeader:
 	bg_event  5, 24, BGEVENT_ITEM + FULL_HEAL, EVENT_BRINESBURG_HIDDEN_FULL_HEAL
 
 	def_object_events
+	object_event 28, 32, SPRITE_SAL, SPRITEMOVEDATA_STANDING_DOWN, 1, 1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgSalText, -1
 	object_event 28, 32, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_WANDER, 1, 1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgTeacherText, -1
 	object_event 36, 21, SPRITE_ROCKER, SPRITEMOVEDATA_WANDER, 1, 1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgSuperNerdText, -1
 	; object_event 33, 11, SPRITE_POKEMANIAC, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, BrinesburgSuperNerd2Script, -1
@@ -63,6 +64,12 @@ Brinesburg_MapScriptHeader:
 ; 	setevent EVENT_FOUGHT_SNORLAX
 ; 	reloadmapafterbattle
 ; 	end
+
+BrinesburgSalText:
+	text "Sure would be"
+	line "nice if my"
+	cont "gym got designed."
+	done
 
 BrinesburgTeacherText:
 	text "BRINESBURG Port is"

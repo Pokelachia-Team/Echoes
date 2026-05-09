@@ -93,11 +93,11 @@ LizRuinsOfAlphGossipText:
 	line "was. So strange!"
 	done
 
-LizFalknerGossipText:
+LizSalGossipText:
 	text "Listen, listen!"
 
 	para "Don't you think"
-	line "Falkner of Violet"
+	line "Sal of Violet"
 
 	para "Gym is cool and"
 	line "handsome?"
@@ -109,7 +109,7 @@ LizFalknerGossipText:
 	line "road, is even more"
 
 	para "cool and handsome"
-	line "than Falkner."
+	line "than Sal."
 
 	para "I wish I could"
 	line "meet him!"

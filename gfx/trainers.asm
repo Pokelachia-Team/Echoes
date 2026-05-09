@@ -15,8 +15,8 @@ JackyPic: INCBIN "gfx/trainers/jacky.2bpp.lzp"
 SECTION "EunaPic", ROMX
 EunaPic: INCBIN "gfx/trainers/euna.2bpp.lzp"
 
-SECTION "FalknerPic", ROMX
-FalknerPic: INCBIN "gfx/trainers/falkner.2bpp.lzp"
+SECTION "SalPic", ROMX
+SalPic: INCBIN "gfx/trainers/sal.2bpp.lzp"
 
 SECTION "BugsyPic", ROMX
 BugsyPic: INCBIN "gfx/trainers/bugsy.2bpp.lzp"
@@ -91,11 +91,17 @@ Rival1Pic: INCBIN "gfx/trainers/rival1.2bpp.lzp"
 SECTION "Rival2Pic", ROMX
 Rival2Pic: INCBIN "gfx/trainers/rival2.2bpp.lzp"
 
-SECTION "Lyra1Pic", ROMX
-Lyra1Pic: INCBIN "gfx/trainers/lyra1.2bpp.lzp"
+SECTION "Brooke1Pic", ROMX
+Brooke1Pic: INCBIN "gfx/trainers/brooke1.2bpp.lzp"
 
-SECTION "Lyra2Pic", ROMX
-Lyra2Pic: INCBIN "gfx/trainers/lyra2.2bpp.lzp"
+SECTION "Brooke2Pic", ROMX
+Brooke2Pic: INCBIN "gfx/trainers/brooke2.2bpp.lzp"
+
+SECTION "Asher1Pic", ROMX
+Asher1Pic: INCBIN "gfx/trainers/asher1.2bpp.lzp"
+
+; SECTION "Asher2Pic", ROMX
+; Brooke2Pic: INCBIN "gfx/trainers/brooke2.2bpp.lzp"
 
 SECTION "YoungsterPic", ROMX
 YoungsterPic: INCBIN "gfx/trainers/youngster.2bpp.lzp"
@@ -329,17 +335,14 @@ ArianaPic: INCBIN "gfx/trainers/ariana.2bpp.lzp"
 SECTION "GiovanniPic", ROMX
 GiovanniPic: INCBIN "gfx/trainers/giovanni.2bpp.lzp"
 
-SECTION "ProfOakPic", ROMX
-ProfOakPic: INCBIN "gfx/trainers/oak.2bpp.lzp"
+SECTION "ProfPoplarPic", ROMX
+ProfPoplarPic: INCBIN "gfx/trainers/poplar.2bpp.lzp"
 
-SECTION "ProfElmPic", ROMX
-ProfElmPic: INCBIN "gfx/trainers/elm.2bpp.lzp"
+SECTION "ProfPawpawPic", ROMX
+ProfPawpawPic: INCBIN "gfx/trainers/pawpaw.2bpp.lzp"
 
-SECTION "ProfIvyPic", ROMX
-ProfIvyPic: INCBIN "gfx/trainers/ivy.2bpp.lzp"
-
-SECTION "MysticalmanPic", ROMX
-MysticalmanPic: INCBIN "gfx/trainers/mysticalman.2bpp.lzp"
+SECTION "ProfFirPic", ROMX
+ProfFirPic: INCBIN "gfx/trainers/fir.2bpp.lzp"
 
 SECTION "KarateKingPic", ROMX
 KarateKingPic: INCBIN "gfx/trainers/karate_king.2bpp.lzp"

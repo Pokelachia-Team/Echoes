@@ -1,4 +1,4 @@
-; Used for Lyra to describe multiple evolutions (see engine/phone/scripts/lyra.asm)
+; Used for Lyra to describe multiple evolutions (see engine/phone/scripts/brooke.asm)
 
 MACRO multi_evo
 ; mon, EVOLVE_* value

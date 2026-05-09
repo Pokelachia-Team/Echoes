@@ -4,7 +4,7 @@ TrainerClassNames::
 	li "<PK><MN> Trainer" ; CARRIE
 	li "<PK><MN> Trainer" ; JACKY
 	li "<PK><MN> Trainer" ; EUNA
-	li "Leader"           ; FALKNER
+	li "Leader"           ; SAL
 	li "Leader"           ; BUGSY
 	li "Leader"           ; WHITNEY
 	li "Leader"           ; MORTY
@@ -30,8 +30,10 @@ TrainerClassNames::
 	li "Strange"          ; RIVAL0
 	li "Rival"            ; RIVAL1
 	li "Rival"            ; RIVAL2
-	li "<PK><MN> Trainer" ; LYRA1
-	li "<PK><MN> Trainer" ; LYRA2
+	li "<PK><MN> Trainer" ; BROOKE1
+	li "<PK><MN> Trainer" ; BROOKE2
+	li "<PK><MN> Trainer" ; ASHER1
+	; li "<PK><MN> Trainer" ; ASHER2
 	li "Youngster"        ; YOUNGSTER
 	li "Bug Catcher"      ; BUG_CATCHER
 	li "Camper"           ; CAMPER
@@ -110,10 +112,9 @@ TrainerClassNames::
 	li "Executive"        ; ARCHER
 	li "Executive"        ; ARIANA
 	li "Boss"             ; GIOVANNI
-	li "#mon Prof."       ; PROF_OAK
-	li "#mon Prof."       ; PROF_ELM
-	li "#mon Prof."       ; PROF_IVY
-	li "Mystery Man"      ; MYSTICALMAN
+	li "#mon Prof."       ; PROF_POPLAR
+	li "#mon Prof."       ; PROF_PAWPAW
+	li "#mon Prof."       ; PROF_FIR
 	li "Karate King"      ; KARATE_KING
 	li "TowerTycoon"      ; TOWERTYCOON
 	li "FactryHead"       ; FACTORYHEAD

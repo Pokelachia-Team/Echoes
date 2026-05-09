@@ -454,7 +454,7 @@ _ForYourMonWillTradeText::
 
 SECTION "_OPT_IntroText1", ROMX
 _OPT_IntroText1::
-	line "Mary: Prof.Oak's"
+	line "Mary:Prof.Poplar's"
 	done
 
 SECTION "_OPT_IntroText2", ROMX
@@ -469,7 +469,7 @@ _OPT_IntroText3::
 
 SECTION "_OPT_OakText1", ROMX
 _OPT_OakText1::
-	line "Oak: "
+	line "Poplar: "
 	text_ram wMonOrItemNameBuffer
 	done
 
@@ -3021,9 +3021,9 @@ _ItemsDiscardedText::
 	text "."
 	prompt
 
-SECTION "_ItemsOakWarningText", ROMX
-_ItemsOakWarningText::
-	text "Oak: <PLAYER>!"
+SECTION "_ItemsPoplarWarningText", ROMX
+_ItemsPoplarWarningText::
+	text "Poplar: <PLAYER>!"
 	line "This isn't the"
 	cont "time to use that!"
 	done
@@ -4174,9 +4174,9 @@ _ItemCantUseOnEggText::
 	line "on an Egg."
 	prompt
 
-SECTION "_ItemOakWarningText", ROMX
-_ItemOakWarningText::
-	text "Oak: <PLAYER>!"
+SECTION "_ItemPoplarWarningText", ROMX
+_ItemPoplarWarningText::
+	text "Poplar: <PLAYER>!"
 	line "This isn't the"
 	cont "time to use that!"
 	prompt

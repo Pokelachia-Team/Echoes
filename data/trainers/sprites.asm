@@ -5,7 +5,7 @@ BTTrainerClassSprites:
 	db SPRITE_KRIS          ; CARRIE
 	db SPRITE_CRYS          ; JACKY
 	db SPRITE_BETA          ; EUNA
-	db SPRITE_FALKNER       ; FALKNER
+	db SPRITE_SAL       ; SAL
 	db SPRITE_BUGSY         ; BUGSY
 	db SPRITE_WHITNEY       ; WHITNEY
 	db SPRITE_MORTY         ; MORTY
@@ -31,8 +31,10 @@ BTTrainerClassSprites:
 	db SPRITE_RIVAL         ; RIVAL0
 	db SPRITE_RIVAL         ; RIVAL1
 	db SPRITE_RIVAL         ; RIVAL2
-	db SPRITE_LYRA          ; LYRA1
-	db SPRITE_LYRA          ; LYRA2
+	db SPRITE_BROOKE        ; BROOKE1
+	db SPRITE_BROOKE        ; BROOKE2
+	db SPRITE_ASHER         ; ASHER1
+	; db SPRITE_ASHER         ; ASHER2
 	db SPRITE_YOUNGSTER     ; YOUNGSTER
 	db SPRITE_BUG_CATCHER   ; BUG_CATCHER
 	db SPRITE_CAMPER        ; CAMPER
@@ -111,10 +113,9 @@ BTTrainerClassSprites:
 	db SPRITE_ARCHER        ; ARCHER
 	db SPRITE_ARIANA        ; ARIANA
 	db SPRITE_GIOVANNI      ; GIOVANNI
-	db SPRITE_OAK           ; PROF_OAK
-	db SPRITE_ELM           ; PROF_ELM
-	db SPRITE_IVY           ; PROF_IVY
-	db SPRITE_EUSINE        ; MYSTICALMAN
+	db SPRITE_POPLAR           ; PROF_OAK
+	db SPRITE_PAWPAW           ; PROF_ELM
+	db SPRITE_FIR           ; PROF_FIR
 	db SPRITE_BLACK_BELT    ; KARATE_KING
 	db SPRITE_PALMER        ; TOWERTYCOON
 	db SPRITE_THORTON       ; FACTORYHEAD
