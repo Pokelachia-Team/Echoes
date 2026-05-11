@@ -31,11 +31,13 @@ SpawnPlayer:
 	ld hl, MAPOBJECT_PALETTE
 	add hl, bc
 	ld a, [wPlayerGender]
-	assert PLAYER_MALE + 1 == PAL_NPC_RED
-	assert PLAYER_FEMALE + 1 == PAL_NPC_BLUE
-	assert PLAYER_ENBY + 1 == PAL_NPC_GREEN
-	assert PLAYER_BETA + 1 == PAL_NPC_PURPLE
-	inc a
+    ld e, a
+    ld d, 0
+    push hl
+    ld hl, PlayerGenderPalettes
+    add hl, de
+    ld a, [hl]
+    pop hl
 	ld [hl], a
 	ld hl, MAPOBJECT_TYPE
 	add hl, bc
@@ -49,6 +51,12 @@ SpawnPlayer:
 	ld a, PLAYER
 	ld [wCenteredObject], a
 	ret
+
+PlayerGenderPalettes:
+    db PAL_NPC_ORANGE   ; PLAYER_MALE
+    db PAL_NPC_GREEN    ; PLAYER_FEMALE
+    db PAL_NPC_PURPLE   ; PLAYER_ENBY
+    db PAL_NPC_BLUE     ; PLAYER_BETA
 
 PlayerObjectTemplate:
 ; A dummy map object used to initialize the player object.
