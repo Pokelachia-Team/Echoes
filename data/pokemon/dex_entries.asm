@@ -2442,8 +2442,8 @@ EnteiPokedexEntry::
 	next "hotter than a"
 	next "volcano's magma.@"
 
-SECTION "SuicunePokedexEntry", ROMX
-SuicunePokedexEntry::
+SECTION "AugurothPokedexEntry", ROMX
+AugurothPokedexEntry::
 	db "Aurora@"
 	db   "This divine"
 	next "#mon blows"

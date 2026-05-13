@@ -710,7 +710,7 @@ PerformMove:
 	call GetBattleVarAddr
 	res SUBSTATUS_IN_ABILITY, [hl]
 
-	farcall TickDisableAfterMove
+	farcall TickDisableAndEncoreAfterMove
 
 	ld a, BATTLE_VARS_SUBSTATUS1_OPP
 	call GetBattleVarAddr
@@ -6077,7 +6077,7 @@ endc
 
 .InitRoamHP:
 	; HP only uses the lo byte in the RoamMon struct since
-	; Raikou/Entei/Suicune will have < 256 hp at level 40
+	; Raikou/Entei/Auguroth will have < 256 hp at level 40
 	ld a, [wOTPartyMon1HP + 1]
 	ld [hl], a
 	call GetRoamMonStatus

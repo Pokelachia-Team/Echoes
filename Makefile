@@ -1,6 +1,6 @@
 NAME := pokemon-echoes
 MODIFIERS :=
-VERSION := 0.3.1
+VERSION := 0.3.2
 AUTHOR := POKELACHIA-TEAM
 
 ROM_NAME = $(NAME)$(MODIFIERS)-$(VERSION)
@@ -57,7 +57,7 @@ endif
 ifeq ($(filter debug,$(MAKECMDGOALS)),debug)
 MODIFIERS := $(MODIFIERS)-debug
 RGBASMFLAGS += -DDEBUG
-COPYRIGHT += dbg
+COPYRIGHT += D
 endif
 ifeq ($(filter pocket,$(MAKECMDGOALS)),pocket)
 MODIFIERS :=

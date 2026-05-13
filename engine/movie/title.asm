@@ -73,10 +73,10 @@ _TitleScreen:
 	ld a, 0 | BG_BANK1
 	call DrawTitleBGBox
 
-; Suicune palette
-	hlbgcoord 6, 12
-	lb bc, 6, 8
-	ld a, 4 | BG_BANK1
+; Suicune palette -- this was modified to extend beyond Suicune's normal area on screen
+	hlbgcoord 6, 11          ; was: hlbgcoord 6, 12
+	lb bc, 7, 8              ; was: lb bc, 6, 8
+	ld a, 4 | BG_BANK1	     ; assigns palette in slot 4 from title.pal to this area
 	call DrawTitleBGBox
 
 ; Back to VRAM bank 0

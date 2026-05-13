@@ -1020,10 +1020,10 @@ EnteiFrontpic: INCBIN "gfx/pokemon/entei/front.animated.2bpp.lzp"
 EnteiBackpic:  INCBIN "gfx/pokemon/entei/back.2bpp.lzp"
 EnteiFrames:   INCLUDE "gfx/pokemon/entei/frames.asm"
 
-SECTION "Suicune Pics", ROMX
-SuicuneFrontpic: INCBIN "gfx/pokemon/suicune/front.animated.2bpp.lzp"
-SuicuneBackpic:  INCBIN "gfx/pokemon/suicune/back.2bpp.lzp"
-SuicuneFrames:   INCLUDE "gfx/pokemon/suicune/frames.asm"
+SECTION "Auguroth Pics", ROMX
+AugurothFrontpic: INCBIN "gfx/pokemon/auguroth/front.animated.2bpp.lzp"
+AugurothBackpic:  INCBIN "gfx/pokemon/auguroth/back.2bpp.lzp"
+AugurothFrames:   INCLUDE "gfx/pokemon/auguroth/frames.asm"
 
 SECTION "Larvitar Pics", ROMX
 LarvitarFrontpic: INCBIN "gfx/pokemon/larvitar/front.animated.2bpp.lzp"

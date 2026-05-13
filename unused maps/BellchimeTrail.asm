@@ -41,7 +41,7 @@ BellchimeTrailStepDownScene:
 	end
 
 SetupValerieMorningWalkCallback:
-	checkevent EVENT_FOUGHT_SUICUNE
+	checkevent EVENT_FOUGHT_AUGUROTH
 	iffalsefwd .Disappear
 	checkevent EVENT_BEAT_VALERIE
 	iffalsefwd .Appear

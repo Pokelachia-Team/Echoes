@@ -248,7 +248,7 @@ endc
 	db NO_MOVE      ; ETHEREDEER
 	db NO_MOVE      ; RAIKOU
 	db NO_MOVE      ; ENTEI
-	db NO_MOVE      ; SUICUNE
+	db NO_MOVE      ; AUGUROTH
 	db NO_MOVE      ; LARVITAR
 	db DEFENSE_CURL ; PUPITAR
 	db STOMP        ; TYRANITAR

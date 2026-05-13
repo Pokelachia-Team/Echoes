@@ -982,7 +982,7 @@ RadioChannels:
 	jr nc, NoRadioStation
 	ld a, [wTimeOfDay]
 	and a
-	jmp z, LoadStation_PokedexShow
+	jr z, LoadStation_PokedexShow
 	jr LoadStation_OaksPokemonTalk
 
 .PokemonMusic:

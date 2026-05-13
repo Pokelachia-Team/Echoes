@@ -248,7 +248,7 @@ PokemonPicPointers::
 	pics Etheredeer
 	pics Raikou
 	pics Entei
-	pics Suicune
+	pics Auguroth
 	pics Larvitar
 	pics Pupitar
 	pics Tyranitar

@@ -250,7 +250,7 @@ PokemonCries::
 	mon_cry CRY_SLOWKING,    $293,  $140 ; Etheredeer
 	mon_cry CRY_RAIKOU,      $22e,  $120 ; Raikou
 	mon_cry CRY_ENTEI,       $000,  $1a0 ; Entei
-	mon_cry CRY_MAGCARGO,    $000,  $180 ; Suicune
+	mon_cry CRY_MAGCARGO,    $000,  $180 ; Auguroth
 	mon_cry CRY_RAIKOU,      $05f,  $0d0 ; Larvitar
 	mon_cry CRY_JOLTIK,   -$1db,  $150 ; Pupitar
 	mon_cry CRY_RAIKOU,     -$100,  $180 ; Tyranitar

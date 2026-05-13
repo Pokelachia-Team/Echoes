@@ -252,7 +252,7 @@ AlphabeticalPokedexOrder:
 	dp STARYU
 	dp STEELIX
 	dp SUDOWOODO
-	dp SUICUNE
+	dp AUGUROTH
 	dp SUNFLORA
 	dp SUNKERN
 	dp SWINUB
