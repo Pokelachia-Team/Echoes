@@ -1104,7 +1104,7 @@ Intro_PlacePlayerSprite:
 CrystalIntroSequence:
 	farcall SplashScreen
 	jr c, StartTitleScreen
-	farcall CrystalIntro
+	; farcall CrystalIntro   ; comment this out to skip the intro movie
 
 StartTitleScreen:
 	ldh a, [rWBK]
