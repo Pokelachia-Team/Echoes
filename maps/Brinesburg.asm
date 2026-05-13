@@ -122,7 +122,7 @@ BrinesburgSignText:
 	text "BRINESBURG City"
 
 	para "The Port of"
-	line "Exquisite Sunsets"
+	line "Exquisite Sunsnails"
 	done
 
 BrinesburgGymSignText:
