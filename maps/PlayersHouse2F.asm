@@ -189,6 +189,8 @@ endr
 ;	clearevent EVENT_AZALEA_TOWN_SLOWPOKES ; enables random overcast weather
 	; fly anywhere
 	setflag ENGINE_FLYPOINT_HOLLOWPORT
+	setflag ENGINE_FLYPOINT_OLSTEETON
+	setflag ENGINE_FLYPOINT_BRINESBURG
 ;	setevent EVENT_RESTORED_POWER_TO_KANTO ; magnet train works
 	; post-e4
 	setflag ENGINE_CREDITS_SKIP
@@ -251,38 +253,38 @@ endr
 ;	setmapscene ELMS_LAB, SCENE_ELMSLAB_AIDE_GIVES_POTION
 ;	setmapscene HOLLOWPORT, SCENE_NEWBARKTOWN_NOOP
 	; cherrygrove events
-	setevent EVENT_GUIDE_GENT_IN_HIS_HOUSE
-	clearevent EVENT_GUIDE_GENT_VISIBLE_IN_CHERRYGROVE
-	setmapscene CHERRYGROVE_CITY, SCENE_CHERRYGROVECITY_NOOP
-	; route 31 events
-	setevent EVENT_TALKED_TO_MOM_AFTER_MYSTERY_EGG_QUEST
-	setevent EVENT_INTRODUCED_ROUTE_LEADERS
-	; azalea events
-	setevent EVENT_AZALEA_TOWN_SLOWPOKETAIL_ROCKET
-	setevent EVENT_KURTS_HOUSE_KURT_1
-	; goldenrod events
-	setevent EVENT_BEAT_CAMPER_TODD
-	addcellnum PHONE_LYRA
-	setmapscene DAYCARE, SCENE_DAYCARE_NOOP
-	setevent EVENT_LYRA_DAYCARE
-	setevent EVENT_NURSE_SAW_TRAINER_STAR
-	setevent EVENT_INTRODUCED_TEALA
-	addcellnum PHONE_BILL
-	setevent EVENT_BEAT_PICNICKER_KIM
-	setevent EVENT_BEAT_BREEDER_THERESA
-	; ecruteak events
-	setevent EVENT_RIVAL_BURNED_TOWER
-	setevent EVENT_HOLE_IN_BURNED_TOWER
-	setmapscene BURNED_TOWER_1F, SCENE_BURNEDTOWER1F_NOOP
-	; olivine events
-	setevent EVENT_RIVAL_OLIVINE_CITY
-	setmapscene OLIVINE_CITY, SCENE_OLIVINECITY_NOOP
-	; blackthorn events
-	setevent EVENT_BEAT_DRAGON_TAMER_DARIN
-	; vermilion events
-	setmapscene VERMILION_CITY, SCENE_VERMILIONCITY_NOOP
+	; setevent EVENT_GUIDE_GENT_IN_HIS_HOUSE
+	; clearevent EVENT_GUIDE_GENT_VISIBLE_IN_CHERRYGROVE
+	; setmapscene CHERRYGROVE_CITY, SCENE_CHERRYGROVECITY_NOOP
+	; ; route 31 events
+	; setevent EVENT_TALKED_TO_MOM_AFTER_MYSTERY_EGG_QUEST
+	; setevent EVENT_INTRODUCED_ROUTE_LEADERS
+	; ; azalea events
+	; setevent EVENT_AZALEA_TOWN_SLOWPOKETAIL_ROCKET
+	; setevent EVENT_KURTS_HOUSE_KURT_1
+	; ; goldenrod events
+	; setevent EVENT_BEAT_CAMPER_TODD
+	; addcellnum PHONE_LYRA
+	; setmapscene DAYCARE, SCENE_DAYCARE_NOOP
+	; setevent EVENT_LYRA_DAYCARE
+	; setevent EVENT_NURSE_SAW_TRAINER_STAR
+	; setevent EVENT_INTRODUCED_TEALA
+	; addcellnum PHONE_BILL
+	; setevent EVENT_BEAT_PICNICKER_KIM
+	; setevent EVENT_BEAT_BREEDER_THERESA
+	; ; ecruteak events
+	; setevent EVENT_RIVAL_BURNED_TOWER
+	; setevent EVENT_HOLE_IN_BURNED_TOWER
+	; setmapscene BURNED_TOWER_1F, SCENE_BURNEDTOWER1F_NOOP
+	; ; olivine events
+	; setevent EVENT_RIVAL_OLIVINE_CITY
+	; setmapscene OLIVINE_CITY, SCENE_OLIVINECITY_NOOP
+	; ; blackthorn events
+	; setevent EVENT_BEAT_DRAGON_TAMER_DARIN
+	; ; vermilion events
+	; setmapscene VERMILION_CITY, SCENE_VERMILIONCITY_NOOP
 	closetext
-	warpfacing DOWN, GOLDENROD_CITY, 13, 14
+	warpfacing DOWN, BRINESBURG, 53, 12
 	end
 
 FillPokedex:
