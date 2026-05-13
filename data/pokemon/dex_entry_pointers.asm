@@ -245,7 +245,7 @@ PokedexDataPointerTable:
 	dba EtheredeerPokedexEntry
 	dba RaikouPokedexEntry
 	dba EnteiPokedexEntry
-	dba SuicunePokedexEntry
+	dba AugurothPokedexEntry
 	dba LarvitarPokedexEntry
 	dba PupitarPokedexEntry
 	dba TyranitarPokedexEntry

@@ -248,7 +248,7 @@ MiniIconPointers:
 	mini_icon Etheredeer
 	mini_icon Raikou
 	mini_icon Entei
-	mini_icon Suicune
+	mini_icon Auguroth
 	mini_icon Larvitar
 	mini_icon Pupitar
 	mini_icon Tyranitar

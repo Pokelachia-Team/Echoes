@@ -1227,10 +1227,10 @@ EnteiMini::     INCBIN "gfx/minis/entei.2bpp.lzp"
 EnteiMiniMask:: INCBIN "gfx/minis/entei_mask.1bpp.lzp"
 EnteiIcon::     INCBIN "gfx/icons/entei.2bpp.lzp"
 
-SECTION "Suicune Mini Icon", ROMX
-SuicuneMini::     INCBIN "gfx/minis/suicune.2bpp.lzp"
-SuicuneMiniMask:: INCBIN "gfx/minis/suicune_mask.1bpp.lzp"
-SuicuneIcon::     INCBIN "gfx/icons/suicune.2bpp.lzp"
+SECTION "Auguroth Mini Icon", ROMX
+AugurothMini::     INCBIN "gfx/minis/auguroth.2bpp.lzp"
+AugurothMiniMask:: INCBIN "gfx/minis/auguroth_mask.1bpp.lzp"
+AugurothIcon::     INCBIN "gfx/icons/auguroth.2bpp.lzp"
 
 SECTION "Larvitar Mini Icon", ROMX
 LarvitarMini::     INCBIN "gfx/minis/larvitar.2bpp.lzp"

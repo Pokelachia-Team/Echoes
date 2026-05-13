@@ -244,7 +244,7 @@ EggSpeciesMovesPointers::
 	dw NofawtsEggSpeciesMoves           ; Etheredeer
 	dw NoEggSpeciesMoves                ; Raikou
 	dw NoEggSpeciesMoves                ; Entei
-	dw NoEggSpeciesMoves                ; Suicune
+	dw NoEggSpeciesMoves                ; Auguroth
 	dw LarvitarEggSpeciesMoves          ; Larvitar
 	dw LarvitarEggSpeciesMoves          ; Pupitar
 	dw LarvitarEggSpeciesMoves          ; Tyranitar

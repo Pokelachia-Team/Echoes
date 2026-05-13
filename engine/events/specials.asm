@@ -423,16 +423,16 @@ RespawnOneOffs:
 	call z, RespawnRoamingEntei
 .CaughtEntei
 
-	eventflagcheck EVENT_FOUGHT_SUICUNE
-	jr z, .CaughtOrNeverFoughtSuicune
-	ld de, ENGINE_PLAYER_CAUGHT_SUICUNE
+	eventflagcheck EVENT_FOUGHT_AUGUROTH
+	jr z, .CaughtOrNeverFoughtAuguroth
+	ld de, ENGINE_PLAYER_CAUGHT_AUGUROTH
 	farcall EngineFlagAction
-	jr nz, .CaughtOrNeverFoughtSuicune
+	jr nz, .CaughtOrNeverFoughtAuguroth
 	ld hl, wRoamMon3Species
 	ld a, [hl]
 	and a
-	call z, RespawnRoamingSuicune
-.CaughtOrNeverFoughtSuicune
+	call z, RespawnRoamingAuguroth
+.CaughtOrNeverFoughtAuguroth
 
 	ld de, ENGINE_PLAYER_CAUGHT_LUGIA
 	farcall EngineFlagAction
@@ -499,7 +499,7 @@ RespawnRoamingEntei:
 	ld [wRoamMon2HP], a
 	ret
 
-RespawnRoamingSuicune:
+RespawnRoamingAuguroth:
 	ld a, RATTATA
 	ld [wRoamMon3Species], a
 	ld a, 50

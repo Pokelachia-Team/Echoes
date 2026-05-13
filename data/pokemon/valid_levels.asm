@@ -249,7 +249,7 @@ endc
 	db  20, 100 ; Etheredeer
 	db 255, 255 ; Raikou
 	db 255, 255 ; Entei
-	db 255, 255 ; Suicune
+	db 255, 255 ; Auguroth
 	db   1,  29 ; Larvitar
 	db  30,  54 ; Pupitar
 	db  55, 100 ; Tyranitar

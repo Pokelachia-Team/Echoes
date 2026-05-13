@@ -2765,9 +2765,9 @@ RemoveStorageBoxMon_MaybeRespawn:
 	farcall RespawnRoamingEntei
 	jr .done
 .not_entei
-	cp SUICUNE
+	cp AUGUROTH
 	jr nz, .done
-	farcall RespawnRoamingSuicune
+	farcall RespawnRoamingAuguroth
 .done
 	pop bc
 	pop de

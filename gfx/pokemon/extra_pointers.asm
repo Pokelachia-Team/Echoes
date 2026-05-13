@@ -244,7 +244,7 @@ AnimationExtraPointers:
 	dw EtheredeerAnimationExtra
 	dw RaikouAnimationExtra
 	dw EnteiAnimationExtra
-	dw SuicuneAnimationExtra
+	dw AugurothAnimationExtra
 	dw LarvitarAnimationExtra
 	dw PupitarAnimationExtra
 	dw TyranitarAnimationExtra
