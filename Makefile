@@ -57,7 +57,7 @@ endif
 ifeq ($(filter debug,$(MAKECMDGOALS)),debug)
 MODIFIERS := $(MODIFIERS)-debug
 RGBASMFLAGS += -DDEBUG
-COPYRIGHT += dbg
+COPYRIGHT += D
 endif
 ifeq ($(filter pocket,$(MAKECMDGOALS)),pocket)
 MODIFIERS :=
