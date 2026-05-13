@@ -73,10 +73,10 @@ _TitleScreen:
 	ld a, 0 | BG_BANK1
 	call DrawTitleBGBox
 
-; Suicune palette
-	hlbgcoord 6, 12
-	lb bc, 6, 8
-	ld a, 4 | BG_BANK1
+; Suicune palette -- this was modified to extend beyond Suicune's normal area on screen
+	hlbgcoord 6, 11          ; was: hlbgcoord 6, 12
+	lb bc, 7, 8              ; was: lb bc, 6, 8
+	ld a, 4 | BG_BANK1	     ; assigns palette in slot 4 from title.pal to this area
 	call DrawTitleBGBox
 
 ; Back to VRAM bank 0
@@ -193,6 +193,36 @@ _TitleScreen:
 	ld de, SFX_TITLE_SCREEN_ENTRANCE
 	jmp PlaySFX
 
+; SuicuneFrameIterator:	; new SuicuneFrameIterator that only draws the first frame of the logo, keeping a static position
+; 	ld hl, wSuicuneFrame
+; 	ld a, [hl]
+; 	and a
+; 	ret nz                  ; if already drawn once, abort
+; 	inc [hl]                ; mark as drawn
+; 	xor a
+; 	ldh [hBGMapMode], a
+; 	ld hl, SuicuneUnownsTilemaps
+; 	decoord 1, 11
+; 	ld b, 7
+; .bgrows
+; 	ld c, 18
+; .col
+; 	ld a, [hli]
+; 	ld [de], a
+; 	inc de
+; 	dec c
+; 	jr nz, .col
+; rept SCREEN_WIDTH - 18
+; 	inc de
+; endr
+; 	dec b
+; 	jr nz, .bgrows
+; 	ld a, $1
+; 	ldh [hBGMapMode], a
+; 	ldh [hBGMapHalf], a
+; 	ret	
+
+; ==== Old SuicuneFrameIterator, kept for reference ====
 SuicuneFrameIterator:
 	ld hl, wSuicuneFrame
 	ld a, [hl]
