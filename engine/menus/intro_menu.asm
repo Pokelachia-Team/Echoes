@@ -1087,7 +1087,8 @@ Intro_PlacePlayerSprite:
 	ld a, [de]
 	inc de
 	ld [hli], a
-	ld a, [wPlayerGender] ; 0=male, 1=female, or 2=enby
+	ld a, [wPlayerGender] ; 0=male, 1=female, 2=enby, 3=beta
+	add 4 ; OAM palette slots 4, 5, 6, 7 = orange, green, purple, blue
 	ld [hli], a
 	dec c
 	jr nz, .loop

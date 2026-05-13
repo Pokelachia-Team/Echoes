@@ -1,0 +1,26 @@
+if !DEF(MONOCHROME)
+; orange
+	RGB 27, 31, 27
+	RGB 25, 18, 12
+	RGB 22, 09, 05
+	RGB 00, 00, 00
+; green
+	RGB 27, 31, 27
+	RGB 30, 23, 14
+	RGB 00, 24, 09
+	RGB 00, 00, 00
+; purple
+	RGB 27, 31, 27
+	RGB 28, 20, 12
+	RGB 14, 02, 20
+	RGB 00, 00, 00
+; blue
+	RGB 27, 31, 27
+	RGB 29, 21, 14
+	RGB 07, 10, 22
+	RGB 00, 00, 00
+else
+rept 4
+	MONOCHROME_RGB_FOUR_OW
+endr
+endc
