@@ -248,7 +248,7 @@ EvosAttacksPointers::
 	dw EtheredeerEvosAttacks
 	dw RaikouEvosAttacks
 	dw EnteiEvosAttacks
-	dw SuicuneEvosAttacks
+	dw AugurothEvosAttacks
 	dw LarvitarEvosAttacks
 	dw PupitarEvosAttacks
 	dw TyranitarEvosAttacks

@@ -245,7 +245,7 @@ PokemonNames::
 	rawchar "Etheredeer"
 	rawchar "Raikou@@@@"
 	rawchar "Entei@@@@@"
-	rawchar "Suicune@@@"
+	rawchar "Auguroth@@"
 	rawchar "Larvitar@@"
 	rawchar "Pupitar@@@"
 	rawchar "Tyranitar@"

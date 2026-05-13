@@ -244,7 +244,7 @@ FootprintPointers::
 	dw EtheredeerFootprint
 	dw RaikouFootprint
 	dw EnteiFootprint
-	dw SuicuneFootprint
+	dw AugurothFootprint
 	dw LarvitarFootprint
 	dw PupitarFootprint
 	dw TyranitarFootprint

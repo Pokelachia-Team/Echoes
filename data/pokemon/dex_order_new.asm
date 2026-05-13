@@ -279,7 +279,7 @@ NewPokedexOrder:
 	dp MOLTRES
 	dp RAIKOU
 	dp ENTEI
-	dp SUICUNE
+	dp AUGUROTH
 	dp DRATINI
 	dp DRAGONAIR
 	dp DRAGONITE

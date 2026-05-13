@@ -4,7 +4,7 @@ LegendaryMons::
 	dp MOLTRES
 	dp RAIKOU
 	dp ENTEI
-	dp SUICUNE
+	dp AUGUROTH
 UberMons::
 ; banned from Battle Tower
 	dp MEWTWO

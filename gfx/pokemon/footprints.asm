@@ -92,7 +92,8 @@ DoozeeFootprint::
 SinisteaFootprint:: 
 PoltegeistFootprint::
 DebriteFootprint::
-CastorchFootprint:: INCBIN "gfx/footprints/blank.1bpp.lzp"
+CastorchFootprint:: 
+AugurothFootprint:: INCBIN "gfx/footprints/blank.1bpp.lzp"
 
 
 CupicoFootprint:: INCBIN "gfx/footprints/cupico.1bpp.lzp"
@@ -266,7 +267,6 @@ MiltankFootprint:: INCBIN "gfx/footprints/miltank.1bpp.lzp"
 EtheredeerFootprint:: INCBIN "gfx/footprints/etheredeer.1bpp.lzp"
 RaikouFootprint:: INCBIN "gfx/footprints/raikou.1bpp.lzp"
 EnteiFootprint:: INCBIN "gfx/footprints/entei.1bpp.lzp"
-SuicuneFootprint:: INCBIN "gfx/footprints/suicune.1bpp.lzp"
 LarvitarFootprint:: INCBIN "gfx/footprints/larvitar.1bpp.lzp"
 TyranitarFootprint:: INCBIN "gfx/footprints/tyranitar.1bpp.lzp"
 LugiaFootprint:: INCBIN "gfx/footprints/lugia.1bpp.lzp"

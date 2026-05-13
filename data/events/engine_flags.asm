@@ -247,7 +247,7 @@ EngineFlags:
 	engine_flag wPlayerCaught, PLAYER_CAUGHT_LUGIA_F
 	engine_flag wPlayerCaught, PLAYER_CAUGHT_RAIKOU_F
 	engine_flag wPlayerCaught, PLAYER_CAUGHT_ENTEI_F
-	engine_flag wPlayerCaught, PLAYER_CAUGHT_SUICUNE_F
+	engine_flag wPlayerCaught, PLAYER_CAUGHT_AUGUROTH_F
 	engine_flag wPlayerCaught, PLAYER_CAUGHT_ARTICUNO_F
 	engine_flag wPlayerCaught, PLAYER_CAUGHT_ZAPDOS_F
 	engine_flag wPlayerCaught, PLAYER_CAUGHT_MOLTRES_F

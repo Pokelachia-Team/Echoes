@@ -267,7 +267,7 @@
 	const ETHEREDEER    ; f2
 	const RAIKOU     ; f3
 	const ENTEI      ; f4
-	const SUICUNE    ; f5
+	const AUGUROTH    ; f5
 	const LARVITAR   ; f6
 	const PUPITAR    ; f7
 	const TYRANITAR  ; f8

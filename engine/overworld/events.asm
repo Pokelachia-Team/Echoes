@@ -1216,12 +1216,12 @@ RandomEncounter::
 	jr nz, .nope
 .ok
 	ld a, [wTempWildMonSpecies]
-	cp SUICUNE
-	jr nz, .notroamingsuicune
-	ld a, BANK(RoamingSuicuneBattleScript)
-	ld hl, RoamingSuicuneBattleScript
+	cp AUGUROTH
+	jr nz, .notroamingauguroth
+	ld a, BANK(RoamingAugurothBattleScript)
+	ld hl, RoamingAugurothBattleScript
 	jr .done
-.notroamingsuicune
+.notroamingauguroth
 	cp RAIKOU
 	jr nz, .notroamingraikou
 	ld a, BANK(RoamingRaikouBattleScript)
@@ -1266,13 +1266,13 @@ WildBattleScript:
 	reloadmapafterbattle
 	end
 
-RoamingSuicuneBattleScript:
+RoamingAugurothBattleScript:
 	randomwildmon
 	startbattle
 	reloadmapafterbattle
 	special CheckBattleCaughtResult
 	iffalsefwd .nocatch
-	setflag ENGINE_PLAYER_CAUGHT_SUICUNE
+	setflag ENGINE_PLAYER_CAUGHT_AUGUROTH
 .nocatch
 	end
 

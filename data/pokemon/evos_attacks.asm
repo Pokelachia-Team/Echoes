@@ -5045,7 +5045,7 @@ endc
 	learnset 92, SACRED_FIRE
 	learnset 99, HIDDEN_POWER ; TM move
 
-	evos_attacks Suicune
+	evos_attacks Auguroth
 	learnset 1, BITE
 	learnset 1, LEER
 	learnset 8, BUBBLE_BEAM
