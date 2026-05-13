@@ -11,13 +11,13 @@ PlayersHouse2F_MapScriptHeader:
 	def_coord_events
 
 	def_bg_events
-	bg_event  2,  1, BGEVENT_UP, PlayersHousePC
-	bg_event  3,  1, BGEVENT_READ, PlayersHouseRadio
-	bg_event  5,  1, BGEVENT_READ, PokemonJournalProfPawpawScript
+	bg_event  4,  1, BGEVENT_UP, PlayersHousePC
+	bg_event  5,  1, BGEVENT_READ, PlayersHouseRadio
+	bg_event  3,  1, BGEVENT_READ, PokemonJournalProfPawpawScript
 	bg_event  6,  0, BGEVENT_IFSET, PlayersHousePoster
 
 	def_object_events
-	object_event  4,  2, SPRITE_CONSOLE, SPRITEMOVEDATA_STILL, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, GameConsole, EVENT_PLAYERS_HOUSE_2F_CONSOLE
+	object_event  1,  2, SPRITE_CONSOLE, SPRITEMOVEDATA_STILL, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, GameConsole, EVENT_PLAYERS_HOUSE_2F_CONSOLE
 	object_event  4,  4, SPRITE_DOLL_1, SPRITEMOVEDATA_STILL, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, Doll1, EVENT_PLAYERS_HOUSE_2F_DOLL_1
 	object_event  5,  4, SPRITE_DOLL_2, SPRITEMOVEDATA_STILL, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, Doll2, EVENT_PLAYERS_HOUSE_2F_DOLL_2
 	object_event  0,  1, SPRITE_BIG_DOLL, SPRITEMOVEDATA_BIGDOLL, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, BigDoll, EVENT_PLAYERS_HOUSE_2F_BIG_DOLL
