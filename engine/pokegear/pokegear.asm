@@ -628,7 +628,7 @@ PokegearMap_OrangeMap:
 	ld a, [wPokegearMapCursorObjectPointer + 1]
 	ld b, a
 	ld a, [wPokegearMapCursorLandmark]
-	jmp PokegearMap_UpdateCursorPosition
+	jr PokegearMap_UpdateCursorPosition
 
 SkipHiddenOrangeIslandsUp:
 ; 	call CheckSkipNavelRock
@@ -983,22 +983,22 @@ RadioChannels:
 	ld a, [wTimeOfDay]
 	and a
 	jmp z, LoadStation_PokedexShow
-	jmp LoadStation_OaksPokemonTalk
+	jr LoadStation_OaksPokemonTalk
 
 .PokemonMusic:
 	call .InJohto
 	jr nc, NoRadioStation
-	jmp LoadStation_PokemonMusic
+	jr LoadStation_PokemonMusic
 
 .LuckyChannel:
 	call .InJohto
 	jr nc, NoRadioStation
-	jmp LoadStation_LuckyChannel
+	jr LoadStation_LuckyChannel
 
 .BuenasPassword:
 	call .InJohto
 	jr nc, NoRadioStation
-	jmp LoadStation_BuenasPassword
+	jr LoadStation_BuenasPassword
 
 .RuinsOfAlphRadio:
 	jr NoRadioStation
