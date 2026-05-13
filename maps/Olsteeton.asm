@@ -205,7 +205,7 @@ OlsteetonYoungster2Text:
 
 OlsteetonPsyduckLadyText:
 	text "LUCY! HEEEEERE"
-	line "LUCELU—OH!"
+	line "LUCELU...OH!"
 
 	para "Er...you..."
 	line "I'm looking for"
@@ -232,7 +232,7 @@ OlsteetonPsyduckLadyRejectedText:
 
 	para "going to help,"
 	line "get lost."
-	cont "LUUUU—"
+	cont "LUUUU..."
 	done
 
 OlsteetonLassText_PCC:
