@@ -193,36 +193,6 @@ _TitleScreen:
 	ld de, SFX_TITLE_SCREEN_ENTRANCE
 	jmp PlaySFX
 
-; SuicuneFrameIterator:	; new SuicuneFrameIterator that only draws the first frame of the logo, keeping a static position
-; 	ld hl, wSuicuneFrame
-; 	ld a, [hl]
-; 	and a
-; 	ret nz                  ; if already drawn once, abort
-; 	inc [hl]                ; mark as drawn
-; 	xor a
-; 	ldh [hBGMapMode], a
-; 	ld hl, SuicuneUnownsTilemaps
-; 	decoord 1, 11
-; 	ld b, 7
-; .bgrows
-; 	ld c, 18
-; .col
-; 	ld a, [hli]
-; 	ld [de], a
-; 	inc de
-; 	dec c
-; 	jr nz, .col
-; rept SCREEN_WIDTH - 18
-; 	inc de
-; endr
-; 	dec b
-; 	jr nz, .bgrows
-; 	ld a, $1
-; 	ldh [hBGMapMode], a
-; 	ldh [hBGMapHalf], a
-; 	ret	
-
-; ==== Old SuicuneFrameIterator, kept for reference ====
 SuicuneFrameIterator:
 	ld hl, wSuicuneFrame
 	ld a, [hl]
