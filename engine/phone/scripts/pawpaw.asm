@@ -3,14 +3,14 @@ ElmPhoneScript1:
 	ifequalfwd SPECIALCALL_POKERUS, .pokerus
 	checkevent EVENT_SHOWED_TOGEPI_TO_ELM
 	iftruefwd .discovery
-	checkevent EVENT_GOT_TOGEPI_EGG_FROM_ELMS_AIDE
+	checkevent EVENT_GOT_TOGEPI_EGG_FROM_PAWPAWS_AIDE
 	iffalsefwd .next
 	checkevent EVENT_TOGEPI_HATCHED
 	iftruefwd .egghatched
 .next
-	checkevent EVENT_GOT_TOGEPI_EGG_FROM_ELMS_AIDE
+	checkevent EVENT_GOT_TOGEPI_EGG_FROM_PAWPAWS_AIDE
 	iftruefwd .eggunhatched
-	checkevent EVENT_ELMS_AIDE_IN_LAB
+	checkevent EVENT_PAWPAWS_AIDE_IN_LAB
 	iftruefwd .assistant
 	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
 	iftruefwd .checkingegg
@@ -278,7 +278,7 @@ ElmPhoneScript2:
 	farwritetext ElmPhoneEggAssistantText
 	specialphonecall SPECIALCALL_NONE
 	clearevent EVENT_ELMS_AIDE_IN_VIOLET_POKEMON_CENTER
-	setevent EVENT_ELMS_AIDE_IN_LAB
+	setevent EVENT_PAWPAWS_AIDE_IN_LAB
 	end
 
 .rocket

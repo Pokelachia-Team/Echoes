@@ -8934,10 +8934,10 @@ AutomaticBattleWeather:
 	; jr nz, .not_mt_silver_peak
 	; ld a, [wMapNumber]
 	; cp MAP_SILVER_CAVE_ROOM_3
-.maybe_hail
-	lb de, WEATHER_HAIL, HAIL
-	ld hl, HailStartedText
-	jr z, .got_weather
+; .maybe_hail
+; 	lb de, WEATHER_HAIL, HAIL
+; 	ld hl, HailStartedText
+; 	jr z, .got_weather
 .not_mt_silver_peak
 	; Automatic rain when raining
 	; first check if its overcast conditions

@@ -2025,15 +2025,18 @@ Brooke1Group:
 
 	def_trainer_class BROOKE1
 	def_trainer BROOKE1_1, "Brooke"
-	tr_mon 5, "Chicory", CHIKORITA
+	tr_mon 3, "Iggy", IGGLYBUFF	
+	tr_mon 5, "Coney", CUPICO
 	end_trainer
 
 	def_trainer BROOKE1_2, "Brooke"
-	tr_mon 5, "Cinder", CYNDAQUIL
+	tr_mon 3, "Iggy", IGGLYBUFF	
+	tr_mon 5, "Lil bug", FLIKLIT
 	end_trainer
 
 	def_trainer BROOKE1_3, "Brooke"
-	tr_mon 5, "Toto", TOTODILE
+	tr_mon 3, "Iggy", IGGLYBUFF
+	tr_mon 5, "Rockipop", GLUTTLE
 	end_trainer
 
 	def_trainer BROOKE1_4, "Brooke"

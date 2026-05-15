@@ -77,7 +77,7 @@ Olsteeton_MapScriptHeader:
 
 OlsteetonSailboatScript:
 	; checkevent EVENT_BOAT_PERMISSION
-	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
+	checkevent EVENT_GOT_A_POKEMON_FROM_PAWPAW
 	iftruefwd Olsteeton_BoatQuestion
 	jumptext OlsteetonSailboatText
 

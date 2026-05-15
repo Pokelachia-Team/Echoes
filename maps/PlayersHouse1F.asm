@@ -113,6 +113,7 @@ MomEventScript:
 	closetext
 	turnobject PLAYERSHOUSE1F_MOM, DOWN
 	applymovement PLAYERSHOUSE1F_MOM, .mom_steps_3
+	setscene SCENE_FIELDLAB_MEET_PAWPAW
 	special RestartMapMusic
 	end
 
@@ -155,7 +156,7 @@ MomScript:
 	opentext
 	checkevent EVENT_PLAYERS_HOUSE_MOM_1
 	iftrue_jumpopenedtext MomDoItText
-	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
+	checkevent EVENT_GOT_A_POKEMON_FROM_PAWPAW
 	iftrue_jumpopenedtext MomErrandText
 end
 

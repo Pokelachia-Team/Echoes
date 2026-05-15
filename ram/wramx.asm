@@ -1199,6 +1199,7 @@ wPlayersHouse1FSceneID:: db
 wHollowportSceneID:: db
 wPokecenter2FSceneID:: db
 wTradeCenterSceneID:: db
+wFieldLabSceneID:: db
 wRoute101SceneID:: db
 
 ; fight counts
@@ -1258,7 +1259,7 @@ wNeededMonPalLight:: db ; for SPRITE_MON_ICON two-nybble palettes, stores the li
 wNeededPalType:: db ; 0 = normal palette, non-zero = mon two-nybble palette
 wLoadedObjPalType:: db ; bitmask: bit N set = slot N is a mon palette, clear = normal palette
 
-	ds 140 ; unused
+	ds 139 ; unused
 
 wCandyAmounts::
 	table_width 1
