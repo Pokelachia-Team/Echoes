@@ -82,7 +82,7 @@ HallOfFameEnterScene:
 	special RespawnOneOffs
 	; setmapscene SPROUT_TOWER_3F, SCENE_SPROUTTOWER3F_NOOP
 	special HealParty
-	checkevent EVENT_GOT_SS_TICKET_FROM_ELM
+	checkevent EVENT_GOT_SS_TICKET_FROM_PAWPAW
 	iftruefwd .SkipPhoneCall
 	specialphonecall SPECIALCALL_SSTICKET
 	setevent EVENT_BATTLE_TOWER_OPEN

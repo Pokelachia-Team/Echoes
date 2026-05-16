@@ -15,8 +15,8 @@ Hollowport_MapScriptHeader:
 
 
 	def_coord_events
-	coord_event 13,  0, SCENE_HOLLOWPORT_ELDER_STOPS_YOU, Hollowport_ElderStopsYouTrigger1
-	coord_event 12,  0, SCENE_HOLLOWPORT_ELDER_STOPS_YOU, Hollowport_ElderStopsYouTrigger2
+	coord_event 13,  2, SCENE_HOLLOWPORT_ELDER_STOPS_YOU, Hollowport_ElderStopsYouTrigger1
+	coord_event 12,  2, SCENE_HOLLOWPORT_ELDER_STOPS_YOU, Hollowport_ElderStopsYouTrigger2
 	; coord_event  5,  6, 0, Hollowport_RivalIntroTrigger
 
 	def_bg_events
@@ -50,13 +50,10 @@ Hollowport_ElderStopsYouTrigger1:
 	playmusic MUSIC_MOM
 	turnobject HOLLOWPORT_ELDER, LEFT
 	showtext Text_Wait
-	turnobject PLAYER, RIGHT
-	applymovement HOLLOWPORT_ELDER, Movement_ElderRunsToYou1_NBT
+	turnobject PLAYER, DOWN
 	showtext Text_WhatDoing
-	follow HOLLOWPORT_ELDER, PLAYER
-	applymovement HOLLOWPORT_ELDER, Movement_ElderBringsYouBack1_NBT
-	stopfollow
 	showtext Text_DangerousToGoAlone
+	applyonemovement PLAYER, step_down
 	special RestartMapMusic
 	end
 
@@ -64,14 +61,10 @@ Hollowport_ElderStopsYouTrigger2:
 	playmusic MUSIC_MOM
 	turnobject HOLLOWPORT_ELDER, LEFT
 	showtext Text_Wait
-	turnobject PLAYER, RIGHT
-	applymovement HOLLOWPORT_ELDER, Movement_ElderRunsToYou2_NBT
-	turnobject PLAYER, UP
+	turnobject PLAYER, DOWN
 	showtext Text_WhatDoing
-	follow HOLLOWPORT_ELDER, PLAYER
-	applymovement HOLLOWPORT_ELDER, Movement_ElderBringsYouBack2_NBT
-	stopfollow
 	showtext Text_DangerousToGoAlone
+	applyonemovement PLAYER, step_down
 	special RestartMapMusic
 	end
 
@@ -118,44 +111,44 @@ Hollowport_ElderStopsYouTrigger2:
 ; 	end
 
 HollowportElderScript:
-	checkevent EVENT_TALKED_TO_MOM_AFTER_MYSTERY_EGG_QUEST
-	iftrue_jumptextfaceplayer Text_CallMom
-	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
-	iftrue_jumptextfaceplayer Text_TellMomLeaving
-	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
+	; checkevent EVENT_TALKED_TO_MOM_AFTER_MYSTERY_EGG_QUEST
+	; iftrue_jumptextfaceplayer Text_CallMom
+	; checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
+	; iftrue_jumptextfaceplayer Text_TellMomLeaving
+	checkevent EVENT_GOT_A_POKEMON_FROM_PAWPAW
 	iftrue_jumptextfaceplayer Text_MonIsAdorable
 	jumptextfaceplayer Text_NiceBreeze
+	
+; Movement_ElderRunsToYou1_NBT:
+; 	step_left
+; 	step_up
+; 	step_up
+; 	step_up
+; 	step_end
 
-Movement_ElderRunsToYou1_NBT:
-	step_left
-	step_up
-	step_up
-	step_up
-	step_end
+; Movement_ElderRunsToYou2_NBT:
+; 	step_left
+; 	step_left
+; 	step_up
+; 	step_up
+; 	step_up
+; 	step_end
 
-Movement_ElderRunsToYou2_NBT:
-	step_left
-	step_left
-	step_up
-	step_up
-	step_up
-	step_end
-
-Movement_ElderBringsYouBack2_NBT:
-	step_right
-	step_down
-	step_down
-	step_down
-	step_right
-	turn_head_left
-	step_end
-Movement_ElderBringsYouBack1_NBT:
-	step_down
-	step_down
-	step_down
-	step_right
-	turn_head_left
-	step_end
+; Movement_ElderBringsYouBack2_NBT:
+; 	step_right
+; 	step_down
+; 	step_down
+; 	step_down
+; 	step_right
+; 	turn_head_left
+; 	step_end
+; Movement_ElderBringsYouBack1_NBT:
+; 	step_down
+; 	step_down
+; 	step_down
+; 	step_right
+; 	turn_head_left
+; 	step_end
 
 ; Movement_RivalEnters_NBT:
 ; 	step_right

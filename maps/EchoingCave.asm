@@ -42,9 +42,9 @@ EchoingCave_MapScriptHeader:
 ; 	turnobject PLAYER, LEFT
 ; 	playmusic MUSIC_RIVAL_ENCOUNTER
 ; 	showtext MountMoonRivalTextBefore
-; 	checkevent EVENT_GOT_GLUTTLE_FROM_ELM
+; 	checkevent EVENT_GOT_GLUTTLE_FROM_PAWPAW
 ; 	iftruefwd .Totodile
-; 	checkevent EVENT_GOT_CUPICO_FROM_ELM
+; 	checkevent EVENT_GOT_CUPICO_FROM_PAWPAW
 ; 	iftruefwd .Chikorita
 ; 	winlosstext MountMoonRivalTextWin, MountMoonRivalTextLoss
 ; 	setlasttalked MOUNTMOON1F_RIVAL

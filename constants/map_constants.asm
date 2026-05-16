@@ -44,7 +44,7 @@ ENDM
 
 	newgroup                                                     ; 3
 	map_const HOLLOWPORT,                                 12,  9 ;  1
-	map_const FIELD_LAB,								   9,  5 ;  2
+	map_const FIELD_LAB,								   8,  5 ;  2
 	map_const FIELD_LAB_2F,							       9,  5 ;  3		
 	map_const ECHOING_CAVE,							       6,  9 ;  4	
 	map_const PLAYERS_HOUSE_1F,                            6,  4 ;  2

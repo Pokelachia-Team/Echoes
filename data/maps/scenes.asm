@@ -16,5 +16,6 @@ MapScenes::
 	scene_var HOLLOWPORT,                        wHollowportSceneID
 	scene_var PLAYERS_HOUSE_1F,                  wPlayersHouse1FSceneID
 	scene_var POKECENTER_2F,                     wPokecenter2FSceneID
+	scene_var FIELD_LAB,                         wFieldLabSceneID
 	scene_var ROUTE_101,                         wRoute101SceneID
 	db -1

@@ -18,7 +18,7 @@ HollowportNeighbor_MapScriptHeader:
 	object_event  5,  4, SPRITE_BEAUTY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, 0, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, NeighborsHusbandText, -1
 
 HollowportNeighborRadio:
-	; checkevent EVENT_GOT_A_POKEMON_FROM_ELM
+	; checkevent EVENT_GOT_A_POKEMON_FROM_PAWPAW
 	; iftruefwd .NormalRadio
 	; checkevent EVENT_LISTENED_TO_INITIAL_RADIO
 	; iftruefwd .AbbreviatedRadio

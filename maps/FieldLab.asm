@@ -1,95 +1,90 @@
 FieldLab_MapScriptHeader:
 	def_scene_scripts
-	; scene_script FieldLabTrigger0
-	; scene_script FieldLabTrigger1
-	; scene_script FieldLabTrigger2
-	; scene_script FieldLabTrigger3
-	; scene_script FieldLabTrigger4
-	; scene_script FieldLabTrigger5
-	; scene_script FieldLabTrigger6
-	; scene_script FieldLabTrigger7
+	scene_script FieldLabMeetPawpawScene, SCENE_FIELDLAB_MEET_PAWPAW
+	scene_script FieldLabCantLeaveScene, SCENE_FIELDLAB_CANT_LEAVE
+	scene_script FieldLabNoopScene, SCENE_FIELDLAB_NOOP
+	scene_script FieldLabUnusedScene, SCENE_FIELDLAB_UNUSED
+	scene_script FieldLabAideGivesPotionScene, SCENE_FIELDLAB_AIDE_GIVES_POTION
+	scene_script FieldLabBrookeBattleScene, SCENE_FIELDLAB_BROOKE_BATTLE
+	; scene_script FieldLabAideGivesPokeBallsScene, SCENE_FIELDLAB_AIDE_GIVES_POKE_BALLS
 
 	def_callbacks
-	; callback MAPCALLBACK_OBJECTS, FieldLabCallback_MovePawpaw
+	callback MAPCALLBACK_OBJECTS, FieldLabCallback_MovePawpaw
 
 	def_warp_events
-	warp_event  9,  8, HOLLOWPORT, 2
-	warp_event 14,  0, FIELD_LAB_2F, 2
+	warp_event  7,  8, HOLLOWPORT, 2
+	warp_event 12,  0, FIELD_LAB_2F, 2
 
 	def_coord_events
-	; coord_event  1,  5, 1, FieldLabTryToLeaveScript
-	; coord_event  6,  5, 1, FieldLabTryToLeaveScript
-	; coord_event  7,  5, 1, FieldLabTryToLeaveScript
-	; coord_event  8,  5, 1, FieldLabTryToLeaveScript
-	; coord_event  9,  5, 1, FieldLabTryToLeaveScript
-	; coord_event 16,  5, 1, FieldLabTryToLeaveScript
-	; coord_event  6,  5, 5, AssistantScript_WalkPotions1
-	; coord_event  7,  5, 5, AssistantScript_WalkPotions2
-	; coord_event 10,  5, 6, RivalBattleScript
+	coord_event  6,  5, SCENE_FIELDLAB_CANT_LEAVE, FieldLabTryToLeaveScript
+	coord_event  7,  5, SCENE_FIELDLAB_CANT_LEAVE, FieldLabTryToLeaveScript2
+	coord_event  7,  7, SCENE_FIELDLAB_AIDE_GIVES_POTION, AideScript_WalkPotions1
+	coord_event  8,  7, SCENE_FIELDLAB_AIDE_GIVES_POTION, AideScript_WalkPotions2
+	coord_event  6,  4, SCENE_FIELDLAB_BROOKE_BATTLE, BrookeBattleScript
 
 	def_bg_events
 	bg_event  3,  3, BGEVENT_READ, FieldLabHealingMachine
 	bg_event 10,  0, BGEVENT_JUMPTEXT, FieldLabTravelTip1Text
 	bg_event 11,  0, BGEVENT_JUMPTEXT, FieldLabTravelTip2Text
-	bg_event 10,  4, BGEVENT_JUMPTEXT, FieldLabTravelTip3Text
-	bg_event 11,  4, BGEVENT_JUMPTEXT, FieldLabTravelTip4Text
-	bg_event  4,  0, BGEVENT_JUMPSTD, difficultbookshelf
-	bg_event  5,  0, BGEVENT_JUMPSTD, difficultbookshelf
+	bg_event  8,  4, BGEVENT_JUMPTEXT, FieldLabTravelTip3Text
+	bg_event  9,  4, BGEVENT_JUMPTEXT, FieldLabTravelTip4Text
+	bg_event  4,  1, BGEVENT_JUMPSTD, difficultbookshelf
+	bg_event  5,  1, BGEVENT_JUMPSTD, difficultbookshelf
 	bg_event  9,  1, BGEVENT_JUMPTEXT, FieldLabTrashcanText
-	bg_event  5,  5, BGEVENT_JUMPTEXT, FieldLabTrashcanText
 	bg_event 10,  9, BGEVENT_READ, FieldLabWindow
 	bg_event  2,  9, BGEVENT_READ, FieldLabWindow
 	bg_event  4,  9, BGEVENT_READ, FieldLabWindow
-	bg_event  6,  9, BGEVENT_READ, FieldLabWindow
+	bg_event  8,  9, BGEVENT_READ, FieldLabWindow
 	bg_event 12,  9, BGEVENT_READ, FieldLabWindow
-	bg_event  3,  5, BGEVENT_DOWN, FieldLabPC
+	bg_event  4,  5, BGEVENT_DOWN, FieldLabPC
 
 	def_object_events
 	object_event  5,  2, SPRITE_PAWPAW, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, ProfPawpawScript, -1
-	; object_event 11,  5, SPRITE_SCIENTIST, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, FieldAssistantScript, EVENT_ELMS_AIDE_IN_LAB
-	object_event  6,  1, SPRITE_BALL_CUT_TREE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_ENV_RED, OBJECTTYPE_SCRIPT, 0, FLIKLITPokeBallScript, EVENT_FLIKLIT_POKEBALL_IN_FIELD_LAB
-	object_event  7,  1, SPRITE_BALL_CUT_TREE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_ENV_BLUE, OBJECTTYPE_SCRIPT, 0, GLUTTLEPokeBallScript, EVENT_GLUTTLE_POKEBALL_IN_FIELD_LAB
-	object_event  8,  1, SPRITE_BALL_CUT_TREE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_ENV_GREEN, OBJECTTYPE_SCRIPT, 0, CUPICOPokeBallScript, EVENT_CUPICO_POKEBALL_IN_FIELD_LAB
-	; object_event  3,  6, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, FieldLabFellowText, -1
-	; object_event 10,  2, SPRITE_LYRA, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, FieldLabRivalScript, EVENT_LYRA_IN_ELMS_LAB
+	object_event  6,  8, SPRITE_BROOKE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, FieldLabBrookeScript, EVENT_BROOKE_IN_PAWPAWS_LAB
+	object_event  4,  6, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, FieldAideScript, EVENT_PAWPAWS_AIDE_IN_LAB
+	object_event  6,  1, SPRITE_BALL_CUT_TREE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_ENV_RED, OBJECTTYPE_SCRIPT, 0, FlicklitPokeBallScript, EVENT_FLIKLIT_POKEBALL_IN_FIELD_LAB
+	object_event  7,  1, SPRITE_BALL_CUT_TREE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_ENV_BLUE, OBJECTTYPE_SCRIPT, 0, GluttlePokeBallScript, EVENT_GLUTTLE_POKEBALL_IN_FIELD_LAB
+	object_event  8,  1, SPRITE_BALL_CUT_TREE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_ENV_GREEN, OBJECTTYPE_SCRIPT, 0, CupicoPokeBallScript, EVENT_CUPICO_POKEBALL_IN_FIELD_LAB
+	object_event 12,  1, SPRITE_SCIENTIST, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, FieldLabFellowText, -1
 
 	object_const_def
-	const ELMSLAB_ELM
-	; const ELMSLAB_ELMS_AIDE
-	const ELMSLAB_POKE_BALL1
-	const ELMSLAB_POKE_BALL2
-	const ELMSLAB_POKE_BALL3
-	; const ELMSLAB_BROOKE
+	const FIELDLAB_PAWPAW
+	const FIELDLAB_BROOKE
+	const FIELDLAB_PAWPAWS_AIDE
+	const FIELDLAB_POKE_BALL1
+	const FIELDLAB_POKE_BALL2
+	const FIELDLAB_POKE_BALL3
 
-; FieldLabTrigger0:
-; 	sdefer FieldLab_AutowalkUpToPawpaw
-; FieldLabTrigger1:
-; FieldLabTrigger2:
-; FieldLabTrigger3:
-; FieldLabTrigger4:
-; FieldLabTrigger5:
-; FieldLabTrigger6:
+FieldLabMeetPawpawScene:
+	sdefer FieldLab_AutowalkUpToPawpaw
+FieldLabCantLeaveScene:
+FieldLabNoopScene:
+FieldLabUnusedScene:
+FieldLabAideGivesPotionScene:
+FieldLabBrookeBattleScene:
+	end
+
+; FieldLabAideGivesPokeBallsScene:
+; 	sdefer FieldLab_AutoAideSpeech
 ; 	end
 
-; FieldLabTrigger7:
-; 	sdefer FieldLab_AutoAssistantSpeech
-; 	end
 
-; FieldLabCallback_MovePawpaw:
-; 	checkscene
-; 	iftruefwd .Skip
-; 	moveobject ELMSLAB_ELM, 3, 4
-; .Skip:
-; 	endcallback
-ProfPawpawScript:
+FieldLabCallback_MovePawpaw:
+	checkscene
+	iftruefwd .Skip
+	moveobject FIELDLAB_PAWPAW, 3, 4
+.Skip:
+	endcallback
+
+FieldLab_AutowalkUpToPawpaw:
+	follow PLAYER, FIELDLAB_BROOKE
+	applymovement PLAYER, FieldLab_WalkUpToPawpawMovement
+	stopfollow
 	faceplayer
- 	checkevent EVENT_GOT_FLIKLIT_FROM_ELM
+ 	checkevent EVENT_GOT_A_POKEMON_FROM_PAWPAW
 	iftruefwd PawpawAfterMon
- 	checkevent EVENT_GOT_GLUTTLE_FROM_ELM
-	iftruefwd PawpawAfterMon
- 	checkevent EVENT_GOT_CUPICO_FROM_ELM
-	iftruefwd PawpawAfterMon
-	showemote EMOTE_SHOCK, ELMSLAB_ELM, 15
+	showemote EMOTE_SHOCK, FIELDLAB_PAWPAW, 15
+	applymovement FIELDLAB_PAWPAW, FieldLab_WalkToPlayer
 	opentext
 	writetext PawpawText_Intro
 FieldLab_RefuseLoop:
@@ -107,52 +102,63 @@ if !DEF(DEBUG)
 	closetext
 	playsound SFX_GLASS_TING
 	pause 30
-	showemote EMOTE_SHOCK, ELMSLAB_ELM, 10
-	turnobject ELMSLAB_ELM, DOWN
+	showemote EMOTE_SHOCK, FIELDLAB_PAWPAW, 10
+	turnobject FIELDLAB_PAWPAW, DOWN
 	showtext PawpawText_GotAnEmail
 	opentext
-	turnobject ELMSLAB_ELM, RIGHT
-	writetext PawpawText_MissionFromMrPokemon
+	turnobject FIELDLAB_PAWPAW, RIGHT
+	writetext PawpawText_MissionFromPoplar
 	waitbutton
 endc
 	closetext
-	applyonemovement ELMSLAB_ELM, step_up
+	applyonemovement FIELDLAB_PAWPAW, step_up
 	turnobject PLAYER, UP
-	applymovement ELMSLAB_ELM, FieldLab_PawpawToDefaultPositionMovement
+	applymovement FIELDLAB_PAWPAW, FieldLab_PawpawToDefaultPositionMovement
 	turnobject PLAYER, RIGHT
 	showtext PawpawText_ChooseAPokemon
 	setevent EVENT_CHOOSE_POKEMON
-	setevent EVENT_GOT_A_POKEMON_FROM_ELM
+	setscene SCENE_FIELDLAB_CANT_LEAVE
 	end
 
-; FieldLab_AutoAssistantSpeech:
-; 	turnobject ELMSLAB_ELMS_AIDE, DOWN
-; 	showemote EMOTE_SHOCK, ELMSLAB_ELMS_AIDE, 15
-; 	applymovement ELMSLAB_ELMS_AIDE, AssistantWalksDownMovement
-; 	showtext AssistantText_ThiefReturnedMon
-; 	applymovement ELMSLAB_ELMS_AIDE, AssistantWalksBackMovement
-; 	turnobject ELMSLAB_ELMS_AIDE, DOWN
-; 	setscene $2
+ProfPawpawScript:
+	checkevent EVENT_GOT_A_POKEMON_FROM_PAWPAW
+	iftrue_jumpopenedtext PawpawDescribesPoplarText
+	jumpthisopenedtext
+
+	text "If a wild #mon"
+	line "appears, let your"
+	cont "#mon battle it!"
+	done
+
+
+; FieldLab_AutoAideSpeech:
+; 	turnobject FIELDLAB_PAWPAWS_AIDE, DOWN
+; 	showemote EMOTE_SHOCK, FIELDLAB_PAWPAWS_AIDE, 15
+; 	applymovement FIELDLAB_PAWPAWS_AIDE, AideWalksDownMovement
+; 	showtext AideText_ThiefReturnedMon
+; 	applymovement FIELDLAB_PAWPAWS_AIDE, AideWalksBackMovement
+; 	turnobject FIELDLAB_PAWPAWS_AIDE, DOWN
+; 	setscene SCENE_FIELDLAB_NOOP
 ; 	end
 
 ; 	opentext
-; 	checkevent EVENT_GOT_SS_TICKET_FROM_ELM
+; 	checkevent EVENT_GOT_SS_TICKET_FROM_PAWPAW
 ; 	iftruefwd PawpawCheckMasterBall
 ; 	checkevent EVENT_BEAT_ELITE_FOUR
 ; 	iftrue PawpawGiveTicketScript
 ; PawpawCheckMasterBall:
-; 	checkevent EVENT_GOT_MASTER_BALL_FROM_ELM
+; 	checkevent EVENT_GOT_MASTER_BALL_FROM_PAWPAW
 ; 	iftruefwd PawpawCheckOddSouvenir
 ; 	checkflag ENGINE_RISINGBADGE
 ; 	iftrue PawpawGiveMasterBallScript
 ; PawpawCheckOddSouvenir:
-; 	checkevent EVENT_GOT_ODD_SOUVENIR_FROM_ELM
+; 	checkevent EVENT_GOT_ODD_SOUVENIR_FROM_PAWPAW
 ; 	iftrue PawpawCheckBattleScript
-; 	checkevent EVENT_SHOWED_TOGEPI_TO_ELM
+; 	checkevent EVENT_SHOWED_TOGEPI_TO_PAWPAW
 ; 	iftrue PawpawGiveOddSouvenirScript
-; 	checkevent EVENT_ELM_WANTS_TO_BATTLE
+; 	checkevent EVENT_PAWPAW_WANTS_TO_BATTLE
 ; 	iftrue PawpawAskBattleScript
-; 	checkevent EVENT_TOLD_ELM_ABOUT_TOGEPI_OVER_THE_PHONE
+; 	checkevent EVENT_TOLD_PAWPAW_ABOUT_TOGEPI_OVER_THE_PHONE
 ; 	iffalsefwd PawpawCheckTogepiEgg
 ; 	scall PawpawEggHatchedScript
 ; 	jumpopenedtext PawpawThoughtEggHatchedText
@@ -170,155 +176,155 @@ endc
 ; 	sjumpfwd PawpawCheckGotEggAgain
 
 ; PawpawCheckTogepiEgg:
-; 	checkevent EVENT_GOT_TOGEPI_EGG_FROM_ELMS_AIDE
+; 	checkevent EVENT_GOT_TOGEPI_EGG_FROM_PAWPAWS_AIDE
 ; 	iffalsefwd PawpawCheckGotEggAgain
 ; 	checkevent EVENT_TOGEPI_HATCHED
 ; 	iftrue PawpawEggHatchedScript
 ; PawpawCheckGotEggAgain:
-; 	checkevent EVENT_GOT_TOGEPI_EGG_FROM_ELMS_AIDE ; why are we checking it again?
+; 	checkevent EVENT_GOT_TOGEPI_EGG_FROM_PAWPAWS_AIDE ; why are we checking it again?
 ; 	iftrue_jumpopenedtext PawpawWaitingEggHatchText
 ; 	checkflag ENGINE_ZEPHYRBADGE
-; 	iftrue_jumpopenedtext PawpawAssistantHasEggText
-; 	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
+; 	iftrue_jumpopenedtext PawpawAideHasEggText
+; 	checkevent EVENT_GAVE_MYSTERY_EGG_TO_PAWPAW
 ; 	iftrue_jumpopenedtext PawpawStudyingEggText
 ; 	checkevent EVENT_GOT_MYSTERY_EGG_FROM_MR_POKEMON
 ; 	iftrue PawpawAfterTheftScript
 
-; 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
-; 	iftrue_jumpopenedtext PawpawDescribesMrPokemonText
+; 	checkevent EVENT_GOT_A_POKEMON_FROM_PAWPAW
+; 	iftrue_jumpopenedtext PawpawDescribesPoplarText
 ; 	jumpopenedtext PawpawText_LetYourMonBattleIt
 
 PawpawAfterMon:
 	opentext
-	writetext PawpawDescribesMrPokemonText
+	writetext PawpawDescribesPoplarText
 	closetext
 	end
 	jumpopenedtext PawpawText_LetYourMonBattleIt
+	
 FieldLabTryToLeaveScript:
-	turnobject ELMSLAB_ELM, DOWN
 	showtext PawpawWhereGoingText
 	applyonemovement PLAYER, step_up
 	end
 
-FLIKLITPokeBallScript:
+FieldLabTryToLeaveScript2:
+	showtext PawpawWhereGoingText
+	applyonemovement PLAYER, step_down
+	end
+
+FlicklitPokeBallScript:
 	checkevent EVENT_CHOOSE_POKEMON
 	iffalse_jumptext PawpawPokeBallText
-	turnobject ELMSLAB_ELM, DOWN
+	turnobject FIELDLAB_PAWPAW, DOWN
 	reanchormap
 	pokepic FLIKLIT
 	cry FLIKLIT
 	waitbutton
 	closepokepic
 	opentext
-	writetext TakeFLIKLITText
+	writetext TakeFlicklitText
 	yesorno
 	iffalse_jumpopenedtext DidntChooseStarterText
-	disappear ELMSLAB_POKE_BALL1
-	setevent EVENT_GOT_FLIKLIT_FROM_ELM
+	disappear FIELDLAB_POKE_BALL1
+	setevent EVENT_GOT_FLIKLIT_FROM_PAWPAW
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
 	givepoke FLIKLIT, PLAIN_FORM, 5, ORAN_BERRY
-	clearevent EVENT_CHOOSE_POKEMON
+	writetext BrookeChoosesStarterText
+	waitbutton
+	closetext
+	applymovement FIELDLAB_BROOKE, BrookePicksCupicoMovement
+	pause 15
+	disappear FIELDLAB_POKE_BALL3
+	opentext
+	getmonname CUPICO, STRING_BUFFER_3
+	writetext BrookeReceivedStarterText
+	playsound SFX_CAUGHT_MON
+	waitsfx
+	promptbutton
+	writetext BrookeNicknamedCupicoText
+	waitbutton
+	closetext
+	applymovement FIELDLAB_BROOKE, BrookeAfterCupicoMovement
+	readvar VAR_FACING
+	ifequalfwd RIGHT, PawpawDirectionsScript
+	applymovement PLAYER, AfterFlicklitMovement
 	sjumpfwd PawpawDirectionsScript
 
-	; writetext RivalChoosesStarterText
-	; waitbutton
-	; closetext
-	; applymovement ELMSLAB_LYRA, RivalPicksCUPICOMovement
-	; pause 15
-	; disappear ELMSLAB_POKE_BALL3
-	; opentext
-	; getmonname CUPICO, STRING_BUFFER_3
-	; writetext RivalReceivedStarterText
-	; playsound SFX_CAUGHT_MON
-	; waitsfx
-	; promptbutton
-	; writetext RivalNicknamedCUPICOText
-	; waitbutton
-	; closetext
-	; applymovement ELMSLAB_LYRA, RivalAfterCUPICOMovement
-	; readvar VAR_FACING
-	; ifequalfwd RIGHT, PawpawDirectionsScript
-	; applymovement PLAYER, AfterFLIKLITMovement
-
-GLUTTLEPokeBallScript:
+GluttlePokeBallScript:
 	checkevent EVENT_CHOOSE_POKEMON
 	iffalse_jumptext PawpawPokeBallText
-	turnobject ELMSLAB_ELM, DOWN
+	turnobject FIELDLAB_PAWPAW, DOWN
 	reanchormap
 	pokepic GLUTTLE
 	cry GLUTTLE
 	waitbutton
 	closepokepic
 	opentext
-	writetext TakeGLUTTLEText
+	writetext TakeGluttleText
 	yesorno
 	iffalse_jumpopenedtext DidntChooseStarterText
-	disappear ELMSLAB_POKE_BALL2
-	setevent EVENT_GOT_GLUTTLE_FROM_ELM
+	disappear FIELDLAB_POKE_BALL2
+	setevent EVENT_GOT_GLUTTLE_FROM_PAWPAW
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
 	givepoke GLUTTLE, PLAIN_FORM, 5, ORAN_BERRY
-	clearevent EVENT_CHOOSE_POKEMON
+	writetext BrookeChoosesStarterText
+	waitbutton
+	closetext
+	applymovement FIELDLAB_BROOKE, BrookePicksFlicklitMovement
+	pause 15
+	disappear FIELDLAB_POKE_BALL1
+	opentext
+	getmonname FLIKLIT, STRING_BUFFER_3
+	writetext BrookeReceivedStarterText
+	playsound SFX_CAUGHT_MON
+	waitsfx
+	promptbutton
+	writetext BrookeNicknamedFliklitText
+	waitbutton
+	closetext
+	applymovement FIELDLAB_BROOKE, BrookeAfterFlicklitMovement
+	applymovement PLAYER, AfterGluttleMovement
 	sjumpfwd PawpawDirectionsScript
-	; writetext RivalChoosesStarterText
-	; waitbutton
-	; closetext
-	; applymovement ELMSLAB_LYRA, RivalPicksFLIKLITMovement
-	; pause 15
-	; disappear ELMSLAB_POKE_BALL1
-	; opentext
-	; getmonname FLIKLIT, STRING_BUFFER_3
-	; writetext RivalReceivedStarterText
-	; playsound SFX_CAUGHT_MON
-	; waitsfx
-	; promptbutton
-	; writetext RivalNicknamedFLIKLITText
-	; waitbutton
-	; closetext
-	; applymovement ELMSLAB_LYRA, RivalAfterFLIKLITMovement
-	; applymovement PLAYER, AfterGLUTTLEMovement
 
-CUPICOPokeBallScript:
+CupicoPokeBallScript:
 	checkevent EVENT_CHOOSE_POKEMON
 	iffalse_jumptext PawpawPokeBallText
-	turnobject ELMSLAB_ELM, DOWN
+	turnobject FIELDLAB_PAWPAW, DOWN
 	reanchormap
 	pokepic CUPICO
 	cry CUPICO
 	waitbutton
 	closepokepic
 	opentext
-	writetext TakeCUPICOText
+	writetext TakeCupicoText
 	yesorno
 	iffalse_jumpopenedtext DidntChooseStarterText
-	disappear ELMSLAB_POKE_BALL3
-	setevent EVENT_GOT_CUPICO_FROM_ELM
+	disappear FIELDLAB_POKE_BALL3
+	setevent EVENT_GOT_CUPICO_FROM_PAWPAW
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
 	givepoke CUPICO, PLAIN_FORM, 5, ORAN_BERRY
-	clearevent EVENT_CHOOSE_POKEMON
-	sjumpfwd PawpawDirectionsScript
-	; writetext RivalChoosesStarterText
-	; waitbutton
-	; closetext
-	; applymovement ELMSLAB_LYRA, RivalPicksGLUTTLEMovement
-	; pause 15
-	; disappear ELMSLAB_POKE_BALL2
-	; opentext
-	; getmonname GLUTTLE, STRING_BUFFER_3
-	; writetext RivalReceivedStarterText
-	; playsound SFX_CAUGHT_MON
-	; waitsfx
-	; promptbutton
-	; writetext RivalNicknamedGLUTTLEText
-	; waitbutton
-	; closetext
-	; applymovement ELMSLAB_LYRA, RivalAfterGLUTTLEMovement
-	; applymovement PLAYER, AfterCUPICOMovement
+	writetext BrookeChoosesStarterText
+	waitbutton
+	closetext
+	applymovement FIELDLAB_BROOKE, BrookePicksGluttleMovement
+	pause 15
+	disappear FIELDLAB_POKE_BALL2
+	opentext
+	getmonname GLUTTLE, STRING_BUFFER_3
+	writetext BrookeReceivedStarterText
+	playsound SFX_CAUGHT_MON
+	waitsfx
+	promptbutton
+	writetext BrookeNicknamedGluttleText
+	waitbutton
+	closetext
+	applymovement FIELDLAB_BROOKE, BrookeAfterGluttleMovement
+	applymovement PLAYER, AfterCupicoMovement
 	; fallthrough
 
 PawpawDirectionsScript:
@@ -333,18 +339,19 @@ endc
 	waitsfx
 	waitbutton
 	closetext
-	turnobject ELMSLAB_ELM, LEFT
+	turnobject FIELDLAB_PAWPAW, LEFT
 	showtext PawpawDirectionsText2
-	turnobject ELMSLAB_ELM, DOWN
+	turnobject FIELDLAB_PAWPAW, DOWN
 	showtext PawpawDirectionsText3
-	setevent EVENT_GOT_A_POKEMON_FROM_ELM
+	setevent EVENT_GOT_A_POKEMON_FROM_PAWPAW
+	setscene SCENE_HOLLOWPORT_NOOP
 	; setevent EVENT_RIVAL_CHERRYGROVE_CITY
-	setscene $2
+	setscene SCENE_FIELDLAB_BROOKE_BATTLE
 	end
 
 FieldLabHealingMachine:
 	opentext
-	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
+	checkevent EVENT_GOT_A_POKEMON_FROM_PAWPAW
 	iftruefwd .CanHeal
 	jumpopenedtext FieldLabHealingMachineText1
 
@@ -383,8 +390,8 @@ FieldLabHealingMachine_HealParty:
 ; 	promptbutton
 ; 	writetext PawpawAfterTheftText5
 ; 	promptbutton
-; 	setevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
-; 	clearevent EVENT_LYRA_ROUTE_29
+; 	setevent EVENT_GAVE_MYSTERY_EGG_TO_PAWPAW
+; 	clearevent EVENT_BROOKE_ROUTE_29
 ; 	setmapscene ROUTE_29, $1
 ; 	clearevent EVENT_ROUTE_30_YOUNGSTER_JOEY
 ; 	setevent EVENT_ROUTE_30_BATTLE
@@ -395,8 +402,8 @@ FieldLabHealingMachine_HealParty:
 ; 	writetext ShowPawpawTogepiText1
 ; 	waitbutton
 ; 	closetext
-; 	showemote EMOTE_SHOCK, ELMSLAB_ELM, 15
-; 	setevent EVENT_SHOWED_TOGEPI_TO_ELM
+; 	showemote EMOTE_SHOCK, FIELDLAB_PAWPAW, 15
+; 	setevent EVENT_SHOWED_TOGEPI_TO_PAWPAW
 ; 	opentext
 ; 	writetext ShowPawpawTogepiText2
 ; 	promptbutton
@@ -407,10 +414,10 @@ FieldLabHealingMachine_HealParty:
 ; 	promptbutton
 ; 	verbosegiveitem ODD_SOUVENIR
 ; 	iffalse_endtext
-; 	setevent EVENT_GOT_ODD_SOUVENIR_FROM_ELM
+; 	setevent EVENT_GOT_ODD_SOUVENIR_FROM_PAWPAW
 ; 	writetext PawpawGiveOddSouvenirText2
 ; 	waitbutton
-; 	checkevent EVENT_BATTLED_PROF_ELM
+; 	checkevent EVENT_BATTLED_PROF_PAWPAW
 ; 	iffalsefwd PawpawAlsoBattleScript
 ; 	endtext
 
@@ -419,10 +426,10 @@ FieldLabHealingMachine_HealParty:
 ; 	promptbutton
 ; 	verbosegiveitem MASTER_BALL
 ; 	iffalse_endtext
-; 	setevent EVENT_GOT_MASTER_BALL_FROM_ELM
+; 	setevent EVENT_GOT_MASTER_BALL_FROM_PAWPAW
 ; 	writetext PawpawGiveMasterBallText2
 ; 	waitbutton
-; 	checkevent EVENT_BATTLED_PROF_ELM
+; 	checkevent EVENT_BATTLED_PROF_PAWPAW
 ; 	iftrue_endtext
 ; PawpawAlsoBattleScript:
 ; 	writetext PawpawByTheWayText
@@ -430,14 +437,14 @@ FieldLabHealingMachine_HealParty:
 ; 	sjumpfwd PawpawAskBattleScript
 
 ; PawpawCheckBattleScript:
-; 	checkevent EVENT_BATTLED_PROF_ELM
+; 	checkevent EVENT_BATTLED_PROF_PAWPAW
 ; 	iftrue_jumpopenedtext PawpawText_CallYou
 ; 	checkevent EVENT_BEAT_SAL
 ; 	iffalse_jumpopenedtext PawpawText_CallYou
 ; 	writetext PawpawBeforeBattleText
 ; 	waitbutton
 ; PawpawAskBattleScript:
-; 	setevent EVENT_ELM_WANTS_TO_BATTLE
+; 	setevent EVENT_PAWPAW_WANTS_TO_BATTLE
 ; 	writetext PawpawAskBattleText
 ; 	yesorno
 ; 	iffalse_jumpopenedtext PawpawRefusedBattleText
@@ -445,25 +452,25 @@ FieldLabHealingMachine_HealParty:
 ; 	waitbutton
 ; 	closetext
 ; 	winlosstext PawpawWinText, PawpawLoseText
-; 	setlasttalked ELMSLAB_ELM
+; 	setlasttalked FIELDLAB_PAWPAW
 ; 	readvar VAR_BADGES
 ; 	ifless 2, .Team1
 ; 	ifless 4, .Team2
 ; 	ifless 8, .Team3
-; 	loadtrainer PROF_ELM, 4
+; 	loadtrainer PROF_PAWPAW, 4
 ; 	sjumpfwd .GotTeam
 ; .Team1:
-; 	loadtrainer PROF_ELM, 1
+; 	loadtrainer PROF_PAWPAW, 1
 ; 	sjumpfwd .GotTeam
 ; .Team2:
-; 	loadtrainer PROF_ELM, 2
+; 	loadtrainer PROF_PAWPAW, 2
 ; 	sjumpfwd .GotTeam
 ; .Team3:
-; 	loadtrainer PROF_ELM, 3
+; 	loadtrainer PROF_PAWPAW, 3
 ; .GotTeam:
 ; 	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
-; 	clearevent EVENT_ELM_WANTS_TO_BATTLE
-; 	setevent EVENT_BATTLED_PROF_ELM
+; 	clearevent EVENT_PAWPAW_WANTS_TO_BATTLE
+; 	setevent EVENT_BATTLED_PROF_PAWPAW
 ; 	startbattle
 ; 	reloadmap
 ; 	special HealParty
@@ -476,59 +483,59 @@ FieldLabHealingMachine_HealParty:
 ; 	writetext PawpawGiveTicketText2
 ; 	waitbutton
 ; 	closetext
-; 	showemote EMOTE_SHOCK, ELMSLAB_ELM, 15
+; 	showemote EMOTE_SHOCK, FIELDLAB_PAWPAW, 15
 ; 	special Special_FadeOutMusic
 ; 	pause 10
 ; 	readvar VAR_FACING
 ; 	ifequalfwd UP, .Shortest
 ; 	ifequalfwd DOWN, .Longest
-; 	disappear ELMSLAB_LYRA
-; 	moveobject ELMSLAB_LYRA, 4, 7
-; 	scall .RivalEntryShort
-; 	scall .RivalAnnouncesGymChallenge
+; 	disappear FIELDLAB_BROOKE
+; 	moveobject FIELDLAB_BROOKE, 4, 7
+; 	scall .BrookeEntryShort
+; 	scall .BrookeAnnouncesGymChallenge
 ; 	turnobject PLAYER, RIGHT
 ; 	sjumpfwd .Continue
 
 ; .Longest
-; 	disappear ELMSLAB_LYRA
-; 	moveobject ELMSLAB_LYRA, 4, 6
-; 	appear ELMSLAB_LYRA
-; 	applymovement ELMSLAB_LYRA, RivalRunsInMoreMovement
-; 	turnobject ELMSLAB_ELM, UP
-; 	turnobject ELMSLAB_LYRA, RIGHT
+; 	disappear FIELDLAB_BROOKE
+; 	moveobject FIELDLAB_BROOKE, 4, 6
+; 	appear FIELDLAB_BROOKE
+; 	applymovement FIELDLAB_BROOKE, BrookeRunsInMoreMovement
+; 	turnobject FIELDLAB_PAWPAW, UP
+; 	turnobject FIELDLAB_BROOKE, RIGHT
 ; 	turnobject PLAYER, LEFT
-; 	scall .RivalAnnouncesGymChallenge
+; 	scall .BrookeAnnouncesGymChallenge
 ; 	turnobject PLAYER, DOWN
 ; 	sjumpfwd .Continue
 
 ; .Shortest
-; 	disappear ELMSLAB_LYRA
-; 	moveobject ELMSLAB_LYRA, 5, 8
-; 	scall .RivalEntryShort
-; 	scall .RivalAnnouncesGymChallenge
+; 	disappear FIELDLAB_BROOKE
+; 	moveobject FIELDLAB_BROOKE, 5, 8
+; 	scall .BrookeEntryShort
+; 	scall .BrookeAnnouncesGymChallenge
 ; 	turnobject PLAYER, UP
 
 ; .Continue
 ; 	faceplayer
-; 	playmusic MUSIC_PROF_ELM
+; 	playmusic MUSIC_PROF_PAWPAW
 ; 	showtext PawpawAfterTicketText
-; 	setevent EVENT_LYRA_IN_HER_ROOM
-; 	setevent EVENT_GOT_SS_TICKET_FROM_ELM
+; 	setevent EVENT_BROOKE_IN_HER_ROOM
+; 	setevent EVENT_GOT_SS_TICKET_FROM_PAWPAW
 ; 	end
 
-; .RivalAnnouncesGymChallenge
+; .BrookeAnnouncesGymChallenge
 ; 	playmusic MUSIC_LYRA_ENCOUNTER_HGSS
-; 	showtext RivalAnnouncesGymChallengeText
-; 	applymovement ELMSLAB_LYRA, RivalLeavesMovement
-; 	disappear ELMSLAB_LYRA
+; 	showtext BrookeAnnouncesGymChallengeText
+; 	applymovement FIELDLAB_BROOKE, BrookeLeavesMovement
+; 	disappear FIELDLAB_BROOKE
 ; 	pause 10
 ; 	end
 
-; .RivalEntryShort
-; 	appear ELMSLAB_LYRA
-; 	applymovement ELMSLAB_LYRA, RivalRunsInMovement
-; 	turnobject ELMSLAB_ELM, DOWN
-; 	turnobject ELMSLAB_LYRA, UP
+; .BrookeEntryShort
+; 	appear FIELDLAB_BROOKE
+; 	applymovement FIELDLAB_BROOKE, BrookeRunsInMovement
+; 	turnobject FIELDLAB_PAWPAW, DOWN
+; 	turnobject FIELDLAB_BROOKE, UP
 ; 	turnobject PLAYER, DOWN
 ; 	end
 
@@ -551,129 +558,129 @@ FieldLabHealingMachine_HealParty:
 ; 	end
 
 ; PawpawJumpUpScript:
-; 	applymovement ELMSLAB_ELM, PawpawJumpUpMovement
+; 	applymovement FIELDLAB_PAWPAW, PawpawJumpUpMovement
 ; 	opentext
 ; 	end
 
 ; PawpawJumpDownScript:
-; 	applymovement ELMSLAB_ELM, PawpawJumpDownMovement
+; 	applymovement FIELDLAB_PAWPAW, PawpawJumpDownMovement
 ; 	opentext
 ; 	end
 
 ; PawpawJumpLeftScript:
-; 	applymovement ELMSLAB_ELM, PawpawJumpLeftMovement
+; 	applymovement FIELDLAB_PAWPAW, PawpawJumpLeftMovement
 ; 	opentext
 ; 	end
 
 ; PawpawJumpRightScript:
-; 	applymovement ELMSLAB_ELM, PawpawJumpRightMovement
+; 	applymovement FIELDLAB_PAWPAW, PawpawJumpRightMovement
 ; 	opentext
 ; 	end
 
-; RivalBattleScript:
-; 	turnobject ELMSLAB_LYRA, DOWN
-; 	playmusic MUSIC_LYRA_ENCOUNTER_HGSS
-; 	showtext FieldLabRivalChallengeText
-; 	applymovement ELMSLAB_LYRA, RivalBattleMovement
-; 	turnobject PLAYER, RIGHT
-; 	winlosstext FieldLabRivalWinText, FieldLabRivalLossText
-; 	setlasttalked ELMSLAB_LYRA
-; 	checkevent EVENT_GOT_GLUTTLE_FROM_ELM
-; 	iftruefwd .GLUTTLE
-; 	checkevent EVENT_GOT_CUPICO_FROM_ELM
-; 	iftruefwd .CUPICO
-; 	loadtrainer BROOKE1, BROOKE1_1
-; 	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
-; 	startbattle
-; 	dontrestartmapmusic
-; 	reloadmap
-; 	special DeleteSavedMusic
-; 	playmusic MUSIC_LYRA_DEPARTURE_HGSS
-; 	iftruefwd .AfterYourDefeat
-; 	sjumpfwd .AfterVictorious
+BrookeBattleScript:
+	turnobject FIELDLAB_BROOKE, DOWN
+	playmusic MUSIC_LYRA_ENCOUNTER_HGSS
+	showtext FieldLabBrookeChallengeText
+	applymovement FIELDLAB_BROOKE, BrookeBattleMovement
+	turnobject PLAYER, RIGHT
+	winlosstext FieldLabBrookeWinText, FieldLabBrookeLossText
+	setlasttalked FIELDLAB_BROOKE
+	checkevent EVENT_GOT_GLUTTLE_FROM_PAWPAW
+	iftruefwd .Gluttle
+	checkevent EVENT_GOT_CUPICO_FROM_PAWPAW
+	iftruefwd .Cupico
+	loadtrainer BROOKE1, BROOKE1_1
+	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
+	startbattle
+	dontrestartmapmusic
+	reloadmap
+	special DeleteSavedMusic
+	playmusic MUSIC_LYRA_DEPARTURE_HGSS
+	iftruefwd .AfterYourDefeat
+	sjumpfwd .AfterVictorious
 
-; .GLUTTLE:
-; 	loadtrainer BROOKE1, BROOKE1_2
-; 	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
-; 	startbattle
-; 	dontrestartmapmusic
-; 	reloadmap
-; 	special DeleteSavedMusic
-; 	playmusic MUSIC_LYRA_DEPARTURE_HGSS
-; 	iftruefwd .AfterVictorious
-; 	sjumpfwd .AfterYourDefeat
+.Gluttle:
+	loadtrainer BROOKE1, BROOKE1_2
+	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
+	startbattle
+	dontrestartmapmusic
+	reloadmap
+	special DeleteSavedMusic
+	playmusic MUSIC_LYRA_DEPARTURE_HGSS
+	iftruefwd .AfterVictorious
+	sjumpfwd .AfterYourDefeat
 
-; .CUPICO:
-; 	loadtrainer BROOKE1, BROOKE1_3
-; 	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
-; 	startbattle
-; 	dontrestartmapmusic
-; 	reloadmap
-; 	special DeleteSavedMusic
-; 	playmusic MUSIC_LYRA_DEPARTURE_HGSS
-; 	iftruefwd .AfterVictorious
-; 	sjumpfwd .AfterYourDefeat
+.Cupico:
+	loadtrainer BROOKE1, BROOKE1_3
+	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
+	startbattle
+	dontrestartmapmusic
+	reloadmap
+	special DeleteSavedMusic
+	playmusic MUSIC_LYRA_DEPARTURE_HGSS
+	iftruefwd .AfterVictorious
+	sjumpfwd .AfterYourDefeat
 
-; .AfterVictorious:
-; 	showtext FieldLabRivalText_YouWon
-; 	sjumpfwd .FinishRival
+.AfterVictorious:
+	showtext FieldLabBrookeText_YouWon
+	sjumpfwd .FinishBrooke
 
-; .AfterYourDefeat:
-; 	showtext FieldLabRivalText_YouLost
-; .FinishRival:
-; 	turnobject ELMSLAB_LYRA, UP
-; 	opentext
-; 	writetext FieldLabRivalThankYouText
-; 	waitbutton
-; 	turnobject ELMSLAB_LYRA, LEFT
-; 	writetext FieldLabRivalSeeYouText
-; 	waitbutton
-; 	closetext
-; 	turnobject PLAYER, DOWN
-; 	applymovement ELMSLAB_LYRA, RivalLeavesMovement
-; 	disappear ELMSLAB_LYRA
-; 	special HealParty
-; 	setscene $5
-; 	playmapmusic
-; 	end
+.AfterYourDefeat:
+	showtext FieldLabBrookeText_YouLost
+.FinishBrooke:
+	turnobject FIELDLAB_BROOKE, UP
+	opentext
+	writetext FieldLabBrookeThankYouText
+	waitbutton
+	turnobject FIELDLAB_BROOKE, LEFT
+	writetext FieldLabBrookeSeeYouText
+	waitbutton
+	closetext
+	turnobject PLAYER, DOWN
+	applymovement FIELDLAB_BROOKE, BrookeLeavesMovement
+	disappear FIELDLAB_BROOKE
+	special HealParty
+	setscene SCENE_FIELDLAB_AIDE_GIVES_POTION
+	playmapmusic
+	end
 
-; AssistantScript_WalkPotions1:
-; 	applymovement ELMSLAB_ELMS_AIDE, AssistantWalksRight1
-; 	turnobject PLAYER, DOWN
-; 	scall AssistantScript_GivePotions
-; 	applymovement ELMSLAB_ELMS_AIDE, AssistantWalksLeft1
-; 	end
+AideScript_WalkPotions1:
+	applymovement FIELDLAB_PAWPAWS_AIDE, AideWalksRight1
+	turnobject PLAYER, DOWN
+	scall AideScript_GivePotions
+	applymovement FIELDLAB_PAWPAWS_AIDE, AideWalksLeft1
+	end
 
-; AssistantScript_WalkPotions2:
-; 	applymovement ELMSLAB_ELMS_AIDE, AssistantWalksRight2
-; 	turnobject PLAYER, DOWN
-; 	scall AssistantScript_GivePotions
-; 	applymovement ELMSLAB_ELMS_AIDE, AssistantWalksLeft2
-; 	end
+AideScript_WalkPotions2:
+	applymovement FIELDLAB_PAWPAWS_AIDE, AideWalksRight2
+	turnobject PLAYER, DOWN
+	scall AideScript_GivePotions
+	applymovement FIELDLAB_PAWPAWS_AIDE, AideWalksLeft2
+	end
 
-; AssistantScript_GivePotions:
-; 	opentext
-; 	writetext AssistantText_GiveYouPotions
-; 	promptbutton
-; 	verbosegiveitem POTION
-; 	setscene $2
-; 	jumpopenedtext AssistantText_AlwaysBusy
+AideScript_GivePotions:
+	opentext
+	writetext AideText_GiveYouPotions
+	promptbutton
+	verbosegiveitem POTION
+	setscene SCENE_FIELDLAB_NOOP
+	jumpopenedtext AideText_AlwaysBusy
 
-; FieldAssistantScript:
-; 	checkevent EVENT_GOT_RIVALS_EGG
-; 	iftrue_jumptextfaceplayer AssistantText_AlwaysBusy
-; 	checkevent EVENT_GOT_TOGEPI_EGG_FROM_ELMS_AIDE
-; 	iftrue_jumptextfaceplayer AssistantText_AfterTheft
-; 	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
-; 	iftrue_jumptextfaceplayer AssistantText_AlwaysBusy
-; 	checkevent EVENT_GOT_MYSTERY_EGG_FROM_MR_POKEMON
-; 	iftrue_jumptextfaceplayer AssistantText_TheftTestimony
-; 	jumptextfaceplayer AssistantText_AlwaysBusy
+FieldAideScript:
+	; checkevent EVENT_GOT_RIVALS_EGG
+	; iftrue_jumptextfaceplayer AideText_AlwaysBusy
+	; checkevent EVENT_GOT_MYSTERY_EGG_FROM_MR_POKEMON
+	; iftrue_jumptextfaceplayer AideText_TheftTestimony
+	jumptextfaceplayer AideText_AlwaysBusy
 
-; FieldLabRivalScript:
-; 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
-; 	iffalse_jumptextfaceplayer FieldLabRivalWhichPokemonText
-; 	jumptextfaceplayer FieldLabRivalGoodChoiceText
+FieldLabBrookeScript:
+	checkevent EVENT_GOT_A_POKEMON_FROM_PAWPAW
+	iffalse_jumptextfaceplayer FieldLabBrookeWhichPokemonText
+	jumpthistextfaceplayer
+
+	text "Your #mon"
+	line "looks cute too!"
+	done
 
 
 FieldLabPC:
@@ -685,68 +692,69 @@ FieldLabWindow:
 FieldLab_WalkUpToPawpawMovement:
 	step_up
 	step_up
-	step_left
-	step_left
 	step_up
 	step_up
 	step_up
 	turn_head_left
 	step_end
 
-; RivalPicksCUPICOMovement:
-; 	step_right
-; RivalPicksGLUTTLEMovement:
-; 	step_right
-; RivalPicksFLIKLITMovement:
-; 	step_right
-; 	step_right
+BrookePicksCupicoMovement:
+	step_up
+	step_right
+	step_up
+	step_end
+
+BrookePicksGluttleMovement:
+	step_up
+	step_up
+	step_end
+
+BrookePicksFlicklitMovement:
+	step_up
+	step_left
+	step_up
+	step_end
+
+BrookeAfterCupicoMovement:
+	step_down
+	step_left
+	turn_head_up
+	step_end
+
+BrookeAfterGluttleMovement:
+	step_down
+	turn_head_up
+	step_end
+
+BrookeAfterFlicklitMovement:
+	step_down
+	step_right
+	turn_head_up
+	step_end
+
+BrookeBattleMovement:
+	step_down
+	turn_head_left
+	step_end
+
+BrookeLeavesMovement:
+	step_down
+	step_down
+	step_down
+	step_down
+	step_down
+	step_end
+
+; BrookeRunsInMoreMovement:
+; 	step_up
+; BrookeRunsInMovement:
+; 	step_up
+; 	step_up
+; 	step_up
 ; 	step_up
 ; 	step_end
 
-; RivalAfterCUPICOMovement:
-; 	step_down
-; 	step_left
-; 	step_left
-; 	step_left
-; 	turn_head_up
-; 	step_end
-
-; RivalAfterGLUTTLEMovement:
-; 	step_down
-; 	step_left
-; 	step_left
-; 	turn_head_up
-; 	step_end
-
-; RivalAfterFLIKLITMovement:
-; 	step_down
-; 	step_left
-; 	turn_head_up
-; 	step_end
-
-; RivalBattleMovement:
-; 	step_down
-; 	turn_head_left
-; 	step_end
-
-; RivalLeavesMovement:
-; 	step_down
-; 	step_down
-; 	step_down
-; 	step_down
-; 	step_down
-; 	step_end
-
-; RivalRunsInMoreMovement:
-; 	step_up
-; RivalRunsInMovement:
-; 	step_up
-; 	step_up
-; 	step_up
-; 	step_up
-; 	step_end
-
-; RivalStepsAsideMovement:
+; BrookeStepsAsideMovement:
 ; 	step_left
 ; 	turn_head_right
 ; 	step_end
@@ -759,39 +767,37 @@ FieldLab_WalkUpToPawpawMovement:
 ; 	step_down
 ; 	step_end
 
-; AssistantWalksRight1:
-; 	step_right
-; 	step_right
-; 	turn_head_up
-; 	step_end
+AideWalksRight1:
+	step_right
+	step_right
+	step_end
 
-; AssistantWalksRight2:
-; 	step_right
-; 	step_right
-; 	step_right
-; 	turn_head_up
-; 	step_end
+AideWalksRight2:
+	step_right
+	step_right
+	step_right
+	step_end
 
-; AssistantWalksLeft1:
-; 	step_left
-; 	step_left
-; 	turn_head_down
-; 	step_end
+AideWalksLeft1:
+	step_left
+	step_left
+	turn_head_up
+	step_end
 
-; AssistantWalksLeft2:
-; 	step_left
-; 	step_left
-; 	step_left
-; 	turn_head_down
-; 	step_end
+AideWalksLeft2:
+	step_left
+	step_left
+	step_left
+	turn_head_up
+	step_end
 
-; AssistantWalksDownMovement:
+; AideWalksDownMovement:
 ; 	step_right
 ; 	step_right
 ; 	step_down
 ; 	step_end
 
-; AssistantWalksBackMovement:
+; AideWalksBackMovement:
 ; 	step_up
 ; 	step_left
 ; 	step_left
@@ -821,31 +827,37 @@ FieldLab_WalkUpToPawpawMovement:
 ; 	remove_fixed_facing
 ; 	step_end
 
+FieldLab_WalkToPlayer:
+	step_right
+	step_up
+	step_right
+	step_end
+
 FieldLab_PawpawToDefaultPositionMovement:
+	step_up
 	step_up
 	step_right
 	step_right
 	turn_head_down
 	step_end
 
-; AfterFLIKLITMovement:
-; 	step_down
-; 	step_left
-; 	turn_head_up
-; 	step_end
+AfterFlicklitMovement:
+	step_down
+	turn_head_up
+	step_end
 
-; AfterGLUTTLEMovement:
-; 	step_down
-; 	step_left
-; 	turn_head_up
-; 	step_end
+AfterGluttleMovement:
+	step_left
+	step_down
+	turn_head_up
+	step_end
 
-; AfterCUPICOMovement:
-; 	step_down
-; 	step_left
-; 	step_left
-; 	turn_head_up
-; 	step_end
+AfterCupicoMovement:
+	step_left
+	step_left
+	step_down
+	turn_head_up
+	step_end
 
 PawpawText_Intro:
 	text "Pawpaw: Hi <PLAYER>!"
@@ -913,7 +925,7 @@ PawpawText_GotAnEmail:
 	para "OK…"
 	done
 
-PawpawText_MissionFromMrPokemon:
+PawpawText_MissionFromPoplar:
 	text "Hey, listen."
 
 	para "I have a coll-"
@@ -978,25 +990,25 @@ PawpawText_LetYourMonBattleIt:
 	done
 
 PawpawWhereGoingText:
-	text "Pawpaw: Wait! Where"
-	line "are you going?"
+	text "Pawpaw: Wait!"
+	line "Where ya goin'?"
 	done
 
-TakeFLIKLITText:
+TakeFlicklitText:
 	text "Pawpaw: So it's"
-	line "FLIKLIT, the"
+	line "Flicklit, the"
 	cont "fire #mon?"
 	done
 
-TakeGLUTTLEText:
+TakeGluttleText:
 	text "Pawpaw: You want"
-	line "GLUTTLE, the"
+	line "Gluttle, the"
 	cont "water #mon?"
 	done
 
-TakeCUPICOText:
+TakeCupicoText:
 	text "Pawpaw: You like"
-	line "CUPICO, the"
+	line "Cupico, the"
 	cont "grass #mon?"
 	done
 
@@ -1066,7 +1078,7 @@ GotFieldNumberText:
 	line "phone number."
 	done
 
-PawpawDescribesMrPokemonText:
+PawpawDescribesPoplarText:
 	text "Prof. Poplar"
 	line "studies object-"
 	cont "like #mon."
@@ -1195,8 +1207,8 @@ FieldLabWindowText:
 ; 	line "can, <PLAYER>!"
 ; 	done
 
-; RivalAnnouncesGymChallengeText:
-; 	text "Rival: There you"
+; BrookeAnnouncesGymChallengeText:
+; 	text "Brooke: There you"
 ; 	line "are, <PLAYER>!"
 
 ; 	para "I saw your battle"
@@ -1287,98 +1299,93 @@ FieldLabWindowText:
 ; 	cont "a #mon!"
 ; 	done
 
-; AssistantText_GiveYouPotions:
-; 	text "<PLAYER>, I want"
-; 	line "you to have this"
-; 	cont "for your errand."
-; 	done
+;unchanged
+AideText_GiveYouPotions:
+	text "<PLAYER>, I want"
+	line "you to have this"
+	cont "for your errand."
+	done
 
-; AssistantText_AlwaysBusy:
-; 	text "There are only two"
-; 	line "of us, so we're"
-; 	cont "always busy."
-; 	done
+;unchanged
+AideText_AlwaysBusy:
+	text "There's only a few"
+	line "of us, so we're"
+	cont "always busy."
+	done
 
-; FieldLabRivalWhichPokemonText:
-; 	text "Which #mon are"
-; 	line "you going to pick,"
-; 	cont "<PLAYER>?"
-; 	done
+FieldLabBrookeWhichPokemonText:
+	text "Which #mon are"
+	line "you going to pick,"
+	cont "<PLAYER>?"
+	done
 
-; RivalChoosesStarterText:
-; 	text "Rival: Then I'll"
-; 	line "pick this one!"
-; 	done
+BrookeChoosesStarterText:
+	text "Brooke: Then I'll"
+	line "pick this one!"
+	done
 
-; RivalReceivedStarterText:
-; 	text "Rival received"
-; 	line ""
-; 	text_ram wStringBuffer3
-; 	text "!"
-; 	done
+BrookeReceivedStarterText:
+	text "Brooke received"
+	line ""
+	text_ram wStringBuffer3
+	text "!"
+	done
 
-; RivalNicknamedCUPICOText:
-; 	text "Rival: It's so"
-; 	line "cute! I'll nick-"
-; 	cont "name it Chicory!"
-; 	done
+BrookeNicknamedCupicoText:
+	text "Brooke: It's so"
+	line "...cute..."
+	done
 
-; RivalNicknamedFLIKLITText:
-; 	text "Rival: It's so"
-; 	line "cute! I'll nick-"
-; 	cont "name it Cinder!"
-; 	done
+BrookeNicknamedFliklitText:
+	text "Brooke: It's so"
+	line "...cute..."
+	done
 
-; RivalNicknamedGLUTTLEText:
-; 	text "Rival: It's so"
-; 	line "cute! I'll nick-"
-; 	cont "name it Toto!"
-; 	done
+BrookeNicknamedGluttleText:
+	text "Brooke: It's so"
+	line "...cute..."
+	done
 
-; FieldLabRivalGoodChoiceText:
-; 	text "Your #mon"
-; 	line "looks cute too!"
-; 	done
 
-; FieldLabRivalChallengeText:
-; 	text "Rival: <PLAYER>!"
-; 	line "Let's get to know"
+FieldLabBrookeChallengeText:
+	text "Brooke: <PLAYER>!"
+	line "Let's get to know"
 
-; 	para "our #mon with"
-; 	line "a battle!"
-; 	done
+	para "our #mon with"
+	line "a battle!"
+	done
 
-; FieldLabRivalWinText:
-; 	text "Good job,"
-; 	line "<PLAYER>!"
-; 	done
+FieldLabBrookeWinText:
+	text "Good job,"
+	line "<PLAYER>!"
+	done
 
-; FieldLabRivalLossText:
-; 	text "Yay! I won!"
-; 	done
+FieldLabBrookeLossText:
+	text "Yay! I won!"
+	done
 
-; FieldLabRivalText_YouWon:
-; FieldLabRivalText_YouLost:
-; 	text "That was an"
-; 	line "exciting battle!"
-; 	done
+FieldLabBrookeText_YouWon:
+FieldLabBrookeText_YouLost:
+	text "That was an"
+	line "exciting battle!"
+	done
 
-; FieldLabRivalThankYouText:
-; 	text "Thank you for the"
-; 	line "#mon, Prof."
-; 	cont "Pawpaw."
-; 	done
+FieldLabBrookeThankYouText:
+	text "Thank you for the"
+	line "#mon, Prof."
+	cont "Elm."
+	done
 
-; FieldLabRivalSeeYouText:
-; 	text "<PLAYER>, I'll"
-; 	line "see you later!"
+FieldLabBrookeSeeYouText:
+	text "<PLAYER>, I'll"
+	line "see you later!"
 
-; 	para "Have fun on your"
-; 	line "errand!"
-; 	done
+	para "Have fun on your"
+	line "errand!"
+	done
 
-; FieldLabRivalTheftInnocentText:
-; 	text "Rival: Hold on!"
+; FieldLabBrookeTheftInnocentText:
+; 	text "Brooke: Hold on!"
 ; 	line "<PLAYER> has noth-"
 ; 	cont "ing to do with it!"
 
@@ -1387,8 +1394,8 @@ FieldLabWindowText:
 ; 	cont "building!"
 ; 	done
 
-; FieldLabRivalTheftGoodbyeText:
-; 	text "Rival: <PLAYER>,"
+; FieldLabBrookeTheftGoodbyeText:
+; 	text "Brooke: <PLAYER>,"
 ; 	line "I'm glad he under-"
 
 ; 	para "stood that you're"
