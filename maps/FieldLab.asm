@@ -646,14 +646,14 @@ BrookeBattleScript:
 
 AideScript_WalkPotions1:
 	applymovement FIELDLAB_PAWPAWS_AIDE, AideWalksRight1
-	turnobject PLAYER, DOWN
+	turnobject PLAYER, LEFT
 	scall AideScript_GivePotions
 	applymovement FIELDLAB_PAWPAWS_AIDE, AideWalksLeft1
 	end
 
 AideScript_WalkPotions2:
 	applymovement FIELDLAB_PAWPAWS_AIDE, AideWalksRight2
-	turnobject PLAYER, DOWN
+	turnobject PLAYER, LEFT
 	scall AideScript_GivePotions
 	applymovement FIELDLAB_PAWPAWS_AIDE, AideWalksLeft2
 	end
@@ -769,23 +769,27 @@ BrookeLeavesMovement:
 
 AideWalksRight1:
 	step_right
+	step_down
 	step_right
 	step_end
 
 AideWalksRight2:
 	step_right
+	step_down
 	step_right
 	step_right
 	step_end
 
 AideWalksLeft1:
 	step_left
+	step_up
 	step_left
 	turn_head_up
 	step_end
 
 AideWalksLeft2:
 	step_left
+	step_up
 	step_left
 	step_left
 	turn_head_up
