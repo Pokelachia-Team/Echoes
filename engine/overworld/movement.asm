@@ -127,7 +127,6 @@ DoMovementFunction:
 	movement DiagonalStairsStep, STEP_WALK << 2 | UP      ; 60
 	movement DiagonalStairsStep, STEP_WALK << 2 | LEFT    ; 61
 	movement DiagonalStairsStep, STEP_WALK << 2 | RIGHT   ; 62
-	movement ShakeExeggutor,     64                       ; 63
 	movement NormalStep,         STEP_WALK << 2 | RIGHT   ; 64
 	assert_table_length NUM_MOVEMENT_CMDS
 
