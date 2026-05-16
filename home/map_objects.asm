@@ -163,11 +163,7 @@ ApplyDeletionToMapObject::
 	cp [hl]
 	ret nz
 .ok
-	farcall StopFollow
-	ld a, -1
-	ld [wObjectFollow_Leader], a
-	ld [wObjectFollow_Follower], a
-	ret
+	farjp StopFollow
 
 CopyPlayerObjectTemplate::
 	push hl

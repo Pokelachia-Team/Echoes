@@ -59,6 +59,14 @@ TilesetIndigoPlateauAnim::
 	tileframe StandingTileFrame8
 	tileframe DoneTileAnimation
 
+TilesetChampionsRoomAnim::
+	tileframe AnimateTorchTile,         $1:10
+	tileframe DoNothing
+	tileframe DoNothing
+	tileframe DoNothing
+	tileframe StandingTileFrame8
+	tileframe DoneTileAnimation
+
 TilesetPortAnim::
 	tileframe AnimateWaterTile,         $0:14
 	tileframe AnimateBuoyTiles,         $1:12
@@ -275,7 +283,6 @@ TilesetMartAnim::
 TilesetMansionAnim::
 TilesetGameCornerAnim::
 TilesetMagnetTrainAnim::
-TilesetChampionsRoomAnim::
 TilesetLighthouseAnim::
 TilesetUndergroundAnim::
 TilesetPokeComCenterAnim::
