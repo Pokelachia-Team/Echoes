@@ -81,8 +81,8 @@ evos_attacks Cupico
 	evo_data EVOLVE_LEVEL, 15, PRICKUPI
 	learnset 1, TACKLE
 	learnset 3, GROWL
-	learnset 7, LEECH_SEED
-	learnset 9, VINE_WHIP
+	learnset 5, VINE_WHIP
+	learnset 9, LEECH_SEED
 	learnset 13, SLEEP_POWDER
 	learnset 15, MUD_SLAP
 	learnset 19, RAZOR_LEAF
@@ -98,8 +98,8 @@ evos_attacks Cupico
 	evo_data EVOLVE_LEVEL, 32, CONIFURY
 	learnset 1, TACKLE
 	learnset 3, GROWL
-	learnset 7, LEECH_SEED
-	learnset 9, VINE_WHIP
+	learnset 5, VINE_WHIP
+	learnset 9, LEECH_SEED
 	learnset 13, SLEEP_POWDER
 	learnset 15, MUD_SLAP
 	learnset 20, RAZOR_LEAF
@@ -115,8 +115,8 @@ evos_attacks Cupico
 	learnset 1, OUTRAGE ;  evolution move
 	learnset 1, TACKLE
 	learnset 3, GROWL
-	learnset 7, LEECH_SEED
-	learnset 9, VINE_WHIP
+	learnset 5, VINE_WHIP
+	learnset 9, LEECH_SEED
 	learnset 13, SLEEP_POWDER
 	learnset 15, MUD_SLAP
 	learnset 20, RAZOR_LEAF
@@ -133,9 +133,9 @@ evos_attacks Cupico
 	evo_data EVOLVE_LEVEL, 16, SIZZOO
 	learnset 1, SCRATCH
 	learnset 1, GROWL
-	learnset 7, EMBER
+	learnset 5, EMBER
+	learnset 8, LEECH_LIFE
 	learnset 10, SMOKESCREEN
-	learnset 16, LEECH_LIFE 
 	learnset 19, DRAGON_RAGE
 	learnset 25, SCARY_FACE 
 	learnset 28, FLAME_CHARGE
@@ -187,9 +187,9 @@ evos_attacks Cupico
 	evo_data EVOLVE_LEVEL, 16, RIVEBLOK
 	learnset 1, TACKLE
 	learnset 4, LEER
-	learnset 7, WATER_GUN
-	learnset 10, DEFENSE_CURL
-	learnset 13, AQUA_JET
+	learnset 5, WATER_GUN
+	learnset 8, DEFENSE_CURL
+	learnset 10, AQUA_JET
 	learnset 16, BITE
 	learnset 19, RAPID_SPIN
 	learnset 22, PROTECT
