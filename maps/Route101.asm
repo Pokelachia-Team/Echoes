@@ -1,6 +1,9 @@
 Route101_MapScriptHeader:
 	def_scene_scripts
-
+	scene_const SCENE_ROUTE101_NOOP
+	scene_const SCENE_ROUTE101_CATCH_TUTORIAL
+	scene_const SCENE_ROUTE101_FAKE_BATTLE
+	
 	def_callbacks
 
 	def_warp_events
@@ -9,19 +12,18 @@ Route101_MapScriptHeader:
 	warp_event 25,  5, ROUTE_101_HOUSE, 1
 	warp_event 16,  3, ROUTE_101_CAVE, 1
 
-
 	def_coord_events
-	coord_event 14, 12, 0, FakeBattleTrigger1
-	coord_event 14, 13, 0, FakeBattleTrigger2
-
+	coord_event 14, 12, SCENE_ROUTE101_FAKE_BATTLE, FakeBattleTrigger1
+	coord_event 14, 13, SCENE_ROUTE101_FAKE_BATTLE, FakeBattleTrigger2
+	coord_event 3,  8, SCENE_ROUTE101_CATCH_TUTORIAL, Route101Tutorial1
+	coord_event 3,  9, SCENE_ROUTE101_CATCH_TUTORIAL, Route101Tutorial2
 
 	def_bg_events
 	bg_event 20,  6, BGEVENT_ITEM + SUPER_POTION, EVENT_ROUTE_101_HIDDEN_SUPER_POTION
 
-
 	def_object_events
 	object_event 14, 11, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, GrannyScript, -1
-	; object_event 14, 11, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, GrannyScript, EVENT_FAKE_BATTLE_2
+	object_event 50, 12, SPRITE_BROOKE, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_BROOKE_ROUTE101
 	fruittree_event 22,  4, FRUITTREE_ROUTE_101_1, ORAN_BERRY, PAL_NPC_BLUE
 	fruittree_event 23,  4, FRUITTREE_ROUTE_101_2, PECHA_BERRY, PAL_NPC_PINK
 	fruittree_event  4,  2, FRUITTREE_ROUTE_101_3, PERSIM_BERRY, PAL_NPC_PINK
@@ -31,6 +33,7 @@ Route101_MapScriptHeader:
 
 	object_const_def
 	const ROUTE101_GRANNY
+	const ROUTE101_BROOKE
 
 
 FakeBattleTrigger1:
@@ -40,7 +43,7 @@ FakeBattleTrigger1:
 	showtext Text_GrannyFakeBattle
 	setevent EVENT_FAKE_BATTLE
 	clearevent EVENT_FAKE_BATTLE_2
-	setscene $1
+	setscene SCENE_ROUTE101_NOOP
 	special RestartMapMusic
 	end
 
@@ -52,7 +55,7 @@ FakeBattleTrigger2:
 	showtext Text_GrannyFakeBattle
 	setevent EVENT_FAKE_BATTLE
 	clearevent EVENT_FAKE_BATTLE_2
-	setscene $1
+	setscene SCENE_ROUTE101_NOOP
 	special RestartMapMusic
 	end
 
@@ -69,7 +72,7 @@ GrannyFakeBattleScript:
 	showtext Text_GrannyFakeBattle
 	setevent EVENT_FAKE_BATTLE
 	clearevent EVENT_FAKE_BATTLE_2
-	setscene $1
+	setscene SCENE_ROUTE101_NOOP
 	special RestartMapMusic
 	end
 
@@ -85,6 +88,137 @@ end
 .GrannyEvent:
 	playmusic MUSIC_LASS_ENCOUNTER
 	sjump GrannyFakeBattleScript
+
+Route101Tutorial1:
+	turnobject ROUTE101_BROOKE, UP
+	showemote EMOTE_SHOCK, ROUTE101_BROOKE, 15
+	special Special_FadeOutMusic
+	playmusic MUSIC_LYRA_ENCOUNTER_HGSS
+	pause 15
+	applymovement ROUTE101_BROOKE, BrookeMovementData1a
+	turnobject PLAYER, LEFT
+	opentext
+	writetext CatchingTutorialIntroText
+	yesorno
+	iffalsefwd Route101RefusedTutorial
+	closetext
+	follow ROUTE101_BROOKE, PLAYER
+	applymovement ROUTE101_BROOKE, BrookeMovementData1b
+	sjumpfwd Route101TutorialScript
+
+Route101Tutorial2:
+	turnobject ROUTE101_BROOKE, UP
+	showemote EMOTE_SHOCK, ROUTE101_BROOKE, 15
+	special Special_FadeOutMusic
+	playmusic MUSIC_LYRA_ENCOUNTER_HGSS
+	pause 15
+	applymovement ROUTE101_BROOKE, BrookeMovementData2a
+	turnobject PLAYER, LEFT
+	opentext
+	writetext CatchingTutorialIntroText
+	yesorno
+	iffalsefwd Route101RefusedTutorial
+	closetext
+	follow ROUTE101_BROOKE, PLAYER
+	applymovement ROUTE101_BROOKE, BrookeMovementData2b
+Route101TutorialScript:
+	stopfollow
+	loadwildmon CRIBNAL, 5
+	catchtutorial BATTLETYPE_TUTORIAL
+	special DeleteSavedMusic
+	playmusic MUSIC_LYRA_DEPARTURE_HGSS
+	turnobject ROUTE101_BROOKE, UP
+	opentext
+	writetext CatchingTutorialDebriefText
+Route101FinishTutorial:
+	promptbutton
+	verbosegiveitem POKE_BALL, 5
+	writetext CatchingTutorialGoodbyeText
+	waitbutton
+	closetext
+	applymovement ROUTE101_BROOKE, BrookeMovementData3
+	disappear ROUTE101_BROOKE
+	setscene SCENE_ROUTE101_NOOP
+	setevent EVENT_LEARNED_TO_CATCH_POKEMON
+	playmusic MUSIC_ROUTE_29
+	end
+
+Route101RefusedTutorial:
+	setevent EVENT_NEVER_LEARNED_TO_CATCH_POKEMON
+	writetext CatchingTutorialRefusedText
+	sjump Route101FinishTutorial
+
+BrookeMovementData1a:
+	step_up
+BrookeMovementData2a:
+	step_up
+	step_up
+	step_up
+	step_right
+	step_right
+	step_end
+
+BrookeMovementData1b:
+	step_left
+	step_left
+	step_down
+	step_down
+	step_down
+	step_down
+	step_end
+
+BrookeMovementData2b:
+	step_left
+	step_left
+	step_down
+	step_down
+	step_down
+	step_end
+
+BrookeMovementData3:
+	step_left
+	step_left
+	step_left
+	step_left
+	step_left
+	step_end
+
+CatchingTutorialIntroText:
+	text "Brooke: <PLAYER>!"
+
+	para "You can catch wild"
+	line "#mon with #"
+
+	para "Balls. Follow me"
+	line "and I'll show you!"
+	done
+
+CatchingTutorialDebriefText:
+	text "Brooke: See? Just"
+	line "like that!"
+
+	para "If you weaken them"
+	line "first, #mon are"
+	cont "easier to catch."
+
+	para "I'll give you"
+	line "these. Good luck!"
+	done
+
+CatchingTutorialRefusedText:
+	text "Aww… I wanted to"
+	line "show off my cap-"
+	cont "turing skills a"
+	cont "little…"
+
+	para "Anyway, I'll give"
+	line "you these."
+	cont "Good luck!"
+	done
+
+CatchingTutorialGoodbyeText:
+	text "Brooke: See you!"
+	done
 
 Text_GrannyFakeBattle:
 	para "Got yourself a"
