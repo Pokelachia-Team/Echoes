@@ -127,19 +127,9 @@ DoMovementFunction:
 	movement DiagonalStairsStep, STEP_WALK << 2 | UP      ; 60
 	movement DiagonalStairsStep, STEP_WALK << 2 | LEFT    ; 61
 	movement DiagonalStairsStep, STEP_WALK << 2 | RIGHT   ; 62
-	movement ShakeExeggutor,     64                       ; 63
 	movement NormalStep,         STEP_WALK << 2 | RIGHT   ; 64
-	movement Half1Step,          STEP_WALK << 2 | UP      ; 65
-	movement Half1Step,          STEP_WALK << 2 | DOWN    ; 66
-	movement Half2Step,          STEP_WALK << 2 | UP      ; 67
-	movement Half2Step,          STEP_WALK << 2 | DOWN    ; 68
 	assert_table_length NUM_MOVEMENT_CMDS
 
-FishingStep:
-	ld hl, OBJECT_ACTION
-	add hl, bc
-	ld [hl], OBJECT_ACTION_FISHING
-	; fallthrough
 SetStepType:
 	ld hl, OBJECT_STEP_TYPE
 	add hl, bc
@@ -171,6 +161,16 @@ ReturnDig:
 	ld hl, OBJECT_WALKING
 	add hl, bc
 	ld [hl], STANDING
+	ret
+
+FishingStep:
+	ld hl, OBJECT_ACTION
+	add hl, bc
+	ld [hl], OBJECT_ACTION_FISHING
+
+	ld hl, OBJECT_STEP_TYPE
+	add hl, bc
+	ld [hl], a
 	ret
 
 SmashRock:
@@ -222,6 +222,10 @@ LongSleepStep:
 	call JumpMovementPointer
 	; fallthrough
 SleepStep:
+	ld hl, OBJECT_STEP_DURATION
+	add hl, bc
+	ld [hl], a
+
 	ld hl, OBJECT_STEP_TYPE
 	add hl, bc
 	ld [hl], STEP_TYPE_SLEEP
@@ -241,6 +245,10 @@ _ContinueDurationStep:
 	ret
 
 BumpStep:
+	ld hl, OBJECT_STEP_DURATION
+	add hl, bc
+	ld [hl], a
+
 	ld hl, OBJECT_STEP_TYPE
 	add hl, bc
 	ld [hl], STEP_TYPE_BUMP
@@ -322,19 +330,11 @@ TurnStep:
 	ret
 
 RunStep:
-	lb de, OBJECT_ACTION_RUN, TRUE
-	jr _ContinueStep
-
-TurningStep:
-	lb de, OBJECT_ACTION_SPIN, FALSE
-	jr _ContinueStep
-
-SlideStep:
-	lb de, OBJECT_ACTION_STAND, FALSE
+	ld d, OBJECT_ACTION_RUN
 	jr _ContinueStep
 
 NormalStep:
-	lb de, OBJECT_ACTION_STEP, TRUE
+	ld d, OBJECT_ACTION_STEP
 	; fallthrough
 _ContinueStep:
 	push de

@@ -15,9 +15,9 @@ Hollowport_MapScriptHeader:
 
 
 	def_coord_events
-	coord_event 13,  2, SCENE_HOLLOWPORT_ELDER_STOPS_YOU, Hollowport_ElderStopsYouTrigger1
-	coord_event 12,  2, SCENE_HOLLOWPORT_ELDER_STOPS_YOU, Hollowport_ElderStopsYouTrigger2
-	; coord_event  5,  6, 0, Hollowport_RivalIntroTrigger
+	coord_event 13,  3, SCENE_HOLLOWPORT_ELDER_STOPS_YOU, Hollowport_ElderStopsYouTrigger1
+	coord_event 12,  3, SCENE_HOLLOWPORT_ELDER_STOPS_YOU, Hollowport_ElderStopsYouTrigger2
+	coord_event  5,  8, SCENE_HOLLOWPORT_ELDER_STOPS_YOU, Hollowport_BrookeIntroTrigger
 
 	def_bg_events
 	bg_event 11,  5, BGEVENT_JUMPTEXT, HollowportRouteSignText
@@ -30,7 +30,7 @@ Hollowport_MapScriptHeader:
 
 	def_object_events
 	object_event  2,  8, SPRITE_ROCKET, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, Text_HollowportThief, -1
-	object_event 10,  5, SPRITE_BROOKE, SPRITEMOVEDATA_STANDING_DOWN, 1, 0, -1, PAL_NPC_PINK, OBJECTTYPE_COMMAND, jumptextfaceplayer, Text_HollowportRival, -1
+	object_event 11,  8, SPRITE_BROOKE, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_BROOKE_HOLLOWPORT
 	object_event 14,  4, SPRITE_ELDER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, HollowportElderScript, -1
 	object_event 11, 14, SPRITE_FAT_GUY, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, Text_Technologia, -1
 	object_event  6, 10, SPRITE_PICNICKER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, (1 << MORN) | (1 << DAY), 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, Text_HollowportBirdFriend, -1
@@ -38,9 +38,9 @@ Hollowport_MapScriptHeader:
 	pokemon_event  8, 10, MURKROW, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_BLACK, HollowportMurkrowText, -1
 
 	object_const_def
-	; const HOLLOWPORT_RIVAL
-	const HOLLOWPORT_ELDER
 	const HOLLOWPORT_THIEF
+	const HOLLOWPORT_BROOKE
+	const HOLLOWPORT_ELDER
 HollowportFlyPoint:
 	setflag ENGINE_FLYPOINT_HOLLOWPORT
 	clearevent EVENT_FIRST_TIME_BANKING_WITH_MOM
@@ -68,28 +68,28 @@ Hollowport_ElderStopsYouTrigger2:
 	special RestartMapMusic
 	end
 
-; Hollowport_RivalIntroTrigger:
-; 	appear HOLLOWPORT_RIVAL
-; 	special Special_FadeOutMusic
-; 	applymovement HOLLOWPORT_RIVAL, Movement_RIVALEnters_NBT
-; 	playmusic MUSIC_RIVAL_ENCOUNTER_HGSS
-; 	showemote EMOTE_SHOCK, HOLLOWPORT_RIVAL, 15
-; 	applymovement HOLLOWPORT_RIVAL, Movement_BrookeApproaches_NBT
-; 	turnobject PLAYER, LEFT
-; 	showtext Text_BrookeIntro
-; 	follow PLAYER, HOLLOWPORT_RIVAL
-; 	applyonemovement PLAYER, step_up
-; 	stopfollow
-; 	playsound SFX_EXIT_BUILDING
-; 	disappear PLAYER
-; 	applyonemovement HOLLOWPORT_RIVAL, step_up
-; 	playsound SFX_EXIT_BUILDING
-; 	disappear HOLLOWPORT_RIVAL
-; 	setscene $2
-; 	special FadeOutPalettes
-; 	pause 15
-; 	warpfacing UP, ELMS_LAB, 4, 11
-; 	end
+Hollowport_BrookeIntroTrigger:
+	appear HOLLOWPORT_BROOKE
+	special Special_FadeOutMusic
+	applymovement HOLLOWPORT_BROOKE, Movement_BrookeEnters_NBT
+	playmusic MUSIC_LYRA_ENCOUNTER_HGSS
+	showemote EMOTE_SHOCK, HOLLOWPORT_BROOKE, 15
+	applymovement HOLLOWPORT_BROOKE, Movement_BrookeApproaches_NBT
+	turnobject PLAYER, RIGHT
+	showtext Text_BrookeIntro
+	follow PLAYER, HOLLOWPORT_BROOKE
+	applymovement PLAYER, Movement_PlayerLab_NBT
+	stopfollow
+	playsound SFX_EXIT_BUILDING
+	disappear PLAYER
+	applyonemovement HOLLOWPORT_BROOKE, step_up
+	playsound SFX_EXIT_BUILDING
+	disappear HOLLOWPORT_BROOKE
+	setscene SCENE_HOLLOWPORT_NOOP
+	special FadeOutPalettes
+	pause 15
+	warpfacing UP, FIELD_LAB, 7, 8
+	end
 
 ; .Totodile:
 ; 	loadtrainer BROOKE1, BROOKE1_11
@@ -150,17 +150,23 @@ HollowportElderScript:
 ; 	turn_head_left
 ; 	step_end
 
-; Movement_RivalEnters_NBT:
-; 	step_right
-; 	step_right
-; 	step_end
+Movement_BrookeEnters_NBT:
+	step_left
+	step_end
 
-; Movement_RivalApproaches_NBT:
-; 	step_right
-; 	step_up
-; 	step_up
-; 	step_right
-; 	step_end
+Movement_BrookeApproaches_NBT:
+	step_left
+	step_left
+	step_left
+	step_left
+	step_end
+
+Movement_PlayerLab_NBT:
+	step_up
+	step_up
+	step_up
+	step_up
+	step_end
 
 ; HollowportRivalScript:
 ; 	showtext HollowportRivalText1
@@ -276,7 +282,7 @@ HollowportMurkrowText:
 	text "Murkrow: MrrKAW!"
 	done
 
-Text_HollowportRival:
+Text_BrookeIntro:
 	text "Brooke: Oh,"
 	line "hi, <PLAYER>!"
 
