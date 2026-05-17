@@ -13,17 +13,17 @@ Route101_MapScriptHeader:
 	warp_event 16,  3, ROUTE_101_CAVE, 1
 
 	def_coord_events
+	coord_event  8, 19, SCENE_ROUTE101_CATCH_TUTORIAL, Route101Tutorial1
+	coord_event  9, 19, SCENE_ROUTE101_CATCH_TUTORIAL, Route101Tutorial2
 	coord_event 14, 12, SCENE_ROUTE101_FAKE_BATTLE, FakeBattleTrigger1
 	coord_event 14, 13, SCENE_ROUTE101_FAKE_BATTLE, FakeBattleTrigger2
-	coord_event 3,  8, SCENE_ROUTE101_CATCH_TUTORIAL, Route101Tutorial1
-	coord_event 3,  9, SCENE_ROUTE101_CATCH_TUTORIAL, Route101Tutorial2
 
 	def_bg_events
 	bg_event 20,  6, BGEVENT_ITEM + SUPER_POTION, EVENT_ROUTE_101_HIDDEN_SUPER_POTION
 
 	def_object_events
+	object_event  9, 14, SPRITE_BROOKE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_BROOKE_ROUTE101
 	object_event 14, 11, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, GrannyScript, -1
-	object_event 50, 12, SPRITE_BROOKE, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_BROOKE_ROUTE101
 	fruittree_event 22,  4, FRUITTREE_ROUTE_101_1, ORAN_BERRY, PAL_NPC_BLUE
 	fruittree_event 23,  4, FRUITTREE_ROUTE_101_2, PECHA_BERRY, PAL_NPC_PINK
 	fruittree_event  4,  2, FRUITTREE_ROUTE_101_3, PERSIM_BERRY, PAL_NPC_PINK
@@ -32,8 +32,8 @@ Route101_MapScriptHeader:
 	itemball_event 17,  6, POTION, 1, EVENT_ROUTE_101_POTION
 
 	object_const_def
-	const ROUTE101_GRANNY
 	const ROUTE101_BROOKE
+	const ROUTE101_GRANNY
 
 
 FakeBattleTrigger1:
@@ -41,8 +41,8 @@ FakeBattleTrigger1:
 	showemote EMOTE_SHOCK, ROUTE101_GRANNY, 15
 	turnobject PLAYER, UP
 	showtext Text_GrannyFakeBattle
-	setevent EVENT_FAKE_BATTLE
-	clearevent EVENT_FAKE_BATTLE_2
+	; setevent EVENT_FAKE_BATTLE
+	; clearevent EVENT_FAKE_BATTLE_2
 	setscene SCENE_ROUTE101_NOOP
 	special RestartMapMusic
 	end
@@ -53,8 +53,8 @@ FakeBattleTrigger2:
 	turnobject PLAYER, UP
 	applymovement ROUTE101_GRANNY, .granny_steps
 	showtext Text_GrannyFakeBattle
-	setevent EVENT_FAKE_BATTLE
-	clearevent EVENT_FAKE_BATTLE_2
+	; setevent EVENT_FAKE_BATTLE
+	; clearevent EVENT_FAKE_BATTLE_2
 	setscene SCENE_ROUTE101_NOOP
 	special RestartMapMusic
 	end
@@ -63,73 +63,78 @@ FakeBattleTrigger2:
 	step_down
 	step_end
 GrannyFakeBattleScript:
-	checkevent EVENT_FAKE_BATTLE
-	iftrue_jumptextfaceplayer Text_GrannyAfter
-	faceplayer
-	playmusic MUSIC_LASS_ENCOUNTER
-	showemote EMOTE_SHOCK, LAST_TALKED, 30
-	showemote EMOTE_SHOCK, ROUTE101_GRANNY, 30
-	showtext Text_GrannyFakeBattle
-	setevent EVENT_FAKE_BATTLE
-	clearevent EVENT_FAKE_BATTLE_2
-	setscene SCENE_ROUTE101_NOOP
-	special RestartMapMusic
-	end
+	; checkevent EVENT_FAKE_BATTLE
+	; jumptextfaceplayer Text_GrannyAfter
+	; faceplayer
+	; playmusic MUSIC_LASS_ENCOUNTER
+	; showemote EMOTE_SHOCK, LAST_TALKED, 30
+	; showemote EMOTE_SHOCK, ROUTE101_GRANNY, 30
+	; showtext Text_GrannyFakeBattle
+	; setevent EVENT_FAKE_BATTLE
+	; clearevent EVENT_FAKE_BATTLE_2
+	; setscene SCENE_ROUTE101_NOOP
+	; special RestartMapMusic
+	; end
 
 GrannyScript:
-	faceplayer
-	checkscene
-	iffalsefwd .GrannyEvent
-	opentext
-	checkevent EVENT_FAKE_BATTLE
-	iftrue_jumpopenedtext Text_GrannyAfter
-end
+	jumptextfaceplayer Text_GrannyAfter
 
-.GrannyEvent:
-	playmusic MUSIC_LASS_ENCOUNTER
-	sjump GrannyFakeBattleScript
+; 	faceplayer
+; 	checkscene
+; 	iffalsefwd .GrannyEvent
+; 	opentext
+; 	checkevent EVENT_FAKE_BATTLE
+; 	iftrue_jumpopenedtext Text_GrannyAfter
+; end
+
+; .GrannyEvent:
+; 	playmusic MUSIC_LASS_ENCOUNTER
+; 	sjump GrannyFakeBattleScript
 
 Route101Tutorial1:
-	turnobject ROUTE101_BROOKE, UP
-	showemote EMOTE_SHOCK, ROUTE101_BROOKE, 15
+	appear ROUTE101_BROOKE
 	special Special_FadeOutMusic
+	applymovement ROUTE101_BROOKE, Movement_BrookeEnters_101
 	playmusic MUSIC_LYRA_ENCOUNTER_HGSS
 	pause 15
+	showemote EMOTE_SHOCK, ROUTE101_BROOKE, 15
 	applymovement ROUTE101_BROOKE, BrookeMovementData1a
-	turnobject PLAYER, LEFT
+	turnobject ROUTE101_BROOKE, DOWN
 	opentext
 	writetext CatchingTutorialIntroText
 	yesorno
 	iffalsefwd Route101RefusedTutorial
 	closetext
 	follow ROUTE101_BROOKE, PLAYER
-	applymovement ROUTE101_BROOKE, BrookeMovementData1b
+	applymovement ROUTE101_BROOKE, BrookeMovementData2
 	sjumpfwd Route101TutorialScript
 
 Route101Tutorial2:
-	turnobject ROUTE101_BROOKE, UP
-	showemote EMOTE_SHOCK, ROUTE101_BROOKE, 15
+	appear ROUTE101_BROOKE
 	special Special_FadeOutMusic
+	applymovement ROUTE101_BROOKE, Movement_BrookeEnters_101
 	playmusic MUSIC_LYRA_ENCOUNTER_HGSS
 	pause 15
-	applymovement ROUTE101_BROOKE, BrookeMovementData2a
-	turnobject PLAYER, LEFT
+	applymovement ROUTE101_BROOKE, BrookeMovementData1b
+	turnobject ROUTE101_BROOKE, DOWN
 	opentext
 	writetext CatchingTutorialIntroText
 	yesorno
 	iffalsefwd Route101RefusedTutorial
 	closetext
 	follow ROUTE101_BROOKE, PLAYER
-	applymovement ROUTE101_BROOKE, BrookeMovementData2b
+	applymovement ROUTE101_BROOKE, BrookeMovementData2
+
 Route101TutorialScript:
 	stopfollow
 	loadwildmon CRIBNAL, 5
 	catchtutorial BATTLETYPE_TUTORIAL
 	special DeleteSavedMusic
 	playmusic MUSIC_LYRA_DEPARTURE_HGSS
-	turnobject ROUTE101_BROOKE, UP
+	turnobject ROUTE101_BROOKE, LEFT
 	opentext
 	writetext CatchingTutorialDebriefText
+
 Route101FinishTutorial:
 	promptbutton
 	verbosegiveitem POKE_BALL, 5
@@ -138,9 +143,9 @@ Route101FinishTutorial:
 	closetext
 	applymovement ROUTE101_BROOKE, BrookeMovementData3
 	disappear ROUTE101_BROOKE
-	setscene SCENE_ROUTE101_NOOP
+	setscene SCENE_ROUTE101_FAKE_BATTLE
 	setevent EVENT_LEARNED_TO_CATCH_POKEMON
-	playmusic MUSIC_ROUTE_29
+	playmusic MUSIC_ROUTE_101_RSE
 	end
 
 Route101RefusedTutorial:
@@ -148,39 +153,38 @@ Route101RefusedTutorial:
 	writetext CatchingTutorialRefusedText
 	sjump Route101FinishTutorial
 
+Movement_BrookeEnters_101:
+	step_down
+	step_down
+	step_end
+
 BrookeMovementData1a:
-	step_up
-BrookeMovementData2a:
-	step_up
-	step_up
-	step_up
-	step_right
-	step_right
+	step_down
+	step_left
+	step_down
 	step_end
 
 BrookeMovementData1b:
-	step_left
-	step_left
-	step_down
-	step_down
 	step_down
 	step_down
 	step_end
 
-BrookeMovementData2b:
-	step_left
-	step_left
-	step_down
-	step_down
-	step_down
+BrookeMovementData2:
+	step_up
+	step_right
+	step_right
+	step_right
 	step_end
 
 BrookeMovementData3:
-	step_left
-	step_left
-	step_left
-	step_left
-	step_left
+	step_up
+	step_up
+	step_up
+	step_right
+	step_right
+	step_right
+	step_right
+	step_right
 	step_end
 
 CatchingTutorialIntroText:

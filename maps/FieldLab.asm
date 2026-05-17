@@ -18,8 +18,8 @@ FieldLab_MapScriptHeader:
 	def_coord_events
 	coord_event  6,  5, SCENE_FIELDLAB_CANT_LEAVE, FieldLabTryToLeaveScript
 	coord_event  7,  5, SCENE_FIELDLAB_CANT_LEAVE, FieldLabTryToLeaveScript2
-	coord_event  7,  7, SCENE_FIELDLAB_AIDE_GIVES_POTION, AideScript_WalkPotions1
-	coord_event  8,  7, SCENE_FIELDLAB_AIDE_GIVES_POTION, AideScript_WalkPotions2
+	coord_event  6,  6, SCENE_FIELDLAB_AIDE_GIVES_POTION, AideScript_WalkPotions1
+	coord_event  7,  6, SCENE_FIELDLAB_AIDE_GIVES_POTION, AideScript_WalkPotions2
 	coord_event  6,  4, SCENE_FIELDLAB_BROOKE_BATTLE, BrookeBattleScript
 
 	def_bg_events
@@ -344,7 +344,6 @@ endc
 	turnobject FIELDLAB_PAWPAW, DOWN
 	showtext PawpawDirectionsText3
 	setevent EVENT_GOT_A_POKEMON_FROM_PAWPAW
-	setscene SCENE_HOLLOWPORT_NOOP
 	; setevent EVENT_RIVAL_CHERRYGROVE_CITY
 	setscene SCENE_FIELDLAB_BROOKE_BATTLE
 	end
@@ -663,6 +662,7 @@ AideScript_GivePotions:
 	writetext AideText_GiveYouPotions
 	promptbutton
 	verbosegiveitem POTION
+	setmapscene ROUTE_101, SCENE_ROUTE101_CATCH_TUTORIAL
 	setscene SCENE_FIELDLAB_NOOP
 	jumpopenedtext AideText_AlwaysBusy
 
@@ -769,27 +769,19 @@ BrookeLeavesMovement:
 
 AideWalksRight1:
 	step_right
-	step_down
-	step_right
 	step_end
 
 AideWalksRight2:
-	step_right
-	step_down
 	step_right
 	step_right
 	step_end
 
 AideWalksLeft1:
 	step_left
-	step_up
-	step_left
 	turn_head_up
 	step_end
 
 AideWalksLeft2:
-	step_left
-	step_up
 	step_left
 	step_left
 	turn_head_up
@@ -1377,7 +1369,7 @@ FieldLabBrookeText_YouLost:
 FieldLabBrookeThankYouText:
 	text "Thank you for the"
 	line "#mon, Prof."
-	cont "Elm."
+	cont "Pawpaw!"
 	done
 
 FieldLabBrookeSeeYouText:
