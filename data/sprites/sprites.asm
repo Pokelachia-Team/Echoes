@@ -219,4 +219,5 @@ SpriteHeaders:
 	overworld_sprite BetaSurfSpriteGFX, WALKING_SPRITE, PAL_OW_BLUE
 	overworld_sprite BetaRunSpriteGFX, WALKING_SPRITE, PAL_OW_BLUE
 	overworld_sprite FloatingBallSpriteGFX, STANDING_SPRITE, PAL_OW_ENV_RED
+	overworld_sprite SpinarakCartSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN
 	assert_table_length NUM_OVERWORLD_SPRITES

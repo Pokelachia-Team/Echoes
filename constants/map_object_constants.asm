@@ -169,6 +169,7 @@ DEF MAPOBJECT_SCREEN_HEIGHT EQU (SCREEN_HEIGHT / 2) + 2
 	const SPRITEMOVEDATA_BIG_HO_OH            ; 30
 	const SPRITEMOVEDATA_BIG_LUGIA            ; 31
 	const SPRITEMOVEDATA_ADMIN_MEOWTH         ; 32
+	const SPRITEMOVEDATA_SPINARAK_CART        ; 33
 DEF NUM_SPRITEMOVEDATA EQU const_value
 
 ; StepFunction_FromMovement.Pointers indexes (see engine/overworld/map_objects.asm)
@@ -232,6 +233,9 @@ DEF NUM_SPRITEMOVEFN EQU const_value
 	const STEP_TYPE_SKYFALL_TOP      ; 15
 	const STEP_TYPE_NPC_STAIRS       ; 16
 	const STEP_TYPE_PLAYER_STAIRS    ; 17
+	const STEP_TYPE_HALF1            ; 18
+	const STEP_TYPE_NPC_HALF2        ; 19
+	const STEP_TYPE_PLAYER_HALF2     ; 1a
 DEF NUM_STEP_TYPES EQU const_value
 
 ; ObjectActionPairPointers indexes (see engine/overworld/map_object_action.asm)
