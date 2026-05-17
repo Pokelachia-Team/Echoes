@@ -333,6 +333,14 @@ RunStep:
 	ld d, OBJECT_ACTION_RUN
 	jr _ContinueStep
 
+TurningStep:
+	lb de, OBJECT_ACTION_SPIN, FALSE
+	jr _ContinueStep
+
+SlideStep:
+	lb de, OBJECT_ACTION_STAND, FALSE
+	jr _ContinueStep
+
 NormalStep:
 	ld d, OBJECT_ACTION_STEP
 	; fallthrough
