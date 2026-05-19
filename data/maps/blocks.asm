@@ -33,6 +33,7 @@ Route101102Gate_BlockData:
 Route102OlsteetonGate_BlockData:
 OlsteetonUniGate_BlockData:
 OlsteetonRoute103Gate_BlockData:
+Route103BrinesburgGate_BlockData:
 	INCBIN "maps/EastWestGate.ablk.lzp"
 
 SECTION "TradeCenter_BlockData", ROMX
@@ -94,6 +95,10 @@ Route101Cave_BlockData:
 SECTION "Route102_BlockData", ROMX
 Route102_BlockData:
 	INCBIN "maps/Route102.ablk.lzp"
+
+SECTION "Route103_BlockData", ROMX
+Route103_BlockData:
+	INCBIN "maps/Route103.ablk.lzp"
 
 SECTION "Olsteeton_BlockData", ROMX
 Olsteeton_BlockData:

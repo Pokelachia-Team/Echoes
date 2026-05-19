@@ -9,7 +9,8 @@
 	const NATIONAL_FOREST_1  ; 0e
 	const OLSTEETON_UNI      ; 0f
 	const BRINESBURG	     ; 0g
-	const BATTLE_TOWER       ; 0b
+	const ROUTE_103			 ; 0h
+	const BATTLE_TOWER       ; 0i
 DEF KANTO_LANDMARK EQU const_value
 DEF SHAMOUTI_LANDMARK EQU const_value
 DEF NUM_LANDMARKS EQU const_value

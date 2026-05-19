@@ -4,6 +4,8 @@ Brinesburg_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
+	warp_event  6, 28, ROUTE_103_BRINESBURG_GATE, 3
+	warp_event  6, 29, ROUTE_103_BRINESBURG_GATE, 4
 	; warp_event 53, 11, BRINESBURG_POKECENTER_1F, 1
 	; warp_event 47, 19, BRINESBURG_MART, 2
 	; warp_event 34, 19, BRINESBURG_GYM, 1
@@ -14,8 +16,6 @@ Brinesburg_MapScriptHeader:
 	; warp_event 17,  7, BRINESBURG_SOMN_HOUSE, 1
 	; warp_event  6, 28, BRINESBURG_ROUTE_103_GATE, 1
 	; warp_event  6, 29, BRINESBURG_ROUTE_103_GATE, 2
-	warp_event  6, 28, OLSTEETON_ROUTE_103_GATE, 1
-	warp_event  6, 29, OLSTEETON_ROUTE_103_GATE, 2
 	; warp_event 55, 30, BRINESBURG_ROUTE_105_GATE, 1
 	; warp_event 55, 31, BRINESBURG_ROUTE_105_GATE, 2
 
