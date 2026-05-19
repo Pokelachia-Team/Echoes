@@ -183,10 +183,10 @@ _HandleStepType:
 	table_width 2
 	dw StepFunction_Reset           ; STEP_TYPE_RESET
 	dw StepFunction_FromMovement    ; STEP_TYPE_FROM_MOVEMENT
-	dw StepFunction_NPCWalk         ; STEP_TYPE_NPC_WALK
 	dw StepFunction_Sleep           ; STEP_TYPE_SLEEP
 	dw StepFunction_Standing        ; STEP_TYPE_STANDING
 	dw StepFunction_Restore         ; STEP_TYPE_RESTORE
+	dw StepFunction_NPCWalk         ; STEP_TYPE_NPC_WALK
 	dw StepFunction_PlayerWalk      ; STEP_TYPE_PLAYER_WALK
 	dw StepFunction_ContinueWalk    ; STEP_TYPE_CONTINUE_WALK
 	dw StepFunction_NPCJump         ; STEP_TYPE_NPC_JUMP
@@ -303,7 +303,7 @@ EndSpriteMovement:
 	ld [hl], STANDING
 	ret
 
-InitStep:
+StartInitStep:
 	ld hl, OBJECT_WALKING
 	add hl, bc
 	ld [hl], a
@@ -317,6 +317,10 @@ InitStep:
 	ld hl, OBJECT_DIRECTION
 	add hl, bc
 	ld [hl], a
+	ret
+
+InitStep:
+	call StartInitStep
 GetNextTile:
 	call GetStepVector
 	ld hl, OBJECT_STEP_DURATION
@@ -350,14 +354,14 @@ GetNextTile:
 
 AddStepVector:
 	call GetStepVector
-	jr nc, ApplyStepVector
+	jr nc, .ok
 	ld hl, OBJECT_STEP_DURATION
 	add hl, bc
 	ld a, [hl]
 	and %1
-	jr nz, ApplyStepVector
+	jr nz, .ok
 	lb de, 0, 0
-ApplyStepVector:
+.ok
 	ld hl, OBJECT_SPRITE_X
 	add hl, bc
 	ld a, [hl]
@@ -1511,6 +1515,11 @@ StepFunction_Standing:
 	ret
 
 UndoHalfStepOffset:
+	ld hl, OBJECT_STEP_DURATION
+	add hl, bc
+	ld a, [hl]
+	and %1
+	ret nz
 	ld hl, OBJECT_SPRITE_X_OFFSET
 	add hl, bc
 	ld a, [hl]
@@ -1521,14 +1530,10 @@ UndoHalfStepOffset:
 	ld a, [hl]
 	sub e
 	ld [hl], a
-	ld hl, OBJECT_STEP_DURATION
-	add hl, bc
-	dec [hl]
 	ret
 
 StepFunction_NPCHalf2:
 	call AddStepVector
-	call ApplyStepVector
 	call UndoHalfStepOffset
 	jr _ContinueNPCWalk
 
@@ -1569,8 +1574,6 @@ StepFunction_PlayerHalf2:
 	call IncrementObjectStructField1c
 .step
 	call UpdatePlayerStep
-	call ApplyStepVector
-	call ApplyPlayerStep
 	call UndoHalfStepOffset
 	jr _ContinuePlayerWalk
 

@@ -505,4 +505,24 @@ MACRO paired_step_right
 	db movement_paired_step_right ; $64
 ENDM
 
+	const movement_half_step_down
+MACRO half_step_down
+	db movement_half_step_down ; $65
+ENDM
+
+	const movement_half_step_up
+MACRO half_step_up
+	db movement_half_step_up ; $66
+ENDM
+
+	const movement_half_step_left
+MACRO half_step_left
+	db movement_half_step_left ; $67
+ENDM
+
+	const movement_half_step_right
+MACRO half_step_right
+	db movement_half_step_right ; $68
+ENDM
+
 DEF NUM_MOVEMENT_CMDS EQU const_value
