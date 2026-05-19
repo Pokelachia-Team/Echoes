@@ -34,7 +34,7 @@
 	tilecoll PUDDLE, FLOOR, PUDDLE, FLOOR ; 21
 	tilecoll WALL, WALL, WALL, WALL ; 22
 	tilecoll FLOOR, FLOOR, WALL, WALL ; 23
-	tilecoll PUDDLE, PUDDLE, PUDDLE, PUDDLE ; 24
+	tilecoll WATER, WATER, WATER, WATER ; 24
 	tilecoll TOP_WALL, TOP_WALL, FLOOR, WALL ; 25
 	tilecoll WALL, WALL, WALL, WALL ; 26
 	tilecoll WALL, WALL, WALL, WALL ; 27
@@ -191,7 +191,7 @@
 	tilecoll WALL, WALL, WALL, WALL ; be
 	tilecoll HEADBUTT_TREE, HEADBUTT_TREE, WALL, WALL ; bf
 	tilecoll WATER, WATER, BUOY, BUOY ; c0
-	tilecoll WATER, WATER, BUOY, BUOY ; c1
+	tilecoll WATER, WATER, WATER, WATER ; c1
 	tilecoll WATER, WATER, WATER, WATER ; c2
 	tilecoll WATER, WATER, WATER, WATER ; c3
 	tilecoll WALL, WALL, WALL, CAVE ; c4

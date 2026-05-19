@@ -98,7 +98,7 @@ ENDM
 	map_const RIVERFRONT_APT_4F_ROOM_3,                    4,  4 ;  37
 
 	newgroup                                                     ; 32
-	map_const OLSTEETON_UNI,	                          21, 14 ;  1
+	map_const OLSTEETON_UNI,	                          20, 14 ;  1
 	map_const OLSTEETON_UNI_LIBRARY_1F,   	               7,  6 ;  2
 	map_const OLSTEETON_UNI_LIBRARY_2F,   	               9,  7 ;  3
 	map_const OLSTEETON_UNI_SCIENCE_CENTER,   	           6,  5 ;  4
