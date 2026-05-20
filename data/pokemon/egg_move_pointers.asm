@@ -110,8 +110,8 @@ EggSpeciesMovesPointers::
 	dw LickitungEggSpeciesMoves         ; Lickitung
 	dw KoffingEggSpeciesMoves           ; Koffing
 	dw KoffingEggSpeciesMoves           ; Weezing
-	dw RhyhornEggSpeciesMoves           ; Rhyhorn
-	dw RhyhornEggSpeciesMoves           ; Rhydon
+	dw NacliEggSpeciesMoves           ; Nacli
+	dw NacliEggSpeciesMoves           ; Rhydon
 	dw NofawtsEggSpeciesMoves           ; Fluttrfawn
 	dw TangelaEggSpeciesMoves           ; Tangela
 	dw KangaskhanEggSpeciesMoves        ; Kangaskhan
@@ -266,7 +266,7 @@ EggSpeciesMovesPointers::
 	dw SneaselEggSpeciesMoves           ; Weavile
 	dw MagnemiteEggSpeciesMoves         ; Magnezone
 	dw LickitungEggSpeciesMoves         ; Lickilicky
-	dw RhyhornEggSpeciesMoves           ; Rhyperior
+	dw NacliEggSpeciesMoves           ; Rhyperior
 	dw TangelaEggSpeciesMoves           ; Tangrowth
 	dw ElekidEggSpeciesMoves            ; Electivire
 	dw MagbyEggSpeciesMoves             ; Magmortar

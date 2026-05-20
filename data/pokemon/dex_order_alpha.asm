@@ -216,7 +216,7 @@ AlphabeticalPokedexOrder:
 	dp RATTATA
 	dp REMORAID
 	dp RHYDON
-	dp RHYHORN
+	dp NACLI
 	dp RHYPERIOR
 	dp RIVASTION
 	dp RIVEBLOK

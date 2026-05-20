@@ -111,7 +111,7 @@ PokedexDataPointerTable:
 	dba LickitungPokedexEntry
 	dba KoffingPokedexEntry
 	dba WeezingPlainPokedexEntry
-	dba RhyhornPokedexEntry
+	dba NacliPokedexEntry
 	dba RhydonPokedexEntry
 	dba FluttrfawnPokedexEntry
 	dba TangelaPokedexEntry

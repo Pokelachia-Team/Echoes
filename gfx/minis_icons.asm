@@ -557,10 +557,10 @@ WeezingMini::     INCBIN "gfx/minis/weezing.2bpp.lzp"
 WeezingMiniMask:: INCBIN "gfx/minis/weezing_mask.1bpp.lzp"
 WeezingIcon::     INCBIN "gfx/icons/weezing.2bpp.lzp"
 
-SECTION "Rhyhorn Mini Icon", ROMX
-RhyhornMini::     INCBIN "gfx/minis/rhyhorn.2bpp.lzp"
-RhyhornMiniMask:: INCBIN "gfx/minis/rhyhorn_mask.1bpp.lzp"
-RhyhornIcon::     INCBIN "gfx/icons/rhyhorn.2bpp.lzp"
+SECTION "Nacli Mini Icon", ROMX
+NacliMini::     INCBIN "gfx/minis/nacli.2bpp.lzp"
+NacliMiniMask:: INCBIN "gfx/minis/nacli_mask.1bpp.lzp"
+NacliIcon::     INCBIN "gfx/icons/nacli.2bpp.lzp"
 
 SECTION "Rhydon Mini Icon", ROMX
 RhydonMini::     INCBIN "gfx/minis/rhydon.2bpp.lzp"

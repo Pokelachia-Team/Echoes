@@ -110,7 +110,7 @@ BitmasksPointers:
 	dw LickitungBitmasks
 	dw KoffingBitmasks
 	dw WeezingPlainBitmasks
-	dw RhyhornBitmasks
+	dw NacliBitmasks
 	dw RhydonBitmasks
 	dw FluttrfawnBitmasks
 	dw TangelaBitmasks

@@ -557,15 +557,11 @@ KoffingEggSpeciesMoves:
 	db PAIN_SPLIT
 	db $ff
 
-RhyhornEggSpeciesMoves:
-	dp RHYHORN, PLAIN_FORM
-	db CRUNCH
-	db MAGNITUDE
-	db PURSUIT
-	db REVERSAL
-	db THRASH
-	db ROCK_SLIDE
-	db COUNTER
+NacliEggSpeciesMoves:
+	dp NACLI, PLAIN_FORM
+	db ANCIENTPOWER
+	db CURSE
+	db POWER_GEM
 	db $ff
 
 TangelaEggSpeciesMoves:

@@ -246,7 +246,7 @@ NewPokedexOrder:
 	dp CUBONE
 	dp MAROWAK
 	dp KANGASKHAN
-	dp RHYHORN
+	dp NACLI
 	dp RHYDON
 	dp RHYPERIOR
 	dp MURKROW

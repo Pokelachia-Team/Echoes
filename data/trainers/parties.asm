@@ -3424,7 +3424,7 @@ HikerGroup:
 	end_trainer
 
 	def_trainer GERARD, "Gerard"
-	tr_mon 59, RHYHORN
+	tr_mon 59, NACLI
 	tr_mon 61, RHYDON
 	end_trainer
 
@@ -3912,7 +3912,7 @@ PokemaniacGroup:
 	end_trainer
 
 	def_trainer ETHAN, "Ethan"
-	tr_mon 45, RHYHORN
+	tr_mon 45, NACLI
 	tr_mon 46, RHYDON
 	end_trainer
 
@@ -3927,7 +3927,7 @@ PokemaniacGroup:
 	end_trainer
 
 	def_trainer ZACH, "Zach"
-	tr_mon 37, RHYHORN
+	tr_mon 37, NACLI
 	end_trainer
 
 	def_trainer ENZO, "Enzo"
@@ -6812,7 +6812,7 @@ CooltrainerMGroup:
 
 	def_trainer KIERAN, "Kieran"
 	tr_mon 52, HYPNO
-	tr_mon 53, RHYHORN
+	tr_mon 53, NACLI
 	tr_mon 55, PRIMEAPE
 	end_trainer
 
