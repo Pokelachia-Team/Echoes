@@ -113,6 +113,7 @@ ENDM
 	map_attributes Route103BrinesburgGate, ROUTE_103_BRINESBURG_GATE, $0, 0
 	map_attributes BrinesburgPokeCenter, BRINESBURG_POKECENTER, $0, 0
 	map_attributes BrinesburgMart, BRINESBURG_MART, $0, 0	
+	map_attributes BrinesburgGym, BRINESBURG_GYM, $0, 0
 
 
 

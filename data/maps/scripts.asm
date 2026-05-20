@@ -183,6 +183,6 @@ INCLUDE "maps/Route103.asm"
 INCLUDE "maps/Route103BrinesburgGate.asm"
 INCLUDE "maps/BrinesburgPokeCenter.asm"
 INCLUDE "maps/BrinesburgMart.asm"
-
+INCLUDE "maps/BrinesburgGym.asm"
 
 ENDSECTION

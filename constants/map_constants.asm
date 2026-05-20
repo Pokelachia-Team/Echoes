@@ -76,7 +76,7 @@ ENDM
 	map_const RIVERFRONT_APT_5F,                           8,  5 ;  15
 	map_const RIVERFRONT_APT_ROOF,                         8,  6 ;  16
 	map_const RIVERFRONT_APT_ELEVATOR,                     2,  2 ;  17
-	map_const OLSTEETON_DINER,                             8,  6 ;  18
+	map_const OLSTEETON_DINER,                             8,  5 ;  18
 	map_const OLSTEETON_ARCADE, 						  10,  7 ;  19
 	map_const OLSTEETON_TRAIN_STATION,                    10,  9 ;  20
 	map_const OLSTEETON_NAME_RATER,                        4,  4 ;  21
@@ -144,8 +144,8 @@ ENDM
 	map_const BRINESBURG,	                              31, 18 ;  1
 	map_const ROUTE_103,	                              30, 19 ;  2
 	map_const ROUTE_103_BRINESBURG_GATE,                   5,  4 ;  3
-	map_const BRINESBURG_POKECENTER,                      6,  4 ;  4
+	map_const BRINESBURG_POKECENTER,                       6,  4 ;  4
 	map_const BRINESBURG_MART,                             6,  4 ;  5
-
+	map_const BRINESBURG_GYM,                       	  10,  5 ;  6
 
 DEF NUM_MAP_GROUPS EQU const_value ; 37
