@@ -4,6 +4,7 @@ PokeCenter2F_BlockData:
 	INCBIN "maps/JohtoPokeCenter2F.ablk.lzp"
 
 OlsteetonPokeCenter_BlockData:
+BrinesburgPokeCenter_BlockData:
 	INCBIN "maps/FolkoraPokeCenter.ablk.lzp"
 
 OlsteetonGymHouse_BlockData:
@@ -23,6 +24,7 @@ Route101House_BlockData:
 	INCBIN "maps/TraditionalHouse.ablk.lzp"
 
 OlsteetonMart_BlockData:
+BrinesburgMart_BlockData:
 GenericMart_BlockData:: ; used by tilesets/palettes.asm:LoadSpecialMapPalette
 	INCBIN "maps/Mart.ablk.lzp"
 

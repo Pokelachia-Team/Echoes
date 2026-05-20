@@ -144,6 +144,8 @@ ENDM
 	map_const BRINESBURG,	                              31, 18 ;  1
 	map_const ROUTE_103,	                              30, 19 ;  2
 	map_const ROUTE_103_BRINESBURG_GATE,                   5,  4 ;  3
+	map_const BRINESBURG_POKECENTER,                      6,  4 ;  4
+	map_const BRINESBURG_MART,                             6,  4 ;  5
 
 
 DEF NUM_MAP_GROUPS EQU const_value ; 37

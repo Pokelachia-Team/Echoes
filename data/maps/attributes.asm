@@ -111,6 +111,9 @@ ENDM
 	map_attributes OlsteetonUniGymDept, OLSTEETON_UNI_GYM_DEPT, $0, 0
 	map_attributes Brinesburg, BRINESBURG, $5, 0
 	map_attributes Route103BrinesburgGate, ROUTE_103_BRINESBURG_GATE, $0, 0
+	map_attributes BrinesburgPokeCenter, BRINESBURG_POKECENTER, $0, 0
+	map_attributes BrinesburgMart, BRINESBURG_MART, $0, 0	
+
 
 
 	
