@@ -110,7 +110,7 @@ FootprintPointers::
 	dw LickitungFootprint
 	dw KoffingFootprint
 	dw WeezingFootprint
-	dw RhyhornFootprint
+	dw NacliFootprint
 	dw RhydonFootprint
 	dw FluttrfawnFootprint
 	dw TangelaFootprint

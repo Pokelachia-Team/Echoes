@@ -2394,25 +2394,21 @@ endc
 	learnset 51, PAIN_SPLIT ; Belch → HGSS tutor move
 	learnset 57, MOONBLAST ; Memento → new move
 
-	evos_attacks Rhyhorn
-	evo_data EVOLVE_LEVEL, 42, RHYDON
+	evos_attacks Nacli
+	evo_data EVOLVE_LEVEL, 24, RHYDON
 	learnset 1, TACKLE
-	learnset 1, MUD_SLAP ; Sand-Attack → similar move
-	learnset 1, LEER ; Tail Whip → similar move
-	learnset 3, HORN_ATTACK
-	learnset 6, FURY_STRIKES ; Fury Attack → similar move
-	learnset 9, SCARY_FACE
-	learnset 13, MAGNITUDE ; Smack Down → egg move
-	learnset 17, STOMP
-	learnset 21, BULLDOZE
-	learnset 25, ANCIENTPOWER ; Chip Away → HGSS tutor move
-	learnset 29, ROCK_BLAST
-	learnset 33, TAKE_DOWN ; Drill Run → Take Down
-	learnset 37, STONE_EDGE ; Take Down → Stone Edge
-	learnset 41, DOUBLE_EDGE ; Double Edge → event move
-	learnset 45, EARTHQUAKE
-	learnset 49, CLOSE_COMBAT ; Megahorn → new move
-	learnset 53, MEGAHORN ; Horn Drill → Megahorn
+	learnset 1, DEFENSE_CURL 
+	learnset 5, ROCK_THROW
+	learnset 7, MUD_SLAP
+	learnset 10, MAGNITUDE
+	learnset 16, HEADBUTT
+	learnset 21, ROCK_BLAST
+	learnset 25, RECOVER
+	learnset 30, ROCK_SLIDE
+	learnset 33, SANDSTORM 
+	learnset 35, IRON_HEAD
+	learnset 40, EARTHQUAKE
+	learnset 45, STONE_EDGE
 
 	evos_attacks Rhydon
 	evo_data EVOLVE_TRADE, PROTECTOR, RHYPERIOR

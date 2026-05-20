@@ -114,7 +114,7 @@ PokemonPicPointers::
 	pics Lickitung
 	pics Koffing
 	pics WeezingPlain
-	pics Rhyhorn
+	pics Nacli
 	pics Rhydon
 	pics Fluttrfawn
 	pics Tangela

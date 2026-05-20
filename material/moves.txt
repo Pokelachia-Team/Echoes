@@ -77,7 +77,7 @@ Mewtwo: Power Gem
 
 Egg:
 Roggenrola/Boldore/Gigalith: Rock Slide
-Rhyhorn/Rhydon/Rhyperior: Crunch
+Nacli/Rhydon/Rhyperior: Crunch
 
 RBY TM:
 Mankey/Primeape: Metronome

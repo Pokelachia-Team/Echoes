@@ -110,7 +110,7 @@ AnimationExtraPointers:
 	dw LickitungAnimationExtra
 	dw KoffingAnimationExtra
 	dw WeezingPlainAnimationExtra
-	dw RhyhornAnimationExtra
+	dw NacliAnimationExtra
 	dw RhydonAnimationExtra
 	dw FluttrfawnAnimationExtra
 	dw TangelaAnimationExtra

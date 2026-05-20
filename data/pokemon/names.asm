@@ -111,7 +111,7 @@ PokemonNames::
 	rawchar "Lickitung@"
 	rawchar "Koffing@@@"
 	rawchar "Weezing@@@"
-	rawchar "Rhyhorn@@@"
+	rawchar "Nacli@@@@@"
 	rawchar "Rhydon@@@@"
 	rawchar "Fluttrfawn"
 	rawchar "Tangela@@@"
