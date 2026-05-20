@@ -9,7 +9,7 @@ FuryAttackUsers:
 	dp FARFETCH_D
 	dp DODUO
 	dp DODRIO
-	dp RHYHORN
+	dp NACLI
 	dp RHYDON
 	dp GOLDEEN
 	dp SEAKING

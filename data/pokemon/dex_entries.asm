@@ -1102,15 +1102,13 @@ WeezingPlainPokedexEntry::
 	next "its insides smell"
 	next "much worse.@"
 
-SECTION "RhyhornPokedexEntry", ROMX
-RhyhornPokedexEntry::
-	db "Spikes@"
-	db   "It can remember"
-	next "only one thing at"
-	next "a time. Once it"
-	page "starts rushing, it"
-	next "forgets why it"
-	next "started.@"
+SECTION "NacliPokedexEntry", ROMX
+NacliPokedexEntry::
+	db "Rock Salt@"
+	db   "As Nacli treads"
+	next "along the ground,"
+	next "grains of rock salt"
+	page "are left behind.@"
 
 SECTION "RhydonPokedexEntry", ROMX
 RhydonPokedexEntry::

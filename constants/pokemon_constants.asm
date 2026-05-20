@@ -133,7 +133,7 @@
 	const LICKITUNG  ; 6c
 	const KOFFING    ; 6d
 	const WEEZING    ; 6e
-	const RHYHORN    ; 6f
+	const NACLI    ; 6f
 	const RHYDON     ; 70
 	const FLUTTRFAWN    ; 71
 	const TANGELA    ; 72

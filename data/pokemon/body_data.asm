@@ -117,7 +117,7 @@ PokemonBodyData:
 	body_data  12,  655, BIPEDAL_TAIL, PINK   ; LICKITUNG
 	body_data   6,   10, HEAD,         PURPLE ; KOFFING
 	body_data  12,   95, MULTIBODY,    PURPLE ; WEEZING
-	body_data  10, 1150, QUADRUPED,    GRAY   ; RHYHORN
+	body_data   6,  150,  HEAD,        BROWN  ; NACLI
 	body_data  19, 1200, BIPEDAL_TAIL, GRAY   ; RHYDON
 	body_data  11,  346, QUADRUPED,    PINK   ; FLUTTRFAWN
 	body_data  10,  350, HEAD_LEGS,    BLUE   ; TANGELA

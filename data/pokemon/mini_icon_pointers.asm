@@ -114,7 +114,7 @@ MiniIconPointers:
 	mini_icon Lickitung
 	mini_icon Koffing
 	mini_icon Weezing
-	mini_icon Rhyhorn
+	mini_icon Nacli
 	mini_icon Rhydon
 	mini_icon Fluttrfawn
 	mini_icon Tangela

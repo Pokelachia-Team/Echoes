@@ -116,7 +116,7 @@ PokemonCries::
 	mon_cry CRY_SEEL,        $000,  $100 ; Lickitung
 	mon_cry CRY_GIGALITH,       $0e6,  $15d ; Koffing
 	mon_cry CRY_GIGALITH,       $0ff,  $17f ; Weezing
-	mon_cry CRY_FLIKLIT,  $000,  $100 ; Rhyhorn
+	mon_cry CRY_FLIKLIT,  $000,  $100 ; Nacli
 	mon_cry CRY_RHYDON,      $000,  $100 ; Rhydon
 	mon_cry CRY_PIDGEOTTO,   $00a,  $140 ; Fluttrfawn
 	mon_cry CRY_GIGALITH,       $000,  $100 ; Tangela

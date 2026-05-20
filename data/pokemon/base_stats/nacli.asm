@@ -1,0 +1,18 @@
+	bst 280,  55,  55,  75,  35,  35,  25
+	;   bst   hp  atk  def  sat  sdf  spe
+
+	db ROCK, ROCK ; type
+	db 120 ; catch rate
+	db 135 ; base exp
+	db NO_ITEM, NO_ITEM ; held items
+	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
+
+	abilities_for NACLI, STURDY, ROCK_HEAD, CLEAR_BODY
+	db GROWTH_MEDIUM_SLOW ; growth rate
+	dn EGG_MONSTER, EGG_GROUND ; egg groups
+
+	ev_yield 1 Def
+
+	; tm/hm learnset
+	tmhm CURSE, ROAR, TOXIC, HIDDEN_POWER, SUNNY_DAY, PROTECT, RAIN_DANCE, BULLDOZE, THUNDERBOLT, THUNDER, EARTHQUAKE, RETURN, DIG, ROCK_SMASH, DOUBLE_TEAM, SANDSTORM, SUBSTITUTE, FACADE, REST, ATTRACT, THIEF, ROCK_SLIDE, POISON_JAB, STONE_EDGE, SWORDS_DANCE, STRENGTH, BODY_SLAM, COUNTER, DOUBLE_EDGE, EARTH_POWER, ENDURE, HEADBUTT, ROLLOUT, SLEEP_TALK, SWAGGER
+	; end

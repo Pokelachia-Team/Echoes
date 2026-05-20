@@ -408,10 +408,10 @@ LickitungFrontpic: INCBIN "gfx/pokemon/lickitung/front.animated.2bpp.lzp"
 LickitungBackpic:  INCBIN "gfx/pokemon/lickitung/back.2bpp.lzp"
 LickitungFrames:   INCLUDE "gfx/pokemon/lickitung/frames.asm"
 
-SECTION "Rhyhorn Pics", ROMX
-RhyhornFrontpic: INCBIN "gfx/pokemon/rhyhorn/front.animated.2bpp.lzp"
-RhyhornBackpic:  INCBIN "gfx/pokemon/rhyhorn/back.2bpp.lzp"
-RhyhornFrames:   INCLUDE "gfx/pokemon/rhyhorn/frames.asm"
+SECTION "Nacli Pics", ROMX
+NacliFrontpic: INCBIN "gfx/pokemon/nacli/front.animated.2bpp.lzp"
+NacliBackpic:  INCBIN "gfx/pokemon/nacli/back.2bpp.lzp"
+NacliFrames:   INCLUDE "gfx/pokemon/nacli/frames.asm"
 
 SECTION "Rhydon Pics", ROMX
 RhydonFrontpic: INCBIN "gfx/pokemon/rhydon/front.animated.2bpp.lzp"
