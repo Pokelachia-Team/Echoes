@@ -947,6 +947,8 @@ DEF BETA EQU __trainer_class__
 	const DAVID
 
 	trainerclass WAITRESS
+	const TWILA
+	const BEV
 
 	trainerclass SIGHTSEERM
 	const JASKA

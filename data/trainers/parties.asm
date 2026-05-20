@@ -103,18 +103,13 @@ SalGroup:
 
 	def_trainer_class SAL
 	def_trainer 1, "Sal"
-	tr_mon 10, NATU, MALE
-		tr_extra SYNCHRONIZE
+	tr_mon 10, DEBRITE, MALE
 		tr_evs 32 HP
-		tr_moves PECK, LEER, NIGHT_SHADE, MUD_SLAP
-	tr_mon 11, HOOTHOOT, MALE
-		tr_extra INSOMNIA
+	tr_mon 11, POLIWAG, MALE
 		tr_evs 32 HP
-		tr_moves TACKLE, HYPNOSIS, PECK, CONFUSION
-	tr_mon 13, PIDGEOTTO @ PECHA_BERRY, MALE
-		tr_extra KEEN_EYE
+	tr_mon 13, NACLI @ PECHA_BERRY, MALE
+		tr_extra CLEAR_BODY
 		tr_evs 32 HP
-		tr_moves GUST, MUD_SLAP, QUICK_ATTACK, ROOST
 	end_trainer
 
 	def_trainer 2, "Sal"
@@ -6605,6 +6600,15 @@ SECTION "WaitressGroup", ROMX
 WaitressGroup:
 
 	def_trainer_class WAITRESS
+	def_trainer TWILA, "Twila"
+	tr_mon 7, NACLI
+	tr_mon 8, CORPHISH
+	end_trainer
+
+	def_trainer BEV, "Bev"
+	tr_mon 8, SINISTEA
+	tr_mon 9, ODDISH
+	end_trainer
 
 
 SECTION "SightseerMGroup", ROMX

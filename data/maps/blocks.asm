@@ -4,6 +4,7 @@ PokeCenter2F_BlockData:
 	INCBIN "maps/JohtoPokeCenter2F.ablk.lzp"
 
 OlsteetonPokeCenter_BlockData:
+BrinesburgPokeCenter_BlockData:
 	INCBIN "maps/FolkoraPokeCenter.ablk.lzp"
 
 OlsteetonGymHouse_BlockData:
@@ -23,6 +24,7 @@ Route101House_BlockData:
 	INCBIN "maps/TraditionalHouse.ablk.lzp"
 
 OlsteetonMart_BlockData:
+BrinesburgMart_BlockData:
 GenericMart_BlockData:: ; used by tilesets/palettes.asm:LoadSpecialMapPalette
 	INCBIN "maps/Mart.ablk.lzp"
 
@@ -316,6 +318,10 @@ OlsteetonUniDormEast3FRoom3_BlockData:
 SECTION "Brinesburg_BlockData", ROMX
 Brinesburg_BlockData:
 	INCBIN "maps/Brinesburg.ablk.lzp"
+
+SECTION "BrinesburgGym_BlockData", ROMX
+BrinesburgGym_BlockData:
+	INCBIN "maps/BrinesburgGym.ablk.lzp"
 
 SECTION "BattleTower1F_BlockData", ROMX
 BattleTower1F_BlockData:
