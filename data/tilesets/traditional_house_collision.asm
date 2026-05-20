@@ -66,3 +66,4 @@
 	tilecoll WALL, WALL, WALL, WALL ; 41
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 42
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 43
+	tilecoll FLOOR, FLOOR, RADIO, FLOOR ; 44

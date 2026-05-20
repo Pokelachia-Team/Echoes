@@ -90,6 +90,7 @@ LyraPhoneScript_JohtoLandmarksTable:
 	dw .NationalForest1
 	dw .OlsteetonUni
 	dw .Brinesburg
+	dw .Route103
 	dw .BattleTower
 	assert_table_length KANTO_LANDMARK
 .Generic:
@@ -100,6 +101,7 @@ LyraPhoneScript_JohtoLandmarksTable:
 .NationalForest1:
 .OlsteetonUni:
 .Brinesburg
+.Route103:
 .BattleTower:
 	; TODO: define individual texts for Johto landmarks
 	farwritetext LyraPhoneJohtoText_Generic

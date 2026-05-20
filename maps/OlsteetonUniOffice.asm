@@ -4,41 +4,36 @@ OlsteetonUniOffice_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  0, 14, OLSTEETON_UNI, 5
-	warp_event  0, 15, OLSTEETON_UNI, 6
-	warp_event 21, 14, OLSTEETON_UNI, 7
-	warp_event 21, 15, OLSTEETON_UNI, 8
-	warp_event 10, 17, OLSTEETON_UNI, 9
-	warp_event 11, 17, OLSTEETON_UNI, 9
+	warp_event 21, 13, OLSTEETON_UNI_CLASSROOM_BLDG, 9
 	warp_event 11,  0, OLSTEETON_UNI_DEANS_OFFICE, 1
-	warp_event  3,  4, OLSTEETON_UNI_OFFICE_SPRUCE, 1
-	warp_event 15,  4, OLSTEETON_UNI_OFFICE_POPLAR, 2
-	warp_event 21,  4, OLSTEETON_UNI_OFFICE_PAWPAW, 2
-	warp_event  5, 12, OLSTEETON_UNI_OFFICE_LOUNGE, 1
-	warp_event 17, 12, OLSTEETON_UNI_OFFICE_TA, 2
+	warp_event  3,  2, OLSTEETON_UNI_OFFICE_SPRUCE, 1
+	warp_event 15,  2, OLSTEETON_UNI_OFFICE_POPLAR, 2
+	warp_event 21,  2, OLSTEETON_UNI_OFFICE_PAWPAW, 2
+	warp_event  5, 10, OLSTEETON_UNI_OFFICE_LOUNGE, 1
+	warp_event 17, 10, OLSTEETON_UNI_OFFICE_TA, 2
 
 	def_coord_events
 
 	def_bg_events
 	bg_event 10,  0, BGEVENT_JUMPTEXT, OlsteetonUniOfficeDeansOfficeSignText
-	bg_event  2,  4, BGEVENT_JUMPTEXT, OlsteetonUniOfficeProf1SignText
-	bg_event 14,  4, BGEVENT_JUMPTEXT, OlsteetonUniOfficeProf2SignText
-	bg_event 20,  4, BGEVENT_JUMPTEXT, OlsteetonUniOfficeProf3SignText
-	bg_event 16, 12, BGEVENT_JUMPTEXT, OlsteetonUniOfficeProf4SignText
-	bg_event  4, 12, BGEVENT_JUMPTEXT, OlsteetonUniOfficeStudentLoungeSignText
-	bg_event  6,  5, BGEVENT_JUMPTEXT, OlsteetonUniOfficeTrophyCaseSignText
-	bg_event 20, 13, BGEVENT_JUMPTEXT, OlsteetonUniOfficeBookshelfText
-	bg_event 21, 13, BGEVENT_JUMPTEXT, OlsteetonUniOfficeBookshelfText
+	bg_event  2,  2, BGEVENT_JUMPTEXT, OlsteetonUniOfficeProf1SignText
+	bg_event 14,  2, BGEVENT_JUMPTEXT, OlsteetonUniOfficeProf2SignText
+	bg_event 20,  2, BGEVENT_JUMPTEXT, OlsteetonUniOfficeProf3SignText
+	bg_event 16, 10, BGEVENT_JUMPTEXT, OlsteetonUniOfficeProf4SignText
+	bg_event  4, 10, BGEVENT_JUMPTEXT, OlsteetonUniOfficeStudentLoungeSignText
+	bg_event  6,  3, BGEVENT_JUMPTEXT, OlsteetonUniOfficeTrophyCaseSignText
+	bg_event 20, 11, BGEVENT_JUMPTEXT, OlsteetonUniOfficeBookshelfText
+	bg_event 21, 11, BGEVENT_JUMPTEXT, OlsteetonUniOfficeBookshelfText
 
 	def_object_events
-	object_event  0,  5, SPRITE_POKEMANIAC, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniOfficeSuperNerdText, -1
+	object_event  0,  3, SPRITE_POKEMANIAC, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniOfficeSuperNerdText, -1
 	object_event 12,  3, SPRITE_PICNICKER, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniOfficeLassText, -1
 	object_event  9,  1, SPRITE_ACE_TRAINER_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniOfficeCooltrainermText, -1
-	object_event 10,  5, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 1, 1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniOfficeYoungsterText, -1
-	object_event  6, 14, SPRITE_CHILD, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, (1 << MORN) | (1 << DAY), PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniOfficeChildText, -1
-	object_event 16, 15, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 3, (1 << EVE) | (1 << NITE), PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniOfficePokefanmText, -1
-	object_event 10, 12, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniOfficeReceptionistText, -1
-	object_event 19, 13, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniOfficeCooltrainerfText, -1
+	object_event 10,  6, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 1, 1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniOfficeYoungsterText, -1
+	object_event  3, 13, SPRITE_CHILD, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, (1 << MORN) | (1 << DAY), PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniOfficeChildText, -1
+	object_event 16, 13, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 3, (1 << EVE) | (1 << NITE), PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniOfficePokefanmText, -1
+	object_event 10, 10, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniOfficeReceptionistText, -1
+	object_event 19, 11, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniOfficeCooltrainerfText, -1
 
 OlsteetonUniOfficeSuperNerdText:
 	text "Some academics be-"

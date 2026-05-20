@@ -12,6 +12,9 @@ OlsteetonUniClassroomBldg_MapScriptHeader:
 	warp_event  3,  8, OLSTEETON_UNI_CLASSROOM_STRATEGY, 1
 	warp_event  7,  8, OLSTEETON_UNI_CLASSROOM_HISTORY, 1
 	warp_event 19,  8, OLSTEETON_UNI_CLASSROOM_THEORY, 1
+	warp_event 25, 11, OLSTEETON_UNI_OFFICE, 1
+
+
 
 	def_coord_events
 
