@@ -123,5 +123,6 @@ FinalText_SinglePhrases:
 	dw ImakuniFinalPkmnText
 	dw LawrenceFinalPkmnText
 	dw ReiFinalPkmnText
+	dw NULL ; Firebreather ashes
 	; all trainers between LEAF and PROF_POPLAR are omitted
 	assert_table_length NUM_TRAINER_CLASSES - (PROF_POPLAR - LEAF - 1)

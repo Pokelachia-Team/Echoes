@@ -4515,6 +4515,12 @@ FirebreatherGroup:
 	tr_mon 62, MAGMORTAR
 	end_trainer
 
+	def_trainer CYD, "Cyd"
+	tr_mon 53, FLIKLIT
+	tr_mon 55, SIZZOO
+	tr_mon 57, PYROBOROS
+	end_trainer
+
 
 SECTION "JugglerGroup", ROMX
 JugglerGroup:
