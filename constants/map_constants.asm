@@ -98,13 +98,13 @@ ENDM
 	map_const RIVERFRONT_APT_4F_ROOM_3,                    4,  4 ;  37
 
 	newgroup                                                     ; 32
-	map_const OLSTEETON_UNI,	                          21, 14 ;  1
+	map_const OLSTEETON_UNI,	                          20, 14 ;  1
 	map_const OLSTEETON_UNI_LIBRARY_1F,   	               7,  6 ;  2
 	map_const OLSTEETON_UNI_LIBRARY_2F,   	               9,  7 ;  3
 	map_const OLSTEETON_UNI_SCIENCE_CENTER,   	           6,  5 ;  4
 	map_const OLSTEETON_UNI_NURSE_DEPT,   	               6,  5 ;  5
 	map_const OLSTEETON_UNI_WATER_LAB,   	               8,  5 ;  6
-	map_const OLSTEETON_UNI_OFFICE, 			          11,  9 ;  7
+	map_const OLSTEETON_UNI_OFFICE, 			          11,  7 ;  7
 	map_const OLSTEETON_UNI_DEANS_OFFICE, 			       4,  4 ;  8
 	map_const OLSTEETON_UNI_OFFICE_SPRUCE, 			       3,  3 ;  9
 	map_const OLSTEETON_UNI_OFFICE_POPLAR, 			       3,  3 ;  10
@@ -142,5 +142,8 @@ ENDM
 
 	newgroup                                                     ; 32
 	map_const BRINESBURG,	                              31, 18 ;  1
+	map_const ROUTE_103,	                              30, 19 ;  2
+	map_const ROUTE_103_BRINESBURG_GATE,                   5,  4 ;  3
+
 
 DEF NUM_MAP_GROUPS EQU const_value ; 37

@@ -13,6 +13,7 @@ Landmarks:
 	landmark  60,  68, OlsteetonName
 	landmark  60,  76, NationalForest1Name
 	landmark  68,  68, OlsteetonUniName
+	landmark  52,  68, Route103Name
 	landmark  70,  75, BrinesburgName
 	landmark  28,  52, BattleTowerName	
 	assert_table_length KANTO_LANDMARK
@@ -24,6 +25,7 @@ Route102Name:          rawchar "Route 102@"
 OlsteetonName: 		   rawchar "Olsteeton@"
 NationalForest1Name:   rawchar "Jolly Sods@"
 OlsteetonUniName: 	   rawchar "Bouffalant¯Academy@"
+Route103Name:          rawchar "Route 103@"
 BrinesburgName: 	   rawchar "Brinesburg@"
 BattleTowerName:       rawchar "Battle¯Tower@"
 SpecialMapName:        rawchar "?@"

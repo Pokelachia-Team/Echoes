@@ -179,6 +179,9 @@ INCLUDE "maps/OlsteetonUniGymDept.asm"
 SECTION "Brinesburg", ROMX
 
 INCLUDE "maps/Brinesburg.asm"
+INCLUDE "maps/Route103.asm"
+INCLUDE "maps/Route103BrinesburgGate.asm"
+
 
 
 ENDSECTION

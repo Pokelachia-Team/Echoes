@@ -14,6 +14,12 @@ ENDM
 	map_attributes Route101, ROUTE_101, $5, SOUTH
 	connection south, Hollowport, HOLLOWPORT, -2
 
+	map_attributes OlsteetonUni, OLSTEETON_UNI, $35, SOUTH
+	connection south, Route103, ROUTE_103, -1
+
+	map_attributes Route103, ROUTE_103, $5, NORTH
+	connection north, OlsteetonUni, OLSTEETON_UNI, 1
+
 	map_attributes FieldLab, FIELD_LAB, $0, 0
 	map_attributes FieldLab2F, FIELD_LAB_2F, $0, 0
 	map_attributes EchoingCave, ECHOING_CAVE, $0, 0
@@ -63,7 +69,6 @@ ENDM
 	map_attributes OlsteetonRoute103Gate, OLSTEETON_ROUTE_103_GATE, $0, 0
 	map_attributes OlsteetonAbandonedMill, OLSTEETON_ABANDONED_MILL, $0, 0
 	map_attributes OlsteetonAbandonedMillOutside, OLSTEETON_ABANDONED_MILL_OUTSIDE, $0F, 0
-	map_attributes OlsteetonUni, OLSTEETON_UNI, $35, 0
 	map_attributes OlsteetonUniLibrary1F, OLSTEETON_UNI_LIBRARY_1F, $0, 0
 	map_attributes OlsteetonUniLibrary2F, OLSTEETON_UNI_LIBRARY_2F, $0, 0
 	map_attributes OlsteetonUniScienceCenter, OLSTEETON_UNI_SCIENCE_CENTER, $0, 0
@@ -105,6 +110,8 @@ ENDM
 	map_attributes OlsteetonUniDormEastElevator, OLSTEETON_UNI_DORM_EAST_ELEVATOR, $0, 0
 	map_attributes OlsteetonUniGymDept, OLSTEETON_UNI_GYM_DEPT, $0, 0
 	map_attributes Brinesburg, BRINESBURG, $5, 0
+	map_attributes Route103BrinesburgGate, ROUTE_103_BRINESBURG_GATE, $0, 0
+
 
 	
 

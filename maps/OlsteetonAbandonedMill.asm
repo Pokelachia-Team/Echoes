@@ -12,10 +12,9 @@ OlsteetonAbandonedMill_MapScriptHeader:
 	def_bg_events
 
 	def_object_events
-	itemball_event 13, 10, ETHER, 1, EVENT_GOLDENROD_DEPT_STORE_B1F_ETHER
-	itemball_event  0, 12, METAL_COAT, 1, EVENT_GOLDENROD_DEPT_STORE_B1F_METAL_COAT
-	itemball_event 13,  4, BURN_HEAL, 1, EVENT_GOLDENROD_DEPT_STORE_B1F_BURN_HEAL
-	itemball_event  2,  7, ULTRA_BALL, 1, EVENT_GOLDENROD_DEPT_STORE_B1F_ULTRA_BALL
+	itemball_event  0, 12, METAL_COAT, 1, EVENT_OLSTEETON_ABANDONED_MILL_METAL_COAT
+	itemball_event 13,  4, BURN_HEAL, 1, EVENT_OLSTEETON_ABANDONED_MILL_BURN_HEAL
+	itemball_event  2,  7, ULTRA_BALL, 1, EVENT_OLSTEETON_ABANDONED_MILL_ULTRA_BALL
 	object_event  3, 12, SPRITE_BLACK_BELT, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonAbandonedMillBlackBelt1Text, -1
 	object_event 11,  5, SPRITE_ENGINEER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonAbandonedMillBlackBelt2Text, -1
 	object_event 15, 12, SPRITE_FIREBREATHER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonAbandonedMillBlackBelt3Text, -1

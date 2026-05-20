@@ -50,7 +50,7 @@ HandleObjectAction_Stationary:
 	ld hl, OBJECT_FLAGS1
 	add hl, bc
 	bit INVISIBLE_F, [hl]
-	jmp nz, SetFacingStanding
+	jr nz, SetFacingStanding
 HandleObjectAction: ; use second column
 	ld de, ObjectActionPairPointers + 2
 	; fallthrough
