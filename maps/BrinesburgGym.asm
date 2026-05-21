@@ -2,7 +2,7 @@ BrinesburgGym_MapScriptHeader:
 	def_scene_scripts
 	scene_const SCENE_BRINESBURGGYM_NOOP
 	; scene_script BrinesburgGymNoopScene, SCENE_BRINESBURGGYM_NOOP
-	scene_const SCENE_BRINESBURGGYM_SAL_RETURNS
+	; scene_const SCENE_BRINESBURGGYM_SAL_RETURNS
 
 	def_callbacks
 
@@ -18,25 +18,25 @@ BrinesburgGym_MapScriptHeader:
 
 	def_object_events
 	; object_event  4, 15, SPRITE_GYM_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_DARK_CAVE_SAL
-	object_event  9,  1, SPRITE_SAL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, BrinesburgGymSalScript, EVENT_BRINESBURG_GYM_SAL
-	object_event  1,  4, SPRITE_WAITRESS, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerWaitress_Twila, EVENT_BRINESBURG_GYM_SAL
-	object_event 15,  6, SPRITE_WAITRESS, SPRITEMOVEDATA_STANDING_UP, 0, 2, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerWaitress_Bev, EVENT_BRINESBURG_GYM_SAL
-	object_event  7,  8, SPRITE_GYM_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, BrinesburgGymGuyScript, EVENT_BRINESBURG_GYM_SAL
-	object_event  4,  3, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, BrinesburgGymTeacherText, -1
-	object_event 16,  5, SPRITE_FAT_GUY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, BrinesburgGymFisher1Text, -1
-	object_event 13,  4, SPRITE_FAT_GUY, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, BrinesburgGymFisher2Text, -1
-	object_event 13,  3, SPRITE_FAT_GUY, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, BrinesburgGymFisher3Text, -1
-	object_event 13,  2, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, BrinesburgGymYoungsterText, -1
-	object_event 16,  3, SPRITE_LASS, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, BrinesburgGymLassText, -1
+	object_event  9,  1, SPRITE_SAL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, BrinesburgGymSalScript, -1
+	object_event  1,  4, SPRITE_WAITRESS, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerWaitress_Twila, -1
+	object_event 15,  6, SPRITE_WAITRESS, SPRITEMOVEDATA_STANDING_UP, 0, 2, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerWaitress_Bev, -1
+	object_event  7,  8, SPRITE_GYM_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, BrinesburgGymGuyScript, -1
+	object_event  4,  3, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgGymTeacherText, -1
+	object_event 16,  5, SPRITE_FAT_GUY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgGymFisher1Text, -1
+	object_event 13,  4, SPRITE_FAT_GUY, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgGymFisher2Text, -1
+	object_event 13,  3, SPRITE_FAT_GUY, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgGymFisher3Text, -1
+	object_event 13,  2, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgGymYoungsterText, -1
+	object_event 16,  3, SPRITE_LASS, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgGymLassText, -1
 	object_event 16,  4, SPRITE_AROMA_LADY, SPRITEMOVEDATA_STANDING_LEFT, 0, 1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgGymPickyText, -1
 	object_event  1,  6, SPRITE_POKEMANIAC, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgGymCustomerText, -1
 	object_event  2,  2, SPRITE_BAKER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgGymCookText, -1
-	object_event  0,  9, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, BrinesburgGymDateMText, -1
-	object_event  3,  9, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, BrinesburgGymDateFText, -1
+	object_event  0,  9, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgGymDateMText, -1
+	object_event  3,  9, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgGymDateFText, -1
 	object_event 19,  5, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptext, BrinesburgBoothSchoolBoyText, -1
 	object_event 18,  7, SPRITE_RICH_BOY, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptext, BrinesburgBoothRichBoyText, -1
-	object_event 18,  5, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptext, BrinesburgBoothCuteGirlText, -1
-	object_event 19,  7, SPRITE_SCHOOLGIRL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptext, BrinesburgBoothSchoolGirlText, -1
+	object_event 18,  5, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgBoothCuteGirlText, -1
+	object_event 18,  9, SPRITE_SCHOOLGIRL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptext, BrinesburgBoothSchoolGirlText, -1
 
 
 
@@ -248,7 +248,6 @@ Waitress_BevBeatenText:
 	line "got room to talk!"
 	done
 
-
 BrinesburgGymGuyWinText: ;unchanged dialogue
 	text "Nice battle! Keep"
 	line "it up, and you'll"
@@ -269,7 +268,8 @@ BrinesburgGymCookText:
 BrinesburgGymFisher1Text:
 	text "Should I get"
 	line "the Glowing"
-	line "Finneon Filet or"
+
+	para "Finneon Filet or"
 	line "Stampedin' Tauros"
 	cont "Steak?"
 	done
@@ -312,7 +312,8 @@ BrinesburgGymDateMText:
 BrinesburgGymDateFText:
 	text "I can't believe"
 	line "he brought me here"
-	line "but he's not even"
+
+	para "but he's not even"
 	line "gonna battle Sal."
 
 	para "What a poser..."

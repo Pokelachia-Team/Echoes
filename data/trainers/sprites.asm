@@ -5,7 +5,7 @@ BTTrainerClassSprites:
 	db SPRITE_KRIS          ; CARRIE
 	db SPRITE_CRYS          ; JACKY
 	db SPRITE_BETA          ; EUNA
-	db SPRITE_SAL       ; SAL
+	db SPRITE_SAL           ; SAL
 	db SPRITE_BUGSY         ; BUGSY
 	db SPRITE_WHITNEY       ; WHITNEY
 	db SPRITE_MORTY         ; MORTY
