@@ -161,9 +161,9 @@ SECTION "OlsteetonDiner_BlockData", ROMX
 OlsteetonDiner_BlockData:
 	INCBIN "maps/OlsteetonDiner.ablk.lzp"
 
-SECTION "OlsteetonArcade_BlockData", ROMX
-OlsteetonArcade_BlockData:
-	INCBIN "maps/OlsteetonArcade.ablk.lzp"
+; SECTION "OlsteetonArcade_BlockData", ROMX
+; OlsteetonArcade_BlockData:
+; 	INCBIN "maps/OlsteetonArcade.ablk.lzp"
 
 SECTION "OlsteetonTrainStation_BlockData", ROMX
 OlsteetonTrainStation_BlockData:
@@ -290,9 +290,9 @@ OlsteetonUniDormWestElevator_BlockData:
 OlsteetonUniDormEastElevator_BlockData:
 	INCBIN "maps/OlsteetonUniDormWestElevator.ablk.lzp"
 
-SECTION "OlsteetonUniGymDept_BlockData", ROMX
-OlsteetonUniGymDept_BlockData:
-	INCBIN "maps/OlsteetonUniGymDept.ablk.lzp"
+; SECTION "OlsteetonUniGymDept_BlockData", ROMX
+; OlsteetonUniGymDept_BlockData:
+; 	INCBIN "maps/OlsteetonUniGymDept.ablk.lzp"
 
 SECTION "RiverfrontApt_BlockData", ROMX
 RiverfrontApt2FRoom1_BlockData:

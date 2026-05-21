@@ -57,7 +57,6 @@ ENDM
 	map_attributes RiverfrontAptRoof, RIVERFRONT_APT_ROOF, $68, 0
 	map_attributes RiverfrontAptElevator, RIVERFRONT_APT_ELEVATOR, $0, 0
 	map_attributes OlsteetonDiner, OLSTEETON_DINER, $0, 0	
-	map_attributes OlsteetonArcade, OLSTEETON_ARCADE, $0, 0
 	map_attributes OlsteetonTrainStation, OLSTEETON_TRAIN_STATION, $0, 0
 	map_attributes OlsteetonNameRater, OLSTEETON_NAME_RATER, $0, 0
 	map_attributes OlsteetonFisherHouse, OLSTEETON_FISHER_HOUSE, $0, 0
@@ -65,10 +64,10 @@ ENDM
 	map_attributes OlsteetonGymHouse, OLSTEETON_GYM_HOUSE, $0, 0
 	map_attributes OlsteetonForestGate, OLSTEETON_FOREST_GATE, $0, 0
 	map_attributes NationalForest1, NATIONAL_FOREST_1, $53, 0
-	map_attributes OlsteetonUniGate, OLSTEETON_UNI_GATE, $0, 0
 	map_attributes OlsteetonRoute103Gate, OLSTEETON_ROUTE_103_GATE, $0, 0
 	map_attributes OlsteetonAbandonedMill, OLSTEETON_ABANDONED_MILL, $0, 0
 	map_attributes OlsteetonAbandonedMillOutside, OLSTEETON_ABANDONED_MILL_OUTSIDE, $0F, 0
+	map_attributes OlsteetonUniGate, OLSTEETON_UNI_GATE, $0, 0
 	map_attributes OlsteetonUniLibrary1F, OLSTEETON_UNI_LIBRARY_1F, $0, 0
 	map_attributes OlsteetonUniLibrary2F, OLSTEETON_UNI_LIBRARY_2F, $0, 0
 	map_attributes OlsteetonUniScienceCenter, OLSTEETON_UNI_SCIENCE_CENTER, $0, 0
@@ -108,9 +107,8 @@ ENDM
 	map_attributes OlsteetonUniDormEast3FRoom2, OLSTEETON_UNI_DORM_EAST_3F_ROOM_2, $0, 0
 	map_attributes OlsteetonUniDormEast3FRoom3, OLSTEETON_UNI_DORM_EAST_3F_ROOM_3, $0, 0
 	map_attributes OlsteetonUniDormEastElevator, OLSTEETON_UNI_DORM_EAST_ELEVATOR, $0, 0
-	map_attributes OlsteetonUniGymDept, OLSTEETON_UNI_GYM_DEPT, $0, 0
-	map_attributes Brinesburg, BRINESBURG, $5, 0
 	map_attributes Route103BrinesburgGate, ROUTE_103_BRINESBURG_GATE, $0, 0
+	map_attributes Brinesburg, BRINESBURG, $5, 0
 	map_attributes BrinesburgPokeCenter, BRINESBURG_POKECENTER, $0, 0
 	map_attributes BrinesburgMart, BRINESBURG_MART, $0, 0	
 	map_attributes BrinesburgGym, BRINESBURG_GYM, $0, 0

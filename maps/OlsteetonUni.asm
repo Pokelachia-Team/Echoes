@@ -11,10 +11,10 @@ OlsteetonUni_MapScriptHeader:
 	warp_event 19,  9, OLSTEETON_UNI_SCIENCE_CENTER, 1
 	warp_event 25,  9, OLSTEETON_UNI_CLOCK_TOWER_1F, 1
 	warp_event 10, 19, OLSTEETON_UNI_CLASSROOM_BLDG, 1
-	warp_event 25, 17, OLSTEETON_UNI_DORM_WEST_1F, 1
-	warp_event 29, 15, OLSTEETON_UNI_DINING_HALL, 1
-	warp_event 30, 15, OLSTEETON_UNI_DINING_HALL, 1
-	warp_event 33, 17, OLSTEETON_UNI_DORM_EAST_1F, 2
+	warp_event 23, 17, OLSTEETON_UNI_DORM_WEST_1F, 1
+	warp_event 27, 15, OLSTEETON_UNI_DINING_HALL, 1
+	warp_event 28, 15, OLSTEETON_UNI_DINING_HALL, 1
+	warp_event 31, 17, OLSTEETON_UNI_DORM_EAST_1F, 2
 
 	def_coord_events
 
@@ -25,9 +25,9 @@ OlsteetonUni_MapScriptHeader:
 	bg_event 20, 10, BGEVENT_JUMPTEXT, ScienceSignText
 	bg_event 24, 10, BGEVENT_JUMPTEXT, ClockSignText
 	bg_event 12, 20, BGEVENT_JUMPTEXT, ClassroomSignText
-	bg_event 26, 18, BGEVENT_JUMPTEXT, DormWestSignText
-	bg_event 34, 18, BGEVENT_JUMPTEXT, DormEastSignText
-	bg_event 20, 21, BGEVENT_JUMPTEXT, LeavingSignText
+	bg_event 24, 18, BGEVENT_JUMPTEXT, DormWestSignText
+	bg_event 32, 18, BGEVENT_JUMPTEXT, DormEastSignText
+	bg_event 17, 21, BGEVENT_JUMPTEXT, LeavingSignText
 	bg_event 29, 21, BGEVENT_ITEM + FULL_HEAL, EVENT_AZALEA_TOWN_HIDDEN_FULL_HEAL
 
 	def_object_events

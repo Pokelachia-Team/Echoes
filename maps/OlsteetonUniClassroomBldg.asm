@@ -4,8 +4,8 @@ OlsteetonUniClassroomBldg_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event 12, 13, OLSTEETON_UNI, 11
-	warp_event 13, 13, OLSTEETON_UNI, 11
+	warp_event 12, 13, OLSTEETON_UNI, 6
+	warp_event 13, 13, OLSTEETON_UNI, 6
 	warp_event  9,  0, OLSTEETON_UNI_CLASSROOM_BIOLOGY, 1
 	warp_event 17,  0, OLSTEETON_UNI_CLASSROOM_ART, 1
 	warp_event 21,  0, OLSTEETON_UNI_CLASSROOM_BUSINESS, 1

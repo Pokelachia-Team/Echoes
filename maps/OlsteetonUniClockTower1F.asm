@@ -4,8 +4,8 @@ OlsteetonUniClockTower1F_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  4,  7, OLSTEETON_UNI, 10
-	warp_event  5,  7, OLSTEETON_UNI, 10
+	warp_event  4,  7, OLSTEETON_UNI, 5
+	warp_event  5,  7, OLSTEETON_UNI, 5
 	warp_event  6,  0, OLSTEETON_UNI_CLOCK_TOWER_2F, 1
 
 	def_coord_events
