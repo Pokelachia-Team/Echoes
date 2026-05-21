@@ -145,5 +145,7 @@ ENDM
 	map_const BRINESBURG_POKECENTER,                       6,  4 ;  4
 	map_const BRINESBURG_MART,                             6,  4 ;  5
 	map_const BRINESBURG_GYM,                       	  10,  5 ;  6
+	map_const SALT_BRINE_CAVE,                       10,  9 ;  7
+
 
 DEF NUM_MAP_GROUPS EQU const_value ; 37

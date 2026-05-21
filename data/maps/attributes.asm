@@ -112,10 +112,9 @@ ENDM
 	map_attributes BrinesburgPokeCenter, BRINESBURG_POKECENTER, $0, 0
 	map_attributes BrinesburgMart, BRINESBURG_MART, $0, 0	
 	map_attributes BrinesburgGym, BRINESBURG_GYM, $0, 0
+	map_attributes SaltBrineCave, SALT_BRINE_CAVE, $0, 0
 
 
-
-	
 
 	;necessary maps
 	map_attributes HallOfFame, HALL_OF_FAME, $0, 0
