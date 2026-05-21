@@ -13,15 +13,15 @@ OlsteetonUniDormEast3F_MapScriptHeader:
 	def_coord_events
 
 	def_bg_events
-	bg_event 11,  1, BGEVENT_JUMPTEXT, OlsteetonUniDormEast3FBookshelf1Text
-	bg_event 10,  1, BGEVENT_READ, OlsteetonUniDormEast3FBookshelf2Text
-	bg_event  0,  9, BGEVENT_RIGHT, OlsteetonUniDormEast3FComputer
+	bg_event 12,  1, BGEVENT_JUMPTEXT, OlsteetonUniDormEast3FBookshelf1Text
+	bg_event 16,  1, BGEVENT_READ, OlsteetonUniDormEast3FBookshelf2Text
+	bg_event  7,  0, BGEVENT_RIGHT, OlsteetonUniDormEast3FComputer
 
 	def_object_events
 	object_event  4,  1, SPRITE_RICH_BOY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniDormEast3FRichBoyText, -1
-	object_event  1,  4, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniDormEast3FCooltrainerfText, -1
-	object_event  5,  7, SPRITE_BUG_MANIAC, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniDormEast3FSuper_nerd1Text, -1
-	object_event  2,  6, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniDormEast3FSuper_nerd2Text, -1
+	object_event  5,  1, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniDormEast3FCooltrainerfText, -1
+	object_event 11,  3, SPRITE_BUG_MANIAC, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniDormEast3FSuper_nerd1Text, -1
+	object_event 14,  2, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniDormEast3FSuper_nerd2Text, -1
 
 	object_const_def
 

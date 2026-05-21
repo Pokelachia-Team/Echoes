@@ -4,7 +4,7 @@ OlsteetonUniDiningHall_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  8,  0, OLSTEETON_UNI, 14
+	warp_event  8,  0, OLSTEETON_UNI, 9
 	warp_event  0,  4, OLSTEETON_UNI_DORM_WEST_1F, 3
 	warp_event  0,  5, OLSTEETON_UNI_DORM_WEST_1F, 4
 	warp_event 15,  4, OLSTEETON_UNI_DORM_EAST_1F, 3

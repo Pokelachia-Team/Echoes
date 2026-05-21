@@ -18,7 +18,6 @@ Route103BrinesburgGate_MapScriptHeader:
 	object_event  5,  2, SPRITE_OFFICER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route103GateBrinesburgOfficerText, -1
 
 Route103GateBrinesburgOfficerText: ;needs dialogue
-	text "I sure would"
-	line "love some"
-	cont "dialogue."
+	text "I'm soooo"
+	line "bored..."
 	done

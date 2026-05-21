@@ -244,9 +244,9 @@
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; f3
 	tilecoll WATER, WATER, WATER, WATER ; f4
 	tilecoll WATER, WATER, WATER, WATER ; f5
-	tilecoll FLOOR, FLOOR, WALL, FLOOR ; f6
+	tilecoll FLOOR, WALL, WALL, WALL ; f6
 	tilecoll WATER, WATER, WATER, WATER ; f7
-	tilecoll WALL, FLOOR, FLOOR, FLOOR ; f8
+	tilecoll WALL, FLOOR, WALL, WALL ; f8
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; f9
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; fa
 	tilecoll WATER, WATER, WATER, WATER ; fb

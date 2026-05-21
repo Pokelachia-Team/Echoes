@@ -242,7 +242,8 @@ OlsteetonLassText_PCC:
 	done
 
 OlsteetonLassText:
-	text "#mon are offer-"
+	text "In another town,"
+	line "#mon are offer-"
 	line "ed as prizes at"
 	cont "the Arcade..."
 
