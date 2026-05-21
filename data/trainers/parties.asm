@@ -3313,7 +3313,7 @@ HikerGroup:
 	def_trainer RUSSELL, "Russell"
 	tr_mon 6, ROGGENROLA
 	tr_mon 8, ROGGENROLA
-	tr_mon 10, ROGGENROLA
+	tr_mon 10, NACLI
 	end_trainer
 
 	def_trainer PHILLIP, "Phillip"
@@ -3385,7 +3385,9 @@ HikerGroup:
 	end_trainer
 
 	def_trainer DANIEL, "Daniel"
-	tr_mon 12, ONIX
+	tr_mon 10, TIMBURR
+	tr_mon 11, NACLI
+
 	end_trainer
 
 	def_trainer EDWIN, "Edwin"

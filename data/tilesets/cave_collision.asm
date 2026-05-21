@@ -177,7 +177,7 @@
 	tilecoll WALL, WALL, WATER, WATER ; b0
 	tilecoll WALL, WALL, WATER, WATER ; b1
 	tilecoll WALL, WALL, WATER, WATER ; b2
-	tilecoll WALL, WALL, WATER, WATER ; b3
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; b3
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; b4
 	tilecoll FLOOR, FLOOR, WALL, WALL ; b5
 	tilecoll FLOOR, WALL, WALL, WALL ; b6

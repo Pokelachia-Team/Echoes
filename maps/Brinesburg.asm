@@ -9,7 +9,7 @@ Brinesburg_MapScriptHeader:
 	warp_event 53, 11, BRINESBURG_POKECENTER, 1
 	warp_event 47, 19, BRINESBURG_MART, 1
 	warp_event 34, 19, BRINESBURG_GYM, 2
-	; warp_event 57,  3, SALT_BRINE_CAVE, 1
+	warp_event 57,  3, SALT_BRINE_CAVE, 1
 	; warp_event  5,  5, BRINESBURG_POLLUTION_SPEECH_HOUSE, 1
 	; warp_event 17,  1, BRINESBURG_INSERT_SPEECH_HOUSE, 1
 	; warp_event 25,  3, BRINESBURG_SOMETHING_HOUSE, 1

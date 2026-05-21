@@ -323,6 +323,10 @@ SECTION "BrinesburgGym_BlockData", ROMX
 BrinesburgGym_BlockData:
 	INCBIN "maps/BrinesburgGym.ablk.lzp"
 
+SECTION "SaltBrineCave_BlockData", ROMX
+SaltBrineCave_BlockData:
+	INCBIN "maps/SaltBrineCave.ablk.lzp"
+
 SECTION "BattleTower1F_BlockData", ROMX
 BattleTower1F_BlockData:
 	INCBIN "maps/BattleTower1F.ablk.lzp"
