@@ -43,7 +43,7 @@ OlsteetonRoute103GateSignText:
 	line "EAST: Route 103"
 	done
 
-BrinesburgGateSignText:
+BrinesburgRoute103GateSignText:
 	text "EAST: Brinesburg"
 	line "WEST: Route 103"
 	done

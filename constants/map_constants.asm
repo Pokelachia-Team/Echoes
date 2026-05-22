@@ -145,7 +145,16 @@ ENDM
 	map_const BRINESBURG_POKECENTER,                       6,  4 ;  4
 	map_const BRINESBURG_MART,                             6,  4 ;  5
 	map_const BRINESBURG_GYM,                       	  10,  5 ;  6
-	map_const SALT_BRINE_CAVE,                       10,  9 ;  7
+	map_const SALT_BRINE_CAVE,                            10,  9 ;  7
+	map_const BRINESBURG_POLLUTION_SPEECH_HOUSE,           4,  4 ;  8
+	map_const BRINESBURG_NICKNAME_SPEECH_HOUSE,            4,  4 ;  9
+	map_const BRINESBURG_PP_SPEECH_HOUSE,                  4,  4 ;  10
+	map_const BRINESBURG_DEBRITE_TRADE_HOUSE,              4,  4 ;  11
+	map_const BRINESBURG_FEUD_LEFT_HOUSE,                  4,  4 ;  12
+	map_const BRINESBURG_FEUD_RIGHT_HOUSE,                 4,  4 ;  13
+	map_const BRINESBURG_TRAIN_STATION,                   10,  9 ;  14
+	map_const BRINESBURG_SALT_SHOP,                        5,  5 ;  15
+	map_const BRINESBURG_MAGIKORP_OFFICE,                  6,  6 ;  16
 
 
 DEF NUM_MAP_GROUPS EQU const_value ; 37

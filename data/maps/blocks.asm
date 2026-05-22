@@ -8,16 +8,22 @@ BrinesburgPokeCenter_BlockData:
 	INCBIN "maps/FolkoraPokeCenter.ablk.lzp"
 
 OlsteetonGymHouse_BlockData:
+BrinesburgPollutionSpeechHouse_BlockData:
+BrinesburgPPSpeechHouse_BlockData:
 	INCBIN "maps/FolkoraHouse1.ablk.lzp"
 
+BrinesburgNicknameSpeechHouse_BlockData:
 OlsteetonFisherHouse_BlockData:
 	INCBIN "maps/FolkoraHouse2.ablk.lzp"
 
 OlsteetonNameRater_BlockData:
+BrinesburgFeudLeftHouse_BlockData:
+BrinesburgFeudRightHouse_BlockData:
 	INCBIN "maps/FolkoraHouse3.ablk.lzp"
 
 OlsteetonQuickHouse_BlockData:
 HollowportNeighbor_BlockData:
+BrinesburgDebriteTradeHouse_BlockData:
 	INCBIN "maps/FolkoraHouse4.ablk.lzp"
 
 Route101House_BlockData:
@@ -37,6 +43,10 @@ OlsteetonUniGate_BlockData:
 OlsteetonRoute103Gate_BlockData:
 Route103BrinesburgGate_BlockData:
 	INCBIN "maps/EastWestGate.ablk.lzp"
+
+BrinesburgTrainStation_BlockData:
+OlsteetonTrainStation_BlockData:
+	INCBIN "maps/TrainStation.ablk.lzp"
 
 SECTION "TradeCenter_BlockData", ROMX
 TradeCenter_BlockData:
@@ -164,10 +174,6 @@ OlsteetonDiner_BlockData:
 ; SECTION "OlsteetonArcade_BlockData", ROMX
 ; OlsteetonArcade_BlockData:
 ; 	INCBIN "maps/OlsteetonArcade.ablk.lzp"
-
-SECTION "OlsteetonTrainStation_BlockData", ROMX
-OlsteetonTrainStation_BlockData:
-	INCBIN "maps/OlsteetonTrainStation.ablk.lzp"
 
 SECTION "OlsteetonAbandonedMillOutside_BlockData", ROMX
 OlsteetonAbandonedMillOutside_BlockData:
@@ -326,6 +332,14 @@ BrinesburgGym_BlockData:
 SECTION "SaltBrineCave_BlockData", ROMX
 SaltBrineCave_BlockData:
 	INCBIN "maps/SaltBrineCave.ablk.lzp"
+
+SECTION "BrinesburgSaltShop_BlockData", ROMX
+BrinesburgSaltShop_BlockData:
+	INCBIN "maps/BrinesburgSaltShop.ablk.lzp"
+
+SECTION "BrinesburgMagikorpOffice_BlockData", ROMX
+BrinesburgMagikorpOffice_BlockData:
+	INCBIN "maps/BrinesburgMagikorpOffice.ablk.lzp"
 
 SECTION "BattleTower1F_BlockData", ROMX
 BattleTower1F_BlockData:
