@@ -192,5 +192,6 @@ INCLUDE "maps/BrinesburgFeudRightHouse.asm"
 INCLUDE "maps/BrinesburgTrainStation.asm"
 INCLUDE "maps/BrinesburgSaltShop.asm"
 INCLUDE "maps/BrinesburgMagikorpOffice.asm"
+INCLUDE "maps/BrinesburgRoute105Gate.asm"
 
 ENDSECTION

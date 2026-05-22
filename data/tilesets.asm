@@ -74,8 +74,7 @@ TilesetJohtoCoastGFX0::
 TilesetJohtoOutlandsGFX0::
 TilesetJohtoAncientGFX0::
 TilesetBattleTowerOutsideGFX0::
-TilesetEcruteakShrineGFX0:: 
-TilesetFolkoraGFX0:: INCBIN "gfx/tilesets/johto_common.2bpp.lzp"
+TilesetEcruteakShrineGFX0:: INCBIN "gfx/tilesets/johto_common.2bpp.lzp"
 
 
 SECTION "Tileset Graphics - johto traditional vram1", ROMX
@@ -926,13 +925,17 @@ TilesetCaveLabMeta:: INCBIN "data/tilesets/cave_lab_metatiles.bin.lzp"
 TilesetCaveLabAttr:: INCBIN "data/tilesets/cave_lab_attributes.bin.lzp"
 TilesetCaveLabColl:: INCBIN "data/tilesets/cave_lab_collision.bin.lzp"
 
+SECTION "Tileset Graphics - folkora common vram0", ROMX
+
+TilesetFolkoraGFX0:: INCBIN "gfx/tilesets/folkora_common.2bpp.lzp"
+
 SECTION "Tileset Graphics - folkora vram1", ROMX
 
-TilesetFolkoraGFX1:: INCBIN "gfx/tilesets/folkora.johto_common.2bpp.vram0.lzp"
+TilesetFolkoraGFX1:: INCBIN "gfx/tilesets/folkora.folkora_common.2bpp.vram0.lzp"
 
 SECTION "Tileset Graphics - folkora vram2", ROMX
 
-TilesetFolkoraGFX2:: INCBIN "gfx/tilesets/folkora.johto_common.2bpp.vram1.lzp"
+TilesetFolkoraGFX2:: INCBIN "gfx/tilesets/folkora.folkora_common.2bpp.vram1.lzp"
 
 SECTION "Tileset Data - folkora", ROMX
 

@@ -12,17 +12,16 @@ Brinesburg_MapScriptHeader:
 	warp_event 57,  3, SALT_BRINE_CAVE, 1
 	warp_event 11, 23, BRINESBURG_POLLUTION_SPEECH_HOUSE, 1
 	warp_event 45, 33, BRINESBURG_NICKNAME_SPEECH_HOUSE, 1
-	warp_event 17,  7, BRINESBURG_PP_SPEECH_HOUSE, 1
-	warp_event 25,  3, BRINESBURG_DEBRITE_TRADE_HOUSE, 1
-	warp_event  7,  1, BRINESBURG_FEUD_LEFT_HOUSE, 1
-	warp_event 17,  1, BRINESBURG_FEUD_RIGHT_HOUSE, 1
-	warp_event  4, 10, BRINESBURG_TRAIN_STATION, 1
-	warp_event  4, 11, BRINESBURG_TRAIN_STATION, 2
+	warp_event 19,  9, BRINESBURG_PP_SPEECH_HOUSE, 1
+	warp_event 27,  3, BRINESBURG_DEBRITE_TRADE_HOUSE, 1
+	warp_event  9,  3, BRINESBURG_FEUD_LEFT_HOUSE, 1
+	warp_event 19,  3, BRINESBURG_FEUD_RIGHT_HOUSE, 1
+	warp_event  6, 12, BRINESBURG_TRAIN_STATION, 1
+	warp_event  6, 13, BRINESBURG_TRAIN_STATION, 2
 	warp_event 45, 13, BRINESBURG_SALT_SHOP, 1
 	warp_event 55, 21, BRINESBURG_MAGIKORP_OFFICE, 1
-
-	; warp_event 55, 30, BRINESBURG_ROUTE_105_GATE, 1
-	; warp_event 55, 31, BRINESBURG_ROUTE_105_GATE, 2
+	warp_event 55, 30, BRINESBURG_ROUTE_105_GATE, 1
+	warp_event 55, 31, BRINESBURG_ROUTE_105_GATE, 2
 
 
 	def_coord_events
@@ -36,11 +35,11 @@ Brinesburg_MapScriptHeader:
 	bg_event  6, 27, BGEVENT_JUMPTEXT, BrinesburgGateSignText
 	bg_event 13, 28, BGEVENT_JUMPTEXT, BrinesburgPotholeText
 	bg_event 33, 30, BGEVENT_JUMPTEXT, BrinesburgPotholeText
-	bg_event 23,  6, BGEVENT_JUMPTEXT, BrinesburgPotholeText
+	bg_event 23,  8, BGEVENT_JUMPTEXT, BrinesburgPotholeText
 	bg_event 51,  8, BGEVENT_JUMPTEXT, BrinesburgPotholeText
 	bg_event 55, 14, BGEVENT_JUMPTEXT, BrinesburgPotholeText
-	bg_event  5,  9, BGEVENT_JUMPTEXT, BrinesburgTrainStationSignText
-	bg_event  3, 13, BGEVENT_JUMPTEXT, BrinesburgAdvancedTipsSignText
+	bg_event  7, 11, BGEVENT_JUMPTEXT, BrinesburgTrainStationSignText
+	bg_event 39, 17, BGEVENT_JUMPTEXT, BrinesburgAdvancedTipsSignText
 	bg_event 55, 29, BGEVENT_JUMPTEXT, BrinesburgRoute105SignText
 	bg_event 22, 33, BGEVENT_JUMPTEXT, BrinesburgGrandOpeningText
 	bg_event 53, 21, BGEVENT_JUMPTEXT, BrinesburgMagikorpText
@@ -49,12 +48,17 @@ Brinesburg_MapScriptHeader:
 	def_object_events
 	object_event 27, 32, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_WANDER, 1, 1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgTeacherText, -1
 	object_event 40, 21, SPRITE_ROCKER, SPRITEMOVEDATA_WANDER, 1, 1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgSuperNerdText, -1
-	object_event 13, 14, SPRITE_SAILOR, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 3, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgSailorText, -1
+	object_event 29, 11, SPRITE_SAILOR, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 3, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgSailorText, -1
 	object_event 31, 26, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 3, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgFisherText, -1
 	object_event 18, 34, SPRITE_COOL_DUDE, SPRITEMOVEDATA_STANDING_UP, 0, 3, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgCoolDudeText, -1
 	object_event 19, 34, SPRITE_POKEMANIAC, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 3, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgPokemaniacText, -1
 	object_event 20, 34, SPRITE_PICNICKER, SPRITEMOVEDATA_STANDING_LEFT, 0, 3, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgPokemaniacText, -1
-	object_event 13, 14, SPRITE_SAILOR, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 3, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgSailorText, -1
+	object_event 16, 14, SPRITE_SAILOR, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 3, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgSailorText, -1
+	object_event 44,  1, SPRITE_ENGINEER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 3, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgConstructionText, -1
+	object_event 47,  1, SPRITE_ENGINEER, SPRITEMOVEDATA_STANDING_DOWN, 0, 3, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgConstructionText, -1
+	pokemon_event 45,  1, TIMBURR, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_BROWN, BrinesburgTimburrText, -1
+	pokemon_event 46,  1, GURDURR, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_BROWN, BrinesburgGurdurrText, -1
+
 
 
 	; cuttree_event  5, 22, EVENT_BRINESBURG_CITY_CUT_TREE
@@ -126,6 +130,20 @@ BrinesburgSignText:
 	line "salt...idk man"
 	done
 
+BrinesburgConstructionText:
+	text "The road north"
+	line "is closed for"
+	cont "construction."
+	done
+
+BrinesburgTimburrText:
+	text "Timburrrr"
+	done
+
+BrinesburgGurdurrText:
+	text "GURRR"
+	done
+
 BrinesburgGymSignText:
 	text "Brinesburg"
 	line "#mon Gym"
@@ -138,7 +156,7 @@ BrinesburgGymSignText:
 SaltShopSignText:
 	text "Von Brackish"
 	line "Artisinal Salts"
-	line "Est. 1955"
+	cont "Est. 1955"
 	done
 
 BrinesburgSaltBrineCaveSignText:
