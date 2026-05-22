@@ -44,6 +44,9 @@ OlsteetonRoute103Gate_BlockData:
 Route103BrinesburgGate_BlockData:
 	INCBIN "maps/EastWestGate.ablk.lzp"
 
+BrinesburgRoute105Gate_BlockData:
+	INCBIN "maps/KantoEastWestGate.ablk.lzp"
+
 BrinesburgTrainStation_BlockData:
 OlsteetonTrainStation_BlockData:
 	INCBIN "maps/TrainStation.ablk.lzp"

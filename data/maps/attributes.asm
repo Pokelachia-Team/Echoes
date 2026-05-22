@@ -122,6 +122,8 @@ ENDM
 	map_attributes BrinesburgTrainStation, BRINESBURG_TRAIN_STATION, $0, 0
 	map_attributes BrinesburgSaltShop, BRINESBURG_SALT_SHOP, $0, 0
 	map_attributes BrinesburgMagikorpOffice, BRINESBURG_MAGIKORP_OFFICE, $0, 0
+	map_attributes BrinesburgRoute105Gate, BRINESBURG_ROUTE_105_GATE, $0, 0
+
 
 	;necessary maps
 	map_attributes HallOfFame, HALL_OF_FAME, $0, 0

@@ -155,6 +155,7 @@ ENDM
 	map_const BRINESBURG_TRAIN_STATION,                   10,  9 ;  14
 	map_const BRINESBURG_SALT_SHOP,                        5,  5 ;  15
 	map_const BRINESBURG_MAGIKORP_OFFICE,                  6,  6 ;  16
+	map_const BRINESBURG_ROUTE_105_GATE,                   5,  4 ;  17
 
 
 DEF NUM_MAP_GROUPS EQU const_value ; 37

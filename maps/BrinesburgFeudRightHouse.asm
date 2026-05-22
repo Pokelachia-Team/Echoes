@@ -20,7 +20,7 @@ BrinesburgFeudRightHouse_MapScriptHeader:
 FeudMomText:
 	text "The neighbors next"
 	line "door to the left"
-	line "are just awful."
+	cont "are just awful."
 	done
 
 FeudSonText:

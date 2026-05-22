@@ -2,28 +2,28 @@
 	def_grass_wildmons ROUTE_101
 	db 10 percent ;encounter rate
 	; morn
-	wildmon 2, MEOWTH
+	wildmon 2, MEOWTH, FOLKORAN_FORM
 	wildmon 2, CRIBNAL
-	wildmon 3, MEOWTH
+	wildmon 3, MEOWTH, FOLKORAN_FORM
 	wildmon 3, CRIBNAL
 	wildmon 4, TIDIPOSS
-	wildmon 5, MEOWTH
-	wildmon 6, MEOWTH
+	wildmon 5, MEOWTH, FOLKORAN_FORM
+	wildmon 6, MEOWTH, FOLKORAN_FORM
 	; day
-	wildmon 2, MEOWTH
+	wildmon 2, MEOWTH, FOLKORAN_FORM
 	wildmon 2, CRIBNAL
-	wildmon 3, MEOWTH
+	wildmon 3, MEOWTH, FOLKORAN_FORM
 	wildmon 3, CRIBNAL
 	wildmon 4, TIDIPOSS
 	wildmon 5, TIDIPOSS
-	wildmon 6, MEOWTH
+	wildmon 6, MEOWTH, FOLKORAN_FORM
 	; nite
 	wildmon 3, HOOTHOOT
 	wildmon 4, TIDIPOSS
 	wildmon 3, MURKROW
 	wildmon 5, TIDIPOSS
 	wildmon 4, MURKROW
-	wildmon 6, MEOWTH
+	wildmon 6, MEOWTH, FOLKORAN_FORM
 	wildmon 10, NOCTOWL
 	end_grass_wildmons
 
@@ -57,20 +57,20 @@
 
 	def_grass_wildmons ROUTE_102
 	db 10 percent ; encounter rate
-	wildmon 2, MEOWTH
+	wildmon 2, MEOWTH, FOLKORAN_FORM
 	wildmon 2, CRIBNAL
-	wildmon 3, MEOWTH
+	wildmon 3, MEOWTH, FOLKORAN_FORM
 	wildmon 3, CRIBNAL
 	wildmon 4, LEDYBA
-	wildmon 5, MEOWTH
+	wildmon 5, MEOWTH, FOLKORAN_FORM
 	wildmon 6, TIDIPOSS
 	; day
-	wildmon 2, MEOWTH
+	wildmon 2, MEOWTH, FOLKORAN_FORM
 	wildmon 2, CRIBNAL
-	wildmon 3, MEOWTH
+	wildmon 3, MEOWTH, FOLKORAN_FORM
 	wildmon 3, CRIBNAL
 	wildmon 4, LEDYBA
-	wildmon 5, MEOWTH
+	wildmon 5, MEOWTH, FOLKORAN_FORM
 	wildmon 6, TIDIPOSS
 	; nite
 	wildmon 3, HOOTHOOT
@@ -133,7 +133,7 @@
 	wildmon 5, TIDIPOSS
 	wildmon 3, MURKROW
 	wildmon 6, TIDIPOSS
-	wildmon 10, NOCTOWL
+	wildmon 10, SCYTHER
 	end_grass_wildmons
 	db -1 ; end
 
@@ -165,3 +165,57 @@ def_grass_wildmons OLSTEETON_ABANDONED_MILL_OUTSIDE
 	end_grass_wildmons
 	db -1 ; end
 
+	def_grass_wildmons ROUTE_103
+	db 10 percent ; encounter rate
+	wildmon 2, GROWLITHE, HISUIAN_FORM
+	wildmon 2, CRIBNAL
+	wildmon 3, GROWLITHE, HISUIAN_FORM
+	wildmon 3, CRIBNAL
+	wildmon 4, JOLTIK
+	wildmon 5, MEOWTH, FOLKORAN_FORM
+	wildmon 6, JOLTIK
+	; day
+	wildmon 3, GROWLITHE, HISUIAN_FORM
+	wildmon 3, CRIBNAL
+	wildmon 4, JOLTIK
+	wildmon 4, CRIBNAL
+	wildmon 5, JOLTIK
+	wildmon 6, GROWLITHE, HISUIAN_FORM
+	wildmon 7, TIDIPOSS
+	; nite
+	wildmon 3, HOOTHOOT
+	wildmon 4, TIDIPOSS
+	wildmon 3, MURKROW
+	wildmon 5, TIDIPOSS
+	wildmon 3, MURKROW
+	wildmon 6, TIDIPOSS
+	wildmon 10, NOCTOWL
+	end_grass_wildmons
+
+	def_grass_wildmons SALT_BRINE_CAVE
+	db 4 percent ; encounter rate
+	; morn
+	wildmon 6, NACLI
+	wildmon 7, NACLI
+	wildmon 6, ZUBAT
+	wildmon 6, ROGGENROLA
+	wildmon 7, ZUBAT
+	wildmon 8, ROGGENROLA
+	wildmon 9, NACLI
+	; day
+	wildmon 6, NACLI
+	wildmon 7, NACLI
+	wildmon 6, ZUBAT
+	wildmon 6, ROGGENROLA
+	wildmon 7, ZUBAT
+	wildmon 8, ROGGENROLA
+	wildmon 9, NACLI
+	; nite
+	wildmon 6, NACLI
+	wildmon 6, ROGGENROLA
+	wildmon 6, WOOPER, PALDEAN_FORM
+	wildmon 6, WOOPER, PALDEAN_FORM
+	wildmon 7, NACLI
+	wildmon 8, ROGGENROLA
+	wildmon 9, NACLI
+	end_grass_wildmons
