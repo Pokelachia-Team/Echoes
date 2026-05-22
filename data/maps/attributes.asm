@@ -113,8 +113,15 @@ ENDM
 	map_attributes BrinesburgMart, BRINESBURG_MART, $0, 0	
 	map_attributes BrinesburgGym, BRINESBURG_GYM, $0, 0
 	map_attributes SaltBrineCave, SALT_BRINE_CAVE, $0, 0
-
-
+	map_attributes BrinesburgPollutionSpeechHouse, BRINESBURG_POLLUTION_SPEECH_HOUSE, $0, 0
+	map_attributes BrinesburgNicknameSpeechHouse, BRINESBURG_NICKNAME_SPEECH_HOUSE, $0, 0
+	map_attributes BrinesburgPPSpeechHouse, BRINESBURG_PP_SPEECH_HOUSE, $0, 0
+	map_attributes BrinesburgDebriteTradeHouse, BRINESBURG_DEBRITE_TRADE_HOUSE, $0, 0
+	map_attributes BrinesburgFeudLeftHouse, BRINESBURG_FEUD_LEFT_HOUSE, $0, 0
+	map_attributes BrinesburgFeudRightHouse, BRINESBURG_FEUD_RIGHT_HOUSE, $0, 0
+	map_attributes BrinesburgTrainStation, BRINESBURG_TRAIN_STATION, $0, 0
+	map_attributes BrinesburgSaltShop, BRINESBURG_SALT_SHOP, $0, 0
+	map_attributes BrinesburgMagikorpOffice, BRINESBURG_MAGIKORP_OFFICE, $0, 0
 
 	;necessary maps
 	map_attributes HallOfFame, HALL_OF_FAME, $0, 0

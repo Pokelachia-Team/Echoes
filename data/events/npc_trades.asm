@@ -8,12 +8,12 @@ NPCTrades:
 	db $EE, $EE, $EE, HIDDEN_ABILITY | NAT_ATK_UP_SATK_DOWN,  LEVEL_BALL,   SITRUS_BERRY
 	dw 37460
 	rawchar "Mike@@@@", $00
-; NPC_TRADE_KYLE in Violet City
+; NPC_TRADE_KYLE in Brinesburg
 	db TRADE_DIALOGSET_COLLECTOR
-	dp POLIWAG, NO_FORM ; wants
-	dp VOLTORB, MALE    ; gives
-	rawchar "Mimic@@@@@@"
-	db $EE, $EE, $EE, HIDDEN_ABILITY | NAT_SPE_UP_DEF_DOWN,   PREMIER_BALL, PERSIM_BERRY
+	dp DEBRITE, NO_FORM ; wants
+	dp KOFFING, MALE    ; gives
+	rawchar "Chimney@@@@"
+	db $EE, $EE, $EE, HIDDEN_ABILITY | NAT_DEF_UP_SPE_DOWN,   PREMIER_BALL,  CHARCOAL
 	dw 48926
 	rawchar "Kyle@@@@", $00
 ; NPC_TRADE_TIM in Olivine City
