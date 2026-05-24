@@ -8,7 +8,7 @@ TrainerClassNames::
 	li "Leader"           ; BUGSY
 	li "Leader"           ; WHITNEY
 	li "Leader"           ; MORTY
-	li "Leader"           ; CHUCK
+	li "Leader"           ; RUSTY
 	li "Leader"           ; JASMINE
 	li "Leader"           ; PRYCE
 	li "Leader"           ; CLAIR

@@ -819,7 +819,7 @@
 	const EVENT_BEAT_WHITNEY
 	const EVENT_BEAT_MORTY
 	const EVENT_BEAT_JASMINE
-	const EVENT_BEAT_CHUCK
+	const EVENT_BEAT_RUSTY
 	const EVENT_BEAT_PRYCE
 	const EVENT_BEAT_CLAIR
 ; Elite Four and Champion

@@ -16,7 +16,7 @@
 	const SPRITE_BUGSY ; 0c
 	const SPRITE_WHITNEY ; 0d
 	const SPRITE_MORTY ; 0e
-	const SPRITE_CHUCK ; 0f
+	const SPRITE_RUSTY ; 0f
 	const SPRITE_JASMINE ; 10
 	const SPRITE_PRYCE ; 11
 	const SPRITE_CLAIR ; 12

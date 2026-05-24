@@ -7,7 +7,7 @@ BadgeBaseLevels:
 	db 12 ; 2 badges (bugsy)
 	db 16 ; 3 badges (whitney)
 	db 20 ; 4 badges (morty)
-	db 24 ; 5 badges (chuck)
+	db 24 ; 5 badges (rusty)
 	db 28 ; 6 badges (jasmine)
 	db 32 ; 7 badges (pryce)
 	db 36 ; 8 badges (clair)

@@ -169,7 +169,7 @@ endr
 	; setevent EVENT_BEAT_BUGSY
 	; setevent EVENT_BEAT_WHITNEY
 	; setevent EVENT_BEAT_MORTY
-	; setevent EVENT_BEAT_CHUCK
+	; setevent EVENT_BEAT_RUSTY
 	; setevent EVENT_BEAT_JASMINE
 	; setevent EVENT_BEAT_PRYCE
 	; setevent EVENT_BEAT_CLAIR

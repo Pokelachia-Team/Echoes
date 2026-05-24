@@ -318,11 +318,11 @@ endc
 	end_trainer
 
 
-SECTION "ChuckGroup", ROMX
-ChuckGroup:
+SECTION "RustyGroup", ROMX
+RustyGroup:
 
-	def_trainer_class CHUCK
-	def_trainer 1, "Chuck"
+	def_trainer_class RUSTY
+	def_trainer 1, "Rusty"
 	tr_mon 30, PRIMEAPE, MALE
 		tr_extra DEFIANT
 		tr_evs 160 Atk
@@ -345,7 +345,7 @@ endc
 		tr_moves ICE_PUNCH, HYPNOSIS, WATERFALL, DYNAMICPUNCH
 	end_trainer
 
-	def_trainer 2, "Chuck"
+	def_trainer 2, "Rusty"
 	tr_mon 71, ANNIHILAPE @ CHOICE_SCARF, MALE
 if DEF(FAITHFUL)
 		tr_extra DEFIANT, ATK_UP_SATK_DOWN

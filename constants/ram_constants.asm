@@ -386,7 +386,7 @@ DEF DAYCARELADY_ACTIVE_F         EQU 7
 	const BUGSY_JOURNAL ; Azalea Pokémon Center
 	const WHITNEY_JOURNAL ; Goldenrod PokéCom Center
 	const MORTY_JOURNAL ; Ecruteak Pokémon Center
-	const CHUCK_JOURNAL ; Cianwood Pokémon Center
+	const RUSTY_JOURNAL ; Cianwood Pokémon Center
 	const JASMINE_JOURNAL ; Olivine Pokémon Center
 	const PRYCE_JOURNAL ; Mahogany Pokémon Center
 	const CLAIR_JOURNAL ; Blackthorn Pokémon Center

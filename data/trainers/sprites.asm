@@ -9,7 +9,7 @@ BTTrainerClassSprites:
 	db SPRITE_BUGSY         ; BUGSY
 	db SPRITE_WHITNEY       ; WHITNEY
 	db SPRITE_MORTY         ; MORTY
-	db SPRITE_CHUCK         ; CHUCK
+	db SPRITE_RUSTY         ; RUSTY
 	db SPRITE_JASMINE       ; JASMINE
 	db SPRITE_PRYCE         ; PRYCE
 	db SPRITE_CLAIR         ; CLAIR

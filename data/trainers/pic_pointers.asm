@@ -9,7 +9,7 @@ TrainerPicPointers::
 	dba BugsyPic
 	dba WhitneyPic
 	dba MortyPic
-	dba ChuckPic
+	dba RustyPic
 	dba JasminePic
 	dba PrycePic
 	dba ClairPic
