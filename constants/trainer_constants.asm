@@ -47,7 +47,7 @@ DEF BETA EQU __trainer_class__
 
 	trainerclass MORTY
 
-	trainerclass CHUCK
+	trainerclass RUSTY
 
 	trainerclass JASMINE
 

@@ -35,7 +35,7 @@ JohtoGymLeaders:
 	db WHITNEY
 	db BUGSY
 	db MORTY
-	db CHUCK
+	db RUSTY
 	db JASMINE
 	db PRYCE
 	db CLAIR

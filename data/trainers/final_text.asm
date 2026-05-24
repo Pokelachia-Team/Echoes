@@ -66,7 +66,7 @@ FinalText_SinglePhrases:
 	dw BugsyFinalPkmnText
 	dw WhitneyFinalPkmnText
 	dw MortyFinalPkmnText
-	dw ChuckFinalPkmnText
+	dw RustyFinalPkmnText
 	dw JasmineFinalPkmnText
 	dw PryceFinalPkmnText
 	dw ClairFinalPkmnText

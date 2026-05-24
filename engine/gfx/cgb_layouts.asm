@@ -961,7 +961,7 @@ _CGB_TrainerCard2:
 	ld a, $5
 	call FillBoxWithByte
 
-	; Chuck
+	; Rusty
 	hlcoord 3, 13, wAttrmap
 	lb bc, 3, 3
 	ld a, $6

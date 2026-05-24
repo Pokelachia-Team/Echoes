@@ -67,6 +67,8 @@ Olsteeton_MapScriptHeader:
 	object_event 24, 16, SPRITE_ROCKER, SPRITEMOVEDATA_STANDING_DOWN, 1, 0, -1, PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonBandRocker2Text, -1
 	object_event 26, 16, SPRITE_ROCKER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 1, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonBandRocker3Text, -1
 	object_event 26, 19, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonBandCooltrainerFText, -1
+	object_event 10, 14, SPRITE_RUSTY, SPRITEMOVEDATA_SPINRANDOM_SLOW, 1, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonRustyText, -1
+
 
 	itemball_event 24,  10, ETHER, 1, EVENT_OLSTEETON_ETHER
 	; cuttree_event 33, 34, EVENT_Olsteeton_CITY_CUT_TREE
@@ -127,6 +129,11 @@ OlsteetonBandRocker3Text:
 	line "dialogue."
 	done
 
+OlsteetonRustyText:
+	text "Gym's not open"
+	line "yet. Come back"
+	cont "later."
+	done
 OlsteetonBandCooltrainerFText:
 	text "Olsteeton Mall"
 	line "has a wide"

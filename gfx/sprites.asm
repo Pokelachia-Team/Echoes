@@ -46,8 +46,8 @@ BugsySpriteGFX:: INCBIN "gfx/sprites/bugsy.2bpp.lzp"
 SECTION "MortySpriteGFX", ROMX
 MortySpriteGFX:: INCBIN "gfx/sprites/morty.2bpp.lzp"
 
-SECTION "ChuckSpriteGFX", ROMX
-ChuckSpriteGFX:: INCBIN "gfx/sprites/chuck.2bpp.lzp"
+SECTION "RustySpriteGFX", ROMX
+RustySpriteGFX:: INCBIN "gfx/sprites/rusty.2bpp.lzp"
 
 SECTION "JasmineSpriteGFX", ROMX
 JasmineSpriteGFX:: INCBIN "gfx/sprites/jasmine.2bpp.lzp"

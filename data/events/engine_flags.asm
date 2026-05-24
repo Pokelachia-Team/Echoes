@@ -205,7 +205,7 @@ EngineFlags:
 	engine_flag wPokemonJournals, BUGSY_JOURNAL
 	engine_flag wPokemonJournals, WHITNEY_JOURNAL
 	engine_flag wPokemonJournals, MORTY_JOURNAL
-	engine_flag wPokemonJournals, CHUCK_JOURNAL
+	engine_flag wPokemonJournals, RUSTY_JOURNAL
 	engine_flag wPokemonJournals, JASMINE_JOURNAL
 	engine_flag wPokemonJournals, PRYCE_JOURNAL
 	engine_flag wPokemonJournals, CLAIR_JOURNAL

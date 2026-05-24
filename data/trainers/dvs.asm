@@ -11,7 +11,7 @@ TrainerClassDVsAndPersonality:
 	db 252, $BB, $BB, $BB, MALE   ; bugsy
 	db 252, $CC, $CC, $CC, FEMALE ; whitney
 	db 252, $CC, $CC, $CC, MALE   ; morty
-	db 252, $DD, $DD, $DD, MALE   ; chuck
+	db 252, $DD, $DD, $DD, MALE   ; rusty
 	db 252, $DD, $DD, $DD, FEMALE ; jasmine
 	db 252, $EE, $EE, $EE, MALE   ; pryce
 	db 252, $EE, $EE, $EE, FEMALE ; clair

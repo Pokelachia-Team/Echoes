@@ -21,7 +21,7 @@ SpriteHeaders:
 	overworld_sprite BugsySpriteGFX, WALKING_SPRITE, PAL_OW_GREEN
 	overworld_sprite WhitneySpriteGFX, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite MortySpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
-	overworld_sprite ChuckSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
+	overworld_sprite RustySpriteGFX, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite JasmineSpriteGFX, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite PryceSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
 	overworld_sprite ClairSpriteGFX, WALKING_SPRITE, PAL_OW_BLUE
