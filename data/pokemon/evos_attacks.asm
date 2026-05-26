@@ -2914,8 +2914,8 @@ endc
 	learnset 56, MIRROR_COAT ; Magic Coat → new move
 	learnset 62, ZAP_CANNON
 
-	evos_attacks Omanyte
-	evo_data EVOLVE_LEVEL, 40, OMASTAR
+	evos_attacks Tirtouga
+	evo_data EVOLVE_LEVEL, 40, CARRACOSTA
 	learnset 1, WRAP ; Constrict → similar move
 	learnset 1, DEFENSE_CURL ; Withdraw → similar move
 	learnset 7, BITE
@@ -2932,7 +2932,7 @@ endc
 	learnset 55, HYDRO_PUMP
 	learnset 61, POWER_GEM ; new move
 
-	evos_attacks Omastar
+	evos_attacks Carracosta
 	learnset 1, WRAP ; Constrict → similar move
 	learnset 1, DEFENSE_CURL ; Withdraw → similar move
 	learnset 1, ICICLE_SPEAR ; Spike Cannon → new move ; evolution move

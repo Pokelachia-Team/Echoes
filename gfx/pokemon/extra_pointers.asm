@@ -137,8 +137,8 @@ AnimationExtraPointers:
 	dw JolteonAnimationExtra
 	dw FlareonAnimationExtra
 	dw PorygonAnimationExtra
-	dw OmanyteAnimationExtra
-	dw OmastarAnimationExtra
+	dw TirtougaAnimationExtra
+	dw CarracostaAnimationExtra
 	dw KabutoAnimationExtra
 	dw KabutopsAnimationExtra
 	dw AerodactylAnimationExtra

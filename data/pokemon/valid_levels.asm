@@ -138,8 +138,8 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  20, 100 ; Jolteon
 	db  20, 100 ; Flareon
 	db   1,  20 ; Porygon
-	db  15,  39 ; Omanyte
-	db  40, 100 ; Omastar
+	db  15,  39 ; Tirtouga
+	db  40, 100 ; Carracosta
 	db  15,  39 ; Kabuto
 	db  40, 100 ; Kabutops
 	db  15, 100 ; Aerodactyl

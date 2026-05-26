@@ -8,8 +8,8 @@ WithdrawUsers:
 	dp SLOWBRO
 	dp SHELLDER
 	dp CLOYSTER
-	dp OMANYTE
-	dp OMASTAR
+	dp TIRTOUGA
+	dp CARRACOSTA
 	db 0
 
 HardenUsers:

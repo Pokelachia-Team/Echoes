@@ -138,8 +138,8 @@ PokedexDataPointerTable:
 	dba JolteonPokedexEntry
 	dba FlareonPokedexEntry
 	dba PorygonPokedexEntry
-	dba OmanytePokedexEntry
-	dba OmastarPokedexEntry
+	dba TirtougaPokedexEntry
+	dba CarracostaPokedexEntry
 	dba KabutoPokedexEntry
 	dba KabutopsPokedexEntry
 	dba AerodactylPokedexEntry
