@@ -141,8 +141,8 @@ MiniIconPointers:
 	mini_icon Jolteon
 	mini_icon Flareon
 	mini_icon Porygon
-	mini_icon Omanyte
-	mini_icon Omastar
+	mini_icon Tirtouga
+	mini_icon Carracosta
 	mini_icon Kabuto
 	mini_icon Kabutops
 	mini_icon Aerodactyl

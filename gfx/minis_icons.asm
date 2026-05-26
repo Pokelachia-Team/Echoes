@@ -692,15 +692,15 @@ PorygonMini::     INCBIN "gfx/minis/porygon.2bpp.lzp"
 PorygonMiniMask:: INCBIN "gfx/minis/porygon_mask.1bpp.lzp"
 PorygonIcon::     INCBIN "gfx/icons/porygon.2bpp.lzp"
 
-SECTION "Omanyte Mini Icon", ROMX
-OmanyteMini::     INCBIN "gfx/minis/omanyte.2bpp.lzp"
-OmanyteMiniMask:: INCBIN "gfx/minis/omanyte_mask.1bpp.lzp"
-OmanyteIcon::     INCBIN "gfx/icons/omanyte.2bpp.lzp"
+SECTION "Tirtouga Mini Icon", ROMX
+TirtougaMini::     INCBIN "gfx/minis/tirtouga.2bpp.lzp"
+TirtougaMiniMask:: INCBIN "gfx/minis/tirtouga_mask.1bpp.lzp"
+TirtougaIcon::     INCBIN "gfx/icons/tirtouga.2bpp.lzp"
 
-SECTION "Omastar Mini Icon", ROMX
-OmastarMini::     INCBIN "gfx/minis/omastar.2bpp.lzp"
-OmastarMiniMask:: INCBIN "gfx/minis/omastar_mask.1bpp.lzp"
-OmastarIcon::     INCBIN "gfx/icons/omastar.2bpp.lzp"
+SECTION "Carracosta Mini Icon", ROMX
+CarracostaMini::     INCBIN "gfx/minis/omastar.2bpp.lzp"
+CarracostaMiniMask:: INCBIN "gfx/minis/omastar_mask.1bpp.lzp"
+CarracostaIcon::     INCBIN "gfx/icons/omastar.2bpp.lzp"
 
 SECTION "Kabuto Mini Icon", ROMX
 KabutoMini::     INCBIN "gfx/minis/kabuto.2bpp.lzp"

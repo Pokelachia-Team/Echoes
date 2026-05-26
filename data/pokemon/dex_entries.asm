@@ -1370,8 +1370,8 @@ PorygonPokedexEntry::
 	next "perform only what"
 	next "is in its program.@"
 
-SECTION "OmanytePokedexEntry", ROMX
-OmanytePokedexEntry::
+SECTION "TirtougaPokedexEntry", ROMX
+TirtougaPokedexEntry::
 	db "Spiral@"
 	db   "In prehistoric"
 	next "times, it swam on"
@@ -1380,8 +1380,8 @@ OmanytePokedexEntry::
 	next "Its fossils are"
 	next "sometimes found.@"
 
-SECTION "OmastarPokedexEntry", ROMX
-OmastarPokedexEntry::
+SECTION "CarracostaPokedexEntry", ROMX
+CarracostaPokedexEntry::
 	db "Spiral@"
 	db   "Its heavy shell"
 	next "allowed it to"

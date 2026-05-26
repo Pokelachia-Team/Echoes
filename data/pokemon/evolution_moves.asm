@@ -137,8 +137,8 @@ EvolutionMoves::
 	db THUNDERSHOCK ; JOLTEON
 	db EMBER        ; FLAREON
 	db NO_MOVE      ; PORYGON
-	db NO_MOVE      ; OMANYTE
-	db ICICLE_SPEAR ; OMASTAR
+	db NO_MOVE      ; TIRTOUGA
+	db ICICLE_SPEAR ; CARRACOSTA
 	db NO_MOVE      ; KABUTO
 	db SLASH        ; KABUTOPS
 	db NO_MOVE      ; AERODACTYL

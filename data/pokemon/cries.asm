@@ -143,8 +143,8 @@ PokemonCries::
 	mon_cry CRY_VENONAT,     $03d,  $100 ; Jolteon
 	mon_cry CRY_VENONAT,     $010,  $0a0 ; Flareon
 	mon_cry CRY_WEEPINBELL,  $0aa,  $17f ; Porygon
-	mon_cry CRY_GROWLITHE,   $0f0,  $081 ; Omanyte
-	mon_cry CRY_GROWLITHE,   $0ff,  $0c0 ; Omastar
+	mon_cry CRY_GROWLITHE,   $0f0,  $081 ; Tirtouga
+	mon_cry CRY_GROWLITHE,   $0ff,  $0c0 ; Carracosta
 	mon_cry CRY_CATERPIE,    $0bb,  $0c0 ; Kabuto
 	mon_cry CRY_SHELLDER,    $0ee,  $081 ; Kabutops
 	mon_cry CRY_VILEPLUME,   $020,  $170 ; Aerodactyl

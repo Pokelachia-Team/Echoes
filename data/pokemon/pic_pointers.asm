@@ -141,8 +141,8 @@ PokemonPicPointers::
 	pics Jolteon
 	pics Flareon
 	pics Porygon
-	pics Omanyte
-	pics Omastar
+	pics Tirtouga
+	pics Carracosta
 	pics Kabuto
 	pics Kabutops
 	pics Aerodactyl

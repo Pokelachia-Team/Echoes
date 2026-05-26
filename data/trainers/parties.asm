@@ -908,8 +908,7 @@ else
 endc
 		tr_evs 252 HP, 196 SDf
 		tr_moves AVALANCHE, ROCK_SLIDE, EARTHQUAKE, OUTRAGE
-	tr_mon 65, OMASTAR, MALE
-		tr_extra SHELL_ARMOR
+	tr_mon 65, CARRACOSTA, MALE
 		tr_evs 252 HP, 196 SAt
 		tr_moves ANCIENTPOWER, SURF, ICE_BEAM, SPIKES
 	tr_mon 68, ONIX, MALE
@@ -935,8 +934,7 @@ endc
 		tr_extra SOLID_ROCK, ATK_UP_SATK_DOWN
 		tr_evs 252 HP, 4 SDf, 252 Atk
 		tr_moves AVALANCHE, ROCK_SLIDE, EARTHQUAKE, MEGAHORN
-	tr_mon 72, OMASTAR @ AIR_BALLOON, MALE
-		tr_extra WEAK_ARMOR, SPE_UP_SATK_DOWN
+	tr_mon 72, CARRACOSTA @ AIR_BALLOON, MALE
 		tr_evs 252 SAt, 4 Def, 252 Spe
 		tr_moves ICE_BEAM, SURF, EARTH_POWER, SHELL_SMASH
 	tr_mon 72, KABUTOPS @ FOCUS_SASH, MALE
@@ -4052,7 +4050,7 @@ SuperNerdGroup:
 	end_trainer
 
 	def_trainer MIGUEL, "Miguel"
-	tr_mon 62, OMASTAR, MALE
+	tr_mon 62, CARRACOSTA, MALE
 	tr_mon 62, KABUTOPS, MALE
 	tr_mon 64, UMBREON, MALE
 		tr_extra SHINY
@@ -4425,7 +4423,7 @@ RuinManiacGroup:
 
 	def_trainer_class RUIN_MANIAC
 	def_trainer JONES, "Jones"
-	tr_mon 8, OMANYTE
+	tr_mon 8, TIRTOUGA
 	tr_mon 8, KABUTO
 	end_trainer
 
@@ -4435,13 +4433,13 @@ RuinManiacGroup:
 	end_trainer
 
 	def_trainer PETRY, "Petry"
-	tr_mon 23, OMANYTE
+	tr_mon 23, TIRTOUGA
 	tr_mon 23, KABUTO
 	tr_mon 25, AERODACTYL
 	end_trainer
 
 	def_trainer GLYN, "Glyn"
-	tr_mon 25, OMASTAR
+	tr_mon 25, CARRACOSTA
 	tr_mon 25, KABUTOPS
 	end_trainer
 
@@ -9149,7 +9147,7 @@ YellowGroup:
 		tr_extra STURDY, ATK_UP_SATK_DOWN
 		tr_evs 240 HP
 		tr_moves ROLLOUT, DEFENSE_CURL, EARTHQUAKE, ROCK_BLAST
-	tr_mon LEVEL_FROM_BADGES + 4, "Omny", OMANYTE @ SITRUS_BERRY, FEMALE
+	tr_mon LEVEL_FROM_BADGES + 4, "Omny", TIRTOUGA @ SITRUS_BERRY, FEMALE
 		tr_extra SHELL_ARMOR, SATK_UP_ATK_DOWN
 		tr_evs 240 HP
 		tr_moves SURF, PROTECT, ANCIENTPOWER, AURORA_BEAM
@@ -9160,8 +9158,7 @@ YellowGroup:
 	end_trainer
 
 	def_trainer 2, "Yellow"
-	tr_mon 72, "Omny", OMASTAR @ FOCUS_SASH, FEMALE
-		tr_extra SHELL_ARMOR, SPE_UP_ATK_DOWN
+	tr_mon 72, "Omny", CARRACOSTA @ FOCUS_SASH, FEMALE
 		tr_evs 252 SAt, 4 Def, 252 Spe
 		tr_moves SCALD, ANCIENTPOWER, SPIKES, ICE_BEAM
 	tr_mon 73, "Ratty", RATICATE @ FLAME_ORB, FEMALE

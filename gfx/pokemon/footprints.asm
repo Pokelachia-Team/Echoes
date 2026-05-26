@@ -66,6 +66,8 @@ MisdreavusFootprint::
 MismagiusFootprint::
 MukFootprint::
 OnixFootprint::
+TirtougaFootprint::
+CarracostaFootprint::
 OverqwilFootprint::
 PinecoFootprint::
 PupitarFootprint::
@@ -185,8 +187,6 @@ VaporeonFootprint:: INCBIN "gfx/footprints/vaporeon.1bpp.lzp"
 JolteonFootprint:: INCBIN "gfx/footprints/jolteon.1bpp.lzp"
 FlareonFootprint:: INCBIN "gfx/footprints/flareon.1bpp.lzp"
 PorygonFootprint:: INCBIN "gfx/footprints/porygon.1bpp.lzp"
-OmanyteFootprint:: INCBIN "gfx/footprints/omanyte.1bpp.lzp"
-OmastarFootprint:: INCBIN "gfx/footprints/omastar.1bpp.lzp"
 KabutopsFootprint:: INCBIN "gfx/footprints/kabutops.1bpp.lzp"
 AerodactylFootprint:: INCBIN "gfx/footprints/aerodactyl.1bpp.lzp"
 SnorlaxFootprint:: INCBIN "gfx/footprints/snorlax.1bpp.lzp"

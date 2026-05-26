@@ -137,8 +137,8 @@ FootprintPointers::
 	dw JolteonFootprint
 	dw FlareonFootprint
 	dw PorygonFootprint
-	dw OmanyteFootprint
-	dw OmastarFootprint
+	dw TirtougaFootprint
+	dw CarracostaFootprint
 	dw KabutoFootprint
 	dw KabutopsFootprint
 	dw AerodactylFootprint
