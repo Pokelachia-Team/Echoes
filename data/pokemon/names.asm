@@ -112,7 +112,7 @@ PokemonNames::
 	rawchar "Koffing@@@"
 	rawchar "Weezing@@@"
 	rawchar "Nacli@@@@@"
-	rawchar "Rhydon@@@@"
+	rawchar "Naclstack@"
 	rawchar "Fluttrfawn"
 	rawchar "Tangela@@@"
 	rawchar "Kangaskhan"

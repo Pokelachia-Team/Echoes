@@ -215,7 +215,7 @@ AlphabeticalPokedexOrder:
 	dp RATICATE
 	dp RATTATA
 	dp REMORAID
-	dp RHYDON
+	dp NACLSTACK
 	dp NACLI
 	dp RHYPERIOR
 	dp RIVASTION

@@ -413,10 +413,10 @@ NacliFrontpic: INCBIN "gfx/pokemon/nacli/front.animated.2bpp.lzp"
 NacliBackpic:  INCBIN "gfx/pokemon/nacli/back.2bpp.lzp"
 NacliFrames:   INCLUDE "gfx/pokemon/nacli/frames.asm"
 
-SECTION "Rhydon Pics", ROMX
-RhydonFrontpic: INCBIN "gfx/pokemon/rhydon/front.animated.2bpp.lzp"
-RhydonBackpic:  INCBIN "gfx/pokemon/rhydon/back.2bpp.lzp"
-RhydonFrames:   INCLUDE "gfx/pokemon/rhydon/frames.asm"
+SECTION "Naclstack Pics", ROMX
+NaclstackFrontpic: INCBIN "gfx/pokemon/naclstack/front.animated.2bpp.lzp"
+NaclstackBackpic:  INCBIN "gfx/pokemon/naclstack/back.2bpp.lzp"
+NaclstackFrames:   INCLUDE "gfx/pokemon/naclstack/frames.asm"
 
 SECTION "Fluttrfawn Pics", ROMX
 FluttrfawnFrontpic: INCBIN "gfx/pokemon/fluttrfawn/front.animated.2bpp.lzp"

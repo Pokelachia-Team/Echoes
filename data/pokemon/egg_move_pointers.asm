@@ -111,7 +111,7 @@ EggSpeciesMovesPointers::
 	dw KoffingEggSpeciesMoves           ; Koffing
 	dw KoffingEggSpeciesMoves           ; Weezing
 	dw NacliEggSpeciesMoves           ; Nacli
-	dw NacliEggSpeciesMoves           ; Rhydon
+	dw NacliEggSpeciesMoves           ; Naclstack
 	dw NofawtsEggSpeciesMoves           ; Fluttrfawn
 	dw TangelaEggSpeciesMoves           ; Tangela
 	dw KangaskhanEggSpeciesMoves        ; Kangaskhan

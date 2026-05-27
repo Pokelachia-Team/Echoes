@@ -115,7 +115,7 @@ EvosAttacksPointers::
 	dw KoffingEvosAttacks
 	dw WeezingPlainEvosAttacks
 	dw NacliEvosAttacks
-	dw RhydonEvosAttacks
+	dw NaclstackEvosAttacks
 	dw FluttrfawnEvosAttacks
 	dw TangelaEvosAttacks
 	dw KangaskhanEvosAttacks

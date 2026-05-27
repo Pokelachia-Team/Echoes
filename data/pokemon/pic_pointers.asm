@@ -115,7 +115,7 @@ PokemonPicPointers::
 	pics Koffing
 	pics WeezingPlain
 	pics Nacli
-	pics Rhydon
+	pics Naclstack
 	pics Fluttrfawn
 	pics Tangela
 	pics Kangaskhan

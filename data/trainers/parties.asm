@@ -103,12 +103,13 @@ SalGroup:
 
 	def_trainer_class SAL
 	def_trainer 1, "Sal"
-	tr_mon 10, DEBRITE, MALE
+	tr_mon 10, NACLI, MALE
 		tr_evs 32 HP
-	tr_mon 11, POLIWAG, MALE
+	tr_mon 12, DEBRITE, MALE
 		tr_evs 32 HP
-	tr_mon 13, NACLI @ PECHA_BERRY, MALE
-		tr_extra CLEAR_BODY
+	tr_mon 13, POLIWAG, MALE
+		tr_evs 32 HP
+	tr_mon 16, NACLSTACK @ PECHA_BERRY, MALE
 		tr_evs 32 HP
 	end_trainer
 
@@ -900,14 +901,6 @@ BrockGroup:
 		tr_extra STURDY
 		tr_evs 252 HP, 196 Atk
 		tr_moves EXPLOSION, FIRE_PUNCH, ROCK_SLIDE, EARTHQUAKE
-	tr_mon 63, RHYDON @ EVIOLITE, MALE
-if DEF(FAITHFUL)
-		tr_extra LIGHTNING_ROD
-else
-		tr_extra SOLID_ROCK
-endc
-		tr_evs 252 HP, 196 SDf
-		tr_moves AVALANCHE, ROCK_SLIDE, EARTHQUAKE, OUTRAGE
 	tr_mon 65, CARRACOSTA, MALE
 		tr_evs 252 HP, 196 SAt
 		tr_moves ANCIENTPOWER, SURF, ICE_BEAM, SPIKES
@@ -2554,7 +2547,7 @@ CamperGroup:
 	end_trainer
 
 	def_trainer JERRY, "Jerry"
-	tr_mon 62, RHYDON
+	tr_mon 62, NACLSTACK
 	end_trainer
 
 	def_trainer SPENCER, "Spencer"
@@ -3420,7 +3413,7 @@ HikerGroup:
 
 	def_trainer GERARD, "Gerard"
 	tr_mon 59, NACLI
-	tr_mon 61, RHYDON
+	tr_mon 61, NACLSTACK
 	end_trainer
 
 	def_trainer DENT, "Dent"
@@ -3431,7 +3424,7 @@ HikerGroup:
 
 	def_trainer BRUCE, "Bruce"
 	tr_mon 57, BOLDORE
-	tr_mon 62, RHYDON
+	tr_mon 62, NACLSTACK
 	tr_mon 63, CLEFAIRY
 	end_trainer
 
@@ -3908,7 +3901,7 @@ PokemaniacGroup:
 
 	def_trainer ETHAN, "Ethan"
 	tr_mon 45, NACLI
-	tr_mon 46, RHYDON
+	tr_mon 46, NACLSTACK
 	end_trainer
 
 	def_trainer ISSAC, "Issac"
@@ -6785,7 +6778,7 @@ CooltrainerMGroup:
 	end_trainer
 
 	def_trainer KEVIN, "Kevin"
-	tr_mon 54, RHYDON
+	tr_mon 54, NACLSTACK
 	tr_mon 56, PYROBOROS
 	tr_mon 56, RIVASTION
 	end_trainer
@@ -6854,7 +6847,7 @@ CooltrainerMGroup:
 	def_trainer COOLTRAINERM_COREY, "Corey"
 	tr_mon 63, PIDGEOT @ QUICK_CLAW
 		tr_evs 252 Atk, 132 Spe
-	tr_mon 62, RHYDON @ ROCKY_HELMET
+	tr_mon 62, NACLSTACK @ ROCKY_HELMET
 		tr_evs 252 HP, 132 Atk
 	tr_mon 62, SCYTHER @ EVIOLITE
 		tr_evs 252 Spe, 132 Atk
@@ -7509,13 +7502,6 @@ else
 		tr_evs 252 Atk, 164 Spe
 		tr_moves DOUBLE_EDGE, EARTHQUAKE, CRUNCH, REST
 endc
-	tr_mon 62, RHYDON @ EVIOLITE, MALE
-if !DEF(FAITHFUL)
-		tr_extra SOLID_ROCK, ATK_UP_SATK_DOWN
-else
-		tr_extra LIGHTNING_ROD, ATK_UP_SATK_DOWN
-endc
-		tr_moves ROCK_SLIDE, EARTHQUAKE, AVALANCHE, MEGAHORN
 	tr_mon 64, NIDOQUEEN @ LIFE_ORB, FEMALE
 		tr_extra SHEER_FORCE, SPE_UP_ATK_DOWN
 		tr_evs 252 Spe, 164 SAt

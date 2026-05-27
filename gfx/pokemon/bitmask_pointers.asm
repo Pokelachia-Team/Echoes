@@ -111,7 +111,7 @@ BitmasksPointers:
 	dw KoffingBitmasks
 	dw WeezingPlainBitmasks
 	dw NacliBitmasks
-	dw RhydonBitmasks
+	dw NaclstackBitmasks
 	dw FluttrfawnBitmasks
 	dw TangelaBitmasks
 	dw KangaskhanBitmasks

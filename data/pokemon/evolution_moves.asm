@@ -111,7 +111,7 @@ EvolutionMoves::
 	db NO_MOVE      ; KOFFING
 	db NO_MOVE      ; WEEZING
 	db NO_MOVE      ; NACLI
-	db OUTRAGE      ; RHYDON
+	db NO_MOVE      ; NACLSTACK
 	db NO_MOVE      ; FLUTTRFAWN
 	db NO_MOVE      ; TANGELA
 	db NO_MOVE      ; KANGASKHAN

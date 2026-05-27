@@ -112,7 +112,7 @@ PokedexDataPointerTable:
 	dba KoffingPokedexEntry
 	dba WeezingPlainPokedexEntry
 	dba NacliPokedexEntry
-	dba RhydonPokedexEntry
+	dba NaclstackPokedexEntry
 	dba FluttrfawnPokedexEntry
 	dba TangelaPokedexEntry
 	dba KangaskhanPokedexEntry

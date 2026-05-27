@@ -217,5 +217,5 @@ def_grass_wildmons OLSTEETON_ABANDONED_MILL_OUTSIDE
 	wildmon 6, WOOPER, PALDEAN_FORM
 	wildmon 7, NACLI
 	wildmon 8, ROGGENROLA
-	wildmon 9, NACLI
+	wildmon 14, NACLSTACK
 	end_grass_wildmons
