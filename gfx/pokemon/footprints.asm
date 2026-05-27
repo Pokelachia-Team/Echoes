@@ -96,7 +96,8 @@ PoltegeistFootprint::
 DebriteFootprint::
 CastorchFootprint:: 
 AugurothFootprint:: 
-NacliFootprint:: INCBIN "gfx/footprints/blank.1bpp.lzp"
+NacliFootprint::
+NaclstackFootprint:: INCBIN "gfx/footprints/blank.1bpp.lzp"
 
 
 CupicoFootprint:: INCBIN "gfx/footprints/cupico.1bpp.lzp"
@@ -172,7 +173,6 @@ MarowakFootprint:: INCBIN "gfx/footprints/marowak.1bpp.lzp"
 HitmonleeFootprint:: INCBIN "gfx/footprints/hitmonlee.1bpp.lzp"
 HitmonchanFootprint:: INCBIN "gfx/footprints/hitmonchan.1bpp.lzp"
 LickitungFootprint:: INCBIN "gfx/footprints/lickitung.1bpp.lzp"
-RhydonFootprint:: INCBIN "gfx/footprints/rhydon.1bpp.lzp"
 FluttrfawnFootprint:: INCBIN "gfx/footprints/fluttrfawn.1bpp.lzp"
 TangelaFootprint:: INCBIN "gfx/footprints/tangela.1bpp.lzp"
 KangaskhanFootprint:: INCBIN "gfx/footprints/kangaskhan.1bpp.lzp"

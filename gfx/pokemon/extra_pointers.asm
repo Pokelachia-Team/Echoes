@@ -111,7 +111,7 @@ AnimationExtraPointers:
 	dw KoffingAnimationExtra
 	dw WeezingPlainAnimationExtra
 	dw NacliAnimationExtra
-	dw RhydonAnimationExtra
+	dw NaclstackAnimationExtra
 	dw FluttrfawnAnimationExtra
 	dw TangelaAnimationExtra
 	dw KangaskhanAnimationExtra

@@ -134,7 +134,7 @@
 	const KOFFING    ; 6d
 	const WEEZING    ; 6e
 	const NACLI    ; 6f
-	const RHYDON     ; 70
+	const NACLSTACK     ; 70
 	const FLUTTRFAWN    ; 71
 	const TANGELA    ; 72
 	const KANGASKHAN ; 73

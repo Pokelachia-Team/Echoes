@@ -562,10 +562,10 @@ NacliMini::     INCBIN "gfx/minis/nacli.2bpp.lzp"
 NacliMiniMask:: INCBIN "gfx/minis/nacli_mask.1bpp.lzp"
 NacliIcon::     INCBIN "gfx/icons/nacli.2bpp.lzp"
 
-SECTION "Rhydon Mini Icon", ROMX
-RhydonMini::     INCBIN "gfx/minis/rhydon.2bpp.lzp"
-RhydonMiniMask:: INCBIN "gfx/minis/rhydon_mask.1bpp.lzp"
-RhydonIcon::     INCBIN "gfx/icons/rhydon.2bpp.lzp"
+SECTION "Naclstack Mini Icon", ROMX
+NaclstackMini::     INCBIN "gfx/minis/naclstack.2bpp.lzp"
+NaclstackMiniMask:: INCBIN "gfx/minis/naclstack_mask.1bpp.lzp"
+NaclstackIcon::     INCBIN "gfx/icons/naclstack.2bpp.lzp"
 
 SECTION "Fluttrfawn Mini Icon", ROMX
 FluttrfawnMini::     INCBIN "gfx/minis/fluttrfawn.2bpp.lzp"

@@ -247,7 +247,7 @@ NewPokedexOrder:
 	dp MAROWAK
 	dp KANGASKHAN
 	dp NACLI
-	dp RHYDON
+	dp NACLSTACK
 	dp RHYPERIOR
 	dp MURKROW
 	dp HONCHKROW

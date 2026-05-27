@@ -112,7 +112,7 @@ ValidPokemonLevels: ; for Wonder Trade
 	db   1,  34 ; Koffing
 	db  35, 100 ; Weezing
 	db   1,  41 ; Nacli
-	db  42,  54 ; Rhydon
+	db  42,  54 ; Naclstack
 	db  20, 100 ; Fluttrfawn
 	db   1,  38 ; Tangela
 	db  20, 100 ; Kangaskhan

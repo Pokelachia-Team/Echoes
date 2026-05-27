@@ -111,7 +111,7 @@ FootprintPointers::
 	dw KoffingFootprint
 	dw WeezingFootprint
 	dw NacliFootprint
-	dw RhydonFootprint
+	dw NaclstackFootprint
 	dw FluttrfawnFootprint
 	dw TangelaFootprint
 	dw KangaskhanFootprint

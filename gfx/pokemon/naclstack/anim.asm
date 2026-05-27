@@ -1,8 +1,8 @@
 setrepeat 2
 frame 0, 9
-frame 1, 7
+frame 1, 8
 frame 0, 9
-frame 2, 7
+frame 2, 8
 dorepeat 1
 setrepeat 1
 frame 0, 9

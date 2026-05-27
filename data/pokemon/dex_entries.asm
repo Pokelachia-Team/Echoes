@@ -1110,8 +1110,8 @@ NacliPokedexEntry::
 	next "grains of rock salt"
 	page "are left behind.@"
 
-SECTION "RhydonPokedexEntry", ROMX
-RhydonPokedexEntry::
+SECTION "NaclstackPokedexEntry", ROMX
+NaclstackPokedexEntry::
 	db "Drill@"
 	db   "By lightly spin-"
 	next "ning its drill-"

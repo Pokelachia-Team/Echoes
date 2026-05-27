@@ -10,7 +10,7 @@ FuryAttackUsers:
 	dp DODUO
 	dp DODRIO
 	dp NACLI
-	dp RHYDON
+	dp NACLSTACK
 	dp GOLDEEN
 	dp SEAKING
 	dp PINSIR
