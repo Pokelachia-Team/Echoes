@@ -255,7 +255,7 @@ OlsteetonUniClassroomBldg_BlockData:
 	INCBIN "maps/OlsteetonUniClassroomBldg.ablk.lzp"
 
 SECTION "OlsteetonUniClassroom_BlockData", ROMX
-OlsteetonUniClassroomBiology_BlockData:
+OlsteetonUniClassroomBio_BlockData:
 OlsteetonUniClassroomArt_BlockData:
 OlsteetonUniClassroomStrategy_BlockData:
 OlsteetonUniClassroomHistory_BlockData:
