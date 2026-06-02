@@ -20,10 +20,10 @@ OlsteetonUniClassroomBio_MapScriptHeader:
 	bg_event  9,  1, BGEVENT_JUMPTEXT, OlsteetonUniClassroomBioBookshelf2Text
 
 	def_object_events
-	object_event  5,  2, SPRITE_POPLAR, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, UniClassroomBio_ProfPoplarScript, -1
+	object_event  5,  2, SPRITE_POPLAR, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_GOT_POKEDEX_FROM_POPLAR
 	object_event  3,  5, SPRITE_LASS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniClassroomBioLassText, -1
 	object_event  9,  5, SPRITE_SUPER_NERD, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniClassroomBioSuperNerdText, -1
-	; object_event  5,  2, SPRITE_POPLAR, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, (1 << EVE) | (1 << NITE), PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, UniClassroomBio_ProfPoplarScript, EVENT_GOT_POKEDEX_FROM_POPLAR
+	object_event  5,  2, SPRITE_POPLAR, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, (1 << EVE) | (1 << NITE), PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, UniClassroomBio_ProfPoplarScript, -1
 
 	object_const_def
 	const OLSTEETONUNICLASSROOMBIO_POPLAR
@@ -50,13 +50,15 @@ OlsteetonUniClassroom_AutowalkUpToPoplar:
 	promptbutton
 	turnobject OLSTEETONUNICLASSROOMBIO_POPLAR, LEFT
 	writetext PoplarIntroText5
-	setevent EVENT_POPLAR_OFFICE_FIR
+	clearevent EVENT_GOT_POKEDEX_FROM_POPLAR
+	clearevent EVENT_POPLAR_OFFICE_FIR
 	waitbutton
 	closetext
 	applymovement OLSTEETONUNICLASSROOMBIO_POPLAR, UniClassroomBio_PoplarExits
 	playsound SFX_EXIT_BUILDING
 	disappear OLSTEETONUNICLASSROOMBIO_POPLAR
 	waitsfx
+	setmapscene OLSTEETON_UNI_OFFICE_POPLAR, SCENE_UNI_OFFICE_POPLAR_DEX
 	setscene SCENE_OLSTEETONUNICLASSROOMBIO_NOOP
 	playmapmusic
 	end

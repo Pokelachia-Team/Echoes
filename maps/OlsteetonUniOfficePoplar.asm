@@ -19,10 +19,10 @@ OlsteetonUniOfficePoplar_MapScriptHeader:
 	bg_event  2,  1, BGEVENT_JUMPTEXT, OlsteetonUniOfficeProfPoplarBookshelfText
 
 	def_object_events
-	object_event  4,  2, SPRITE_POPLAR, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, PoplarOffice_PoplarScript, -1
-	object_event  3,  3, SPRITE_BOOK_PAPER_POKEDEX, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_GOT_POKEDEX_FROM_POPLAR
-	object_event  4,  4, SPRITE_FIR, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, PoplarOffice_FirScript, -1
-	object_event  5,  4, SPRITE_ASHER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, PoplarOffice_AsherScript, -1
+	object_event  4,  2, SPRITE_POPLAR, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_POPLAR_OFFICE_FIR
+	object_event  3,  3, SPRITE_BOOK_PAPER_POKEDEX, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_POPLAR_OFFICE_FIR
+	object_event  4,  4, SPRITE_FIR, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_POPLAR_OFFICE_FIR
+	object_event  5,  4, SPRITE_ASHER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_POPLAR_OFFICE_FIR
 
 	object_const_def
 	const POPLAROFFICE_POPLAR
@@ -53,6 +53,7 @@ PoplarOffice_PoplarScript:
 	opentext
 	givespecialitem POKEDEX
 	setflag ENGINE_POKEDEX
+	setevent EVENT_GOT_POKEDEX_FROM_POPLAR
 	writetext PoplarOffice_PoplarText2
 	waitbutton
 	; showtext PoplarOffice_PoplarHealText
@@ -144,6 +145,7 @@ PoplarOffice_AsherScript:
 	special RestartMapMusic
 	pause 15
 	setscene SCENE_UNI_OFFICE_POPLAR_NOOP
+	setevent EVENT_POPLAR_OFFICE_FIR
 	; setmapscene FIELD_LAB, SCENE_FIELD_LAB_MAGIGOON
 	; specialphonecall SPECIALCALL_DOSSIER ;pawpaw calls to bring docs back
 	end
