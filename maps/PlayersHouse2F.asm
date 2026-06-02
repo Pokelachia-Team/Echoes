@@ -195,7 +195,7 @@ endr
 	; post-e4
 	setflag ENGINE_CREDITS_SKIP
 	; good party
-	givepoke MEWTWO, PLAIN_FORM, 100, BRIGHTPOWDER
+	givepoke AUGUROTH, PLAIN_FORM, 100, BRIGHTPOWDER
 for x, NUM_STATS
 	loadmem wPartyMon1EVs+x, 252
 endr
@@ -218,24 +218,29 @@ endr
 	loadmem wPartyMon2PP+2, 10
 	loadmem wPartyMon2PP+3, 10
 	loadmem wPartyMon2PokerusStatus, 1
+	; folkoran mon test
+	givepoke CUPICO, PLAIN_FORM, 7, ORAN_BERRY
+	givepoke FLIKLIT, PLAIN_FORM, 7, ORAN_BERRY
+	givepoke GLUTTLE, PLAIN_FORM, 7, ORAN_BERRY
+	givepoke WAMPURR, PLAIN_FORM, 50, ORAN_BERRY
 	; variant form test
-	givepoke TYPHLOSION, HISUIAN_FORM, 50
-	loadmem wPartyMon3Shiny, SHINY_MASK
-	loadmem wPartyMon3PokerusStatus, POKERUS_CURED
-	; ext species test
-	givepoke URSALUNA, URSALUNA_BLOODMOON_FORM, 50
-	givepoke DUDUNSPARCE, DUDUNSPARCE_THREE_SEGMENT_FORM, 50
-	; evolve during battle
-	givepoke PUPITAR, 54
-	loadmem wPartyMon6Exp+0, 207967 >> 16
-	loadmem wPartyMon6Exp+1, HIGH(207967)
-	loadmem wPartyMon6Exp+2, LOW(207967)
-	; max modern evs
-	loadmem wPartyMon6HPEV, MODERN_MAX_EV
-	loadmem wPartyMon6AtkEV, MODERN_MAX_EV
-	loadmem wPartyMon6SpeEV, MODERN_EV_LIMIT - MODERN_MAX_EV * 2
-	; hyper training
-	loadmem wPartyMon6HyperTraining, %01000000
+	; givepoke TYPHLOSION, HISUIAN_FORM, 50
+	; loadmem wPartyMon3Shiny, SHINY_MASK
+	; loadmem wPartyMon3PokerusStatus, POKERUS_CURED
+	; ; ext species test
+	; givepoke URSALUNA, URSALUNA_BLOODMOON_FORM, 50
+	; givepoke DUDUNSPARCE, DUDUNSPARCE_THREE_SEGMENT_FORM, 50
+	; ; evolve during battle
+	; givepoke PUPITAR, 54
+	; loadmem wPartyMon6Exp+0, 207967 >> 16
+	; loadmem wPartyMon6Exp+1, HIGH(207967)
+	; loadmem wPartyMon6Exp+2, LOW(207967)
+	; ; max modern evs
+	; loadmem wPartyMon6HPEV, MODERN_MAX_EV
+	; loadmem wPartyMon6AtkEV, MODERN_MAX_EV
+	; loadmem wPartyMon6SpeEV, MODERN_EV_LIMIT - MODERN_MAX_EV * 2
+	; ; hyper training
+	; loadmem wPartyMon6HyperTraining, %01000000
 	; fill pokedex
 	callasm FillPokedex
 ;	; new bark events
@@ -244,13 +249,17 @@ endr
 	setevent EVENT_PLAYERS_HOUSE_MOM_1
 	clearevent EVENT_PLAYERS_HOUSE_MOM_2
 	; addcellnum PHONE_ELM
-;	setevent EVENT_GOT_FLIKLIT_FROM_PAWPAW
+	setevent EVENT_GOT_FLIKLIT_FROM_PAWPAW
 ;	setevent EVENT_FLIKLIT_POKEBALL_IN_ELMS_LAB
 ;	setevent EVENT_CUPICO_POKEBALL_IN_ELMS_LAB
 ;	setevent EVENT_GOT_A_POKEMON_FROM_PAWPAW
 ;	setevent EVENT_RIVAL_CHERRYGROVE_CITY
 ;	setevent EVENT_LYRA_IN_ELMS_LAB
-;	setmapscene ELMS_LAB, SCENE_ELMSLAB_AIDE_GIVES_POTION
+	; clearevent EVENT_GOT_POKEDEX_FROM_POPLAR
+	setmapscene OLSTEETON_UNI_CLASSROOM_BIO, SCENE_OLSTEETONUNICLASSROOMBIO_MEET_POPLAR
+	setmapscene OLSTEETON_UNI_OFFICE_POPLAR, SCENE_UNI_OFFICE_POPLAR_NOOP
+	setevent EVENT_POPLAR_OFFICE_FIR
+	; setevent EVENT_GOT_POKEDEX_FROM_POPLAR
 ;	setmapscene HOLLOWPORT, SCENE_NEWBARKTOWN_NOOP
 	; cherrygrove events
 	; setevent EVENT_GUIDE_GENT_IN_HIS_HOUSE
@@ -284,7 +293,8 @@ endr
 	; ; vermilion events
 	; setmapscene VERMILION_CITY, SCENE_VERMILIONCITY_NOOP
 	closetext
-	warpfacing DOWN, BRINESBURG, 53, 12
+	warpfacing DOWN, OLSTEETON_UNI, 10, 20
+	; warpfacing DOWN, BRINESBURG, 53, 12
 	end
 
 FillPokedex:

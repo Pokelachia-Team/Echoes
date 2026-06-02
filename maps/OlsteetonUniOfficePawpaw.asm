@@ -4,8 +4,8 @@ OlsteetonUniOfficePawpaw_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  2,  5, OLSTEETON_UNI_OFFICE, 10
-	warp_event  3,  5, OLSTEETON_UNI_OFFICE, 10
+	warp_event  2,  5, OLSTEETON_UNI_OFFICE, 5
+	warp_event  3,  5, OLSTEETON_UNI_OFFICE, 5
 
 	def_coord_events
 

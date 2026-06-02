@@ -7588,32 +7588,22 @@ ProfFirGroup:
 
 	def_trainer_class PROF_FIR
 	def_trainer 1, "Fir"
-	tr_mon 65, BUTTERFREE @ FOCUS_SASH, FEMALE
-		tr_extra COMPOUND_EYES, SPE_UP_ATK_DOWN
-		tr_evs 252 Spe, 164 SAt
-		tr_moves SLEEP_POWDER, BUG_BUZZ, AIR_SLASH, PSYCHIC_M
-	tr_mon 64, POLITOED @ DAMP_ROCK, FEMALE
-		tr_extra DRIZZLE, SATK_UP_ATK_DOWN
-		tr_evs 252 SAt, 164 HP
-		tr_moves SCALD, GIGA_DRAIN, ICE_BEAM, FOCUS_BLAST
-	tr_mon 64, VICTREEBEL @ SITRUS_BERRY, FEMALE
-		tr_extra GLUTTONY, SPE_UP_ATK_DOWN
-		tr_evs 252 Spe, 164 HP
-		tr_moves SUBSTITUTE, SLEEP_POWDER, GIGA_DRAIN, SLUDGE_BOMB
-	tr_mon 63, RHYPERIOR @ CUSTAP_BERRY, FEMALE
-		tr_extra SOLID_ROCK, DEF_UP_SATK_DOWN
-		tr_evs 252 Atk, 164 HP
-		tr_moves STONE_EDGE, EARTHQUAKE, IRON_HEAD, ENDURE
-	tr_mon 63, NIDOQUEEN @ LIFE_ORB, FEMALE
-		tr_extra SHEER_FORCE, SPE_UP_ATK_DOWN
-		tr_evs 252 Spe, 164 SAt
-		tr_moves SLUDGE_BOMB, EARTH_POWER, ICE_BEAM, THUNDER
-	tr_mon 66, GYARADOS @ LEFTOVERS, FEMALE
-		tr_extra INTIMIDATE, SPE_UP_SATK_DOWN
-		tr_evs 252 Spe, 164 Atk
-		tr_moves WATERFALL, STONE_EDGE, EARTHQUAKE, DRAGON_DANCE
+	tr_mon 7, TIRTOUGA, MALE
 	end_trainer
 
+	; def_trainer 2, "Fir"
+	; tr_mon 72, CARRACOSTA @ AIR_BALLOON, MALE
+	; 	tr_evs 252 SAt, 4 Def, 252 Spe
+	; 	tr_moves ICE_BEAM, SURF, EARTH_POWER, SHELL_SMASH
+	; tr_mon 72, KABUTOPS @ FOCUS_SASH, MALE
+	; 	tr_extra WEAK_ARMOR, SPE_UP_SATK_DOWN
+	; 	tr_evs 252 Atk, 4 Def, 252 Spe
+	; 	tr_moves STONE_EDGE, WATERFALL, SWORDS_DANCE, LEECH_LIFE
+	; tr_mon 73, AERODACTYL @ LIFE_ORB, MALE
+	; 	tr_extra ROCK_HEAD, ATK_UP_SATK_DOWN
+	; 	tr_evs 252 Atk, 4 Def, 252 Spe
+	; 	tr_moves ROCK_SLIDE, EARTHQUAKE, BRAVE_BIRD, CRUNCH
+	; end_trainer
 
 ; SECTION "MysticalmanGroup", ROMX
 ; MysticalmanGroup:

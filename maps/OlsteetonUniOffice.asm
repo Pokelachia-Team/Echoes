@@ -11,6 +11,7 @@ OlsteetonUniOffice_MapScriptHeader:
 	warp_event 21,  2, OLSTEETON_UNI_OFFICE_PAWPAW, 2
 	warp_event  5, 10, OLSTEETON_UNI_OFFICE_LOUNGE, 1
 	warp_event 17, 10, OLSTEETON_UNI_OFFICE_TA, 2
+	warp_event  0, 13, OLSTEETON_UNI_CLASSROOM_BLDG, 10
 
 	def_coord_events
 

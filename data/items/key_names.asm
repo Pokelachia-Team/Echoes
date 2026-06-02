@@ -15,7 +15,7 @@ KeyItemNames::
 	li "Blue Card"
 	li "SquirtBottle"
 	li "SilphScope2"
-	li "Mystery Egg"
+	li "Prof.Dossier"
 	li "SecretPotion"
 	li "Go-Goggles"
 	li "Red Scale"
