@@ -114,7 +114,7 @@ ENDM
 	map_const OLSTEETON_UNI_CLOCK_TOWER_2F, 			   6,  4 ;  16
 	map_const OLSTEETON_UNI_CLOCK_TOWER_3F, 			   6,  6 ;  17
  	map_const OLSTEETON_UNI_CLASSROOM_BLDG,               13,  7 ;  18
- 	map_const OLSTEETON_UNI_CLASSROOM_BIOLOGY,             6,  5 ;  19
+ 	map_const OLSTEETON_UNI_CLASSROOM_BIO,             6,  5 ;  19
  	map_const OLSTEETON_UNI_CLASSROOM_ART,                 6,  5 ;  20
  	map_const OLSTEETON_UNI_CLASSROOM_BUSINESS,            6,  5 ;  21
  	map_const OLSTEETON_UNI_CLASSROOM_STRATEGY,            6,  5 ;  22

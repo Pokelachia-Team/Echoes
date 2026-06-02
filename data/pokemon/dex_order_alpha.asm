@@ -175,8 +175,8 @@ AlphabeticalPokedexOrder:
 	dp NOCTOWL
 	dp OCTILLERY
 	dp ODDISH
-	dp OMANYTE
-	dp OMASTAR
+	dp TIRTOUGA
+	dp CARRACOSTA
 	dp ONIX
 	dp OVERQWIL
 	dp PARAS
@@ -215,7 +215,7 @@ AlphabeticalPokedexOrder:
 	dp RATICATE
 	dp RATTATA
 	dp REMORAID
-	dp RHYDON
+	dp NACLSTACK
 	dp NACLI
 	dp RHYPERIOR
 	dp RIVASTION

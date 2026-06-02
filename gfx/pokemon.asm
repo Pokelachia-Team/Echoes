@@ -413,10 +413,10 @@ NacliFrontpic: INCBIN "gfx/pokemon/nacli/front.animated.2bpp.lzp"
 NacliBackpic:  INCBIN "gfx/pokemon/nacli/back.2bpp.lzp"
 NacliFrames:   INCLUDE "gfx/pokemon/nacli/frames.asm"
 
-SECTION "Rhydon Pics", ROMX
-RhydonFrontpic: INCBIN "gfx/pokemon/rhydon/front.animated.2bpp.lzp"
-RhydonBackpic:  INCBIN "gfx/pokemon/rhydon/back.2bpp.lzp"
-RhydonFrames:   INCLUDE "gfx/pokemon/rhydon/frames.asm"
+SECTION "Naclstack Pics", ROMX
+NaclstackFrontpic: INCBIN "gfx/pokemon/naclstack/front.animated.2bpp.lzp"
+NaclstackBackpic:  INCBIN "gfx/pokemon/naclstack/back.2bpp.lzp"
+NaclstackFrames:   INCLUDE "gfx/pokemon/naclstack/frames.asm"
 
 SECTION "Fluttrfawn Pics", ROMX
 FluttrfawnFrontpic: INCBIN "gfx/pokemon/fluttrfawn/front.animated.2bpp.lzp"
@@ -528,15 +528,15 @@ PorygonFrontpic: INCBIN "gfx/pokemon/porygon/front.animated.2bpp.lzp"
 PorygonBackpic:  INCBIN "gfx/pokemon/porygon/back.2bpp.lzp"
 PorygonFrames:   INCLUDE "gfx/pokemon/porygon/frames.asm"
 
-SECTION "Omanyte Pics", ROMX
-OmanyteFrontpic: INCBIN "gfx/pokemon/omanyte/front.animated.2bpp.lzp"
-OmanyteBackpic:  INCBIN "gfx/pokemon/omanyte/back.2bpp.lzp"
-OmanyteFrames:   INCLUDE "gfx/pokemon/omanyte/frames.asm"
+SECTION "Tirtouga Pics", ROMX
+TirtougaFrontpic: INCBIN "gfx/pokemon/tirtouga/front.animated.2bpp.lzp"
+TirtougaBackpic:  INCBIN "gfx/pokemon/tirtouga/back.2bpp.lzp"
+TirtougaFrames:   INCLUDE "gfx/pokemon/tirtouga/frames.asm"
 
-SECTION "Omastar Pics", ROMX
-OmastarFrontpic: INCBIN "gfx/pokemon/omastar/front.animated.2bpp.lzp"
-OmastarBackpic:  INCBIN "gfx/pokemon/omastar/back.2bpp.lzp"
-OmastarFrames:   INCLUDE "gfx/pokemon/omastar/frames.asm"
+SECTION "Carracosta Pics", ROMX
+CarracostaFrontpic: INCBIN "gfx/pokemon/omastar/front.animated.2bpp.lzp"
+CarracostaBackpic:  INCBIN "gfx/pokemon/omastar/back.2bpp.lzp"
+CarracostaFrames:   INCLUDE "gfx/pokemon/omastar/frames.asm"
 
 SECTION "Kabuto Pics", ROMX
 KabutoFrontpic: INCBIN "gfx/pokemon/kabuto/front.animated.2bpp.lzp"

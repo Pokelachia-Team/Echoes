@@ -112,7 +112,7 @@ ValidPokemonLevels: ; for Wonder Trade
 	db   1,  34 ; Koffing
 	db  35, 100 ; Weezing
 	db   1,  41 ; Nacli
-	db  42,  54 ; Rhydon
+	db  42,  54 ; Naclstack
 	db  20, 100 ; Fluttrfawn
 	db   1,  38 ; Tangela
 	db  20, 100 ; Kangaskhan
@@ -138,8 +138,8 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  20, 100 ; Jolteon
 	db  20, 100 ; Flareon
 	db   1,  20 ; Porygon
-	db  15,  39 ; Omanyte
-	db  40, 100 ; Omastar
+	db  15,  39 ; Tirtouga
+	db  40, 100 ; Carracosta
 	db  15,  39 ; Kabuto
 	db  40, 100 ; Kabutops
 	db  15, 100 ; Aerodactyl

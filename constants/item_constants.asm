@@ -650,7 +650,7 @@ DEF NUM_CANDIES EQU const_value - 1
 	const BLUE_CARD    ; 0c
 	const SQUIRTBOTTLE ; 0d
 	const SILPHSCOPE2  ; 0e
-	const MYSTERY_EGG  ; 0f
+	const PROF_DOSSIER ; 0f
 	const SECRETPOTION ; 10
 	const GO_GOGGLES   ; 11
 	const RED_SCALE    ; 12

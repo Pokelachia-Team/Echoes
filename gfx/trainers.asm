@@ -27,8 +27,8 @@ WhitneyPic: INCBIN "gfx/trainers/whitney.2bpp.lzp"
 SECTION "MortyPic", ROMX
 MortyPic: INCBIN "gfx/trainers/morty.2bpp.lzp"
 
-SECTION "ChuckPic", ROMX
-ChuckPic: INCBIN "gfx/trainers/chuck.2bpp.lzp"
+SECTION "RustyPic", ROMX
+RustyPic: INCBIN "gfx/trainers/rusty.2bpp.lzp"
 
 SECTION "JasminePic", ROMX
 JasminePic: INCBIN "gfx/trainers/jasmine.2bpp.lzp"

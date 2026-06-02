@@ -111,7 +111,7 @@ FootprintPointers::
 	dw KoffingFootprint
 	dw WeezingFootprint
 	dw NacliFootprint
-	dw RhydonFootprint
+	dw NaclstackFootprint
 	dw FluttrfawnFootprint
 	dw TangelaFootprint
 	dw KangaskhanFootprint
@@ -137,8 +137,8 @@ FootprintPointers::
 	dw JolteonFootprint
 	dw FlareonFootprint
 	dw PorygonFootprint
-	dw OmanyteFootprint
-	dw OmastarFootprint
+	dw TirtougaFootprint
+	dw CarracostaFootprint
 	dw KabutoFootprint
 	dw KabutopsFootprint
 	dw AerodactylFootprint

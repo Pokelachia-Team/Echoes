@@ -111,7 +111,7 @@ BitmasksPointers:
 	dw KoffingBitmasks
 	dw WeezingPlainBitmasks
 	dw NacliBitmasks
-	dw RhydonBitmasks
+	dw NaclstackBitmasks
 	dw FluttrfawnBitmasks
 	dw TangelaBitmasks
 	dw KangaskhanBitmasks
@@ -137,8 +137,8 @@ BitmasksPointers:
 	dw JolteonBitmasks
 	dw FlareonBitmasks
 	dw PorygonBitmasks
-	dw OmanyteBitmasks
-	dw OmastarBitmasks
+	dw TirtougaBitmasks
+	dw CarracostaBitmasks
 	dw KabutoBitmasks
 	dw KabutopsBitmasks
 	dw AerodactylBitmasks

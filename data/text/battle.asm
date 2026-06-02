@@ -1688,7 +1688,7 @@ MortyFinalPkmnText:
 	line "we can do it!"
 	prompt
 
-ChuckFinalPkmnText:
+RustyFinalPkmnText:
 	text "We haven't lost"
 	line "yet!"
 	prompt

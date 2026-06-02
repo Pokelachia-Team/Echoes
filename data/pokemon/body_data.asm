@@ -118,7 +118,7 @@ PokemonBodyData:
 	body_data   6,   10, HEAD,         PURPLE ; KOFFING
 	body_data  12,   95, MULTIBODY,    PURPLE ; WEEZING
 	body_data   6,  150,  HEAD,        BROWN  ; NACLI
-	body_data  19, 1200, BIPEDAL_TAIL, GRAY   ; RHYDON
+	body_data  19, 1200, BIPEDAL_TAIL, GRAY   ; NACLSTACK
 	body_data  11,  346, QUADRUPED,    PINK   ; FLUTTRFAWN
 	body_data  10,  350, HEAD_LEGS,    BLUE   ; TANGELA
 	body_data  22,  800, BIPEDAL_TAIL, BROWN  ; KANGASKHAN
@@ -144,8 +144,8 @@ PokemonBodyData:
 	body_data   8,  245, QUADRUPED,    YELLOW ; JOLTEON
 	body_data   9,  250, QUADRUPED,    RED    ; FLAREON
 	body_data   8,  365, HEAD_LEGS,    PINK   ; PORYGON
-	body_data   4,   75, TENTACLES,    BLUE   ; OMANYTE
-	body_data  10,  350, TENTACLES,    BLUE   ; OMASTAR
+	body_data   4,   75, TENTACLES,    BLUE   ; TIRTOUGA
+	body_data  10,  350, TENTACLES,    BLUE   ; CARRACOSTA
 	body_data   5,  115, INSECTOID,    BROWN  ; KABUTO
 	body_data  13,  405, BIPEDAL_TAIL, BROWN  ; KABUTOPS
 	body_data  18,  590, WINGS,        PURPLE ; AERODACTYL

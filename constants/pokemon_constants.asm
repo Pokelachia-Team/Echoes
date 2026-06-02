@@ -134,7 +134,7 @@
 	const KOFFING    ; 6d
 	const WEEZING    ; 6e
 	const NACLI    ; 6f
-	const RHYDON     ; 70
+	const NACLSTACK     ; 70
 	const FLUTTRFAWN    ; 71
 	const TANGELA    ; 72
 	const KANGASKHAN ; 73
@@ -160,8 +160,8 @@
 	const JOLTEON    ; 87
 	const FLAREON    ; 88
 	const PORYGON    ; 89
-	const OMANYTE    ; 8a
-	const OMASTAR    ; 8b
+	const TIRTOUGA    ; 8a
+	const CARRACOSTA    ; 8b
 	const KABUTO     ; 8c
 	const KABUTOPS   ; 8d
 	const AERODACTYL ; 8e

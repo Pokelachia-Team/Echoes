@@ -112,7 +112,7 @@ PokedexDataPointerTable:
 	dba KoffingPokedexEntry
 	dba WeezingPlainPokedexEntry
 	dba NacliPokedexEntry
-	dba RhydonPokedexEntry
+	dba NaclstackPokedexEntry
 	dba FluttrfawnPokedexEntry
 	dba TangelaPokedexEntry
 	dba KangaskhanPokedexEntry
@@ -138,8 +138,8 @@ PokedexDataPointerTable:
 	dba JolteonPokedexEntry
 	dba FlareonPokedexEntry
 	dba PorygonPokedexEntry
-	dba OmanytePokedexEntry
-	dba OmastarPokedexEntry
+	dba TirtougaPokedexEntry
+	dba CarracostaPokedexEntry
 	dba KabutoPokedexEntry
 	dba KabutopsPokedexEntry
 	dba AerodactylPokedexEntry

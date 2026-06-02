@@ -645,8 +645,8 @@ PorygonEggSpeciesMoves:
 	dp PORYGON, PLAIN_FORM
 	db $ff
 
-OmanyteEggSpeciesMoves:
-	dp OMANYTE, PLAIN_FORM
+TirtougaEggSpeciesMoves:
+	dp TIRTOUGA, PLAIN_FORM
 	db AURORA_BEAM
 	db BUBBLE_BEAM
 	db HAZE

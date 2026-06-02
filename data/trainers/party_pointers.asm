@@ -11,7 +11,7 @@ TrainerGroups:
 	dba BugsyGroup
 	dba WhitneyGroup
 	dba MortyGroup
-	dba ChuckGroup
+	dba RustyGroup
 	dba JasmineGroup
 	dba PryceGroup
 	dba ClairGroup

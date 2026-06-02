@@ -111,7 +111,7 @@ WonderTradeOTNames1:
 	rawchar "Bugsy@@@" ; $6c
 	rawchar "Whitney@" ; $6d
 	rawchar "Morty@@@" ; $6e
-	rawchar "Chuck@@@" ; $6f
+	rawchar "Rusty@@@" ; $6f
 	rawchar "Jasmine@" ; $70
 	rawchar "Pryce@@@" ; $71
 	rawchar "Clair@@@" ; $72

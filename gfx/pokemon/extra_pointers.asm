@@ -111,7 +111,7 @@ AnimationExtraPointers:
 	dw KoffingAnimationExtra
 	dw WeezingPlainAnimationExtra
 	dw NacliAnimationExtra
-	dw RhydonAnimationExtra
+	dw NaclstackAnimationExtra
 	dw FluttrfawnAnimationExtra
 	dw TangelaAnimationExtra
 	dw KangaskhanAnimationExtra
@@ -137,8 +137,8 @@ AnimationExtraPointers:
 	dw JolteonAnimationExtra
 	dw FlareonAnimationExtra
 	dw PorygonAnimationExtra
-	dw OmanyteAnimationExtra
-	dw OmastarAnimationExtra
+	dw TirtougaAnimationExtra
+	dw CarracostaAnimationExtra
 	dw KabutoAnimationExtra
 	dw KabutopsAnimationExtra
 	dw AerodactylAnimationExtra

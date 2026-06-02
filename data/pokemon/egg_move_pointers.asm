@@ -111,7 +111,7 @@ EggSpeciesMovesPointers::
 	dw KoffingEggSpeciesMoves           ; Koffing
 	dw KoffingEggSpeciesMoves           ; Weezing
 	dw NacliEggSpeciesMoves           ; Nacli
-	dw NacliEggSpeciesMoves           ; Rhydon
+	dw NacliEggSpeciesMoves           ; Naclstack
 	dw NofawtsEggSpeciesMoves           ; Fluttrfawn
 	dw TangelaEggSpeciesMoves           ; Tangela
 	dw KangaskhanEggSpeciesMoves        ; Kangaskhan
@@ -137,8 +137,8 @@ EggSpeciesMovesPointers::
 	dw EeveeEggSpeciesMoves             ; Jolteon
 	dw EeveeEggSpeciesMoves             ; Flareon
 	dw PorygonEggSpeciesMoves           ; Porygon
-	dw OmanyteEggSpeciesMoves           ; Omanyte
-	dw OmanyteEggSpeciesMoves           ; Omastar
+	dw TirtougaEggSpeciesMoves           ; Tirtouga
+	dw TirtougaEggSpeciesMoves           ; Carracosta
 	dw KabutoEggSpeciesMoves            ; Kabuto
 	dw KabutoEggSpeciesMoves            ; Kabutops
 	dw AerodactylEggSpeciesMoves        ; Aerodactyl

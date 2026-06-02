@@ -115,7 +115,7 @@ PokemonPicPointers::
 	pics Koffing
 	pics WeezingPlain
 	pics Nacli
-	pics Rhydon
+	pics Naclstack
 	pics Fluttrfawn
 	pics Tangela
 	pics Kangaskhan
@@ -141,8 +141,8 @@ PokemonPicPointers::
 	pics Jolteon
 	pics Flareon
 	pics Porygon
-	pics Omanyte
-	pics Omastar
+	pics Tirtouga
+	pics Carracosta
 	pics Kabuto
 	pics Kabutops
 	pics Aerodactyl

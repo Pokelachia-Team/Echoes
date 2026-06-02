@@ -115,7 +115,7 @@ EvosAttacksPointers::
 	dw KoffingEvosAttacks
 	dw WeezingPlainEvosAttacks
 	dw NacliEvosAttacks
-	dw RhydonEvosAttacks
+	dw NaclstackEvosAttacks
 	dw FluttrfawnEvosAttacks
 	dw TangelaEvosAttacks
 	dw KangaskhanEvosAttacks
@@ -141,8 +141,8 @@ EvosAttacksPointers::
 	dw JolteonEvosAttacks
 	dw FlareonEvosAttacks
 	dw PorygonEvosAttacks
-	dw OmanyteEvosAttacks
-	dw OmastarEvosAttacks
+	dw TirtougaEvosAttacks
+	dw CarracostaEvosAttacks
 	dw KabutoEvosAttacks
 	dw KabutopsEvosAttacks
 	dw AerodactylEvosAttacks

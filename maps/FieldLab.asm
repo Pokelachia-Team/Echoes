@@ -344,6 +344,8 @@ endc
 	turnobject FIELDLAB_PAWPAW, DOWN
 	showtext PawpawDirectionsText3
 	setevent EVENT_GOT_A_POKEMON_FROM_PAWPAW
+	setmapscene OLSTEETON_UNI_CLASSROOM_BIO, SCENE_OLSTEETONUNICLASSROOMBIO_MEET_POPLAR
+	setmapscene OLSTEETON_UNI_OFFICE_POPLAR, SCENE_UNI_OFFICE_POPLAR_NOOP
 	; setevent EVENT_RIVAL_CHERRYGROVE_CITY
 	setscene SCENE_FIELDLAB_BROOKE_BATTLE
 	end
@@ -640,6 +642,7 @@ BrookeBattleScript:
 	disappear FIELDLAB_BROOKE
 	special HealParty
 	setscene SCENE_FIELDLAB_AIDE_GIVES_POTION
+	setmapscene ROUTE_101, SCENE_ROUTE101_CATCH_TUTORIAL
 	playmapmusic
 	end
 
@@ -662,8 +665,11 @@ AideScript_GivePotions:
 	writetext AideText_GiveYouPotions
 	promptbutton
 	verbosegiveitem POTION
-	setmapscene ROUTE_101, SCENE_ROUTE101_CATCH_TUTORIAL
 	setscene SCENE_FIELDLAB_NOOP
+	setevent EVENT_POPLAR_OFFICE_FIR
+	setmapscene OLSTEETON_UNI_CLASSROOM_BIO, SCENE_OLSTEETONUNICLASSROOMBIO_MEET_POPLAR
+	setmapscene OLSTEETON_UNI_OFFICE_POPLAR, SCENE_UNI_OFFICE_POPLAR_NOOP
+	clearevent EVENT_GOT_POKEDEX_FROM_POPLAR
 	jumpopenedtext AideText_AlwaysBusy
 
 FieldAideScript:
@@ -678,8 +684,9 @@ FieldLabBrookeScript:
 	iffalse_jumptextfaceplayer FieldLabBrookeWhichPokemonText
 	jumpthistextfaceplayer
 
-	text "Your #mon"
-	line "looks cute too!"
+	text "Good choice!"
+	line "I'm not sure it's"
+	cont "photogenic though."
 	done
 
 
@@ -856,7 +863,7 @@ AfterCupicoMovement:
 	step_end
 
 PawpawText_Intro:
-	text "Pawpaw: Hi <PLAYER>!"
+	text "Pawpaw:Hi <PLAYER>"
 	line "I'm Prof.Pawpaw!"
 
 	para "I'd like to ask"
@@ -1070,8 +1077,9 @@ FieldLabFellowText:
 	line "Prof. Pawpaw."
 	done
 GotFieldNumberText:
-	text "<PLAYER> got Pawpaw's"
-	line "phone number."
+	text "<PLAYER> got Prof."
+	line "Pawpaw's phone"
+	cont "number."
 	done
 
 PawpawDescribesPoplarText:

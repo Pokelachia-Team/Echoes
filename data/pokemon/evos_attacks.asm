@@ -2395,7 +2395,7 @@ endc
 	learnset 57, MOONBLAST ; Memento → new move
 
 	evos_attacks Nacli
-	evo_data EVOLVE_LEVEL, 24, RHYDON
+	evo_data EVOLVE_LEVEL, 20, NACLSTACK
 	learnset 1, TACKLE
 	learnset 1, DEFENSE_CURL 
 	learnset 5, ROCK_THROW
@@ -2410,26 +2410,25 @@ endc
 	learnset 40, EARTHQUAKE
 	learnset 45, STONE_EDGE
 
-	evos_attacks Rhydon
-	evo_data EVOLVE_TRADE, PROTECTOR, RHYPERIOR
-	learnset 1, OUTRAGE ; Hammer Arm → HGSS tutor move ; evolution move
+	evos_attacks Naclstack
+	evo_data EVOLVE_LEVEL, 20, RHYPERIOR
 	learnset 1, TACKLE
-	learnset 1, MUD_SLAP ; Sand-Attack → similar move
-	learnset 1, LEER ; Tail Whip → similar move
-	learnset 3, HORN_ATTACK
-	learnset 6, FURY_STRIKES ; Fury Attack → similar move
-	learnset 9, SCARY_FACE
-	learnset 13, MAGNITUDE ; Smack Down → egg move
+	learnset 1, MUD_SLAP
+	learnset 1, DEFENSE_CURL 
+	learnset 1, LEER
+	learnset 5, ROCK_THROW
+	learnset 7, HEADBUTT
+	learnset 10, MAGNITUDE
 	learnset 17, STOMP
-	learnset 21, BULLDOZE
-	learnset 25, ANCIENTPOWER ; Chip Away → HGSS tutor move
-	learnset 29, ROCK_BLAST
-	learnset 33, TAKE_DOWN ; Drill Run → Take Down
-	learnset 37, STONE_EDGE ; Take Down → Stone Edge
-	learnset 41, DOUBLE_EDGE ; Double Edge → event move
-	learnset 48, EARTHQUAKE
-	learnset 55, CLOSE_COMBAT ; Megahorn → new move
-	learnset 62, MEGAHORN ; Horn Drill → Megahorn
+	learnset 23, ROCK_BLAST
+	learnset 26, RECOVER
+	learnset 30, ROCK_SLIDE
+	learnset 33, SANDSTORM 
+	learnset 35, IRON_HEAD
+	learnset 40, DOUBLE_EDGE
+	learnset 42, EARTHQUAKE
+	learnset 48, STONE_EDGE
+	learnset 55, CLOSE_COMBAT 
 
 	evos_attacks Fluttrfawn
 	evo_data EVOLVE_HAPPINESS, TR_ANYTIME, ETHEREDEER
@@ -2914,8 +2913,8 @@ endc
 	learnset 56, MIRROR_COAT ; Magic Coat → new move
 	learnset 62, ZAP_CANNON
 
-	evos_attacks Omanyte
-	evo_data EVOLVE_LEVEL, 40, OMASTAR
+	evos_attacks Tirtouga
+	evo_data EVOLVE_LEVEL, 40, CARRACOSTA
 	learnset 1, WRAP ; Constrict → similar move
 	learnset 1, DEFENSE_CURL ; Withdraw → similar move
 	learnset 7, BITE
@@ -2932,7 +2931,7 @@ endc
 	learnset 55, HYDRO_PUMP
 	learnset 61, POWER_GEM ; new move
 
-	evos_attacks Omastar
+	evos_attacks Carracosta
 	learnset 1, WRAP ; Constrict → similar move
 	learnset 1, DEFENSE_CURL ; Withdraw → similar move
 	learnset 1, ICICLE_SPEAR ; Spike Cannon → new move ; evolution move

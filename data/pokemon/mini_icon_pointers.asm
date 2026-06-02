@@ -115,7 +115,7 @@ MiniIconPointers:
 	mini_icon Koffing
 	mini_icon Weezing
 	mini_icon Nacli
-	mini_icon Rhydon
+	mini_icon Naclstack
 	mini_icon Fluttrfawn
 	mini_icon Tangela
 	mini_icon Kangaskhan
@@ -141,8 +141,8 @@ MiniIconPointers:
 	mini_icon Jolteon
 	mini_icon Flareon
 	mini_icon Porygon
-	mini_icon Omanyte
-	mini_icon Omastar
+	mini_icon Tirtouga
+	mini_icon Carracosta
 	mini_icon Kabuto
 	mini_icon Kabutops
 	mini_icon Aerodactyl

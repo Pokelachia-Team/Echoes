@@ -103,12 +103,13 @@ SalGroup:
 
 	def_trainer_class SAL
 	def_trainer 1, "Sal"
-	tr_mon 10, DEBRITE, MALE
+	tr_mon 10, NACLI, MALE
 		tr_evs 32 HP
-	tr_mon 11, POLIWAG, MALE
+	tr_mon 12, DEBRITE, MALE
 		tr_evs 32 HP
-	tr_mon 13, NACLI @ PECHA_BERRY, MALE
-		tr_extra CLEAR_BODY
+	tr_mon 13, POLIWAG, MALE
+		tr_evs 32 HP
+	tr_mon 16, NACLSTACK @ PECHA_BERRY, MALE
 		tr_evs 32 HP
 	end_trainer
 
@@ -318,11 +319,11 @@ endc
 	end_trainer
 
 
-SECTION "ChuckGroup", ROMX
-ChuckGroup:
+SECTION "RustyGroup", ROMX
+RustyGroup:
 
-	def_trainer_class CHUCK
-	def_trainer 1, "Chuck"
+	def_trainer_class RUSTY
+	def_trainer 1, "Rusty"
 	tr_mon 30, PRIMEAPE, MALE
 		tr_extra DEFIANT
 		tr_evs 160 Atk
@@ -345,7 +346,7 @@ endc
 		tr_moves ICE_PUNCH, HYPNOSIS, WATERFALL, DYNAMICPUNCH
 	end_trainer
 
-	def_trainer 2, "Chuck"
+	def_trainer 2, "Rusty"
 	tr_mon 71, ANNIHILAPE @ CHOICE_SCARF, MALE
 if DEF(FAITHFUL)
 		tr_extra DEFIANT, ATK_UP_SATK_DOWN
@@ -900,16 +901,7 @@ BrockGroup:
 		tr_extra STURDY
 		tr_evs 252 HP, 196 Atk
 		tr_moves EXPLOSION, FIRE_PUNCH, ROCK_SLIDE, EARTHQUAKE
-	tr_mon 63, RHYDON @ EVIOLITE, MALE
-if DEF(FAITHFUL)
-		tr_extra LIGHTNING_ROD
-else
-		tr_extra SOLID_ROCK
-endc
-		tr_evs 252 HP, 196 SDf
-		tr_moves AVALANCHE, ROCK_SLIDE, EARTHQUAKE, OUTRAGE
-	tr_mon 65, OMASTAR, MALE
-		tr_extra SHELL_ARMOR
+	tr_mon 65, CARRACOSTA, MALE
 		tr_evs 252 HP, 196 SAt
 		tr_moves ANCIENTPOWER, SURF, ICE_BEAM, SPIKES
 	tr_mon 68, ONIX, MALE
@@ -935,8 +927,7 @@ endc
 		tr_extra SOLID_ROCK, ATK_UP_SATK_DOWN
 		tr_evs 252 HP, 4 SDf, 252 Atk
 		tr_moves AVALANCHE, ROCK_SLIDE, EARTHQUAKE, MEGAHORN
-	tr_mon 72, OMASTAR @ AIR_BALLOON, MALE
-		tr_extra WEAK_ARMOR, SPE_UP_SATK_DOWN
+	tr_mon 72, CARRACOSTA @ AIR_BALLOON, MALE
 		tr_evs 252 SAt, 4 Def, 252 Spe
 		tr_moves ICE_BEAM, SURF, EARTH_POWER, SHELL_SMASH
 	tr_mon 72, KABUTOPS @ FOCUS_SASH, MALE
@@ -2556,7 +2547,7 @@ CamperGroup:
 	end_trainer
 
 	def_trainer JERRY, "Jerry"
-	tr_mon 62, RHYDON
+	tr_mon 62, NACLSTACK
 	end_trainer
 
 	def_trainer SPENCER, "Spencer"
@@ -3422,7 +3413,7 @@ HikerGroup:
 
 	def_trainer GERARD, "Gerard"
 	tr_mon 59, NACLI
-	tr_mon 61, RHYDON
+	tr_mon 61, NACLSTACK
 	end_trainer
 
 	def_trainer DENT, "Dent"
@@ -3433,7 +3424,7 @@ HikerGroup:
 
 	def_trainer BRUCE, "Bruce"
 	tr_mon 57, BOLDORE
-	tr_mon 62, RHYDON
+	tr_mon 62, NACLSTACK
 	tr_mon 63, CLEFAIRY
 	end_trainer
 
@@ -3910,7 +3901,7 @@ PokemaniacGroup:
 
 	def_trainer ETHAN, "Ethan"
 	tr_mon 45, NACLI
-	tr_mon 46, RHYDON
+	tr_mon 46, NACLSTACK
 	end_trainer
 
 	def_trainer ISSAC, "Issac"
@@ -4052,7 +4043,7 @@ SuperNerdGroup:
 	end_trainer
 
 	def_trainer MIGUEL, "Miguel"
-	tr_mon 62, OMASTAR, MALE
+	tr_mon 62, CARRACOSTA, MALE
 	tr_mon 62, KABUTOPS, MALE
 	tr_mon 64, UMBREON, MALE
 		tr_extra SHINY
@@ -4425,7 +4416,7 @@ RuinManiacGroup:
 
 	def_trainer_class RUIN_MANIAC
 	def_trainer JONES, "Jones"
-	tr_mon 8, OMANYTE
+	tr_mon 8, TIRTOUGA
 	tr_mon 8, KABUTO
 	end_trainer
 
@@ -4435,13 +4426,13 @@ RuinManiacGroup:
 	end_trainer
 
 	def_trainer PETRY, "Petry"
-	tr_mon 23, OMANYTE
+	tr_mon 23, TIRTOUGA
 	tr_mon 23, KABUTO
 	tr_mon 25, AERODACTYL
 	end_trainer
 
 	def_trainer GLYN, "Glyn"
-	tr_mon 25, OMASTAR
+	tr_mon 25, CARRACOSTA
 	tr_mon 25, KABUTOPS
 	end_trainer
 
@@ -6787,7 +6778,7 @@ CooltrainerMGroup:
 	end_trainer
 
 	def_trainer KEVIN, "Kevin"
-	tr_mon 54, RHYDON
+	tr_mon 54, NACLSTACK
 	tr_mon 56, PYROBOROS
 	tr_mon 56, RIVASTION
 	end_trainer
@@ -6856,7 +6847,7 @@ CooltrainerMGroup:
 	def_trainer COOLTRAINERM_COREY, "Corey"
 	tr_mon 63, PIDGEOT @ QUICK_CLAW
 		tr_evs 252 Atk, 132 Spe
-	tr_mon 62, RHYDON @ ROCKY_HELMET
+	tr_mon 62, NACLSTACK @ ROCKY_HELMET
 		tr_evs 252 HP, 132 Atk
 	tr_mon 62, SCYTHER @ EVIOLITE
 		tr_evs 252 Spe, 132 Atk
@@ -7511,13 +7502,6 @@ else
 		tr_evs 252 Atk, 164 Spe
 		tr_moves DOUBLE_EDGE, EARTHQUAKE, CRUNCH, REST
 endc
-	tr_mon 62, RHYDON @ EVIOLITE, MALE
-if !DEF(FAITHFUL)
-		tr_extra SOLID_ROCK, ATK_UP_SATK_DOWN
-else
-		tr_extra LIGHTNING_ROD, ATK_UP_SATK_DOWN
-endc
-		tr_moves ROCK_SLIDE, EARTHQUAKE, AVALANCHE, MEGAHORN
 	tr_mon 64, NIDOQUEEN @ LIFE_ORB, FEMALE
 		tr_extra SHEER_FORCE, SPE_UP_ATK_DOWN
 		tr_evs 252 Spe, 164 SAt
@@ -7604,32 +7588,22 @@ ProfFirGroup:
 
 	def_trainer_class PROF_FIR
 	def_trainer 1, "Fir"
-	tr_mon 65, BUTTERFREE @ FOCUS_SASH, FEMALE
-		tr_extra COMPOUND_EYES, SPE_UP_ATK_DOWN
-		tr_evs 252 Spe, 164 SAt
-		tr_moves SLEEP_POWDER, BUG_BUZZ, AIR_SLASH, PSYCHIC_M
-	tr_mon 64, POLITOED @ DAMP_ROCK, FEMALE
-		tr_extra DRIZZLE, SATK_UP_ATK_DOWN
-		tr_evs 252 SAt, 164 HP
-		tr_moves SCALD, GIGA_DRAIN, ICE_BEAM, FOCUS_BLAST
-	tr_mon 64, VICTREEBEL @ SITRUS_BERRY, FEMALE
-		tr_extra GLUTTONY, SPE_UP_ATK_DOWN
-		tr_evs 252 Spe, 164 HP
-		tr_moves SUBSTITUTE, SLEEP_POWDER, GIGA_DRAIN, SLUDGE_BOMB
-	tr_mon 63, RHYPERIOR @ CUSTAP_BERRY, FEMALE
-		tr_extra SOLID_ROCK, DEF_UP_SATK_DOWN
-		tr_evs 252 Atk, 164 HP
-		tr_moves STONE_EDGE, EARTHQUAKE, IRON_HEAD, ENDURE
-	tr_mon 63, NIDOQUEEN @ LIFE_ORB, FEMALE
-		tr_extra SHEER_FORCE, SPE_UP_ATK_DOWN
-		tr_evs 252 Spe, 164 SAt
-		tr_moves SLUDGE_BOMB, EARTH_POWER, ICE_BEAM, THUNDER
-	tr_mon 66, GYARADOS @ LEFTOVERS, FEMALE
-		tr_extra INTIMIDATE, SPE_UP_SATK_DOWN
-		tr_evs 252 Spe, 164 Atk
-		tr_moves WATERFALL, STONE_EDGE, EARTHQUAKE, DRAGON_DANCE
+	tr_mon 7, TIRTOUGA, MALE
 	end_trainer
 
+	; def_trainer 2, "Fir"
+	; tr_mon 72, CARRACOSTA @ AIR_BALLOON, MALE
+	; 	tr_evs 252 SAt, 4 Def, 252 Spe
+	; 	tr_moves ICE_BEAM, SURF, EARTH_POWER, SHELL_SMASH
+	; tr_mon 72, KABUTOPS @ FOCUS_SASH, MALE
+	; 	tr_extra WEAK_ARMOR, SPE_UP_SATK_DOWN
+	; 	tr_evs 252 Atk, 4 Def, 252 Spe
+	; 	tr_moves STONE_EDGE, WATERFALL, SWORDS_DANCE, LEECH_LIFE
+	; tr_mon 73, AERODACTYL @ LIFE_ORB, MALE
+	; 	tr_extra ROCK_HEAD, ATK_UP_SATK_DOWN
+	; 	tr_evs 252 Atk, 4 Def, 252 Spe
+	; 	tr_moves ROCK_SLIDE, EARTHQUAKE, BRAVE_BIRD, CRUNCH
+	; end_trainer
 
 ; SECTION "MysticalmanGroup", ROMX
 ; MysticalmanGroup:
@@ -9149,7 +9123,7 @@ YellowGroup:
 		tr_extra STURDY, ATK_UP_SATK_DOWN
 		tr_evs 240 HP
 		tr_moves ROLLOUT, DEFENSE_CURL, EARTHQUAKE, ROCK_BLAST
-	tr_mon LEVEL_FROM_BADGES + 4, "Omny", OMANYTE @ SITRUS_BERRY, FEMALE
+	tr_mon LEVEL_FROM_BADGES + 4, "Omny", TIRTOUGA @ SITRUS_BERRY, FEMALE
 		tr_extra SHELL_ARMOR, SATK_UP_ATK_DOWN
 		tr_evs 240 HP
 		tr_moves SURF, PROTECT, ANCIENTPOWER, AURORA_BEAM
@@ -9160,8 +9134,7 @@ YellowGroup:
 	end_trainer
 
 	def_trainer 2, "Yellow"
-	tr_mon 72, "Omny", OMASTAR @ FOCUS_SASH, FEMALE
-		tr_extra SHELL_ARMOR, SPE_UP_ATK_DOWN
+	tr_mon 72, "Omny", CARRACOSTA @ FOCUS_SASH, FEMALE
 		tr_evs 252 SAt, 4 Def, 252 Spe
 		tr_moves SCALD, ANCIENTPOWER, SPIKES, ICE_BEAM
 	tr_mon 73, "Ratty", RATICATE @ FLAME_ORB, FEMALE

@@ -12,11 +12,11 @@ ElmPhoneScript1:
 	iftruefwd .eggunhatched
 	checkevent EVENT_PAWPAWS_AIDE_IN_LAB
 	iftruefwd .assistant
-	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
+	checkevent EVENT_GAVE_DOSSIER_TO_PAWPAW
 	iftruefwd .checkingegg
 	checkevent EVENT_ELM_CALLED_ABOUT_STOLEN_POKEMON
 	iftruefwd .stolen
-	checkevent EVENT_GOT_MYSTERY_EGG_FROM_MR_POKEMON
+	checkevent EVENT_GOT_DOSSIER_FROM_POPLAR
 	iftruefwd .sawmrpokemon
 	farwritetext ElmPhoneStartText
 	end

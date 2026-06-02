@@ -11,7 +11,7 @@ BTTrainerClassGenders:
 	dbit FEMALE_BIT ; BUGSY
 	dbit FEMALE_BIT ; WHITNEY
 	dbit MALE_BIT   ; MORTY
-	dbit MALE_BIT   ; CHUCK
+	dbit MALE_BIT   ; RUSTY
 	dbit FEMALE_BIT ; JASMINE
 	dbit MALE_BIT   ; PRYCE
 	dbit FEMALE_BIT ; CLAIR
