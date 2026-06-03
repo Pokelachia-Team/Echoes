@@ -1,30 +1,30 @@
 if !DEF(MONOCHROME)
 ; POKEDEX
-    RGB 22, 08, 07
-    RGB 02, 09, 19
+    RGB 22, 08, 07	; #B04038
+    RGB 02, 09, 19	; #104898
 ; MAP_CARD
-    RGB 00, 00, 00 ; TODO
-    RGB 31, 31, 31 ; TODO
+    RGB 00, 00, 00	; TODO
+    RGB 31, 31, 31	; TODO
 ; RADIO_CARD
-    RGB 00, 00, 00 ; TODO
-    RGB 31, 31, 31 ; TODO
+    RGB 00, 00, 00	; TODO
+    RGB 31, 31, 31	; TODO
 ; EXPN_CARD
-    RGB 00, 00, 00 ; TODO
-    RGB 31, 31, 31 ; TODO
+    RGB 00, 00, 00	; TODO
+    RGB 31, 31, 31	; TODO
 ; POKEGEAR
 ; special case as Pokegear has NUM_PLAYER_GENDER palettes
     ; CHRIS
-    RGB 13, 23, 00
-    RGB 20, 21, 23
+    RGB 13, 23, 00	; #68B800
+    RGB 20, 21, 23	; #A0A8B8
     ; KRIS
-    RGB 31, 26, 07
-    RGB 31, 16, 19
+    RGB 31, 26, 07	; #F8D038
+    RGB 31, 16, 19	; #F88098
     ; CRYS
-    RGB 31, 26, 07
-    RGB 20, 21, 23
+    RGB 31, 26, 07	; #F8D038
+    RGB 20, 21, 23	; #A0A8B8
     ; KRYS
-    RGB 31, 26, 07
-    RGB 18, 11, 31
+    RGB 31, 26, 07	; #F8D038
+    RGB 18, 11, 31	; #9058F8
 else
 rept NUM_SPECIAL_ITEMS + NUM_PLAYER_GENDERS - 1
 	MONOCHROME_RGB_TWO

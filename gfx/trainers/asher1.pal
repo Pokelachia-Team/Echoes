@@ -1,3 +1,3 @@
 
-    RGB 16, 195, 04
-    RGB 30, 23, 19
+    RGB 16, 195, 04	; INVALID (channel out of 0-31 range)
+    RGB 30, 23, 19	; #F0B898
