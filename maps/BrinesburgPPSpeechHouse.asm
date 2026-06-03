@@ -13,8 +13,8 @@ BrinesburgPPSpeechHouse_MapScriptHeader:
 	bg_event  7,  1, BGEVENT_JUMPSTD, radio2
 
 	def_object_events
-	object_event  1,  4, SPRITE_FISHER, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgPPSpeechHouseFisherText, -1
-	object_event  5,  3, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_STANDING_LEFT, 1, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgPPSpeechHouseLassText, -1
+	object_event  0,  4, SPRITE_FISHER, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgPPSpeechHouseFisherText, -1
+	object_event  5,  4, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_STANDING_LEFT, 1, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgPPSpeechHouseLassText, -1
 
 BrinesburgPPSpeechHouseFisherText:
 	text "Once while I was"
