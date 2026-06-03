@@ -1,18 +1,18 @@
 if !DEF(MONOCHROME)
-	RGB 31, 19, 31
-	RGB 31, 25, 02 ; hp/exp label
-	RGB 04, 17, 31 ; exp bar
-	RGB 00, 00, 00
+	RGB 31, 19, 31	; #F898F8
+	RGB 31, 25, 02	; hp/exp label
+	RGB 04, 17, 31	; exp bar
+	RGB 00, 00, 00	; #000000
 
-	RGB 31, 29, 31
-	RGB 31, 19, 31
-	RGB 31, 31, 31
-	RGB 00, 00, 00
+	RGB 31, 29, 31	; #F8E8F8
+	RGB 31, 19, 31	; #F898F8
+	RGB 31, 31, 31	; #F8F8F8
+	RGB 00, 00, 00	; #000000
 
-	RGB 31, 29, 31
-	RGB 31, 25, 02 ; shiny
-	RGB 29, 07, 22 ; pokerus
-	RGB 00, 00, 00
+	RGB 31, 29, 31	; #F8E8F8
+	RGB 31, 25, 02	; shiny
+	RGB 29, 07, 22	; pokerus
+	RGB 00, 00, 00	; #000000
 else
 	RGB_MONOCHROME_LIGHT
 	RGB_MONOCHROME_LIGHT

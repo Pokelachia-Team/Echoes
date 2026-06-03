@@ -1,24 +1,24 @@
 if !DEF(MONOCHROME)
 ; red
-	RGB 31, 07, 01
+	RGB 31, 07, 01	; #F83808
 ; blue
-	RGB 10, 09, 31
+	RGB 10, 09, 31	; #5048F8
 ; yellow
-	RGB 31, 21, 02
+	RGB 31, 21, 02	; #F8A810
 ; green
-	RGB 07, 23, 03
+	RGB 07, 23, 03	; #38B818
 ; black
-	RGB 07, 07, 07
+	RGB 07, 07, 07	; #383838
 ; brown
-	RGB 15, 10, 03
+	RGB 15, 10, 03	; #785018
 ; purple
-	RGB 18, 04, 18
+	RGB 18, 04, 18	; #902090
 ; gray
-	RGB 13, 13, 13
+	RGB 13, 13, 13	; #686868
 ; white
-	RGB 26, 26, 26
+	RGB 26, 26, 26	; #D0D0D0
 ; pink
-	RGB 31, 10, 11
+	RGB 31, 10, 11	; #F85058
 else
 rept NUM_BODY_COLORS
 	RGB_MONOCHROME_BLACK

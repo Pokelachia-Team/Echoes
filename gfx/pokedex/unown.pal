@@ -1,15 +1,15 @@
 if !DEF(MONOCHROME)
 	; BG2: main unown mode coloring
-	RGB 31, 30, 21
-	RGB 25, 24, 15
-	RGB 31, 31, 31
-	RGB 00, 00, 00
+	RGB 31, 30, 21	; #F8F0A8
+	RGB 25, 24, 15	; #C8C078
+	RGB 31, 31, 31	; #F8F8F8
+	RGB 00, 00, 00	; #000000
 
 	; BG3: unown mode border + text areas
-	RGB 31, 31, 31
-	RGB 31, 30, 21
-	RGB 16, 14, 07
-	RGB 00, 00, 00
+	RGB 31, 31, 31	; #F8F8F8
+	RGB 31, 30, 21	; #F8F0A8
+	RGB 16, 14, 07	; #807038
+	RGB 00, 00, 00	; #000000
 else
 	RGB_MONOCHROME_WHITE
 	RGB_MONOCHROME_LIGHT

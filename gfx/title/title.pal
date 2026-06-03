@@ -1,87 +1,87 @@
 ; BG
 if !DEF(MONOCHROME)
-	RGB 00, 00, 00
-	RGB 20, 21, 22
-	RGB 09, 11, 12
-	RGB 04, 05, 06
+	RGB 00, 00, 00	; #000000
+	RGB 20, 21, 22	; #A0A8B0
+	RGB 09, 11, 12	; #485860
+	RGB 04, 05, 06	; #202830
 
-	RGB 00, 00, 00
-	RGB 31, 31, 31
-	RGB 31, 25, 25
-	RGB 26, 02, 02
+	RGB 00, 00, 00	; #000000
+	RGB 31, 31, 31	; #F8F8F8
+	RGB 31, 25, 25	; #F8C8C8
+	RGB 26, 02, 02	; #D01010
 
-	RGB 00, 00, 00
-	RGB 29, 28, 12
-	RGB 28, 25, 06
-	RGB 05, 07, 26
+	RGB 00, 00, 00	; #000000
+	RGB 29, 28, 12	; #E8E060
+	RGB 28, 25, 06	; #E0C830
+	RGB 05, 07, 26	; #2838D0
 
-	RGB 00, 00, 00
-	RGB 28, 25, 06
-	RGB 26, 21, 00
-	RGB 05, 07, 26
+	RGB 00, 00, 00	; #000000
+	RGB 28, 25, 06	; #E0C830
+	RGB 26, 21, 00	; #D0A800
+	RGB 05, 07, 26	; #2838D0
 
 ; Suicune Palette -- used by SuicunePalette in title.asm to replace the color of suicune_unown artwork in the area defined by hlbgcoord, aka slot 4, defined by ld, a 4 | BG_BANK1
 ; has been changed to copy the slot 0 palette with keeping red
-	RGB 00, 00, 00 
-	RGB 11, 02, 03 ; was RGB 26, 02, 02 
-	RGB 06, 08, 09 ; was RGB 15, 08, 31
-	RGB 04, 05, 06 ; was RGB 12, 07, 20
+	RGB 00, 00, 00	; #000000
+	RGB 11, 02, 03	; was RGB 26, 02, 02 
+	RGB 06, 08, 09	; was RGB 15, 08, 31
+	RGB 04, 05, 06	; was RGB 12, 07, 20
 
-	RGB 31, 31, 31
-	RGB 00, 00, 00
-	RGB 00, 00, 00
-	RGB 00, 00, 00
+	RGB 31, 31, 31	; #F8F8F8
+	RGB 00, 00, 00	; #000000
+	RGB 00, 00, 00	; #000000
+	RGB 00, 00, 00	; #000000
 
-	RGB 31, 31, 31
-	RGB 00, 00, 00
-	RGB 00, 00, 00
-	RGB 00, 00, 00
+	RGB 31, 31, 31	; #F8F8F8
+	RGB 00, 00, 00	; #000000
+	RGB 00, 00, 00	; #000000
+	RGB 00, 00, 00	; #000000
 
-	RGB 00, 00, 00
-	RGB 11, 11, 19
-	RGB 31, 31, 31
-	RGB 00, 00, 00
+	RGB 00, 00, 00	; #000000
+	RGB 11, 11, 19	; #585898
+	RGB 31, 31, 31	; #F8F8F8
+	RGB 00, 00, 00	; #000000
 
 ; OBJ
-	RGB 00, 00, 00 ; for crystal.png
-	RGB 18, 19, 15 ; light blue
-	RGB 15, 16, 12 ; darker
-	RGB 10, 12, 06 ; darkest
+	RGB 00, 00, 00	; for crystal.png
+	RGB 18, 19, 15	; light blue
+	RGB 15, 16, 12	; darker
+	RGB 10, 12, 06	; darkest
 
-	RGB 00, 00, 00
-	RGB 18, 19, 15 ;light 
-	RGB 15, 16, 12 ;darker
-	RGB 10, 12, 06 ;darkest
+	RGB 00, 00, 00	; #000000
+	RGB 18, 19, 15	;light 
+	RGB 15, 16, 12	;darker
+	RGB 10, 12, 06	;darkest
 
-	RGB 00, 00, 00
-	RGB 24, 27, 22
-	RGB 18, 19, 15
-	RGB 10, 12, 06
+	RGB 00, 00, 00	; #000000
+	RGB 24, 27, 22	; #C0D8B0
+	RGB 18, 19, 15	; #909878
+	RGB 10, 12, 06	; #506030
 
-	RGB 00, 00, 00 
-	RGB 18, 19, 15
-	RGB 15, 16, 12 
-	RGB 10, 12, 06 
+	RGB 00, 00, 00	; #000000
+	RGB 18, 19, 15	; #909878
+	RGB 15, 16, 12	; #788060
+	RGB 10, 12, 06	; #506030
 
-	RGB 00, 00, 00
-	RGB 19, 29, 31
-	RGB 07, 13, 19
-	RGB 00, 00, 00
+	RGB 00, 00, 00	; #000000
+	RGB 19, 29, 31	; #98E8F8
+	RGB 07, 13, 19	; #386898
+	RGB 00, 00, 00	; #000000
 
-	RGB 31, 31, 31
-	RGB 00, 00, 00
-	RGB 00, 00, 00
-	RGB 00, 00, 00
+	RGB 31, 31, 31	; #F8F8F8
+	RGB 00, 00, 00	; #000000
+	RGB 00, 00, 00	; #000000
+	RGB 00, 00, 00	; #000000
 
-	RGB 31, 31, 31
-	RGB 00, 00, 00
-	RGB 00, 00, 00
-	RGB 00, 00, 00
+	RGB 31, 31, 31	; #F8F8F8
+	RGB 00, 00, 00	; #000000
+	RGB 00, 00, 00	; #000000
+	RGB 00, 00, 00	; #000000
 
-	RGB 31, 31, 31
-	RGB 00, 00, 00
-	RGB 00, 00, 00
-	RGB 00, 00, 00
+	RGB 31, 31, 31	; #F8F8F8
+	RGB 00, 00, 00	; #000000
+	RGB 00, 00, 00	; #000000
+	RGB 00, 00, 00	; #000000
 else
 	RGB_MONOCHROME_BLACK
 	RGB_MONOCHROME_LIGHT

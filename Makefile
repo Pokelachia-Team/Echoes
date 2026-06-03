@@ -96,12 +96,12 @@ crystal_obj    := $(rom_obj:.o=.o)
 crystal_vc_obj := $(rom_obj:.o=_vc.o)
 
 .SUFFIXES:
-.PHONY: clean tidy crystal faithful pocket debug monochrome freespace tools bsp huffman vc
+.PHONY: clean tidy crystal faithful pocket debug monochrome freespace tools bsp huffman vc pal_annotation
 .PRECIOUS: %.2bpp %.1bpp
 .SECONDARY:
 .DEFAULT_GOAL: crystal
 
-crystal: $$(ROM_NAME).$$(EXTENSION)
+crystal: pal_annotation $$(ROM_NAME).$$(EXTENSION)
 faithful: crystal
 monochrome: crystal
 noir: crystal
@@ -131,6 +131,10 @@ freespace: crystal tools/bankends
 bsp: $(ROM_NAME).bsp
 
 huffman: crystal
+
+pal_annotation:
+	@python3 tools/annotate_pal.py gfx
+
 
 
 rgbdscheck.o: rgbdscheck.asm
