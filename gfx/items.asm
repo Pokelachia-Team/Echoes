@@ -719,8 +719,8 @@ CoinCaseIcon:: INCBIN "gfx/items/coin_case.2bpp.lzp"
 SECTION "ItemfinderIcon", ROMX
 ItemfinderIcon:: INCBIN "gfx/items/itemfinder.2bpp.lzp"
 
-SECTION "MysteryEggIcon", ROMX
-MysteryEggIcon:: INCBIN "gfx/items/mystery_egg.2bpp.lzp"
+SECTION "ProfDossierIcon", ROMX
+ProfDossierIcon:: INCBIN "gfx/items/prof_dossier.2bpp.lzp"
 
 SECTION "SquirtBottleIcon", ROMX
 SquirtBottleIcon:: INCBIN "gfx/items/squirtbottle.2bpp.lzp"

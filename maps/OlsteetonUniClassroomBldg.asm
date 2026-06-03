@@ -6,13 +6,14 @@ OlsteetonUniClassroomBldg_MapScriptHeader:
 	def_warp_events
 	warp_event 12, 13, OLSTEETON_UNI, 6
 	warp_event 13, 13, OLSTEETON_UNI, 6
-	warp_event  9,  0, OLSTEETON_UNI_CLASSROOM_BIOLOGY, 1
+	warp_event  9,  0, OLSTEETON_UNI_CLASSROOM_BIO, 1
 	warp_event 17,  0, OLSTEETON_UNI_CLASSROOM_ART, 1
 	warp_event 21,  0, OLSTEETON_UNI_CLASSROOM_BUSINESS, 1
 	warp_event  3,  8, OLSTEETON_UNI_CLASSROOM_STRATEGY, 1
 	warp_event  7,  8, OLSTEETON_UNI_CLASSROOM_HISTORY, 1
 	warp_event 19,  8, OLSTEETON_UNI_CLASSROOM_THEORY, 1
 	warp_event 25, 11, OLSTEETON_UNI_OFFICE, 1
+	warp_event  0, 11, OLSTEETON_UNI_OFFICE, 8
 
 
 

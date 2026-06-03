@@ -4,8 +4,8 @@ OlsteetonUniOfficeTA_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  5,  7, OLSTEETON_UNI_OFFICE, 12
-	warp_event  6,  7, OLSTEETON_UNI_OFFICE, 12
+	warp_event  5,  7, OLSTEETON_UNI_OFFICE, 7
+	warp_event  6,  7, OLSTEETON_UNI_OFFICE, 7
 
 	def_coord_events
 

@@ -139,7 +139,7 @@
 	tilecoll WALL, WALL, WALL, DOOR ; 8a
 	tilecoll WALL, WALL, MART_SIGN, WALL ; 8b
 	tilecoll HEADBUTT_TREE, HEADBUTT_TREE, HEADBUTT_TREE, FLOOR ; 8c
-	tilecoll FLOOR, FLOOR, FLOOR, WALL ; 8d
+	tilecoll WATER, WATER, WATER, WATER ; 8d
 	tilecoll FLOOR, FLOOR, WARP_CARPET_DOWN, WARP_CARPET_DOWN ; 8e
 	tilecoll FLOOR, WALL, FLOOR, FLOOR ; 8f
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 90
@@ -210,7 +210,7 @@
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; d1
 	tilecoll FLOOR, TOP_WALL, FLOOR, FLOOR ; d2
 	tilecoll WALL, WALL, FLOOR, WALL ; d3
-	tilecoll FLOOR, FLOOR, CAVE, WALL ; d4
+	tilecoll TOP_WALL, TOP_WALL, FLOOR, FLOOR ; d4
 	tilecoll WALL, WALL, WALL, WALL ; d5
 	tilecoll WALL, WALL, WALL, WALL ; d6
 	tilecoll WALL, WALL, WALL, WALL ; d7

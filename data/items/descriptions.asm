@@ -272,7 +272,7 @@ KeyItemDescriptions:
 	dw BlueCardDesc
 	dw SquirtBottleDesc
 	dw SilphScope2Desc
-	dw MysteryEggDesc
+	dw ProfDossierDesc
 	dw SecretPotionDesc
 	dw GoGogglesDesc
 	dw RedScaleDesc
@@ -1551,9 +1551,9 @@ ItemfinderDesc:
 	next "items in the area."
 	done
 
-MysteryEggDesc:
-	text "An Egg obtained"
-	next "from Mr.#mon."
+ProfDossierDesc:
+	text "File of important"
+	next "docs from Poplar."
 	done
 
 SquirtBottleDesc:
