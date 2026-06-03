@@ -272,7 +272,7 @@ PokemonCries::
 	mon_cry CRY_WOOPER,      $053,  $0af ; Weavile
 	mon_cry CRY_METAPOD,     $020,  $140 ; Magnezone
 	mon_cry CRY_SEEL,        $000,  $100 ; Lickilicky
-	mon_cry CRY_RHYDON,      $000,  $100 ; Rhyperior
+	mon_cry CRY_RHYDON,      $000,  $100 ; Garganacl
 	mon_cry CRY_GIGALITH,       $000,  $100 ; Tangrowth
 	mon_cry CRY_VOLTORB,     $08f,  $17f ; Electivire
 	mon_cry CRY_FLIKLIT,  $0ff,  $0b0 ; Magmortar

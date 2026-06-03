@@ -270,7 +270,7 @@ MiniIconPointers:
 	mini_icon Weavile
 	mini_icon Magnezone
 	mini_icon Lickilicky
-	mini_icon Rhyperior
+	mini_icon Garganacl
 	mini_icon Tangrowth
 	mini_icon Electivire
 	mini_icon Magmortar

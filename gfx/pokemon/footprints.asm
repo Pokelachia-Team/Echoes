@@ -97,7 +97,8 @@ DebriteFootprint::
 CastorchFootprint:: 
 AugurothFootprint:: 
 NacliFootprint::
-NaclstackFootprint:: INCBIN "gfx/footprints/blank.1bpp.lzp"
+NaclstackFootprint::
+GarganaclFootprint:: INCBIN "gfx/footprints/blank.1bpp.lzp"
 
 
 CupicoFootprint:: INCBIN "gfx/footprints/cupico.1bpp.lzp"
@@ -283,7 +284,6 @@ NofawtsFootprint:: INCBIN "gfx/footprints/nofawts.1bpp.lzp"
 MunchlaxFootprint:: INCBIN "gfx/footprints/munchlax.1bpp.lzp"
 WeavileFootprint:: INCBIN "gfx/footprints/weavile.1bpp.lzp"
 LickilickyFootprint:: INCBIN "gfx/footprints/lickilicky.1bpp.lzp"
-RhyperiorFootprint:: INCBIN "gfx/footprints/rhyperior.1bpp.lzp"
 TangrowthFootprint:: INCBIN "gfx/footprints/tangrowth.1bpp.lzp"
 ElectivireFootprint:: INCBIN "gfx/footprints/electivire.1bpp.lzp"
 MagmortarFootprint:: INCBIN "gfx/footprints/magmortar.1bpp.lzp"

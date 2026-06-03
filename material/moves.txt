@@ -10,7 +10,7 @@ Qwilfish: Astonish
 Heracross: Rock Blast
 Munchlax: Pursuit
 
-Rhyperior: Submission, Wild Charge
+Garganacl: Submission, Wild Charge
 
 Houndoom: Bonemerang
 Qwilfish: Selfdestruct
@@ -77,7 +77,7 @@ Mewtwo: Power Gem
 
 Egg:
 Roggenrola/Boldore/Gigalith: Rock Slide
-Nacli/Rhydon/Rhyperior: Crunch
+Nacli/Rhydon/Garganacl: Crunch
 
 RBY TM:
 Mankey/Primeape: Metronome

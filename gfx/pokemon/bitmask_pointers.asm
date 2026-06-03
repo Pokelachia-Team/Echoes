@@ -266,7 +266,7 @@ BitmasksPointers:
 	dw WeavileBitmasks
 	dw MagnezoneBitmasks
 	dw LickilickyBitmasks
-	dw RhyperiorBitmasks
+	dw GarganaclBitmasks
 	dw TangrowthBitmasks
 	dw ElectivireBitmasks
 	dw MagmortarBitmasks

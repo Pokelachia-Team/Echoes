@@ -700,10 +700,10 @@ MagnezoneFrontpic: INCBIN "gfx/pokemon/magnezone/front.animated.2bpp.lzp"
 MagnezoneBackpic:  INCBIN "gfx/pokemon/magnezone/back.2bpp.lzp"
 MagnezoneFrames:   INCLUDE "gfx/pokemon/magnezone/frames.asm"
 
-SECTION "Rhyperior Pics", ROMX
-RhyperiorFrontpic: INCBIN "gfx/pokemon/rhyperior/front.animated.2bpp.lzp"
-RhyperiorBackpic:  INCBIN "gfx/pokemon/rhyperior/back.2bpp.lzp"
-RhyperiorFrames:   INCLUDE "gfx/pokemon/rhyperior/frames.asm"
+SECTION "Garganacl Pics", ROMX
+GarganaclFrontpic: INCBIN "gfx/pokemon/garganacl/front.animated.2bpp.lzp"
+GarganaclBackpic:  INCBIN "gfx/pokemon/garganacl/back.2bpp.lzp"
+GarganaclFrames:   INCLUDE "gfx/pokemon/garganacl/frames.asm"
 
 SECTION "Tangrowth Pics", ROMX
 TangrowthFrontpic: INCBIN "gfx/pokemon/tangrowth/front.animated.2bpp.lzp"

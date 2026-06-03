@@ -270,7 +270,7 @@ EvosAttacksPointers::
 	dw WeavileEvosAttacks
 	dw MagnezoneEvosAttacks
 	dw LickilickyEvosAttacks
-	dw RhyperiorEvosAttacks
+	dw GarganaclEvosAttacks
 	dw TangrowthEvosAttacks
 	dw ElectivireEvosAttacks
 	dw MagmortarEvosAttacks

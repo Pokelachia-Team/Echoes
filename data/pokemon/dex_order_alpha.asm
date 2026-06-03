@@ -217,7 +217,7 @@ AlphabeticalPokedexOrder:
 	dp REMORAID
 	dp NACLSTACK
 	dp NACLI
-	dp RHYPERIOR
+	dp GARGANACL
 	dp RIVASTION
 	dp RIVEBLOK
 	dp SANDSHREW

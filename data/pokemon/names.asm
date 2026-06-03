@@ -267,7 +267,7 @@ PokemonNames::
 	rawchar "Weavile@@@"
 	rawchar "Magnezone@"
 	rawchar "Lickilicky"
-	rawchar "Rhyperior@"
+	rawchar "Garganacl@"
 	rawchar "Tangrowth@"
 	rawchar "Electivire"
 	rawchar "Magmortar@"

@@ -289,7 +289,7 @@
 	const WEAVILE    ; 108
 	const MAGNEZONE  ; 109
 	const LICKILICKY ; 10a
-	const RHYPERIOR  ; 10b
+	const GARGANACL  ; 10b
 	const TANGROWTH  ; 10c
 	const ELECTIVIRE ; 10d
 	const MAGMORTAR  ; 10e

@@ -19,7 +19,7 @@ FuryAttackUsers:
 	dp PILOSWINE
 	dp SKARMORY
 	dp DONPHAN
-	dp RHYPERIOR
+	dp GARGANACL
 	dp MAMOSWINE
 	dp DUDUNSPARCE
 	dw 0

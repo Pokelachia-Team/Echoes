@@ -200,7 +200,7 @@ For the authoritative, per-species rules and the complete list of included Poké
 * Dunsparce is Normal/Ground.
 * Electivire is Electric/Fighting.
 * Magmortar is Fire/Fighting.
-* Rhyperior is Steel/Rock.
+* Garganacl is Steel/Rock.
 * Mismagius is Ghost/Fairy.
 
 ### Moves

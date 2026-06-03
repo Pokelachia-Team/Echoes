@@ -2411,7 +2411,7 @@ endc
 	learnset 45, STONE_EDGE
 
 	evos_attacks Naclstack
-	evo_data EVOLVE_LEVEL, 20, RHYPERIOR
+	evo_data EVOLVE_LEVEL, 20, GARGANACL
 	learnset 1, TACKLE
 	learnset 1, MUD_SLAP
 	learnset 1, DEFENSE_CURL 
@@ -5385,8 +5385,7 @@ endc
 	learnset 57, BELLY_DRUM ; Wring Out → egg move
 	learnset 61, GYRO_BALL
 
-	evos_attacks Rhyperior
-	learnset 1, OUTRAGE ; Hammer Arm → HGSS tutor move ; evolution move
+	evos_attacks Garganacl
 	learnset 1, POISON_JAB
 	learnset 1, TACKLE
 	learnset 1, MUD_SLAP ; Sand-Attack → similar move
@@ -5404,7 +5403,6 @@ endc
 	learnset 41, DOUBLE_EDGE ; Double Edge → event move
 	learnset 48, EARTHQUAKE
 	learnset 55, CLOSE_COMBAT ; Megahorn → new move
-	learnset 62, MEGAHORN ; Horn Drill → Megahorn
 	learnset 69, ROCK_SLIDE ; Rock Wrecker → similar move
 
 	evos_attacks Tangrowth

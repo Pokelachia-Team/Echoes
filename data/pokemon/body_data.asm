@@ -273,7 +273,7 @@ PokemonBodyData:
 	body_data  11,  340, BIPEDAL_TAIL, BLACK  ; WEAVILE
 	body_data  12, 1800, HEAD_ARMS,    GRAY   ; MAGNEZONE
 	body_data  17, 1400, BIPEDAL,      PINK   ; LICKILICKY
-	body_data  24, 2828, BIPEDAL_TAIL, GRAY   ; RHYPERIOR
+	body_data  24, 2828, BIPEDAL_TAIL, GRAY   ; GARGANACL
 	body_data  20, 1286, BIPEDAL,      BLUE   ; TANGROWTH
 	body_data  18, 1386, BIPEDAL_TAIL, YELLOW ; ELECTIVIRE
 	body_data  16,  680, BIPEDAL_TAIL, RED    ; MAGMORTAR
