@@ -1,18 +1,8 @@
-if DEF(FAITHFUL)
-	bst 452, 100,  50,  50,  86,  96,  70
-	;   bst   hp  atk  def  sat  sdf  spe
-else
 	bst 462, 100,  50,  50,  96,  96,  70
 	;   bst   hp  atk  def  sat  sdf  spe
-endc
 
-if DEF(FAITHFUL)
-	db NORMAL, FLYING ; type
-	db 90 ; catch rate
-else
-	db GHOST, FLYING ; type
+	db PSYCHIC, FLYING ; type
 	db 80 ; catch rate
-endc
 	db 162 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_FAST ; gender ratio, step cycles to hatch

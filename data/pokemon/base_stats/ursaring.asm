@@ -1,7 +1,7 @@
 	bst 500,  90, 130,  75,  75,  75,  55
 	;   bst   hp  atk  def  sat  sdf  spe
 
-	db NORMAL, NORMAL ; type
+	db DARK, NORMAL ; type
 	db 60 ; catch rate
 	db 189 ; base exp
 	db ALWAYS_ITEM_2, SITRUS_BERRY ; held items
