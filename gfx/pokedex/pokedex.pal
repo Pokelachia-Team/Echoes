@@ -1,51 +1,51 @@
 if !DEF(MONOCHROME)
 	; BG0: main areas
-	RGB 31, 31, 31
-	RGB 23, 23, 23
-	RGB 26, 10, 06
-	RGB 00, 00, 00
+	RGB 31, 31, 31	; #F8F8F8
+	RGB 23, 23, 23	; #B8B8B8
+	RGB 26, 10, 06	; #D05030
+	RGB 00, 00, 00	; #000000
 
 	; BG1: blue areas
-	RGB 31, 31, 31
-	RGB 23, 23, 23
-	RGB 00, 00, 00
-	RGB 11, 14, 31
+	RGB 31, 31, 31	; #F8F8F8
+	RGB 23, 23, 23	; #B8B8B8
+	RGB 00, 00, 00	; #000000
+	RGB 11, 14, 31	; #5870F8
 
 	; BG4: vwf text
-	RGB 31, 31, 31
-	RGB 23, 23, 23
-	RGB 16, 16, 16
-	RGB 00, 00, 00
+	RGB 31, 31, 31	; #F8F8F8
+	RGB 23, 23, 23	; #B8B8B8
+	RGB 16, 16, 16	; #808080
+	RGB 00, 00, 00	; #000000
 
 	; BG5: misc pals
-	RGB 31, 31, 31
-	RGB 31, 12, 06 ; female
-	RGB 04, 17, 31 ; male
-	RGB 31, 26, 00 ; EV yield
+	RGB 31, 31, 31	; #F8F8F8
+	RGB 31, 12, 06	; female
+	RGB 04, 17, 31	; male
+	RGB 31, 26, 00	; EV yield
 
 	; OB0: cursor + balls
 	; RGB 31, 31, 31
-	RGB 31, 31, 31
-	RGB 26, 10, 06
-	RGB 00, 00, 00
+	RGB 31, 31, 31	; #F8F8F8
+	RGB 26, 10, 06	; #D05030
+	RGB 00, 00, 00	; #000000
 
 	; OB1: scrollbar
-	RGB 31, 31, 31
-	RGB 31, 31, 31
-	RGB 11, 14, 31
-	RGB 00, 00, 00
+	RGB 31, 31, 31	; #F8F8F8
+	RGB 31, 31, 31	; #F8F8F8
+	RGB 11, 14, 31	; #5870F8
+	RGB 00, 00, 00	; #000000
 
 	; OB2: highlighted nest + unown mode cursor
-	RGB 31, 31, 31
-	RGB 07, 16, 26 ; unown mode cursor
-	RGB 31, 29, 05 ; nest highlight coloring
-	RGB 00, 00, 00
+	RGB 31, 31, 31	; #F8F8F8
+	RGB 07, 16, 26	; unown mode cursor
+	RGB 31, 29, 05	; nest highlight coloring
+	RGB 00, 00, 00	; #000000
 
 	; OB3: nests
-	RGB 31, 31, 31
-	RGB 31, 31, 31
-	RGB 26, 10, 06
-	RGB 00, 00, 00
+	RGB 31, 31, 31	; #F8F8F8
+	RGB 31, 31, 31	; #F8F8F8
+	RGB 26, 10, 06	; #D05030
+	RGB 00, 00, 00	; #000000
 else
 	; BG0
 	MONOCHROME_RGB_FOUR
