@@ -1332,10 +1332,10 @@ LickilickyMini::     INCBIN "gfx/minis/lickilicky.2bpp.lzp"
 LickilickyMiniMask:: INCBIN "gfx/minis/lickilicky_mask.1bpp.lzp"
 LickilickyIcon::     INCBIN "gfx/icons/lickilicky.2bpp.lzp"
 
-SECTION "Rhyperior Mini Icon", ROMX
-RhyperiorMini::     INCBIN "gfx/minis/rhyperior.2bpp.lzp"
-RhyperiorMiniMask:: INCBIN "gfx/minis/rhyperior_mask.1bpp.lzp"
-RhyperiorIcon::     INCBIN "gfx/icons/rhyperior.2bpp.lzp"
+SECTION "Garganacl Mini Icon", ROMX
+GarganaclMini::     INCBIN "gfx/minis/garganacl.2bpp.lzp"
+GarganaclMiniMask:: INCBIN "gfx/minis/garganacl_mask.1bpp.lzp"
+GarganaclIcon::     INCBIN "gfx/icons/garganacl.2bpp.lzp"
 
 SECTION "Tangrowth Mini Icon", ROMX
 TangrowthMini::     INCBIN "gfx/minis/tangrowth.2bpp.lzp"

@@ -267,7 +267,7 @@ PokedexDataPointerTable:
 	dba WeavilePokedexEntry
 	dba MagnezonePokedexEntry
 	dba LickilickyPokedexEntry
-	dba RhyperiorPokedexEntry
+	dba GarganaclPokedexEntry
 	dba TangrowthPokedexEntry
 	dba ElectivirePokedexEntry
 	dba MagmortarPokedexEntry

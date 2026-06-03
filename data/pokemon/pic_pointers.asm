@@ -270,7 +270,7 @@ PokemonPicPointers::
 	pics Weavile
 	pics Magnezone
 	pics Lickilicky
-	pics Rhyperior
+	pics Garganacl
 	pics Tangrowth
 	pics Electivire
 	pics Magmortar

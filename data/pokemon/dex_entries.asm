@@ -1112,13 +1112,14 @@ NacliPokedexEntry::
 
 SECTION "NaclstackPokedexEntry", ROMX
 NaclstackPokedexEntry::
-	db "Drill@"
-	db   "By lightly spin-"
-	next "ning its drill-"
-	next "like horn, it can"
-	page "easily shatter"
-	next "even a diamond in"
-	next "the rough.@"
+	db "Rock Salt@"
+	db   "It compresses salt"
+	next "inside its body"
+	next "and shoots"
+	page "hardened salt pel-"
+	next "lets with enough"
+	next "force to perforate"
+	next "an iron sheet.@"
 
 SECTION "FluttrfawnPokedexEntry", ROMX
 FluttrfawnPokedexEntry::
@@ -2640,15 +2641,15 @@ LickilickyPokedexEntry::
 	next "solvent that"
 	next "causes numbness.@"
 
-SECTION "RhyperiorPokedexEntry", ROMX
-RhyperiorPokedexEntry::
-	db "Drill@"
-	db   "From holes in its"
-	next "palms, it fires"
-	next "out Geodude. Its"
-	page "carapace can with-"
-	next "stand volcanic"
-	next "eruptions.@"
+SECTION "GarganaclPokedexEntry", ROMX
+GarganaclPokedexEntry::
+	db "Rock Salt@"
+	db   "Salt obtained from"
+	next "Garganacl has many"
+	next "restorative elem-"
+	page "ents & is helpful"
+	next "for maintaining"
+	next "one's health."
 
 SECTION "TangrowthPokedexEntry", ROMX
 TangrowthPokedexEntry::

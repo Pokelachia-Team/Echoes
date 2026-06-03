@@ -266,7 +266,7 @@ FootprintPointers::
 	dw WeavileFootprint
 	dw MagnezoneFootprint
 	dw LickilickyFootprint
-	dw RhyperiorFootprint
+	dw GarganaclFootprint
 	dw TangrowthFootprint
 	dw ElectivireFootprint
 	dw MagmortarFootprint

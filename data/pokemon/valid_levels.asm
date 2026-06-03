@@ -271,7 +271,7 @@ endc
 	db  40, 100 ; Weavile
 	db  50, 100 ; Magnezone
 	db  35, 100 ; Lickilicky
-	db  55, 100 ; Rhyperior
+	db  55, 100 ; Garganacl
 	db  39, 100 ; Tangrowth
 	db  47, 100 ; Electivire
 	db  47, 100 ; Magmortar

@@ -266,7 +266,7 @@ EggSpeciesMovesPointers::
 	dw SneaselEggSpeciesMoves           ; Weavile
 	dw MagnemiteEggSpeciesMoves         ; Magnezone
 	dw LickitungEggSpeciesMoves         ; Lickilicky
-	dw NacliEggSpeciesMoves           ; Rhyperior
+	dw NacliEggSpeciesMoves           ; Garganacl
 	dw TangelaEggSpeciesMoves           ; Tangrowth
 	dw ElekidEggSpeciesMoves            ; Electivire
 	dw MagbyEggSpeciesMoves             ; Magmortar

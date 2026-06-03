@@ -266,7 +266,7 @@ AnimationPointers:
 	dw WeavileAnimation
 	dw MagnezoneAnimation
 	dw LickilickyAnimation
-	dw RhyperiorAnimation
+	dw GarganaclAnimation
 	dw TangrowthAnimation
 	dw ElectivireAnimation
 	dw MagmortarAnimation

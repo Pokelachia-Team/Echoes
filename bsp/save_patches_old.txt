@@ -262,7 +262,7 @@ AdjustMonAndMoveIndexesPostBuild4:
 	dw .build4_1
 	dw .build4_2
 	dw .build4_3
-	dw AdjustRhyperiorIndex ; build4_4
+	dw AdjustGarganaclIndex ; build4_4
 	dw DoNothing ; build4_5
 	
 .build4_0
@@ -274,7 +274,7 @@ AdjustMonAndMoveIndexesPostBuild4:
 .build4_3
 	call CeruleanCapeYellowForestSpawnFlags
 	; fallthrough
-AdjustRhyperiorIndex:
+AdjustGarganaclIndex:
 	set #r0, .mon_adjust_table
 	jump AdjustPokemonIndexes
 
@@ -283,7 +283,7 @@ AdjustRhyperiorIndex:
 	; terminated by -1
 	dh 0xae, 0  ; MAGNEZONE
 	dh 0xb5, 1  ; BELLOSSOM
-	dh 0xb6, -7 ; RHYPERIOR
+	dh 0xb6, -7 ; GARGANACL
 	dh -1
 
 AdjustDoozeeAndEeveelutionIndexes:

@@ -7,7 +7,7 @@
 	db NO_ITEM, AMULET_COIN ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for MEOWTH, STEELY_SPIRIT, TECHNICIAN, UNNERVE
+	abilities_for MEOWTH, TOUGH_CLAWS, TECHNICIAN, UNNERVE
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 

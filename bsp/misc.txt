@@ -121,7 +121,7 @@ PrintBuild4VersionCheck:
 .build4_2_dex:
 	string "(same as 4.1): "
 .build4_5_dex:
-	string "(Rhyperior index moved): "
+	string "(Garganacl index moved): "
 .horizontal_tab
 	string "    " ; note that these are hard spaces (0xff)
 

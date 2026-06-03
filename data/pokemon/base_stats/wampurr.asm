@@ -1,18 +1,13 @@
-if DEF(FAITHFUL)
-	bst 440,  65,  60,  60,  75,  65, 115
+	bst 525,  90,  100,  80,  75,  80, 100
 	;   bst   hp  atk  def  sat  sdf  spe
-else
-	bst 460,  65,  70,  60,  85,  65, 115
-	;   bst   hp  atk  def  sat  sdf  spe
-endc
 
-	db DARK, DARK ; type
+	db DARK, FIGHTING ; type
 	db 90 ; catch rate
 	db 148 ; base exp
 	db NO_ITEM, QUICK_CLAW ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for PERSIAN_ALOLAN, FUR_COAT, TECHNICIAN, RATTLED
+	abilities_for WAMPURR, FUR_COAT, IRON_FIST, TECHNICIAN
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 
