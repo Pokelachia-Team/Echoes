@@ -37,7 +37,7 @@
 	const EVENT_GOT_GOOD_ROD
 	const EVENT_GOT_SUPER_ROD
 
-; Johto story events
+; Folkora story events
 	const EVENT_GOT_A_POKEMON_FROM_PAWPAW
 	const EVENT_CHOOSE_POKEMON
 	const EVENT_GOT_FLIKLIT_FROM_PAWPAW

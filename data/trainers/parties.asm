@@ -324,37 +324,13 @@ RustyGroup:
 
 	def_trainer_class RUSTY
 	def_trainer 1, "Rusty"
-	tr_mon 30, PRIMEAPE, MALE
-		tr_extra DEFIANT
-		tr_evs 160 Atk
-		tr_moves KARATE_CHOP, SEISMIC_TOSS, FEINT_ATTACK, DYNAMICPUNCH
-	tr_mon 29, FARFETCH_D, MALE | GALARIAN_FORM
-		tr_extra STEADFAST
-		tr_evs 160 Atk
-if DEF(FAITHFUL)
-		tr_moves ROCK_SMASH, BODY_SLAM, FEINT_ATTACK, SWORDS_DANCE
-else
-		tr_moves REVERSAL, BODY_SLAM, FEINT_ATTACK, SWORDS_DANCE
-endc
-	tr_mon 28, HITMONTOP, MALE
-		tr_extra INTIMIDATE
-		tr_evs 160 Atk
-		tr_moves BULK_UP, SUCKER_PUNCH, DOUBLE_KICK, RAPID_SPIN
-	tr_mon 31, POLIWRATH @ ZOOM_LENS, MALE
-		tr_extra WATER_ABSORB
-		tr_evs 160 Atk
-		tr_moves ICE_PUNCH, HYPNOSIS, WATERFALL, DYNAMICPUNCH
+	tr_mon 7, MEOWTH @ ORAN_BERRY, MALE | GALARIAN_FORM
+	tr_mon 8, SLUGMA, MALE
+	tr_mon 9, DEBRITE @ CHARCOAL, MALE
 	end_trainer
 
 	def_trainer 2, "Rusty"
 	tr_mon 71, ANNIHILAPE @ CHOICE_SCARF, MALE
-if DEF(FAITHFUL)
-		tr_extra DEFIANT, ATK_UP_SATK_DOWN
-else
-		tr_extra GORILLA_TACTICS, ATK_UP_SATK_DOWN
-endc
-		tr_evs 252 Atk, 4 Def, 252 Spe
-		tr_moves SHADOW_CLAW, CLOSE_COMBAT, STONE_EDGE, U_TURN
 	tr_mon 73, SIRFETCH_D @ LEEK, MALE
 		tr_extra SCRAPPY, ATK_UP_SATK_DOWN
 		tr_evs 252 HP, 252 Atk, 4 SDf
