@@ -29,7 +29,7 @@ Hollowport_MapScriptHeader:
 	bg_event  4, 12, BGEVENT_ITEM + NUGGET, EVENT_HOLLOWPORT_HIDDEN_NUGGET
 
 	def_object_events
-	object_event  2,  8, SPRITE_ROCKET, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, Text_HollowportThief, -1
+	object_event  2,  8, SPRITE_ROCKET, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, Text_HollowportThief, EVENT_GOT_POKEDEX_FROM_POPLAR
 	object_event 11,  8, SPRITE_BROOKE, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_BROOKE_HOLLOWPORT
 	object_event 14,  4, SPRITE_ELDER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, HollowportElderScript, -1
 	object_event 11, 14, SPRITE_FAT_GUY, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, Text_Technologia, -1
@@ -86,6 +86,7 @@ Hollowport_BrookeIntroTrigger:
 	playsound SFX_EXIT_BUILDING
 	disappear HOLLOWPORT_BROOKE
 	setscene SCENE_HOLLOWPORT_NOOP
+	setevent EVENT_FOUGHT_FIELD_LAB_MAGIGOON
 	special FadeOutPalettes
 	pause 15
 	warpfacing UP, FIELD_LAB, 7, 8

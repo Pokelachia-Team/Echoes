@@ -6,6 +6,7 @@ FieldLab_MapScriptHeader:
 	scene_script FieldLabUnusedScene, SCENE_FIELDLAB_UNUSED
 	scene_script FieldLabAideGivesPotionScene, SCENE_FIELDLAB_AIDE_GIVES_POTION
 	scene_script FieldLabBrookeBattleScene, SCENE_FIELDLAB_BROOKE_BATTLE
+	scene_script FieldLabMagiGoonBattleScene, SCENE_FIELDLAB_MAGIGOON_BATTLE
 	; scene_script FieldLabAideGivesPokeBallsScene, SCENE_FIELDLAB_AIDE_GIVES_POKE_BALLS
 
 	def_callbacks
@@ -18,6 +19,8 @@ FieldLab_MapScriptHeader:
 	def_coord_events
 	coord_event  6,  5, SCENE_FIELDLAB_CANT_LEAVE, FieldLabTryToLeaveScript
 	coord_event  7,  5, SCENE_FIELDLAB_CANT_LEAVE, FieldLabTryToLeaveScript2
+	coord_event  6,  4, SCENE_FIELDLAB_MAGIGOON_BATTLE, FieldLabMagiGoonScript
+	coord_event  7,  4, SCENE_FIELDLAB_MAGIGOON_BATTLE, FieldLabMagiGoonScript2
 	coord_event  6,  6, SCENE_FIELDLAB_AIDE_GIVES_POTION, AideScript_WalkPotions1
 	coord_event  7,  6, SCENE_FIELDLAB_AIDE_GIVES_POTION, AideScript_WalkPotions2
 	coord_event  6,  4, SCENE_FIELDLAB_BROOKE_BATTLE, BrookeBattleScript
@@ -45,7 +48,9 @@ FieldLab_MapScriptHeader:
 	object_event  6,  1, SPRITE_BALL_CUT_TREE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_ENV_RED, OBJECTTYPE_SCRIPT, 0, FlicklitPokeBallScript, EVENT_FLIKLIT_POKEBALL_IN_FIELD_LAB
 	object_event  7,  1, SPRITE_BALL_CUT_TREE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_ENV_BLUE, OBJECTTYPE_SCRIPT, 0, GluttlePokeBallScript, EVENT_GLUTTLE_POKEBALL_IN_FIELD_LAB
 	object_event  8,  1, SPRITE_BALL_CUT_TREE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_ENV_GREEN, OBJECTTYPE_SCRIPT, 0, CupicoPokeBallScript, EVENT_CUPICO_POKEBALL_IN_FIELD_LAB
-	object_event 12,  1, SPRITE_SCIENTIST, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, FieldLabFellowText, -1
+	object_event 13,  1, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_FOUGHT_FIELD_LAB_MAGIGOON
+	object_event 12,  1, SPRITE_SCIENTIST, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, FieldLabFellowText, EVENT_GOT_POKEDEX_FROM_POPLAR
+
 
 	object_const_def
 	const FIELDLAB_PAWPAW
@@ -54,6 +59,8 @@ FieldLab_MapScriptHeader:
 	const FIELDLAB_POKE_BALL1
 	const FIELDLAB_POKE_BALL2
 	const FIELDLAB_POKE_BALL3
+	const FIELDLAB_ROCKET
+
 
 FieldLabMeetPawpawScene:
 	sdefer FieldLab_AutowalkUpToPawpaw
@@ -62,6 +69,7 @@ FieldLabNoopScene:
 FieldLabUnusedScene:
 FieldLabAideGivesPotionScene:
 FieldLabBrookeBattleScene:
+FieldLabMagiGoonBattleScene:
 	end
 
 ; FieldLabAideGivesPokeBallsScene:
@@ -117,10 +125,13 @@ endc
 	turnobject PLAYER, RIGHT
 	showtext PawpawText_ChooseAPokemon
 	setevent EVENT_CHOOSE_POKEMON
+	setevent EVENT_GOT_DOSSIER_FROM_POPLAR ; set here and cleared in office so there arent 2 poplars existing simultaneously
 	setscene SCENE_FIELDLAB_CANT_LEAVE
 	end
 
 ProfPawpawScript:
+	checkevent EVENT_GOT_POKEDEX_FROM_POPLAR
+
 	checkevent EVENT_GOT_A_POKEMON_FROM_PAWPAW
 	iftrue_jumpopenedtext PawpawDescribesPoplarText
 	jumpthisopenedtext
@@ -130,69 +141,68 @@ ProfPawpawScript:
 	cont "#mon battle it!"
 	done
 
+FieldLabMagiGoonScript2:
+	applyonemovement FIELDLAB_ROCKET, step_left
+FieldLabMagiGoonScript:
+	appear FIELDLAB_ROCKET
+	showemote EMOTE_SHOCK, FIELDLAB_PAWPAW, 10
+	applymovement FIELDLAB_ROCKET, MagiGoonRunsInMovement
+	turnobject FIELDLAB_PAWPAW, RIGHT
+	showtext FieldLabMagiGoonTheftText
+	pause 10
+	turnobject FIELDLAB_PAWPAW, DOWN
+	opentext
+	writetext FieldLabPawpawAskHelpText
+	promptbutton
+	turnobject FIELDLAB_ROCKET, DOWN
+	writetext FieldLabMagiGoonBattleText
+	waitbutton
+	closetext
+	winlosstext MagiGoonBeatenText, MagiGoonLossText
+	setlasttalked FIELDLAB_ROCKET
+	loadtrainer GRUNTM, 1
+	startbattle
+	dontrestartmapmusic
+	reloadmapafterbattle
+	special DeleteSavedMusic
+	playmusic MUSIC_ROCKET_ENCOUNTER
+	applyonemovement PLAYER, step_left
+	pause 10
+	turnobject PLAYER, RIGHT
+	showtext FieldLabMagiGoonTheftGoodbyeText
+	waitbutton
+	closetext
+	applymovement FIELDLAB_ROCKET, MagiGoonLeavesMovement
+	disappear FIELDLAB_ROCKET
+	setscene SCENE_FIELDLAB_NOOP
+	pause 10
+	applyonemovement PLAYER, step_up
+	opentext
+	sjumpfwd PawpawAfterMagigoonScript
+	end
 
-; FieldLab_AutoAideSpeech:
-; 	turnobject FIELDLAB_PAWPAWS_AIDE, DOWN
-; 	showemote EMOTE_SHOCK, FIELDLAB_PAWPAWS_AIDE, 15
-; 	applymovement FIELDLAB_PAWPAWS_AIDE, AideWalksDownMovement
-; 	showtext AideText_ThiefReturnedMon
-; 	applymovement FIELDLAB_PAWPAWS_AIDE, AideWalksBackMovement
-; 	turnobject FIELDLAB_PAWPAWS_AIDE, DOWN
-; 	setscene SCENE_FIELDLAB_NOOP
-; 	end
-
-; 	opentext
-; 	checkevent EVENT_GOT_SS_TICKET_FROM_PAWPAW
-; 	iftruefwd PawpawCheckMasterBall
-; 	checkevent EVENT_BEAT_ELITE_FOUR
-; 	iftrue PawpawGiveTicketScript
-; PawpawCheckMasterBall:
-; 	checkevent EVENT_GOT_MASTER_BALL_FROM_PAWPAW
-; 	iftruefwd PawpawCheckOddSouvenir
-; 	checkflag ENGINE_RISINGBADGE
-; 	iftrue PawpawGiveMasterBallScript
-; PawpawCheckOddSouvenir:
-; 	checkevent EVENT_GOT_ODD_SOUVENIR_FROM_PAWPAW
-; 	iftrue PawpawCheckBattleScript
-; 	checkevent EVENT_SHOWED_TOGEPI_TO_PAWPAW
-; 	iftrue PawpawGiveOddSouvenirScript
-; 	checkevent EVENT_PAWPAW_WANTS_TO_BATTLE
-; 	iftrue PawpawAskBattleScript
-; 	checkevent EVENT_TOLD_PAWPAW_ABOUT_TOGEPI_OVER_THE_PHONE
-; 	iffalsefwd PawpawCheckTogepiEgg
-; 	scall PawpawEggHatchedScript
-; 	jumpopenedtext PawpawThoughtEggHatchedText
-
-; PawpawEggHatchedScript:
-; 	setmonval TOGEPI
-; 	special Special_FindThatSpeciesYourTrainerID
-; 	iftrue ShowPawpawTogepiScript
-; 	setmonval TOGETIC
-; 	special Special_FindThatSpeciesYourTrainerID
-; 	iftrue ShowPawpawTogepiScript
-; 	setmonval TOGEKISS
-; 	special Special_FindThatSpeciesYourTrainerID
-; 	iftrue ShowPawpawTogepiScript
-; 	sjumpfwd PawpawCheckGotEggAgain
-
-; PawpawCheckTogepiEgg:
-; 	checkevent EVENT_GOT_TOGEPI_EGG_FROM_PAWPAWS_AIDE
-; 	iffalsefwd PawpawCheckGotEggAgain
-; 	checkevent EVENT_TOGEPI_HATCHED
-; 	iftrue PawpawEggHatchedScript
-; PawpawCheckGotEggAgain:
-; 	checkevent EVENT_GOT_TOGEPI_EGG_FROM_PAWPAWS_AIDE ; why are we checking it again?
-; 	iftrue_jumpopenedtext PawpawWaitingEggHatchText
-; 	checkflag ENGINE_ZEPHYRBADGE
-; 	iftrue_jumpopenedtext PawpawAideHasEggText
-; 	checkevent EVENT_GAVE_MYSTERY_EGG_TO_PAWPAW
-; 	iftrue_jumpopenedtext PawpawStudyingEggText
-; 	checkevent EVENT_GOT_MYSTERY_EGG_FROM_MR_POKEMON
-; 	iftrue PawpawAfterTheftScript
-
-; 	checkevent EVENT_GOT_A_POKEMON_FROM_PAWPAW
-; 	iftrue_jumpopenedtext PawpawDescribesPoplarText
-; 	jumpopenedtext PawpawText_LetYourMonBattleIt
+PawpawAfterMagigoonScript:
+	writetext PawpawAfterMagiGoonText1
+	checkkeyitem PROF_DOSSIER
+	; iffalse PawpawAfterMagiGoonDoneScript
+	promptbutton
+	writetext PawpawAfterMagiGoonText2
+	waitbutton
+	writetext PawpawAfterMagiGoonText3
+	takekeyitem PROF_DOSSIER
+	showemote EMOTE_SHOCK, FIELDLAB_PAWPAW, 15
+	; scall PawpawJumpBackScript
+	writetext PawpawAfterMagiGoonText4
+	promptbutton
+	setevent EVENT_GAVE_DOSSIER_TO_PAWPAW
+	clearevent EVENT_GOT_DOSSIER_FROM_POPLAR
+	setevent EVENT_FOUGHT_FIELD_LAB_MAGIGOON
+	; setmapscene OLSTEETON, SCENE_OLSTEETON_MILL
+	writetext PawpawAfterMagiGoonText5
+	waitbutton
+	closetext
+	showtext PawpawAfterMagiGoonText6
+	end
 
 PawpawAfterMon:
 	opentext
@@ -346,7 +356,6 @@ endc
 	setevent EVENT_GOT_A_POKEMON_FROM_PAWPAW
 	setmapscene OLSTEETON_UNI_CLASSROOM_BIO, SCENE_OLSTEETONUNICLASSROOMBIO_MEET_POPLAR
 	setmapscene OLSTEETON_UNI_OFFICE_POPLAR, SCENE_UNI_OFFICE_POPLAR_NOOP
-	; setevent EVENT_RIVAL_CHERRYGROVE_CITY
 	setscene SCENE_FIELDLAB_BROOKE_BATTLE
 	end
 
@@ -371,71 +380,6 @@ FieldLabHealingMachine_HealParty:
 	pause 30
 	special RestoreMusic
 	endtext
-
-; PawpawAfterTheftDoneScript:
-; 	waitendtext
-
-; PawpawAfterTheftScript:
-; 	writetext PawpawAfterTheftText1
-; 	checkkeyitem MYSTERY_EGG
-; 	iffalse PawpawAfterTheftDoneScript
-; 	promptbutton
-; 	writetext PawpawAfterTheftText2
-; 	waitbutton
-; 	takekeyitem MYSTERY_EGG
-; 	scall PawpawJumpBackScript1
-; 	writetext PawpawAfterTheftText3
-; 	waitbutton
-; 	scall PawpawJumpBackScript2
-; 	writetext PawpawAfterTheftText4
-; 	promptbutton
-; 	writetext PawpawAfterTheftText5
-; 	promptbutton
-; 	setevent EVENT_GAVE_MYSTERY_EGG_TO_PAWPAW
-; 	clearevent EVENT_BROOKE_ROUTE_29
-; 	setmapscene ROUTE_29, $1
-; 	clearevent EVENT_ROUTE_30_YOUNGSTER_JOEY
-; 	setevent EVENT_ROUTE_30_BATTLE
-; 	setscene $2
-; 	jumpopenedtext PawpawAfterTheftText6
-
-; ShowPawpawTogepiScript:
-; 	writetext ShowPawpawTogepiText1
-; 	waitbutton
-; 	closetext
-; 	showemote EMOTE_SHOCK, FIELDLAB_PAWPAW, 15
-; 	setevent EVENT_SHOWED_TOGEPI_TO_PAWPAW
-; 	opentext
-; 	writetext ShowPawpawTogepiText2
-; 	promptbutton
-; 	writetext ShowPawpawTogepiText3
-; 	promptbutton
-; PawpawGiveOddSouvenirScript:
-; 	writetext PawpawGiveOddSouvenirText1
-; 	promptbutton
-; 	verbosegiveitem ODD_SOUVENIR
-; 	iffalse_endtext
-; 	setevent EVENT_GOT_ODD_SOUVENIR_FROM_PAWPAW
-; 	writetext PawpawGiveOddSouvenirText2
-; 	waitbutton
-; 	checkevent EVENT_BATTLED_PROF_PAWPAW
-; 	iffalsefwd PawpawAlsoBattleScript
-; 	endtext
-
-; PawpawGiveMasterBallScript:
-; 	writetext PawpawGiveMasterBallText1
-; 	promptbutton
-; 	verbosegiveitem MASTER_BALL
-; 	iffalse_endtext
-; 	setevent EVENT_GOT_MASTER_BALL_FROM_PAWPAW
-; 	writetext PawpawGiveMasterBallText2
-; 	waitbutton
-; 	checkevent EVENT_BATTLED_PROF_PAWPAW
-; 	iftrue_endtext
-; PawpawAlsoBattleScript:
-; 	writetext PawpawByTheWayText
-; 	waitbutton
-; 	sjumpfwd PawpawAskBattleScript
 
 ; PawpawCheckBattleScript:
 ; 	checkevent EVENT_BATTLED_PROF_PAWPAW
@@ -477,85 +421,13 @@ FieldLabHealingMachine_HealParty:
 ; 	special HealParty
 ; 	jumptextfaceplayer PawpawAfterBattleText
 
-; PawpawGiveTicketScript:
-; 	writetext PawpawGiveTicketText1
-; 	promptbutton
-; 	verbosegivekeyitem S_S_TICKET
-; 	writetext PawpawGiveTicketText2
-; 	waitbutton
-; 	closetext
-; 	showemote EMOTE_SHOCK, FIELDLAB_PAWPAW, 15
-; 	special Special_FadeOutMusic
-; 	pause 10
-; 	readvar VAR_FACING
-; 	ifequalfwd UP, .Shortest
-; 	ifequalfwd DOWN, .Longest
-; 	disappear FIELDLAB_BROOKE
-; 	moveobject FIELDLAB_BROOKE, 4, 7
-; 	scall .BrookeEntryShort
-; 	scall .BrookeAnnouncesGymChallenge
-; 	turnobject PLAYER, RIGHT
-; 	sjumpfwd .Continue
-
-; .Longest
-; 	disappear FIELDLAB_BROOKE
-; 	moveobject FIELDLAB_BROOKE, 4, 6
-; 	appear FIELDLAB_BROOKE
-; 	applymovement FIELDLAB_BROOKE, BrookeRunsInMoreMovement
-; 	turnobject FIELDLAB_PAWPAW, UP
-; 	turnobject FIELDLAB_BROOKE, RIGHT
-; 	turnobject PLAYER, LEFT
-; 	scall .BrookeAnnouncesGymChallenge
-; 	turnobject PLAYER, DOWN
-; 	sjumpfwd .Continue
-
-; .Shortest
-; 	disappear FIELDLAB_BROOKE
-; 	moveobject FIELDLAB_BROOKE, 5, 8
-; 	scall .BrookeEntryShort
-; 	scall .BrookeAnnouncesGymChallenge
-; 	turnobject PLAYER, UP
-
-; .Continue
-; 	faceplayer
-; 	playmusic MUSIC_PROF_PAWPAW
-; 	showtext PawpawAfterTicketText
-; 	setevent EVENT_BROOKE_IN_HER_ROOM
-; 	setevent EVENT_GOT_SS_TICKET_FROM_PAWPAW
-; 	end
-
-; .BrookeAnnouncesGymChallenge
-; 	playmusic MUSIC_LYRA_ENCOUNTER_HGSS
-; 	showtext BrookeAnnouncesGymChallengeText
-; 	applymovement FIELDLAB_BROOKE, BrookeLeavesMovement
-; 	disappear FIELDLAB_BROOKE
-; 	pause 10
-; 	end
-
-; .BrookeEntryShort
-; 	appear FIELDLAB_BROOKE
-; 	applymovement FIELDLAB_BROOKE, BrookeRunsInMovement
-; 	turnobject FIELDLAB_PAWPAW, DOWN
-; 	turnobject FIELDLAB_BROOKE, UP
-; 	turnobject PLAYER, DOWN
-; 	end
-
-; PawpawJumpBackScript1:
+; PawpawJumpBackScript:
 ; 	closetext
 ; 	readvar VAR_FACING
 ; 	ifequalfwd DOWN, PawpawJumpDownScript
 ; 	ifequalfwd UP, PawpawJumpUpScript
 ; 	ifequalfwd LEFT, PawpawJumpLeftScript
 ; 	ifequalfwd RIGHT, PawpawJumpRightScript
-; 	end
-
-; PawpawJumpBackScript2:
-; 	closetext
-; 	readvar VAR_FACING
-; 	ifequalfwd DOWN, PawpawJumpUpScript
-; 	ifequalfwd UP, PawpawJumpDownScript
-; 	ifequalfwd LEFT, PawpawJumpRightScript
-; 	ifequalfwd RIGHT, PawpawJumpLeftScript
 ; 	end
 
 ; PawpawJumpUpScript:
@@ -675,8 +547,8 @@ AideScript_GivePotions:
 FieldAideScript:
 	; checkevent EVENT_GOT_RIVALS_EGG
 	; iftrue_jumptextfaceplayer AideText_AlwaysBusy
-	; checkevent EVENT_GOT_MYSTERY_EGG_FROM_MR_POKEMON
-	; iftrue_jumptextfaceplayer AideText_TheftTestimony
+	; checkevent EVENT_GOT_PROF_DOSSIER_FROM_MR_POKEMON
+	; iftrue_jumptextfaceplayer AideText_MagiGoonTestimony
 	jumptextfaceplayer AideText_AlwaysBusy
 
 FieldLabBrookeScript:
@@ -752,27 +624,28 @@ BrookeLeavesMovement:
 	step_down
 	step_end
 
-; BrookeRunsInMoreMovement:
-; 	step_up
-; BrookeRunsInMovement:
-; 	step_up
-; 	step_up
-; 	step_up
-; 	step_up
-; 	step_end
+MagiGoonRunsInMovement:
+	step_down
+	step_left
+	step_down
+	step_left
+	step_left
+	step_left
+	step_left
+	step_end
 
-; BrookeStepsAsideMovement:
-; 	step_left
-; 	turn_head_right
-; 	step_end
+MagiGoonStepsAsideMovement:
+	step_left
+	turn_head_right
+	step_end
 
-; OfficerLeavesMovement:
-; 	step_down
-; 	step_down
-; 	step_down
-; 	step_down
-; 	step_down
-; 	step_end
+MagiGoonLeavesMovement:
+	step_down
+	step_down
+	step_down
+	step_down
+	step_down
+	step_end
 
 AideWalksRight1:
 	step_right
@@ -806,29 +679,29 @@ AideWalksLeft2:
 ; 	step_left
 ; 	step_end
 
-; PawpawJumpUpMovement:
-; 	fix_facing
-; 	run_step_up
-; 	remove_fixed_facing
-; 	step_end
+PawpawJumpUpMovement:
+	fix_facing
+	run_step_up
+	remove_fixed_facing
+	step_end
 
-; PawpawJumpDownMovement:
-; 	fix_facing
-; 	run_step_down
-; 	remove_fixed_facing
-; 	step_end
+PawpawJumpDownMovement:
+	fix_facing
+	run_step_down
+	remove_fixed_facing
+	step_end
 
-; PawpawJumpLeftMovement:
-; 	fix_facing
-; 	run_step_left
-; 	remove_fixed_facing
-; 	step_end
+PawpawJumpLeftMovement:
+	fix_facing
+	run_step_left
+	remove_fixed_facing
+	step_end
 
-; PawpawJumpRightMovement:
-; 	fix_facing
-; 	run_step_right
-; 	remove_fixed_facing
-; 	step_end
+PawpawJumpRightMovement:
+	fix_facing
+	run_step_right
+	remove_fixed_facing
+	step_end
 
 FieldLab_WalkToPlayer:
 	step_right
@@ -837,10 +710,10 @@ FieldLab_WalkToPlayer:
 	step_end
 
 FieldLab_PawpawToDefaultPositionMovement:
-	step_up
-	step_up
-	step_right
-	step_right
+	; run_step_up
+	jump_step_up
+	jump_step_right
+	; step_right
 	turn_head_down
 	step_end
 
@@ -1336,22 +1209,14 @@ BrookeReceivedStarterText:
 	done
 
 BrookeNicknamedCupicoText:
-	text "Brooke: It's so"
-	line "...cute..."
-	done
-
 BrookeNicknamedFliklitText:
-	text "Brooke: It's so"
-	line "...cute..."
-	done
-
 BrookeNicknamedGluttleText:
 	text "Brooke: It's so"
 	line "...cute..."
 	done
 
 
-FieldLabBrookeChallengeText:
+FieldLabBrookeChallengeText: ;unchanged text
 	text "Brooke: <PLAYER>!"
 	line "Let's get to know"
 
@@ -1388,118 +1253,129 @@ FieldLabBrookeSeeYouText:
 	line "errand!"
 	done
 
-; FieldLabBrookeTheftInnocentText:
-; 	text "Brooke: Hold on!"
-; 	line "<PLAYER> has noth-"
-; 	cont "ing to do with it!"
+FieldLabMagiGoonTheftText:
+	text "Sup fuckers"
+	line "Gimme ur research"
+	cont "...or else"
+	done
 
-; 	para "I saw a red-haired"
-; 	line "boy spying on the"
-; 	cont "building!"
-; 	done
+FieldLabPawpawAskHelpText:
+	text "Oh, <PLAYER>!"
+	line "Please help me!"
+	done
 
-; FieldLabBrookeTheftGoodbyeText:
-; 	text "Brooke: <PLAYER>,"
-; 	line "I'm glad he under-"
+FieldLabMagiGoonBattleText:
+	text "Fine, my trusty"
+	line "Magikarp will take"
+	cont "care of you."
+	done
 
-; 	para "stood that you're"
-; 	line "innocent."
+MagiGoonBeatenText:
+	text "I don't understand"
+	line "It wasn't supposed"
+	cont "to go like this..."
+	done
 
-; 	para "I hope he makes"
-; 	line "the thief return"
-; 	cont "that #mon…"
+MagiGoonLossText:
+	text "Behold the power"
+	line "of Magikarp!"
+	done
 
-; 	para "Well then, see"
-; 	line "you later!"
-; 	done
+FieldLabMagiGoonTheftGoodbyeText:
+	text "Wael shiet."
+	line "Guess I'd better"
+	cont "skedaddle..."
+	done
 
-; if !DEF(DEBUG)
-; 	para "Prof.Poplar gave you"
-; 	line "a #dex?"
+PawpawAfterMagiGoonText1:
+	text "Thank you so much,"
+	line "<PLAYER>!"
 
-; 	para "<PLAYER>, is that"
-; 	line "true? Th-that's"
-; 	cont "incredible!"
+	para "I've only got"
+	line "Tidiposs on me"
+	cont "right now, and"
 
-; 	para "He is superb at"
-; 	line "seeing the poten-"
-; 	cont "tial of people as"
-; 	cont "trainers."
+	para "he's such a lil"
+	line "baby guy..."
 
-; 	para "Wow, <PLAYER>. You"
-; 	line "may have what it"
+	para "I dunno what I'd"
+	line "have done without"
+	cont "ya bein' here."
+	done
 
-; 	para "takes to become"
-; 	line "the Champion."
+PawpawAfterMagiGoonText2: ;largely unchanged text
+	para "So Prof.Poplar gave"
+	line "you a #dex?"
 
-; 	para "You seem to be"
-; 	line "getting on great"
-; 	cont "with #mon too."
+	para "<PLAYER>, is that"
+	line "true? Th-that's"
+	cont "incredible!"
 
-; 	para "You should take"
-; 	line "the #mon Gym"
-; 	cont "challenge."
+	para "He is superb at"
+	line "seeing the poten-"
+	cont "tial of people as"
+	cont "trainers."
 
-; 	para "The closest Gym"
-; 	line "would be the one"
-; 	cont "in Violet City."
-; endc
-; 	done
+	para "Wow, <PLAYER>. You"
+	line "may have what it"
 
-; PawpawAfterTheftText6:
-; 	text "…<PLAYER>. The"
-; 	line "road to the"
+	para "takes to become"
+	line "the Champion."
 
-; 	para "championship will"
-; 	line "be a long one."
+	para "You seem to be"
+	line "getting on great"
+	cont "with #mon too."
 
-; 	para "Before you leave,"
-; 	line "make sure that you"
-; 	cont "talk to your mom."
+	para "You should take"
+	line "the #mon Gym"
+	cont "challenge."
 
-; 	para "And give me a call"
-; 	line "sometimes too."
-
-; 	para "I can tell you all"
-; 	line "about my research"
-
-; 	para "on how #mon"
-; 	line "evolve!"
-; 	done
+	para "I think there's"
+	line "a gym being built"
+	cont "in Olsteeton."
+	done
 
 
-; PawpawWaitingEggHatchText:
-; 	text "Pawpaw: Hey, has that"
-; 	line "Egg changed any?"
-; 	done
+PawpawAfterMagiGoonText3:
+	text "Oh, right!"
+	line "What else did"
+	cont "Prof.Poplar say?"
+	done
 
-; PawpawThoughtEggHatchedText:
-; 	text "<PLAYER>? I thought"
-; 	line "the Egg hatched."
+PawpawAfterMagiGoonText4: ;placeholder
+	text "SHIIIIIIT"
+	line "Shit shit shit"
 
-; 	para "Where is the"
-; 	line "#mon?"
-; 	done
+	para "Oh this is bad."
+	line "like really bad."
 
-; ShowPawpawTogepiText1:
-; 	text "Pawpaw: <PLAYER>, you"
-; 	line "look great!"
-; 	done
+	para "We were right!"
+	line "Arrghh I hate"
+	cont "being right."
+	done
 
-; ShowPawpawTogepiText2:
-; 	text "What?"
-; 	line "That #mon?!"
-; 	done
+PawpawAfterMagiGoonText5:
+	text "Ooookay, so"
+	line "basically the"
 
-; ShowPawpawTogepiText3:
-; 	text "The Egg hatched!"
-; 	line "So, #mon are"
-; 	cont "born from Eggs…"
+	para "environment is"
+	line "fucked unless we"
 
-; 	para "No, perhaps not"
-; 	line "all #mon are."
+	para "do something about"
+	line "it ASAP."
+	done
 
-; 	para "Wow, there's still"
-; 	line "a lot of research"
-; 	cont "to be done."
-; 	done
+PawpawAfterMagiGoonText6:
+	text "I'm gonna call a"
+	line "meeting with"
+	cont "Prof.Poplar."
+
+	para "We'll need you,"
+	line "Brooke, and Prof."
+	cont "Fir's assistant to"
+	cont "be there."
+
+	para "I'll call you"
+	line "with details soon,"
+	cont "<PLAYER>."
+	done

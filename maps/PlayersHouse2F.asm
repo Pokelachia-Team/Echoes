@@ -194,7 +194,7 @@ endr
 ;	setevent EVENT_RESTORED_POWER_TO_KANTO ; magnet train works
 	; post-e4
 	setflag ENGINE_CREDITS_SKIP
-	; good party
+	; pokebliterater
 	givepoke AUGUROTH, PLAIN_FORM, 100, BRIGHTPOWDER
 for x, NUM_STATS
 	loadmem wPartyMon1EVs+x, 252
@@ -243,57 +243,26 @@ endr
 	; loadmem wPartyMon6HyperTraining, %01000000
 	; fill pokedex
 	callasm FillPokedex
-;	; new bark events
+;	; hollowport events
 	addcellnum PHONE_MOM
 	setmapscene PLAYERS_HOUSE_1F, SCENE_PLAYERSHOUSE1F_NOOP
+	setmapscene HOLLOWPORT, SCENE_HOLLOWPORT_NOOP
 	setevent EVENT_PLAYERS_HOUSE_MOM_1
 	clearevent EVENT_PLAYERS_HOUSE_MOM_2
-	; addcellnum PHONE_ELM
+	addcellnum PHONE_ELM
 	setevent EVENT_GOT_FLIKLIT_FROM_PAWPAW
 ;	setevent EVENT_FLIKLIT_POKEBALL_IN_ELMS_LAB
 ;	setevent EVENT_CUPICO_POKEBALL_IN_ELMS_LAB
 ;	setevent EVENT_GOT_A_POKEMON_FROM_PAWPAW
-;	setevent EVENT_RIVAL_CHERRYGROVE_CITY
-;	setevent EVENT_LYRA_IN_ELMS_LAB
 	; clearevent EVENT_GOT_POKEDEX_FROM_POPLAR
 	setmapscene OLSTEETON_UNI_CLASSROOM_BIO, SCENE_OLSTEETONUNICLASSROOMBIO_MEET_POPLAR
 	setmapscene OLSTEETON_UNI_OFFICE_POPLAR, SCENE_UNI_OFFICE_POPLAR_NOOP
+	setmapscene FIELD_LAB, SCENE_FIELDLAB_NOOP
 	setevent EVENT_POPLAR_OFFICE_FIR
 	; setevent EVENT_GOT_POKEDEX_FROM_POPLAR
-;	setmapscene HOLLOWPORT, SCENE_NEWBARKTOWN_NOOP
-	; cherrygrove events
-	; setevent EVENT_GUIDE_GENT_IN_HIS_HOUSE
-	; clearevent EVENT_GUIDE_GENT_VISIBLE_IN_CHERRYGROVE
-	; setmapscene CHERRYGROVE_CITY, SCENE_CHERRYGROVECITY_NOOP
-	; ; route 31 events
-	; setevent EVENT_TALKED_TO_MOM_AFTER_MYSTERY_EGG_QUEST
-	; setevent EVENT_INTRODUCED_ROUTE_LEADERS
-	; ; azalea events
-	; setevent EVENT_AZALEA_TOWN_SLOWPOKETAIL_ROCKET
-	; setevent EVENT_KURTS_HOUSE_KURT_1
-	; ; goldenrod events
-	; setevent EVENT_BEAT_CAMPER_TODD
-	; addcellnum PHONE_LYRA
-	; setmapscene DAYCARE, SCENE_DAYCARE_NOOP
-	; setevent EVENT_LYRA_DAYCARE
-	; setevent EVENT_NURSE_SAW_TRAINER_STAR
-	; setevent EVENT_INTRODUCED_TEALA
-	; addcellnum PHONE_BILL
-	; setevent EVENT_BEAT_PICNICKER_KIM
-	; setevent EVENT_BEAT_BREEDER_THERESA
-	; ; ecruteak events
-	; setevent EVENT_RIVAL_BURNED_TOWER
-	; setevent EVENT_HOLE_IN_BURNED_TOWER
-	; setmapscene BURNED_TOWER_1F, SCENE_BURNEDTOWER1F_NOOP
-	; ; olivine events
-	; setevent EVENT_RIVAL_OLIVINE_CITY
-	; setmapscene OLIVINE_CITY, SCENE_OLIVINECITY_NOOP
-	; ; blackthorn events
-	; setevent EVENT_BEAT_DRAGON_TAMER_DARIN
-	; ; vermilion events
-	; setmapscene VERMILION_CITY, SCENE_VERMILIONCITY_NOOP
 	closetext
-	warpfacing DOWN, OLSTEETON_UNI, 10, 20
+	warpfacing DOWN, OLSTEETON, 17, 20
+	; warpfacing DOWN, OLSTEETON_UNI, 10, 20
 	; warpfacing DOWN, BRINESBURG, 53, 12
 	end
 

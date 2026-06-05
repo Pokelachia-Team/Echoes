@@ -329,29 +329,29 @@ RustyGroup:
 	tr_mon 9, DEBRITE @ CHARCOAL, MALE
 	end_trainer
 
-	def_trainer 2, "Rusty"
-	tr_mon 71, ANNIHILAPE @ CHOICE_SCARF, MALE
-	tr_mon 73, SIRFETCH_D @ LEEK, MALE
-		tr_extra SCRAPPY, ATK_UP_SATK_DOWN
-		tr_evs 252 HP, 252 Atk, 4 SDf
-		tr_moves CLOSE_COMBAT, BRAVE_BIRD, NIGHT_SLASH, POISON_JAB
-	tr_mon 72, HITMONCHAN @ PUNCHINGLOVE, MALE
-		tr_extra IRON_FIST, ATK_UP_SATK_DOWN
-		tr_evs 252 HP, 252 Atk, 4 Def
-		tr_moves THUNDERPUNCH, ICE_PUNCH, FIRE_PUNCH, MACH_PUNCH
-	tr_mon 72, HITMONLEE @ MIRROR_HERB, MALE
-		tr_extra UNBURDEN, ATK_UP_SATK_DOWN
-		tr_evs 252 HP, 4 Def, 252 Spe
-		tr_moves SWAGGER, EARTHQUAKE, KNOCK_OFF, HI_JUMP_KICK
-	tr_mon 72, HITMONTOP @ FOCUS_SASH, MALE
-		tr_extra INTIMIDATE, SPE_UP_SATK_DOWN
-		tr_evs 4 HP, 252 Atk, 252 Spe
-		tr_moves RAPID_SPIN, STONE_EDGE, CLOSE_COMBAT, SUCKER_PUNCH
-	tr_mon 75, POLIWRATH @ LEFTOVERS, MALE
-		tr_extra WATER_ABSORB, SDEF_UP_SATK_DOWN
-		tr_evs 252 HP, 4 Def, 252 SDf
-		tr_moves WATERFALL, BULK_UP, BULLDOZE, DRAIN_PUNCH
-	end_trainer
+	; def_trainer 2, "Rusty"
+	; tr_mon 71, ANNIHILAPE @ CHOICE_SCARF, MALE
+	; tr_mon 73, SIRFETCH_D @ LEEK, MALE
+	; 	tr_extra SCRAPPY, ATK_UP_SATK_DOWN
+	; 	tr_evs 252 HP, 252 Atk, 4 SDf
+	; 	tr_moves CLOSE_COMBAT, BRAVE_BIRD, NIGHT_SLASH, POISON_JAB
+	; tr_mon 72, HITMONCHAN @ PUNCHINGLOVE, MALE
+	; 	tr_extra IRON_FIST, ATK_UP_SATK_DOWN
+	; 	tr_evs 252 HP, 252 Atk, 4 Def
+	; 	tr_moves THUNDERPUNCH, ICE_PUNCH, FIRE_PUNCH, MACH_PUNCH
+	; tr_mon 72, HITMONLEE @ MIRROR_HERB, MALE
+	; 	tr_extra UNBURDEN, ATK_UP_SATK_DOWN
+	; 	tr_evs 252 HP, 4 Def, 252 Spe
+	; 	tr_moves SWAGGER, EARTHQUAKE, KNOCK_OFF, HI_JUMP_KICK
+	; tr_mon 72, HITMONTOP @ FOCUS_SASH, MALE
+	; 	tr_extra INTIMIDATE, SPE_UP_SATK_DOWN
+	; 	tr_evs 4 HP, 252 Atk, 252 Spe
+	; 	tr_moves RAPID_SPIN, STONE_EDGE, CLOSE_COMBAT, SUCKER_PUNCH
+	; tr_mon 75, POLIWRATH @ LEFTOVERS, MALE
+	; 	tr_extra WATER_ABSORB, SDEF_UP_SATK_DOWN
+	; 	tr_evs 252 HP, 4 Def, 252 SDf
+	; 	tr_moves WATERFALL, BULK_UP, BULLDOZE, DRAIN_PUNCH
+	; end_trainer
 
 
 SECTION "JasmineGroup", ROMX
@@ -3439,9 +3439,12 @@ HikerGroup:
 SECTION "GruntMGroup", ROMX
 GruntMGroup:
 
-	; unused
 	def_trainer_class GRUNTM
-	def_trainer 1, "Grunt"
+	def_trainer 1, "Kory"
+	tr_mon 8, MAGIKARP
+		tr_moves SPLASH, TACKLE, DEFENSE_CURL, LEER
+	tr_mon 10, MAGIKARP
+		tr_moves SPLASH, TACKLE, DEFENSE_CURL, LEER
 	end_trainer
 
 	def_trainer 2, "Grunt"

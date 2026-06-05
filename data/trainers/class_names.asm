@@ -42,8 +42,8 @@ TrainerClassNames::
 	li "Fisherman"        ; FISHER
 	li "Bird Keeper"      ; BIRD_KEEPER
 	li "Hiker"            ; HIKER
-	li "Rocket"           ; GRUNTM
-	li "Rocket"           ; GRUNTF
+	li "MagiKorp"           ; GRUNTM
+	li "MagiKorp"           ; GRUNTF
 	li "#fan"             ; POKEFANM
 	li "#fan"             ; POKEFANF
 	li "Officer"          ; OFFICERM

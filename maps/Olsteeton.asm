@@ -148,6 +148,12 @@ OlsteetonRustyScript:
 	playmapmusic
 	end
 
+RustyAskBattleText:
+	text "So ya think yer"
+	line "ready to challenge"
+	cont "the Wrecking"
+	cont "Ball, eh?"
+	done
 
 OlsteetonRusty_HurryText:
 	text "Well hurry up"
@@ -161,11 +167,11 @@ RustySeenText:
 	cont "of is tough enough"
 	done
 
-FirWinText:
+RustyWinText:
 	text "Hmm. Interestin'"
 	done
 
-FirLoseText:
+RustyLoseText:
 	text "Well, it was"
 	line "to be expected."
 	cont "Don't fret."
