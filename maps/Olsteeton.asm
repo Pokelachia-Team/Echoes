@@ -54,7 +54,7 @@ Olsteeton_MapScriptHeader:
 
 	def_object_events
 	object_event 36,  3, SPRITE_SAILOR, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonFisherText, -1
-	; pokemon_event 35,  3, RIVEBLOK, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_BLUE, OlsteetonPoliwrathText, -1
+	pokemon_event 35,  3, RIVEBLOK, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_BLUE, OlsteetonRiveblokText, -1
 	object_event 12, 22, SPRITE_POKEFAN_F, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonTeacher1Text, -1
 	object_event 27, 27, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonGramps1Text, -1
 	object_event 25, 18, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonGramps2Text, -1
@@ -67,8 +67,10 @@ Olsteeton_MapScriptHeader:
 	object_event 24, 16, SPRITE_ROCKER, SPRITEMOVEDATA_STANDING_DOWN, 1, 0, -1, PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonBandRocker2Text, -1
 	object_event 26, 16, SPRITE_ROCKER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 1, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonBandRocker3Text, -1
 	object_event 26, 19, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonBandCooltrainerFText, -1
-	object_event 10, 14, SPRITE_RUSTY, SPRITEMOVEDATA_SPINRANDOM_SLOW, 1, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonRustyText, -1
+	object_event 10, 14, SPRITE_RUSTY, SPRITEMOVEDATA_SPINRANDOM_SLOW, 1, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, OlsteetonRustyScript, -1
 
+	object_const_def
+	const OLSTEETON_RUSTY
 
 	itemball_event 24,  10, ETHER, 1, EVENT_OLSTEETON_ETHER
 	; cuttree_event 33, 34, EVENT_Olsteeton_CITY_CUT_TREE
@@ -76,7 +78,7 @@ Olsteeton_MapScriptHeader:
 
 OlsteetonSailboatScript:
 	; checkevent EVENT_BOAT_PERMISSION
-	checkevent EVENT_GOT_A_POKEMON_FROM_PAWPAW
+	checkevent EVENT_GOT_POKEDEX_FROM_POPLAR
 	iftruefwd Olsteeton_BoatQuestion
 	jumptext OlsteetonSailboatText
 
@@ -100,6 +102,110 @@ OlsteetonPsyduckLadyScript:
 	jumpopenedtext OlsteetonPsyduckLadyRejectedText
 	end
 
+OlsteetonRustyScript:
+	faceplayer
+	opentext
+	; checkevent EVENT_FOUGHT_FIELD_LAB_MAGIGOON
+	iftruefwd .RustyBattleCheck
+	checkevent EVENT_GAVE_DOSSIER_TO_PAWPAW
+	; iftrue_jumptext OlsteetonRusty_ConstructionText
+	iftruefwd .RustyBattleCheck
+	jumpopenedtext OlsteetonRustyText1
+	end
+
+.RustyBattleCheck
+	writetext RustyAskBattleText
+	yesorno
+	iffalsefwd .RustyWait
+	writetext RustySeenText
+	waitbutton
+	closetext
+	winlosstext RustyWinText, RustyLoseText
+	setlasttalked OLSTEETON_RUSTY
+	loadtrainer RUSTY, 1
+	loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
+	startbattle
+	reloadmap
+	special HealParty
+	sjumpfwd .FinishRusty
+
+.RustyWait:
+	opentext
+	writetext OlsteetonRusty_HurryText
+	waitbutton
+	playmapmusic
+	closetext
+	end
+
+.FinishRusty:
+	opentext
+	writetext OlsteetonRusty_NotReadyText
+	waitbutton
+	closetext
+	turnobject OLSTEETON_RUSTY, UP
+	disappear OLSTEETON_RUSTY
+	special HealParty
+	playmapmusic
+	end
+
+RustyAskBattleText:
+	text "So ya think yer"
+	line "ready to challenge"
+	cont "the Wrecking"
+	cont "Ball, eh?"
+	done
+
+OlsteetonRusty_HurryText:
+	text "Well hurry up"
+	line "then! I ain't"
+	cont "got all day!"
+	done
+
+RustySeenText:
+	text "Let's see if the"
+	line "mettle yer made"
+	cont "of is tough enough"
+	done
+
+RustyWinText:
+	text "Hmm. Interestin'"
+	done
+
+RustyLoseText:
+	text "Well, it was"
+	line "to be expected."
+	cont "Don't fret."
+	done
+
+OlsteetonRusty_NotReadyText:
+	text "As I thought,"
+	line "you're not ready"
+	cont "to challenge my"
+	cont "gym anyhow."
+
+	para "Those #mon"
+	line "are ones I caught"
+	cont "recently..."
+
+	para "My real team is"
+	line "much stronger."
+	done
+
+OlsteetonRusty_GoBrinesburgText:
+	text "Try the Brinesburg"
+	line "gym first. It's"
+	cont "good for beginners."
+	done
+
+OlsteetonRusty_ConstructionText:
+	para "Construction is"
+	line "nearly done."
+
+	para "We'll have our"
+	line "reckonin' soon"
+	cont "enough..."
+	done
+
 BoatText_Ask:
 	text "Take the boat"
 	line "to the abandoned"
@@ -110,30 +216,42 @@ OlsteetonSailboatText:
 	text "It's a boat"
 	line "named Magic Harp."
 	done
+
 OlsteetonFlyPoint:
 	setflag ENGINE_FLYPOINT_OLSTEETON
 	endcallback
 
-OlsteetonBandRocker1Text: ;possible folk song parody
-	text "I need"
-	line "dialogue."
+OlsteetonBandRocker1Text: 
+	text "Country Routes!"
+	line "Take me to"
+	cont "my house!"
 	done
 
 OlsteetonBandRocker2Text:
-	text "I need"
-	line "dialogue."
+	text "I beloooong"
+	line "in Folkora!"
 	done
 
 OlsteetonBandRocker3Text:
-	text "I need"
-	line "dialogue."
+	text "I belooong"
+	line "HEY! You messed"
+	cont "up my harmony!"
 	done
 
-OlsteetonRustyText:
-	text "Gym's not open"
-	line "yet. Come back"
-	cont "later."
+OlsteetonRustyText1:
+	text "Gym's still under"
+	line "construction. Come"
+	cont "back later."
+
+	para "Gah, what to"
+	line "do about the"
+	cont "old mill..."
+
+	para "Huh? Oh it's"
+	line "nothin to trouble"
+	cont "yourself with."
 	done
+
 OlsteetonBandCooltrainerFText:
 	text "Olsteeton Mall"
 	line "has a wide"
@@ -162,16 +280,18 @@ OlsteetonFisherText:
 	line "bestest swimmer!"
 	done
 
-; OlsteetonPoliwrathText:
-; 	text "Riveblok: WArrrr!"
-; 	done
+OlsteetonRiveblokText:
+	text "Riveblok: Bloklok!"
+	done
 
 OlsteetonTeacher1Text:
-	text "I lost my"
-	line "high score on"
+	text "It's a real shame"
+	line "what happened with"
+	cont "the ol steel mill."
 
-	para "#mon Pinball"
-	line "again…"
+	para "Not even Rusty"
+	line "could stop the"
+	cont "acquisition."
 	done
 
 OlsteetonGramps1Text:
@@ -193,8 +313,8 @@ OlsteetonYoungster1Text:
 	line "secret?"
 
 	para "One of the shops"
-	line "has a hidden back"
-	cont "door."
+	line "has a restricted"
+	cont "basement."
 	done
 
 OlsteetonYoungster2Text:
@@ -205,6 +325,13 @@ OlsteetonYoungster2Text:
 	para "but if you ask me,"
 	line "I think it's"
 	cont "just alright."
+
+	para "The restaurant in"
+	line "Brinesburg is so"
+
+	para "much better, and"
+	line "you can battle"
+	cont "in there!"
 	done
 
 OlsteetonPsyduckLadyText:
@@ -299,14 +426,16 @@ OlsteetonPokeCenterSignText:
 	para "We heal hurt"
 	line "#mon!"
 	done
+
 OlsteetonFishingGuruSignText:
 	text "Seeking promising"
 	line "young fisher."
 	cont "Inquire within!"
 	done
+
 OlsteetonHomeDecorStoreSignText:
 	text "Olsteeton Mall"
-	line "MegaMart"
+	line "MagiMart"
 
 	para "Have you Herb?"
 	line "Bob's Battle Emp."
@@ -315,12 +444,6 @@ OlsteetonHomeDecorStoreSignText:
 OlsteetonBoatText:
 	text "It's a boat"
 	line "called Magic Harp."
-	done
-
-OlsteetonGameCornerSignText:
-	text "The Playground for"
-	line "All--Olsteeton"
-	cont "Arcade"
 	done
 
 OlsteetonCafeSignText:
@@ -361,6 +484,7 @@ OlsteetonNameRaterSignText:
 	text "Name Rater's"
 	line "House"
 	done
+
 OlsteetonForestSignText:
 	text "SOUTH: Jolly Sods"
 	line "Regional Park"

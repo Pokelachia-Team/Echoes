@@ -37,7 +37,7 @@ OlsteetonAbandonedMillBlackBelt1Text:
 	para "what Rusty or"
 	line "any of those"
 
-	para "Megacorp grunts"
+	para "MagiKorp grunts"
 	line "have to say!"
 	done
 ;come back and add event script to make him keep yappin bout his pappies

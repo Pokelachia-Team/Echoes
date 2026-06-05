@@ -71,7 +71,7 @@ PoplarOffice_GivesDossier:
 	promptbutton
 	waitsfx
 	verbosegivekeyitem PROF_DOSSIER
-	setevent EVENT_GOT_DOSSIER_FROM_POPLAR
+	clearevent EVENT_GOT_DOSSIER_FROM_POPLAR ;cleared here and set during pawpaw intro to avoid 2 poplars
 	setmapscene OLSTEETON_UNI_CLASSROOM_BIO, SCENE_OLSTEETONUNICLASSROOMBIO_NOOP
 	writetext PoplarOffice_PoplarText4
 	waitbutton
@@ -146,7 +146,8 @@ PoplarOffice_AsherScript:
 	pause 15
 	setscene SCENE_UNI_OFFICE_POPLAR_NOOP
 	setevent EVENT_POPLAR_OFFICE_FIR
-	; setmapscene FIELD_LAB, SCENE_FIELD_LAB_MAGIGOON
+	clearevent EVENT_FOUGHT_FIELD_LAB_MAGIGOON
+	setmapscene FIELD_LAB, SCENE_FIELDLAB_MAGIGOON_BATTLE
 	; specialphonecall SPECIALCALL_DOSSIER ;pawpaw calls to bring docs back
 	end
 

@@ -1,6 +1,6 @@
 NAME := pokemon-echoes
 MODIFIERS :=
-VERSION := 0.3.4
+VERSION := 0.3.5
 AUTHOR := POKELACHIA-TEAM
 
 ROM_NAME = $(NAME)$(MODIFIERS)-$(VERSION)
@@ -101,7 +101,7 @@ crystal_vc_obj := $(rom_obj:.o=_vc.o)
 .SECONDARY:
 .DEFAULT_GOAL: crystal
 
-crystal: pal_annotation $$(ROM_NAME).$$(EXTENSION)
+crystal: $$(ROM_NAME).$$(EXTENSION)
 faithful: crystal
 monochrome: crystal
 noir: crystal
