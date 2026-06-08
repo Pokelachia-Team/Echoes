@@ -942,8 +942,8 @@ MistyGroup:
 		tr_extra HYPER_CUTTER
 		tr_evs 252 Atk, 100 Spe
 		tr_moves DEFENSE_CURL, STOMP, PROTECT, CRABHAMMER
-	tr_mon 62, LANTURN, FEMALE
-		tr_extra VOLT_ABSORB
+	tr_mon 62, SWANNA, FEMALE
+		tr_extra BIG_PECKS
 		tr_evs 100 SAt, 252 HP
 		tr_moves WATER_PULSE, THUNDERBOLT, ICE_BEAM, RECOVER
 	tr_mon 64, STARMIE @ SITRUS_BERRY
@@ -965,8 +965,8 @@ MistyGroup:
 		tr_extra HYPER_CUTTER, SPE_UP_SATK_DOWN
 		tr_evs 252 Atk, 4 SDf, 252 Spe
 		tr_moves AGILITY, CRABHAMMER, X_SCISSOR, ROCK_SLIDE
-	tr_mon 73, LANTURN @ ASSAULT_VEST, FEMALE
-		tr_extra VOLT_ABSORB, SATK_UP_ATK_DOWN
+	tr_mon 73, SWANNA @ ASSAULT_VEST, FEMALE
+		tr_extra BIG_PECKS, SATK_UP_ATK_DOWN
 		tr_evs 252 HP, 4 SDf, 252 SAt
 		tr_moves SURF, THUNDERBOLT, ICE_BEAM, VOLT_SWITCH
 	tr_mon 74, OCTILLERY @ CHOICE_SPECS, FEMALE
@@ -1036,8 +1036,8 @@ else
 endc
 		tr_evs 252 HP, 4 Def, 252 SAt
 		tr_moves THUNDERBOLT, FLASH_CANNON, HP_FIRE, VOLT_SWITCH
-	tr_mon 73, LANTURN @ ASSAULT_VEST, MALE
-		tr_extra WATER_ABSORB, SATK_UP_ATK_DOWN
+	tr_mon 73, SWANNA @ ASSAULT_VEST, MALE
+		tr_extra BIG_PECKS, SATK_UP_ATK_DOWN
 		tr_evs 252 HP, 4 Def, 252 SAt
 		tr_moves SCALD, ICE_BEAM, HP_GRASS, VOLT_SWITCH
 	tr_mon 75, RAICHU @ FOCUS_SASH, MALE
@@ -2854,7 +2854,7 @@ FisherGroup:
 	def_trainer RALPH5, "Ralph"
 	tr_mon 36, QWILFISH
 		tr_moves TOXIC, MINIMIZE, SURF, PIN_MISSILE
-	tr_mon 36, LANTURN
+	tr_mon 36, SWANNA
 		tr_moves REVERSAL, WATERFALL, THUNDERBOLT, CONFUSE_RAY
 	tr_mon 39, SEAKING
 		tr_moves WATERFALL, AGILITY, FURY_STRIKES, POISON_JAB
@@ -3006,7 +3006,7 @@ FisherGroup:
 
 	def_trainer FRANCIS, "Francis"
 	tr_mon LEVEL_FROM_BADGES + 4, REMORAID
-	tr_mon LEVEL_FROM_BADGES + 5, CHINCHOU
+	tr_mon LEVEL_FROM_BADGES + 5, DUCKLETT
 	tr_mon LEVEL_FROM_BADGES + 4, QWILFISH
 	end_trainer
 
@@ -3037,7 +3037,7 @@ FisherGroup:
 	end_trainer
 
 	def_trainer GIDEON, "Gideon"
-	tr_mon 60, LANTURN
+	tr_mon 60, SWANNA
 	tr_mon 56, MANTINE
 	end_trainer
 
@@ -3048,7 +3048,7 @@ FisherGroup:
 
 	def_trainer DALLAS, "Dallas"
 	tr_mon 61, QWILFISH
-	tr_mon 63, LANTURN
+	tr_mon 63, SWANNA
 	tr_mon 65, GYARADOS
 	end_trainer
 
@@ -3940,7 +3940,7 @@ CosplayerGroup:
 	end_trainer
 
 	def_trainer LYRIC, "Lyric"
-	tr_mon 54, LANTURN
+	tr_mon 54, SWANNA
 	tr_mon 53, MAGNEZONE
 	tr_mon 55, ELECTRODE
 	end_trainer
@@ -5160,7 +5160,7 @@ GentlemanGroup:
 	def_trainer GREGORY, "Gregory"
 	tr_mon 56, PIKACHU
 	tr_mon 53, FLAAFFY
-	tr_mon 53, CHINCHOU
+	tr_mon 53, DUCKLETT
 	end_trainer
 
 	def_trainer ALFRED, "Alfred"
@@ -5686,7 +5686,7 @@ SwimmerFGroup:
 	end_trainer
 
 	def_trainer KATIE, "Lisa" ; MISMATCH
-	tr_mon LEVEL_FROM_BADGES + 3, LANTURN
+	tr_mon LEVEL_FROM_BADGES + 3, SWANNA
 	end_trainer
 
 	def_trainer JILL, "Jill"
@@ -5765,7 +5765,7 @@ SwimmerFGroup:
 
 	def_trainer MARINA, "Marina"
 	tr_mon 63, GOLDUCK
-	tr_mon 63, LANTURN
+	tr_mon 63, SWANNA
 	tr_mon 63, GYARADOS
 	end_trainer
 
@@ -5861,7 +5861,7 @@ ScientistGroup:
 
 	def_trainer NIGEL, "Nigel"
 	tr_mon 54, ELECTABUZZ
-	tr_mon 55, LANTURN
+	tr_mon 55, SWANNA
 	end_trainer
 
 	def_trainer PIOTR, "Piotr"
@@ -6628,7 +6628,7 @@ SightseerFGroup:
 	tr_mon 60, "Antorcha", MAGBY, FEMALE
 	tr_mon 61, "Huesitos", CUBONE, MALE
 	tr_mon 64, "Luna", ESPEON, FEMALE
-	tr_mon 65, "Linterna", LANTURN, FEMALE
+	tr_mon 65, "Linterna", SWANNA, FEMALE
 	end_trainer
 
 	def_trainer LENIE, "Lenie"

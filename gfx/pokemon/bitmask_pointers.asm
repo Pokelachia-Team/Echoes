@@ -169,8 +169,8 @@ BitmasksPointers:
 	dw JoltikBitmasks
 	dw GalvantulaBitmasks
 	dw CrobatBitmasks
-	dw ChinchouBitmasks
-	dw LanturnBitmasks
+	dw DucklettBitmasks
+	dw SwannaBitmasks
 	dw PichuPlainBitmasks
 	dw CleffaBitmasks
 	dw IgglybuffBitmasks

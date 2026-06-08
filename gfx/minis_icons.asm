@@ -852,15 +852,15 @@ CrobatMini::     INCBIN "gfx/minis/crobat.2bpp.lzp"
 CrobatMiniMask:: INCBIN "gfx/minis/crobat_mask.1bpp.lzp"
 CrobatIcon::     INCBIN "gfx/icons/crobat.2bpp.lzp"
 
-SECTION "Chinchou Mini Icon", ROMX
-ChinchouMini::     INCBIN "gfx/minis/chinchou.2bpp.lzp"
-ChinchouMiniMask:: INCBIN "gfx/minis/chinchou_mask.1bpp.lzp"
-ChinchouIcon::     INCBIN "gfx/icons/chinchou.2bpp.lzp"
+SECTION "Ducklett Mini Icon", ROMX
+DucklettMini::     INCBIN "gfx/minis/ducklett.2bpp.lzp"
+DucklettMiniMask:: INCBIN "gfx/minis/ducklett_mask.1bpp.lzp"
+DucklettIcon::     INCBIN "gfx/icons/ducklett.2bpp.lzp"
 
-SECTION "Lanturn Mini Icon", ROMX
-LanturnMini::     INCBIN "gfx/minis/lanturn.2bpp.lzp"
-LanturnMiniMask:: INCBIN "gfx/minis/lanturn_mask.1bpp.lzp"
-LanturnIcon::     INCBIN "gfx/icons/lanturn.2bpp.lzp"
+SECTION "Swanna Mini Icon", ROMX
+SwannaMini::     INCBIN "gfx/minis/swanna.2bpp.lzp"
+SwannaMiniMask:: INCBIN "gfx/minis/swanna_mask.1bpp.lzp"
+SwannaIcon::     INCBIN "gfx/icons/swanna.2bpp.lzp"
 
 SECTION "Pichu Mini Icon", ROMX
 PichuMini::     INCBIN "gfx/minis/pichu.2bpp.lzp"

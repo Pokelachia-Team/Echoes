@@ -169,8 +169,8 @@ EggSpeciesMovesPointers::
 	dw JoltikEggSpeciesMoves          ; Joltik
 	dw JoltikEggSpeciesMoves          ; Galvantula
 	dw ZubatEggSpeciesMoves             ; Crobat
-	dw ChinchouEggSpeciesMoves          ; Chinchou
-	dw ChinchouEggSpeciesMoves          ; Lanturn
+	dw DucklettEggSpeciesMoves          ; Ducklett
+	dw DucklettEggSpeciesMoves          ; Swanna
 	dw PichuEggSpeciesMoves             ; Pichu
 	dw CleffaEggSpeciesMoves            ; Cleffa
 	dw IgglybuffEggSpeciesMoves         ; Igglybuff

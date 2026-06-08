@@ -169,8 +169,8 @@ AnimationExtraPointers:
 	dw JoltikAnimationExtra
 	dw GalvantulaAnimationExtra
 	dw CrobatAnimationExtra
-	dw ChinchouAnimationExtra
-	dw LanturnAnimationExtra
+	dw DucklettAnimationExtra
+	dw SwannaAnimationExtra
 	dw PichuPlainAnimationExtra
 	dw CleffaAnimationExtra
 	dw IgglybuffAnimationExtra

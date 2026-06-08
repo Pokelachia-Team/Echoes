@@ -169,8 +169,8 @@ EvolutionMoves::
 	db NO_MOVE      ; JOLTIK
 	db BUG_BITE     ; GALVANTULA
 	db X_SCISSOR    ; CROBAT
-	db NO_MOVE      ; CHINCHOU
-	db NO_MOVE      ; LANTURN
+	db NO_MOVE      ; DUCKLETT
+	db NO_MOVE      ; SWANNA
 	db NO_MOVE      ; PICHU
 	db NO_MOVE      ; CLEFFA
 	db NO_MOVE      ; IGGLYBUFF

@@ -173,8 +173,8 @@ EvosAttacksPointers::
 	dw JoltikEvosAttacks
 	dw GalvantulaEvosAttacks
 	dw CrobatEvosAttacks
-	dw ChinchouEvosAttacks
-	dw LanturnEvosAttacks
+	dw DucklettEvosAttacks
+	dw SwannaEvosAttacks
 	dw PichuEvosAttacks
 	dw CleffaEvosAttacks
 	dw IgglybuffEvosAttacks

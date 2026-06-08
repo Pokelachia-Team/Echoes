@@ -1691,8 +1691,8 @@ CrobatPokedexEntry::
 	next "of wings grew on"
 	next "its hind legs.@"
 
-SECTION "ChinchouPokedexEntry", ROMX
-ChinchouPokedexEntry::
+SECTION "DucklettPokedexEntry", ROMX
+DucklettPokedexEntry::
 	db "Angler@"
 	db   "Its antennae, whi-"
 	next "ch evolved from a"
@@ -1701,8 +1701,8 @@ ChinchouPokedexEntry::
 	next "ative charges flo-"
 	next "wing through them.@"
 
-SECTION "LanturnPokedexEntry", ROMX
-LanturnPokedexEntry::
+SECTION "SwannaPokedexEntry", ROMX
+SwannaPokedexEntry::
 	db "Light@"
 	db   "This #mon uses"
 	next "the bright part of"

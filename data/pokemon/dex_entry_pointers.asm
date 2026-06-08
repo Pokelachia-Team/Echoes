@@ -170,8 +170,8 @@ PokedexDataPointerTable:
 	dba JoltikPokedexEntry
 	dba GalvantulaPokedexEntry
 	dba CrobatPokedexEntry
-	dba ChinchouPokedexEntry
-	dba LanturnPokedexEntry
+	dba DucklettPokedexEntry
+	dba SwannaPokedexEntry
 	dba PichuPokedexEntry
 	dba CleffaPokedexEntry
 	dba IgglybuffPokedexEntry

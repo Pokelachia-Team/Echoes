@@ -27,7 +27,7 @@ AlphabeticalPokedexOrder:
 	dp CELEBI
 	dp FLUTTRFAWN
 	dp CHIKORITA
-	dp CHINCHOU
+	dp DUCKLETT
 	dp CLEFABLE
 	dp CLEFAIRY
 	dp CLEFFA
@@ -122,7 +122,7 @@ AlphabeticalPokedexOrder:
 	dp KINGDRA
 	dp KLEAVOR
 	dp KOFFING
-	dp LANTURN
+	dp SWANNA
 	dp LAPRAS
 	dp LARVITAR
 	dp LEAFEON

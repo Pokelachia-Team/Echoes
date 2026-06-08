@@ -192,8 +192,8 @@
 	const JOLTIK   ; a7
 	const GALVANTULA    ; a8
 	const CROBAT     ; a9
-	const CHINCHOU   ; aa
-	const LANTURN    ; ab
+	const DUCKLETT   ; aa
+	const SWANNA    ; ab
 	const PICHU      ; ac
 	const CLEFFA     ; ad
 	const IGGLYBUFF  ; ae

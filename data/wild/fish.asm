@@ -59,13 +59,13 @@ ENDM
 .Ocean_Good:
 	fishentry  35 percent,     MAGIKARP,   20
 	fishentry  70 percent,     TENTACOOL,  20
-	fishentry  90 percent + 1, CHINCHOU,   20
+	fishentry  90 percent + 1, TENTACOOL,   20
 	fishentry 100 percent,     SHELLDER,   20
 .Ocean_Super:
-	fishentry  40 percent,     CHINCHOU,   40
+	fishentry  40 percent,     SHELLDER,   40
 	fishentry  70 percent,     SHELLDER,   40
 	fishentry  90 percent + 1, TENTACRUEL, 40
-	fishentry 100 percent,     LANTURN,    40
+	fishentry 100 percent,     TENTACRUEL,    40
 
 .Lake_Old:
 .River_Old:

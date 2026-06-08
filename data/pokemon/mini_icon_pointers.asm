@@ -173,8 +173,8 @@ MiniIconPointers:
 	mini_icon Joltik
 	mini_icon Galvantula
 	mini_icon Crobat
-	mini_icon Chinchou
-	mini_icon Lanturn
+	mini_icon Ducklett
+	mini_icon Swanna
 	mini_icon Pichu
 	mini_icon Cleffa
 	mini_icon Igglybuff
