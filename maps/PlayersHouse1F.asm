@@ -1,7 +1,7 @@
 PlayersHouse1F_MapScriptHeader:
 	def_scene_scripts
-	scene_const SCENE_PLAYERSHOUSE1F_MEET_MOM
-	scene_const SCENE_PLAYERSHOUSE1F_NOOP
+	scene_script MomEventScene, SCENE_PLAYERSHOUSE1F_MEET_MOM
+	scene_script PlayersHouse1FNoopScene, SCENE_PLAYERSHOUSE1F_NOOP
 
 	def_callbacks
 
@@ -13,7 +13,7 @@ PlayersHouse1F_MapScriptHeader:
 	def_coord_events
 	coord_event  0,  2, SCENE_PLAYERSHOUSE1F_MEET_MOM, MomTrigger1
 	coord_event  1,  1, SCENE_PLAYERSHOUSE1F_MEET_MOM, MomTrigger2
-	; coord_event  3,  2, 0, SisTrigger
+	coord_event  3,  2, SCENE_PLAYERSHOUSE1F_NOOP, SisTrigger
 
 	def_bg_events
 	bg_event  6,  1, BGEVENT_JUMPTEXT, PlayerHouse1FFridgeText
@@ -27,13 +27,17 @@ PlayersHouse1F_MapScriptHeader:
 	object_event  3,  3, SPRITE_LASS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, SisterScript, -1
 	object_event  8,  3, SPRITE_DAD, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, DadText, -1
 	object_event  9,  5, SPRITE_MOM, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_2
-	; pokemon_event  3,  5, MEOWTH, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_GRAY, HomeMeowthText, -1
 	pokemon_event  3,  5, MEOWTH, FOLKORAN_FORM, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_GRAY, HomeMeowthText, -1
 
 
 	object_const_def
 	const PLAYERSHOUSE1F_MOM
-	; const PLAYERSHOUSE1F_SISTER
+	const PLAYERSHOUSE1F_LASS
+
+MomEventScene:
+PlayersHouse1FNoopScene:
+	end
+
 
 
 MomTrigger1:
@@ -43,7 +47,7 @@ MomTrigger1:
 	applymovement PLAYERSHOUSE1F_MOM, .mom_steps_1
 	turnobject PLAYERSHOUSE1F_MOM, LEFT
 	turnobject PLAYER, RIGHT
-	sjumpfwd MomEventScript
+	sjumpfwd MeetMomScript
 
 .mom_steps_1
 	step_left
@@ -58,7 +62,7 @@ MomTrigger2:
 	turnobject PLAYERSHOUSE1F_MOM, LEFT
 	applymovement PLAYERSHOUSE1F_MOM, .mom_steps_2
 	turnobject PLAYER, DOWN
-	sjumpfwd MomEventScript
+	sjumpfwd MeetMomScript
 
   .mom_steps_2
 	step_left
@@ -68,7 +72,7 @@ MomTrigger2:
 	step_end
 
 
-MomEventScript:
+MeetMomScript:
 	opentext
 	writetext MomIntroText
 	; promptbutton
@@ -113,7 +117,7 @@ MomEventScript:
 	closetext
 	turnobject PLAYERSHOUSE1F_MOM, DOWN
 	applymovement PLAYERSHOUSE1F_MOM, .mom_steps_3
-	setscene SCENE_FIELDLAB_MEET_PAWPAW
+	setmapscene FIELD_LAB, SCENE_FIELDLAB_MEET_PAWPAW
 	special RestartMapMusic
 	end
 
@@ -125,15 +129,15 @@ MomEventScript:
 	step_end
 
 
-; SisTrigger:
-; 	playmusic MUSIC_RIVAL_ENCOUNTER
-; 	showemote EMOTE_SHOCK, PLAYERSHOUSE1F_SISTER, 15 
-; 	turnobject PLAYER, DOWN
-; 	showtext SisterTVText
-; 	applyonemovement PLAYER, step_left
-; 	special RestartMapMusic
-; 	end
-; 	; sjumpfwd SisScript
+SisTrigger:
+	playmusic MUSIC_RIVAL_ENCOUNTER
+	showemote EMOTE_SHOCK, PLAYERSHOUSE1F_LASS, 15 
+	turnobject PLAYER, DOWN
+	showtext SisterTVText
+	applyonemovement PLAYER, step_left
+	special RestartMapMusic
+	end
+	; sjumpfwd SisScript
 
 SisterScript:
 	opentext
@@ -162,7 +166,7 @@ end
 
 .MomEvent:
 	playmusic MUSIC_MOM
-	sjump MomEventScript
+	sjump MeetMomScript
 
 MomIntroText:
 	para "Oh, <PLAYER>!"

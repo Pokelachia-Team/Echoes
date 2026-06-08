@@ -19,8 +19,8 @@ FieldLab_MapScriptHeader:
 	def_coord_events
 	coord_event  6,  5, SCENE_FIELDLAB_CANT_LEAVE, FieldLabTryToLeaveScript
 	coord_event  7,  5, SCENE_FIELDLAB_CANT_LEAVE, FieldLabTryToLeaveScript2
-	coord_event  6,  4, SCENE_FIELDLAB_MAGIGOON_BATTLE, FieldLabMagiGoonScript
-	coord_event  7,  4, SCENE_FIELDLAB_MAGIGOON_BATTLE, FieldLabMagiGoonScript2
+	coord_event  6,  4, SCENE_FIELDLAB_MAGIGOON_BATTLE, FieldLabMagiGoonScript2
+	coord_event  7,  4, SCENE_FIELDLAB_MAGIGOON_BATTLE, FieldLabMagiGoonScript
 	coord_event  6,  6, SCENE_FIELDLAB_AIDE_GIVES_POTION, AideScript_WalkPotions1
 	coord_event  7,  6, SCENE_FIELDLAB_AIDE_GIVES_POTION, AideScript_WalkPotions2
 	coord_event  6,  4, SCENE_FIELDLAB_BROOKE_BATTLE, BrookeBattleScript
@@ -48,7 +48,7 @@ FieldLab_MapScriptHeader:
 	object_event  6,  1, SPRITE_BALL_CUT_TREE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_ENV_RED, OBJECTTYPE_SCRIPT, 0, FlicklitPokeBallScript, EVENT_FLIKLIT_POKEBALL_IN_FIELD_LAB
 	object_event  7,  1, SPRITE_BALL_CUT_TREE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_ENV_BLUE, OBJECTTYPE_SCRIPT, 0, GluttlePokeBallScript, EVENT_GLUTTLE_POKEBALL_IN_FIELD_LAB
 	object_event  8,  1, SPRITE_BALL_CUT_TREE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_ENV_GREEN, OBJECTTYPE_SCRIPT, 0, CupicoPokeBallScript, EVENT_CUPICO_POKEBALL_IN_FIELD_LAB
-	object_event 13,  1, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_FOUGHT_FIELD_LAB_MAGIGOON
+	object_event 14,  1, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_FOUGHT_FIELD_LAB_MAGIGOON
 	object_event 12,  1, SPRITE_SCIENTIST, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, FieldLabFellowText, EVENT_GOT_POKEDEX_FROM_POPLAR
 
 
@@ -130,8 +130,9 @@ endc
 	end
 
 ProfPawpawScript:
-	checkevent EVENT_GOT_POKEDEX_FROM_POPLAR
-
+	opentext
+	checkevent EVENT_FOUGHT_FIELD_LAB_MAGIGOON
+	iftrue_jumpopenedtext PawpawDetailsText
 	checkevent EVENT_GOT_A_POKEMON_FROM_PAWPAW
 	iftrue_jumpopenedtext PawpawDescribesPoplarText
 	jumpthisopenedtext
@@ -142,11 +143,13 @@ ProfPawpawScript:
 	done
 
 FieldLabMagiGoonScript2:
-	applyonemovement FIELDLAB_ROCKET, step_left
 FieldLabMagiGoonScript:
+	moveobject FIELDLAB_ROCKET, 12, 1
 	appear FIELDLAB_ROCKET
-	showemote EMOTE_SHOCK, FIELDLAB_PAWPAW, 10
+	special Special_FadeOutMusic
+	playmusic MUSIC_ROCKET_ENCOUNTER
 	applymovement FIELDLAB_ROCKET, MagiGoonRunsInMovement
+	showemote EMOTE_SHOCK, FIELDLAB_PAWPAW, 10
 	turnobject FIELDLAB_PAWPAW, RIGHT
 	showtext FieldLabMagiGoonTheftText
 	pause 10
@@ -170,7 +173,6 @@ FieldLabMagiGoonScript:
 	pause 10
 	turnobject PLAYER, RIGHT
 	showtext FieldLabMagiGoonTheftGoodbyeText
-	waitbutton
 	closetext
 	applymovement FIELDLAB_ROCKET, MagiGoonLeavesMovement
 	disappear FIELDLAB_ROCKET
@@ -182,6 +184,7 @@ FieldLabMagiGoonScript:
 	end
 
 PawpawAfterMagigoonScript:
+	opentext
 	writetext PawpawAfterMagiGoonText1
 	checkkeyitem PROF_DOSSIER
 	; iffalse PawpawAfterMagiGoonDoneScript
@@ -189,9 +192,11 @@ PawpawAfterMagigoonScript:
 	writetext PawpawAfterMagiGoonText2
 	waitbutton
 	writetext PawpawAfterMagiGoonText3
+	closetext
 	takekeyitem PROF_DOSSIER
-	showemote EMOTE_SHOCK, FIELDLAB_PAWPAW, 15
+	showemote EMOTE_SHOCK, FIELDLAB_PAWPAW, 10
 	; scall PawpawJumpBackScript
+	opentext
 	writetext PawpawAfterMagiGoonText4
 	promptbutton
 	setevent EVENT_GAVE_DOSSIER_TO_PAWPAW
@@ -202,6 +207,7 @@ PawpawAfterMagigoonScript:
 	waitbutton
 	closetext
 	showtext PawpawAfterMagiGoonText6
+	showtext PawpawDetailsText
 	end
 
 PawpawAfterMon:
@@ -1304,14 +1310,14 @@ PawpawAfterMagiGoonText1:
 	done
 
 PawpawAfterMagiGoonText2: ;largely unchanged text
-	para "So Prof.Poplar gave"
+	para "Prof.Poplar gave"
 	line "you a #dex?"
 
 	para "<PLAYER>, is that"
 	line "true? Th-that's"
 	cont "incredible!"
 
-	para "He is superb at"
+	para "She is superb at"
 	line "seeing the poten-"
 	cont "tial of people as"
 	cont "trainers."
@@ -1374,8 +1380,10 @@ PawpawAfterMagiGoonText6:
 	line "Brooke, and Prof."
 	cont "Fir's assistant to"
 	cont "be there."
+	done
 
-	para "I'll call you"
+PawpawDetailsText:
+	text "I'll call you"
 	line "with details soon,"
 	cont "<PLAYER>."
 	done

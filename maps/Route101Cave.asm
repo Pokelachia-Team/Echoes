@@ -7,7 +7,7 @@ Route101Cave_MapScriptHeader:
 	warp_event  5,  7, ROUTE_101, 4
 	warp_event  9,  3, ROUTE_101_CAVE, 3
 	warp_event  7, 15, ROUTE_101_CAVE, 2
-	warp_event  7, 33, ECHOING_CAVE, 4
+	warp_event  7, 33, ECHOING_CAVE, 3
 
 
 
