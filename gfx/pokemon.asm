@@ -675,15 +675,15 @@ CrobatFrontpic: INCBIN "gfx/pokemon/crobat/front.animated.2bpp.lzp"
 CrobatBackpic:  INCBIN "gfx/pokemon/crobat/back.2bpp.lzp"
 CrobatFrames:   INCLUDE "gfx/pokemon/crobat/frames.asm"
 
-SECTION "Chinchou Pics", ROMX
-ChinchouFrontpic: INCBIN "gfx/pokemon/chinchou/front.animated.2bpp.lzp"
-ChinchouBackpic:  INCBIN "gfx/pokemon/chinchou/back.2bpp.lzp"
-ChinchouFrames:   INCLUDE "gfx/pokemon/chinchou/frames.asm"
+SECTION "Ducklett Pics", ROMX
+DucklettFrontpic: INCBIN "gfx/pokemon/ducklett/front.animated.2bpp.lzp"
+DucklettBackpic:  INCBIN "gfx/pokemon/ducklett/back.2bpp.lzp"
+DucklettFrames:   INCLUDE "gfx/pokemon/ducklett/frames.asm"
 
-SECTION "Lanturn Pics", ROMX
-LanturnFrontpic: INCBIN "gfx/pokemon/lanturn/front.animated.2bpp.lzp"
-LanturnBackpic:  INCBIN "gfx/pokemon/lanturn/back.2bpp.lzp"
-LanturnFrames:   INCLUDE "gfx/pokemon/lanturn/frames.asm"
+SECTION "Swanna Pics", ROMX
+SwannaFrontpic: INCBIN "gfx/pokemon/swanna/front.animated.2bpp.lzp"
+SwannaBackpic:  INCBIN "gfx/pokemon/swanna/back.2bpp.lzp"
+SwannaFrames:   INCLUDE "gfx/pokemon/swanna/frames.asm"
 
 SECTION "Cleffa Pics", ROMX
 CleffaFrontpic: INCBIN "gfx/pokemon/cleffa/front.animated.2bpp.lzp"

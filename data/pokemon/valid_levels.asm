@@ -170,8 +170,8 @@ ValidPokemonLevels: ; for Wonder Trade
 	db   1,  21 ; Joltik
 	db  22, 100 ; Galvantula
 	db  32, 100 ; Crobat
-	db   1,  26 ; Chinchou
-	db  27, 100 ; Lanturn
+	db   1,  26 ; Ducklett
+	db  27, 100 ; Swanna
 	db   1,  19 ; Pichu
 	db   1,  19 ; Cleffa
 	db   1,  19 ; Igglybuff

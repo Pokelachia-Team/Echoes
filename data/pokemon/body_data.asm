@@ -176,8 +176,8 @@ PokemonBodyData:
 	body_data   5,   85, INSECTOID,    GREEN  ; JOLTIK
 	body_data  11,  335, INSECTOID,    RED    ; GALVANTULA
 	body_data  18,  750, MULTIWINGS,   PURPLE ; CROBAT
-	body_data   5,  120, FINS,         BLUE   ; CHINCHOU
-	body_data  12,  225, FINS,         BLUE   ; LANTURN
+	body_data   5,  120, FINS,         BLUE   ; DUCKLETT
+	body_data  12,  225, FINS,         BLUE   ; SWANNA
 	body_data   3,   20, QUADRUPED,    YELLOW ; PICHU
 	body_data   3,   30, BIPEDAL_TAIL, PINK   ; CLEFFA
 	body_data   3,   10, BIPEDAL,      PINK   ; IGGLYBUFF

@@ -173,8 +173,8 @@ PokemonPicPointers::
 	pics Joltik
 	pics Galvantula
 	pics Crobat
-	pics Chinchou
-	pics Lanturn
+	pics Ducklett
+	pics Swanna
 	pics PichuPlain
 	pics Cleffa
 	pics Igglybuff

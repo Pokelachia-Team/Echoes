@@ -770,8 +770,8 @@ JoltikEggSpeciesMoves:
 	db TOXIC_SPIKES
 	db $ff
 
-ChinchouEggSpeciesMoves:
-	dp CHINCHOU, PLAIN_FORM
+DucklettEggSpeciesMoves:
+	dp DUCKLETT, PLAIN_FORM
 	db AGILITY
 	db HAZE
 	db PSYBEAM

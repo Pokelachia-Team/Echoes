@@ -91,7 +91,7 @@ HGSS tutor:
 Bellsprout/Weepinbell/Victreebel: Bug Bite
 Ledyba/Ledian: Bug Bite
 Pinsir: Bug Bite
-Chinchou/Lanturn: Heal Bell
+Ducklett/Lanturn: Heal Bell
 Dunsparce: Pain Split
 Jynx: Heal Bell
 Lapras: Heal Bell

@@ -169,8 +169,8 @@ FootprintPointers::
 	dw JoltikFootprint
 	dw GalvantulaFootprint
 	dw CrobatFootprint
-	dw ChinchouFootprint
-	dw LanturnFootprint
+	dw DucklettFootprint
+	dw SwannaFootprint
 	dw PichuFootprint
 	dw CleffaFootprint
 	dw IgglybuffFootprint

@@ -27,7 +27,7 @@ CursolaFootprint:: INCBIN "gfx/footprints/corsola_cursola.1bpp.lzp"
 BlankFootprint::
 ArbokFootprint::
 BellossomFootprint::
-ChinchouFootprint::
+DucklettFootprint::
 CloysterFootprint::
 CrobatFootprint::
 DewgongFootprint::
@@ -54,7 +54,7 @@ JynxFootprint::
 KakunaFootprint::
 KingdraFootprint::
 KoffingFootprint::
-LanturnFootprint::
+SwannaFootprint::
 LaprasFootprint::
 MagcargoFootprint::
 MagikarpFootprint::

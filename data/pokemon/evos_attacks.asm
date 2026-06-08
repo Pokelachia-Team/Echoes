@@ -3599,8 +3599,8 @@ endc
 	learnset 48, AIR_SLASH
 	learnset 51, CRUNCH ; Quick Guard → new move
 
-	evos_attacks Chinchou
-	evo_data EVOLVE_LEVEL, 27, LANTURN
+	evos_attacks Ducklett
+	evo_data EVOLVE_LEVEL, 27, SWANNA
 	learnset 1, WATER_GUN ; Bubble → Water Gun
 	learnset 1, SUPERSONIC
 	learnset 6, THUNDER_WAVE
@@ -3618,7 +3618,7 @@ endc
 	learnset 47, HYDRO_PUMP ; Ion Deluge → Hydro Pump
 	learnset 50, LIGHT_SCREEN ; Charge → event move
 
-	evos_attacks Lanturn
+	evos_attacks Swanna
 	learnset 1, WATER_GUN ; Bubble → Water Gun
 	learnset 1, SUPERSONIC
 	learnset 6, THUNDER_WAVE

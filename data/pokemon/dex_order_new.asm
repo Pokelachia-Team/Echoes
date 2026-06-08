@@ -205,8 +205,8 @@ NewPokedexOrder:
 	dp CURSOLA
 	dp REMORAID
 	dp OCTILLERY
-	dp CHINCHOU
-	dp LANTURN
+	dp DUCKLETT
+	dp SWANNA
 	dp SEEL
 	dp DEWGONG
 	dp LICKITUNG

@@ -175,8 +175,8 @@ PokemonCries::
 	mon_cry CRY_JOLTIK,    $011,  $200 ; Joltik
 	mon_cry CRY_JOLTIK,   -$0ae,  $1e2 ; Galvantula
 	mon_cry CRY_GLUTTLE,   -$010,  $140 ; Crobat
-	mon_cry CRY_CYNDAQUIL,   $3c9,  $140 ; Chinchou
-	mon_cry CRY_CYNDAQUIL,   $2d0,  $110 ; Lanturn
+	mon_cry CRY_CYNDAQUIL,   $3c9,  $140 ; Ducklett
+	mon_cry CRY_CYNDAQUIL,   $2d0,  $110 ; Swanna
 	mon_cry CRY_PICHU,       $000,  $140 ; Pichu
 	mon_cry CRY_BELLOSSOM,   $061,  $091 ; Cleffa
 	mon_cry CRY_CHIKORITA,   $0e8,  $0e8 ; Igglybuff
