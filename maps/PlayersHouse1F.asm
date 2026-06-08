@@ -13,7 +13,7 @@ PlayersHouse1F_MapScriptHeader:
 	def_coord_events
 	coord_event  0,  2, SCENE_PLAYERSHOUSE1F_MEET_MOM, MomTrigger1
 	coord_event  1,  1, SCENE_PLAYERSHOUSE1F_MEET_MOM, MomTrigger2
-	; coord_event  3,  2, 0, SisTrigger
+	coord_event  3,  2, SCENE_PLAYERSHOUSE1F_NOOP, SisTrigger
 
 	def_bg_events
 	bg_event  6,  1, BGEVENT_JUMPTEXT, PlayerHouse1FFridgeText
@@ -32,7 +32,7 @@ PlayersHouse1F_MapScriptHeader:
 
 	object_const_def
 	const PLAYERSHOUSE1F_MOM
-	; const PLAYERSHOUSE1F_SISTER
+	const PLAYERSHOUSE1F_LASS
 
 MomEventScene:
 PlayersHouse1FNoopScene:
@@ -129,15 +129,15 @@ MeetMomScript:
 	step_end
 
 
-; SisTrigger:
-; 	playmusic MUSIC_RIVAL_ENCOUNTER
-; 	showemote EMOTE_SHOCK, PLAYERSHOUSE1F_SISTER, 15 
-; 	turnobject PLAYER, DOWN
-; 	showtext SisterTVText
-; 	applyonemovement PLAYER, step_left
-; 	special RestartMapMusic
-; 	end
-; 	; sjumpfwd SisScript
+SisTrigger:
+	playmusic MUSIC_RIVAL_ENCOUNTER
+	showemote EMOTE_SHOCK, PLAYERSHOUSE1F_LASS, 15 
+	turnobject PLAYER, DOWN
+	showtext SisterTVText
+	applyonemovement PLAYER, step_left
+	special RestartMapMusic
+	end
+	; sjumpfwd SisScript
 
 SisterScript:
 	opentext
