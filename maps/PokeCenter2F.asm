@@ -77,7 +77,7 @@ PokeCenter2FLinkRecordSign:
 
 LinkReceptionistScript_Trade:
 if !DEF(DEBUG)
-	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
+	checkevent EVENT_GAVE_DOSSIER_TO_PAWPAW
 	iffalsefwd Script_TradeCenterClosed
 endc
 	special FixPlayerEVsAndStats ; no (trivial) cheating
@@ -190,7 +190,7 @@ Script_TradeCenterClosed:
 
 LinkReceptionistScript_Battle:
 if !DEF(DEBUG)
-	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
+	checkevent EVENT_GAVE_DOSSIER_TO_PAWPAW
 	iffalsefwd .BattleRoomClosed
 endc
 	special FixPlayerEVsAndStats ; no (trivial) cheating
