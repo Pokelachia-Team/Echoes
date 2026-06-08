@@ -105,11 +105,10 @@ OlsteetonPsyduckLadyScript:
 OlsteetonRustyScript:
 	faceplayer
 	opentext
-	; checkevent EVENT_FOUGHT_FIELD_LAB_MAGIGOON
+	checkevent EVENT_FOUGHT_FIELD_LAB_MAGIGOON
 	iftruefwd .RustyBattleCheck
-	checkevent EVENT_GAVE_DOSSIER_TO_PAWPAW
-	; iftrue_jumptext OlsteetonRusty_ConstructionText
-	iftruefwd .RustyBattleCheck
+	checkevent EVENT_GAVE_DOSSIER_TO_PAWPAW ;change to old mill completed event
+	iftrue_jumptext OlsteetonRusty_ConstructionText
 	jumpopenedtext OlsteetonRustyText1
 	end
 
