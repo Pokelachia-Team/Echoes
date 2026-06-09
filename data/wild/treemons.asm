@@ -36,13 +36,13 @@ TreeMonSet_Canyon:
 	; rare
 	tree_mon 50, CRIBNAL,    10
 	tree_mon 30, HERACROSS,  10
-	tree_mon 20, AIPOM,      10
+	tree_mon 20, PINECO,      10
 	db -1
 
 TreeMonSet_Town:
 	tree_mon 65, CRIBNAL,    10
 	tree_mon 15, EKANS,      10
-	tree_mon 20, AIPOM,      10
+	tree_mon 20, PINECO,      10
 	db -1
 	; rare
 	tree_mon 60, CRIBNAL,    10
@@ -88,15 +88,15 @@ TreeMonSet_Forest:
 	tree_mon 50, HOOTHOOT,   10
 	tree_mon 30, PINECO,     10
 	tree_mon 10, NOCTOWL,    10
-	tree_mon  5, BUTTERFREE, 10
-	tree_mon  5, BEEDRILL,   10
+	tree_mon  5, METAPOD,    10
+	tree_mon  5, KAKUNA,     10
 	db -1
 	; rare
 	tree_mon 60, HOOTHOOT,   10
 	tree_mon 15, CATERPIE,   10
 	tree_mon 15, WEEDLE,     10
-	tree_mon  5, METAPOD,    10
-	tree_mon  5, KAKUNA,     10
+	tree_mon  5, BUTTERFREE, 10
+	tree_mon  5, BEEDRILL,   10
 	db -1
 
 TreeMonSet_Apricorns:
