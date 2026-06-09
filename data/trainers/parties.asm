@@ -2227,9 +2227,9 @@ SECTION "YoungsterGroup", ROMX
 YoungsterGroup:
 
 	def_trainer_class YOUNGSTER
-	def_trainer JOEY1, "Joey"
-	tr_mon 5, RATTATA, MALE
-		tr_extra GUTS, ATK_UP_SATK_DOWN
+	def_trainer JOEY1, "Joseph"
+	tr_mon 5, RATTATA, MALE | ALOLAN_FORM
+		tr_extra HUSTLE, ATK_UP_SATK_DOWN
 		tr_dvs 15 All
 	end_trainer
 
@@ -2265,7 +2265,7 @@ YoungsterGroup:
 	end_trainer
 
 	def_trainer MIKEY, "Mikey"
-	tr_mon 2, RATTATA
+	tr_mon 2, RATTATA | ALOLAN_FORM
 	tr_mon 4, CRIBNAL
 	end_trainer
 

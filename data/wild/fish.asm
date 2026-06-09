@@ -71,7 +71,7 @@ ENDM
 .River_Old:
 .Well_Old:
 	fishentry  70 percent + 1, MAGIKARP,   10
-	fishentry  85 percent + 1, MAGIKARP,   10
+	fishentry  85 percent + 1, CORPHISH,   10
 	fishentry 100 percent,     GOLDEEN,    10
 .Lake_Good:
 .River_Good:

@@ -215,7 +215,6 @@ PawpawAfterMon:
 	writetext PawpawDescribesPoplarText
 	closetext
 	end
-	jumpopenedtext PawpawText_LetYourMonBattleIt
 	
 FieldLabTryToLeaveScript:
 	showtext PawpawWhereGoingText
