@@ -18,6 +18,7 @@ MapScenes::
 	scene_var POKECENTER_2F,                     wPokecenter2FSceneID
 	scene_var FIELD_LAB,                         wFieldLabSceneID
 	scene_var ROUTE_101,                         wRoute101SceneID
+	scene_var RIVERFRONT_APT_ROOF,               wRiverfrontAptRoofSceneID
 	scene_var OLSTEETON_UNI_CLASSROOM_BIO,       wOlsteetonUniClassroomBioSceneID
 	scene_var OLSTEETON_UNI_OFFICE_POPLAR,       wOlsteetonUniOfficePoplarSceneID
 	db -1
