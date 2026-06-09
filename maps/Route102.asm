@@ -23,6 +23,8 @@ Route102_MapScriptHeader:
 
 	def_object_events
 	object_event 14, 10, SPRITE_SCHOOLGIRL, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerSchoolgirlMolly, -1
+	object_event 28, 16, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerYoungsterMikey, -1
+	object_event 18, 13, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerBug_catcherDon, -1
 	fruittree_event 26, 14, FRUITTREE_ROUTE_36, RAWST_BERRY, PAL_NPC_TEAL
 	itemball_event 12,  9, GREAT_BALL, 1, EVENT_ROUTE_102_GREAT_BALL
 	itemball_event 25, 17, REPEL, 1, EVENT_ROUTE_102_REPEL
@@ -56,6 +58,52 @@ SchoolgirlMollyBeatenText:
 	line "sorry, mama!"
 	done
 
+GenericTrainerYoungsterMikey:
+	generictrainer YOUNGSTER, MIKEY, EVENT_BEAT_YOUNGSTER_MIKEY, YoungsterMikeySeenText, YoungsterMikeyBeatenText
+
+	text "Becoming a good"
+	line "trainer is really"
+	cont "tough."
+
+	para "I'm going to bat-"
+	line "tle other people"
+	cont "to get better."
+	done
+
+GenericTrainerBug_catcherDon:
+	generictrainer BUG_CATCHER, DON, EVENT_BEAT_BUG_CATCHER_DON, Bug_catcherDonSeenText, Bug_catcherDonBeatenText
+
+	text "I ran out of #"
+	line "Balls while I was"
+	cont "catching #mon."
+
+	para "I should've bought"
+	line "some more…"
+	done
+
+YoungsterMikeySeenText:
+	text "You're a #mon"
+	line "trainer, right?"
+
+	para "Then you have to"
+	line "battle!"
+	done
+
+YoungsterMikeyBeatenText:
+	text "That's strange."
+	line "I won before."
+	done
+
+Bug_catcherDonSeenText:
+	text "Instead of a bug"
+	line "#mon, I found"
+	cont "a trainer!"
+	done
+
+Bug_catcherDonBeatenText:
+	text "Argh! You're too"
+	line "strong!"
+	done
 
 Route102SignText:
 	text "Route 102"
