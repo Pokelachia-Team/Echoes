@@ -1,5 +1,6 @@
 Olsteeton_MapScriptHeader:
 	def_scene_scripts
+	scene_const SCENE_OLSTEETON_PSYDUCK_FOUND
 
 	def_callbacks
 
@@ -60,7 +61,7 @@ Olsteeton_MapScriptHeader:
 	object_event 25, 18, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonGramps2Text, -1
 	object_event 23,  5, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonYoungster1Text, -1
 	object_event  8, 35, SPRITE_CAMPER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonYoungster2Text, -1
-	object_event 18, 21, SPRITE_TEACHER, SPRITEMOVEDATA_WANDER, 2, 2, -1, 0, OBJECTTYPE_SCRIPT, 0, OlsteetonPsyduckLadyScript, -1
+	object_event 18, 21, SPRITE_TEACHER, SPRITEMOVEDATA_WANDER, 2, 2, -1, 0, OBJECTTYPE_SCRIPT, 0, OlsteetonPsyduckLadyScript, EVENT_GOT_TM54_FALSE_SWIPE
 	object_event 23, 30, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonLassText_PCC, -1
 	object_event 23, 19, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonLassText, -1
 	object_event 22, 16, SPRITE_ROCKER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonBandRocker1Text, -1
@@ -68,6 +69,7 @@ Olsteeton_MapScriptHeader:
 	object_event 26, 16, SPRITE_ROCKER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 1, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonBandRocker3Text, -1
 	object_event 26, 19, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonBandCooltrainerFText, -1
 	object_event 10, 14, SPRITE_RUSTY, SPRITEMOVEDATA_SPINRANDOM_SLOW, 1, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, OlsteetonRustyScript, -1
+
 
 	object_const_def
 	const OLSTEETON_RUSTY
@@ -96,10 +98,13 @@ Olsteeton_BoatRide:
 OlsteetonPsyduckLadyScript:
 	faceplayer
 	opentext
-	jumpopenedtext OlsteetonPsyduckLadyText
+	writetext OlsteetonPsyduckLadyText
 	yesorno
-	iftrue_jumptext OlsteetonPsyduckLadyAcceptedText
-	jumpopenedtext OlsteetonPsyduckLadyRejectedText
+	iffalse_jumpopenedtext OlsteetonPsyduckLadyRejectedText
+	writetext OlsteetonPsyduckLadyAcceptedText
+	waitbutton
+	closetext
+	setmapscene RIVERFRONT_APT_ROOF, SCENE_RIVERFRONTAPTROOF_FOUND_PSYDUCK
 	end
 
 OlsteetonRustyScript:
@@ -342,10 +347,9 @@ OlsteetonPsyduckLadyText:
 	cont "my lost Psyduck,"
 	cont "Lucy..."
 	
-	para "Have you seen"
-	line "a Psyduck around?"
+	para "Would you help me"
+	line "find my Lucy?"
 	done
-	; add event script for finding the psyduck and get reward
 
 OlsteetonPsyduckLadyAcceptedText:
 	text "Oh, you will?"
