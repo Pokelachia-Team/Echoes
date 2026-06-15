@@ -23,8 +23,6 @@ MACRO? tileframe
 ENDM
 
 TilesetJohtoTraditionalAnim::
-TilesetJohtoModernAnim::
-TilesetJohtoCoastAnim::
 TilesetJohtoOutlandsAnim::
 TilesetJohtoAncientAnim::
 TilesetBattleTowerOutsideAnim::
@@ -35,6 +33,19 @@ TilesetFolkoraAnim::
 	tileframe DoNothing
 	tileframe AnimateBuoyTiles,         $0:60
 	tileframe DoNothing
+	tileframe AnimateFlowerTile,        $0:03
+	tileframe AnimateRainTiles,         $0:1c
+	tileframe AnimateWaterfallTiles,    $0:34
+	tileframe StandingTileFrame8
+	tileframe DoneTileAnimation
+
+TilesetJohtoModernAnim::
+TilesetJohtoCoastAnim::
+	tileframe AnimateWaterTile,         $0:14
+	tileframe AnimateRainTiles,         $0:1c
+	tileframe AnimateWhirlpoolTiles,    $0:30
+	tileframe AnimateBuoyTiles,         $0:60
+	tileframe AnimateGameCornerTiles,   $1:94
 	tileframe AnimateFlowerTile,        $0:03
 	tileframe AnimateRainTiles,         $0:1c
 	tileframe AnimateWaterfallTiles,    $0:34
@@ -56,6 +67,7 @@ TilesetIndigoPlateauAnim::
 	tileframe ScrollTileRight,          $0:13
 	tileframe AnimateWaterfallTiles,    $0:6b
 	tileframe AnimateFountainTile,      $0:40
+	tileframe AnimateGameCornerTiles,   $0:7a
 	tileframe StandingTileFrame8
 	tileframe DoneTileAnimation
 

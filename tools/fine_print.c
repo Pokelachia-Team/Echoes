@@ -1198,7 +1198,7 @@ void output_2bpp(const struct Canvas *canvas, const char *filename, int colors[s
 			putc((unsigned char)bp1, f);
 		}
 	}
-	fclose(f);
+	xfclose(f);
 }
 
 int main(int argc, char *argv[]) {
@@ -1222,5 +1222,8 @@ int main(int argc, char *argv[]) {
 	append_string(&output, argv[0], options.spacing);
 	output_2bpp(&output, argv[1], options.colors, options.center);
 
+	for (size_t i = 0; i < HEIGHT; i++) {
+		free(output.pixels[i]);
+	}
 	return 0;
 }
