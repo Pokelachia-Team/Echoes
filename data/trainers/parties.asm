@@ -3955,7 +3955,7 @@ SuperNerdGroup:
 	end_trainer
 
 	def_trainer ERIC, "Eric"
-	tr_mon 13, GRIMER
+	tr_mon 13, GRIMER, ALOLAN_FORM
 	tr_mon 14, PORYGON
 	end_trainer
 
@@ -4829,8 +4829,9 @@ HexManiacGroup:
 
 	def_trainer_class HEX_MANIAC
 	def_trainer TAMARA, "Tamara"
-	tr_mon 16, GASTLY
-	tr_mon 18, MISDREAVUS
+	tr_mon 9, MURKROW
+	tr_mon 10, POLTEGEIST
+	tr_mon 10, DOOZEE
 	end_trainer
 
 	def_trainer ASHLEY, "Ashley"
@@ -5233,6 +5234,10 @@ LadyGroup:
 	tr_mon 54, SCOURPOSS @ NUGGET
 	end_trainer
 
+	def_trainer AVA, "Ava"
+	tr_mon 5, NOFAWTS
+	tr_mon 5, STANTLER
+	end_trainer
 
 SECTION "BreederGroup", ROMX
 BreederGroup:
@@ -6014,11 +6019,9 @@ BlackbeltGroup:
 		tr_moves AERIAL_ACE, THUNDERPUNCH, ICE_PUNCH, FIRE_PUNCH
 	end_trainer
 
-	def_trainer NOB, "Nob"
-	tr_mon 25, TIMBURR
-		tr_moves LEER, FOCUS_ENERGY, KARATE_CHOP, SEISMIC_TOSS
-	tr_mon 25, GURDURR
-		tr_moves LEER, KARATE_CHOP, SEISMIC_TOSS, ROCK_SLIDE
+	def_trainer BENJI, "Benji"
+	tr_mon 6, TIMBURR
+	tr_mon 7, TIMBURR
 	end_trainer
 
 	def_trainer LUNG, "Lung"
@@ -6704,12 +6707,9 @@ CooltrainerMGroup:
 	end_trainer
 
 	def_trainer NICK, "Nick"
-	tr_mon 26, FLIKLIT
-		tr_moves EMBER, SMOKESCREEN, RAGE, SCARY_FACE
-	tr_mon 26, GLUTTLE
-		tr_moves DEFENSE_CURL, WATER_GUN, BITE, CURSE
-	tr_mon 26, CUPICO
-		tr_moves LEECH_SEED, POISONPOWDER, SLEEP_POWDER, RAZOR_LEAF
+	tr_mon 6, FLIKLIT
+	tr_mon 6, GLUTTLE
+	tr_mon 6, CUPICO
 	end_trainer
 
 	def_trainer AARON, "Aaron"
@@ -6960,8 +6960,8 @@ endc
 	end_trainer
 
 	def_trainer IRENE, "Irene"
-	tr_mon 22, GOLDEEN
-	tr_mon 24, SEAKING
+	tr_mon 7, GOLDEEN
+	tr_mon 8, WOOPER, PALDEAN_FORM
 	end_trainer
 
 	def_trainer KELLY, "Kelly"
