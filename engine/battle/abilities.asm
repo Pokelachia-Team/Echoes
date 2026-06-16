@@ -605,22 +605,19 @@ RunFaintAbilities:
 ; abilities that run after an attack faints an enemy
 	farcall GetFutureSightUser
 	ret nz
-	ld hl, UserFaintAbilities
-	call UserIgnorableAbilityJumptable
+	call GetTrueUserIgnorableAbility
+	call _RunFaintUserAbilities
 	call GetOpponentIgnorableAbility
+	push af
 	call SwitchTurn
-	ld hl, TargetFaintAbilities
-	call AbilityJumptable
+	pop af
+	call _RunFaintOpponentAbilities
 	jmp SwitchTurn
 
-UserFaintAbilities:
-	dbw MOXIE, MoxieAbility
-	dbw -1, -1
-
-TargetFaintAbilities:
-	dbw AFTERMATH, AftermathAbility
-	dbw -1, -1
-
+_RunFaintOpponentAbilities:
+	cp AFTERMATH
+	ret nz
+	; fallthrough
 AftermathAbility:
 	; Damp protects against this
 	call GetOpponentIgnorableAbility
@@ -1028,6 +1025,10 @@ JustifiedAbility:
 	cp DARK
 	ret nz
 	jr AttackUpAbility
+_RunFaintUserAbilities:
+	cp MOXIE
+	ret nz
+	; fallthrough
 MoxieAbility:
 	; Don't run if battle is over
 	farcall CheckAnyOtherAliveOpponentMons

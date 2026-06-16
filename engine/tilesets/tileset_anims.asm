@@ -717,9 +717,9 @@ AnimateTinyWaterTiles:
 	ld b, h
 	ld c, l
 
-	add LOW(vTiles5 tile $4b)
+	add LOW(vTiles5 tile $5c)
 	ld l, a
-	adc HIGH(vTiles5 tile $4b)
+	adc HIGH(vTiles5 tile $5c)
 	sub l
 	ld h, a
 
@@ -764,28 +764,6 @@ AnimateWaterfallTiles:
 
 .WaterfallTileFrames:
 INCBIN "gfx/tilesets/animations/waterfall.2bpp"
-
-AnimateGameCornerTiles:
-	ld hl, sp + 0
-	ld b, h
-	ld c, l
-
-	; period 2, every 2 frames, offset to 4 tiles (64 bytes)
-	ld a, [wTileAnimationTimer]
-	maskbits 2, 1
-	swap a
-	add a
-
-	add LOW(.GameCornerTileFrames)
-	ld l, a
-	adc HIGH(.GameCornerTileFrames)
-	sub l
-	ld h, a
-
-	jmp WriteFourTilesHLToDE
-
-.GameCornerTileFrames:
-INCBIN "gfx/tilesets/animations/game_corner.2bpp"
 
 AnimateFireTiles:
 	ld hl, sp + 0

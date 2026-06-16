@@ -904,9 +904,9 @@ DEF BETA EQU __trainer_class__
 	const JACLYN
 
 	trainerclass BIKER
-	const DWAYNE ; custom pal
-	const HARRIS ; custom pal
-	const ZEKE ; custom pal
+	const DWAYNE
+	const HARRIS
+	const ZEKE
 	const CHARLES
 	const REILLY
 	const JOEL
@@ -1177,18 +1177,13 @@ ENDM
 	trainerpal KUNI
 	trainerpal MIKI
 	trainerpal MAKO
-	trainerpal AMI
+	trainerpal AMI  ; 06
 	trainerpal MINA
 
 ; elders (wise trio)
 	trainerpal GAKU
 	trainerpal MASA
 	trainerpal KOJI
-
-; bikers (kanto pokemon federation)
-	trainerpal BIKER_DWAYNE
-	trainerpal BIKER_HARRIS
-	trainerpal BIKER_ZEKE
 
 ; dark-skinned or tanned trainers
 	trainerpal DARK_CAMPER

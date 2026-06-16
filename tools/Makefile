@@ -27,18 +27,13 @@ CFLAGS = -O3 -flto -std=c17 -Wall -Wextra -pedantic \
          -Wunused \
          -Wwrite-strings
 
-# debugging sanitizers:
-#CFLAGS += -ggdb3 -Og -D_GLIBCXX_ASSERTIONS \
-#          -fno-omit-frame-pointer -fno-optimize-sibling-calls \
-#          -fsanitize=address -fsanitize=undefined -fsanitize=float-divide-by-zero
-
 tools := \
 	bankends \
 	bpp2png \
 	bspcomp \
 	fine_print \
 	gfx \
-	lzpcompress \
+	lzcomp \
 	make_patch \
 	png_dimensions \
 	pokemon_animation \
@@ -63,7 +58,9 @@ vwf: common.h
 bpp2png: bpp2png.c lodepng/lodepng.c common.h lodepng/lodepng.h
 	$(CC) $(CFLAGS) -o $@ bpp2png.c lodepng/lodepng.c
 
-lzpcompress: CFLAGS += -Wno-strict-overflow -Wno-sign-compare
+lzcomp: CFLAGS += -Wno-strict-overflow -Wno-sign-compare
+lzcomp: $(wildcard lz/*.c) $(wildcard lz/*.h)
+	$(CC) $(CFLAGS) -o $@ lz/*.c
 
 bspcomp: bsp/bspcomp.c
 	$(CC) $(CFLAGS) -o $@ $^
