@@ -680,6 +680,7 @@ DEF BETA EQU __trainer_class__
 
 	trainerclass LADY
 	const JESSICA
+	const AVA
 
 	trainerclass BREEDER
 	const JULIE
@@ -838,7 +839,7 @@ DEF BETA EQU __trainer_class__
 ;	const KENJI3
 	const YOSHI
 	const LAO
-	const NOB
+	const BENJI
 	const LUNG
 	const WAI
 	const INIGO

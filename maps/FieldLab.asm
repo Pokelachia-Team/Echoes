@@ -89,8 +89,6 @@ FieldLab_AutowalkUpToPawpaw:
 	applymovement PLAYER, FieldLab_WalkUpToPawpawMovement
 	stopfollow
 	faceplayer
- 	checkevent EVENT_GOT_A_POKEMON_FROM_PAWPAW
-	iftruefwd PawpawAfterMon
 	showemote EMOTE_SHOCK, FIELDLAB_PAWPAW, 15
 	applymovement FIELDLAB_PAWPAW, FieldLab_WalkToPlayer
 	opentext
@@ -208,12 +206,6 @@ PawpawAfterMagigoonScript:
 	closetext
 	showtext PawpawAfterMagiGoonText6
 	showtext PawpawDetailsText
-	end
-
-PawpawAfterMon:
-	opentext
-	writetext PawpawDescribesPoplarText
-	closetext
 	end
 	
 FieldLabTryToLeaveScript:
