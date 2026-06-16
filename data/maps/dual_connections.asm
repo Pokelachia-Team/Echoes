@@ -42,7 +42,7 @@ MACRO dual_connection
 ENDM
 
 DualMapConnections:
-	; When you walk south off of Route13, if [wXCoord] < 24,
+	; When you walk south off of Route13, if [wXCoord] < 18,
 	; then use "connection south, Route14, ROUTE_14, 0",
 	; else use "connection south, LuckyIsland, LUCKY_ISLAND, 12".
 	; dual_connection south, ROUTE_13, 24, \
