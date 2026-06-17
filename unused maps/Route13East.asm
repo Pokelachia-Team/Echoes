@@ -1,4 +1,4 @@
-Route13East_MapScriptHeader:
+Route13_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
@@ -8,22 +8,94 @@ Route13East_MapScriptHeader:
 	def_coord_events
 
 	def_bg_events
-	bg_event 11, 13, BGEVENT_JUMPTEXT, Route13TrainerTips1Text
-	bg_event 29,  5, BGEVENT_JUMPTEXT, Route13TrainerTips2Text
-	bg_event 27, 11, BGEVENT_JUMPTEXT, Route13SignText
-	bg_event 12, 13, BGEVENT_ITEM + CALCIUM, EVENT_ROUTE_13_HIDDEN_CALCIUM
+	bg_event 35, 13, BGEVENT_JUMPTEXT, Route13TrainerTips1Text
+	bg_event 53,  5, BGEVENT_JUMPTEXT, Route13TrainerTips2Text
+	bg_event 51, 11, BGEVENT_JUMPTEXT, Route13SignText
+	bg_event 17, 13, BGEVENT_JUMPTEXT, Route13DirectionsSignText
+	bg_event 36, 13, BGEVENT_ITEM + CALCIUM, EVENT_ROUTE_13_HIDDEN_CALCIUM
+	bg_event  6, 16, BGEVENT_ITEM + OVAL_STONE, EVENT_ROUTE_13_HIDDEN_OVAL_STONE
 
 	def_object_events
-	object_event 36, 11, SPRITE_BIRD_KEEPER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 5, GenericTrainerBird_keeperPerry, -1
-	object_event 40,  1, SPRITE_BIRD_KEEPER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerBird_keeperBret, -1
-	object_event 10,  5, SPRITE_CAMPER, SPRITEMOVEDATA_SPINCLOCKWISE, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerCamperTanner, -1
-	object_event 41,  9, SPRITE_PICNICKER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerPicnickerPiper, -1
-	object_event 28,  6, SPRITE_COOL_DUDE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerCoupleTimandsue1, -1
-	object_event 29,  6, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerCoupleTimandsue2, -1
-	object_event 14,  8, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerPokefanmJoshua, -1
-	object_event  1,  6, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerPokefanmAlex, -1
-	object_event  5, 13, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, Route13EastGrampsScript, -1
-	cuttree_event 30,  4, EVENT_ROUTE_13_CUT_TREE
+	object_event  5,  5, SPRITE_CAMPER, SPRITEMOVEDATA_SPINCOUNTERCLOCKWISE, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerCamperClark, -1
+	object_event 16,  6, SPRITE_PICNICKER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerPicnickerGinger, -1
+	object_event 60, 11, SPRITE_BIRD_KEEPER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 5, GenericTrainerBird_keeperPerry, -1
+	object_event 64,  1, SPRITE_BIRD_KEEPER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerBird_keeperBret, -1
+	object_event 34,  5, SPRITE_CAMPER, SPRITEMOVEDATA_SPINCLOCKWISE, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerCamperTanner, -1
+	object_event 65,  9, SPRITE_PICNICKER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerPicnickerPiper, -1
+	object_event 52,  6, SPRITE_COOL_DUDE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerCoupleTimandsue1, -1
+	object_event 53,  6, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_GENERICTRAINER, 1, GenericTrainerCoupleTimandsue2, -1
+	object_event 38,  8, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerPokefanmJoshua, -1
+	object_event 14, 10, SPRITE_HIKER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerHikerKenny, -1
+	object_event 25,  6, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 4, GenericTrainerPokefanmAlex, -1
+	object_event 29, 13, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, Route13GrampsScript, -1
+	cuttree_event 54,  4, EVENT_ROUTE_13_CUT_TREE
+
+Route13GrampsScript:
+	special CheckIfTrendyPhraseIsLucky
+	iftruefwd .lucky
+	jumpthistextfaceplayer
+
+	text "I can't see Lucky"
+	line "Island today…"
+
+	para "But I know it's"
+	line "appeared before!"
+	done
+
+.lucky
+	jumpthistextfaceplayer
+
+	text "I can see Lucky"
+	line "Island today!"
+	cont "What a spectacle!"
+	done
+
+GenericTrainerCamperClark:
+	generictrainer CAMPER, CLARK, EVENT_BEAT_CAMPER_CLARK, .SeenText, .BeatenText
+
+	text "It doesn't matter"
+	line "what kind of prep"
+	cont "work you've done."
+
+	para "If you lose, you"
+	line "lose."
+	done
+
+.SeenText:
+	text "Collect water!"
+	line "Don't let the fire"
+	cont "go out!"
+
+	para "Look out for wild"
+	line "#mon!"
+
+	para "Let's go,"
+	line "Campfire!"
+	done
+
+.BeatenText:
+	text "Pfuuuuhh…"
+	done
+
+GenericTrainerPicnickerGinger:
+	generictrainer PICNICKER, GINGER, EVENT_BEAT_PICNICKER_GINGER, .SeenText, .BeatenText
+
+	text "You can communi-"
+	line "cate with #mon"
+
+	para "through whistling"
+	line "instead of words!"
+	done
+
+.SeenText:
+	text "Why do I always"
+	line "get the urge to"
+	cont "whistle outdoors?"
+	done
+
+.BeatenText:
+	text "Tweeee!"
+	done
 
 GenericTrainerBird_keeperPerry:
 	generictrainer BIRD_KEEPER, PERRY, EVENT_BEAT_BIRD_KEEPER_PERRY, Bird_keeperPerrySeenText, Bird_keeperPerryBeatenText
@@ -184,27 +256,27 @@ PokefanmJoshuaBeatenText:
 	text "Pi-Pikachu!"
 	done
 
-Route13EastGrampsScript:
-	special CheckIfTrendyPhraseIsLucky
-	iftruefwd .lucky
-	jumpthistextfaceplayer
+GenericTrainerHikerKenny:
+	generictrainer HIKER, KENNY, EVENT_BEAT_HIKER_KENNY, HikerKennySeenText, HikerKennyBeatenText
 
-	text "I can't see Lucky"
-	line "Island today…"
+	text "Geological fea-"
+	line "tures don't appear"
+	cont "to change."
 
-	para "But I know it's"
-	line "appeared before!"
+	para "But they actually"
+	line "change, little by"
+	cont "little."
 	done
 
-.lucky
-	jumpthistextfaceplayer
-
-	text "I can see Lucky"
-	line "Island today!"
-	cont "What a spectacle!"
+HikerKennySeenText:
+	text "I should go to"
+	line "Rock Tunnel to get"
+	cont "myself an Onix."
 	done
 
-
+HikerKennyBeatenText:
+	text "I lost…"
+	done
 
 Route13TrainerTips1Text:
 	text "Trainer Tips"
@@ -233,4 +305,12 @@ Route13SignText:
 
 	para "North to Silence"
 	line "Bridge"
+	done
+
+Route13DirectionsSignText:
+	text "North to Lavender"
+	line "Town"
+
+	para "West to Fuchsia"
+	line "City"
 	done
