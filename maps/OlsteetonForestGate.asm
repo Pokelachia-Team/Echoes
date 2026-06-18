@@ -18,7 +18,7 @@ OlsteetonForestGate_MapScriptHeader:
 
 
 OlsteetonForestGuardText:
-	para "Pfft I can't"
+	text "Pfft I can't"
 	line "believe they're"
 
 	para "logging in the"

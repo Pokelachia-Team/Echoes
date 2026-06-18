@@ -307,9 +307,8 @@ OlsteetonGramps2Text:
 	text "THIS BAND ROCKS!!"
 	line "WOOOOO!"
 
-	para "HELL YEAH!"
-	line "Maybe I should"
-	cont "crowd surf!"
+	para "Maybe I should"
+	line "crowd surf!"
 	done
 
 OlsteetonYoungster1Text:
@@ -381,7 +380,7 @@ OlsteetonLassText_PCC:
 OlsteetonLassText:
 	text "In another town,"
 	line "#mon are offer-"
-	line "ed as prizes at"
+	cont "ed as prizes at"
 	cont "the Arcade..."
 
 	para "Kinda unethical"
@@ -405,7 +404,7 @@ OlsteetonGymSignText:
 	done
 
 OlsteetonUniversitySignText:
-	text "Olsteeton University"
+	text "Bouffalant Academy"
 
 	para "“Growth Through"
 	line "Intense Study”"
