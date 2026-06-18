@@ -36,7 +36,7 @@ BrinesburgGym_MapScriptHeader:
 	object_event 19,  5, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptext, BrinesburgBoothSchoolBoyText, -1
 	object_event 18,  7, SPRITE_RICH_BOY, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptext, BrinesburgBoothRichBoyText, -1
 	object_event 18,  5, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgBoothCuteGirlText, -1
-	object_event 18,  9, SPRITE_SCHOOLGIRL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptext, BrinesburgBoothSchoolGirlText, -1
+	; object_event 18,  9, SPRITE_SCHOOLGIRL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptext, BrinesburgBoothSchoolGirlText, -1
 
 
 
@@ -159,8 +159,8 @@ BrinesburgGymStatue:
 
 SalIntroText:
 	text "I'm Sal, the"
-	line "Brinesburg #mon Gym"
-	cont "Leader."
+	line "Brinesburg #mon "
+	cont "Gym Leader."
 
 	para "I love #mon"
 	line "battling almost as"
@@ -261,8 +261,9 @@ BrinesburgGymCookText:
 
 	para "Sorry, can't talk"
 	line "now! Got too"
-	line "many orders to"
-	cont "fill!"
+
+	para "many orders to"
+	line "fill!"
 	done
 
 BrinesburgGymFisher1Text:

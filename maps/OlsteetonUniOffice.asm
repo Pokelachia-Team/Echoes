@@ -4,7 +4,7 @@ OlsteetonUniOffice_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event 21, 13, OLSTEETON_UNI_CLASSROOM_BLDG, 9
+	warp_event 20, 13, OLSTEETON_UNI_CLASSROOM_BLDG, 9
 	warp_event 11,  0, OLSTEETON_UNI_DEANS_OFFICE, 1
 	warp_event  3,  2, OLSTEETON_UNI_OFFICE_SPRUCE, 1
 	warp_event 15,  2, OLSTEETON_UNI_OFFICE_POPLAR, 2
@@ -31,7 +31,7 @@ OlsteetonUniOffice_MapScriptHeader:
 	object_event 12,  3, SPRITE_PICNICKER, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniOfficeLassText, -1
 	object_event  9,  1, SPRITE_ACE_TRAINER_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniOfficeCooltrainermText, -1
 	object_event 10,  6, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 1, 1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniOfficeYoungsterText, -1
-	object_event  3, 13, SPRITE_CHILD, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, (1 << MORN) | (1 << DAY), PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniOfficeChildText, -1
+	object_event 19,  5, SPRITE_CHILD, SPRITEMOVEDATA_STANDING_UP, 0, 2, (1 << MORN) | (1 << DAY), PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniOfficeChildText, -1
 	object_event 16, 13, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 3, (1 << EVE) | (1 << NITE), PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniOfficePokefanmText, -1
 	object_event 10, 10, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniOfficeReceptionistText, -1
 	object_event 19, 11, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniOfficeCooltrainerfText, -1

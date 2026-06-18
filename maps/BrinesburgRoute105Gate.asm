@@ -4,8 +4,8 @@ BrinesburgRoute105Gate_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  0,  4, BRINESBURG, 1
-	warp_event  0,  5, BRINESBURG, 2
+	warp_event  0,  4, BRINESBURG, 17
+	warp_event  0,  5, BRINESBURG, 18
 	; warp_event  9,  4, ROUTE_105, 1
 	; warp_event  9,  5, ROUTE_105, 2
 

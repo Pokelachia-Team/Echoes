@@ -4,8 +4,8 @@ BrinesburgSaltShop_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  4,  9, BRINESBURG, 6
-	warp_event  5,  9, BRINESBURG, 6
+	warp_event  4,  9, BRINESBURG, 15
+	warp_event  5,  9, BRINESBURG, 15
 
 	def_coord_events
 

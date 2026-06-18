@@ -60,8 +60,8 @@ ENDM
 	map_attributes OlsteetonTrainStation, OLSTEETON_TRAIN_STATION, $0, 0
 	map_attributes OlsteetonNameRater, OLSTEETON_NAME_RATER, $0, 0
 	map_attributes OlsteetonFisherHouse, OLSTEETON_FISHER_HOUSE, $0, 0
-	map_attributes OlsteetonQuickHouse, OLSTEETON_QUICK_HOUSE, $0, 0
 	map_attributes OlsteetonGymHouse, OLSTEETON_GYM_HOUSE, $0, 0
+	map_attributes OlsteetonQuickHouse, OLSTEETON_QUICK_HOUSE, $0, 0
 	map_attributes OlsteetonForestGate, OLSTEETON_FOREST_GATE, $0, 0
 	map_attributes NationalForest1, NATIONAL_FOREST_1, $53, 0
 	map_attributes OlsteetonRoute103Gate, OLSTEETON_ROUTE_103_GATE, $0, 0

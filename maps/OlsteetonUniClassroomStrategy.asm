@@ -11,17 +11,17 @@ OlsteetonUniClassroomStrategy_MapScriptHeader:
 
 	def_bg_events
 	bg_event  2,  0, BGEVENT_JUMPTEXT, OlsteetonUniClassroomStrategyBlackboardText
-	bg_event  3,  0, BGEVENT_JUMPTEXT, OlsteetonUniClassroomStrategyBlackboardText
-	bg_event  8,  0, BGEVENT_JUMPTEXT, OlsteetonUniClassroomStrategyBlackboardText
-	bg_event  0,  1, BGEVENT_READ, OlsteetonUniClassroomStrategyBookshelf1
-	bg_event  1,  1, BGEVENT_JUMPTEXT, OlsteetonUniClassroomStrategyBookshelf2Text
+	bg_event  4,  0, BGEVENT_JUMPTEXT, OlsteetonUniClassroomStrategyBlackboardText
+	bg_event  6,  0, BGEVENT_JUMPTEXT, OlsteetonUniClassroomStrategyBlackboardText
+	bg_event  8,  1, BGEVENT_READ, OlsteetonUniClassroomStrategyBookshelf1
+	bg_event  9,  1, BGEVENT_JUMPTEXT, OlsteetonUniClassroomStrategyBookshelf2Text
 
 	def_object_events
-	object_event  6,  2, SPRITE_CANDELA, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, (1 << MORN) | (1 << DAY), 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniClassroomStrategyCandelaText, -1
-	object_event  3,  2, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, (1 << EVE) | (1 << NITE), PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniClassroomStrategyTeacherText, -1
-	object_event  2,  5, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniClassroomStrategyBug_catcherText, -1
-	object_event 10,  3, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniClassroomStrategyFisherText, -1
-	object_event  8,  5, SPRITE_AROMA_LADY, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniClassroomStrategyLadyText, -1
+	object_event  5,  2, SPRITE_CANDELA, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, (1 << MORN) | (1 << DAY), 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniClassroomStrategyCandelaText, -1
+	object_event  4,  4, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, (1 << EVE) | (1 << NITE), PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniClassroomStrategyTeacherText, -1
+	object_event  1,  5, SPRITE_BUG_CATCHER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniClassroomStrategyBug_catcherText, -1
+	object_event 10,  7, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniClassroomStrategyFisherText, -1
+	object_event  9,  5, SPRITE_AROMA_LADY, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniClassroomStrategyLadyText, -1
 	object_event  9,  9, SPRITE_RICH_BOY, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, OlsteetonUniClassroomStrategyRich_boyScript, -1
 
 	object_const_def

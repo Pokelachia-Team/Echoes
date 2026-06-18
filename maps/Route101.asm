@@ -41,8 +41,7 @@ FakeBattleTrigger1:
 	showemote EMOTE_SHOCK, ROUTE101_GRANNY, 15
 	turnobject PLAYER, UP
 	showtext Text_GrannyFakeBattle
-	; setevent EVENT_FAKE_BATTLE
-	; clearevent EVENT_FAKE_BATTLE_2
+	setevent EVENT_FAKE_BATTLE
 	setscene SCENE_ROUTE101_NOOP
 	special RestartMapMusic
 	end
@@ -53,8 +52,7 @@ FakeBattleTrigger2:
 	turnobject PLAYER, UP
 	applymovement ROUTE101_GRANNY, .granny_steps
 	showtext Text_GrannyFakeBattle
-	; setevent EVENT_FAKE_BATTLE
-	; clearevent EVENT_FAKE_BATTLE_2
+	setevent EVENT_FAKE_BATTLE
 	setscene SCENE_ROUTE101_NOOP
 	special RestartMapMusic
 	end
@@ -62,34 +60,19 @@ FakeBattleTrigger2:
 .granny_steps
 	step_down
 	step_end
-GrannyFakeBattleScript:
-	; checkevent EVENT_FAKE_BATTLE
-	; jumptextfaceplayer Text_GrannyAfter
-	; faceplayer
-	; playmusic MUSIC_LASS_ENCOUNTER
-	; showemote EMOTE_SHOCK, LAST_TALKED, 30
-	; showemote EMOTE_SHOCK, ROUTE101_GRANNY, 30
-	; showtext Text_GrannyFakeBattle
-	; setevent EVENT_FAKE_BATTLE
-	; clearevent EVENT_FAKE_BATTLE_2
-	; setscene SCENE_ROUTE101_NOOP
-	; special RestartMapMusic
-	; end
+
 
 GrannyScript:
-	jumptextfaceplayer Text_GrannyAfter
-
-; 	faceplayer
-; 	checkscene
-; 	iffalsefwd .GrannyEvent
-; 	opentext
-; 	checkevent EVENT_FAKE_BATTLE
-; 	iftrue_jumpopenedtext Text_GrannyAfter
-; end
-
-; .GrannyEvent:
-; 	playmusic MUSIC_LASS_ENCOUNTER
-; 	sjump GrannyFakeBattleScript
+	checkevent EVENT_FAKE_BATTLE
+	iftrue_jumptextfaceplayer Text_GrannyAfter
+	playmusic MUSIC_LASS_ENCOUNTER
+	showemote EMOTE_SHOCK, ROUTE101_GRANNY, 15
+	faceplayer
+	showtext Text_GrannyFakeBattle
+	setevent EVENT_FAKE_BATTLE
+	setscene SCENE_ROUTE101_NOOP
+	special RestartMapMusic
+	end
 
 Route101Tutorial1:
 	appear ROUTE101_BROOKE
