@@ -222,7 +222,7 @@ endr
 	givepoke CUPICO, PLAIN_FORM, 7, ORAN_BERRY
 	givepoke FLIKLIT, PLAIN_FORM, 7, ORAN_BERRY
 	givepoke GLUTTLE, PLAIN_FORM, 7, ORAN_BERRY
-	givepoke WAMPURR, PLAIN_FORM, 50, ORAN_BERRY
+	givepoke NOCTOWL, PLAIN_FORM, 50, ORAN_BERRY
 	; variant form test
 	; givepoke TYPHLOSION, HISUIAN_FORM, 50
 	; loadmem wPartyMon3Shiny, SHINY_MASK
