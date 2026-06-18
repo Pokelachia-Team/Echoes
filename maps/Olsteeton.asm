@@ -22,8 +22,8 @@ Olsteeton_MapScriptHeader:
 	warp_event 10, 29, OLSTEETON_TRAIN_STATION, 2
 	warp_event 29, 33, OLSTEETON_NAME_RATER, 1
 	warp_event  7, 31, OLSTEETON_FISHER_HOUSE, 1
-	warp_event 13, 37, OLSTEETON_GYM_HOUSE, 1
 	warp_event 31, 37, OLSTEETON_QUICK_HOUSE, 1
+	warp_event 13, 37, OLSTEETON_GYM_HOUSE, 1
 	warp_event 21, 35, OLSTEETON_FOREST_GATE, 1
 	warp_event 22, 35, OLSTEETON_FOREST_GATE, 2
 	warp_event 37, 12, OLSTEETON_UNI_GATE, 1

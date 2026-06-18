@@ -21,7 +21,7 @@ Brinesburg_MapScriptHeader:
 	warp_event 45, 13, BRINESBURG_SALT_SHOP, 1
 	warp_event 55, 21, BRINESBURG_MAGIKORP_OFFICE, 1
 	warp_event 55, 30, BRINESBURG_ROUTE_105_GATE, 1
-	warp_event 55, 31, BRINESBURG_ROUTE_105_GATE, 2
+	warp_event 55, 31, BRINESBURG_ROUTE_105_GATE, 2 
 
 
 	def_coord_events
