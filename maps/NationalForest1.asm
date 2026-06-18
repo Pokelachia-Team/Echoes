@@ -20,7 +20,7 @@ NationalForest1_MapScriptHeader:
 	object_event 29, 20, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, NatForest1FishermanText, -1
 	object_event 30, 20, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, NatForest1Fisherman2Text, -1
 	object_event 13, 6, SPRITE_LASS, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, NatForest1GirlText, -1
-	pokemon_event 15, 6, MEOWTH, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_BLUE, NatForest1MeowthText, -1
+	pokemon_event 15, 6, MEOWTH, FOLKORAN_FORM, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_GRAY, NatForest1MeowthText, -1
     ; object_event 29, 4, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerOld_TimerSue, -1
 	itemball_event 31, 27, ANTIDOTE, 1, EVENT_NATIONAL_FOREST1_ANTIDOTE
 

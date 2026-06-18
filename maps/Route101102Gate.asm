@@ -16,7 +16,7 @@ Route101102Gate_MapScriptHeader:
 	def_object_events
 	object_event  5,  2, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route101102GateOfficerScript, -1
 	object_event  5,  5, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route101102GateYoungsterText, -1
-	pokemon_event 4,  2, DROWZEE, SPRITEMOVEDATA_POKEMON, -1, PAL_NPC_YELLOW, Route101102GateDrowzeeText, -1
+	pokemon_event 4,  2, DROWZEE, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_YELLOW, Route101102GateDrowzeeText, -1
 
 Route101102GateOfficerScript:
 	faceplayer
