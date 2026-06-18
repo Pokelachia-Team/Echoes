@@ -74,6 +74,7 @@ OlsteetonUniClockTower1FTeacherScript:
 	text "Congrats on beat-"
 	line "ing the Clocktower"
 	cont "Challenge!"
+	done
 
 .HPText1:
 	text "Want me to check"
