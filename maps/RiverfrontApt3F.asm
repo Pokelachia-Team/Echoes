@@ -36,8 +36,8 @@ RiverfrontApt3FRoom2Text:
 	done
 
 RiverfrontApt3FRoom3Text:
-	text "Apt. 303"
-	line "VACANT"
+	text "Apt. 303 - VACANT"
+	line "The door is locked."
 	done
 
 RiverfrontApt3FLockedText:

@@ -23,7 +23,7 @@ RiverfrontAptRoof_MapScriptHeader:
 	object_event  1,  3, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, RiverfrontAptRoofPokefanFText, -1
 	object_event  6,  5, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, RiverfrontAptRoofGrampsText, -1
 	object_event  7,  5, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, RiverfrontAptRoofGrannyText, -1
-	pokemon_event  5,  5, ALAKAZAM, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_BROWN, RiverfrontAptRoofAlakazamText, -1
+	pokemon_event  5,  5, ALAKAZAM, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_YELLOW, RiverfrontAptRoofAlakazamText, -1
 
 	object_const_def
 	const APTROOF_PSYDUCK
