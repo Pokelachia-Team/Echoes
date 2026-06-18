@@ -49,8 +49,7 @@ OlsteetonUniDormEast3FCooltrainerfText:
 	line "want to find"
 	cont "a job!"
 
-	para "Stupid Mega-"
-	line "Corp!"
+	para "Stupid MagiKorp!"
 	done
 
 OlsteetonUniDormEast3FSuper_nerd1Text:

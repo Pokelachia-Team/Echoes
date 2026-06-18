@@ -14,7 +14,7 @@ BrinesburgNicknameSpeechHouse_MapScriptHeader:
 	def_object_events
 	object_event  2,  3, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgNicknameSpeechHouseTeacherText, -1
 	object_event  6,  4, SPRITE_TWIN, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgNicknameSpeechHouseLassText, -1
-	object_event  5,  2, SPRITE_EEVEE, SPRITEMOVEDATA_WANDER, 1, 1, -1, PAL_MON_BROWN, OBJECTTYPE_SCRIPT, 0, BrinesburgNicknameSpeechHouseBirdScript, -1
+	object_event  5,  2, SPRITE_EEVEE, SPRITEMOVEDATA_WANDER, 1, 1, -1, 0, OBJECTTYPE_SCRIPT, 0, BrinesburgNicknameSpeechHouseBirdScript, -1
 	object_event  0,  2, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_UP, 0, 0, (1 << EVE) | (1 << NITE), PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgNicknameSpeechHouseGrampsText, -1
 
 BrinesburgNicknameSpeechHouseBirdScript:

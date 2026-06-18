@@ -4,8 +4,8 @@ OlsteetonUniDormWest2FRoom3_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  3,  7, OLSTEETON_UNI_DORM_EAST_2F, 4
-	warp_event  4,  7, OLSTEETON_UNI_DORM_EAST_2F, 4
+	warp_event  3,  7, OLSTEETON_UNI_DORM_WEST_2F, 4
+	warp_event  4,  7, OLSTEETON_UNI_DORM_WEST_2F, 4
 
 	def_coord_events
 

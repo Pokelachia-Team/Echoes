@@ -67,7 +67,7 @@ OlsteetonUniOfficeLassText:
 
 OlsteetonUniOfficeCooltrainermText:
 	text "Everyone at this"
-	line "university is a"
+	line "academyis a"
 	cont "#mon trainer."
 
 	para "To get offered a"

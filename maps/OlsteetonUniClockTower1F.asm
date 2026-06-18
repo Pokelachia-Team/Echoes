@@ -25,9 +25,12 @@ OlsteetonUniClockTower1FTeacherScript:
 	faceplayer
 	opentext
 	checkevent EVENT_GOT_TM10_HIDDEN_POWER
-	iftruefwd .CheckHiddenPower
+	iftruefwd .AlreadyGotHP
 	writetext .ClockTower1FTeacherText1
 
+.AlreadyGotHP:
+	writetext .ClocktowerCongratsText
+	waitbutton
 .CheckHiddenPower
 	writetext .HPText1
 	yesorno
@@ -66,6 +69,11 @@ OlsteetonUniClockTower1FTeacherScript:
 	line "See ya shortly,"
 	cont "I'm sure."
 	done
+
+.ClocktowerCongratsText:
+	text "Congrats on beat-"
+	line "ing the Clocktower"
+	cont "Challenge!"
 
 .HPText1:
 	text "Want me to check"
