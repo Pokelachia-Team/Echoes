@@ -19,7 +19,6 @@ PlayersHouse1F_MapScriptHeader:
 	bg_event  6,  1, BGEVENT_JUMPTEXT, PlayerHouse1FFridgeText
 	bg_event  7,  1, BGEVENT_JUMPTEXT, PlayerHouse1FSinkText
 	bg_event  8,  1, BGEVENT_JUMPTEXT, PlayerHouse1FStoveText
-	bg_event  3,  1, BGEVENT_UP, PlayerHouse1FTVScript
 	bg_event 10,  1, BGEVENT_ITEM + RARE_CANDY, EVENT_PLAYER_HOUSE_HIDDEN_RARE_CANDY
 
 	def_object_events
@@ -313,21 +312,6 @@ PlayerHouse1FStoveText:
 
 	para "Combusken &"
 	line "Dumplins!"
-	done
-
-PlayerHouse1FTVScript:
-	jumpthistext
-
-	text "There's a show on"
-	line "TV: An armor clad"
-
-	para "knight rides a"
-	line "Pyroboros into"
-	cont "battle..."
-
-	para "I'd better go"
-	line "before I get"
-	cont "sucked in!"
 	done
 
 SisterTVText:
