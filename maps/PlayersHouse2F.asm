@@ -14,13 +14,14 @@ PlayersHouse2F_MapScriptHeader:
 	bg_event  4,  1, BGEVENT_UP, PlayersHousePC
 	bg_event  5,  1, BGEVENT_READ, PlayersHouseRadio
 	bg_event  3,  1, BGEVENT_READ, PokemonJournalProfPawpawScript
+	bg_event  1,  1, BGEVENT_UP, PlayerHouse2FTVScript
 	bg_event  6,  0, BGEVENT_IFSET, PlayersHousePoster
 
 	def_object_events
-	object_event  1,  2, SPRITE_CONSOLE, SPRITEMOVEDATA_STILL, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, GameConsole, EVENT_PLAYERS_HOUSE_2F_CONSOLE
+	object_event  0,  1, SPRITE_CONSOLE, SPRITEMOVEDATA_STILL, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, GameConsole, EVENT_PLAYERS_HOUSE_2F_CONSOLE
 	object_event  4,  4, SPRITE_DOLL_1, SPRITEMOVEDATA_STILL, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, Doll1, EVENT_PLAYERS_HOUSE_2F_DOLL_1
 	object_event  5,  4, SPRITE_DOLL_2, SPRITEMOVEDATA_STILL, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, Doll2, EVENT_PLAYERS_HOUSE_2F_DOLL_2
-	object_event  0,  1, SPRITE_BIG_DOLL, SPRITEMOVEDATA_BIGDOLL, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, BigDoll, EVENT_PLAYERS_HOUSE_2F_BIG_DOLL
+	object_event  0,  3, SPRITE_BIG_DOLL, SPRITEMOVEDATA_BIGDOLL, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, BigDoll, EVENT_PLAYERS_HOUSE_2F_BIG_DOLL
 	itemball_event  7,  4, POTION, 1, EVENT_PLAYER_HOUSE_POTION
 
 
@@ -313,6 +314,21 @@ else
 	endtext
 
 endc
+
+PlayerHouse2FTVScript:
+	jumpthistext
+
+	text "There's a show on"
+	line "TV: An armor clad"
+
+	para "knight rides a"
+	line "Pyroboros into"
+	cont "battle..."
+
+	para "I'd better go"
+	line "before I get"
+	cont "sucked in!"
+	done
 
 PokemonJournalProfPawpawScript:
 	setflag ENGINE_READ_PROF_ELM_JOURNAL

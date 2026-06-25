@@ -101,7 +101,7 @@ ENDM
 	map_const OLSTEETON_UNI_LIBRARY_1F,   	               7,  6 ;  3
 	map_const OLSTEETON_UNI_LIBRARY_2F,   	               9,  7 ;  4
 	map_const OLSTEETON_UNI_SCIENCE_CENTER,   	           6,  5 ;  5
-	map_const OLSTEETON_UNI_NURSE_DEPT,   	               6,  5 ;  6
+	map_const OLSTEETON_UNI_NURSE_DEPT,   	               5,  5 ;  6
 	map_const OLSTEETON_UNI_WATER_LAB,   	               8,  5 ;  7
 	map_const OLSTEETON_UNI_OFFICE, 			          11,  7 ;  8
 	map_const OLSTEETON_UNI_DEANS_OFFICE, 			       4,  4 ;  9

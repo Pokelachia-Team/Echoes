@@ -32,8 +32,8 @@ OlsteetonUni_MapScriptHeader:
 
 	def_object_events
 	object_event  7, 20, SPRITE_SUPER_NERD, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniMajorText, -1
-	object_event 18, 13, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptext, OlsteetonUniClassText1, -1
-	object_event 19, 13, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptext, OlsteetonUniClassText2, -1
+	object_event 19, 13, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptext, OlsteetonUniClassText1, -1
+	object_event 18, 13, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptext, OlsteetonUniClassText2, -1
 	fruittree_event 23,  7, FRUITTREE_AZALEA_TOWN, WHT_APRICORN, PAL_NPC_WHITE
 	object_event 18, 24, SPRITE_BIG_SNORLAX, SPRITEMOVEDATA_SNORLAX, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniSnorelaxText, EVENT_FOUGHT_FIELD_LAB_MAGIGOON ;change to old mill completed event
 
@@ -120,7 +120,7 @@ OlsteetonUniClassText2:
 	text "Ooh, we could take"
 	line "Regional Legendary"
 
-	cont "#mon & Assoc-"
+	para "#mon & Assoc-"
 	line "iated Mythos!"
 	done
 

@@ -215,7 +215,7 @@ FieldLabTryToLeaveScript:
 
 FieldLabTryToLeaveScript2:
 	showtext PawpawWhereGoingText
-	applyonemovement PLAYER, step_down
+	applyonemovement PLAYER, step_up
 	end
 
 FlicklitPokeBallScript:
@@ -256,6 +256,7 @@ FlicklitPokeBallScript:
 	readvar VAR_FACING
 	ifequalfwd RIGHT, PawpawDirectionsScript
 	applymovement PLAYER, AfterFlicklitMovement
+	clearevent EVENT_CHOOSE_POKEMON
 	sjumpfwd PawpawDirectionsScript
 
 GluttlePokeBallScript:
@@ -294,6 +295,7 @@ GluttlePokeBallScript:
 	closetext
 	applymovement FIELDLAB_BROOKE, BrookeAfterFlicklitMovement
 	applymovement PLAYER, AfterGluttleMovement
+	clearevent EVENT_CHOOSE_POKEMON
 	sjumpfwd PawpawDirectionsScript
 
 CupicoPokeBallScript:
@@ -332,6 +334,7 @@ CupicoPokeBallScript:
 	closetext
 	applymovement FIELDLAB_BROOKE, BrookeAfterGluttleMovement
 	applymovement PLAYER, AfterCupicoMovement
+	clearevent EVENT_CHOOSE_POKEMON
 	; fallthrough
 
 PawpawDirectionsScript:
