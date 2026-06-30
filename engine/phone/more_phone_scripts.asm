@@ -687,5 +687,3 @@
 ; ToddHurryScript:
 ; 	farwritetext ToddHaveYouGoneToDepartmentStoreText
 ; 	end
-
-

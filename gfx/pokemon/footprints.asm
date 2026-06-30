@@ -1,5 +1,3 @@
-Footprints:: ; needed for BANK(Footprints)
-
 VenomothFootprint::
 FliklitFootprint::
 KabutoFootprint::

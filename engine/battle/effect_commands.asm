@@ -2738,9 +2738,6 @@ BattleCommand_applydamage:
 	and a
 	ret z
 
-	call CheckSubHit
-	ret nz
-
 	cp 5
 	ld hl, PlayerAffectionEndureText
 	ld de, EnemyAffectionEndureText
@@ -5852,19 +5849,13 @@ BattleCommand_charge:
 
 .SolarBeam:
 ; 'took in sunlight!'
-	text_far _BattleTookSunlightText
-	text_end
-
+	text_farend _BattleTookSunlightText
 .Fly:
 ; 'flew up high!'
-	text_far _BattleFlewText
-	text_end
-
+	text_farend _BattleFlewText
 .Dig:
 ; 'dug a hole!'
-	text_far _BattleDugText
-	text_end
-
+	text_farend _BattleDugText
 BattleCommand_traptarget:
 	call HasOpponentFainted
 	ret z
@@ -5883,19 +5874,29 @@ BattleCommand_traptarget:
 	ld a, [hl]
 	and a
 	ret nz
-	call CheckSubstituteOpp
+	call CheckSubHit
 	ret nz
-	ld a, HELD_PROLONG_WRAP
-	call GetItemBoostedDuration
+	push hl
+	call GetUserItemAfterUnnerve
+	pop hl
+	ld a, b
+	cp HELD_PROLONG_WRAP
+	ld a, c
 	jr z, .got_count
 	call BattleRandom
 	and 1
 	add 4
-	jr .got_count
-.seven_turns
-	ld a, 7
 .got_count
 	ld [hl], a
+
+	; Because the state of Binding Band depends on the item when we attacked,
+	; not the current item, store the Binding Band flag as the 4th bit in
+	; the wrap count.
+	ld a, b
+	cp HELD_BINDING_BAND
+	jr nz, .binding_band_done
+	set 3, [hl]
+.binding_band_done
 	ld a, BATTLE_VARS_MOVE_ANIM
 	call GetBattleVar
 	ld [de], a
