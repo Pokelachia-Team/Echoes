@@ -3,7 +3,7 @@
 
 	db DARK, NORMAL ; type
 	db 120 ; catch rate
-	db 124 ; base exp
+	db 70 ; base exp
 	db ALWAYS_ITEM_2, ORAN_BERRY ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 

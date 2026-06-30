@@ -30,24 +30,24 @@
 	def_grass_wildmons ROUTE_101_CAVE
 	db 10 percent ; encounter rate
 	; morn
-	wildmon 2, TEDDIURSA
+	wildmon 2, ZUBAT
 	wildmon 2, ZUBAT
 	wildmon 3, TEDDIURSA
 	wildmon 3, ROGGENROLA
 	wildmon 4, TEDDIURSA
 	wildmon 4, ZUBAT
-	wildmon 5, TEDDIURSA
+	wildmon 5, ROGGENROLA
 	; day
-	wildmon 2, TEDDIURSA
+	wildmon 2, ZUBAT
 	wildmon 2, ZUBAT
 	wildmon 3, TEDDIURSA
 	wildmon 3, ROGGENROLA
 	wildmon 4, TEDDIURSA
-	wildmon 4, ROGGENROLA
-	wildmon 5, TEDDIURSA
+	wildmon 4, ZUBAT
+	wildmon 5, ROGGENROLA
 	; nite
 	wildmon 2, TEDDIURSA
-	wildmon 2, ZUBAT
+	wildmon 2, ROGGENROLA
 	wildmon 3, TEDDIURSA
 	wildmon 3, ROGGENROLA
 	wildmon 4, TEDDIURSA
@@ -85,28 +85,28 @@
 	def_grass_wildmons OLSTEETON
 	db 10 percent ; encounter rate
 	wildmon 2, SINISTEA
-	wildmon 2, SINISTEA
+	wildmon 2, RATTATA, ALOLAN_FORM
 	wildmon 3, MEOWTH, FOLKORAN_FORM
 	wildmon 3, SINISTEA
 	wildmon 4, MEOWTH, FOLKORAN_FORM
+	wildmon 5, RATTATA, ALOLAN_FORM
 	wildmon 5, SINISTEA
-	wildmon 6, SINISTEA
 	; day
 	wildmon 2, SINISTEA
 	wildmon 2, DUCKLETT
-	wildmon 3, DUCKLETT
+	wildmon 3, RATTATA, ALOLAN_FORM
 	wildmon 3, SINISTEA
 	wildmon 4, DUCKLETT
+	wildmon 5, RATTATA, ALOLAN_FORM
 	wildmon 5, SINISTEA
-	wildmon 6, SINISTEA
 	; nite
-	wildmon 3, DOOZEE
-	wildmon 4, DOOZEE
+	wildmon 3, RATTATA, ALOLAN_FORM
+	wildmon 4, RATTATA, ALOLAN_FORM
 	wildmon 3, MEOWTH, FOLKORAN_FORM
 	wildmon 5, DOOZEE
 	wildmon 5, MEOWTH, FOLKORAN_FORM
 	wildmon 6, DOOZEE
-	wildmon 8, DOOZEE
+	wildmon 6, DOOZEE
 	end_grass_wildmons
 
 	def_grass_wildmons NATIONAL_FOREST_1
@@ -143,7 +143,7 @@ def_grass_wildmons OLSTEETON_ABANDONED_MILL_OUTSIDE
 	wildmon 3, MEOWTH, GALARIAN_FORM
 	wildmon 4, DEBRITE
 	wildmon 4, MEOWTH, GALARIAN_FORM
-	wildmon 4, SLUGMA
+	wildmon 4, RATTATA, ALOLAN_FORM
 	wildmon 5, SLUGMA
 	wildmon 6, SKARMORY
 	; day
@@ -158,7 +158,7 @@ def_grass_wildmons OLSTEETON_ABANDONED_MILL_OUTSIDE
 	wildmon 3, DEBRITE
 	wildmon 3, MEOWTH, GALARIAN_FORM
 	wildmon 3, SLUGMA
-	wildmon 4, MEOWTH, GALARIAN_FORM
+	wildmon 4, RATTATA, ALOLAN_FORM
 	wildmon 4, DEBRITE
 	wildmon 5, MEOWTH, GALARIAN_FORM
 	wildmon 7, SKARMORY
@@ -166,14 +166,14 @@ def_grass_wildmons OLSTEETON_ABANDONED_MILL_OUTSIDE
 	db -1 ; end
 
 	def_grass_wildmons OLSTEETON_UNI
-	db 2 percent ; encounter rate
+	db 4 percent ; encounter rate
 	wildmon 2, KOFFING
 	wildmon 2, KOFFING
 	wildmon 3, MEOWTH, FOLKORAN_FORM
 	wildmon 3, KOFFING
 	wildmon 4, MEOWTH, FOLKORAN_FORM
 	wildmon 5, PORYGON
-	wildmon 6, PORYGON
+	wildmon 5, PORYGON
 	; day
 	wildmon 2, KOFFING
 	wildmon 2, RATTATA, ALOLAN_FORM
@@ -181,15 +181,15 @@ def_grass_wildmons OLSTEETON_ABANDONED_MILL_OUTSIDE
 	wildmon 3, KOFFING
 	wildmon 4, PORYGON
 	wildmon 5, KOFFING
-	wildmon 6, PORYGON
+	wildmon 5, PORYGON
 	; nite
 	wildmon 3, DOOZEE
 	wildmon 4, RATTATA, ALOLAN_FORM
 	wildmon 3, MEOWTH, FOLKORAN_FORM
-	wildmon 5, DOOZEE
+	wildmon 4, DOOZEE
+	wildmon 4, PORYGON
 	wildmon 5, PORYGON
-	wildmon 6, PORYGON
-	wildmon 8, DOOZEE
+	wildmon 5, DOOZEE
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_103

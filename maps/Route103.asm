@@ -23,11 +23,11 @@ Route103_MapScriptHeader:
 	; bg_event 31, 11, BGEVENT_JUMPSTD, treegrotto, HIDDENGROTTO_ROUTE_36
 
 	def_object_events
-	object_event 28,  7, SPRITE_ACE_TRAINER_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_TRAINER, 2, TrainerCooltrainermFinch, -1
-	object_event  2, 28, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_TRAINER, 3, TrainerYoungsterJoey, -1
-	object_event  9,  5, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_WANDER, 1, 1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route103YoungsterText, -1
-	fruittree_event 16,  7, FRUITTREE_ROUTE_103, ORAN_BERRY, PAL_NPC_BLUE
-	itemball_event  5, 16, WHITE_HERB, 1, EVENT_ROUTE_103_WHITE_HERB
+	object_event 29, 25, SPRITE_ACE_TRAINER_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_TRAINER, 2, TrainerCooltrainermFinch, -1
+	object_event 16, 28, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_TRAINER, 3, TrainerYoungsterJoey, -1
+	object_event 16,  6, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_WANDER, 1, 1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route103YoungsterText, -1
+	fruittree_event 35, 17, FRUITTREE_ROUTE_103, ORAN_BERRY, PAL_NPC_BLUE
+	itemball_event  8, 18, WHITE_HERB, 1, EVENT_ROUTE_103_WHITE_HERB
 
 
 	object_const_def

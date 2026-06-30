@@ -2265,8 +2265,8 @@ YoungsterGroup:
 	end_trainer
 
 	def_trainer MIKEY, "Mikey"
-	tr_mon 2, RATTATA | ALOLAN_FORM
-	tr_mon 4, CRIBNAL
+	tr_mon 2, RATTATA, MALE | ALOLAN_FORM
+	tr_mon 3, CRIBNAL
 	end_trainer
 
 	def_trainer ALBERT, "Albert"
@@ -4703,8 +4703,8 @@ SchoolgirlGroup:
 
 	def_trainer_class SCHOOLGIRL
 	def_trainer MOLLY, "Molly"
-	tr_mon 7, "Teddy", TEDDIURSA
-	tr_mon 6, PHANPY
+	tr_mon 3, PHANPY
+	tr_mon 4, "Teddy", TEDDIURSA
 	end_trainer
 
 	def_trainer ELIZA, "Eliza"
