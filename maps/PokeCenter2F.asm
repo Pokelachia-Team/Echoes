@@ -27,10 +27,10 @@ PokeCenter2F_MapScriptHeader:
 	const POKECENTER2F_BATTLE_RECEPTIONIST
 
 PokeCenter2FTileCallback:
-	callasm .CheckKanto
-	iffalsefwd .done
-	changemapblocks KantoPokeCenter2F_BlockData
-.done
+; 	callasm .CheckKanto
+; 	iffalsefwd .done
+; 	changemapblocks KantoPokeCenter2F_BlockData
+; .done
 	endcallback
 
 ; .CheckKanto:
