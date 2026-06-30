@@ -383,9 +383,7 @@ PopulateDecoCategoryMenu:
 
 .NothingToChooseText:
 	; There's nothing to choose.
-	text_far _NothingToChooseText
-	text_end
-
+	text_farend _NothingToChooseText
 .NonscrollingMenuHeader:
 	db MENU_BACKUP_TILES
 	menu_coords 0, 0, SCREEN_WIDTH - 1, SCREEN_HEIGHT - 1
@@ -819,9 +817,7 @@ DecoAction_SetItUp_Ornament:
 	ret
 
 WhichSidePutOnText:
-	text_far _WhichSidePutOnText
-	text_end
-
+	text_farend _WhichSidePutOnText
 DecoAction_PutItAway_Ornament:
 	ld a, [wSelectedDecoration]
 	and a
@@ -844,9 +840,7 @@ DecoAction_PutItAway_Ornament:
 	ret
 
 WhichSidePutAwayText:
-	text_far _WhichSidePutAwayText
-	text_end
-
+	text_farend _WhichSidePutAwayText
 DecoAction_AskWhichSide:
 	call MenuTextbox
 	ld hl, WhichSideMenuHeader
@@ -893,25 +887,15 @@ WhichSideMenuData:
 
 DecoText_PutAwayTheDeco:
 	; Put away the @ .
-	text_far _PutAwayTheDecoText
-	text_end
-
+	text_farend _PutAwayTheDecoText
 DecoText_NothingToPutAway:
-	text_far _NothingToPutAwayText
-	text_end
-
+	text_farend _NothingToPutAwayText
 DecoText_SetUpTheDeco:
-	text_far _SetUpTheDecoText
-	text_end
-
+	text_farend _SetUpTheDecoText
 DecoText_PutAwayAndSetUp:
-	text_far _PutAwayAndSetUpText
-	text_end
-
+	text_farend _PutAwayAndSetUpText
 DecoText_AlreadySetUp:
-	text_far _AlreadySetUpText
-	text_end
-
+	text_farend _AlreadySetUpText
 DescribeDecoration::
 	ld a, b
 	call StackJumpTable

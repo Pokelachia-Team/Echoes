@@ -1,23 +1,25 @@
 MACRO map_attributes
-; label, map, border block, connections
+; label, map, border block
+	REDEF CURRENT_MAP_ID EQUS "\2"
 	DEF CURRENT_MAP_WIDTH = \2_WIDTH
 	DEF CURRENT_MAP_HEIGHT = \2_HEIGHT
 \1_MapAttributes::
 	db \3, \2_HEIGHT, \2_WIDTH
 	dba \1_BlockData, \1_MapScriptHeader
-	db \4
+	db MAP_CONNECTIONS_\2
+	DEF MAP_CONNECTIONS_\2 = 0
 ENDM
 
-	map_attributes Hollowport, HOLLOWPORT, $5, NORTH
+	map_attributes Hollowport, HOLLOWPORT, $5
 	connection north, Route101, ROUTE_101, 2
 
-	map_attributes Route101, ROUTE_101, $5, SOUTH
+	map_attributes Route101, ROUTE_101, $5
 	connection south, Hollowport, HOLLOWPORT, -2
 
-	map_attributes OlsteetonUni, OLSTEETON_UNI, $35, SOUTH
+	map_attributes OlsteetonUni, OLSTEETON_UNI, $35
 	connection south, Route103, ROUTE_103, -1
 
-	map_attributes Route103, ROUTE_103, $5, NORTH
+	map_attributes Route103, ROUTE_103, $5
 	connection north, OlsteetonUni, OLSTEETON_UNI, 1
 
 	map_attributes FieldLab, FIELD_LAB, $0, 0

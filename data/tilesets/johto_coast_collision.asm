@@ -209,3 +209,6 @@
 	tilecoll WALL, FLOOR, WALL, WALL ; d0
 	tilecoll FLOOR, FLOOR, WALL, WALL ; d1
 	tilecoll FLOOR, WALL, WALL, WALL ; d2
+	tilecoll FLOOR, FLOOR, FLOOR, STAIRS_RIGHT_UP ; d3
+	tilecoll WARP_CARPET_DOWN, WARP_CARPET_DOWN, WALL, WALL ; d4
+	tilecoll WALL, WALL, WALL, FLOOR ; d5
