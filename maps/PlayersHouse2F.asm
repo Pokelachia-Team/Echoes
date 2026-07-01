@@ -80,7 +80,7 @@ for x, NUM_TMS + NUM_HMS
 	givetmhm x
 endr
 	; useful items
-for x, POKE_BALL, CHERISH_BALL + 1
+for x, POKE_BALL, MAGI_BALL + 1
 if x != PARK_BALL && x != SAFARI_BALL
 	giveitem x, 99
 endc

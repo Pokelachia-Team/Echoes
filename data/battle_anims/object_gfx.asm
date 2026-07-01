@@ -124,4 +124,5 @@ AnimBallObjGFX:
 	fardw AnimObjDreamBallGFX
 	fardw AnimObjPremierBallGFX
 	fardw AnimObjCherishBallGFX
+	fardw AnimObjMagiBallGFX
 	assert_table_length NUM_POKE_BALLS

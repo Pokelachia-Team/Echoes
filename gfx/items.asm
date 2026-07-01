@@ -76,6 +76,9 @@ PremierBallIcon:: INCBIN "gfx/items/premier_ball.2bpp.lzp"
 SECTION "CherishBallIcon", ROMX
 CherishBallIcon:: INCBIN "gfx/items/cherish_ball.2bpp.lzp"
 
+SECTION "MagiBallIcon", ROMX
+MagiBallIcon:: INCBIN "gfx/items/magi_ball.2bpp.lzp"
+
 SECTION "PotionIcon", ROMX
 PotionIcon::
 SuperPotionIcon::
@@ -629,9 +632,6 @@ PearlStringIcon:: INCBIN "gfx/items/pearl_string.2bpp.lzp"
 
 SECTION "StarPieceIcon", ROMX
 StarPieceIcon:: INCBIN "gfx/items/star_piece.2bpp.lzp"
-
-SECTION "BrickPieceIcon", ROMX
-BrickPieceIcon:: INCBIN "gfx/items/brick_piece.2bpp.lzp"
 
 SECTION "LeafIcon", ROMX
 SilverLeafIcon::

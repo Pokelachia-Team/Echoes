@@ -44,6 +44,7 @@ Marts:
 	dw BattleFactoryMart1
 	dw BattleFactoryMart2
 	dw BattleFactoryMart3
+	dw MagiMart1
 	assert_table_length NUM_MARTS
 
 CherrygroveMart:
@@ -548,4 +549,15 @@ BattleFactoryMart3:
 	db ROOM_SERVICE, 24
 	db LIFE_ORB,     48
 	db MINT_LEAF,    32
+	db -1
+
+MagiMart1:
+	db 7 ; # items
+	db MAGI_BALL
+	db FRESH_WATER
+	db POKE_DOLL
+	db SMOKE_BALL
+	db RAGECANDYBAR
+	db SURF_MAIL
+	db RARE_CANDY
 	db -1

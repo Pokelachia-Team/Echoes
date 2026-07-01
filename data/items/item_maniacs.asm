@@ -71,7 +71,6 @@ OreManiacItemRewards:
 	dbw PEARL_STRING, 16000
 	dbw STARDUST,      3000
 	dbw STAR_PIECE,   12000
-	dbw BRICK_PIECE,    100
 	db -1
 
 FossilManiacItemRewards:

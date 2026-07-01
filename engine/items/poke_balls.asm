@@ -214,6 +214,7 @@ BallMultiplierFunctionTable:
 	dbw QUICK_BALL,  QuickBallMultiplier
 	dbw DUSK_BALL,   DuskBallMultiplier
 	dbw DREAM_BALL,  DreamBallMultiplier
+	dbw MAGI_BALL,  MagiBallMultiplier
 	db $ff
 
 UltraBallMultiplier:
@@ -528,4 +529,15 @@ DreamBallMultiplier:
 	ret z
 
 	ln a, 4, 1 ; x4
+	jmp MultiplyAndDivide
+
+MagiBallMultiplier:
+; x15 catch rate multiplier for Magikarp, x0.5 for all other species
+	ld a, [wEnemyMonSpecies]
+	cp MAGIKARP
+	jr nz, .notmagikarp
+	ln a, 15, 1 ; x15
+	jmp MultiplyAndDivide
+.notmagikarp
+	ln a, 1, 2 ; x0.5
 	jmp MultiplyAndDivide

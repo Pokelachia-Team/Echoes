@@ -39,9 +39,11 @@ DEF PARK_BALL EQU NO_ITEM
 
 	const PREMIER_BALL ; 17
 	const CHERISH_BALL ; 18
+	const MAGI_BALL ; 19
+
 DEF NUM_POKE_BALLS EQU const_value ; PARK_BALL counts
 
-	const POTION       ; 19
+	const POTION       ; 20
 	const SUPER_POTION ; 1a
 	const HYPER_POTION ; 1b
 	const MAX_POTION   ; 1c
@@ -302,7 +304,6 @@ DEF NUM_STONES EQU const_value - FIRST_STONE
 	const PEARL_STRING ; ec
 	const STARDUST     ; ed
 	const STAR_PIECE   ; ee
-	const BRICK_PIECE  ; ef
 	const RARE_BONE    ; f0
 	const SLOWPOKETAIL ; f1
 
@@ -355,7 +356,6 @@ DEF ALWAYS_ITEM_2  EQU $ff
 	const NAM_BLUESKY_MAIL
 	const NAM_BLUNDRPOLICY
 	const NAM_BOTTLE_CAP
-	const NAM_BRICK_PIECE
 	const NAM_BRIGHTPOWDER
 	const NAM_BURN_HEAL
 if !DEF(FAITHFUL)
@@ -462,6 +462,7 @@ endc
 	const NAM_LURE_BALL
 	const NAM_LUXURY_BALL
 	const NAM_MACHO_BRACE
+	const NAM_MAGI_BALL
 	const NAM_MAGMARIZER
 	const NAM_MAGNET
 	const NAM_MARANGABERRY

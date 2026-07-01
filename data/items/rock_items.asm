@@ -11,6 +11,5 @@ RockItems:
 	db 24, HARD_STONE
 	db 24, SOFT_SAND
 	db 48, PEARL
-	db 64, BRICK_PIECE
 	db 50, NO_ITEM
 	db -1

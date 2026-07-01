@@ -263,6 +263,7 @@ AnimObjDuskBallGFX::    INCBIN "gfx/battle_balls/dusk_ball.2bpp.lzp"
 AnimObjDreamBallGFX::   INCBIN "gfx/battle_balls/dream_ball.2bpp.lzp"
 AnimObjPremierBallGFX:: INCBIN "gfx/battle_balls/premier_ball.2bpp.lzp"
 AnimObjCherishBallGFX:: INCBIN "gfx/battle_balls/cherish_ball.2bpp.lzp"
+AnimObjMagiBallGFX::    INCBIN "gfx/battle_balls/magi_ball.2bpp.lzp"
 
 
 SECTION "Painting Pics", ROMX
