@@ -25,6 +25,7 @@ ItemIconPointers:
 	dba DreamBallIcon
 	dba PremierBallIcon
 	dba CherishBallIcon
+	dba MagiBallIcon
 	dba PotionIcon
 	dba SuperPotionIcon
 	dba HyperPotionIcon
@@ -239,7 +240,6 @@ ItemIconPointers:
 	dba PearlStringIcon
 	dba StardustIcon
 	dba StarPieceIcon
-	dba BrickPieceIcon
 	dba RareBoneIcon
 	dba SlowpokeTailIcon
 	dba HelixFossilIcon

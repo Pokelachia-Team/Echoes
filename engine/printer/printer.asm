@@ -91,7 +91,7 @@ _PrintDiploma:
 	pop af
 	ldh [hVBlank], a
 	call Printer_CleanUpAfterSend
-	farcall FadeOutPalettes
+	call FadeOutPalettes
 	xor a
 	ldh [rIF], a
 	pop af

@@ -35,6 +35,8 @@ ItemNames::
 
 	li "Premier Ball"
 	li "Cherish Ball"
+	li "Magi Ball"
+
 
 	li "Potion"
 	li "Super Potion"
@@ -305,7 +307,6 @@ endc
 	li "Pearl String"
 	li "Stardust"
 	li "Star Piece"
-	li "Brick Piece"
 	li "Rare Bone"
 	li "SlowpokeTail"
 

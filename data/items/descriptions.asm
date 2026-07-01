@@ -24,6 +24,7 @@ ItemDescriptions:
 	dw DreamBallDesc
 	dw PremierBallDesc
 	dw CherishBallDesc
+	dw MagiBallDesc
 	dw PotionDesc
 	dw SuperPotionDesc
 	dw HyperPotionDesc
@@ -238,7 +239,6 @@ ItemDescriptions:
 	dw PearlStringDesc
 	dw StardustDesc
 	dw StarPieceDesc
-	dw BrickPieceDesc
 	dw RareBoneDesc
 	dw SlowpokeTailDesc
 	dw HelixFossilDesc
@@ -430,6 +430,11 @@ PremierBallDesc:
 CherishBallDesc:
 	text "A quite rare com-"
 	next "memorative Ball."
+	done
+
+MagiBallDesc:
+	text "A MagiKorp brand"
+	next "Ball, looks cheap."
 	done
 
 PotionDesc:
@@ -1353,11 +1358,6 @@ StardustDesc:
 StarPieceDesc:
 	text "A hunk of red gem."
 	next "Sell very high."
-	done
-
-BrickPieceDesc:
-	text "A chunk of tile."
-	next "Sell low."
 	done
 
 RareBoneDesc:
