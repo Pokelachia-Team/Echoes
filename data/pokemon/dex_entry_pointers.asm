@@ -351,4 +351,8 @@ PokedexDataPointerTable:
 
 	dba UrsalunaBloodmoonPokedexEntry
 
+	dba GarganaclHerbalPokedexEntry
+	dba GarganaclSmokedPokedexEntry
+	dba GarganaclXtraPokedexEntry
+
 	assert_table_length NUM_EXT_POKEMON

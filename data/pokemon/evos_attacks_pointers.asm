@@ -354,4 +354,8 @@ EvosAttacksPointers::
 
 	dw UrsalunaBloodmoonEvosAttacks
 
+	dw GarganaclHerbalEvosAttacks
+	dw GarganaclSmokedEvosAttacks
+	dw GarganaclXtraEvosAttacks
+
 	assert_table_length NUM_EXT_POKEMON

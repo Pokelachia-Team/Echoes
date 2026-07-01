@@ -1966,3 +1966,17 @@ CastorchFrontpic:       INCBIN "gfx/pokemon/castorch/front.animated.2bpp.lzp"
 CastorchBackpic:        INCBIN "gfx/pokemon/castorch/back.2bpp.lzp"
 CastorchFrames:         INCLUDE "gfx/pokemon/castorch/frames.asm"
 
+SECTION "GarganaclHerbal Pics", ROMX
+GarganaclHerbalFrontpic:    INCBIN "gfx/pokemon/garganacl_herbal/front.animated.2bpp.lzp"
+GarganaclHerbalBackpic:     INCBIN "gfx/pokemon/garganacl_herbal/back.2bpp.lzp"
+GarganaclHerbalFrames:      INCLUDE "gfx/pokemon/garganacl_herbal/frames.asm"
+
+SECTION "GarganaclSmoked Pics", ROMX
+GarganaclSmokedFrontpic:    INCBIN "gfx/pokemon/garganacl_smoked/front.animated.2bpp.lzp"
+GarganaclSmokedBackpic:     INCBIN "gfx/pokemon/garganacl_smoked/back.2bpp.lzp"
+GarganaclSmokedFrames:      INCLUDE "gfx/pokemon/garganacl_smoked/frames.asm"
+
+SECTION "GarganaclXtra Pics", ROMX
+GarganaclXtraFrontpic:      INCBIN "gfx/pokemon/garganacl_xtra/front.animated.2bpp.lzp"
+GarganaclXtraBackpic:       INCBIN "gfx/pokemon/garganacl_xtra/back.2bpp.lzp"
+GarganaclXtraFrames:        INCLUDE "gfx/pokemon/garganacl_xtra/frames.asm"

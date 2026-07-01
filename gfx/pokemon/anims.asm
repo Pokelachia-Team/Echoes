@@ -440,3 +440,7 @@ TaurosPaldeanWaterAnimation: INCLUDE "gfx/pokemon/tauros_paldean_water/anim.asm"
 
 UrsalunaPlainAnimation:     INCLUDE "gfx/pokemon/ursaluna_plain/anim.asm"
 UrsalunaBloodmoonAnimation: INCLUDE "gfx/pokemon/ursaluna_bloodmoon/anim.asm"
+
+GarganaclHerbalAnimation:   INCLUDE "gfx/pokemon/garganacl_herbal/anim.asm"
+GarganaclSmokedAnimation:   INCLUDE "gfx/pokemon/garganacl_smoked/anim.asm"
+GarganaclXtraAnimation:     INCLUDE "gfx/pokemon/garganacl_xtra/anim.asm"

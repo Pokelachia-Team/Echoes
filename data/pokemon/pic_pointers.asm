@@ -418,4 +418,8 @@ PokemonPicPointers::
 
 	pics UrsalunaBloodmoon
 
+	pics GarganaclHerbal
+	pics GarganaclSmoked
+	pics GarganaclXtra
+
 	assert_table_length NUM_UNIQUE_POKEMON
