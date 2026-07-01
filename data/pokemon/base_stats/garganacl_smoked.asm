@@ -7,7 +7,7 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for GARGANACL_SMOKED, FLASHFIRE, SOLID_ROCK, RECKLESS
+	abilities_for GARGANACL_SMOKED, FLASH_FIRE, SOLID_ROCK, RECKLESS
 	db GROWTH_SLOW ; growth rate
 	dn EGG_MONSTER, EGG_GROUND ; egg groups
 
