@@ -351,4 +351,8 @@ FootprintPointers::
 
 	fardw UrsalunaFootprint
 
+	dw GarganaclFootprint
+	dw GarganaclFootprint
+	dw GarganaclFootprint
+
 	assert_table_length NUM_EXT_POKEMON

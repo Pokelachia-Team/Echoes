@@ -432,6 +432,10 @@ INCLUDE "gfx/pokemon/meowth_folkoran/front.dimensions"
 
 INCLUDE "gfx/pokemon/ursaluna_bloodmoon/front.dimensions"
 
+INCLUDE "gfx/pokemon/garganacl_herbal/front.dimensions"
+INCLUDE "gfx/pokemon/garganacl_smoked/front.dimensions"
+INCLUDE "gfx/pokemon/garganacl_xtra/front.dimensions"
+
 	if list_index % 2
 		db size_value << 4
 	endc

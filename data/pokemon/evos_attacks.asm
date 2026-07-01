@@ -5405,6 +5405,66 @@ endc
 	learnset 55, CLOSE_COMBAT ; Megahorn → new move
 	learnset 69, ROCK_SLIDE ; Rock Wrecker → similar move
 
+	evos_attacks GarganaclHerbal ;tba needs adjusted later
+	learnset 1, POISON_JAB
+	learnset 1, TACKLE
+	learnset 1, MUD_SLAP ; Sand-Attack → similar move
+	learnset 1, LEER ; Tail Whip → similar move
+	learnset 3, HORN_ATTACK
+	learnset 6, FURY_STRIKES ; Fury Attack → similar move
+	learnset 9, SCARY_FACE
+	learnset 13, MAGNITUDE ; Smack Down → egg move
+	learnset 17, STOMP
+	learnset 21, BULLDOZE
+	learnset 25, ANCIENTPOWER ; Chip Away → HGSS tutor move
+	learnset 29, ROCK_BLAST
+	learnset 33, TAKE_DOWN ; Drill Run → Take Down
+	learnset 37, STONE_EDGE ; Take Down → Stone Edge
+	learnset 41, DOUBLE_EDGE ; Double Edge → event move
+	learnset 48, EARTHQUAKE
+	learnset 55, CLOSE_COMBAT ; Megahorn → new move
+	learnset 69, ROCK_SLIDE ; Rock Wrecker → similar move
+
+	evos_attacks GarganaclSmoked ;tba needs adjusted later
+	learnset 1, POISON_JAB
+	learnset 1, TACKLE
+	learnset 1, MUD_SLAP ; Sand-Attack → similar move
+	learnset 1, LEER ; Tail Whip → similar move
+	learnset 3, HORN_ATTACK
+	learnset 6, FURY_STRIKES ; Fury Attack → similar move
+	learnset 9, SCARY_FACE
+	learnset 13, MAGNITUDE ; Smack Down → egg move
+	learnset 17, STOMP
+	learnset 21, BULLDOZE
+	learnset 25, ANCIENTPOWER ; Chip Away → HGSS tutor move
+	learnset 29, ROCK_BLAST
+	learnset 33, TAKE_DOWN ; Drill Run → Take Down
+	learnset 37, STONE_EDGE ; Take Down → Stone Edge
+	learnset 41, DOUBLE_EDGE ; Double Edge → event move
+	learnset 48, EARTHQUAKE
+	learnset 55, CLOSE_COMBAT ; Megahorn → new move
+	learnset 69, ROCK_SLIDE ; Rock Wrecker → similar move
+
+	evos_attacks GarganaclXtra ;tba needs adjusted later
+	learnset 1, POISON_JAB
+	learnset 1, TACKLE
+	learnset 1, MUD_SLAP ; Sand-Attack → similar move
+	learnset 1, LEER ; Tail Whip → similar move
+	learnset 3, HORN_ATTACK
+	learnset 6, FURY_STRIKES ; Fury Attack → similar move
+	learnset 9, SCARY_FACE
+	learnset 13, MAGNITUDE ; Smack Down → egg move
+	learnset 17, STOMP
+	learnset 21, BULLDOZE
+	learnset 25, ANCIENTPOWER ; Chip Away → HGSS tutor move
+	learnset 29, ROCK_BLAST
+	learnset 33, TAKE_DOWN ; Drill Run → Take Down
+	learnset 37, STONE_EDGE ; Take Down → Stone Edge
+	learnset 41, DOUBLE_EDGE ; Double Edge → event move
+	learnset 48, EARTHQUAKE
+	learnset 55, CLOSE_COMBAT ; Megahorn → new move
+	learnset 69, ROCK_SLIDE ; Rock Wrecker → similar move
+
 	evos_attacks Tangrowth
 	learnset 1, WRAP ; Constrict → similar move
 	learnset 4, SLEEP_POWDER

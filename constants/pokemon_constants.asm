@@ -133,9 +133,9 @@
 	const LICKITUNG  ; 6c
 	const KOFFING    ; 6d
 	const WEEZING    ; 6e
-	const NACLI    ; 6f
-	const NACLSTACK     ; 70
-	const FLUTTRFAWN    ; 71
+	const NACLI      ; 6f
+	const NACLSTACK  ; 70
+	const FLUTTRFAWN ; 71
 	const TANGELA    ; 72
 	const KANGASKHAN ; 73
 	const HORSEA     ; 74
@@ -504,6 +504,12 @@ DEF FOLKORAN_FORM EQU 6
 ; ursaluna
 	ext_const_def 2
 	ext_const URSALUNA_BLOODMOON_FORM ; 18a (2)
+
+; garganacl 
+	ext_const_def 2
+	ext_const GARGANACL_HERBAL_FORM ; 18b (2)
+	ext_const GARGANACL_SMOKED_FORM ; 18c (3)
+	ext_const GARGANACL_XTRA_FORM ; 18d (4)
 
 DEF NUM_VARIANT_FORMS EQU const_value - FIRST_VARIANT_FORM_MON ; 2f
 

@@ -1826,3 +1826,18 @@ SECTION "Wampurr Mini Icon", ROMX
 WampurrMini::     INCBIN "gfx/minis/wampurr.2bpp.lzp"
 WampurrMiniMask:: INCBIN "gfx/minis/wampurr_mask.1bpp.lzp"
 WampurrIcon::     INCBIN "gfx/icons/wampurr.2bpp.lzp"
+
+SECTION "GarganaclHerbal Mini Icon", ROMX
+GarganaclHerbalMini::       INCBIN "gfx/minis/garganacl_herbal.2bpp.lzp"
+GarganaclHerbalMiniMask::   INCBIN "gfx/minis/garganacl_herbal_mask.1bpp.lzp"
+GarganaclHerbalIcon::       INCBIN "gfx/icons/garganacl_herbal.2bpp.lzp"
+
+SECTION "GarganaclSmoked Mini Icon", ROMX
+GarganaclSmokedMini::       INCBIN "gfx/minis/garganacl_smoked.2bpp.lzp"
+GarganaclSmokedMiniMask::   INCBIN "gfx/minis/garganacl_smoked_mask.1bpp.lzp"
+GarganaclSmokedIcon::       INCBIN "gfx/icons/garganacl_smoked.2bpp.lzp"
+
+SECTION "GarganaclXtra Mini Icon", ROMX
+GarganaclXtraMini::         INCBIN "gfx/minis/garganacl_xtra.2bpp.lzp"
+GarganaclXtraMiniMask::     INCBIN "gfx/minis/garganacl_xtra_mask.1bpp.lzp"
+GarganaclXtraIcon::         INCBIN "gfx/icons/garganacl_xtra.2bpp.lzp"
