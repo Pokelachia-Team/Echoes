@@ -9,18 +9,18 @@ OlsteetonAbandonedMillOutside_MapScriptHeader:
 	def_coord_events
 
 	def_bg_events
-	bg_event 12, 12, BGEVENT_JUMPTEXT, OlsteetonAbandonedMillOutsideSignText
-	bg_event 10,  6, BGEVENT_JUMPTEXT, OlsteetonAbandonedMillOutsideDoorsClosedText
+	bg_event 13, 13, BGEVENT_JUMPTEXT, OlsteetonAbandonedMillOutsideSignText
+	bg_event  9,  7, BGEVENT_JUMPTEXT, OlsteetonAbandonedMillOutsideDoorsClosedText
+	bg_event  9, 14, BGEVENT_DOWN,    OlsteetonAbandonedMillOutsideBoatScript
+	bg_event 10, 14, BGEVENT_DOWN,    OlsteetonAbandonedMillOutsideBoatScript
+
 
 	def_object_events
-	object_event  8, 12, SPRITE_SAILOR, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonAbandonedMillOutsideSailorText, -1
-	object_event  9, 14, SPRITE_SAILBOAT, SPRITEMOVEDATA_SAILBOAT_BOTTOM, 0, 0, -1, 0, OBJECTTYPE_SCRIPT_SILENT, 0, OlsteetonAbandonedMillOutsideSailboatScript, -1
-	object_const_def
+	
 
 
-OlsteetonAbandonedMillOutsideSailboatScript:
-	; checkevent EVENT_BOAT_PERMISSION
-	checkevent EVENT_GOT_A_POKEMON_FROM_PAWPAW
+OlsteetonAbandonedMillOutsideBoatScript:
+	checkevent EVENT_BOAT_PERMISSION
 	iftruefwd Olsteeton_MillBoatQuestion
 	jumptext OlsteetonAbandonedMillOutsideSailboatText
 
@@ -34,6 +34,7 @@ Olsteeton_MillBoatQuestion:
 Olsteeton_MillBoatRide:
 	warp OLSTEETON, $25, $3
 	end
+
 BoatMillText_Ask:
 	text "Take the boat"
 	line "to Olsteeton?"
