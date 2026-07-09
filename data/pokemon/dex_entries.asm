@@ -2649,7 +2649,7 @@ GarganaclPokedexEntry::
 	next "restorative elem-"
 	page "ents & is helpful"
 	next "for maintaining"
-	next "one's health."
+	next "one's health.@"
 
 SECTION "TangrowthPokedexEntry", ROMX
 TangrowthPokedexEntry::

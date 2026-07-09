@@ -318,23 +318,6 @@ InitialRadio:
 	pause 45
 	endtext
 
-endc
-
-PlayerHouse2FTVScript:
-	jumpthistext
-
-	text "There's a show on"
-	line "TV: An armor clad"
-
-	para "knight rides a"
-	line "Pyroboros into"
-	cont "battle..."
-
-	para "I'd better go"
-	line "before I get"
-	cont "sucked in!"
-	done
-
 PokemonJournalProfPawpawScript:
 	setflag ENGINE_READ_PROF_ELM_JOURNAL
 	jumpthistext
@@ -389,4 +372,19 @@ InitialRadioText3:
 InitialRadioText4:
 	text "#mon!"
 	line "#mon Channel…"
+	done
+
+PlayerHouse2FTVScript:
+	jumpthistext
+
+	text "There's a show on"
+	line "TV: An armor clad"
+
+	para "knight rides a"
+	line "Pyroboros into"
+	cont "battle..."
+
+	para "I'd better go"
+	line "before I get"
+	cont "sucked in!"
 	done
