@@ -231,7 +231,7 @@ PokemonBodyData:
 	body_data   6,   50, INSECTOID,    PINK   ; CORSOLA
 	body_data   6,  120, FINS,         GRAY   ; REMORAID
 	body_data   9,  285, TENTACLES,    RED    ; OCTILLERY
-	body_data   9,  160, INSECTOID,    GRAY    ; DURANT
+	body_data   9,  160, INSECTOID,    GRAY   ; DURANT
 	body_data  21, 2200, WINGS,        PURPLE ; MANTINE
 	body_data  17,  505, WINGS,        GRAY   ; SKARMORY
 	body_data   6,  108, QUADRUPED,    BLACK  ; HOUNDOUR
@@ -251,7 +251,7 @@ PokemonBodyData:
 	body_data  15,  468, QUADRUPED,      PINK   ; ETHEREDEER
 	body_data  19, 1780, QUADRUPED,    YELLOW ; RAIKOU
 	body_data  21, 1980, QUADRUPED,    BROWN  ; ENTEI
-	body_data  20, 1870, QUADRUPED,    BLUE   ; AUGUROTH
+	body_data  20, 1870, INSECTOID,    BLUE   ; AUGUROTH
 	body_data   6,  720, BIPEDAL_TAIL, GREEN  ; LARVITAR
 	body_data  12, 1520, SERPENTINE,   GRAY   ; PUPITAR
 	body_data  20, 2020, BIPEDAL_TAIL, GREEN  ; TYRANITAR

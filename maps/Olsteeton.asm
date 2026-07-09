@@ -43,7 +43,7 @@ Olsteeton_MapScriptHeader:
 	bg_event 30, 13, BGEVENT_JUMPTEXT, OlsteetonMartSignText
 	bg_event 18, 19, BGEVENT_JUMPTEXT, OlsteetonPokeCenterSignText
 	bg_event 20, 14, BGEVENT_JUMPTEXT, OlsteetonHomeDecorStoreSignText
-	bg_event 38,  3, BGEVENT_JUMPTEXT, OlsteetonBoatText
+	bg_event 38,  3, BGEVENT_RIGHT,    OlsteetonBoatScript
 	bg_event 20, 32, BGEVENT_JUMPTEXT, OlsteetonForestSignText
 	bg_event 14, 19, BGEVENT_JUMPTEXT, OlsteetonCafeSignText
 	bg_event 31, 21, BGEVENT_JUMPTEXT, OlsteetonHotelSignText
@@ -68,7 +68,7 @@ Olsteeton_MapScriptHeader:
 	object_event 24, 16, SPRITE_ROCKER, SPRITEMOVEDATA_STANDING_DOWN, 1, 0, -1, PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonBandRocker2Text, -1
 	object_event 26, 16, SPRITE_ROCKER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 1, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonBandRocker3Text, -1
 	object_event 26, 19, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonBandCooltrainerFText, -1
-	object_event 10, 14, SPRITE_RUSTY, SPRITEMOVEDATA_SPINRANDOM_SLOW, 1, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, OlsteetonRustyScript, -1
+	object_event 10, 14, SPRITE_RUSTY, SPRITEMOVEDATA_SPINRANDOM_SLOW, 1, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, OlsteetonRustyScript, EVENT_OLSTEETON_ABANDONED_MILL_METAL_COAT
 
 
 	object_const_def
@@ -78,13 +78,13 @@ Olsteeton_MapScriptHeader:
 	; cuttree_event 33, 34, EVENT_Olsteeton_CITY_CUT_TREE
 	; cuttree_event -5, 24, EVENT_ROUTE_16_CUT_TREE
 
-OlsteetonSailboatScript:
-	; checkevent EVENT_BOAT_PERMISSION
-	checkevent EVENT_GOT_POKEDEX_FROM_POPLAR
-	iftruefwd Olsteeton_BoatQuestion
-	jumptext OlsteetonSailboatText
-
-Olsteeton_BoatQuestion:
+OlsteetonBoatScript:
+	checkevent EVENT_BOAT_PERMISSION
+	iffalse_jumptext OlsteetonBoatText
+	sjumpfwd .Olsteeton_BoatQuestion
+	
+	 
+.Olsteeton_BoatQuestion:
 	opentext
 	writetext BoatText_Ask
 	yesorno
@@ -92,7 +92,7 @@ Olsteeton_BoatQuestion:
 	endtext
 
 Olsteeton_BoatRide:
-	warp OLSTEETON_ABANDONED_MILL_OUTSIDE, $7, $D
+	warp OLSTEETON_ABANDONED_MILL_OUTSIDE, $A, $D
 	end
 
 OlsteetonPsyduckLadyScript:
@@ -110,10 +110,10 @@ OlsteetonPsyduckLadyScript:
 OlsteetonRustyScript:
 	faceplayer
 	opentext
+	checkevent EVENT_BEAT_RUSTY_CHECK
+	iftrue_jumpopenedtext OlsteetonRustyCrewText
 	checkevent EVENT_FOUGHT_FIELD_LAB_MAGIGOON
 	iftruefwd .RustyBattleCheck
-	checkevent EVENT_GAVE_DOSSIER_TO_PAWPAW ;change to old mill completed event
-	iftrue_jumptext OlsteetonRusty_ConstructionText
 	jumpopenedtext OlsteetonRustyText1
 	end
 
@@ -127,7 +127,6 @@ OlsteetonRustyScript:
 	winlosstext RustyWinText, RustyLoseText
 	setlasttalked OLSTEETON_RUSTY
 	loadtrainer RUSTY, 1
-	; loadvar VAR_BATTLETYPE, BATTLETYPE_CANLOSE
 	startbattle
 	reloadmap
 	special HealParty
@@ -145,9 +144,10 @@ OlsteetonRustyScript:
 	opentext
 	writetext OlsteetonRusty_NotReadyText
 	waitbutton
+	writetext OlsteetonRustyCrewText
+	setevent EVENT_BEAT_RUSTY_CHECK
+	waitbutton
 	closetext
-	turnobject OLSTEETON_RUSTY, UP
-	disappear OLSTEETON_RUSTY
 	special HealParty
 	playmapmusic
 	end
@@ -193,21 +193,24 @@ OlsteetonRusty_NotReadyText:
 
 	para "My real team is"
 	line "much stronger."
+
+	para "Try the Brinesburg"
+	line "Gym. It's a good"
+	cont "one for beginners."
+
+	para "You might be"
+	line "strong enough to"
+	cont "help out though..."
 	done
 
-OlsteetonRusty_GoBrinesburgText:
-	text "Try the Brinesburg"
-	line "gym first. It's"
-	cont "good for beginners."
-	done
+OlsteetonRustyCrewText:
+	text "My crew are set"
+	line "up in a place"
+	cont "downtown."
 
-OlsteetonRusty_ConstructionText:
-	para "Construction is"
-	line "nearly done."
-
-	para "We'll have our"
-	line "reckonin' soon"
-	cont "enough..."
+	para "Go talk to Betty"
+	line "there about the"
+	cont "old steel mill."
 	done
 
 BoatText_Ask:

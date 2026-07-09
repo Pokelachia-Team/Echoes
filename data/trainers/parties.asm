@@ -6257,6 +6257,11 @@ else
 endc
 	end_trainer
 
+	def_trainer BRADFORD1, "Bradford" ;old mill team
+	tr_mon 7, DIGLETT, MALE | ALOLAN_FORM
+	tr_mon 8, DURANT
+	end_trainer
+
 SECTION "TeacherFGroup", ROMX
 TeacherFGroup:
 

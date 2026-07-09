@@ -6,7 +6,7 @@ OlsteetonGym1F_MapScriptHeader:
 	def_warp_events
 	warp_event  8, 11, OLSTEETON, 3
 	warp_event  9, 11, OLSTEETON, 3
-	warp_event  0,  2, OLSTEETON_GYM_2F, 1
+	warp_event  1,  3, OLSTEETON_GYM_2F, 1
 
 	def_coord_events
 
@@ -16,9 +16,15 @@ OlsteetonGym1F_MapScriptHeader:
 
 	def_object_events
 	object_event  7, 10, SPRITE_GYM_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 1, OlsteetonGymGuyScript, -1
+	object_event  9,  7, SPRITE_RUSTY, SPRITEMOVEDATA_STANDING_DOWN, 1, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, OlsteetonGymRustyScript, -1 
 
 OlsteetonGymGuyScript:
 	jumptextfaceplayer OlsteetonGymGuyText
+	end
+
+OlsteetonGymRustyScript:
+	jumptextfaceplayer OlsteetonGymConstructionText
+	end
 
 OlsteetonGymStatue:
     text "UNDER CONSTRUCTION"
@@ -39,3 +45,11 @@ OlsteetonGymGuyText:
     cont "finished!"
 	done
 
+OlsteetonGymConstructionText:
+	para "Construction is"
+	line "nearly done."
+
+	para "We'll have our"
+	line "reckonin' soon"
+	cont "enough..."
+	done

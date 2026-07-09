@@ -5043,20 +5043,15 @@ endc
 	evos_attacks Auguroth
 	learnset 1, BITE
 	learnset 1, LEER
-	learnset 8, BUBBLE_BEAM
-	learnset 15, RAIN_DANCE
-	learnset 22, GUST
-	learnset 29, AURORA_BEAM
-	learnset 36, LIGHT_SCREEN ; Mist → new move
+	learnset 1, GUST
+	learnset 36, LIGHT_SCREEN
 	learnset 43, MIRROR_COAT
-	learnset 50, AIR_SLASH ; Ice Fang → event move
-	learnset 57, EXTREMESPEED ; Tailwind → event move
+	learnset 57, EXTREMESPEED 
 	learnset 64, EXTRASENSORY
-	learnset 71, HYDRO_PUMP
-	learnset 78, CALM_MIND
-	learnset 85, HYPER_BEAM ; Blizzard → TM move
-	learnset 92, BLIZZARD
-	learnset 99, HIDDEN_POWER ; TM move
+	learnset 78, SHADOW_BALL
+	learnset 85, AIR_SLASH 
+	learnset 92, CALM_MIND
+	learnset 99, HYPER_BEAM 
 
 	evos_attacks Larvitar
 	evo_data EVOLVE_LEVEL, 30, PUPITAR

@@ -137,6 +137,33 @@
 	end_grass_wildmons
 	db -1 ; end
 
+	def_grass_wildmons OLSTEETON_UNI
+	db 4 percent ; encounter rate
+	wildmon 2, KOFFING
+	wildmon 2, KOFFING
+	wildmon 3, MEOWTH, FOLKORAN_FORM
+	wildmon 3, KOFFING
+	wildmon 4, MEOWTH, FOLKORAN_FORM
+	wildmon 5, PORYGON
+	wildmon 5, PORYGON
+	; day
+	wildmon 2, KOFFING
+	wildmon 2, RATTATA, ALOLAN_FORM
+	wildmon 3, RATTATA, ALOLAN_FORM
+	wildmon 3, KOFFING
+	wildmon 4, PORYGON
+	wildmon 5, KOFFING
+	wildmon 5, PORYGON
+	; nite
+	wildmon 3, DOOZEE
+	wildmon 4, RATTATA, ALOLAN_FORM
+	wildmon 3, MEOWTH, FOLKORAN_FORM
+	wildmon 4, DOOZEE
+	wildmon 4, PORYGON
+	wildmon 5, PORYGON
+	wildmon 5, DOOZEE
+	end_grass_wildmons
+
 def_grass_wildmons OLSTEETON_ABANDONED_MILL_OUTSIDE
 	db 10 percent ; encounter rate
 	wildmon 3, DEBRITE
@@ -164,33 +191,6 @@ def_grass_wildmons OLSTEETON_ABANDONED_MILL_OUTSIDE
 	wildmon 7, SKARMORY
 	end_grass_wildmons
 	db -1 ; end
-
-	def_grass_wildmons OLSTEETON_UNI
-	db 4 percent ; encounter rate
-	wildmon 2, KOFFING
-	wildmon 2, KOFFING
-	wildmon 3, MEOWTH, FOLKORAN_FORM
-	wildmon 3, KOFFING
-	wildmon 4, MEOWTH, FOLKORAN_FORM
-	wildmon 5, PORYGON
-	wildmon 5, PORYGON
-	; day
-	wildmon 2, KOFFING
-	wildmon 2, RATTATA, ALOLAN_FORM
-	wildmon 3, RATTATA, ALOLAN_FORM
-	wildmon 3, KOFFING
-	wildmon 4, PORYGON
-	wildmon 5, KOFFING
-	wildmon 5, PORYGON
-	; nite
-	wildmon 3, DOOZEE
-	wildmon 4, RATTATA, ALOLAN_FORM
-	wildmon 3, MEOWTH, FOLKORAN_FORM
-	wildmon 4, DOOZEE
-	wildmon 4, PORYGON
-	wildmon 5, PORYGON
-	wildmon 5, DOOZEE
-	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_103
 	db 10 percent ; encounter rate
