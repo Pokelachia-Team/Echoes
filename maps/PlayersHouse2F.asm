@@ -53,7 +53,6 @@ PlayersHousePoster:
 PlayersHouseRadio:
 
 if DEF(DEBUG)
-
 	opentext
 	; time
 	special Special_SetDayOfWeek
@@ -284,21 +283,24 @@ endc
 	ret
 
 else
+	; fallthrough
+endc
 
+InitialRadio:
 	checkevent EVENT_GOT_A_POKEMON_FROM_PAWPAW
 	iftruefwd .NormalRadio
 	checkevent EVENT_LISTENED_TO_INITIAL_RADIO
 	iftruefwd .AbbreviatedRadio
 	playmusic MUSIC_POKEMON_TALK
 	opentext
-	writetext PlayerRadioText1
+	writetext InitialRadioText1
 	pause 45
-	writetext PlayerRadioText2
+	writetext InitialRadioText2
 	pause 45
-	writetext PlayerRadioText3
+	writetext InitialRadioText3
 	pause 45
 	musicfadeout MUSIC_NEW_BARK_TOWN, 16
-	writetext PlayerRadioText4
+	writetext InitialRadioText4
 	pause 45
 	closetext
 	setevent EVENT_LISTENED_TO_INITIAL_RADIO
@@ -309,7 +311,7 @@ else
 
 .AbbreviatedRadio:
 	opentext
-	writetext PlayerRadioText4
+	writetext InitialRadioText4
 	pause 45
 	endtext
 
@@ -365,23 +367,23 @@ PlayersHousePC:
 	warp NONE, 0, 0
 	end
 
-PlayerRadioText1:
+InitialRadioText1:
 	text "Prof.Poplar's"
 	line "#mon Talk!"
 	cont "Tune in next time!"
 	done
 
-PlayerRadioText2:
+InitialRadioText2:
 	text "#mon Channel!"
 	done
 
-PlayerRadioText3:
+InitialRadioText3:
 	text "I'm DJ Dunsparce,"
 	line "your main mon"
 	cont "for the next hour!"
 	done
 
-PlayerRadioText4:
+InitialRadioText4:
 	text "#mon!"
 	line "#mon Channel…"
 	done
