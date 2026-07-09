@@ -955,7 +955,7 @@ RadioChannels:
 ; frequencies and the shows that play on them.
 
 ; frequency value given here = 4 × ingame_frequency − 2
-	dbw 16, .PkmnTalkAndPokedexShow
+	dbw 16, .PkmnTalk
 	dbw 28, .PokemonMusic
 	dbw 32, .LuckyChannel
 	dbw 40, .BuenasPassword
@@ -966,15 +966,9 @@ RadioChannels:
 	; dbw 80, .EvolutionRadio
 	db -1
 
-.PkmnTalkAndPokedexShow:
-; Pokédex Show in the morning
-
-; Oak's Pokémon Talk in the afternoon and evening
+.PkmnTalk:
 	call .InJohto
 	jr nc, NoRadioStation
-	ld a, [wTimeOfDay]
-	and a
-	jr z, LoadStation_PokedexShow
 	jr LoadStation_OaksPokemonTalk
 
 .PokemonMusic:
@@ -1074,11 +1068,6 @@ LoadRadioStation:
 	ld [hli], a
 	ret
 
-LoadStation_PokedexShow:
-	ld a, POKEDEX_SHOW
-	ld de, PokedexShowName
-	jr LoadRadioStation
-
 LoadStation_PokemonMusic:
 	ld a, POKEMON_MUSIC
 	ld de, PokemonMusicName
@@ -1170,11 +1159,9 @@ NoRadioName:
 	jmp Textbox
 
 OaksPkmnTalkName:     db "Oak's <PK><MN> Talk@"
-PokedexShowName:      db "#dex Show@"
 PokemonMusicName:     db "#mon Music@"
 LuckyChannelName:     db "Lucky Channel@"
 UnknownStationName:   db "?????@"
-
 PlacesAndPeopleName:  db "Places & People@"
 LetsAllSingName:      db "Let's All Sing!@"
 PokeFluteStationName: db "# Flute@"
@@ -1446,7 +1433,6 @@ PlayRadioStationPointers:
 	table_width 2
 	dw LoadStation_PokemonChannel
 	dw LoadStation_OaksPokemonTalk
-	dw LoadStation_PokedexShow
 	dw LoadStation_PokemonMusic
 	dw LoadStation_LuckyChannel
 	dw LoadStation_UnownRadio
@@ -1458,15 +1444,8 @@ PlayRadioStationPointers:
 LoadStation_PokemonChannel:
 	call GetCurrentLandmark
 	cp KANTO_LANDMARK
-	jr nc, .kanto_or_orange
-	call UpdateTime
-	ld a, [wTimeOfDay]
-	and a
-	jmp z, LoadStation_PokedexShow
+	jmp nc, LoadStation_PlacesAndPeople
 	jmp LoadStation_OaksPokemonTalk
-
-.kanto_or_orange:
-	jmp LoadStation_PlacesAndPeople
 
 PokegearMap:
 	call LoadTownMapGFX
