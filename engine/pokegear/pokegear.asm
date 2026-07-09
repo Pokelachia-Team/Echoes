@@ -969,7 +969,7 @@ RadioChannels:
 .PkmnTalk:
 	call .InJohto
 	jr nc, NoRadioStation
-	jmp LoadStation_OaksPokemonTalk
+	jr LoadStation_OaksPokemonTalk
 
 .PokemonMusic:
 	call .InJohto
