@@ -876,6 +876,7 @@ DEF BETA EQU __trainer_class__
 	const GRADEN
 	const GUSTAV
 	const NICOLAS
+	const BRADFORD1
 
 	trainerclass TEACHER_F
 	const COLETTE

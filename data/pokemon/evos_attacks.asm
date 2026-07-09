@@ -5043,20 +5043,15 @@ endc
 	evos_attacks Auguroth
 	learnset 1, BITE
 	learnset 1, LEER
-	learnset 8, BUBBLE_BEAM
-	learnset 15, RAIN_DANCE
-	learnset 22, GUST
-	learnset 29, AURORA_BEAM
-	learnset 36, LIGHT_SCREEN ; Mist → new move
+	learnset 1, GUST
+	learnset 36, LIGHT_SCREEN
 	learnset 43, MIRROR_COAT
-	learnset 50, AIR_SLASH ; Ice Fang → event move
-	learnset 57, EXTREMESPEED ; Tailwind → event move
+	learnset 57, EXTREMESPEED 
 	learnset 64, EXTRASENSORY
-	learnset 71, HYDRO_PUMP
-	learnset 78, CALM_MIND
-	learnset 85, HYPER_BEAM ; Blizzard → TM move
-	learnset 92, BLIZZARD
-	learnset 99, HIDDEN_POWER ; TM move
+	learnset 78, SHADOW_BALL
+	learnset 85, AIR_SLASH 
+	learnset 92, CALM_MIND
+	learnset 99, HYPER_BEAM 
 
 	evos_attacks Larvitar
 	evo_data EVOLVE_LEVEL, 30, PUPITAR
@@ -5386,6 +5381,66 @@ endc
 	learnset 61, GYRO_BALL
 
 	evos_attacks Garganacl
+	learnset 1, POISON_JAB
+	learnset 1, TACKLE
+	learnset 1, MUD_SLAP ; Sand-Attack → similar move
+	learnset 1, LEER ; Tail Whip → similar move
+	learnset 3, HORN_ATTACK
+	learnset 6, FURY_STRIKES ; Fury Attack → similar move
+	learnset 9, SCARY_FACE
+	learnset 13, MAGNITUDE ; Smack Down → egg move
+	learnset 17, STOMP
+	learnset 21, BULLDOZE
+	learnset 25, ANCIENTPOWER ; Chip Away → HGSS tutor move
+	learnset 29, ROCK_BLAST
+	learnset 33, TAKE_DOWN ; Drill Run → Take Down
+	learnset 37, STONE_EDGE ; Take Down → Stone Edge
+	learnset 41, DOUBLE_EDGE ; Double Edge → event move
+	learnset 48, EARTHQUAKE
+	learnset 55, CLOSE_COMBAT ; Megahorn → new move
+	learnset 69, ROCK_SLIDE ; Rock Wrecker → similar move
+
+	evos_attacks GarganaclHerbal ;tba needs adjusted later
+	learnset 1, POISON_JAB
+	learnset 1, TACKLE
+	learnset 1, MUD_SLAP ; Sand-Attack → similar move
+	learnset 1, LEER ; Tail Whip → similar move
+	learnset 3, HORN_ATTACK
+	learnset 6, FURY_STRIKES ; Fury Attack → similar move
+	learnset 9, SCARY_FACE
+	learnset 13, MAGNITUDE ; Smack Down → egg move
+	learnset 17, STOMP
+	learnset 21, BULLDOZE
+	learnset 25, ANCIENTPOWER ; Chip Away → HGSS tutor move
+	learnset 29, ROCK_BLAST
+	learnset 33, TAKE_DOWN ; Drill Run → Take Down
+	learnset 37, STONE_EDGE ; Take Down → Stone Edge
+	learnset 41, DOUBLE_EDGE ; Double Edge → event move
+	learnset 48, EARTHQUAKE
+	learnset 55, CLOSE_COMBAT ; Megahorn → new move
+	learnset 69, ROCK_SLIDE ; Rock Wrecker → similar move
+
+	evos_attacks GarganaclSmoked ;tba needs adjusted later
+	learnset 1, POISON_JAB
+	learnset 1, TACKLE
+	learnset 1, MUD_SLAP ; Sand-Attack → similar move
+	learnset 1, LEER ; Tail Whip → similar move
+	learnset 3, HORN_ATTACK
+	learnset 6, FURY_STRIKES ; Fury Attack → similar move
+	learnset 9, SCARY_FACE
+	learnset 13, MAGNITUDE ; Smack Down → egg move
+	learnset 17, STOMP
+	learnset 21, BULLDOZE
+	learnset 25, ANCIENTPOWER ; Chip Away → HGSS tutor move
+	learnset 29, ROCK_BLAST
+	learnset 33, TAKE_DOWN ; Drill Run → Take Down
+	learnset 37, STONE_EDGE ; Take Down → Stone Edge
+	learnset 41, DOUBLE_EDGE ; Double Edge → event move
+	learnset 48, EARTHQUAKE
+	learnset 55, CLOSE_COMBAT ; Megahorn → new move
+	learnset 69, ROCK_SLIDE ; Rock Wrecker → similar move
+
+	evos_attacks GarganaclXtra ;tba needs adjusted later
 	learnset 1, POISON_JAB
 	learnset 1, TACKLE
 	learnset 1, MUD_SLAP ; Sand-Attack → similar move

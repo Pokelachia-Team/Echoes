@@ -79,7 +79,7 @@ for x, NUM_TMS + NUM_HMS
 	givetmhm x
 endr
 	; useful items
-for x, POKE_BALL, CHERISH_BALL + 1
+for x, POKE_BALL, MAGI_BALL + 1
 if x != PARK_BALL && x != SAFARI_BALL
 	giveitem x, 99
 endc
@@ -263,6 +263,9 @@ endr
 	setevent EVENT_POPLAR_OFFICE_FIR
 	setevent EVENT_GOT_POKEDEX_FROM_POPLAR
 	setevent EVENT_GOT_DOSSIER_FROM_POPLAR
+	setevent EVENT_FOUGHT_FIELD_LAB_MAGIGOON
+	setevent EVENT_BEAT_RUSTY_CHECK
+	setevent EVENT_BOAT_PERMISSION
 	closetext
 	warpfacing DOWN, OLSTEETON, 17, 20
 	; warpfacing DOWN, OLSTEETON_UNI, 10, 20

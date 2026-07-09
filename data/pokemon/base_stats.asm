@@ -392,4 +392,8 @@ INCLUDE "data/pokemon/base_stats/meowth_folkoran.asm"
 
 INCLUDE "data/pokemon/base_stats/ursaluna_bloodmoon.asm"
 
+INCLUDE "data/pokemon/base_stats/garganacl_herbal.asm"
+INCLUDE "data/pokemon/base_stats/garganacl_smoked.asm"
+INCLUDE "data/pokemon/base_stats/garganacl_xtra.asm"
+
 	assert_table_length NUM_EXT_POKEMON

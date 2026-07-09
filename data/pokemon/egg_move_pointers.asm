@@ -350,4 +350,8 @@ EggSpeciesMovesPointers::
 
 	dw TeddiursaEggSpeciesMoves         ; Ursaluna (Bloodmoon Form)
 
+	dw NacliEggSpeciesMoves             ; Garganacl (Herbal Form)
+	dw NacliEggSpeciesMoves				; Garganacl (Smoked Form)
+	dw NacliEggSpeciesMoves				; Garganacl (Xtra Form)
+
 	assert_table_length NUM_EXT_POKEMON

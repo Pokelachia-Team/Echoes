@@ -414,4 +414,8 @@ AnimationPointers:
 
 	dw UrsalunaBloodmoonAnimation
 
+	dw GarganaclHerbalAnimation
+	dw GarganaclSmokedAnimation
+	dw GarganaclXtraAnimation
+
 	assert_table_length NUM_UNIQUE_POKEMON

@@ -3363,3 +3363,32 @@ WampurrPokedexEntry::
 	next "limbs that extend"
 	next "into fisted paws.@"
 	
+SECTION "GarganaclHerbalPokedexEntry", ROMX
+GarganaclHerbalPokedexEntry::
+	db "Rock Salt@"
+	db   "It grows new herbs"
+	next "on its shoulders"
+	next "and back to cont-"
+	page "inually refresh"
+	next "the seasoning"
+	next "in its salt."
+
+SECTION "GarganaclSmokedPokedexEntry", ROMX
+GarganaclSmokedPokedexEntry::
+	db "Rock Salt@"
+	db   "An eternal fire"
+	next "kept inside this"
+	next "form allows smoke"
+	page "to gather around"
+	next "and infuse within"
+	next "its salty body."
+
+SECTION "GarganaclXtraPokedexEntry", ROMX
+GarganaclXtraPokedexEntry::
+	db "Rock Salt@"
+	db   "The extreme lack"
+	next "of moisture makes"
+	next "it hard for this"
+	page "mon to keep from"
+	next "crumbling entire-"
+	next "ly into salt."

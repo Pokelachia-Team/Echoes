@@ -414,4 +414,8 @@ BitmasksPointers:
 
 	dw UrsalunaBloodmoonBitmasks
 
+	dw GarganaclHerbalBitmasks
+	dw GarganaclSmokedBitmasks
+	dw GarganaclXtraBitmasks
+
 	assert_table_length NUM_UNIQUE_POKEMON
