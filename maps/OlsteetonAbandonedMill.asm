@@ -79,6 +79,7 @@ BradfordBattleScript:
 	opentext
 	verbosegiveitem METAL_COAT
 	setevent EVENT_OLSTEETON_ABANDONED_MILL_METAL_COAT
+	setmapscene OLSTEETON_ROUTE_103_GATE, SCENE_OLSTEETON_ROUTE_103_GATE_NOOP
 	writetext BradfordMetalCoatText
 	waitbutton
 	closetext

@@ -21,4 +21,5 @@ MapScenes::
 	scene_var RIVERFRONT_APT_ROOF,               wRiverfrontAptRoofSceneID
 	scene_var OLSTEETON_UNI_CLASSROOM_BIO,       wOlsteetonUniClassroomBioSceneID
 	scene_var OLSTEETON_UNI_OFFICE_POPLAR,       wOlsteetonUniOfficePoplarSceneID
+	scene_var OLSTEETON_ROUTE_103_GATE,          wOlsteetonRoute103GateSceneID
 	db -1
