@@ -109,7 +109,7 @@ SalGroup:
 		tr_evs 32 HP
 	tr_mon 13, POLIWAG, MALE
 		tr_evs 32 HP
-	tr_mon 16, NACLSTACK @ PECHA_BERRY, MALE
+	tr_mon 16, NACLSTACK @ SITRUS_BERRY, MALE
 		tr_evs 32 HP
 	end_trainer
 
@@ -5310,12 +5310,10 @@ endc
 	tr_mon 55, MILTANK
 	end_trainer
 
-	def_trainer OLGA, "Olga"
-	tr_mon 50, TEDDIURSA
-	tr_mon 55, URSARING
-	tr_mon 53, FLUTTRFAWN
+	def_trainer SYLVIA, "Sylvia"
+	tr_mon 8, GROWLITHE
+	tr_mon 9, MUNCHLAX
 	end_trainer
-
 
 SECTION "CowgirlGroup", ROMX
 CowgirlGroup:
@@ -5597,11 +5595,6 @@ SwimmerMGroup:
 	def_trainer ESTEBAN, "Esteban"
 	tr_mon 58, GOLDUCK
 	tr_mon 58, POLIWRATH
-	end_trainer
-
-	def_trainer EZRA, "Ezra"
-	tr_mon 52, SEADRA
-	tr_mon 56, KINGDRA
 	end_trainer
 
 	def_trainer ASHE, "Ashe"
@@ -6586,8 +6579,8 @@ WaitressGroup:
 	end_trainer
 
 	def_trainer BEV, "Bev"
-	tr_mon 8, SINISTEA
-	tr_mon 9, ODDISH
+	tr_mon 7, SINISTEA
+	tr_mon 8, ODDISH
 	end_trainer
 
 

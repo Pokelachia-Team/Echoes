@@ -694,7 +694,7 @@ DEF BETA EQU __trainer_class__
 	const CHELSIE
 	const SHARYN
 	const MARGARET
-	const OLGA
+	const SYLVIA
 
 	trainerclass COWGIRL
 	const ANNIE
@@ -750,7 +750,6 @@ DEF BETA EQU __trainer_class__
 	const ELMO
 	const DUANE
 	const ESTEBAN
-	const EZRA
 	const ASHE ; custom pal
 
 	trainerclass SWIMMERF
@@ -946,7 +945,6 @@ DEF BETA EQU __trainer_class__
 	trainerclass SOLDIER
 
 	trainerclass WAITER
-	const DAVID
 
 	trainerclass WAITRESS
 	const TWILA

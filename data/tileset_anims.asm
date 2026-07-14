@@ -28,14 +28,14 @@ TilesetJohtoAncientAnim::
 TilesetBattleTowerOutsideAnim::
 TilesetEcruteakShrineAnim::
 TilesetFolkoraAnim::
-	tileframe AnimateWaterTile,         $0:14
-	tileframe AnimateRainTiles,         $0:1c
+	tileframe AnimateWaterTile,               $0:14
+	tileframe AnimateRainTiles,               $0:1c
 	tileframe DoNothing
-	tileframe AnimateRockTiles,         $0:60
+	tileframe AnimateRockTiles,               $0:60
 	tileframe DoNothing
 	tileframe AnimateFlowerTile,              $0:03
 	tileframe AnimateRainTiles,               $0:1c
-	tileframe AnimateWaterfallTiles,          $0:34
+	tileframe DoNothing,                      $0:34
 	tileframe StandingTileFrame8
 	tileframe DoneTileAnimation
 
