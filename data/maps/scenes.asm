@@ -22,4 +22,6 @@ MapScenes::
 	scene_var OLSTEETON_UNI_CLASSROOM_BIO,       wOlsteetonUniClassroomBioSceneID
 	scene_var OLSTEETON_UNI_OFFICE_POPLAR,       wOlsteetonUniOfficePoplarSceneID
 	scene_var OLSTEETON_ROUTE_103_GATE,          wOlsteetonRoute103GateSceneID
+	scene_var BRINESBURG,                        wBrinesburgSceneID
+	scene_var BRINESBURG_MAGIKORP_OFFICE,        wBrinesburgMagikorpOfficeSceneID
 	db -1

@@ -1203,6 +1203,8 @@ wOlsteetonAbandonedMillSceneID:: db
 wOlsteetonUniClassroomBioSceneID:: db
 wOlsteetonUniOfficePoplarSceneID:: db
 wOlsteetonRoute103GateSceneID:: db
+wBrinesburgSceneID:: db
+wBrinesburgMagikorpOfficeSceneID:: db
 
 ; fight counts
 wJackFightCount::    db
@@ -1261,7 +1263,7 @@ wNeededMonPalLight:: db ; for SPRITE_MON_ICON two-nybble palettes, stores the li
 wNeededPalType:: db ; 0 = normal palette, non-zero = mon two-nybble palette
 wLoadedObjPalType:: db ; bitmask: bit N set = slot N is a mon palette, clear = normal palette
 
-	ds 134 ; unused
+	ds 133 ; unused
 
 wCandyAmounts::
 	table_width 1
