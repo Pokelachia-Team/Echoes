@@ -27,7 +27,7 @@ BossTrainers:
 	db PIERS
 	db LARRY
 	db YELLOW
-	db WALKER
+	db GIL
 	db LAWRENCE
 	db REI
 JohtoGymLeaders:

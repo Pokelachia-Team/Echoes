@@ -418,7 +418,7 @@ DEF DAYCARELADY_ACTIVE_F         EQU 7
 	const PROF_WILLOW_JOURNAL ; Snowtop Mountain Pokémon Center
 	const STEVEN_JOURNAL ; Pewter Museum
 	const CYNTHIA_JOURNAL ; Pewter Museum (TODO: move to Goldenrod Museum)
-	const WALKER_JOURNAL ; Earl's Pokémon Academy
+	const GIL_JOURNAL ; MagiKorp HQ
 	const KIYO_JOURNAL ; Viridian schoolhouse
 	const PALMER_JOURNAL ; Battle Tower
 	const THORTON_JOURNAL ; Battle Factory

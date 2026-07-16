@@ -154,7 +154,7 @@ ENDM
 	map_const BRINESBURG_FEUD_RIGHT_HOUSE,                 4,  4 ;  13
 	map_const BRINESBURG_TRAIN_STATION,                   10,  9 ;  14
 	map_const BRINESBURG_SALT_SHOP,                        5,  5 ;  15
-	map_const BRINESBURG_MAGIKORP_OFFICE,                  6,  6 ;  16
+	map_const BRINESBURG_MAGIKORP_OFFICE,                  7,  7 ;  16
 	map_const BRINESBURG_ROUTE_105_GATE,                   5,  4 ;  17
 
 

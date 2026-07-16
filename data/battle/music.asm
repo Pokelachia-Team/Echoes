@@ -51,7 +51,7 @@ BattleMusic_Trainers:
 	db KUKUI,            MUSIC_TRAINER_BATTLE_SM ; TODO: demix SuMo boss battle music
 	db PIERS,            MUSIC_GYM_LEADER_BATTLE_SWSH
 	db LARRY,            MUSIC_GYM_LEADER_BATTLE_SWSH ; TODO: demix SV gym leader battle music
-	db WALKER,           MUSIC_JOHTO_GYM_LEADER_BATTLE
+	db GIL,              MUSIC_ZINNIA_BATTLE_ORAS
 	db LAWRENCE,         MUSIC_ZINNIA_BATTLE_ORAS
 	db -1
 

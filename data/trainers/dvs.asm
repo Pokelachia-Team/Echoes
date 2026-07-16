@@ -148,7 +148,7 @@ TrainerClassDVsAndPersonality:
 	db 192, $EE, $EE, $EE, MALE   ; victor
 	db 252, PERFECT_DVS,   MALE   ; bill
 	db 252, $EE, $EE, $EE, FEMALE ; yellow
-	db 252, $EE, $EE, $EE, MALE   ; walker
+	db 252, $EE, $EE, $EE, MALE   ; gil
 	db 192, $EE, $EE, $EE, MALE   ; imakuni
 	db 252, PERFECT_DVS,   MALE   ; lawrence
 	db 252, $EE, $EE, $EE, FEMALE ; rei

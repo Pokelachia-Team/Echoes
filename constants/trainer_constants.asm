@@ -1135,7 +1135,7 @@ DEF BETA EQU __trainer_class__
 
 	trainerclass YELLOW
 
-	trainerclass WALKER
+	trainerclass GIL
 
 	trainerclass IMAKUNI
 

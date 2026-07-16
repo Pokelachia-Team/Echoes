@@ -183,6 +183,9 @@ INCLUDE "maps/BrinesburgPokeCenter.asm"
 INCLUDE "maps/BrinesburgMart.asm"
 INCLUDE "maps/BrinesburgGym.asm"
 INCLUDE "maps/SaltBrineCave.asm"
+
+SECTION "Brinesburg Scripts 2", ROMX
+
 INCLUDE "maps/BrinesburgPollutionSpeechHouse.asm"
 INCLUDE "maps/BrinesburgNicknameSpeechHouse.asm"
 INCLUDE "maps/BrinesburgPPSpeechHouse.asm"

@@ -149,7 +149,7 @@ AcademyNotebook:
 .Done:
 	endtext
 
-PokemonJournalWalkerScript:
+PokemonJournalWalkerScript: ;PokemonJournalGilScript:
 	setflag ENGINE_READ_WALKER_JOURNAL
 	jumpthistext
 

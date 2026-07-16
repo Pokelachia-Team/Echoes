@@ -82,6 +82,8 @@ BradfordBattleScript:
 	setmapscene OLSTEETON_ROUTE_103_GATE, SCENE_OLSTEETON_ROUTE_103_GATE_NOOP
 	writetext BradfordMetalCoatText
 	waitbutton
+	setmapscene BRINESBURG_MAGIKORP_OFFICE, SCENE_BRINESBURG_MAGIKORP_OFFICE_NOOP
+	setevent EVENT_MET_GIL
 	closetext
 	end
 

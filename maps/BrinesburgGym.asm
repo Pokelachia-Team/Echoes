@@ -6,39 +6,32 @@ BrinesburgGym_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event  9,  9, BRINESBURG, 5
-	warp_event  8,  9, BRINESBURG, 5
+	warp_event 11,  9, BRINESBURG, 5
+	warp_event 10,  9, BRINESBURG, 5
 
 	def_coord_events
 
 	def_bg_events
-	bg_event 11,  9, BGEVENT_READ, BrinesburgGymStatue
-	bg_event  6,  9, BGEVENT_READ, BrinesburgGymStatue
+	bg_event 13,  9, BGEVENT_READ, BrinesburgGymStatue
+	bg_event  8,  9, BGEVENT_READ, BrinesburgGymStatue
 
 	def_object_events
-	; object_event  4, 15, SPRITE_GYM_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_DARK_CAVE_SAL
-	object_event  9,  1, SPRITE_SAL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, BrinesburgGymSalScript, -1
+	object_event 11,  1, SPRITE_SAL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, BrinesburgGymSalScript, -1
 	object_event  2,  2, SPRITE_BAKER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, 0, OBJECTTYPE_GENERICTRAINER, 0, GenericTrainerBaker_Sylvia, -1
 	object_event  2,  7, SPRITE_WAITRESS, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerWaitress_Twila, -1
-	object_event 15,  6, SPRITE_WAITRESS, SPRITEMOVEDATA_STANDING_UP, 0, 2, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerWaitress_Bev, -1
-	object_event  7,  8, SPRITE_GYM_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgGymGuyText, -1
+	object_event 14,  6, SPRITE_WAITRESS, SPRITEMOVEDATA_STANDING_UP, 0, 2, -1, 0, OBJECTTYPE_GENERICTRAINER, 3, GenericTrainerWaitress_Bev, -1
+	object_event  9,  8, SPRITE_GYM_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgGymGuyText, -1
 	object_event  4,  4, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgGymTeacherText, -1
-	object_event 16,  5, SPRITE_FAT_GUY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgGymFisher1Text, -1
-	object_event 13,  4, SPRITE_FAT_GUY, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgGymFisher2Text, -1
-	object_event 13,  3, SPRITE_FAT_GUY, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgGymFisher3Text, -1
-	; object_event 13,  2, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgGymYoungsterText, -1
-	object_event 16,  3, SPRITE_LASS, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgGymLassText, -1
+	object_event 13,  4, SPRITE_FAT_GUY, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgGymFisherText, -1
+	object_event  6,  8, SPRITE_LASS, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgGymLassText, -1
 	object_event 16,  4, SPRITE_AROMA_LADY, SPRITEMOVEDATA_STANDING_LEFT, 0, 1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgGymPickyText, -1
-	object_event  0,  6, SPRITE_POKEMANIAC, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgGymCustomerText, -1
-	object_event 12,  9, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgGymDateMText, -1
-	object_event 15,  9, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgGymDateFText, -1
-	object_event 19,  5, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgBoothSchoolBoyText, -1
-	object_event 18,  7, SPRITE_RICH_BOY, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgBoothRichBoyText, -1
-	object_event 18,  5, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgBoothCuteGirlText, -1
-	; object_event 18,  9, SPRITE_SCHOOLGIRL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptext, BrinesburgBoothSchoolGirlText, -1
+	object_event 14,  9, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgGymDateMText, -1
+	object_event 17,  9, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgGymDateFText, -1
+	object_event 18,  5, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgBoothSchoolBoyText, -1
+	object_event 19,  5, SPRITE_RICH_BOY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgBoothRichBoyText, -1
+	object_event 19,  7, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgBoothCuteGirlText, -1
 
 	object_const_def
-	; const BRINESBURG_GYM_BAKER
 	const BRINESBURG_GYM_SAL
 
 ; BrinesburgGymNoopScene
@@ -146,15 +139,19 @@ BrinesburgGymSalScript:
 	setevent EVENT_BEAT_SAL
 	opentext
 	givebadge ZEPHYRBADGE, JOHTO_REGION
+	closetext
 .FightDone:
+	opentext
 	checkevent EVENT_GOT_TM63_WATER_PULSE
 	iftrue_jumpopenedtext .SalFightDoneText
 	; setmapscene FIELD_LAB, SCENE_FIELDLAB_NOOP
 	; specialphonecall SPECIALCALL_ASSISTANT
-	showtext .SalZephyrBadgeText
+	writetext .SalZephyrBadgeText
 	promptbutton
 	verbosegivetmhm TM_WATER_PULSE
 	setevent EVENT_GOT_TM63_WATER_PULSE
+	clearevent EVENT_FOUGHT_FIELD_LAB_MAGIGOON
+	setmapscene BRINESBURG, SCENE_BRINESBURG_MAGIGOON
 	jumpthisopenedtext
 
 	text "By using a TM, a"
@@ -364,33 +361,25 @@ BrinesburgGymGuyText:
 	cont "particular theme."
 	done
 
-BrinesburgGymFisher1Text:
+BrinesburgGymFisherText:
+	text "I should get"
+	line "an appetizer..."
+
+	para "But I probably"
+	line "won't finish"
+	cont "my meal..."
+
+	para "Ugh, but I'm "
+	line "so hungry..."
+	done
+
+BrinesburgGymTeacherText:
 	text "Should I get"
 	line "the Glowing"
 
 	para "Finneon Filet or"
 	line "Stampedin' Tauros"
 	cont "Steak?"
-	done
-
-BrinesburgGymFisher2Text: ;unchanged text
-	text "I take quantity"
-	line "over quality!"
-
-	para "I'm only happy when"
-	line "I'm full!"
-	done
-
-BrinesburgGymFisher3Text:
-	text "Needs dialogue"
-	done
-
-BrinesburgGymTeacherText:
-	text "Needs dialogue"
-	done
-
-BrinesburgGymCustomerText:
-	text "Needs dialogue"
 	done
 
 BrinesburgGymPickyText:
@@ -418,40 +407,34 @@ BrinesburgGymDateFText:
 	para "What a poser..."
 	done
 
-BrinesburgBoothSchoolBoyText: ;replace with script to show the convo between all 4 in booth
-	text "Needs dialogue"
+BrinesburgBoothSchoolBoyText:
+	text "We shouldn't have"
+	line "cut class to come"
+
+	para "here. We're gonna"
+	line "get in trouble!"
 	done
 	
-BrinesburgBoothSchoolGirlText:
-	text "Needs dialogue"
-	done
-
 BrinesburgBoothRichBoyText:
-	text "Needs dialogue"
+	text "Sheesh, I wish"
+	line "this guy would"
+	cont "lighten up..."
 	done
 
 BrinesburgBoothCuteGirlText:
-	text "Needs dialogue"
-	done
+	text "..he is cuter, but"
+	line "the other one is"
+	cont "smarter..."
 
-; BrinesburgGymYoungsterText:
-; 	text "Needs dialogue"
-; 	done
+	para "Gah!"
+	line "You heard nothing!"
+	done
 
 BrinesburgGymLassText:
-	text "Needs dialogue"
+	text "Can you move?"
+	line "I'm trying to"
+
+	para "make eye contact"
+	line "with the waitress"
+	cont "to get my check."
 	done
-
-; BrinesburgGymGuySalAwayText:
-; 	text "Hey! You can't"
-; 	line "challenge Sal"
-; 	cont "right now."
-
-; 	para "He's in Dark Cave"
-; 	line "taming an Ursa-"
-
-; 	para "ring that attacked"
-; 	line "a young trainer."
-
-; 	para "Come back later."
-; 	done

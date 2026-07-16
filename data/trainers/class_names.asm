@@ -145,7 +145,7 @@ TrainerClassNames::
 	li "Surfer"           ; VICTOR
 	li "#Maniac"          ; BILL_T
 	li "<PK><MN> Trainer" ; YELLOW
-	li "Ex-Leader"        ; WALKER
+	li "MagiKorp CEO"     ; GIL
 	li "Student"          ; IMAKUNI
 	li "Collector"        ; LAWRENCE
 	li "Shrine"           ; REI
