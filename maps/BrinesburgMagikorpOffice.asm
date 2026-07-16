@@ -25,7 +25,7 @@ BrinesburgMagikorpOffice_MapScriptHeader:
 
 
 	def_object_events
-	object_event  6, 10, SPRITE_SAL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, BrinesburgMagikorpOfficeGilScript, EVENT_MET_GIL
+	object_event  6, 10, SPRITE_GIL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, BrinesburgMagikorpOfficeGilScript, EVENT_MET_GIL
 	object_event  7, 10, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_MET_GIL
 	object_event  0,  1, SPRITE_OFFICER_F, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgMagikorpOfficeOfficerText, -1
 	object_event  7,  6, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgMagikorpOfficeReceptionistText, -1

@@ -2111,7 +2111,7 @@ YellowFinalPkmnText:
 	cont "power!"
 	prompt
 
-WalkerFinalPkmnText:
+GilFinalPkmnText:
 	text "We can still fly!"
 	prompt
 

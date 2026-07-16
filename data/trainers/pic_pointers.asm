@@ -146,7 +146,7 @@ TrainerPicPointers::
 	dba VictorPic
 	dba BillPic
 	dba YellowPic
-	dba WalkerPic
+	dba GilPic
 	dba ImakuniPic
 	dba LawrencePic
 	dba ReiPic

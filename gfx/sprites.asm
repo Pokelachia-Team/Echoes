@@ -148,8 +148,8 @@ AgathaSpriteGFX:: INCBIN "gfx/sprites/agatha.2bpp.lzp"
 SECTION "PalmerSpriteGFX", ROMX
 PalmerSpriteGFX:: INCBIN "gfx/sprites/palmer.2bpp.lzp"
 
-SECTION "WalkerSpriteGFX", ROMX
-WalkerSpriteGFX:: INCBIN "gfx/sprites/walker.2bpp.lzp"
+SECTION "GilSpriteGFX", ROMX
+GilSpriteGFX:: INCBIN "gfx/sprites/gil.2bpp.lzp"
 
 SECTION "ImakuniSpriteGFX", ROMX
 ImakuniSpriteGFX:: INCBIN "gfx/sprites/imakuni.2bpp.lzp"

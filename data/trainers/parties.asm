@@ -9137,11 +9137,11 @@ YellowGroup:
 	end_trainer
 
 
-SECTION "WalkerGroup", ROMX
-WalkerGroup:
+SECTION "GilGroup", ROMX
+GilGroup:
 
-	def_trainer_class WALKER
-	def_trainer 1, "Walker"
+	def_trainer_class GIL
+	def_trainer 1, "Gil"
 	tr_mon LEVEL_FROM_BADGES + 5, NOCTOWL, MALE
 		tr_extra INSOMNIA
 		tr_evs 184 Spe
@@ -9160,7 +9160,7 @@ WalkerGroup:
 		tr_moves METAL_CLAW, FURY_STRIKES, DRILL_PECK, SWIFT
 	end_trainer
 
-	def_trainer 2, "Walker"
+	def_trainer 2, "Gil"
 	tr_mon 75, SKARMORY @ ROCKY_HELMET, MALE
 		tr_extra STURDY, DEF_UP_SATK_DOWN
 		tr_evs 252 HP, 4 SDf, 252 Def

@@ -1682,8 +1682,8 @@
 	const EVENT_BEAT_POKEMANIAC_BILL
 ; Yellow
 	const EVENT_BEAT_YELLOW
-; Walker
-	const EVENT_BEAT_WALKER
+; Gil
+	const EVENT_BEAT_GIL
 ; Imakuni
 	const EVENT_BEAT_IMAKUNI
 ; Lawrence

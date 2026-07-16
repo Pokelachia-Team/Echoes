@@ -148,7 +148,7 @@ TrainerGroups:
 	dba VictorGroup
 	dba BillGroup
 	dba YellowGroup
-	dba WalkerGroup
+	dba GilGroup
 	dba ImakuniGroup
 	dba LawrenceGroup
 	dba ReiGroup

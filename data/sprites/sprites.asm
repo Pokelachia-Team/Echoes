@@ -55,7 +55,7 @@ SpriteHeaders:
 	overworld_sprite LoreleiSpriteGFX, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite AgathaSpriteGFX, WALKING_SPRITE, PAL_OW_BROWN
 	overworld_sprite PalmerSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN
-	overworld_sprite WalkerSpriteGFX, WALKING_SPRITE, PAL_OW_BLUE
+	overworld_sprite GilSpriteGFX, WALKING_SPRITE, PAL_OW_BLUE
 	overworld_sprite ImakuniSpriteGFX, WALKING_SPRITE, PAL_OW_BLACK
 	overworld_sprite LawrenceSpriteGFX, WALKING_SPRITE, PAL_OW_GREEN
 	overworld_sprite JamesSpriteGFX, WALKING_SPRITE, PAL_OW_BLUE

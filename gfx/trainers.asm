@@ -434,8 +434,8 @@ BillPic: INCBIN "gfx/trainers/bill.2bpp.lzp"
 SECTION "YellowPic", ROMX
 YellowPic: INCBIN "gfx/trainers/yellow.2bpp.lzp"
 
-SECTION "WalkerPic", ROMX
-WalkerPic: INCBIN "gfx/trainers/walker.2bpp.lzp"
+SECTION "GilPic", ROMX
+GilPic: INCBIN "gfx/trainers/gil.2bpp.lzp"
 
 SECTION "ImakuniPic", ROMX
 ImakuniPic: INCBIN "gfx/trainers/imakuni.2bpp.lzp"

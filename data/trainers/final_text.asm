@@ -119,7 +119,7 @@ FinalText_SinglePhrases:
 	dw NULL ; Victor
 	dw BillFinalPkmnText
 	dw YellowFinalPkmnText
-	dw WalkerFinalPkmnText
+	dw GilFinalPkmnText
 	dw ImakuniFinalPkmnText
 	dw LawrenceFinalPkmnText
 	dw ReiFinalPkmnText

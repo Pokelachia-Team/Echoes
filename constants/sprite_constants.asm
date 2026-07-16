@@ -50,7 +50,7 @@
 	const SPRITE_LORELEI ; 2e
 	const SPRITE_AGATHA ; 2f
 	const SPRITE_PALMER ; 30
-	const SPRITE_WALKER ; 31
+	const SPRITE_GIL ; 31
 	const SPRITE_IMAKUNI ; 32
 	const SPRITE_LAWRENCE ; 33
 	const SPRITE_JAMES ; 34
