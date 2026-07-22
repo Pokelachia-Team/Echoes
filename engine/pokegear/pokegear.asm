@@ -1158,7 +1158,7 @@ NoRadioName:
 	ld bc, $412
 	jmp Textbox
 
-OaksPkmnTalkName:     db "Oak's <PK><MN> Talk@"
+OaksPkmnTalkName:     db "Poplar's <PK><MN> Talk@"
 PokemonMusicName:     db "#mon Music@"
 LuckyChannelName:     db "Lucky Channel@"
 UnknownStationName:   db "?????@"

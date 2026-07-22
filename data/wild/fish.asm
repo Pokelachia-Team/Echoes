@@ -38,19 +38,19 @@ MACRO fishentry
 ENDM
 
 .Shore_Old:
-	fishentry  70 percent + 1, MAGIKARP,   10
-	fishentry  85 percent + 1, MAGIKARP,   10
-	fishentry 100 percent,     CORPHISH,     10
+	fishentry  70 percent + 1, MAGIKARP,   5
+	fishentry  85 percent + 1, MAGIKARP,   5
+	fishentry 100 percent,     CORPHISH,   5
 .Shore_Good:
 	fishentry  35 percent,     MAGIKARP,   20
-	fishentry  70 percent,     CORPHISH,     20
-	fishentry  90 percent + 1, CORPHISH,     20
-	fishentry 100 percent,     0,          20 ; corsola morn/day, staryu eve/night
+	fishentry  70 percent,     CORPHISH,   20
+	fishentry  90 percent + 1, GOLDEEN,    20
+	fishentry 100 percent,     CORPHISH,   20
 .Shore_Super:
-	fishentry  40 percent,     CORPHISH,     40
-	fishentry  70 percent,     0,          40 ; corsola morn/day, staryu eve/night
-	fishentry  90 percent + 1, CORPHISH,     40
-	fishentry 100 percent,     CRAWDAUNT,    40
+	fishentry  40 percent,     CORPHISH,    40
+	fishentry  70 percent,     GOLDEEN,     40 
+	fishentry  90 percent + 1, SEAKING,     40
+	fishentry 100 percent,     CRAWDAUNT,   40
 
 .Ocean_Old:
 	fishentry  70 percent + 1, MAGIKARP,   10
@@ -70,9 +70,9 @@ ENDM
 .Lake_Old:
 .River_Old:
 .Well_Old:
-	fishentry  70 percent + 1, MAGIKARP,   10
-	fishentry  85 percent + 1, CORPHISH,   10
-	fishentry 100 percent,     GOLDEEN,    10
+	fishentry  70 percent + 1, MAGIKARP,   5
+	fishentry  85 percent + 1, CORPHISH,   5
+	fishentry 100 percent,     GOLDEEN,    5
 .Lake_Good:
 .River_Good:
 .Well_Good:
@@ -94,9 +94,9 @@ ENDM
 	fishentry 100 percent,     SEAKING,    40
 
 .Pond_Old:
-	fishentry  70 percent + 1, MAGIKARP,   10
-	fishentry  85 percent + 1, MAGIKARP,   10
-	fishentry 100 percent,     POLIWAG,    10
+	fishentry  70 percent + 1, MAGIKARP,   5
+	fishentry  85 percent + 1, POLIWAG,    5
+	fishentry 100 percent,     POLIWAG,    5
 .Pond_Good:
 	fishentry  35 percent,     MAGIKARP,   20
 	fishentry  70 percent,     POLIWAG,    20

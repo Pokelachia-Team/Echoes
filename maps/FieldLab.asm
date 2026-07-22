@@ -50,6 +50,8 @@ FieldLab_MapScriptHeader:
 	object_event  8,  1, SPRITE_BALL_CUT_TREE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_ENV_GREEN, OBJECTTYPE_SCRIPT, 0, CupicoPokeBallScript, EVENT_CUPICO_POKEBALL_IN_FIELD_LAB
 	object_event 14,  1, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_FOUGHT_FIELD_LAB_MAGIGOON
 	object_event 12,  1, SPRITE_SCIENTIST, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, FieldLabFellowText, EVENT_GOT_POKEDEX_FROM_POPLAR
+	pokemon_event 5,  3, TIDIPOSS, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_BROWN, FieldLabTidipossText, -1
+
 
 
 	object_const_def
@@ -109,7 +111,7 @@ if !DEF(DEBUG)
 	playsound SFX_GLASS_TING
 	pause 30
 	showemote EMOTE_SHOCK, FIELDLAB_PAWPAW, 10
-	turnobject FIELDLAB_PAWPAW, DOWN
+	turnobject FIELDLAB_PAWPAW, UP
 	showtext PawpawText_GotAnEmail
 	opentext
 	turnobject FIELDLAB_PAWPAW, RIGHT
@@ -117,10 +119,8 @@ if !DEF(DEBUG)
 	waitbutton
 endc
 	closetext
-	applyonemovement FIELDLAB_PAWPAW, step_up
-	turnobject PLAYER, UP
 	applymovement FIELDLAB_PAWPAW, FieldLab_PawpawToDefaultPositionMovement
-	turnobject PLAYER, RIGHT
+	turnobject PLAYER, UP
 	showtext PawpawText_ChooseAPokemon
 	setevent EVENT_CHOOSE_POKEMON
 	setevent EVENT_GOT_DOSSIER_FROM_POPLAR ; set here and cleared in office so there arent 2 poplars existing simultaneously
@@ -129,7 +129,7 @@ endc
 
 ProfPawpawScript:
 	opentext
-	checkevent EVENT_FOUGHT_FIELD_LAB_MAGIGOON
+	checkevent EVENT_GOT_POKEDEX_FROM_POPLAR
 	iftrue_jumpopenedtext PawpawDetailsText
 	checkevent EVENT_GOT_A_POKEMON_FROM_PAWPAW
 	iftrue_jumpopenedtext PawpawDescribesPoplarText
@@ -1383,4 +1383,8 @@ PawpawDetailsText:
 	text "I'll call you"
 	line "with details soon,"
 	cont "<PLAYER>."
+	done
+
+FieldLabTidipossText:
+	text "Tidiposs: Possss"
 	done

@@ -43,5 +43,5 @@ Route102OlsteetonGateYoungsterText:
 	done
 
 OlsteetonGateNoctowlText:
-	text "Hoooo?"
+	text "Noctowl: Hoooo?"
 	done

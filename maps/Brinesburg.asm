@@ -19,8 +19,8 @@ Brinesburg_MapScriptHeader:
 	warp_event 27,  3, BRINESBURG_DEBRITE_TRADE_HOUSE, 1
 	warp_event  9,  3, BRINESBURG_FEUD_LEFT_HOUSE, 1
 	warp_event 19,  3, BRINESBURG_FEUD_RIGHT_HOUSE, 1
-	warp_event  6, 12, BRINESBURG_TRAIN_STATION, 1
-	warp_event  6, 13, BRINESBURG_TRAIN_STATION, 2
+	warp_event  4, 12, BRINESBURG_TRAIN_STATION, 1
+	warp_event  4, 13, BRINESBURG_TRAIN_STATION, 2
 	warp_event 47, 13, BRINESBURG_SALT_SHOP, 1
 	warp_event 55, 21, BRINESBURG_MAGIKORP_OFFICE, 2
 	warp_event 55, 30, BRINESBURG_ROUTE_105_GATE, 1
@@ -34,7 +34,7 @@ Brinesburg_MapScriptHeader:
 	def_bg_events
 	bg_event 19, 26, BGEVENT_JUMPTEXT, BrinesburgSignText
 	bg_event 38, 19, BGEVENT_JUMPTEXT, BrinesburgGymSignText
-	bg_event 44, 14, BGEVENT_JUMPTEXT, SaltShopSignText
+	bg_event 46, 14, BGEVENT_JUMPTEXT, SaltShopSignText
 	bg_event 56,  4, BGEVENT_JUMPTEXT, BrinesburgSaltBrineCaveSignText
 	bg_event 48,  1, BGEVENT_JUMPTEXT, BrinesburgRoute104SignText
 	bg_event  6, 27, BGEVENT_JUMPTEXT, BrinesburgGateSignText
@@ -42,8 +42,8 @@ Brinesburg_MapScriptHeader:
 	bg_event 33, 30, BGEVENT_JUMPTEXT, BrinesburgPotholeText
 	bg_event 23,  8, BGEVENT_JUMPTEXT, BrinesburgPotholeText
 	bg_event 51,  8, BGEVENT_JUMPTEXT, BrinesburgPotholeText
-	bg_event 53, 16, BGEVENT_JUMPTEXT, BrinesburgPotholeText
-	bg_event  7, 11, BGEVENT_JUMPTEXT, BrinesburgTrainStationSignText
+	bg_event 55, 14, BGEVENT_JUMPTEXT, BrinesburgPotholeText
+	bg_event  5, 11, BGEVENT_JUMPTEXT, BrinesburgTrainStationSignText
 	bg_event 39, 17, BGEVENT_JUMPTEXT, BrinesburgAdvancedTipsSignText
 	bg_event 55, 29, BGEVENT_JUMPTEXT, BrinesburgRoute105SignText
 	bg_event 22, 33, BGEVENT_JUMPTEXT, BrinesburgGrandOpeningText

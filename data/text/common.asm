@@ -2780,7 +2780,7 @@ _PokecenterPlayersPCText::
 
 SECTION "_PokecenterOaksPCText", ROMX
 _PokecenterOaksPCText::
-	text "Prof.Oak's PC"
+	text "Prof. Poplar's PC"
 	line "accessed."
 
 	para "#dex Rating"
@@ -2813,7 +2813,7 @@ _OakPCText3::
 	text_decimal wTempDexOwn, 2, 3
 	text " #mon owned"
 
-	para "Prof.Oak's"
+	para "Prof.Poplar's"
 	line "Rating:"
 	done
 
@@ -2978,7 +2978,7 @@ _OakRating19::
 SECTION "_OakPCText4", ROMX
 _OakPCText4::
 	text "The link to Prof."
-	line "Oak's PC closed."
+	line "Poplar's PC closed."
 	done
 
 SECTION "_MemoryGameYeahText", ROMX

@@ -41,9 +41,9 @@ FakeBattleTrigger1:
 	showemote EMOTE_SHOCK, ROUTE101_GRANNY, 15
 	turnobject PLAYER, UP
 	showtext Text_GrannyFakeBattle
+	special RestartMapMusic
 	setevent EVENT_FAKE_BATTLE
 	setscene SCENE_ROUTE101_NOOP
-	special RestartMapMusic
 	end
 
 FakeBattleTrigger2:
@@ -52,9 +52,9 @@ FakeBattleTrigger2:
 	turnobject PLAYER, UP
 	applymovement ROUTE101_GRANNY, .granny_steps
 	showtext Text_GrannyFakeBattle
+	special RestartMapMusic
 	setevent EVENT_FAKE_BATTLE
 	setscene SCENE_ROUTE101_NOOP
-	special RestartMapMusic
 	end
 
 .granny_steps

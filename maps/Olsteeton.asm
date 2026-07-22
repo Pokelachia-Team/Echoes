@@ -59,7 +59,7 @@ Olsteeton_MapScriptHeader:
 	object_event 12, 22, SPRITE_POKEFAN_F, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonTeacher1Text, -1
 	object_event 27, 27, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonGramps1Text, -1
 	object_event 25, 18, SPRITE_GRAMPS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonGramps2Text, -1
-	object_event 23,  5, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonYoungster1Text, -1
+	object_event 28,  6, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonYoungster1Text, -1
 	object_event  8, 35, SPRITE_CAMPER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonYoungster2Text, -1
 	object_event 20, 30, SPRITE_TEACHER, SPRITEMOVEDATA_WANDER, 2, 2, -1, 0, OBJECTTYPE_SCRIPT, 0, OlsteetonPsyduckLadyScript, EVENT_GOT_TM54_FALSE_SWIPE
 	object_event 26, 36, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonLassText_PCC, -1
@@ -112,7 +112,7 @@ OlsteetonRustyScript:
 	opentext
 	checkevent EVENT_BEAT_RUSTY_CHECK
 	iftrue_jumpopenedtext OlsteetonRustyCrewText
-	checkevent EVENT_FOUGHT_FIELD_LAB_MAGIGOON
+	checkevent EVENT_GAVE_DOSSIER_TO_PAWPAW
 	iftruefwd .RustyBattleCheck
 	jumpopenedtext OlsteetonRustyText1
 	end

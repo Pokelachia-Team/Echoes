@@ -4,7 +4,7 @@ RiverfrontApt5F_MapScriptHeader:
 	def_callbacks
 
 	def_warp_events
-	warp_event 13,  2, RIVERFRONT_APT_4F, 2
+	warp_event 12,  2, RIVERFRONT_APT_4F, 2
 	warp_event 14,  3, RIVERFRONT_APT_ROOF, 1
 	warp_event  7,  1, RIVERFRONT_APT_ELEVATOR, 1
 

@@ -387,7 +387,7 @@ PlayerHouse2FTVScript:
 	line "TV: An armor clad"
 
 	para "knight rides a"
-	line "Pyroboros into"
+	line "Charizard into"
 	cont "battle..."
 
 	para "I'd better go"
