@@ -38,8 +38,8 @@ OlsteetonUniScienceCenterSchoolgirlText:
 	done
 	
 OlsteetonUniScienceCenterNurseText:
-	text "#mon Nursing"
-	line "Department"
+	text "#mon"
+	line "Nursing Dept."
 	done
 
 OlsteetonUniScienceCenterBookshelf1Text:
@@ -57,5 +57,6 @@ OlsteetonUniScienceCenterComputer:
 	done
 
 OlsteetonUniScienceCenterLabText:
-	text "Aquatic Lab"
+	text "Aquatic #mon"
+	line "Research Lab"
 	done

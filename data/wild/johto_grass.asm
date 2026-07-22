@@ -1,4 +1,5 @@
 ; Folkora Pokémon in grass
+
 	def_grass_wildmons ROUTE_101
 	db 10 percent ;encounter rate
 	; morn
@@ -138,7 +139,7 @@
 	db -1 ; end
 
 	def_grass_wildmons OLSTEETON_UNI
-	db 4 percent ; encounter rate
+	db 6 percent ; encounter rate
 	wildmon 2, KOFFING
 	wildmon 2, KOFFING
 	wildmon 3, MEOWTH, FOLKORAN_FORM
@@ -164,7 +165,7 @@
 	wildmon 5, DOOZEE
 	end_grass_wildmons
 
-def_grass_wildmons OLSTEETON_ABANDONED_MILL_OUTSIDE
+	def_grass_wildmons OLSTEETON_ABANDONED_MILL_OUTSIDE
 	db 10 percent ; encounter rate
 	wildmon 3, DEBRITE
 	wildmon 3, MEOWTH, GALARIAN_FORM
@@ -172,7 +173,7 @@ def_grass_wildmons OLSTEETON_ABANDONED_MILL_OUTSIDE
 	wildmon 4, MEOWTH, GALARIAN_FORM
 	wildmon 4, RATTATA, ALOLAN_FORM
 	wildmon 5, SLUGMA
-	wildmon 6, SKARMORY
+	wildmon 6, MAGNEMITE
 	; day
 	wildmon 3, DEBRITE
 	wildmon 3, SLUGMA
@@ -184,7 +185,7 @@ def_grass_wildmons OLSTEETON_ABANDONED_MILL_OUTSIDE
 	; nite
 	wildmon 3, DEBRITE
 	wildmon 3, MEOWTH, GALARIAN_FORM
-	wildmon 3, SLUGMA
+	wildmon 3, MAGNEMITE
 	wildmon 4, RATTATA, ALOLAN_FORM
 	wildmon 4, DEBRITE
 	wildmon 5, MEOWTH, GALARIAN_FORM
@@ -220,7 +221,7 @@ def_grass_wildmons OLSTEETON_ABANDONED_MILL_OUTSIDE
 	end_grass_wildmons
 
 	def_grass_wildmons SALT_BRINE_CAVE
-	db 4 percent ; encounter rate
+	db 6 percent ; encounter rate
 	; morn
 	wildmon 6, NACLI
 	wildmon 7, NACLI

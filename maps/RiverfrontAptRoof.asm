@@ -36,9 +36,9 @@ RiverfrontAptRoofNoopScene:
 AptRoofPsyduckScript:
 	faceplayer
 	opentext
+	cry PSYDUCK
 	checkevent EVENT_GOT_TM54_FALSE_SWIPE
 	iftrue_jumpopenedtext RiverfrontAptRoofPsyduckText
-	cry PSYDUCK
 	pause 15
 	showtext RiverfrontAptRoofPsyduckText
 	showemote EMOTE_QUESTION, PLAYER, 15
