@@ -707,7 +707,7 @@ CheckMoveSpeed::
 	ldh [hBattleTurn], a
 	ld a, d ; +1/+2: player, -1/-2: enemy, 0: both/neither
 	and a
-	jr z, CheckSpeed
+	jp z, CheckSpeed
 	dec a
 	ret z
 	dec a
