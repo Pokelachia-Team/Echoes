@@ -900,6 +900,26 @@ AnimateTorchTile:
 
 	jmp WriteTileHLToDE
 
+AnimateLampLightTiles:
+	ld a, [wTimeOfDayPal]
+	and 3
+	cp NITE
+	assert EVE > NITE
+	ret c
+
+	ld hl, sp + 0
+	ld b, h
+	ld c, l
+
+	ldh a, [hVBlankCounter]
+	and %10
+	ld hl, vTiles2 tile $66
+	jmp z, WriteTileHLToDE
+	assert HIGH(vTiles2 tile $66) == HIGH(vTiles2 tile $67)
+	ld l, LOW(vTiles2 tile $67)
+
+	jmp WriteTileHLToDE
+
 AnimateJudgeMachineTiles:
 	ld hl, sp + 0
 	ld b, h
