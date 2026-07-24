@@ -43,9 +43,9 @@
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 2a
 	tilecoll TOP_WALL, TOP_WALL, FLOOR, FLOOR ; 2b
 	tilecoll WALL, WALL, WALL, WALL ; 2c
-	tilecoll FLOOR, WALL, BOTTOM_WALL, WALL ; 2d
-	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 2e
-	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 2f
+	tilecoll FLOOR, WALL, WALL, WALL ; 2d
+	tilecoll FLOOR, FLOOR, FLOOR, WALL ; 2e
+	tilecoll WALL, FLOOR, FLOOR, FLOOR ; 2f
 	tilecoll BUOY, BUOY, BUOY, WATER ; 30
 	tilecoll BUOY, BUOY, WATER, WATER ; 31
 	tilecoll BUOY, BUOY, WATER, BUOY ; 32

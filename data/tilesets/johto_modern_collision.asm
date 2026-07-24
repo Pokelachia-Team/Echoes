@@ -222,7 +222,7 @@
 	tilecoll WATER, WATER, WATER, WATER ; dd
 	tilecoll WATER, WATER, WATER, WATER ; de
 	tilecoll WATER, WATER, WATER, WATER ; df
-	tilecoll WATER, WATER, COAST_SAND, COAST_SAND ; e0
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; e0
 	tilecoll FLOOR, FLOOR, FLOOR, WALL ; e1
 	tilecoll WATER, WATER, WATER, WATER ; e2
 	tilecoll WATER, WATER, WATER, WATER ; e3
