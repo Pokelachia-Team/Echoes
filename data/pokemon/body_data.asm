@@ -96,8 +96,8 @@ PokemonBodyData:
 	body_data  17, 1200, FINS,         WHITE  ; DEWGONG
 	body_data   9,  300, HEAD_ARMS,    PURPLE ; GRIMER
 	body_data  12,  300, HEAD_ARMS,    PURPLE ; MUK
-	body_data   3,   40, HEAD,         PURPLE ; SHELLDER
-	body_data  15, 1325, HEAD,         PURPLE ; CLOYSTER
+	body_data   6,   50, BIPEDAL_TAIL, BROWN  ; NIBLAX 
+	body_data  14,  110, BIPEDAL_TAIL, BROWN  ; CHOMPSAW 
 	body_data  13,    1, HEAD,         PURPLE ; GASTLY
 	body_data  16,    1, HEAD_ARMS,    PURPLE ; HAUNTER
 	body_data  15,  405, BIPEDAL_TAIL, PURPLE ; GENGAR

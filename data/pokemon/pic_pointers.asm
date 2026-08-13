@@ -93,8 +93,8 @@ PokemonPicPointers::
 	pics Dewgong
 	pics GrimerPlain
 	pics MukPlain
-	pics Shellder
-	pics Cloyster
+	pics Niblax
+	pics Chompsaw 
 	pics Gastly
 	pics Haunter
 	pics Gengar

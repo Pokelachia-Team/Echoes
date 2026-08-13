@@ -89,8 +89,8 @@ AnimationExtraPointers:
 	dw DewgongAnimationExtra
 	dw GrimerPlainAnimationExtra
 	dw MukPlainAnimationExtra
-	dw ShellderAnimationExtra
-	dw CloysterAnimationExtra
+	dw NiblaxAnimationExtra
+	dw ChompsawAnimationExtra
 	dw GastlyAnimationExtra
 	dw HaunterAnimationExtra
 	dw GengarAnimationExtra

@@ -328,15 +328,15 @@ DewgongFrontpic: INCBIN "gfx/pokemon/dewgong/front.animated.2bpp.lzp"
 DewgongBackpic:  INCBIN "gfx/pokemon/dewgong/back.2bpp.lzp"
 DewgongFrames:   INCLUDE "gfx/pokemon/dewgong/frames.asm"
 
-SECTION "Shellder Pics", ROMX
-ShellderFrontpic: INCBIN "gfx/pokemon/shellder/front.animated.2bpp.lzp"
-ShellderBackpic:  INCBIN "gfx/pokemon/shellder/back.2bpp.lzp"
-ShellderFrames:   INCLUDE "gfx/pokemon/shellder/frames.asm"
+SECTION "Niblax Pics", ROMX
+NiblaxFrontpic:     INCBIN "gfx/pokemon/niblax/front.animated.2bpp.lzp"
+NiblaxBackpic:      INCBIN "gfx/pokemon/niblax/back.2bpp.lzp"
+NiblaxFrames:       INCLUDE "gfx/pokemon/niblax/frames.asm"
 
-SECTION "Cloyster Pics", ROMX
-CloysterFrontpic: INCBIN "gfx/pokemon/cloyster/front.animated.2bpp.lzp"
-CloysterBackpic:  INCBIN "gfx/pokemon/cloyster/back.2bpp.lzp"
-CloysterFrames:   INCLUDE "gfx/pokemon/cloyster/frames.asm"
+SECTION "Chompsaw Pics", ROMX
+ChompsawFrontpic:       INCBIN "gfx/pokemon/chompsaw/front.animated.2bpp.lzp"
+ChompsawBackpic:        INCBIN "gfx/pokemon/chompsaw/back.2bpp.lzp"
+ChompsawFrames:         INCLUDE "gfx/pokemon/chompsaw/frames.asm"
 
 SECTION "Gastly Pics", ROMX
 GastlyFrontpic: INCBIN "gfx/pokemon/gastly/front.animated.2bpp.lzp"

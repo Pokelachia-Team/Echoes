@@ -112,8 +112,8 @@
 	const DEWGONG    ; 57
 	const GRIMER     ; 58
 	const MUK        ; 59
-	const SHELLDER   ; 5a
-	const CLOYSTER   ; 5b
+	const NIBLAX	 ; 5a
+	const CHOMPSAW	 ; 5b
 	const GASTLY     ; 5c
 	const HAUNTER    ; 5d
 	const GENGAR     ; 5e
@@ -319,7 +319,7 @@
 	const DEBRITE	 ; 126
 	const CASTORCH	 ; 127
 	const WAMPURR	 ; 128
-DEF NUM_SPECIES EQU const_value - 1 ; 123
+DEF NUM_SPECIES EQU const_value - 1 ; 128
 DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121
 
 DEF CANCEL EQU -1

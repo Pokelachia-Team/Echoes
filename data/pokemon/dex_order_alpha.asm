@@ -28,11 +28,11 @@ AlphabeticalPokedexOrder:
 	dp FLUTTRFAWN
 	dp CHIKORITA
 	dp DUCKLETT
+	dp CHOMPSAW 
 	dp CLEFABLE
 	dp CLEFAIRY
 	dp CLEFFA
 	dp CLODSIRE
-	dp CLOYSTER
 	dp CONIFURY
 	dp CORPHISH
 	dp CORSOLA
@@ -165,6 +165,7 @@ AlphabeticalPokedexOrder:
 	dp MUNCHLAX
 	dp MURKROW
 	dp NATU
+	dp NIBLAX 
 	dp NIDOKING
 	dp NIDOQUEEN
 	dp NIDORAN_F
@@ -228,7 +229,6 @@ AlphabeticalPokedexOrder:
 	dp SEAKING
 	dp SEEL
 	dp TIDIPOSS
-	dp SHELLDER
 	dp DOOZEE
 	dp SINISTEA
 	dp SIRFETCH_D

@@ -89,8 +89,8 @@ BitmasksPointers:
 	dw DewgongBitmasks
 	dw GrimerPlainBitmasks
 	dw MukPlainBitmasks
-	dw ShellderBitmasks
-	dw CloysterBitmasks
+	dw NiblaxBitmasks
+	dw ChompsawBitmasks
 	dw GastlyBitmasks
 	dw HaunterBitmasks
 	dw GengarBitmasks

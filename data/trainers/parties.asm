@@ -425,10 +425,10 @@ PryceGroup:
 		tr_extra INNER_FOCUS
 		tr_evs 224 Atk
 		tr_moves SWORDS_DANCE, ICICLE_CRASH, SCREECH, SLASH
-	tr_mon 38, CLOYSTER, MALE
-		tr_extra SHELL_ARMOR
-		tr_evs 224 HP
-		tr_moves DEFENSE_CURL, SUPERSONIC, WATER_PULSE, ICE_SHARD
+	; tr_mon 38, CLOYSTER, MALE tba
+		; tr_extra SHELL_ARMOR
+		; tr_evs 224 HP
+		; tr_moves DEFENSE_CURL, SUPERSONIC, WATER_PULSE, ICE_SHARD
 	tr_mon 40, LAPRAS, MALE
 		tr_extra WATER_ABSORB
 		tr_evs 224 HP
@@ -444,10 +444,10 @@ PryceGroup:
 		tr_extra SNOW_WARNING, SPE_UP_ATK_DOWN
 		tr_evs 252 SAt, 4 Def, 252 Spe
 		tr_moves BLIZZARD, MOONBLAST, DARK_PULSE, NASTY_PLOT
-	tr_mon 73, CLOYSTER @ WHITE_HERB, MALE
-		tr_extra SKILL_LINK, SPE_UP_SDEF_DOWN
-		tr_evs 252 Atk, 4 SAt, 252 Spe
-		tr_moves SHELL_SMASH, ICICLE_SPEAR, ROCK_BLAST, SURF
+	; tr_mon 73, CLOYSTER @ WHITE_HERB, MALE tba
+		; tr_extra SKILL_LINK, SPE_UP_SDEF_DOWN
+		; tr_evs 252 Atk, 4 SAt, 252 Spe
+		; tr_moves SHELL_SMASH, ICICLE_SPEAR, ROCK_BLAST, SURF
 	tr_mon 72, WEAVILE @ LIFE_ORB, MALE
 if DEF(FAITHFUL)
 		tr_extra PRESSURE, SPE_UP_SATK_DOWN
@@ -2917,7 +2917,7 @@ FisherGroup:
 	end_trainer
 
 	def_trainer ARNOLD, "Arnold"
-	tr_mon 62, CLOYSTER
+	tr_mon 62, MAGIKARP
 	end_trainer
 
 	def_trainer KYLE, "Kyle"
@@ -2962,10 +2962,9 @@ FisherGroup:
 	end_trainer
 
 	def_trainer JONAH, "Jonah"
-	tr_mon 44, SHELLDER
 	tr_mon 46, OCTILLERY
 	tr_mon 44, REMORAID
-	tr_mon 46, CLOYSTER
+	; tr_mon 46, CLOYSTER tba
 	end_trainer
 
 	def_trainer MARTIN, "Martin"
@@ -5085,13 +5084,13 @@ CoupleGroup:
 	end_trainer
 
 	def_trainer DUFFANDEDA1, "Duff & Eda"
-	tr_mon LEVEL_FROM_BADGES + 2, CLOYSTER, FEMALE
+	; tr_mon LEVEL_FROM_BADGES + 2, CLOYSTER, FEMALE tba
 	tr_mon LEVEL_FROM_BADGES + 2, ONIX, MALE
 	end_trainer
 
 	def_trainer DUFFANDEDA2, "Duff & Eda"
 	tr_mon LEVEL_FROM_BADGES + 2, ONIX, MALE
-	tr_mon LEVEL_FROM_BADGES + 2, CLOYSTER, FEMALE
+	; tr_mon LEVEL_FROM_BADGES + 2, CLOYSTER, FEMALE tba
 	end_trainer
 
 	def_trainer FOXANDRAE1, "Fox & Rae"
@@ -5448,13 +5447,13 @@ SwimmerMGroup:
 	end_trainer
 
 	def_trainer RANDALL, "Randall"
-	tr_mon 18, SHELLDER
+	; tr_mon 18, SHELLDER tba
 	tr_mon 20, RIVEBLOK
-	tr_mon 18, SHELLDER
+	; tr_mon 18, SHELLDER tba
 	end_trainer
 
 	def_trainer CHARLIE, "Charlie"
-	tr_mon 21, SHELLDER
+	; tr_mon 21, SHELLDER tba
 	tr_mon 19, TENTACOOL
 	tr_mon 19, TENTACRUEL
 	end_trainer
@@ -5495,8 +5494,8 @@ SwimmerMGroup:
 	end_trainer
 
 	def_trainer TUCKER, "Tucker"
-	tr_mon 59, SHELLDER
-	tr_mon 61, CLOYSTER
+	; tr_mon 59, SHELLDER tba
+	tr_mon 61, MAGIKARP
 	end_trainer
 
 	def_trainer RICK, "Rick"
@@ -5562,14 +5561,14 @@ SwimmerMGroup:
 	end_trainer
 
 	def_trainer MALCOLM, "Malcolm"
-	tr_mon 54, CLOYSTER
+	; tr_mon 54, CLOYSTER tba
 	tr_mon 55, DEWGONG
-	tr_mon 54, CLOYSTER
+	; tr_mon 54, CLOYSTER tba
 	end_trainer
 
 	def_trainer ARMAND, "Armand"
 	tr_mon 55, CRAWDAUNT
-	tr_mon 55, CLOYSTER
+	; tr_mon 55, CLOYSTER tba
 	end_trainer
 
 	def_trainer THOMAS, "Thomas"
@@ -5613,7 +5612,7 @@ SwimmerFGroup:
 
 	def_trainer PAULA, "Paula"
 	tr_mon 19, STARYU
-	tr_mon 19, SHELLDER
+	; tr_mon 19, SHELLDER tba
 	end_trainer
 
 	def_trainer KAYLEE, "Kaylee"
@@ -5680,7 +5679,7 @@ SwimmerFGroup:
 	end_trainer
 
 	def_trainer VIOLA, "Viola"
-	tr_mon 58, CLOYSTER
+	tr_mon 58, MAGIKARP
 	end_trainer
 
 	def_trainer KATIE, "Lisa" ; MISMATCH
@@ -5921,13 +5920,13 @@ BoarderGroup:
 	end_trainer
 
 	def_trainer DOUGLAS, "Douglas"
-	tr_mon 33, SHELLDER
-	tr_mon 35, CLOYSTER
-	tr_mon 33, SHELLDER
+	; tr_mon 33, SHELLDER tba
+	tr_mon 35, MAGIKARP
+	; tr_mon 33, SHELLDER tba
 	end_trainer
 
 	def_trainer SHAUN, "Shaun"
-	tr_mon 65, CLOYSTER
+	; tr_mon 65, CLOYSTER tba
 	tr_mon 60, DEWGONG
 	end_trainer
 
@@ -6953,8 +6952,8 @@ endc
 	end_trainer
 
 	def_trainer KATE, "Kate"
-	tr_mon 26, SHELLDER
-	tr_mon 28, CLOYSTER
+	; tr_mon 26, SHELLDER tba
+	tr_mon 28, MAGIKARP
 	end_trainer
 
 	def_trainer IRENE, "Irene"
@@ -7708,10 +7707,10 @@ LoreleiGroup:
 		tr_extra THICK_FAT
 		tr_evs 240 HP
 		tr_moves WATERFALL, AURORA_BEAM, SLEEP_TALK, REST
-	tr_mon 40, CLOYSTER, FEMALE
-		tr_extra SHELL_ARMOR
-		tr_evs 240 Atk
-		tr_moves DEFENSE_CURL, ROLLOUT, AURORA_BEAM, EXPLOSION
+	; tr_mon 40, CLOYSTER, FEMALE tba
+		; tr_extra SHELL_ARMOR
+		; tr_evs 240 Atk
+		; tr_moves DEFENSE_CURL, ROLLOUT, AURORA_BEAM, EXPLOSION
 	tr_mon 41, SLOWBRO, FEMALE
 		tr_extra OWN_TEMPO
 		tr_evs 240 HP
@@ -7731,10 +7730,10 @@ LoreleiGroup:
 		tr_extra THICK_FAT, DEF_UP_ATK_DOWN
 		tr_evs 252 HP, 4 SDf, 252 Def
 		tr_moves SURF, ICE_BEAM, REST, SLEEP_TALK
-	tr_mon 72, CLOYSTER @ ASSAULT_VEST, FEMALE
-		tr_extra SKILL_LINK, SPE_UP_SATK_DOWN
-		tr_evs 252 Atk, 4 SDf, 252 Spe
-		tr_moves EXPLOSION, ROCK_BLAST, ICICLE_SPEAR, ICE_SHARD
+	; tr_mon 72, CLOYSTER @ ASSAULT_VEST, FEMALE tba
+		; tr_extra SKILL_LINK, SPE_UP_SATK_DOWN
+		; tr_evs 252 Atk, 4 SDf, 252 Spe
+		; tr_moves EXPLOSION, ROCK_BLAST, ICICLE_SPEAR, ICE_SHARD
 	tr_mon 73, SLOWBRO @ ROCKY_HELMET, FEMALE
 		tr_extra REGENERATOR, DEF_UP_ATK_DOWN
 		tr_evs 252 HP, 4 SDf, 252 Def
@@ -7765,10 +7764,10 @@ endc
 		tr_extra THICK_FAT, SDEF_UP_SPE_DOWN
 		tr_evs 160 HP, 160 SDf
 		tr_moves AQUA_TAIL, ICE_BEAM, REST, SLEEP_TALK
-	tr_mon 57, CLOYSTER @ SILK_SCARF, FEMALE
-		tr_extra SHELL_ARMOR, SPE_UP_SATK_DOWN
-		tr_evs 252 Atk, 68 Spe
-		tr_moves EXPLOSION, ROLLOUT, ICICLE_CRASH, WATERFALL
+	; tr_mon 57, CLOYSTER @ SILK_SCARF, FEMALE tba
+		; tr_extra SHELL_ARMOR, SPE_UP_SATK_DOWN
+		; tr_evs 252 Atk, 68 Spe
+		; tr_moves EXPLOSION, ROLLOUT, ICICLE_CRASH, WATERFALL
 	tr_mon 58, SLOWBRO @ TWISTEDSPOON, FEMALE
 		tr_extra OWN_TEMPO, DEF_UP_ATK_DOWN
 		tr_evs 252 HP, 68 SAt
@@ -8179,10 +8178,10 @@ endc
 		tr_extra STURDY, SDEF_UP_SATK_DOWN
 		tr_evs 252 Def, 252 SDf, 4 HP
 		tr_moves IRON_HEAD, EARTHQUAKE, ROCK_SLIDE, CURSE
-	tr_mon 74, CLOYSTER @ WHITE_HERB, MALE
-		tr_extra SHELL_ARMOR, SPE_UP_ATK_DOWN
-		tr_evs 252 Def, 252 SAtk, 4 Spe
-		tr_moves SHELL_SMASH, ICE_BEAM, HYDRO_PUMP, HP_GRASS
+	; tr_mon 74, CLOYSTER @ WHITE_HERB, MALE tba
+		; tr_extra SHELL_ARMOR, SPE_UP_ATK_DOWN
+		; tr_evs 252 Def, 252 SAtk, 4 Spe
+		; tr_moves SHELL_SMASH, ICE_BEAM, HYDRO_PUMP, HP_GRASS
 	end_trainer
 
 
@@ -8709,17 +8708,17 @@ MarlonGroup:
 		tr_extra NATURAL_CURE
 		tr_evs 252 SAt, 68 Spe
 		tr_moves HYDRO_PUMP, ICE_BEAM, THUNDERBOLT, RECOVER
-	tr_mon 57, CLOYSTER, MALE
-		tr_extra SKILL_LINK
-		tr_evs 252 Atk, 68 Spe
-		tr_moves ICICLE_SPEAR, ROCK_BLAST, PIN_MISSILE, HYDRO_PUMP
+	; tr_mon 57, CLOYSTER, MALE tba
+		; tr_extra SKILL_LINK
+		; tr_evs 252 Atk, 68 Spe
+		; tr_moves ICICLE_SPEAR, ROCK_BLAST, PIN_MISSILE, HYDRO_PUMP
 	end_trainer
 
 	def_trainer 3, "Marlon"
-	tr_mon 72, CLOYSTER @ FOCUS_SASH, MALE
-		tr_extra SKILL_LINK, SPE_UP_SATK_DOWN
-		tr_evs 252 Atk, 4 Def, 252 Spe
-		tr_moves ICICLE_SPEAR, ROCK_BLAST, SPIKES, EXPLOSION
+	; tr_mon 72, CLOYSTER @ FOCUS_SASH, MALE tba
+		; tr_extra SKILL_LINK, SPE_UP_SATK_DOWN
+		; tr_evs 252 Atk, 4 Def, 252 Spe
+		; tr_moves ICICLE_SPEAR, ROCK_BLAST, SPIKES, EXPLOSION
 	tr_mon 72, QUAGSIRE @ ROCKY_HELMET, MALE
 		tr_extra UNAWARE, DEF_UP_SPE_DOWN
 		tr_evs 252 HP, 4 SDf, 252 Def
