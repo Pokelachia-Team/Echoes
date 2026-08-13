@@ -130,32 +130,48 @@ ElmPhonePokerusText:
 	done
 
 ElmPhoneDisasterText:
-	text "H-hello? <PLAYER>?"
-	line "It's a disaster!"
+	text "<PLAYER>? Hiya!"
+	line "Did you meet"
+	cont "Prof. Poplar?"
 
-	para "Uh, um, it's just"
-	line "terrible!"
+	para "And she gave you"
+	line "a #dex too?"
 
-	para "What should I do?"
-	line "It… Oh, no…"
+	para "Fantastic! Bring"
+	line "the dossier back"
 
-	para "Please get back"
-	line "here now!"
+	para "to the Field Lab"
+	line "as soon as"
+	cont "possible!"
+
+	para "Alrighty, see ya"
+	line "soon, <PLAYER>!"
 	done
 
 ElmPhoneEggAssistantText:
-	text "Hello, <PLAYER>? We"
-	line "discovered some-"
+	text "Hiya <PLAYER>!"
+	line "I've gone over all"
 
-	para "thing about the"
-	line "Egg!"
+	para "of the documents"
+	line "that Prof. Poplar"
+	cont "compiled."
 
-	para "My assistant is at"
-	line "the #mon Center"
+	para "This situation is"
+	line "much worse than I"
+	cont "feared..."
 
-	para "in Violet City."
-	line "Could you talk to"
-	cont "him?"
+	para "I've called a"
+	line "meeting with the"
+
+	para "other Profs. and"
+	line "their assistants."
+
+	para "Please come and"
+	line "meet us at Prof."
+
+	para "Poplar's penthouse"
+	line "apartment in"
+	cont "Olsteeton ASAP!"
 	done
 
 ElmPhoneRocketText:

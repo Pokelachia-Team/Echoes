@@ -17,14 +17,14 @@ In the installer, select the following packages: `git`, `make`, and `gcc-core`.
 In the **Cygwin terminal**:
 
 ```bash
-git clone https://github.com/Rangi42/polishedcrystal.git
-cd polishedcrystal
+git clone https://github.com/Pokelachia-Team/Echoes.git
+cd ECHOES
 mkdir rgbds
 ```
 
-Then download [**rgbds 1.0.2**](https://rgbds.gbdev.io/). (If you're building an older release of Polished Crystal, you may need an older version of RGBDS.) Extract the archive and put all the .exe and .dll files in polishedcrystal/rgbds.
+Then download [**rgbds 1.0.3**](https://rgbds.gbdev.io/). Extract the archive and put all the .exe and .dll files in Echoes/rgbds.
 
-To build **polishedcrystal.gbc**:
+To build **Echoes.gbc**:
 
 ```bash
 make

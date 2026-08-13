@@ -148,7 +148,7 @@ PoplarOffice_AsherScript:
 	setevent EVENT_POPLAR_OFFICE_FIR
 	clearevent EVENT_FOUGHT_FIELD_LAB_MAGIGOON
 	setmapscene FIELD_LAB, SCENE_FIELDLAB_MAGIGOON_BATTLE
-	; specialphonecall SPECIALCALL_DOSSIER ;pawpaw calls to bring docs back
+	specialphonecall SPECIALCALL_DOSSIER ;pawpaw calls to bring docs back
 	end
 
 PoplarOffice_PoplarWalksToPlayer:

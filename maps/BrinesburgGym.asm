@@ -144,8 +144,8 @@ BrinesburgGymSalScript:
 	opentext
 	checkevent EVENT_GOT_TM63_WATER_PULSE
 	iftrue_jumpopenedtext .SalFightDoneText
-	; setmapscene FIELD_LAB, SCENE_FIELDLAB_NOOP
-	; specialphonecall SPECIALCALL_ASSISTANT
+	; setmapscene RIVERFRONT_APT_4F, SCENE_RIVERFRONT_APT_4F_PROF_MEETING
+	specialphonecall SPECIALCALL_DOSSIER ;pawpaw calls about meeting
 	writetext .SalZephyrBadgeText
 	promptbutton
 	verbosegivetmhm TM_WATER_PULSE
