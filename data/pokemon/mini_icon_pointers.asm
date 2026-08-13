@@ -93,8 +93,8 @@ MiniIconPointers:
 	mini_icon Dewgong
 	mini_icon Grimer
 	mini_icon Muk
-	mini_icon Shellder
-	mini_icon Cloyster
+	mini_icon Niblax
+	mini_icon Chompsaw 
 	mini_icon Gastly
 	mini_icon Haunter
 	mini_icon Gengar

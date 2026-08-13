@@ -199,8 +199,8 @@ NewPokedexOrder:
 	dp DOOZEE
 	dp STARYU
 	dp STARMIE
-	dp SHELLDER
-	dp CLOYSTER
+	dp NIBLAX 
+	dp CHOMPSAW 
 	dp CORSOLA
 	dp CURSOLA
 	dp REMORAID

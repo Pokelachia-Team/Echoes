@@ -90,8 +90,8 @@ FootprintPointers::
 	fardw DewgongFootprint
 	fardw GrimerFootprint
 	fardw MukFootprint
-	fardw ShellderFootprint
-	fardw CloysterFootprint
+	fardw NiblaxFootprint
+	fardw ChompsawFootprint
 	fardw GastlyFootprint
 	fardw HaunterFootprint
 	fardw GengarFootprint

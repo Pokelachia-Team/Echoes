@@ -468,16 +468,8 @@ GrimerAlolanEggSpeciesMoves:
 	db PURSUIT
 	db $ff
 
-ShellderEggSpeciesMoves:
-	dp SHELLDER, PLAIN_FORM
-	db BARRIER
-	db BUBBLE_BEAM
-	db RAPID_SPIN
-	db SCREECH
-	db TAKE_DOWN
-	db WATER_PULSE
-	db ICICLE_SPEAR
-	db ROCK_BLAST
+NiblaxEggSpeciesMoves:
+	dp NIBLAX, PLAIN_FORM
 	db $ff
 
 GastlyEggSpeciesMoves:
@@ -1250,3 +1242,4 @@ DebriteEggSpeciesMoves:
 CastorchEggSpeciesMoves:
 	dp CASTORCH, PLAIN_FORM
 	db $ff
+

@@ -90,8 +90,8 @@ ValidPokemonLevels: ; for Wonder Trade
 	db  34, 100 ; Dewgong
 	db   1,  37 ; Grimer
 	db  38, 100 ; Muk
-	db   1,  33 ; Shellder
-	db  34, 100 ; Cloyster
+	db   1,  39 ; Niblax
+	db  20, 100 ; Chompsaw
 	db   1,  24 ; Gastly
 	db  25,  44 ; Haunter
 	db  45, 100 ; Gengar

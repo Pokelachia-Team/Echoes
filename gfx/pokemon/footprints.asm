@@ -26,7 +26,6 @@ BlankFootprint::
 ArbokFootprint::
 BellossomFootprint::
 DucklettFootprint::
-CloysterFootprint::
 CrobatFootprint::
 DewgongFootprint::
 DiglettFootprint::
@@ -74,7 +73,6 @@ RemoraidFootprint::
 SeadraFootprint::
 SeakingFootprint::
 SeelFootprint::
-ShellderFootprint::
 SlugmaFootprint::
 SteelixFootprint::
 SunkernFootprint::
@@ -96,7 +94,9 @@ CastorchFootprint::
 AugurothFootprint:: 
 NacliFootprint::
 NaclstackFootprint::
-GarganaclFootprint:: INCBIN "gfx/footprints/blank.1bpp.lzp"
+GarganaclFootprint::
+NiblaxFootprint::
+ChompsawFootprint:: INCBIN "gfx/footprints/blank.1bpp.lzp"
 
 
 CupicoFootprint:: INCBIN "gfx/footprints/cupico.1bpp.lzp"

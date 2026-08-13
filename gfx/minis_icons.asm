@@ -452,15 +452,15 @@ MukMini::     INCBIN "gfx/minis/muk.2bpp.lzp"
 MukMiniMask:: INCBIN "gfx/minis/muk_mask.1bpp.lzp"
 MukIcon::     INCBIN "gfx/icons/muk.2bpp.lzp"
 
-SECTION "Shellder Mini Icon", ROMX
-ShellderMini::     INCBIN "gfx/minis/shellder.2bpp.lzp"
-ShellderMiniMask:: INCBIN "gfx/minis/shellder_mask.1bpp.lzp"
-ShellderIcon::     INCBIN "gfx/icons/shellder.2bpp.lzp"
+SECTION "Niblax Mini Icon", ROMX
+NiblaxMini::        INCBIN "gfx/minis/niblax.2bpp.lzp"
+NiblaxMiniMask::    INCBIN "gfx/minis/niblax_mask.1bpp.lzp"
+NiblaxIcon::        INCBIN "gfx/icons/niblax.2bpp.lzp"
 
-SECTION "Cloyster Mini Icon", ROMX
-CloysterMini::     INCBIN "gfx/minis/cloyster.2bpp.lzp"
-CloysterMiniMask:: INCBIN "gfx/minis/cloyster_mask.1bpp.lzp"
-CloysterIcon::     INCBIN "gfx/icons/cloyster.2bpp.lzp"
+SECTION "Chompsaw Mini Icon", ROMX
+ChompsawMini::      INCBIN "gfx/minis/chompsaw.2bpp.lzp"
+ChompsawMiniMask::  INCBIN "gfx/minis/chompsaw_mask.1bpp.lzp"
+ChompsawIcon::      INCBIN "gfx/icons/chompsaw.2bpp.lzp"
 
 SECTION "Gastly Mini Icon", ROMX
 GastlyMini::     INCBIN "gfx/minis/gastly.2bpp.lzp"

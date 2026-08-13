@@ -1932,39 +1932,36 @@ endc
 	learnset 46, PAIN_SPLIT ; Acid Armor → HGSS tutor move
 	learnset 52, TOXIC_SPIKES ; Belch → SV TM move
 
-	evos_attacks Shellder
-	evo_data EVOLVE_ITEM, WATER_STONE, CLOYSTER
+	evos_attacks Niblax 
+	evo_data EVOLVE_LEVEL, 20, CHOMPSAW; tba needs new moves
 	learnset 1, TACKLE
-	learnset 4, DEFENSE_CURL ; Withdraw → similar move
-	learnset 8, SUPERSONIC
-	learnset 13, ICICLE_SPEAR
-	learnset 16, PROTECT
-	learnset 20, LEER
-	learnset 25, BITE ; Ice Shard → new move
-	learnset 28, ICE_SHARD ; Clamp → Ice Shard
-	learnset 32, BUBBLE_BEAM ; Razor Shell → egg move
-	learnset 37, AURORA_BEAM
-	learnset 40, WHIRLPOOL
-	learnset 44, EXPLOSION ; Brine → RBY TM move
-	learnset 49, BARRIER ; Iron Defense → egg move
-	learnset 52, ICE_BEAM
-	learnset 56, SHELL_SMASH
-	learnset 61, HYDRO_PUMP
+	learnset 1, LEER ; Tail Whip → similar move
+	learnset 4, QUICK_ATTACK
+	learnset 7, FOCUS_ENERGY
+	learnset 10, BITE
+	learnset 13, PURSUIT
+	learnset 16, HYPER_FANG
+	learnset 19, SUCKER_PUNCH
+	learnset 22, CRUNCH
+	learnset 25, FEINT_ATTACK ; Assurance → similar move
+	learnset 28, SUPER_FANG
+	learnset 31, DOUBLE_EDGE
+	learnset 34, COUNTER ; Endeavor → egg move
 
-	evos_attacks Cloyster
-	learnset 1, HYDRO_PUMP
-	learnset 1, SHELL_SMASH
-	learnset 1, TOXIC_SPIKES
-	learnset 1, FURY_STRIKES ; Spike Cannon → similar move
-	learnset 1, TRI_ATTACK ; RBY TM move
-	learnset 1, DEFENSE_CURL ; Withdraw → similar move
-	learnset 1, SUPERSONIC
-	learnset 1, PROTECT
-	learnset 1, AURORA_BEAM
-	learnset 1, SPIKES ; evolution move
-	learnset 28, ICICLE_SPEAR ; Spikes → Icicle Spear
-	learnset 32, PIN_MISSILE ; Sw/Sh TM move
-	learnset 50, ICICLE_CRASH
+	evos_attacks Chompsaw 
+	learnset 1, TACKLE; tba needs new moves 
+	learnset 1, LEER ; Tail Whip → similar move
+	learnset 4, QUICK_ATTACK
+	learnset 7, FOCUS_ENERGY
+	learnset 10, BITE
+	learnset 13, PURSUIT
+	learnset 16, HYPER_FANG
+	learnset 19, SUCKER_PUNCH
+	learnset 22, CRUNCH
+	learnset 25, FEINT_ATTACK ; Assurance → similar move
+	learnset 28, SUPER_FANG
+	learnset 31, DOUBLE_EDGE
+	learnset 34, COUNTER ; Endeavor → egg move
 
 	evos_attacks Gastly
 	evo_data EVOLVE_LEVEL, 25, HAUNTER
@@ -5995,7 +5992,6 @@ endc
 	learnset 56, CHARM
 	learnset 61, NIGHT_SLASH
 	learnset 65, CLOSE_COMBAT
-
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

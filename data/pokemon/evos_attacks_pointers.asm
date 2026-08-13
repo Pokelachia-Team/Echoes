@@ -93,8 +93,8 @@ EvosAttacksPointers::
 	dw DewgongEvosAttacks
 	dw GrimerPlainEvosAttacks
 	dw MukPlainEvosAttacks
-	dw ShellderEvosAttacks
-	dw CloysterEvosAttacks
+	dw NiblaxEvosAttacks
+	dw ChompsawEvosAttacks
 	dw GastlyEvosAttacks
 	dw HaunterEvosAttacks
 	dw GengarEvosAttacks

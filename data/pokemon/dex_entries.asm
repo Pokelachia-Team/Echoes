@@ -892,25 +892,25 @@ MukPlainPokedexEntry::
 	next "there barren for"
 	next "three years.@"
 
-SECTION "ShellderPokedexEntry", ROMX
-ShellderPokedexEntry::
-	db "Bivalve@"
-	text "Clamping on to an"
-	next "opponent reveals"
-	next "its vulnerable"
-	page "parts, so it uses"
-	next "this move only as"
-	next "a last resort.@"
+SECTION "NiblaxPokedexEntry", ROMX
+NiblaxPokedexEntry::
+	db "Woodcutter@"
+	text "The long tail"
+	next "on this mon is"
+	next "sharp on the end"
+	page "which allows it to"
+	next "easily cut through"
+	next "wood and debris.@"
 
-SECTION "CloysterPokedexEntry", ROMX
-CloysterPokedexEntry::
-	db "Bivalve@"
-	text "Even a missile"
-	next "can't break the"
-	next "spikes it uses to"
-	page "stab opponents."
-	next "They're even harder"
-	next "than its shell.@"
+SECTION "ChompsawPokedexEntry", ROMX
+ChompsawPokedexEntry::
+	db "Lumberjack@"
+	text "The serrated"
+	next "edges of its tail"
+	next "make cutting"
+	page "through even the"
+	next "thickest trees"
+	next "a piece of cake.@"
 
 SECTION "GastlyPokedexEntry", ROMX
 GastlyPokedexEntry::

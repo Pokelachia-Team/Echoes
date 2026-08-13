@@ -60,10 +60,10 @@ ENDM
 	fishentry  35 percent,     MAGIKARP,   20
 	fishentry  70 percent,     TENTACOOL,  20
 	fishentry  90 percent + 1, TENTACOOL,   20
-	fishentry 100 percent,     SHELLDER,   20
+	; fishentry 100 percent,     SHELLDER,   20 tba
 .Ocean_Super:
-	fishentry  40 percent,     SHELLDER,   40
-	fishentry  70 percent,     SHELLDER,   40
+	; fishentry  40 percent,     SHELLDER,   40 tba
+	; fishentry  70 percent,     SHELLDER,   40 tba
 	fishentry  90 percent + 1, TENTACRUEL, 40
 	fishentry 100 percent,     TENTACRUEL,    40
 
@@ -90,7 +90,7 @@ ENDM
 .Well_Super:
 	fishentry  40 percent,     GOLDEEN,    40
 	fishentry  70 percent,     GOLDEEN,    40
-	fishentry  90 percent + 1, SHELLDER,   40
+	; fishentry  90 percent + 1, SHELLDER,   40 tba
 	fishentry 100 percent,     SEAKING,    40
 
 .Pond_Old:

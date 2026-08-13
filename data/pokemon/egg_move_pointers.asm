@@ -89,8 +89,8 @@ EggSpeciesMovesPointers::
 	dw SeelEggSpeciesMoves              ; Dewgong
 	dw GrimerPlainEggSpeciesMoves       ; Grimer
 	dw GrimerPlainEggSpeciesMoves       ; Muk
-	dw ShellderEggSpeciesMoves          ; Shellder
-	dw ShellderEggSpeciesMoves          ; Cloyster
+	dw NiblaxEggSpeciesMoves			; Niblax
+	dw NiblaxEggSpeciesMoves			; Chompsaw 
 	dw GastlyEggSpeciesMoves            ; Gastly
 	dw GastlyEggSpeciesMoves            ; Haunter
 	dw GastlyEggSpeciesMoves            ; Gengar

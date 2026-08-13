@@ -96,8 +96,8 @@ PokemonCries::
 	mon_cry CRY_SEEL,        $023,  $17f ; Dewgong
 	mon_cry CRY_GRIMER,      $000,  $100 ; Grimer
 	mon_cry CRY_MUK,         $0ef,  $17f ; Muk
-	mon_cry CRY_SHELLDER,    $000,  $100 ; Shellder
-	mon_cry CRY_SHELLDER,    $06f,  $160 ; Cloyster
+	mon_cry CRY_RATTATA,     $000,  $100 ; Niblax 
+	mon_cry CRY_RATTATA,     $020,  $17f ; Chompsaw 
 	mon_cry CRY_METAPOD,     $000,  $100 ; Gastly
 	mon_cry CRY_METAPOD,     $030,  $0c0 ; Haunter
 	mon_cry CRY_MUK,         $000,  $17f ; Gengar

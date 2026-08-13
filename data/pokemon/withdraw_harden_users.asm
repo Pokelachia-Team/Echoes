@@ -6,8 +6,6 @@ WithdrawUsers:
 	dp RIVEBLOK
 	dp RIVASTION
 	dp SLOWBRO
-	dp SHELLDER
-	dp CLOYSTER
 	dp TIRTOUGA
 	dp CARRACOSTA
 	db 0
