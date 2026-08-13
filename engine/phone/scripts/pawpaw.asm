@@ -259,8 +259,8 @@ EvolutionPhone_GetFirstNonEggPartyMon:
 
 ElmPhoneScript2:
 	readvar VAR_SPECIALPHONECALL
-	ifequalfwd SPECIALCALL_ROBBED, .disaster
-	ifequalfwd SPECIALCALL_ASSISTANT, .assistant
+	ifequalfwd SPECIALCALL_DOSSIER, .disaster
+	ifequalfwd SPECIALCALL_MEETING, .assistant
 	ifequalfwd SPECIALCALL_WEIRDBROADCAST, .rocket
 	ifequalfwd SPECIALCALL_SSTICKET, .gift
 	ifequalfwd SPECIALCALL_MASTERBALL, .gift
