@@ -1,13 +1,13 @@
-	bst 252,  30,  60,  30,  22,  35,  75
+	bst 270,  40,  70,  43,  22,  35,  60
 	;   bst   hp  atk  def  sat  sdf  spe
 
 	db NORMAL, FIGHTING ; type
-	db 257 ; catch rate
-	db 55 ; base exp
+	db 255 ; catch rate
+	db 57 ; base exp
 	db NO_ITEM, LANSAT_BERRY ; held items
 	dn GENDER_F50, HATCH_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for RATTATA, RUN_AWAY, TANGLING_HAIR, HUSTLE
+	abilities_for NIBLAX, HYPER_CUTTER, OWN_TEMPO, TECHNICIAN
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 
