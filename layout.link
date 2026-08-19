@@ -139,6 +139,12 @@ ROMX $29
 ROMX $2A
 	"Hollowport Scripts 2"
 
+ROMX $2B
+	"Olsteeton Scripts"
+
+ROMX $2C
+	"Brinesburg Scripts"
+
 ROMX $2E
 	"bank2E"
 
