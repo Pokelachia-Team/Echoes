@@ -1,13 +1,13 @@
-	bst 443,  70,  100,  75,  40,  70, 88
+	bst 465,  80,  100,  95,  40,  70, 80
 	;   bst   hp  atk  def  sat  sdf  spe
 
-	db NORMAL, FIGHTING ; type
+	db FIGHTING, STEEL ; type
 	db 90 ; catch rate
 	db 116 ; base exp
 	db NO_ITEM, LANSAT_BERRY ; held items
 	dn GENDER_F50, HATCH_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for RATICATE, RUN_AWAY, TANGLING_HAIR, HUSTLE
+	abilities_for CHOMPSAW, HYPER_CUTTER, THICK_FAT, TECHNICIAN
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 

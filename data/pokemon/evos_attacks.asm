@@ -1933,35 +1933,39 @@ endc
 	learnset 52, TOXIC_SPIKES ; Belch → SV TM move
 
 	evos_attacks Niblax 
-	evo_data EVOLVE_LEVEL, 20, CHOMPSAW; tba needs new moves
+	evo_data EVOLVE_LEVEL, 25, CHOMPSAW
 	learnset 1, TACKLE
-	learnset 1, LEER ; Tail Whip → similar move
+	learnset 1, LEER 
 	learnset 4, QUICK_ATTACK
 	learnset 7, FOCUS_ENERGY
 	learnset 10, BITE
-	learnset 13, PURSUIT
+	learnset 13, LOW_KICK
 	learnset 16, HYPER_FANG
-	learnset 19, SUCKER_PUNCH
-	learnset 22, CRUNCH
-	learnset 25, FEINT_ATTACK ; Assurance → similar move
+	learnset 19, FURY_STRIKES
+	learnset 22, DEFENSE_CURL
+	learnset 26, SWORDS_DANCE
 	learnset 28, SUPER_FANG
-	learnset 31, DOUBLE_EDGE
-	learnset 34, COUNTER ; Endeavor → egg move
+	learnset 31, COUNTER
+	learnset 34, CLOSE_COMBAT 
 
 	evos_attacks Chompsaw 
-	learnset 1, TACKLE; tba needs new moves 
-	learnset 1, LEER ; Tail Whip → similar move
-	learnset 4, QUICK_ATTACK
-	learnset 7, FOCUS_ENERGY
-	learnset 10, BITE
-	learnset 13, PURSUIT
-	learnset 16, HYPER_FANG
-	learnset 19, SUCKER_PUNCH
-	learnset 22, CRUNCH
-	learnset 25, FEINT_ATTACK ; Assurance → similar move
-	learnset 28, SUPER_FANG
-	learnset 31, DOUBLE_EDGE
-	learnset 34, COUNTER ; Endeavor → egg move
+	learnset 1, METAL_CLAW
+	learnset 1, QUICK_ATTACK
+	learnset 1, LEER
+	learnset 5, FOCUS_ENERGY
+	learnset 9, LOW_KICK
+	learnset 13, HYPER_FANG
+	learnset 17, FURY_STRIKES
+	learnset 21, DEFENSE_CURL
+	learnset 25, METAL_CLAW
+	learnset 29, SLASH
+	learnset 33, IRON_TAIL
+	learnset 37, SWORDS_DANCE
+	learnset 41, DIG
+	learnset 45, CRUNCH
+	learnset 49, X_SCISSOR
+	learnset 50, IRON_HEAD
+	learnset 57, SWORDS_DANCE
 
 	evos_attacks Gastly
 	evo_data EVOLVE_LEVEL, 25, HAUNTER
