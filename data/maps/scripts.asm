@@ -174,7 +174,7 @@ INCLUDE "maps/OlsteetonUniDormEast3FRoom2.asm"
 INCLUDE "maps/OlsteetonUniDormEast3FRoom3.asm"
 INCLUDE "maps/OlsteetonUniDormEastElevator.asm"
 
-SECTION "Brinesburg", ROMX
+SECTION "Brinesburg Scripts", ROMX
 
 INCLUDE "maps/Brinesburg.asm"
 INCLUDE "maps/Route103.asm"

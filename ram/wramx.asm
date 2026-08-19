@@ -1198,6 +1198,7 @@ wPokecenter2FSceneID:: db
 wTradeCenterSceneID:: db
 wFieldLabSceneID:: db
 wRoute101SceneID:: db
+wRiverfrontApt5FSceneID:: db
 wRiverfrontAptRoofSceneID:: db
 wOlsteetonAbandonedMillSceneID:: db
 wOlsteetonUniClassroomBioSceneID:: db
@@ -1263,7 +1264,7 @@ wNeededMonPalLight:: db ; for SPRITE_MON_ICON two-nybble palettes, stores the li
 wNeededPalType:: db ; 0 = normal palette, non-zero = mon two-nybble palette
 wLoadedObjPalType:: db ; bitmask: bit N set = slot N is a mon palette, clear = normal palette
 
-	ds 132 ; unused
+	ds 131 ; unused
 
 wCandyAmounts::
 	table_width 1

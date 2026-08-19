@@ -124,6 +124,7 @@ endc
 	showtext PawpawText_ChooseAPokemon
 	setevent EVENT_CHOOSE_POKEMON
 	setevent EVENT_GOT_DOSSIER_FROM_POPLAR ; set here and cleared in office so there arent 2 poplars existing simultaneously
+	setevent EVENT_PROF_MEETING ; set here and cleared in Brinesburg gym so the group can't be seen from the Apt stairwell
 	setscene SCENE_FIELDLAB_CANT_LEAVE
 	end
 

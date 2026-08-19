@@ -145,11 +145,13 @@ BrinesburgGymSalScript:
 	checkevent EVENT_GOT_TM63_WATER_PULSE
 	iftrue_jumpopenedtext .SalFightDoneText
 	; setmapscene RIVERFRONT_APT_4F, SCENE_RIVERFRONT_APT_4F_PROF_MEETING
-	specialphonecall SPECIALCALL_DOSSIER ;pawpaw calls about meeting
+	specialphonecall SPECIALCALL_MEETING ;pawpaw calls about meeting
 	writetext .SalZephyrBadgeText
 	promptbutton
 	verbosegivetmhm TM_WATER_PULSE
 	setevent EVENT_GOT_TM63_WATER_PULSE
+	setmapscene RIVERFRONT_APT_5F, SCENE_RIVERFRONT_APT_5F_PROF_MEETING
+	clearevent EVENT_PROF_MEETING
 	clearevent EVENT_FOUGHT_FIELD_LAB_MAGIGOON
 	setmapscene BRINESBURG, SCENE_BRINESBURG_MAGIGOON
 	jumpthisopenedtext
