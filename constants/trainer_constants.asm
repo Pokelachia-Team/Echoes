@@ -923,7 +923,7 @@ DEF BETA EQU __trainer_class__
 	const THERON
 	const MARKEY
 
-	trainerclass TAMER
+	trainerclass LUMBERJACK
 	const BRETT
 	const VINCE
 	const OSWALD

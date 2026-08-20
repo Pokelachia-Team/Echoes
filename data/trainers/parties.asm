@@ -6463,25 +6463,22 @@ RoughneckGroup:
 	end_trainer
 
 
-SECTION "TamerGroup", ROMX
-TamerGroup:
+SECTION "LumberjackGroup", ROMX
+LumberjackGroup:
 
-	def_trainer_class TAMER
+	def_trainer_class LUMBERJACK
 	def_trainer BRETT, "Brett"
-	tr_mon LEVEL_FROM_BADGES + 8, ARBOK
-	tr_mon LEVEL_FROM_BADGES + 8, TAUROS
-	tr_mon LEVEL_FROM_BADGES + 9, URSARING
+	tr_mon 12, PINSIR
+	tr_mon 14, NIBLAX
 	end_trainer
 
 	def_trainer VINCE, "Vince"
-	tr_mon 54, KANGASKHAN
-	tr_mon 56, DONPHAN
+	tr_mon 12, GLIGAR
+	tr_mon 14, NIBLAX
 	end_trainer
 
 	def_trainer OSWALD, "Oswald"
-	tr_mon 60, DONPHAN
-	tr_mon 62, URSARING
-	tr_mon 61, KANGASKHAN
+	tr_mon 16, FARFETCH_D @ LEEK, MALE | GALARIAN_FORM
 	end_trainer
 
 	def_trainer JORDAN, "Jordan"

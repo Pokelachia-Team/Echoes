@@ -106,18 +106,18 @@ Gentleman1AfterText:
 	para "emespeed."
 	done
 
-Tamer1SeenText:
+Lumberjack1SeenText:
 	text "My #mon are"
 	line "mean, lean fighti-"
 	cont "ng machines!"
 	done
 
-Tamer1DefeatText:
+Lumberjack1DefeatText:
 	text "Sorry, you're a"
 	line "different beast."
 	done
 
-Tamer1AfterText:
+Lumberjack1AfterText:
 	text "Please, teach me"
 	line "your ways!"
 	done

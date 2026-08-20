@@ -434,8 +434,8 @@ SwimmerGirlSpriteGFX:: INCBIN "gfx/sprites/swimmer_f.2bpp.lzp"
 SECTION "SwimmerGuySpriteGFX", ROMX
 SwimmerGuySpriteGFX:: INCBIN "gfx/sprites/swimmer_m.2bpp.lzp"
 
-SECTION "TamerSpriteGFX", ROMX
-TamerSpriteGFX:: INCBIN "gfx/sprites/tamer.2bpp.lzp"
+SECTION "LumberjackSpriteGFX", ROMX
+LumberjackSpriteGFX:: INCBIN "gfx/sprites/lumberjack.2bpp.lzp"
 
 SECTION "TeacherSpriteGFX", ROMX
 TeacherSpriteGFX:: INCBIN "gfx/sprites/teacher.2bpp.lzp"

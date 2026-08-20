@@ -93,7 +93,7 @@ TrainerClassNames::
 	li "Guitarist"        ; GUITARISTF
 	li "Biker"            ; BIKER
 	li "Roughneck"        ; ROUGHNECK
-	li "Tamer"            ; TAMER
+	li "Lumberjack"            ; LUMBERJACK
 	li "Artist"           ; ARTIST
 	li "Aroma Lady"       ; AROMA_LADY
 	li "Soldier"          ; SOLDIER

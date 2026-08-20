@@ -96,7 +96,7 @@ BTTrainerClassGenders:
 	dbit FEMALE_BIT ; GUITARISTF
 	dbit MALE_BIT   ; BIKER
 	dbit MALE_BIT   ; ROUGHNECK
-	dbit MALE_BIT   ; TAMER
+	dbit MALE_BIT   ; LUMBERJACK
 	dbit FEMALE_BIT ; ARTIST
 	dbit FEMALE_BIT ; AROMA_LADY
 	dbit MALE_BIT   ; SOLDIER
