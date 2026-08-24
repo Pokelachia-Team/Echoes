@@ -278,8 +278,8 @@ BikerPic: INCBIN "gfx/trainers/biker.2bpp.lzp"
 SECTION "RoughneckPic", ROMX
 RoughneckPic: INCBIN "gfx/trainers/roughneck.2bpp.lzp"
 
-SECTION "TamerPic", ROMX
-TamerPic: INCBIN "gfx/trainers/tamer.2bpp.lzp"
+SECTION "LumberjackPic", ROMX
+LumberjackPic: INCBIN "gfx/trainers/lumberjack.2bpp.lzp"
 
 SECTION "ArtistPic", ROMX
 ArtistPic: INCBIN "gfx/trainers/artist.2bpp.lzp"

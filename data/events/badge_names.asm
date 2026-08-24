@@ -1,6 +1,6 @@
 BadgeNames:
     list_start
-    li "Zephyr"
+    li "Chef"
     li "Hive"
     li "Plain"
     li "Fog"

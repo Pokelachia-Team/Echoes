@@ -96,7 +96,7 @@ TrainerGroups:
 	dba GuitaristFGroup
 	dba BikerGroup
 	dba RoughneckGroup
-	dba TamerGroup
+	dba LumberjackGroup
 	dba ArtistGroup
 	dba AromaLadyGroup
 	dba SoldierGroup

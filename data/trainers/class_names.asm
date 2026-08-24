@@ -93,7 +93,7 @@ TrainerClassNames::
 	li "Guitarist"        ; GUITARISTF
 	li "Biker"            ; BIKER
 	li "Roughneck"        ; ROUGHNECK
-	li "Tamer"            ; TAMER
+	li "Lumberjack"            ; LUMBERJACK
 	li "Artist"           ; ARTIST
 	li "Aroma Lady"       ; AROMA_LADY
 	li "Soldier"          ; SOLDIER
@@ -105,8 +105,8 @@ TrainerClassNames::
 	li "Ace Trainer"      ; COOLTRAINERM
 	li "Ace Trainer"      ; COOLTRAINERF
 	li "Ace Duo"          ; ACE_DUO
-	li "Veteran"          ; VETERANM
-	li "Veteran"          ; VETERANF
+	li "Old Timer"          ; VETERANM
+	li "Old Timer"          ; VETERANF
 	li "Executive"        ; PROTON
 	li "Executive"        ; PETREL
 	li "Executive"        ; ARCHER

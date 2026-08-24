@@ -94,7 +94,7 @@ TrainerPicPointers::
 	dba GuitaristfPic
 	dba BikerPic
 	dba RoughneckPic
-	dba TamerPic
+	dba LumberjackPic
 	dba ArtistPic
 	dba AromaLadyPic
 	dba SoldierPic

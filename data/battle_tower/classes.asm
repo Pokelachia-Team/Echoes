@@ -10,7 +10,7 @@ BattleTowerTrainers:
 	rawchar "Hare@@@@@", RUIN_MANIAC
 	rawchar "Murray@@@", SAILOR
 	rawchar "Suh@@@@@@", ELDER
-	rawchar "Siegfried", TAMER
+	rawchar "Siegfried", LUMBERJACK
 	rawchar "Scipio@@@", BURGLAR
 	rawchar "Walter@@@", ELDER
 	rawchar "Eleni@@@@", BATTLE_GIRL
@@ -59,7 +59,7 @@ BattleTowerTrainers:
 	rawchar "Cobb@@@@@", SCHOOLBOY
 	rawchar "Yufune@@@", BLACKBELT_T
 	rawchar "Monica@@@", WAITRESS
-	rawchar "Daniel@@@", TAMER
+	rawchar "Daniel@@@", LUMBERJACK
 	rawchar "Toshi@@@@", BLACKBELT_T
 	rawchar "Charlie@@", JUGGLER
 	rawchar "Fagin@@@@", BURGLAR
