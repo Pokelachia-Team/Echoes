@@ -45,7 +45,7 @@
 	tilecoll WALL, WALL, FLOOR, FLOOR ; 2c
 	tilecoll WALL, WALL, WALL, WALL ; 2d
 	tilecoll FLOOR, FLOOR, WARP_CARPET_DOWN, WARP_CARPET_DOWN ; 2e
-	tilecoll WALL, WALL, TRASH_CAN, BOOKSHELF ; 2f
+	tilecoll WALL, WALL, FLOOR, BOOKSHELF ; 2f
 	tilecoll WALL, WALL, FLOOR, WALL ; 30
 	tilecoll FLOOR, FLOOR, FLOOR, LADDER ; 31
 	tilecoll WALL, WALL, WALL, WALL ; 32

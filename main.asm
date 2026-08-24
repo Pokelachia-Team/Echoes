@@ -389,6 +389,8 @@ INCLUDE "engine/phone/scripts/reminders_2.asm"
 INCLUDE "engine/phone/scripts/bike_shop.asm"
 ; INCLUDE "engine/phone/buena_phone_scripts.asm"
 INCLUDE "engine/events/trainer_scripts.asm"
+INCLUDE "engine/phone/scripts/tollfree.asm"
+
 
 
 ; SECTION "Phone Text 1", ROMX
@@ -575,6 +577,7 @@ INCLUDE "data/text/std_text.asm"
 SECTION "Crystal Phone Text 2", ROMX
 
 INCLUDE "data/phone/text/bike_shop.asm"
+INCLUDE "data/phone/text/tollfree.asm"
 ; INCLUDE "data/phone/text/jack_caller.asm"
 ; INCLUDE "data/phone/text/beverly_caller.asm"
 ; INCLUDE "data/phone/text/huey_caller.asm"

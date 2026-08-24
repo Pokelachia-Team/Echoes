@@ -7,7 +7,7 @@ NonTrainerCallerNames:
 	dw .bill
 	dw .pawpaw
 	dw .brooke
-	dw .buena
+	dw .tollfree
 	assert_table_length NUM_NONTRAINER_PHONECONTACTS + 1
 
 .mom:
@@ -28,7 +28,7 @@ NonTrainerCallerNames:
 	text  "Brooke:"
 	next1 "   <PK><MN> Trainer"
 	done
-.buena:
-	text  "Buena:"
-	next1 "   Disc Jockey"
+.tollfree:
+	text  "Toll-free"
+	next1 "   Question Line"
 	done

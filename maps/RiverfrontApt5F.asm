@@ -15,10 +15,10 @@ RiverfrontApt5F_MapScriptHeader:
 	def_bg_events
 
 	def_object_events
-	object_event  6,  5, SPRITE_POPLAR, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, ProfMeeting_PoplarScript, EVENT_PROF_MEETING
-	object_event  7,  5, SPRITE_PAWPAW, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, ProfMeeting_PawpawScript, EVENT_PROF_MEETING
-	object_event  4,  5, SPRITE_FIR, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, ProfMeeting_FirScript, EVENT_PROF_MEETING
-	object_event  4,  4, SPRITE_ASHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, ProfMeeting_AsherScript, EVENT_PROF_MEETING
+	object_event  6,  4, SPRITE_POPLAR, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, ProfMeeting_PoplarScript, EVENT_PROF_MEETING
+	object_event  7,  4, SPRITE_PAWPAW, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, ProfMeeting_PawpawScript, EVENT_PROF_MEETING
+	object_event  4,  4, SPRITE_FIR, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, ProfMeeting_FirScript, EVENT_PROF_MEETING
+	object_event  4,  3, SPRITE_ASHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, ProfMeeting_AsherScript, EVENT_PROF_MEETING
 	object_event  6,  3, SPRITE_BROOKE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_PINK, OBJECTTYPE_SCRIPT, 0, ProfMeeting_BrookeScript, EVENT_PROF_MEETING
 	itemball_event 12,  6, WIDE_LENS, 1, EVENT_OLIVINE_LIGHTHOUSE_6F_WIDE_LENS
 
@@ -37,7 +37,7 @@ RiverfrontApt5NoopScene:
 
 ProfMeetingScript:
 	applyonemovement PLAYER, step_down
-	playmusic MUSIC_PROF_OAK
+	playmusic MUSIC_ABANDONED_SHIP_RSE
 	showemote EMOTE_SHOCK, RIVERFRONT_APT_5F_POPLAR, 15
 	turnobject RIVERFRONT_APT_5F_POPLAR, UP
 	showtext ProfMeeting_PoplarText1
@@ -45,31 +45,35 @@ ProfMeetingScript:
 	turnobject RIVERFRONT_APT_5F_BROOKE, RIGHT
 	showemote EMOTE_HAPPY, RIVERFRONT_APT_5F_BROOKE, 15
 	showemote EMOTE_BOLT, RIVERFRONT_APT_5F_ASHER, 15
-	turnobject RIVERFRONT_APT_5F_BROOKE, UP
-	turnobject RIVERFRONT_APT_5F_POPLAR, LEFT
-	turnobject RIVERFRONT_APT_5F_POPLAR, UP
 	turnobject RIVERFRONT_APT_5F_PAWPAW, UP
+	turnobject RIVERFRONT_APT_5F_BROOKE, DOWN
 	showtext ProfMeeting_PoplarText2
+	promptbutton
 	showemote EMOTE_SHOCK, RIVERFRONT_APT_5F_PAWPAW, 15
 	showtext ProfMeeting_PawpawText1
 	turnobject RIVERFRONT_APT_5F_POPLAR, LEFT
 	turnobject RIVERFRONT_APT_5F_POPLAR, UP
 	showtext ProfMeeting_PoplarText3
+	promptbutton
+	showemote EMOTE_SHOCK, PLAYER, 15
 	showemote EMOTE_SHOCK, RIVERFRONT_APT_5F_BROOKE, 15
 	showemote EMOTE_SHOCK, RIVERFRONT_APT_5F_ASHER, 15
-	showemote EMOTE_SHOCK, PLAYER, 15
 	showtext ProfMeeting_PawpawText2
 	applyonemovement RIVERFRONT_APT_5F_FIR, step_right
+	turnobject RIVERFRONT_APT_5F_FIR, UP
+	turnobject RIVERFRONT_APT_5F_ASHER, DOWN
 	showtext ProfMeeting_FirText1
-	applyonemovement RIVERFRONT_APT_5F_POPLAR, step_up
+	promptbutton
 	turnobject RIVERFRONT_APT_5F_POPLAR, RIGHT
-	turnobject PLAYER, LEFT
 	showtext ProfMeeting_PoplarText4
 	applyonemovement RIVERFRONT_APT_5F_POPLAR, step_down
 	turnobject RIVERFRONT_APT_5F_POPLAR, UP
 	waitsfx
 	special RestartMapMusic
+	clearevent EVENT_JOLLY_SODS_POPLAR
 	setscene SCENE_RIVERFRONT_APT_5F_NOOP
+	setevent EVENT_PROF_MEETING
+	setmapscene NATIONAL_FOREST_1, SCENE_NATIONAL_FOREST_1_LOGGING
 	end
 
 

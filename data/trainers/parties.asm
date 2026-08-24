@@ -6468,8 +6468,9 @@ LumberjackGroup:
 
 	def_trainer_class LUMBERJACK
 	def_trainer BRETT, "Brett"
-	tr_mon 12, PINSIR
-	tr_mon 14, NIBLAX
+	tr_mon 12, PINSIR, MALE
+	tr_mon 14, FARFETCH_D @ LEEK, MALE | GALARIAN_FORM
+	tr_mon 16, NIBLAX
 	end_trainer
 
 	def_trainer VINCE, "Vince"
@@ -6478,7 +6479,8 @@ LumberjackGroup:
 	end_trainer
 
 	def_trainer OSWALD, "Oswald"
-	tr_mon 16, FARFETCH_D @ LEEK, MALE | GALARIAN_FORM
+	tr_mon 12, CORPHISH
+	tr_mon 14, FARFETCH_D @ LEEK
 	end_trainer
 
 	def_trainer JORDAN, "Jordan"
@@ -7209,19 +7211,9 @@ SECTION "VeteranFGroup", ROMX
 VeteranFGroup:
 
 	def_trainer_class VETERANF
-	def_trainer JOANNE, "Joanne"
-	tr_mon 41, CONIFURY @ MIRACLE_SEED
-		tr_moves GROWTH, SLUDGE_BOMB, PETAL_DANCE, SLEEP_POWDER
-	tr_mon 38, PIDGEOT @ QUICK_CLAW
-		tr_moves ROOST, FLY, SWIFT, ROAR
-	tr_mon 39, SCYTHER @ EVIOLITE
-		tr_moves SLASH, AERIAL_ACE, SWORDS_DANCE, PURSUIT
-	tr_mon 38, ELECTABUZZ @ MAGNET
-		tr_moves THUNDERBOLT, BULK_UP, KARATE_CHOP, LIGHT_SCREEN
-	tr_mon 40, POLIWRATH @ KINGS_ROCK
-		tr_moves WATERFALL, SURF, STRENGTH, BODY_SLAM
-	tr_mon 37, FLAREON @ CHARCOAL
-		tr_moves SMOKESCREEN, FLAME_CHARGE, QUICK_ATTACK, IRON_TAIL
+	def_trainer SUE, "Sue"
+	tr_mon 8, SUNKERN @ MIRACLE_SEED
+	tr_mon 8, TIDIPOSS @ ORAN_BERRY
 	end_trainer
 
 	def_trainer JONET, "Jonet"

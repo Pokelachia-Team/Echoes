@@ -24,7 +24,7 @@ ENDM
 	const PHONECONTACT_BILL
 	const PHONECONTACT_PAWPAW
 	const PHONECONTACT_BROOKE
-	const PHONECONTACT_BUENA
+	const PHONECONTACT_TOLLFREE
 DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 
 DEF CHRIS EQU __trainer_class__
@@ -1043,7 +1043,7 @@ DEF BETA EQU __trainer_class__
 	const EN
 
 	trainerclass VETERANF
-	const JOANNE
+	const SUE
 	const JONET
 	const LITVYAK
 	const MADOKA
