@@ -48,7 +48,7 @@ PokemonNames::
 	rawchar "Vileplume@"
 	rawchar "Paras@@@@@"
 	rawchar "Parasect@@"
-	rawchar "Venonat@@@"
+	rawchar "Helgrimace"
 	rawchar "Venomoth@@"
 	rawchar "Diglett@@@"
 	rawchar "Dugtrio@@@"
