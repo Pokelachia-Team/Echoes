@@ -1972,7 +1972,7 @@ HasCutAvailable::
 	call CheckPartyMove
 	jr c, .no
 
-	ld de, ENGINE_HIVEBADGE
+	ld de, ENGINE_ZEPHYRBADGE
 	call CheckEngineFlag
 	jr c, .no
 

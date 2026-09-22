@@ -1,6 +1,8 @@
 Olsteeton_MapScriptHeader:
 	def_scene_scripts
 	scene_const SCENE_OLSTEETON_PSYDUCK_FOUND
+	scene_const SCENE_OLSTEETON_NOOP
+	scene_const SCENE_OLSTEETON_ASHER_CONFRONT
 
 	def_callbacks
 
@@ -32,6 +34,9 @@ Olsteeton_MapScriptHeader:
 	warp_event 35, 31, OLSTEETON_ROUTE_103_GATE, 2
 
 	def_coord_events
+	coord_event 21, 34, SCENE_OLSTEETON_ASHER_CONFRONT, OlsteetonAsherScript1
+	coord_event 22, 34, SCENE_OLSTEETON_ASHER_CONFRONT, OlsteetonAsherScript2
+
 
 	def_bg_events
 	bg_event 19, 27, BGEVENT_JUMPTEXT, OlsteetonSignText
@@ -54,6 +59,8 @@ Olsteeton_MapScriptHeader:
 	; bg_event  3, 24, BGEVENT_ITEM + PP_UP, EVENT_Olsteeton_CITY_HIDDEN_PP_UP
 
 	def_object_events
+	object_event 22, 29, SPRITE_ASHER, SPRITEMOVEDATA_STANDING_DOWN, 1, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_OLSTEETON_ASHER
+	object_event 10, 14, SPRITE_RUSTY, SPRITEMOVEDATA_SPINRANDOM_SLOW, 1, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, OlsteetonRustyScript, EVENT_OLSTEETON_ABANDONED_MILL_METAL_COAT
 	object_event 36,  3, SPRITE_SAILOR, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonFisherText, -1
 	pokemon_event 35,  3, RIVEBLOK, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_BLUE, OlsteetonRiveblokText, -1
 	object_event 12, 22, SPRITE_POKEFAN_F, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonTeacher1Text, -1
@@ -68,10 +75,10 @@ Olsteeton_MapScriptHeader:
 	object_event 24, 16, SPRITE_ROCKER, SPRITEMOVEDATA_STANDING_DOWN, 1, 0, -1, PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonBandRocker2Text, -1
 	object_event 26, 16, SPRITE_ROCKER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 1, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonBandRocker3Text, -1
 	object_event 26, 19, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonBandCooltrainerFText, -1
-	object_event 10, 14, SPRITE_RUSTY, SPRITEMOVEDATA_SPINRANDOM_SLOW, 1, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, OlsteetonRustyScript, EVENT_OLSTEETON_ABANDONED_MILL_METAL_COAT
 
 
 	object_const_def
+	const OLSTEETON_ASHER
 	const OLSTEETON_RUSTY
 
 	itemball_event 24,  10, ETHER, 1, EVENT_OLSTEETON_ETHER
@@ -212,6 +219,88 @@ OlsteetonRustyCrewText:
 	line "there about the"
 	cont "old steel mill."
 	done
+
+OlsteetonAsherScript1:
+	moveobject OLSTEETON_ASHER, 21, 29
+OlsteetonAsherScript2:
+	appear OLSTEETON_ASHER
+	special Special_FadeOutMusic
+	playmusic MUSIC_RIVAL_ENCOUNTER
+	applymovement OLSTEETON_ASHER, AsherEntersMovement
+	showtext AsherConfrontsText
+	showemote EMOTE_SHOCK, PLAYER, 10
+	pause 10
+	opentext
+	writetext AsherDemandsBattleText
+	promptbutton
+	turnobject OLSTEETON_ASHER, UP
+	writetext AsherSassText
+	waitbutton
+	closetext
+	applymovement OLSTEETON_ASHER, AsherExitsMovement
+	disappear OLSTEETON_ASHER
+	special Special_FadeOutMusic
+	waitsfx
+	playmapmusic
+	setmapscene ROUTE_103, SCENE_ROUTE_103_ASHER_BATTLE
+	clearevent ROUTE_103_RIVAL_BATTLE
+	setscene SCENE_OLSTEETON_NOOP
+	end
+
+AsherEntersMovement:
+	step_down
+	step_down
+	step_down
+	step_down
+	step_end
+
+AsherExitsMovement:
+	step_up
+	step_up
+	step_up
+	step_up
+	step_end
+
+AsherConfrontsText:
+	text "......"
+
+	para "you helped the"
+	line "bug #mon??"
+
+	para "UGH! It should"
+	line "have been me!"
+	done
+
+AsherDemandsBattleText:
+	text "You also managed"
+	line "to get a gym"
+	cont "badge??"
+
+	para "You may be worth"
+	line "my time after all."
+
+	para "Fine. I'll take"
+	line "you on..."
+
+	para "I'm going to beat"
+	line "you and Brooke,"
+
+	para "and become the"
+	line "greatest #mon"
+
+	para "Prof. in the world"
+	line "and I'll do it"
+
+	para "using only my"
+	line "Bug #mon!"
+	done
+
+AsherSassText:
+	para "Meet me on Route"
+	line "103. Unless you're"
+	cont "scared, that is."
+	done
+
 
 BoatText_Ask:
 	text "Take the boat"

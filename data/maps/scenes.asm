@@ -18,12 +18,14 @@ MapScenes::
 	scene_var POKECENTER_2F,                     wPokecenter2FSceneID
 	scene_var FIELD_LAB,                         wFieldLabSceneID
 	scene_var ROUTE_101,                         wRoute101SceneID
+	scene_var OLSTEETON,                         wOlsteetonSceneID
 	scene_var RIVERFRONT_APT_5F,                 wRiverfrontApt5FSceneID
 	scene_var RIVERFRONT_APT_ROOF,               wRiverfrontAptRoofSceneID
 	scene_var NATIONAL_FOREST_1,                 wNationalForest1SceneID
 	scene_var OLSTEETON_UNI_CLASSROOM_BIO,       wOlsteetonUniClassroomBioSceneID
 	scene_var OLSTEETON_UNI_OFFICE_POPLAR,       wOlsteetonUniOfficePoplarSceneID
 	scene_var OLSTEETON_ROUTE_103_GATE,          wOlsteetonRoute103GateSceneID
+	scene_var ROUTE_103,                         wRoute103SceneID
 	scene_var BRINESBURG,                        wBrinesburgSceneID
 	scene_var BRINESBURG_MAGIKORP_OFFICE,        wBrinesburgMagikorpOfficeSceneID
 	db -1

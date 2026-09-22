@@ -149,17 +149,20 @@ MomPhoneNoGymQuestText:
 	done
 
 MomPhoneLectureText:
-	text "Hello?"
+	text "Hi, <PLAYER>!"
+	line "It's your mom."
 
-	para "……<PLAYER>?"
-	line "I heard from the"
+	para "I'm calling to"
+	line "tell you that you"
 
-	para "Prof. that you went"
-	line "on a long trip."
+	para "have completed the"
+	line "#mon Echoes"
+	cont "Demo! I hope"
 
-	para "I wish you would"
-	line "have told me…"
+	para "you have enjoyed"
+	line "your time in the"
+	cont "Folkora Region!"
 
-	para "What about money?"
-	line "Should I save it?"
+	para "Thank you so much"
+	line "for playing!"
 	done
