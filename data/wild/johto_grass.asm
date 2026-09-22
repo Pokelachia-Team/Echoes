@@ -1,7 +1,7 @@
 ; Folkora Pokémon in grass
 
 	def_grass_wildmons ROUTE_101
-	db 10 percent ;encounter rate
+	db 20 percent ;encounter rate
 	; morn
 	wildmon 2, MEOWTH, FOLKORAN_FORM
 	wildmon 2, CRIBNAL
@@ -29,7 +29,7 @@
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_101_CAVE
-	db 10 percent ; encounter rate
+	db 20 percent ; encounter rate
 	; morn
 	wildmon 2, ZUBAT
 	wildmon 2, ZUBAT
@@ -57,7 +57,7 @@
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_102
-	db 10 percent ; encounter rate
+	db 20 percent ; encounter rate
 	wildmon 2, MEOWTH, FOLKORAN_FORM
 	wildmon 2, CRIBNAL
 	wildmon 3, MEOWTH, FOLKORAN_FORM
@@ -84,7 +84,7 @@
 	end_grass_wildmons
 
 	def_grass_wildmons OLSTEETON
-	db 10 percent ; encounter rate
+	db 15 percent ; encounter rate
 	wildmon 2, SINISTEA
 	wildmon 2, RATTATA, ALOLAN_FORM
 	wildmon 3, MEOWTH, FOLKORAN_FORM
@@ -111,7 +111,7 @@
 	end_grass_wildmons
 
 	def_grass_wildmons NATIONAL_FOREST_1
-	db 10 percent ; encounter rate
+	db 20 percent ; encounter rate
 	wildmon 3, CATERPIE
 	wildmon 3, CRIBNAL
 	wildmon 3, CATERPIE
@@ -136,10 +136,9 @@
 	wildmon 6, TIDIPOSS
 	wildmon 10, SCYTHER
 	end_grass_wildmons
-	db -1 ; end
 
 	def_grass_wildmons OLSTEETON_UNI
-	db 6 percent ; encounter rate
+	db 15 percent ; encounter rate
 	wildmon 2, KOFFING
 	wildmon 2, KOFFING
 	wildmon 3, MEOWTH, FOLKORAN_FORM
@@ -166,7 +165,7 @@
 	end_grass_wildmons
 
 	def_grass_wildmons OLSTEETON_ABANDONED_MILL_OUTSIDE
-	db 10 percent ; encounter rate
+	db 20 percent ; encounter rate
 	wildmon 3, DEBRITE
 	wildmon 3, MEOWTH, GALARIAN_FORM
 	wildmon 4, DEBRITE
@@ -191,10 +190,9 @@
 	wildmon 5, MEOWTH, GALARIAN_FORM
 	wildmon 7, SKARMORY
 	end_grass_wildmons
-	db -1 ; end
 
 	def_grass_wildmons ROUTE_103
-	db 10 percent ; encounter rate
+	db 20 percent ; encounter rate
 	wildmon 2, GROWLITHE, HISUIAN_FORM
 	wildmon 2, CRIBNAL
 	wildmon 3, GROWLITHE, HISUIAN_FORM
@@ -221,7 +219,7 @@
 	end_grass_wildmons
 
 	def_grass_wildmons SALT_BRINE_CAVE
-	db 6 percent ; encounter rate
+	db 12 percent ; encounter rate
 	; morn
 	wildmon 6, NACLI
 	wildmon 7, NACLI
@@ -233,7 +231,7 @@
 	; day
 	wildmon 6, NACLI
 	wildmon 7, NACLI
-	wildmon 6, ZUBAT
+	wildmon 6, WOOPER, PALDEAN_FORM
 	wildmon 6, ROGGENROLA
 	wildmon 7, ZUBAT
 	wildmon 8, ROGGENROLA
@@ -247,3 +245,5 @@
 	wildmon 8, ROGGENROLA
 	wildmon 14, NACLSTACK
 	end_grass_wildmons
+
+	db -1 ; end
