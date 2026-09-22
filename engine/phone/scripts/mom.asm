@@ -1,7 +1,7 @@
 MomPhoneScript:
-	checkevent EVENT_TALKED_TO_MOM_AFTER_MYSTERY_EGG_QUEST
+	checkevent EVENT_ROUTE_103_AUGUROTH_ENCOUNTER
 	iftruefwd .bcec5
-	checkevent EVENT_LEARNED_TO_CATCH_POKEMON
+	checkevent ROUTE_103_RIVAL_BATTLE
 	iftruefwd MomPhoneLectureScript
 	checkevent EVENT_GAVE_DOSSIER_TO_PAWPAW
 	iftruefwd MomPhoneNoGymQuestScript
@@ -134,9 +134,8 @@ MomPhoneNoGymQuestScript:
 
 MomPhoneLectureScript:
 	setevent EVENT_TALKED_TO_MOM_AFTER_MYSTERY_EGG_QUEST
-	setflag ENGINE_MOM_ACTIVE
+	; setflag ENGINE_MOM_ACTIVE
 	specialphonecall SPECIALCALL_NONE
 	farwritetext MomPhoneLectureText
-	yesorno
-	iftrue MomPhoneSaveMoneyScript
-	sjump MomPhoneWontSaveMoneyScript
+	end
+

@@ -9,8 +9,8 @@ NationalForest1_MapScriptHeader:
 	warp_event 21,  5, OLSTEETON_FOREST_GATE, 3
 
     def_coord_events
-	coord_event  8, 15, SCENE_NATIONAL_FOREST_1_LOGGING, WalkPastPoplarScript
-	coord_event  10, 15, SCENE_NATIONAL_FOREST_1_LOGGING, WalkPastPoplarScript
+	coord_event  8, 14, SCENE_NATIONAL_FOREST_1_LOGGING, WalkPastPoplarScript
+	coord_event 10, 14, SCENE_NATIONAL_FOREST_1_LOGGING, WalkPastPoplarScript
 
     def_bg_events
 	bg_event 25,  7, BGEVENT_JUMPTEXT, NationalForest1EntranceSignText
@@ -18,10 +18,10 @@ NationalForest1_MapScriptHeader:
 	bg_event 21, 17, BGEVENT_ITEM + SUPER_POTION, EVENT_NATIONAL_FOREST1_HIDDEN_SUPER_POTION
 
     def_object_events
-	object_event  9, 15, SPRITE_POPLAR, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ForestPoplarScript, EVENT_JOLLY_SODS_POPLAR
-	object_event  5, 23, SPRITE_LUMBERJACK, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, LumberjackBossScript, EVENT_DEFEATED_LUMBERJACKS
-	object_event  6, 17, SPRITE_LUMBERJACK, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_BROWN, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerLumberjackVince, EVENT_JOLLY_SODS_POPLAR
-	object_event  8, 20, SPRITE_LUMBERJACK, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_BROWN, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerLumberjackOswald, EVENT_JOLLY_SODS_POPLAR
+	object_event  9, 14, SPRITE_POPLAR, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ForestPoplarScript, EVENT_JOLLY_SODS_POPLAR
+	object_event  5, 25, SPRITE_LUMBERJACK, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, LumberjackBossScript, EVENT_DEFEATED_LUMBERJACKS
+	object_event  8, 20, SPRITE_LUMBERJACK, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, PAL_NPC_BROWN, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerLumberjackVince, EVENT_JOLLY_SODS_POPLAR
+	object_event  5, 22, SPRITE_LUMBERJACK, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_BROWN, OBJECTTYPE_GENERICTRAINER, 2, GenericTrainerLumberjackOswald, EVENT_JOLLY_SODS_POPLAR
 	object_event 14,  6, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, ConcernedCitizenScript, -1
 	; pokemon_event  7, 15, CUPICO, SPRITEMOVEDATA_POKEMON, -1, PAL_NPC_GREEN, NatForest1CupicoText, -1
 	object_event 29, 20, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, NatForest1FishermanText, -1
@@ -56,8 +56,7 @@ LumberjackBossScript:
 	iftruefwd .Battle
     jumptextfaceplayer GoonText1
 .Battle:
-    writetext GoonText2
-	writetext .BrettSeenText
+    writetext GoonText1
 	waitbutton
 	closetext
 	winlosstext .BrettBeatenText, 0
@@ -72,6 +71,7 @@ LumberjackBossScript:
 	promptbutton
 	setevent EVENT_DEFEATED_LUMBERJACKS
     setevent EVENT_JOLLY_SODS_POPLAR
+    setscene SCENE_NATIONAL_FOREST_1_LOGGING
     clearevent EVENT_POPLAR_IN_CLASSROOM
 	addcellnum PHONE_TOLLFREE
 	opentext
@@ -94,14 +94,12 @@ LumberjackBossScript:
     line "complaint!"
     done
 
-.BrettSeenText:
-	text "text text text"
-	line "line line line"
-	done
-
 .BrettBeatenText:
-	text "text text text"
-	line "line line line"
+	text "Argh! This is too"
+	line "much headache!"
+
+    para "This was supposed"
+    line "to be a simple job"
 	done
 
 WalkPastPoplarScript:
@@ -109,18 +107,20 @@ WalkPastPoplarScript:
 	end
 
 ForestPoplarScript:
+	showemote EMOTE_SHOCK, NATIONALFOREST1_POPLAR, 15
     faceplayer
     opentext
     checkevent EVENT_DEFEATED_LUMBERJACKS
     iftruefwd .MissionDone
-	showemote EMOTE_SHOCK, NATIONALFOREST1_POPLAR, 15
     setscene SCENE_NATIONAL_FOREST_1_NOOP
-	jumpopenedtext ForestPoplarText1
+	writetext ForestPoplarText1
+    waitbutton
+	showemote EMOTE_SAD, NATIONALFOREST1_POPLAR, 15
+    jumpopenedtext ForestPoplarText2
 .MissionDone:
     faceplayer
 	checkevent EVENT_GOT_HM01_CUT
 	iftrue_jumptextfaceplayer Text_ForestPoplarTalkAfter
-	showemote EMOTE_SHOCK, NATIONALFOREST1_POPLAR, 15
 	writetext Text_ForestPoplarCut
 	promptbutton
 	verbosegivetmhm HM_CUT
@@ -130,17 +130,46 @@ ForestPoplarScript:
 	closetext
 	setevent EVENT_JOLLY_SODS_POPLAR
 	clearevent EVENT_POPLAR_IN_CLASSROOM
+    setmapscene OLSTEETON, SCENE_OLSTEETON_ASHER_CONFRONT
     setscene SCENE_NATIONAL_FOREST_1_NOOP
 	end
 
 ForestPoplarText1:
-	text "intro text text"
-	line "line line line"
+	text "Oh, <PLAYER>!"
+	line "Thank you for"
+    cont "coming!"
+
+    para "There's a company"
+    line "logging here, but"
+
+    para "it is decimating"
+    line "the habitat of"
+
+    para "the Bug #mon"
+    line "that live here!"
+	done
+
+ForestPoplarText2:
+	text "I tried explaining"
+	line "but they won't"
+    cont "listen!"
+
+    para "They told me to"
+    line "battle them or"
+    cont "buzz off, but I"
+
+    para "left my #mon"
+    line "back at the"
+    cont "university..."
+
+    para "Please help me"
+    line "get them to stop!"
 	done
 
 Text_ForestPoplarTalkAfter:
-	text "after text text"
-	line "line line line"
+	text "Don't use it to"
+	line "destroy #mon"
+    cont "habitats...hah..."
 	done
 
 Text_ForestPoplarOutro:
@@ -211,11 +240,6 @@ GoonText1:
     para "It's just some"
     line "trees, anyway."
     done
-
-GoonText2:
-	text "text text text"
-	line "line line line"
-	done
 
 ; NatForest1CupicoText:
 ;     text "This Cupico"
@@ -292,16 +316,6 @@ GotForestNumberText:
 GenericTrainerVeteranFSue:
     generictrainer VETERANF, SUE, EVENT_BEAT_VETERANF_SUE, .SeenText, .BeatenText
     
-	text "text text text"
-	line "line line line"
-	done
-
-.SeenText:
-    text "You're the nosy"
-    line "sort, aren't ya'!"
-    done
-
-.BeatenText:
     text "Well, since you"
     line "want to know so"
     cont "badly..."
@@ -313,36 +327,54 @@ GenericTrainerVeteranFSue:
     line "about this spot!"
     done
 
+.SeenText:
+    text "You're the nosy"
+    line "sort, aren't ya'!"
+    done
+
+.BeatenText:
+    text "Fine! I'll tell ya"
+    line "my secret..."
+    done
+
 GenericTrainerLumberjackVince:
 	generictrainer LUMBERJACK, VINCE, EVENT_BEAT_LUMBERJACK_VINCE, .SeenText, .BeatenText
 
-	text "text text text"
-	line "line line line"
+	text "Move back home"
+	line "they said... it'll"
+
+    para "be good for you"
+    line "they said..."
 	done
 
 .SeenText:
-	text "text text text"
-	line "line line line"
+	text "Ayyyyyyy!"
+	line "I'm choppin' here!"
 	done
 
 .BeatenText:
-	text "text text text"
-	line "line line line"
+	text "I should've just"
+	line "stayed in Unova."
 	done
 
 GenericTrainerLumberjackOswald:
     generictrainer LUMBERJACK, OSWALD, EVENT_BEAT_LUMBERJACK_OSWALD, .SeenText, .BeatenText
 
-	text "text text text"
-	line "line line line"
+	text "Why you messin'"
+	line "with us anyway?"
+
+    para "You a Harkrow spy"
+    line "or somethin'?"
 	done
 
 .SeenText:
-	text "text text text"
-	line "line line line"
+	text "I'll teach ya not"
+	line "to mess with the"
+    cont "Morcap family!"
 	done
 
 .BeatenText:
-	text "text text text"
-	line "line line line"
+	text "Guess we should've"
+	line "brought some more"
+    cont "muscle..."
 	done

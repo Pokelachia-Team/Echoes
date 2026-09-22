@@ -2217,9 +2217,14 @@ Asher1Group:
 
 	def_trainer_class ASHER1
 	def_trainer ASHER1_1, "Asher"
-	tr_mon 6, WEEDLE
-	tr_mon 8, DURANT
-	tr_mon 10, HERACROSS
+	tr_mon 14, BEEDRILL
+		tr_dvs 15 All
+	tr_mon 14, DURANT
+		tr_dvs 15 All
+	tr_mon 15, SCYTHER
+		tr_dvs 15 All
+	tr_mon 16, VENONAT
+		tr_dvs 15 All
 	end_trainer
 
 
