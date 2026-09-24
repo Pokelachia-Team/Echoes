@@ -8,7 +8,7 @@
 	db HARD_STONE, LUCKY_EGG ; held items
 	dn GENDER_F100, HATCH_SLOWEST ; gender ratio, step cycles to hatch
 
-	abilities_for NOFAWTS, NATURAL_CURE, SERENE_GRACE, NATURAL_CURE
+	abilities_for NOFAWTS, PASTEL_VEIL, SERENE_GRACE, PIXILATE
 	db GROWTH_FAST ; growth rate
 	dn EGG_NONE, EGG_NONE ; egg groups
 

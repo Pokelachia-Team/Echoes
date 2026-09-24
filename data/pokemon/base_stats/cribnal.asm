@@ -1,10 +1,5 @@
-if DEF(FAITHFUL)
-	bst 262,  40,  60,  30,  31,  31,  70
-	;   bst   hp  atk  def  sat  sdf  spe
-else
 	bst 272,  45,  60,  35,  31,  31,  70
 	;   bst   hp  atk  def  sat  sdf  spe
-endc
 
 	db NORMAL, FLYING ; type
 	db 255 ; catch rate
@@ -12,7 +7,7 @@ endc
 	db NO_ITEM, SHARP_BEAK ; held items
 	dn GENDER_F50, HATCH_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for CRIBNAL, KEEN_EYE, KEEN_EYE, SNIPER
+	abilities_for CRIBNAL, TANGLED_FEET, EARLY_BIRD, GLUTTONY
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_FLYING, EGG_FLYING ; egg groups
 

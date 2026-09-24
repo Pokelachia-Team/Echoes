@@ -4,10 +4,10 @@
 	db DARK, NORMAL ; type
 	db 60 ; catch rate
 	db 189 ; base exp
-	db ALWAYS_ITEM_2, SITRUS_BERRY ; held items
+	db ALWAYS_ITEM_2, SWEET_HONEY ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for URSARING, GUTS, QUICK_FEET, UNNERVE
+	abilities_for URSARING, INTIMIDATE, TOUGH_CLAWS, UNNERVE
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 

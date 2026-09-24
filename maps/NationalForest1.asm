@@ -363,7 +363,7 @@ GenericTrainerLumberjackOswald:
 	text "Why you messin'"
 	line "with us anyway?"
 
-    para "You a Harkrow spy"
+    para "You a Harcrow spy"
     line "or somethin'?"
 	done
 
