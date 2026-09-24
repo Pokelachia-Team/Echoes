@@ -4,10 +4,10 @@
 	db DARK, NORMAL ; type
 	db 120 ; catch rate
 	db 70 ; base exp
-	db ALWAYS_ITEM_2, ORAN_BERRY ; held items
+	db ALWAYS_ITEM_2, SWEET_HONEY ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for TEDDIURSA, PICKUP, QUICK_FEET, HONEY_GATHER
+	abilities_for TEDDIURSA, OBLIVIOUS, TOUGH_CLAWS, CUTE_CHARM
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 

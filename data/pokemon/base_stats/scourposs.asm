@@ -1,13 +1,13 @@
-	bst 445,  90,  85,  65,  45,  55, 105
+	bst 455,  90,  85,  65,  45,  60, 110
 	;   bst   hp  atk  def  sat  sdf  spe
 
 	db NORMAL, POISON ; type
 	db 90 ; catch rate
 	db 126 ; base exp
-	db ORAN_BERRY, SITRUS_BERRY ; held items
+	db ORAN_BERRY, POISON_BARB ; held items
 	dn GENDER_F50, HATCH_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for SCOURPOSS, RUN_AWAY, KEEN_EYE, FRISK
+	abilities_for SCOURPOSS, POISON_HEAL, PICKUP, RATTLED
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 

@@ -1,18 +1,13 @@
-if DEF(FAITHFUL)
-	bst 215,  35,  46,  34,  35,  45,  20
-	;   bst   hp  atk  def  sat  sdf  spe
-else
 	bst 280,  45,  50,  35,  35,  45,  70
 	;   bst   hp  atk  def  sat  sdf  spe
-endc
 
 	db NORMAL, POISON ; type
 	db 255 ; catch rate
 	db 57 ; base exp
-	db NO_ITEM, ORAN_BERRY ; held items
+	db NO_ITEM, POISON_BARB ; held items
 	dn GENDER_F50, HATCH_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for TIDIPOSS, RUN_AWAY, KEEN_EYE, FRISK
+	abilities_for TIDIPOSS, POISON_HEAL, PICKUP, RATTLED
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 

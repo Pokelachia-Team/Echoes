@@ -8,7 +8,7 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F100, HATCH_SLOWEST ; gender ratio, step cycles to hatch
 
-	abilities_for ETHEREDEER, NATURAL_CURE, SERENE_GRACE, NATURAL_CURE
+	abilities_for ETHEREDEER, PASTEL_VEIL, SERENE_GRACE, PIXILATE
 	db GROWTH_FAST ; growth rate
 	dn EGG_FAIRY, EGG_FAIRY ; egg groups
 

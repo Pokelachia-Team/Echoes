@@ -208,10 +208,6 @@ WhitneyGroup:
 		tr_extra CUTE_CHARM
 		tr_evs 96 HP
 		tr_moves METRONOME, DISARM_VOICE, DOUBLE_SLAP, ATTRACT
-	tr_mon 20, TEDDIURSA, FEMALE
-		tr_extra PICKUP
-		tr_evs 32 HP, 32 Atk, 32 Spe
-		tr_moves SCRATCH, ATTRACT, LICK, FEINT_ATTACK
 	tr_mon 19, MUNCHLAX, FEMALE
 		tr_extra THICK_FAT
 		tr_evs 64 Def, 32 SDf
@@ -236,7 +232,7 @@ WhitneyGroup:
 		tr_evs 252 HP, 252 Def, 4 SDf
 		tr_moves CALM_MIND, MOONBLAST, FRESH_SNACK, THUNDER_WAVE
 	tr_mon 70, FLUTTRFAWN @ EVIOLITE, FEMALE
-		tr_extra NATURAL_CURE, DEF_UP_ATK_DOWN
+		tr_extra SERENE_GRACE, DEF_UP_ATK_DOWN
 		tr_evs 252 HP, 252 Def, 4 SDf
 		tr_moves TOXIC, SEISMIC_TOSS, FRESH_SNACK, PROTECT
 	tr_mon 72, WIGGLYTUFF @ THROAT_SPRAY, FEMALE
@@ -820,7 +816,7 @@ ChampionGroup:
 		tr_evs 164 Atk, 252 Spe
 		tr_moves AERIAL_ACE, ANCIENTPOWER, ROCK_SLIDE, GIGA_IMPACT
 	tr_mon 57, PYROBOROS @ WISE_GLASSES, MALE
-		tr_extra SOLAR_POWER, SATK_UP_ATK_DOWN
+		tr_extra MULTISCALE, SATK_UP_ATK_DOWN
 		tr_evs 164 SAt, 252 Spe
 if DEF(FAITHFUL)
 		tr_moves FLAMETHROWER, AIR_SLASH, FOCUS_BLAST, HYPER_BEAM
@@ -850,17 +846,10 @@ endc
 		tr_extra TOUGH_CLAWS, ATK_UP_SATK_DOWN
 		tr_evs 252 Atk, 4 Def, 252 Spe
 		tr_moves STONE_EDGE, BRAVE_BIRD, CRUNCH, EARTHQUAKE
-if DEF(FAITHFUL)
-	tr_mon 75, PYROBOROS @ LEFTOVERS, MALE
-		tr_extra DROUGHT, SPE_UP_ATK_DOWN
-		tr_evs 252 SAt, 4 Def, 252 Spe
-		tr_moves FIRE_BLAST, SOLAR_BEAM, FOCUS_BLAST, AIR_SLASH
-else
 	tr_mon 75, PYROBOROS @ LEFTOVERS, MALE
 		tr_extra BLAZE, SPE_UP_SATK_DOWN
 		tr_evs 252 Atk, 4 Def, 252 Spe
 		tr_moves DRAGON_DANCE, OUTRAGE, FLARE_BLITZ, ROOST
-endc
 	tr_mon 80, DRAGONITE @ WEAK_POLICY, MALE
 		tr_extra MULTISCALE, ATK_UP_SATK_DOWN, SHINY
 		tr_evs 252 Atk, 4 Def, 252 Spe
@@ -1408,15 +1397,9 @@ RedGroup:
 		tr_evs 252 HP, 4 SDf, 252 Def
 		tr_moves BODY_SLAM, CRUNCH, CURSE, REST
 	tr_mon 88, PYROBOROS @ SAFE_GOGGLES, MALE
-if DEF(FAITHFUL)
 		tr_extra BLAZE, SPE_UP_SATK_DOWN
 		tr_evs 252 Atk, 4 Def, 252 Spe
 		tr_moves FLARE_BLITZ, SWORDS_DANCE, EARTHQUAKE, AERIAL_ACE
-else
-		tr_extra DROUGHT, SPE_UP_SATK_DOWN
-		tr_evs 252 Atk, 4 Def, 252 Spe
-		tr_moves FLARE_BLITZ, SWORDS_DANCE, EARTHQUAKE, DRAGON_CLAW
-endc
 	end_trainer
 
 
@@ -1453,15 +1436,9 @@ else
 		tr_moves FIRE_BLAST, AIR_SLASH, SOLAR_BEAM, SUNNY_DAY
 endc
 	tr_mon 100, CONIFURY @ MIRACLE_SEED, FEMALE
-if DEF(FAITHFUL)
 		tr_extra OVERGROW, SPE_UP_ATK_DOWN
 		tr_evs 252 HP, 4 Def, 252 SAt
 		tr_moves GIGA_DRAIN, SLUDGE_BOMB, GROWTH, SLEEP_POWDER
-else
-		tr_extra CHLOROPHYLL, SPE_UP_ATK_DOWN
-		tr_evs 252 HP, 4 Def, 252 SAt
-		tr_moves GIGA_DRAIN, SLUDGE_BOMB, GROWTH, HP_FIRE
-endc
 	tr_mon 95, SYLVEON @ CHESTO_BERRY, FEMALE
 		tr_extra PIXILATE, DEF_UP_ATK_DOWN
 		tr_evs 252 HP, 4 SAt, 252 Def
@@ -6107,7 +6084,7 @@ BattleGirlGroup:
 		tr_dvs 15 All
 		tr_moves CROSS_CHOP, GUNK_SHOT, BULK_UP, NIGHT_SLASH
 	tr_mon LEVEL_FROM_BADGES + 10, URSARING @ PROTECT_PADS, MALE
-		tr_extra UNNERVE, ATK_UP_SATK_DOWN
+		tr_extra TOUGH_CLAWS, ATK_UP_SATK_DOWN
 		tr_dvs 15 All
 		tr_moves PLAY_ROUGH, SLASH, BELLY_DRUM, NIGHT_SLASH
 	end_trainer
@@ -6817,11 +6794,6 @@ CooltrainerMGroup:
 		tr_dvs 14 All
 		tr_evs 20 HP
 		tr_moves GUST, ABSORB, ASTONISH, BITE
-	tr_mon LEVEL_FROM_BADGES + 6, CUPICO @ MIRACLE_SEED, MALE
-		tr_extra CHLOROPHYLL, SPE_UP_DEF_DOWN
-		tr_dvs 14 All
-		tr_evs 20 HP
-		tr_moves LEECH_SEED, VINE_WHIP, SLEEP_POWDER, MUD_SLAP
 	end_trainer
 
 	def_trainer COOLTRAINERM_COREY, "Corey"
@@ -7055,7 +7027,7 @@ endc
 		tr_evs 104 HP
 		tr_moves WHIRLPOOL, PERISH_SONG, AQUA_TAIL, PROTECT
 	tr_mon LEVEL_FROM_BADGES + 5, SIZZOO @ BINDING_BAND, FEMALE
-		tr_extra SOLAR_POWER, SPE_UP_DEF_DOWN
+		tr_extra BLAZE, SPE_UP_DEF_DOWN
 		tr_evs 104 HP
 		tr_moves FIRE_SPIN, DRAGON_RAGE, SMOKESCREEN, PROTECT
 	end_trainer
@@ -7497,11 +7469,7 @@ ProfPoplarGroup:
 		tr_evs 252 HP, 4 SDf, 252 Def
 		tr_moves GIGA_DRAIN, PROTECT, LEECH_SEED, HEALINGLIGHT
 	tr_mon 80, PYROBOROS @ LIFE_ORB, MALE
-if !DEF(FAITHFUL)
 		tr_extra BLAZE, SPE_UP_SATK_DOWN
-else
-		tr_extra DROUGHT, SPE_UP_SATK_DOWN
-endc
 		tr_evs 252 Atk, 4 Def, 252 Spe
 		tr_moves FLARE_BLITZ, DRAGON_CLAW, CRUNCH, DRAGON_DANCE
 	tr_mon 80, RIVASTION @ WHITE_HERB, MALE
@@ -7941,7 +7909,7 @@ else
 		tr_moves PROTECT, BUG_BUZZ, DRAGON_PULSE, ANCIENTPOWER
 endc
 	tr_mon 62, URSALUNA @ LEFTOVERS, FEMALE
-		tr_extra GUTS
+		tr_extra TOUGH_CLAWS
 		tr_evs 252 Atk, 164 HP
 		tr_moves EARTHQUAKE, SHADOW_CLAW, PLAY_ROUGH, FACADE
 	tr_mon 61, GLISCOR @ KINGS_ROCK, FEMALE
@@ -8412,7 +8380,7 @@ endc
 		tr_evs 252 Spe, 132 SAt
 		tr_moves FIRE_BLAST, FOCUS_BLAST, PSYCHIC, HP_ICE
 	tr_mon 63, PYROBOROS, FEMALE
-		tr_extra SOLAR_POWER
+		tr_extra MULTISCALE
 		tr_evs 252 Spe, 132 SAt
 		tr_moves FIRE_BLAST, AIR_SLASH, DRAGON_PULSE, FOCUS_BLAST
 	tr_mon 61, DRAGONITE, FEMALE
@@ -8452,7 +8420,7 @@ endc
 		tr_evs 252 HP, 132 SAt
 		tr_moves SURF, ICE_BEAM, RAIN_DANCE, REST
 	tr_mon 63, RIVASTION, MALE
-		tr_extra RAIN_DISH
+		tr_extra HUGE_POWER
 		tr_evs 252 HP, 132 Def
 		tr_moves RAIN_DANCE, PROTECT, SURF, DEFENSE_CURL
 	tr_mon 61, JYNX, FEMALE
@@ -8492,7 +8460,7 @@ endc
 		tr_evs 252 Atk, 132 Spe
 		tr_moves THUNDERPUNCH, CROSS_CHOP, IRON_TAIL, BULK_UP
 	tr_mon 63, CONIFURY, MALE
-		tr_extra CHLOROPHYLL
+		tr_extra IRON_BARBS
 		tr_evs 252 SAt, 132 Spe
 		tr_moves SUNNY_DAY, GROWTH, GIGA_DRAIN, HP_FIRE
 	tr_mon 61, SNORLAX, MALE
@@ -8949,7 +8917,7 @@ LarryGroup:
 		tr_evs 252 Atk, 4 Def, 252 Spe
 		tr_moves BODY_SLAM, EARTHQUAKE, STONE_EDGE, ZEN_HEADBUTT
 	tr_mon 55, CUARDHART @ SCOPE_LENS, MALE
-		tr_extra SNIPER
+		tr_extra TECHNICIAN
 		tr_evs 4 HP, 252 Atk, 252 Spe
 		tr_moves DRILL_PECK, FACADE, U_TURN, THIEF
 if DEF(FAITHFUL)
@@ -8968,7 +8936,7 @@ endc
 		tr_evs 4 HP, 252 Atk, 252 Spe
 		tr_moves FACADE, SUCKER_PUNCH, U_TURN, SWORDS_DANCE
 	tr_mon 54, URSARING @ TOXIC_ORB, MALE
-		tr_extra QUICK_FEET
+		tr_extra TOUGH_CLAWS
 		tr_evs 252 Spe, 36 Atk
 		tr_moves GUNK_SHOT, SLASH, CRUNCH, PLAY_ROUGH
 	tr_mon 57, DUDUNSPARCE @ LEFTOVERS, MALE | DUDUNSPARCE_TWO_SEGMENT_FORM
@@ -8991,7 +8959,7 @@ endc
 		tr_evs 252 Atk, 4 Def, 252 Spe
 		tr_moves DOUBLE_EDGE, EARTHQUAKE, STONE_EDGE, ZEN_HEADBUTT
 	tr_mon 73, CUARDHART @ SCOPE_LENS, MALE
-		tr_extra SNIPER, ATK_UP_SATK_DOWN
+		tr_extra TECHNICIAN, ATK_UP_SATK_DOWN
 		tr_evs 4 HP, 252 Atk, 252 Spe
 		tr_moves DRILL_PECK, FACADE, U_TURN, THIEF
 if DEF(FAITHFUL)
@@ -9010,7 +8978,7 @@ endc
 		tr_evs 4 HP, 252 Atk, 252 Spe
 		tr_moves FACADE, SUCKER_PUNCH, U_TURN, SWORDS_DANCE
 	tr_mon 72, URSALUNA @ FLAME_ORB, MALE
-		tr_extra GUTS, ATK_UP_SATK_DOWN
+		tr_extra TOUGH_CLAWS, ATK_UP_SATK_DOWN
 		tr_evs 252 HP, 4 Def, 252 Atk
 		tr_moves FACADE, EARTHQUAKE, CRUNCH, DRAIN_PUNCH
 	tr_mon 75, DUDUNSPARCE @ LEFTOVERS, MALE | DUDUNSPARCE_TWO_SEGMENT_FORM
@@ -9240,15 +9208,9 @@ endc
 		tr_evs 252 HP, 4 SDf, 252 Spe
 		tr_moves ICE_BEAM, AIR_SLASH, ROOST, SUBSTITUTE
 	tr_mon 71, PYROBOROS @ CHARCOAL, MALE
-if DEF(FAITHFUL)
-		tr_extra DROUGHT, SPE_UP_ATK_DOWN
-		tr_evs 252 SAt, 4 Def, 252 Spe
-		tr_moves FIRE_BLAST, SOLAR_BEAM, FOCUS_BLAST, AIR_SLASH
-else
 		tr_extra BLAZE, SPE_UP_SATK_DOWN
 		tr_evs 252 Atk, 4 Def, 252 Spe
 		tr_moves FLARE_BLITZ, DRAGON_CLAW, THUNDERPUNCH, SWORDS_DANCE
-endc
 	tr_mon 73, DRAGONITE @ LUM_BERRY, MALE
 		tr_extra MULTISCALE, SPE_UP_SATK_DOWN
 		tr_evs 252 Atk, 4 Def, 252 Spe

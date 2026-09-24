@@ -1,5 +1,5 @@
-	bst 298, 28,  50, 75,  30,  70, 45 
-	;   BST  hp  atk  def  spe  sat  sdf
+	bst 298,  28,  50,  75,  70,  45,  30  
+	;   bst   hp  atk  def  sat  sdf  spe
 
 	db FIRE, STEEL ; type
 	db 190 ; catch rate
