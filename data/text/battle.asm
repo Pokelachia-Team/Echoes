@@ -2127,3 +2127,16 @@ LawrenceFinalPkmnText:
 ReiFinalPkmnText:
 	text "I'm not done yet."
 	prompt
+
+SaltCureText:
+	text "<USER> is"
+	line "attempting to"
+
+	para "salt cure"
+	line "<TARGET>!"
+	prompt
+
+BeingCuredText:
+	text "<USER> is"
+	line "being salt cured!"
+	prompt

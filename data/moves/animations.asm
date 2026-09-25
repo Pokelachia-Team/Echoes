@@ -4087,30 +4087,38 @@ BattleAnim_MudSlap:
 	anim_call BattleAnimSub_SandOrMud
 	anim_ret
 
-BattleAnim_Octazooka:
-	anim_3gfx ANIM_GFX_EGG, ANIM_GFX_SMOKE_PUFF, ANIM_GFX_POISON
-	anim_obp0 $f0
-	anim_sound 6, 2, SFX_TACKLE
-	anim_obj ANIM_OBJ_OCTAZOOKA, 64, 92, $4
-	anim_wait 2
-	anim_obj ANIM_OBJ_OCTAZOOKA_SMOKE, 64, 92, $0
-	anim_wait 2
-	anim_obj ANIM_OBJ_OCTAZOOKA_SMOKE, 80, 84, $0
-	anim_wait 2
-	anim_obj ANIM_OBJ_OCTAZOOKA_SMOKE, 96, 76, $0
-	anim_wait 2
-	anim_obj ANIM_OBJ_OCTAZOOKA_SMOKE, 112, 68, $0
-	anim_wait 2
-	anim_obj ANIM_OBJ_OCTAZOOKA_SMOKE, 126, 60, $0
+BattleAnim_SaltCure:
+	anim_setobjpal PAL_BATTLE_OB_YELLOW, PAL_BTLCUSTOM_ICE
+	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_ICE
+	anim_2gfx ANIM_GFX_SPEED, ANIM_GFX_HAZE
+	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
+	anim_bgeffect ANIM_BG_ALTERNATE_HUES, $0, $2, $0
+	anim_battlergfx_1row
+	anim_sound 0, 0, SFX_SHINE
+.loop
+	; anim_obj ANIM_OBJ_POWER_GEM, 64, 80, $4
+	; anim_wait 4
+	; anim_obj ANIM_OBJ_SHOOTING_SPARKLE, 64, 88, $4
+	; anim_wait 4
+	anim_obj ANIM_OBJ_POWER_GEM, 64, 96, $4
 	anim_wait 4
-	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $14, $2, $0
-	anim_bgeffect ANIM_BG_FADE_MON_TO_BLACK_REPEATING, $0, BG_EFFECT_TARGET, $40
-	anim_sound 0, 0, SFX_AEROBLAST
-	anim_obj ANIM_OBJ_INK_SPLASH, 140, 56, $5c
-	anim_obj ANIM_OBJ_INK_SPLASH, 140, 56, $e8
-	anim_obj ANIM_OBJ_INK_SPLASH, 140, 56, $d0
-	anim_obj ANIM_OBJ_INK_SPLASH, 140, 56, $50
-	anim_wait 40
+	anim_obj ANIM_OBJ_SHOOTING_SPARKLE, 64, 80, $4
+	anim_wait 4
+	anim_obj ANIM_OBJ_POWER_GEM, 64, 88, $4
+	anim_wait 4
+	anim_obj ANIM_OBJ_SHOOTING_SPARKLE, 64, 96, $4
+	anim_wait 4
+	anim_loop 2, .loop
+	anim_wait 16
+	anim_bgeffect ANIM_BG_BATTLEROBJ_2ROW, $0, BG_EFFECT_USER, $0
+	anim_wait 6
+	anim_bgeffect ANIM_BG_NIGHT_SHADE, $0, BG_EFFECT_TARGET, $8
+	anim_wait 64
+	anim_incbgeffect ANIM_BG_NIGHT_SHADE
+	anim_bgeffect ANIM_BG_SHOW_MON, $0, BG_EFFECT_USER, $0
+	anim_wait 4
+	anim_incobj 7
+	anim_wait 1
 	anim_ret
 
 BattleAnim_Spikes:
@@ -6312,6 +6320,16 @@ BattleAnimSub_StatChange:
 .continue
 	anim_obp0 $30
 	anim_ret
+
+BattleAnim_SaltCured:
+	anim_setobjpal PAL_BATTLE_OB_GRAY, PAL_BTLCUSTOM_ICE
+	anim_1gfx ANIM_GFX_ICE
+	anim_bgeffect ANIM_BG_WHITE_HUES, $0, $8, $0
+.loop
+	anim_call BattleAnimSub_Hail
+	anim_loop 2, .loop
+	anim_ret
+
 
 ; ================================
 ; unused animations below here

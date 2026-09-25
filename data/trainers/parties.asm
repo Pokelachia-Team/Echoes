@@ -2883,8 +2883,6 @@ FisherGroup:
 		tr_moves WATERFALL, FURY_STRIKES, POISON_JAB, RAIN_DANCE
 	tr_mon 40, SEAKING
 		tr_moves WATERFALL, BODY_SLAM, POISON_JAB, AGILITY
-	tr_mon 42, OCTILLERY
-		tr_moves PSYBEAM, AURORA_BEAM, OCTAZOOKA, HYPER_BEAM
 	end_trainer
 
 	def_trainer JUSTIN, "Justin"
@@ -7257,10 +7255,6 @@ ProtonGroup:
 		tr_extra POISON_POINT
 		tr_evs 252 Spe
 		tr_moves MINIMIZE, BUBBLE_BEAM, PAIN_SPLIT, ROLLOUT
-	tr_mon 40, OCTILLERY @ LUM_BERRY, MALE
-		tr_extra SNIPER
-		tr_evs 252 SAt
-		tr_moves OCTAZOOKA, POWER_WHIP, FLAMETHROWER, ICE_BEAM
 	tr_mon 41, WEEZING @ CHARCOAL, MALE
 		tr_extra LEVITATE
 		tr_evs 252 SAt

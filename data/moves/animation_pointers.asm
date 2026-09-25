@@ -192,7 +192,7 @@ BattleAnimations::
 	fardw BattleAnim_BellyDrum
 	fardw BattleAnim_SludgeBomb
 	fardw BattleAnim_MudSlap
-	fardw BattleAnim_Octazooka
+	fardw BattleAnim_SaltCure
 	fardw BattleAnim_Spikes
 	fardw BattleAnim_ZapCannon
 	fardw BattleAnim_Foresight
@@ -283,6 +283,7 @@ endc
 	fardw BattleAnim_StatUp
 	fardw BattleAnim_StatDown
 	fardw BattleAnim_Sharpen
+	fardw BattleAnim_SaltCured
 	fardw BattleAnim_ThrowPokeBall
 	fardw BattleAnim_SendOutMon
 	fardw BattleAnim_ReturnMon

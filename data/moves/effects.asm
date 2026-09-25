@@ -2101,3 +2101,26 @@ FlareBlitz:
 	burntarget
 	posthiteffects
 	endmove
+
+SaltCure:
+	checkobedience
+	usedmovetext
+	doturn
+	hastarget
+	checkhit
+	checkpriority
+	critical
+	damagestats
+	damagecalc
+	stab
+	damagevariation
+	moveanim
+	failuretext
+	applydamage
+	criticaltext
+	supereffectivetext
+	postfainteffects
+	effectchance
+	saltcure
+	posthiteffects
+	endmove

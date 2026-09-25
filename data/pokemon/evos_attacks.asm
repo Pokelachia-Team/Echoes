@@ -2404,6 +2404,7 @@ endc
 	learnset 5, ROCK_THROW
 	learnset 7, MUD_SLAP
 	learnset 10, MAGNITUDE
+	learnset 13, SALT_CURE
 	learnset 16, HEADBUTT
 	learnset 21, ROCK_BLAST
 	learnset 25, RECOVER
@@ -4679,7 +4680,6 @@ endc
 	learnset 54, HYPER_BEAM
 
 	evos_attacks Octillery
-	learnset 1, OCTAZOOKA ; evolution move
 	learnset 1, ROCK_BLAST
 	learnset 1, POWER_WHIP ; new move
 	learnset 1, WATER_GUN

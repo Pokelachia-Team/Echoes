@@ -29,6 +29,7 @@ HandleBetweenTurnEffects:
 	ret c
 	; nightmare
 	call HandleCurse
+	call HandleSaltCure
 	call CheckFaint
 	ret c
 	call HandleWrap
@@ -1093,3 +1094,36 @@ HandleRoost:
 	ld [hld], a
 	ld [hl], a
 	ret
+
+HandleSaltCure:
+	call SetFastestTurn
+	call .do_it
+	call SwitchTurn
+
+.do_it
+	ld a, BATTLE_VARS_SUBSTATUS1
+	call GetBattleVarAddr
+	bit SUBSTATUS_SALT_CURE, [hl]
+	call nz, PreventEndturnDamage
+	ret z
+
+	xor a
+	ld [wNumHits], a
+	ld de, ANIM_SALT_CURED
+	farcall PlayBattleAnimDE_OnlyIfVisible
+	ld a, BATTLE_VARS_MOVE_TYPE
+	call GetBattleVar
+	cp WATER
+	jr .steelwaterdamage
+	cp STEEL
+	jr .steelwaterdamage
+	call nz, GetSixteenthMaxHP
+	farcall SubtractHPFromUser
+	ld hl, BeingCuredText
+	jmp StdBattleTextbox
+.steelwaterdamage
+	jmp GetEighthMaxHP
+	call GetQuarterMaxHP
+	farcall SubtractHPFromUser
+	ld hl, BeingCuredText
+	jmp StdBattleTextbox

@@ -70,6 +70,7 @@ INCLUDE "engine/battle/move_effects/trick_room.asm"
 INCLUDE "engine/battle/move_effects/triple_kick.asm"
 INCLUDE "engine/battle/move_effects/toxic.asm"
 INCLUDE "engine/battle/move_effects/weather.asm"
+INCLUDE "engine/battle/move_effects/salt_cure.asm"
 
 
 DoTurn:

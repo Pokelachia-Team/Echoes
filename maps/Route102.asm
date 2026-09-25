@@ -6,8 +6,8 @@ Route102_MapScriptHeader:
 	def_warp_events
 	warp_event  4, 12, ROUTE_101_102_GATE, 3
 	warp_event  4, 13, ROUTE_101_102_GATE, 4
-	warp_event 25,  4, ROUTE_102_OLSTEETON_GATE, 1
-	warp_event 25,  5, ROUTE_102_OLSTEETON_GATE, 2
+	warp_event 27,  4, ROUTE_102_OLSTEETON_GATE, 1
+	warp_event 27,  5, ROUTE_102_OLSTEETON_GATE, 2
 
 	def_coord_events
 

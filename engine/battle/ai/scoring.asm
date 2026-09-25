@@ -1477,6 +1477,9 @@ AI_Smart_Protect:
 	ld a, [wPlayerSubStatus1]
 	bit SUBSTATUS_CURSE, a
 	jr nz, .encourage
+	bit SUBSTATUS_SALT_CURE, a
+	jr nz, .encourage
+
 
 	ld a, [wPlayerRolloutCount]
 	cp 3

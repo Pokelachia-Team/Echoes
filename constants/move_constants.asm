@@ -195,7 +195,7 @@
 	const BELLY_DRUM    ; $bb
 	const SLUDGE_BOMB   ; $bc
 	const MUD_SLAP      ; $bd
-	const OCTAZOOKA     ; $be
+	const SALT_CURE     ; $be
 	const SPIKES        ; $bf
 	const ZAP_CANNON    ; $c0
 	const FORESIGHT     ; $c1
@@ -288,6 +288,7 @@ DEF NUM_ATTACKS EQU const_value - 1
 	const ANIM_STAT_UP            ; $10f
 	const ANIM_STAT_DOWN          ; $110
 	const ANIM_SHARPEN            ; $111
+	const ANIM_SALT_CURED        ; 
 
 	; These animations play no matter the battle animation settings
 	const ANIM_THROW_POKE_BALL    ; $112
