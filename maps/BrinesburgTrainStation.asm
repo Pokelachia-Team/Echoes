@@ -16,7 +16,7 @@ BrinesburgTrainStation_MapScriptHeader:
 
 	def_object_events
 	object_event  9,  9, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, BrinesburgTrainStationOfficerScript, -1
-	object_event 11, 14, SPRITE_SCIENTIST, SPRITEMOVEDATA_WANDER, 2, 2, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgTrainStationGentlemanText, EVENT_GOLDENROD_TRAIN_STATION_GENTLEMAN
+	object_event 11, 14, SPRITE_SCIENTIST, SPRITEMOVEDATA_WANDER, 2, 2, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgTrainStationGentlemanText, -1
 	object_event  6, 12, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgTrainStationCooltrainerText, -1
 
 	object_const_def
@@ -90,11 +90,15 @@ BrinesburgTrainStationOfficerScript:
 ; 	step_end
 
 BrinesburgTrainStationOfficerTheTrainHasntComeInText:
-	text "Needs dialogue"
-	done
+	text "The train isn't"
+	line "running right now."
 
-BrinesburgTrainStationCooltrainerText:
-	text "Needs dialogue"
+	para "Normally, you'd be"
+	line "able to ride to"
+
+	para "any town with a"
+	line "train station with"
+	cont "a rail pass."
 	done
 
 BrinesburgTrainStationOfficerAreYouComingAboardText:
@@ -127,14 +131,26 @@ BrinesburgTrainStationOfficerArrivedInGoldenrodText:
 	line "again."
 	done
 
+BrinesburgTrainStationCooltrainerText:
+	text "My friend in"
+	line "Olsteeton called."
+
+	para "I told her about"
+	line "the #mon bloc-"
+	cont "king the tracks!"
+
+	para "I hope she gets"
+	line "here soon."
+	done
+
 BrinesburgTrainStationGentlemanText:
-	text "Needs dialogue"
+	text "Well, this is just"
+	line "fantastic!"
+
+	para "I'm supposed to be"
+	line "at a big meeting"
+
+	para "up north in a"
+	line "couple days."
 	done
 
-BrinesburgTrainStationCooltrainerfText1:
-	text "Needs dialogue"
-	done
-
-BrinesburgTrainStationCooltrainerfText2:
-	text "Needs dialogue"
-	done

@@ -16,8 +16,10 @@ OlsteetonTrainStation_MapScriptHeader:
 
 	def_object_events
 	object_event  9,  9, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, OlsteetonTrainStationOfficerScript, -1
-	object_event 11, 14, SPRITE_GENTLEMAN, SPRITEMOVEDATA_WANDER, 2, 2, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonTrainStationGentlemanText, EVENT_GOLDENROD_TRAIN_STATION_GENTLEMAN
-	object_event  6, 12, SPRITE_LASS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonTrainStationCooltrainerText, -1
+	object_event  6, 12, SPRITE_LASS, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_ELUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonTrainStationLassText, -1
+	object_event  9, 14, SPRITE_LADY, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonTrainStationLadyText, -1
+	object_event  9, 14, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonTrainStationSchoolboyText, -1
+
 
 	object_const_def
 	const OlsteetonTRAINSTATION_OFFICER
@@ -90,11 +92,15 @@ OlsteetonTrainStationOfficerScript:
 ; 	step_end
 
 OlsteetonTrainStationOfficerTheTrainHasntComeInText:
-	text "Needs dialogue"
-	done
+	text "The train isn't"
+	line "running right now."
 
-OlsteetonTrainStationCooltrainerText:
-	text "Needs dialogue"
+	para "Normally, you'd be"
+	line "able to ride to"
+
+	para "any town with a"
+	line "train station with"
+	cont "a rail pass."
 	done
 
 OlsteetonTrainStationOfficerAreYouComingAboardText:
@@ -127,14 +133,44 @@ OlsteetonTrainStationOfficerArrivedInGoldenrodText:
 	line "again."
 	done
 
-OlsteetonTrainStationGentlemanText:
-	text "Needs dialogue"
+OlsteetonTrainStationLassText:
+	text "I called my friend"
+	line "in Brinesburg, and"
+
+	para "he said there was"
+	line "a #mon blocking"
+	cont "the tracks!"
 	done
 
-OlsteetonTrainStationCooltrainerfText1:
-	text "Needs dialogue"
+OlsteetonTrainStationLadyText:
+	text "My son is so"
+	line "worried that the"
+	cont "train won't come."
+
+	para "He loves trains"
+	line "so very much."
 	done
 
-OlsteetonTrainStationCooltrainerfText2:
-	text "Needs dialogue"
+OlsteetonTrainStationSchoolboyText:
+	text "Did you know that"
+	line "locomotives weigh"
+	cont "432,000 lbs??"
+	
+	para "That's the same as"
+	line "653 hippowdons!"
+
+	para "Ooh ooh, or did"
+	line "you know that"
+
+	para "the fastest train"
+	line "in the world"
+
+	para "connects the Johto"
+	line "and Kanto regions"
+
+	para "and it doesn't"
+	line "use a steam"
+	cont "engine!"
 	done
+
+
