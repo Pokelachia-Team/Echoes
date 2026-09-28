@@ -28,6 +28,7 @@ RiverfrontApt3FText:
 RiverfrontApt3FRoom1Text:
 	text "Apt. 301"
 	line "Betty"
+	cont "Tea lovers welcome"
 	done
 
 RiverfrontApt3FRoom2Text:

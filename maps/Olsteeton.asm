@@ -243,7 +243,7 @@ OlsteetonAsherScript2:
 	waitsfx
 	playmapmusic
 	setmapscene ROUTE_103, SCENE_ROUTE_103_ASHER_BATTLE
-	clearevent ROUTE_103_RIVAL_BATTLE
+	clearevent EVENT_ROUTE_103_RIVAL_BATTLE
 	setscene SCENE_OLSTEETON_NOOP
 	end
 

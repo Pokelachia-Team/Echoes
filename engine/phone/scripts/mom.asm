@@ -1,7 +1,7 @@
 MomPhoneScript:
 	checkevent EVENT_ROUTE_103_AUGUROTH_ENCOUNTER
 	iftruefwd .bcec5
-	checkevent ROUTE_103_RIVAL_BATTLE
+	checkevent EVENT_ROUTE_103_RIVAL_BATTLE
 	iftruefwd MomPhoneLectureScript
 	checkevent EVENT_GAVE_DOSSIER_TO_PAWPAW
 	iftruefwd MomPhoneNoGymQuestScript

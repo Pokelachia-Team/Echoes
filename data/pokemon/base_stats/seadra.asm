@@ -4,7 +4,7 @@
 	db WATER, WATER ; type
 	db 75 ; catch rate
 	db 155 ; base exp
-	db NO_ITEM, DRAGON_SCALE ; held items
+	db NO_ITEM, HERBAL_SALT ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
 	abilities_for SEADRA, POISON_POINT, SNIPER, DAMP

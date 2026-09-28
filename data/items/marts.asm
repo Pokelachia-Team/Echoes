@@ -44,7 +44,8 @@ Marts:
 	dw BattleFactoryMart1
 	dw BattleFactoryMart2
 	dw BattleFactoryMart3
-	dw MagiMart1
+	dw SaltShop
+	dw MagiMart
 	assert_table_length NUM_MARTS
 
 CherrygroveMart:
@@ -551,7 +552,15 @@ BattleFactoryMart3:
 	db MINT_LEAF,    32
 	db -1
 
-MagiMart1:
+SaltShop:
+	db 4 ; # items
+	db SMOKED_SALT
+	db HERBAL_SALT
+	db EXTRA_SALT
+	db MINT_LEAF
+	db -1
+
+MagiMart:
 	db 7 ; # items
 	db MAGI_BALL
 	db FRESH_WATER

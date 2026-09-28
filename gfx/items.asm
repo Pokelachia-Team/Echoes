@@ -576,8 +576,8 @@ PowerBandIcon:: INCBIN "gfx/items/power_band.2bpp.lzp"
 SECTION "PowerAnkletIcon", ROMX
 PowerAnkletIcon:: INCBIN "gfx/items/power_anklet.2bpp.lzp"
 
-SECTION "DragonScaleIcon", ROMX
-DragonScaleIcon:: INCBIN "gfx/items/dragon_scale.2bpp.lzp"
+SECTION "HerbalSaltIcon", ROMX
+HerbalSaltIcon:: INCBIN "gfx/items/herbal_salt.2bpp.lzp"
 
 SECTION "UpgradeIcon", ROMX
 UpgradeIcon:: INCBIN "gfx/items/upgrade.2bpp.lzp"
@@ -585,14 +585,14 @@ UpgradeIcon:: INCBIN "gfx/items/upgrade.2bpp.lzp"
 SECTION "DubiousDiscIcon", ROMX
 DubiousDiscIcon:: INCBIN "gfx/items/dubious_disc.2bpp.lzp"
 
-SECTION "ProtectorIcon", ROMX
-ProtectorIcon:: INCBIN "gfx/items/protector.2bpp.lzp"
+SECTION "ExtraSaltIcon", ROMX
+ExtraSaltIcon:: INCBIN "gfx/items/extra_salt.2bpp.lzp"
 
 SECTION "ElectirizerIcon", ROMX
 ElectirizerIcon:: INCBIN "gfx/items/electirizer.2bpp.lzp"
 
-SECTION "MagmarizerIcon", ROMX
-MagmarizerIcon:: INCBIN "gfx/items/magmarizer.2bpp.lzp"
+SECTION "SmokedSaltIcon", ROMX
+SmokedSaltIcon:: INCBIN "gfx/items/smoked_salt.2bpp.lzp"
 
 SECTION "RazorFangIcon", ROMX
 RazorFangIcon:: INCBIN "gfx/items/razor_fang.2bpp.lzp"

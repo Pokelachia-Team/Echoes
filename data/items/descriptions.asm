@@ -214,12 +214,12 @@ ItemDescriptions:
 	dw PowerLensDesc
 	dw PowerBandDesc
 	dw PowerAnkletDesc
-	dw DragonScaleDesc
+	dw HerbalSaltDesc
 	dw UpgradeDesc
 	dw DubiousDiscDesc
-	dw ProtectorDesc
+	dw ExtraSaltDesc
 	dw ElectirizerDesc
-	dw MagmarizerDesc
+	dw SmokedSaltDesc
 	dw RazorFangDesc
 	dw RazorClawDesc
 	dw OvalStoneDesc
@@ -1270,10 +1270,10 @@ WiseGlassesDesc:
 	next "moves. (Hold)"
 	done
 
-DragonScaleDesc:
-	text "A rare Dragon-type"
-	next "item."
-	done
+HerbalSaltDesc:
+  	text "A self-cure for"
+    next "paralysis. (Hold)"
+    done
 
 UpgradeDesc:
 	text "A mysterious box"
@@ -1285,21 +1285,21 @@ DubiousDiscDesc:
 	next "of unknown origin."
 	done
 
-ProtectorDesc:
-	text "A protective item."
-	next "Stiff and heavy."
-	done
+ExtraSaltDesc:
+    text "A self-awakening"
+    next "for sleep. (Hold)"
+    done
 
 ElectirizerDesc:
 	text "A box packed with"
 	next "electric energy."
 	done
 
-MagmarizerDesc:
-	text "A box packed with"
-	next "magma energy."
-	done
-
+SmokedSaltDesc:
+    text "A self-cure for"
+    next "freezing. (Hold)"
+    done
+	
 OvalStoneDesc:
 	text "A stone as round"
 	next "as a #mon Egg."

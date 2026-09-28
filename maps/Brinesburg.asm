@@ -52,9 +52,10 @@ Brinesburg_MapScriptHeader:
 
 	def_object_events
 	object_event 52, 21, SPRITE_ROCKET, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_FOUGHT_FIELD_LAB_MAGIGOON
-	object_event 41, 32, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_WANDER, 1, 1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgTeacherText, -1
+	object_event 40,  8, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_WANDER, 1, 1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgTeacherText, -1
 	object_event 40, 21, SPRITE_ROCKER, SPRITEMOVEDATA_WANDER, 1, 1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgSuperNerdText, -1
-	object_event 29, 11, SPRITE_SAILOR, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 3, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgSailorText, -1
+	object_event 28, 11, SPRITE_SAILOR, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 3, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgSailorText, -1
+	object_event 40, 32, SPRITE_HIKER, SPRITEMOVEDATA_STANDING_DOWN, 0, 3, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgTeaText, -1
 	object_event 31, 26, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 3, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgFisherText, -1
 	object_event 18, 34, SPRITE_COOL_DUDE, SPRITEMOVEDATA_STANDING_UP, 0, 3, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgCoolDudeText, -1
 	object_event 19, 34, SPRITE_POKEMANIAC, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 3, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgPokemaniacText, -1
@@ -64,6 +65,7 @@ Brinesburg_MapScriptHeader:
 	object_event 47,  1, SPRITE_ENGINEER, SPRITEMOVEDATA_STANDING_DOWN, 0, 3, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgConstructionText, -1
 	pokemon_event 45,  1, TIMBURR, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_BROWN, BrinesburgTimburrText, -1
 	pokemon_event 46,  1, GURDURR, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_BROWN, BrinesburgGurdurrText, -1
+	pokemon_event 41, 32, TIMBURR, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_BLACK, BrinesburgTeddiursaText, -1
 
 	; cuttree_event  5, 22, EVENT_BRINESBURG_CITY_CUT_TREE
 
@@ -99,7 +101,13 @@ Text_ArceusDammit:
 	done 
 
 BrinesburgTeacherText:
-	text "Needs dialogue"
+	text "Have you tried"
+	line "Sal's Artisinal"
+	cont "Salts yet?"
+
+	para "They're great with"
+	line "food, and #mon"
+	cont "like them too!"
 	done
 
 BrinesburgSuperNerdText:
@@ -117,8 +125,29 @@ BrinesburgSailorText:
 	line "good river air!"
 	done
 
+BrinesburgTeaText:
+	text "My Teddiursa used"
+    line "to be Lonely,"
+	cont "but the sweet old"
+
+	para "lady in the apart-"
+	line "ments in Olsteeon"
+
+	para "brewed us some"
+	line "tea with a Mint"
+
+	para "Leaf that made it"
+	line "act more Jolly!"
+	done
+
 BrinesburgFisherText:
-	text "Needs dialogue"
+	text "There's supposed"
+	line "to be a fishing"
+	cont "game at the"
+
+	para "MagiKorp museum."
+	line "If the line ever"
+	cont "dies down..."
 	done
 
 BrinesburgCoolDudeText:
@@ -147,11 +176,15 @@ BrinesburgConstructionText:
 	done
 
 BrinesburgTimburrText:
-	text "Timburrrr"
+	text "Timburr: Timburrr!"
 	done
 
 BrinesburgGurdurrText:
-	text "GURRR"
+	text "Gurdurr: GURRR"
+	done
+
+BrinesburgTeddiursaText:
+	text "Teddiursa: Teddi!"
 	done
 
 BrinesburgGymSignText:
