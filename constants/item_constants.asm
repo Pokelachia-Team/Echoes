@@ -277,12 +277,12 @@ DEF NUM_STONES EQU const_value - FIRST_STONE
 	const POWER_BAND   ; d4
 	const POWER_ANKLET ; d5
 
-	const DRAGON_SCALE ; d6
+	const HERBAL_SALT ; d6
 	const UPGRADE      ; d7
 	const DUBIOUS_DISC ; d8
-	const PROTECTOR    ; d9
+	const EXTRA_SALT    ; d9
 	const ELECTIRIZER  ; da
-	const MAGMARIZER   ; db
+	const SMOKED_SALT   ; db
 	const RAZOR_FANG   ; dc
 	const RAZOR_CLAW   ; dd
 	const OVAL_STONE   ; de
@@ -380,7 +380,7 @@ endc
 	const NAM_DIVE_BALL
 	const NAM_DOME_FOSSIL
 	const NAM_DRAGON_FANG
-	const NAM_DRAGON_SCALE
+	const NAM_HERBAL_SALT
 	const NAM_DREAM_BALL
 	const NAM_DUBIOUS_DISC
 	const NAM_DUSK_BALL
@@ -463,7 +463,7 @@ endc
 	const NAM_LUXURY_BALL
 	const NAM_MACHO_BRACE
 	const NAM_MAGI_BALL
-	const NAM_MAGMARIZER
+	const NAM_SMOKED_SALT
 	const NAM_MAGNET
 	const NAM_MARANGABERRY
 	const NAM_MASTER_BALL
@@ -520,7 +520,7 @@ endc
 	const NAM_PP_UP
 	const NAM_PREMIER_BALL
 	const NAM_PROTECT_PADS
-	const NAM_PROTECTOR
+	const NAM_EXTRA_SALT
 	const NAM_PROTEIN
 	const NAM_PUNCHINGLOVE
 	const NAM_QUALOT_BERRY

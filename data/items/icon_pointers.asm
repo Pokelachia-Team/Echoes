@@ -215,12 +215,12 @@ ItemIconPointers:
 	dba PowerLensIcon
 	dba PowerBandIcon
 	dba PowerAnkletIcon
-	dba DragonScaleIcon
+	dba HerbalSaltIcon
 	dba UpgradeIcon
 	dba DubiousDiscIcon
-	dba ProtectorIcon
+	dba ExtraSaltIcon
 	dba ElectirizerIcon
-	dba MagmarizerIcon
+	dba SmokedSaltIcon
 	dba RazorFangIcon
 	dba RazorClawIcon
 	dba OvalStoneIcon

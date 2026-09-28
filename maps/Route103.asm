@@ -25,7 +25,7 @@ Route103_MapScriptHeader:
 
 	def_object_events
 	object_event 23,  7, SPRITE_ACE_TRAINER_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_TRAINER, 2, TrainerCooltrainermFinch, -1
-	object_event 29, 25, SPRITE_ASHER, SPRITEMOVEDATA_STANDING_UP, 1, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, ObjectEvent, ROUTE_103_RIVAL_BATTLE
+	object_event 29, 25, SPRITE_ASHER, SPRITEMOVEDATA_STANDING_UP, 1, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_ROUTE_103_RIVAL_BATTLE
 	pokemon_event 23, 22, AUGUROTH, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_RED, ClearText, EVENT_ROUTE_103_AUGUROTH_ENCOUNTER
 	object_event 30, 32, SPRITE_ELDER, SPRITEMOVEDATA_STANDING_DOWN, 1, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, Route103ElderScript, -1
 	object_event 16, 28, SPRITE_YOUNGSTER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_TRAINER, 3, TrainerYoungsterJoey, -1
@@ -76,7 +76,7 @@ Route103AsherBattleScene:
 	closetext
 	special Special_FadeBlackQuickly
 	disappear ROUTE103_ASHER
-	setevent ROUTE_103_RIVAL_BATTLE
+	setevent EVENT_ROUTE_103_RIVAL_BATTLE
 	reloadmap
 	special Special_ReloadSpritesNoPalettes
 	; setflag ENGINE_RED_IN_MOUNT_SILVER
@@ -187,7 +187,7 @@ Route103ElderMovement:
 	step_end
 
 Route103ElderScript:
-	checkevent ROUTE_103_RIVAL_BATTLE
+	checkevent EVENT_ROUTE_103_RIVAL_BATTLE
 	iftrue_jumptextfaceplayer Text_RememberOmen
 	jumptextfaceplayer Text_CutTrees
 

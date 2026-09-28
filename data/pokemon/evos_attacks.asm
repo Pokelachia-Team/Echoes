@@ -2505,7 +2505,7 @@ endc
 	learnset 52, HYDRO_PUMP
 
 	evos_attacks Seadra
-	evo_data EVOLVE_TRADE, DRAGON_SCALE, KINGDRA
+	evo_data EVOLVE_TRADE, HERBAL_SALT, KINGDRA
 	learnset 1, WATER_GUN ; Bubble → similar move
 	learnset 5, SMOKESCREEN
 	learnset 9, LEER
@@ -2662,7 +2662,7 @@ endc
 	learnset 55, THUNDER
 
 	evos_attacks Magmar
-	evo_data EVOLVE_TRADE, MAGMARIZER, MAGMORTAR
+	evo_data EVOLVE_TRADE, SMOKED_SALT, MAGMORTAR
 	learnset 1, HAZE ; Smog → new move
 	learnset 1, LEER
 	learnset 5, EMBER

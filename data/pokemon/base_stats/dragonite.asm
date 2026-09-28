@@ -4,7 +4,7 @@
 	db DRAGON, FLYING ; type
 	db 45 ; catch rate
 	db 218 ; base exp
-	db NO_ITEM, DRAGON_SCALE ; held items
+	db NO_ITEM, HERBAL_SALT ; held items
 	dn GENDER_F50, HATCH_SLOWEST ; gender ratio, step cycles to hatch
 
 if DEF(FAITHFUL)
