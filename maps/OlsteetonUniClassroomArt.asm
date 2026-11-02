@@ -45,34 +45,76 @@ OlsteetonUniClassroomArtProfText:
 	done
 
 OlsteetonUniClassroomArtDragon_tamerText:
-	text "Needs dialogue"
+	text "I'm mostly in"
+	line "this class to"
+
+	para "learn how to draw"
+	line "Dragon #mon"
+
+	para "better for my"
+	line "online commissions"
+	cont "...they're NSFW"
 	done
 
 OlsteetonUniClassroomArtLadyText:
-	text "Needs dialogue"
+	text "What's your fav-"
+	line "orite period of"
+
+	para "art? Mine is def-"
+	line "initely Baroque!"
 	done
 
 OlsteetonUniClassroomArtArtist1Text:
-	text "Needs dialogue"
+	text "Everyone seems to"
+	line "Burgh's paintings,"
+
+	para "but I find them"
+	line "a bit bland..."
 	done
 
 OlsteetonUniClassroomArtArtist2Text:
-	text "Needs dialogue"
+	text "Burgh is a famous"
+	line "painter from Unova"
+
+	para "and he's also a"
+	line "gym leader!"
+
+	para "Sigh, I hope I can"
+	line "be as cool as him"
+	cont "one day..."
 	done
 
 OlsteetonUniClassroomArtArtist3Text:
-	text "Needs dialogue"
+	text "Viola's photo-"
+	line "graphy is what got"
+	cont "me into art."
+
+	para "Her piece titled"
+	line "'To be Evolved' is"
+	cont "truly inspiring!"
 	done
 
 OlsteetonUniClassroomArtBlackboardText:
-	text "Needs text"
+	text "There is writing" 
+	line "on the board"
+
+	para "'Create the art"
+	line "you need to see"
+	cont "in the world!'"
 	done
 
 OlsteetonUniClassroomArtBookshelf1Text:
-	text "Needs text"
+	text "There's a book"
+	line "titled 'Burgh's"
+	cont "Guide to Beauty'"
 	done
 OlsteetonUniClassroomArtBookshelf2Text:
-	text "Needs text"
+	text "There's a book"
+	line "titled 'Capturing"
+
+	para "#mon without"
+	line "using #balls.'"
+	cont "by Todd Snap"
 	done
 
 OlsteetonUniSmeargleText:
