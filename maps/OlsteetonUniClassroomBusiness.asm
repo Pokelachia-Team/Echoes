@@ -20,17 +20,39 @@ OlsteetonUniClassroomBusiness_MapScriptHeader:
 	object_event 10,  3, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, OlsteetonUniClassroomBusinessTeacherText, -1
 
 OlsteetonUniClassroomBusinessGentlemanText:
-	text "Needs dialogue"
+	text "They always say"
+	line "'buy on the dip!'"
+
+	para "but MagiKorp stock"
+	line "just keeps rising!"
 	done
 
 OlsteetonUniClassroomBusinessSailorText:
-	text "Needs dialogue"
+	text "I want to start a"
+	line "fishing business!"
+
+	para "Maybe I should"
+	line "start by getting"
+	cont "a boat..."
 	done
 
 OlsteetonUniClassroomBusinessTeacherText:
-	text "Needs dialogue"
+	text "Remember everyone,"
+	line "people are more"
+
+	para "important than"
+	line "profits!"
+
+	para "geez... you'd"
+	line "think that would"
+	cont "be obvious..."
 	done
 
 OlsteetonUniClassroomBusinessDirectoryText:
-	text "Needs text"
+	text "There's a news" 
+	line "article here:"
+	
+	para "Opinion: #mon"
+	line "Centers should be"
+	cont "privatized..."
 	done

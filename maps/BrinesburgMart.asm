@@ -17,9 +17,17 @@ BrinesburgMart_MapScriptHeader:
 	object_event  6,  6, SPRITE_TEACHER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, BrinesburgMartTeacherText, -1
 
 BrinesburgMartLassText:
-	text "Needs dialogue"
+	text "My #mon got hurt"
+	line "out in the field,"
+
+	para "so I'm stocking"
+	line "up on potions."
 	done
 
 BrinesburgMartTeacherText:
-	text "Needs dialogue"
+	text "I always tell my"
+	line "students... "
+
+	para "The key to success"
+	line "is preparedness!"
 	done
